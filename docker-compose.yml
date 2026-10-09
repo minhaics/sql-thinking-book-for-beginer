@@ -1,0 +1,30 @@
+# Start the practice database:   docker compose up -d
+# Connect:  host=localhost  port=5433  database=chonhata
+#           user=learner / password=learner   (read-only — use for exercises)
+#           user=sqlbook / password=sqlbook   (full access — Chapter 14 and the labs)
+# Reset everything:              docker compose down -v && docker compose up -d
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: chonhata-db
+    environment:
+      POSTGRES_DB: chonhata
+      POSTGRES_USER: sqlbook
+      POSTGRES_PASSWORD: sqlbook
+      LANG: C.UTF-8
+    ports:
+      - "5433:5432"          # 5433 so it does not clash with a PostgreSQL already on your machine
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d:ro
+      - pgdata:/var/lib/postgresql/data
+    command: >
+      postgres
+        -c shared_preload_libraries=pg_stat_statements
+        -c track_io_timing=on
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U sqlbook -d chonhata"]
+      interval: 3s
+      retries: 30
+
+volumes:
+  pgdata:

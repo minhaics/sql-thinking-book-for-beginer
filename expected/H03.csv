@@ -1,0 +1,43 @@
+employee_id,level,path
+1,1,Lê Minh Yến
+2,2,Lê Minh Yến > Phạm Phương Nga
+3,3,Lê Minh Yến > Phạm Phương Nga > Nguyễn Mai Diệp
+4,4,Lê Minh Yến > Phạm Phương Nga > Nguyễn Mai Diệp > Huỳnh Thu Phương
+5,4,Lê Minh Yến > Phạm Phương Nga > Nguyễn Mai Diệp > Dương Bảo Ngân
+6,4,Lê Minh Yến > Phạm Phương Nga > Nguyễn Mai Diệp > Nguyễn Bảo Linh
+7,4,Lê Minh Yến > Phạm Phương Nga > Nguyễn Mai Diệp > Trần Phương Quyên
+8,4,Lê Minh Yến > Phạm Phương Nga > Nguyễn Mai Diệp > Trần Văn Đạt
+9,3,Lê Minh Yến > Phạm Phương Nga > Dương Mai Linh
+10,4,Lê Minh Yến > Phạm Phương Nga > Dương Mai Linh > Võ Hoài Dung
+11,4,Lê Minh Yến > Phạm Phương Nga > Dương Mai Linh > Hoàng Quang Quân
+12,4,Lê Minh Yến > Phạm Phương Nga > Dương Mai Linh > Trần Hữu Phong
+13,4,Lê Minh Yến > Phạm Phương Nga > Dương Mai Linh > Hồ Thu Uyên
+14,4,Lê Minh Yến > Phạm Phương Nga > Dương Mai Linh > Nguyễn Tuấn Việt
+15,2,Lê Minh Yến > Nguyễn Gia Vinh
+16,3,Lê Minh Yến > Nguyễn Gia Vinh > Nguyễn Minh Vân
+17,4,Lê Minh Yến > Nguyễn Gia Vinh > Nguyễn Minh Vân > Lê Bảo Hạnh
+18,4,Lê Minh Yến > Nguyễn Gia Vinh > Nguyễn Minh Vân > Nguyễn Tuấn Việt
+19,4,Lê Minh Yến > Nguyễn Gia Vinh > Nguyễn Minh Vân > Nguyễn Quang Phong
+20,4,Lê Minh Yến > Nguyễn Gia Vinh > Nguyễn Minh Vân > Nguyễn Thị Quyên
+21,3,Lê Minh Yến > Nguyễn Gia Vinh > Phạm Minh Huy
+22,4,Lê Minh Yến > Nguyễn Gia Vinh > Phạm Minh Huy > Hồ Tuấn Cường
+23,4,Lê Minh Yến > Nguyễn Gia Vinh > Phạm Minh Huy > Nguyễn Đức Cường
+24,4,Lê Minh Yến > Nguyễn Gia Vinh > Phạm Minh Huy > Võ Tuấn Dũng
+25,4,Lê Minh Yến > Nguyễn Gia Vinh > Phạm Minh Huy > Huỳnh Minh Khang
+26,2,Lê Minh Yến > Nguyễn Tuấn Hùng
+27,3,Lê Minh Yến > Nguyễn Tuấn Hùng > Nguyễn Thanh Yến
+28,4,Lê Minh Yến > Nguyễn Tuấn Hùng > Nguyễn Thanh Yến > Đặng Thành Toàn
+29,4,Lê Minh Yến > Nguyễn Tuấn Hùng > Nguyễn Thanh Yến > Trần Quang Hiếu
+30,4,Lê Minh Yến > Nguyễn Tuấn Hùng > Nguyễn Thanh Yến > Vũ Khánh Uyên
+31,4,Lê Minh Yến > Nguyễn Tuấn Hùng > Nguyễn Thanh Yến > Huỳnh Anh Phúc
+32,4,Lê Minh Yến > Nguyễn Tuấn Hùng > Nguyễn Thanh Yến > Nguyễn Mai Nhung
+33,4,Lê Minh Yến > Nguyễn Tuấn Hùng > Nguyễn Thanh Yến > Trần Anh Long
+34,2,Lê Minh Yến > Nguyễn Quang Trung
+35,3,Lê Minh Yến > Nguyễn Quang Trung > Nguyễn Đức An
+36,4,Lê Minh Yến > Nguyễn Quang Trung > Nguyễn Đức An > Ngô Khánh Hà
+37,4,Lê Minh Yến > Nguyễn Quang Trung > Nguyễn Đức An > Hồ Hoài Linh
+38,4,Lê Minh Yến > Nguyễn Quang Trung > Nguyễn Đức An > Nguyễn Bảo Trang
+39,3,Lê Minh Yến > Nguyễn Quang Trung > Phan Thành An
+40,4,Lê Minh Yến > Nguyễn Quang Trung > Phan Thành An > Nguyễn Mai Quyên
+41,4,Lê Minh Yến > Nguyễn Quang Trung > Phan Thành An > Phạm Ngọc Thảo
+42,4,Lê Minh Yến > Nguyễn Quang Trung > Phan Thành An > Trần Quang An
