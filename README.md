@@ -22,7 +22,8 @@ companion/
 **You need:** [Docker Desktop](https://www.docker.com/products/docker-desktop/) and Python 3.9+ (preinstalled on most macOS/Linux machines; on Windows install it from python.org or use WSL 2).
 
 ```bash
-cd companion
+git clone https://github.com/minhaics/sql-thinking-book-for-beginer.git
+cd sql-thinking-book-for-beginer
 docker compose up -d          # first run: downloads PostgreSQL and loads ~100,000 rows (~30 seconds)
 ```
 
