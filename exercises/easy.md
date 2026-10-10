@@ -23,11 +23,11 @@ The provinces table has a region column.
 
 | name |
 |---|
-| Da Nang |
-| Dak Lak |
-| Gia Lai |
-| Ha Tinh |
-| Hue |
+| Arkansas |
+| Colorado |
+| Illinois |
+| Indiana |
+| Iowa |
 
 
 ---
@@ -75,11 +75,11 @@ Use a half-open range: >= '2025-12-01' AND < '2026-01-01'.
 
 | customer_id | full_name | signup_date |
 |---|---|---|
-| 1192 | Đỗ Bảo Hoa | 2025-12-01 |
-| 1477 | Hoàng Khánh Giang | 2025-12-01 |
-| 1588 | Võ Hữu Dũng | 2025-12-01 |
-| 1632 | Trần Minh Dũng | 2025-12-01 |
-| 2677 | Lê Minh Hà | 2025-12-01 |
+| 1192 | Jessica Lopez | 2025-12-01 |
+| 1477 | Elizabeth Jones | 2025-12-01 |
+| 1588 | Michael Rodriguez | 2025-12-01 |
+| 1632 | Michael Johnson | 2025-12-01 |
+| 2677 | Barbara Williams | 2025-12-01 |
 
 
 ---
@@ -210,11 +210,11 @@ Sort by salary descending, then full_name.
 
 | full_name | salary |
 |---|---|
-| Nguyễn Tuấn Hùng | 66500000 |
-| Nguyễn Thanh Yến | 33000000 |
-| Đặng Thành Toàn | 18000000 |
-| Huỳnh Anh Phúc | 16700000 |
-| Trần Anh Long | 16100000 |
+| Richard Smith | 66500000 |
+| Deborah Smith | 33000000 |
+| Andrew Martinez | 18000000 |
+| Anthony Garcia | 16700000 |
+| Christopher Johnson | 16100000 |
 
 
 ---
@@ -252,11 +252,11 @@ Both tables have a column called name — give each one an alias.
 
 | product_id | product_name | category_name |
 |---|---|---|
-| 1 | Kira Office Dress 24 | Dresses |
-| 2 | Phuong Hoang Stainless Pot Set 56 | Cookware |
-| 3 | Mekong Running Shoes 99 | Sneakers |
+| 1 | Velocity Office Dress 24 | Dresses |
+| 2 | Lumina Stainless Pot Set 56 | Cookware |
+| 3 | Aura Running Shoes 99 | Sneakers |
 | 4 | Men's T-Shirt 28 | Men's Shirts |
-| 5 | Lotus Non-Stick Pan 82 | Cookware |
+| 5 | Apex Non-Stick Pan 82 | Cookware |
 
 
 ---
@@ -353,11 +353,11 @@ Sort by shop_name.
 
 | shop_name | province_name |
 |---|---|
-| Beauty Market | Hanoi |
-| Digital Depot | Ho Chi Minh City |
-| Digital Shop | Thanh Hoa |
-| Green Market | Lam Dong |
-| Handy Mart | Dong Nai |
+| Apex Corner | North Carolina |
+| Beauty Market | New York |
+| Digital Depot | Texas |
+| Digital Shop | Indiana |
+| Goods Corner | Georgia |
 
 
 ---
@@ -379,11 +379,11 @@ A string without uppercase letters is equal to its own LOWER().
 
 | customer_id | email |
 |---|---|
-| 57 | Phuc.nguyen57@gmail.com |
-| 66 | Anh.dang66@gmail.com |
-| 87 | Thang.pham87@yahoo.com |
-| 117 | Phong.nguyen117@gmail.com |
-| 150 | Phong.le150@gmail.com |
+| 57 | Anthony.smith57@gmail.com |
+| 66 | Mary.martinez66@gmail.com |
+| 87 | Paul.brown87@yahoo.com |
+| 117 | Matthew.smith117@gmail.com |
+| 150 | Matthew.williams150@gmail.com |
 
 
 ---
@@ -399,11 +399,11 @@ Return province_name and customer_count; sort by customer_count descending, then
 
 | province_name | customer_count |
 |---|---|
-| Ho Chi Minh City | 602 |
-| Hanoi | 550 |
-| Da Nang | 145 |
-| Dong Nai | 123 |
-| Hai Phong | 120 |
+| Texas | 602 |
+| New York | 550 |
+| Illinois | 145 |
+| Georgia | 123 |
+| Pennsylvania | 120 |
 
 
 ---

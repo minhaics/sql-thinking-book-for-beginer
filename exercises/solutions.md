@@ -391,16 +391,16 @@ WHERE EXISTS (SELECT 1 FROM orders o WHERE o.customer_id = c.customer_id AND o.c
 ```
 
 
-## M14 · In stock in Hanoi, not in HCMC (Medium)
+## M14 · In stock in New York, not in Dallas (Medium)
 
 ```sql
 SELECT COUNT(*) AS variant_count
 FROM (
     SELECT i.variant_id FROM inventory i JOIN warehouses w USING (warehouse_id)
-    WHERE w.name = 'Hanoi Warehouse' AND i.quantity > 0
+    WHERE w.name = 'New York Warehouse' AND i.quantity > 0
     EXCEPT
     SELECT i.variant_id FROM inventory i JOIN warehouses w USING (warehouse_id)
-    WHERE w.name = 'HCMC Warehouse' AND i.quantity > 0
+    WHERE w.name = 'Dallas Warehouse' AND i.quantity > 0
 ) t;
 ```
 

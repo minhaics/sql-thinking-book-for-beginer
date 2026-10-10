@@ -65,11 +65,11 @@ order_items). Sort by product_id.
 
 | product_id | name |
 |---|---|
-| 27 | NovaTech Office Dress 22 |
+| 27 | Meridian Office Dress 22 |
 | 42 | Face Wash 12 |
-| 58 | Hai Au Men's T-Shirt 94 |
-| 70 | Truong Son Party Dress 12 |
-| 117 | Hai Au Running Shoes 45 |
+| 58 | Horizon Men's T-Shirt 94 |
+| 70 | Pioneer Party Dress 12 |
+| 117 | Horizon Running Shoes 45 |
 
 
 ---
@@ -93,9 +93,9 @@ WHERE filters rows BEFORE grouping; HAVING filters groups AFTER grouping.
 |---|---|
 | Beauty Corner | 16 |
 | Tech Market | 14 |
+| Apex House | 12 |
+| Apex World | 12 |
 | Digital Shop | 12 |
-| Sunlight House | 12 |
-| Sunlight World | 12 |
 
 
 ---
@@ -117,11 +117,11 @@ Treat employees as TWO different tables: one playing "employee", one playing "ma
 
 | employee_id | full_name | manager |
 |---|---|---|
-| 1 | Lê Minh Yến | None |
-| 2 | Phạm Phương Nga | Lê Minh Yến |
-| 3 | Nguyễn Mai Diệp | Phạm Phương Nga |
-| 4 | Huỳnh Thu Phương | Nguyễn Mai Diệp |
-| 5 | Dương Bảo Ngân | Nguyễn Mai Diệp |
+| 1 | Deborah Williams | None |
+| 2 | Margaret Brown | Deborah Williams |
+| 3 | Jennifer Smith | Margaret Brown |
+| 4 | Emily Garcia | Jennifer Smith |
+| 5 | Sandra Taylor | Jennifer Smith |
 
 
 ---
@@ -277,10 +277,10 @@ EXTRACT(EPOCH FROM an_interval) returns the number of seconds.
 
 | carrier_name | shipment_count | avg_days |
 |---|---|---|
-| PostTrust | 3573 | 2.45 |
-| Camel Logistics | 1752 | 2.45 |
+| Apex Logistics | 3573 | 2.45 |
+| Metro Express | 1752 | 2.45 |
 | SwiftShip | 7052 | 2.46 |
-| Swallow Express | 5485 | 2.46 |
+| FedRelay | 5485 | 2.46 |
 
 
 ---
@@ -301,12 +301,12 @@ an order with status 'returned'. (The two conditions may be met by different ord
 
 ---
 
-## M14 · In stock in Hanoi, not in HCMC
+## M14 · In stock in New York, not in Dallas
 
 **Level:** Medium · **Chapter:** 9 · **Topics:** EXCEPT
 
-Count the variants that are in stock (quantity > 0) at 'Hanoi Warehouse' but NOT in stock at  
-'HCMC Warehouse' (including variants HCMC does not carry at all).
+Count the variants that are in stock (quantity > 0) at 'New York Warehouse' but NOT in stock at  
+'Dallas Warehouse' (including variants Dallas does not carry at all).
 
 **Expected result** (1 rows):
 
@@ -334,11 +334,11 @@ If you JOIN orders directly, a customer with many orders appears many times.
 
 | customer_id | full_name | birth_date |
 |---|---|---|
-| 8 | Nguyễn Quang Việt | 1998-09-03 |
-| 35 | Trần Phương Dung | 1971-09-06 |
-| 49 | Nguyễn Thị Thảo | 2006-09-24 |
-| 146 | Đỗ Hữu Dũng | 1969-09-05 |
-| 153 | Nguyễn Văn Hùng | 1996-09-18 |
+| 8 | Brian Smith | 1998-09-03 |
+| 35 | Linda Johnson | 1971-09-06 |
+| 49 | Michelle Smith | 2006-09-24 |
+| 146 | Michael Lopez | 1969-09-05 |
+| 153 | Richard Smith | 1996-09-18 |
 
 
 ---
@@ -382,7 +382,7 @@ An order with 3 line items from the same shop is counted 3 times by COUNT(*).
 |---|---|---|
 | Digital Depot | 1597 | 1982 |
 | Beauty Corner | 1534 | 1925 |
-| Peaceful Mart | 1038 | 1290 |
+| Nova Mart | 1038 | 1290 |
 | Digital House | 811 | 1005 |
 | Thoi Trang Store | 764 | 960 |
 
@@ -407,8 +407,8 @@ AVG(quantity * unit_price) averages LINE ITEMS, not ORDERS. Aggregate per order 
 
 | customer_id | full_name | order_count | avg_order_value |
 |---|---|---|---|
-| 787 | Nguyễn Văn Phong | 50 | 15491160 |
-| 365 | Lê Thanh Quyên | 33 | 13688364 |
-| 1952 | Đặng Thanh Lan | 42 | 13504429 |
-| 773 | Vũ Thanh Nhung | 52 | 13112923 |
-| 1156 | Dương Anh Khang | 41 | 12185024 |
+| 787 | Matthew Smith | 50 | 15491160 |
+| 365 | Donna Williams | 33 | 13688364 |
+| 1952 | Karen Martinez | 42 | 13504429 |
+| 773 | Ashley Davis | 52 | 13112923 |
+| 1156 | Thomas Taylor | 41 | 12185024 |

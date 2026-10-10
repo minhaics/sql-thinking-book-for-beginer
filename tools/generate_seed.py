@@ -44,7 +44,20 @@ GIVEN_F = ["Anh", "Chi", "Diệp", "Dung", "Giang", "Hà", "Hạnh", "Hoa", "Hư
            "My", "Nga", "Ngân", "Nhung", "Oanh", "Phương", "Quyên", "Thảo", "Trang", "Uyên", "Vân", "Yến"]
 STREETS = ["Lê Lợi", "Trần Hưng Đạo", "Nguyễn Huệ", "Hai Bà Trưng", "Lý Thường Kiệt", "Quang Trung",
            "Hùng Vương", "Điện Biên Phủ", "Phan Chu Trinh", "Nguyễn Trãi", "Bạch Đằng", "Võ Thị Sáu"]
-EMAIL_DOMAINS = ["gmail.com", "gmail.com", "gmail.com", "yahoo.com", "outlook.com", "mail.vn"]
+
+# US / International constants (for LANG == 'en')
+SURNAMES_EN = [("Smith", 30), ("Johnson", 11), ("Williams", 9), ("Brown", 7), ("Jones", 5),
+               ("Garcia", 4), ("Miller", 4), ("Davis", 4), ("Rodriguez", 4), ("Martinez", 3),
+               ("Hernandez", 3), ("Lopez", 3), ("Wilson", 2), ("Anderson", 2), ("Taylor", 2), ("Thomas", 1)]
+FIRST_M_EN = ["James", "John", "Robert", "Michael", "William", "David", "Richard", "Joseph",
+              "Thomas", "Charles", "Christopher", "Daniel", "Matthew", "Anthony", "Mark", "Donald",
+              "Steven", "Paul", "Andrew", "Joshua", "Kevin", "Brian", "George", "Edward"]
+FIRST_F_EN = ["Mary", "Patricia", "Jennifer", "Linda", "Elizabeth", "Barbara", "Susan", "Jessica",
+              "Sarah", "Karen", "Lisa", "Nancy", "Betty", "Margaret", "Sandra", "Ashley",
+              "Kimberly", "Emily", "Donna", "Michelle", "Carol", "Amanda", "Melissa", "Deborah"]
+STREETS_EN = ["Main St", "Broadway", "Park Ave", "Oak St", "Maple Ave", "Washington St",
+              "Lakeview Dr", "Sunset Blvd", "Lincoln Way", "Highland Ave", "Elm St", "Cedar Rd"]
+EMAIL_DOMAINS = ["gmail.com", "gmail.com", "gmail.com", "yahoo.com", "outlook.com", "mail.com"]
 
 # Cây danh mục: (tên cấp 1, [(tên cấp 2, [(lá, khoảng giá, mẫu tên sản phẩm)])])
 CATEGORY_TREE = [
@@ -126,8 +139,19 @@ LANG = "en"
 EN = {
     # regions
     "Bắc": "North", "Trung": "Central", "Nam": "South",
-    # well-known province names
-    "Hà Nội": "Hanoi", "TP. Hồ Chí Minh": "Ho Chi Minh City", "Đà Nẵng": "Da Nang", "Huế": "Hue",
+    # 34 US State names mapping directly from the 34 provinces
+    # 15 North states
+    "Hà Nội": "New York", "Hải Phòng": "Pennsylvania", "Tuyên Quang": "Connecticut", "Cao Bằng": "Maine",
+    "Lai Châu": "New Hampshire", "Lào Cai": "Rhode Island", "Thái Nguyên": "Vermont", "Điện Biên": "Delaware",
+    "Lạng Sơn": "West Virginia", "Sơn La": "Maryland", "Phú Thọ": "Massachusetts", "Bắc Ninh": "New Jersey",
+    "Quảng Ninh": "Ohio", "Hưng Yên": "Michigan", "Ninh Bình": "Wisconsin",
+    # 11 Central states
+    "Huế": "Colorado", "Đà Nẵng": "Illinois", "Thanh Hóa": "Indiana", "Nghệ An": "Missouri",
+    "Hà Tĩnh": "Iowa", "Quảng Trị": "Kansas", "Quảng Ngãi": "Nebraska", "Gia Lai": "Oklahoma",
+    "Khánh Hòa": "Minnesota", "Lâm Đồng": "Utah", "Đắk Lắk": "Arkansas",
+    # 8 South states
+    "TP. Hồ Chí Minh": "Texas", "Cần Thơ": "Florida", "Đồng Nai": "Georgia", "Tây Ninh": "North Carolina",
+    "Vĩnh Long": "Virginia", "Đồng Tháp": "Tennessee", "Cà Mau": "Alabama", "An Giang": "Louisiana",
     # departments
     "Ban giám đốc": "Executive", "Kinh doanh": "Sales", "Vận hành": "Operations",
     "CSKH": "Customer Service", "Kỹ thuật": "Engineering",
@@ -163,14 +187,19 @@ EN = {
     "Mặc định": "Default", "Đen": "Black", "Trắng": "White", "Bản tiêu chuẩn": "Standard", "Bản cao cấp": "Premium",
     # shop name parts (EN order: WORD PREFIX)
     "Nhà": "House", "Tiệm": "Shop", "Góc": "Corner", "Kho": "Depot", "Thế Giới": "World", "Chợ": "Market",
-    "Siêu Thị": "Mart", "Cửa Hàng": "Store", "Công Nghệ": "Tech", "Gia Dụng": "Home", "Sách Hay": "Good Books",
-    "Làm Đẹp": "Beauty", "Đồ Xinh": "Pretty Things", "Tiện Ích": "Handy", "Số": "Digital", "Phong Cách": "Style",
-    "Xanh": "Green", "Việt": "Viet", "Hạnh Phúc": "Happy", "Mặt Trời": "Sunshine", "Bình An": "Peaceful",
-    "Ánh Dương": "Sunlight",
+    "Siêu Thị": "Mart", "Cửa Hàng": "Store", "Công Nghệ": "Tech", "Gia Dụng": "Home", "Sách Hay": "Books",
+    "Làm Đẹp": "Beauty", "Đồ Xinh": "Goods", "Tiện Ích": "Smart", "Số": "Digital", "Phong Cách": "Style",
+    "Xanh": "Green", "Việt": "Prime", "Hạnh Phúc": "Happy", "Mặt Trời": "Sun", "Bình An": "Nova",
+    "Ánh Dương": "Apex",
     # warehouses & carriers
-    "Kho Hà Nội": "Hanoi Warehouse", "Kho Đà Nẵng": "Da Nang Warehouse", "Kho TP.HCM": "HCMC Warehouse",
-    "Giao Siêu Tốc": "SwiftShip", "Chim Én Express": "Swallow Express", "Bưu Tín": "PostTrust",
-    "Lạc Đà Logistics": "Camel Logistics",
+    "Kho Hà Nội": "New York Warehouse", "Kho Đà Nẵng": "Chicago Warehouse", "Kho TP.HCM": "Dallas Warehouse",
+    "Giao Siêu Tốc": "SwiftShip", "Chim Én Express": "FedRelay", "Bưu Tín": "Apex Logistics",
+    "Lạc Đà Logistics": "Metro Express",
+    # brands
+    "Sao Mai": "NovaTech", "Lotus": "Apex", "Hải Âu": "Horizon", "Việt Tiến Xa": "Summit",
+    "An Phát": "Pulse", "Mekong": "Aura", "Trường Sơn": "Pioneer", "Hoa Sen": "Vanguard",
+    "NovaTech": "Meridian", "Zenit": "Titan", "Kira": "Velocity", "Orca": "Crest",
+    "Phượng Hoàng": "Lumina", "Bách Việt": "Solis", "Luna": "Nexus", "Tre Xanh": "Echo",
     # review comments
     "Hàng đẹp, đúng mô tả": "Looks great, exactly as described", "Giao nhanh, đóng gói cẩn thận": "Fast delivery, well packed",
     "Rất hài lòng": "Very satisfied", "Chất lượng tốt so với giá": "Great value for money",
@@ -304,6 +333,12 @@ def generate(scale: int, seed: int, out):
     tables.append(t)
 
     def person_name():
+        if LANG == "en":
+            sur = rng.choices([s for s, _ in SURNAMES_EN], weights=[w for _, w in SURNAMES_EN])[0]
+            g = rng.choice("MF")
+            _ = rng.choice(MIDDLE_M if g == "M" else MIDDLE_F)
+            given = rng.choice(FIRST_M_EN if g == "M" else FIRST_F_EN)
+            return g, f"{given} {sur}"
         sur = rng.choices([s for s, _ in SURNAMES], weights=[w for _, w in SURNAMES])[0]
         g = rng.choice("MF")
         if g == "M":
@@ -346,7 +381,10 @@ def generate(scale: int, seed: int, out):
     for cid in range(1, n_customers + 1):
         g, nm = person_name()
         parts = nm.split()
-        local = f"{ascii_slug(parts[-1])}.{ascii_slug(parts[0])}{cid}"
+        if LANG == "en":
+            local = f"{ascii_slug(parts[0])}.{ascii_slug(parts[-1])}{cid}"
+        else:
+            local = f"{ascii_slug(parts[-1])}.{ascii_slug(parts[0])}{cid}"
         if rng.random() < 0.03:
             local = local.capitalize()                           # vài email viết hoa — bài tập LOWER()
         email = f"{local}@{rng.choice(EMAIL_DOMAINS)}"
@@ -364,9 +402,8 @@ def generate(scale: int, seed: int, out):
         for k in range(rng.choices([1, 2, 3], weights=[75, 20, 5])[0]):
             addr_id += 1
             p = home if k == 0 else rng.choices(prov_ids, weights=prov_w)[0]
-            street = f"{rng.randint(1, 399)} {rng.choice(STREETS)}"
-            if LANG != "vi":
-                street = strip_accents(street) + " Street"
+            pool = STREETS_EN if LANG == "en" else STREETS
+            street = f"{rng.randint(1, 399)} {rng.choice(pool)}"
             ta.add(addr_id, cid, p, street, k == 0)
             addr_prov[addr_id] = p
             my_addrs.append(addr_id)

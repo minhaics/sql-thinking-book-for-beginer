@@ -1,5 +1,5 @@
 -- =====================================================================
---  CHO NHA TA — practice database for "SQL Thinking for Beginners"
+--  METROMART — practice database for "SQL Thinking for Beginners"
 --  Engine: PostgreSQL 16+
 --  Normalized to 3NF (derived values such as an order's total are NOT stored)
 --
@@ -23,7 +23,7 @@ CREATE TABLE provinces (
     name          VARCHAR(50)  NOT NULL UNIQUE,
     region        VARCHAR(10)  NOT NULL                              -- North / Central / South
 );
-COMMENT ON TABLE provinces IS 'Provinces and cities of Vietnam. Reference data, rarely changes.';
+COMMENT ON TABLE provinces IS 'States and territories. Reference data, rarely changes.';
 
 CREATE TABLE employees (
     employee_id   INTEGER      PRIMARY KEY,
@@ -31,7 +31,7 @@ CREATE TABLE employees (
     department    VARCHAR(30)  NOT NULL,
     manager_id    INTEGER      REFERENCES employees(employee_id),   -- self-reference: org chart
     hire_date     DATE         NOT NULL,
-    salary        NUMERIC(12,0) NOT NULL CHECK (salary > 0)          -- VND per month
+    salary        NUMERIC(12,0) NOT NULL CHECK (salary > 0)          -- base salary per month
 );
 COMMENT ON COLUMN employees.manager_id IS 'NULL = head of the company. Used for self-joins and recursive CTEs.';
 

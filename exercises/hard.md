@@ -24,11 +24,11 @@ MAX() cannot bring along "the name that goes with it". Rank inside each group: R
 
 | category_name | product_name | units |
 |---|---|---|
-| Smartphones | Luna Phone 32 | 484 |
-| Tablets | Sao Mai Tab 94 | 250 |
-| Laptops | Lotus Laptop 97 | 475 |
-| Keyboards & Mice | Viet Tien Xa Mechanical Keyboard K18 | 156 |
-| Headphones | An Phat Bluetooth Headphones 87 | 196 |
+| Smartphones | Nexus Phone 32 | 484 |
+| Tablets | NovaTech Tab 94 | 250 |
+| Laptops | Apex Laptop 97 | 475 |
+| Keyboards & Mice | Summit Mechanical Keyboard K18 | 156 |
+| Headphones | Pulse Bluetooth Headphones 87 | 196 |
 
 
 ---
@@ -71,11 +71,11 @@ and path: the names from the head of the company down to the employee, joined wi
 
 | employee_id | level | path |
 |---|---|---|
-| 1 | 1 | Lê Minh Yến |
-| 2 | 2 | Lê Minh Yến > Phạm Phương Nga |
-| 3 | 3 | Lê Minh Yến > Phạm Phương Nga > Nguyễn Mai Diệp |
-| 4 | 4 | Lê Minh Yến > Phạm Phương Nga > Nguyễn Mai Diệp > Huỳnh Thu Phương |
-| 5 | 4 | Lê Minh Yến > Phạm Phương Nga > Nguyễn Mai Diệp > Dương Bảo Ngân |
+| 1 | 1 | Deborah Williams |
+| 2 | 2 | Deborah Williams > Margaret Brown |
+| 3 | 3 | Deborah Williams > Margaret Brown > Jennifer Smith |
+| 4 | 4 | Deborah Williams > Margaret Brown > Jennifer Smith > Emily Garcia |
+| 5 | 4 | Deborah Williams > Margaret Brown > Jennifer Smith > Sandra Taylor |
 
 
 ---

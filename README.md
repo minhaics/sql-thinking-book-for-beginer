@@ -1,6 +1,6 @@
 # Companion resources for *SQL Thinking for Beginners*
 
-Everything you need to practise: the **Cho Nha Ta** database (PostgreSQL 16), **50 auto-graded exercises**, reference solutions, and **7 labs** that explore how the database works inside.
+Everything you need to practise: the **MetroMart** database (PostgreSQL 16), **50 auto-graded exercises**, reference solutions, and **7 labs** that explore how the database works inside.
 
 ```
 companion/

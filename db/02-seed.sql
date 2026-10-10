@@ -4,7045 +4,7045 @@ SET client_encoding = 'UTF8';
 BEGIN;
 
 COPY shop.provinces (province_id, name, region) FROM stdin;
-1	Hanoi	North
-2	Hai Phong	North
-3	Tuyen Quang	North
-4	Cao Bang	North
-5	Lai Chau	North
-6	Lao Cai	North
-7	Thai Nguyen	North
-8	Dien Bien	North
-9	Lang Son	North
-10	Son La	North
-11	Phu Tho	North
-12	Bac Ninh	North
-13	Quang Ninh	North
-14	Hung Yen	North
-15	Ninh Binh	North
-16	Hue	Central
-17	Da Nang	Central
-18	Thanh Hoa	Central
-19	Nghe An	Central
-20	Ha Tinh	Central
-21	Quang Tri	Central
-22	Quang Ngai	Central
-23	Gia Lai	Central
-24	Khanh Hoa	Central
-25	Lam Dong	Central
-26	Dak Lak	Central
-27	Ho Chi Minh City	South
-28	Can Tho	South
-29	Dong Nai	South
-30	Tay Ninh	South
-31	Vinh Long	South
-32	Dong Thap	South
-33	Ca Mau	South
-34	An Giang	South
+1	New York	North
+2	Pennsylvania	North
+3	Connecticut	North
+4	Maine	North
+5	New Hampshire	North
+6	Rhode Island	North
+7	Vermont	North
+8	Delaware	North
+9	West Virginia	North
+10	Maryland	North
+11	Massachusetts	North
+12	New Jersey	North
+13	Ohio	North
+14	Michigan	North
+15	Wisconsin	North
+16	Colorado	Central
+17	Illinois	Central
+18	Indiana	Central
+19	Missouri	Central
+20	Iowa	Central
+21	Kansas	Central
+22	Nebraska	Central
+23	Oklahoma	Central
+24	Minnesota	Central
+25	Utah	Central
+26	Arkansas	Central
+27	Texas	South
+28	Florida	South
+29	Georgia	South
+30	North Carolina	South
+31	Virginia	South
+32	Tennessee	South
+33	Alabama	South
+34	Louisiana	South
 \.
 
 COPY shop.employees (employee_id, full_name, department, manager_id, hire_date, salary) FROM stdin;
-1	Lê Minh Yến	Executive	\N	2019-09-29	121700000.0
-2	Phạm Phương Nga	Sales	1	2020-03-22	63700000.0
-3	Nguyễn Mai Diệp	Sales	2	2020-02-27	36600000.0
-4	Huỳnh Thu Phương	Sales	3	2021-04-23	14000000.0
-5	Dương Bảo Ngân	Sales	3	2023-03-03	13500000.0
-6	Nguyễn Bảo Linh	Sales	3	2020-02-16	14800000.0
-7	Trần Phương Quyên	Sales	3	2023-11-13	14000000.0
-8	Trần Văn Đạt	Sales	3	2019-02-09	14100000.0
-9	Dương Mai Linh	Sales	2	2022-03-13	37100000.0
-10	Võ Hoài Dung	Sales	9	2022-08-29	14700000.0
-11	Hoàng Quang Quân	Sales	9	2020-02-20	14900000.0
-12	Trần Hữu Phong	Sales	9	2020-11-18	16500000.0
-13	Hồ Thu Uyên	Sales	9	2023-10-30	16900000.0
-14	Nguyễn Tuấn Việt	Sales	9	2023-09-24	13100000.0
-15	Nguyễn Gia Vinh	Operations	1	2020-04-13	56700000.0
-16	Nguyễn Minh Vân	Operations	15	2020-06-23	33100000.0
-17	Lê Bảo Hạnh	Operations	16	2020-09-09	17800000.0
-18	Nguyễn Tuấn Việt	Operations	16	2021-12-15	17100000.0
-19	Nguyễn Quang Phong	Operations	16	2023-10-08	13800000.0
-20	Nguyễn Thị Quyên	Operations	16	2022-10-20	18200000.0
-21	Phạm Minh Huy	Operations	15	2019-09-14	27900000.0
-22	Hồ Tuấn Cường	Operations	21	2019-12-22	18400000.0
-23	Nguyễn Đức Cường	Operations	21	2019-08-02	13500000.0
-24	Võ Tuấn Dũng	Operations	21	2022-01-19	16100000.0
-25	Huỳnh Minh Khang	Operations	21	2019-05-06	12900000.0
-26	Nguyễn Tuấn Hùng	Customer Service	1	2021-08-02	66500000.0
-27	Nguyễn Thanh Yến	Customer Service	26	2021-06-18	33000000.0
-28	Đặng Thành Toàn	Customer Service	27	2023-11-04	18000000.0
-29	Trần Quang Hiếu	Customer Service	27	2020-02-08	14600000.0
-30	Vũ Khánh Uyên	Customer Service	27	2020-11-17	12800000.0
-31	Huỳnh Anh Phúc	Customer Service	27	2019-03-18	16700000.0
-32	Nguyễn Mai Nhung	Customer Service	27	2019-04-13	16000000.0
-33	Trần Anh Long	Customer Service	27	2023-12-04	16100000.0
-34	Nguyễn Quang Trung	Engineering	1	2021-06-01	74300000.0
-35	Nguyễn Đức An	Engineering	34	2020-09-21	38200000.0
-36	Ngô Khánh Hà	Engineering	35	2021-08-12	14900000.0
-37	Hồ Hoài Linh	Engineering	35	2023-04-27	13700000.0
-38	Nguyễn Bảo Trang	Engineering	35	2021-10-31	18500000.0
-39	Phan Thành An	Engineering	34	2020-07-13	37600000.0
-40	Nguyễn Mai Quyên	Engineering	39	2022-03-12	13600000.0
-41	Phạm Ngọc Thảo	Engineering	39	2020-06-28	17000000.0
-42	Trần Quang An	Engineering	39	2020-02-12	15800000.0
+1	Deborah Williams	Executive	\N	2019-09-29	121700000.0
+2	Margaret Brown	Sales	1	2020-03-22	63700000.0
+3	Jennifer Smith	Sales	2	2020-02-27	36600000.0
+4	Emily Garcia	Sales	3	2021-04-23	14000000.0
+5	Sandra Taylor	Sales	3	2023-03-03	13500000.0
+6	Lisa Smith	Sales	3	2020-02-16	14800000.0
+7	Donna Johnson	Sales	3	2023-11-13	14000000.0
+8	Edward Johnson	Sales	3	2019-02-09	14100000.0
+9	Lisa Taylor	Sales	2	2022-03-13	37100000.0
+10	Linda Rodriguez	Sales	9	2022-08-29	14700000.0
+11	Mark Jones	Sales	9	2020-02-20	14900000.0
+12	Matthew Johnson	Sales	9	2020-11-18	16500000.0
+13	Amanda Wilson	Sales	9	2023-10-30	16900000.0
+14	Brian Smith	Sales	9	2023-09-24	13100000.0
+15	George Smith	Operations	1	2020-04-13	56700000.0
+16	Melissa Smith	Operations	15	2020-06-23	33100000.0
+17	Susan Williams	Operations	16	2020-09-09	17800000.0
+18	Brian Smith	Operations	16	2021-12-15	17100000.0
+19	Matthew Smith	Operations	16	2023-10-08	13800000.0
+20	Donna Smith	Operations	16	2022-10-20	18200000.0
+21	Joseph Brown	Operations	15	2019-09-14	27900000.0
+22	Robert Wilson	Operations	21	2019-12-22	18400000.0
+23	Robert Smith	Operations	21	2019-08-02	13500000.0
+24	Michael Rodriguez	Operations	21	2022-01-19	16100000.0
+25	Thomas Garcia	Operations	21	2019-05-06	12900000.0
+26	Richard Smith	Customer Service	1	2021-08-02	66500000.0
+27	Deborah Smith	Customer Service	26	2021-06-18	33000000.0
+28	Andrew Martinez	Customer Service	27	2023-11-04	18000000.0
+29	David Johnson	Customer Service	27	2020-02-08	14600000.0
+30	Amanda Davis	Customer Service	27	2020-11-17	12800000.0
+31	Anthony Garcia	Customer Service	27	2019-03-18	16700000.0
+32	Ashley Smith	Customer Service	27	2019-04-13	16000000.0
+33	Christopher Johnson	Customer Service	27	2023-12-04	16100000.0
+34	Joshua Smith	Engineering	1	2021-06-01	74300000.0
+35	James Smith	Engineering	34	2020-09-21	38200000.0
+36	Barbara Anderson	Engineering	35	2021-08-12	14900000.0
+37	Lisa Wilson	Engineering	35	2023-04-27	13700000.0
+38	Carol Smith	Engineering	35	2021-10-31	18500000.0
+39	James Miller	Engineering	34	2020-07-13	37600000.0
+40	Donna Smith	Engineering	39	2022-03-12	13600000.0
+41	Michelle Brown	Engineering	39	2020-06-28	17000000.0
+42	James Johnson	Engineering	39	2020-02-12	15800000.0
 \.
 
 COPY shop.customers (customer_id, full_name, email, phone, gender, birth_date, signup_date, referred_by) FROM stdin;
-1	Trần Khánh Quyên	quyen.tran1@mail.vn	0782364735	F	1981-01-23	2024-01-23	\N
-2	Huỳnh Gia Tùng	tung.huynh2@gmail.com	0525625975	M	1976-02-06	2025-03-19	\N
-3	Võ Tuấn Tùng	tung.vo3@gmail.com	0516179728	M	1988-05-08	2023-12-08	\N
-4	Lê Ngọc Ngân	ngan.le4@outlook.com	0975625161	F	1995-10-22	2023-08-19	\N
-5	Trần Văn Trung	trung.tran5@gmail.com	0558281451	M	1976-05-04	2023-03-24	\N
-6	Trần Thu Hương	huong.tran6@yahoo.com	0985966238	F	1981-04-26	2025-11-14	\N
-7	Nguyễn Khánh Linh	linh.nguyen7@gmail.com	0907770495	F	1995-01-23	2025-03-10	\N
-8	Nguyễn Quang Việt	viet.nguyen8@yahoo.com	0763315531	M	1998-09-03	2024-05-02	\N
-9	Nguyễn Minh Sơn	son.nguyen9@yahoo.com	\N	M	\N	2024-06-23	\N
-10	Trần Khánh Hạnh	hanh.tran10@gmail.com	0943420646	F	\N	2024-03-11	\N
-11	Đặng Công Sơn	son.dang11@yahoo.com	0767369089	M	1972-05-07	2025-06-17	\N
-12	Nguyễn Ngọc Giang	giang.nguyen12@gmail.com	0703137857	F	1975-11-22	2025-07-11	\N
-13	Phạm Minh Mai	mai.pham13@gmail.com	0351072781	F	1973-11-18	2024-01-28	\N
-14	Võ Quang Nam	nam.vo14@gmail.com	0526863634	M	\N	2024-03-13	\N
-15	Huỳnh Công Sơn	son.huynh15@gmail.com	0581647579	M	1979-05-08	2025-08-28	\N
-16	Lê Thị Lan	lan.le16@gmail.com	0725646745	F	1988-06-08	2025-09-29	\N
-17	Vũ Hữu Quân	quan.vu17@gmail.com	0925301560	M	2003-03-05	2025-07-28	\N
-18	Nguyễn Thanh Yến	yen.nguyen18@mail.vn	0547457026	F	1969-11-09	2025-01-29	\N
-19	Nguyễn Tuấn Trung	trung.nguyen19@gmail.com	0338372085	M	1979-03-31	2024-08-06	\N
-20	Võ Mai Hoa	hoa.vo20@gmail.com	0537180966	F	1995-02-21	2024-08-21	\N
-21	Đặng Minh Thắng	thang.dang21@gmail.com	0563506330	M	1996-10-27	2025-01-02	\N
-22	Hồ Thành Tùng	tung.ho22@yahoo.com	0331863990	M	1997-08-10	2024-03-21	\N
-23	Trần Văn Khang	khang.tran23@gmail.com	0565188700	M	\N	2025-02-01	\N
-24	Hoàng Anh Bình	binh.hoang24@gmail.com	0900904701	M	1984-03-16	2024-11-08	\N
-25	Nguyễn Mai Giang	giang.nguyen25@yahoo.com	0522293047	F	2002-07-18	2025-08-12	\N
-26	Bùi Minh Ngân	ngan.bui26@gmail.com	0562948270	F	\N	2025-02-05	\N
-27	Nguyễn Hoài Nhung	nhung.nguyen27@gmail.com	\N	F	\N	2023-11-14	\N
-28	Nguyễn Minh Hà	ha.nguyen28@mail.vn	0337346466	F	\N	2025-06-21	\N
-29	Trần Hữu Việt	viet.tran29@yahoo.com	\N	\N	1992-05-13	2024-07-03	\N
-30	Nguyễn Mai Uyên	uyen.nguyen30@gmail.com	\N	\N	\N	2023-06-23	\N
-31	Phạm Thị Yến	yen.pham31@gmail.com	0947344947	F	1984-08-19	2023-03-20	\N
-32	Nguyễn Quang Đạt	dat.nguyen32@mail.vn	\N	M	1980-10-02	2024-06-25	\N
-33	Trần Văn Đạt	dat.tran33@gmail.com	0759479667	M	1968-07-12	2024-12-03	\N
-34	Ngô Hữu Quân	quan.ngo34@mail.vn	0939192839	M	2002-10-24	2024-09-16	\N
-35	Trần Phương Dung	dung.tran35@yahoo.com	0712371579	F	1971-09-06	2025-02-28	\N
-36	Nguyễn Phương Linh	linh.nguyen36@yahoo.com	0931827453	F	1978-03-03	2025-10-20	\N
-37	Phan Gia Tùng	tung.phan37@gmail.com	\N	M	\N	2025-03-11	\N
-38	Trần Hoài Chi	chi.tran38@outlook.com	0358630180	F	1999-06-04	2025-03-31	\N
-39	Đỗ Thanh Trang	trang.do39@gmail.com	\N	F	1978-03-06	2025-09-07	\N
-40	Nguyễn Công An	an.nguyen40@gmail.com	0336676500	M	\N	2023-06-29	\N
-41	Lê Thu Trang	trang.le41@yahoo.com	\N	F	1973-06-26	2025-01-08	\N
-42	Huỳnh Thu Nga	nga.huynh42@yahoo.com	0975320517	F	1996-12-21	2025-10-14	\N
-43	Trần Thu Hoa	hoa.tran43@gmail.com	0553068669	F	1975-04-27	2024-07-08	\N
-44	Nguyễn Công Hùng	hung.nguyen44@yahoo.com	0526882500	M	1968-05-19	2025-10-26	\N
-45	Nguyễn Thành Tùng	tung.nguyen45@gmail.com	0549238319	M	1982-01-29	2025-04-08	\N
-46	Hoàng Thanh Hoa	hoa.hoang46@gmail.com	0920110948	F	1991-05-21	2024-04-02	\N
-47	Vũ Tuấn Việt	viet.vu47@gmail.com	0954469751	M	1986-06-03	2025-12-09	\N
-48	Dương Quang Hải	hai.duong48@outlook.com	\N	M	\N	2025-10-28	\N
-49	Nguyễn Thị Thảo	thao.nguyen49@gmail.com	0551106894	F	2006-09-24	2025-05-09	\N
-50	Vũ Hoài Dung	dung.vu50@outlook.com	0362041899	F	2003-06-21	2023-03-26	\N
-51	Nguyễn Minh Việt	viet.nguyen51@yahoo.com	0377419461	M	2000-11-06	2025-11-21	\N
-52	Phan Công An	an.phan52@yahoo.com	0771792757	M	1999-08-13	2025-01-09	\N
-53	Nguyễn Tuấn Huy	huy.nguyen53@mail.vn	0310392046	M	\N	2025-06-24	\N
-54	Lê Công Huy	huy.le54@gmail.com	0369024103	M	1992-01-05	2024-05-06	\N
-55	Trần Ngọc Nga	nga.tran55@yahoo.com	\N	F	1988-02-11	2024-10-09	\N
-56	Nguyễn Văn Thắng	thang.nguyen56@mail.vn	0577484897	M	1969-04-18	2024-05-03	\N
-57	Nguyễn Gia Phúc	Phuc.nguyen57@gmail.com	0533184724	M	\N	2024-07-14	11
-58	Trần Thành Sơn	son.tran58@gmail.com	0361632539	M	1996-12-04	2025-08-13	55
-59	Nguyễn Bảo Hạnh	hanh.nguyen59@outlook.com	\N	F	1996-08-16	2024-12-05	\N
-60	Phan Mai Quyên	quyen.phan60@gmail.com	\N	F	\N	2025-01-12	\N
-61	Nguyễn Bảo Dung	dung.nguyen61@gmail.com	0504675743	F	1968-10-07	2025-09-18	\N
-62	Trần Tuấn Vinh	vinh.tran62@gmail.com	0530408664	M	1996-03-11	2025-03-02	5
-63	Lê Khánh Lan	lan.le63@gmail.com	0518579845	\N	2001-05-03	2025-05-30	\N
-64	Bùi Mai Phương	phuong.bui64@mail.vn	\N	F	1969-03-23	2024-12-06	54
-65	Đỗ Ngọc Diệp	diep.do65@gmail.com	0992053944	F	1987-06-27	2024-06-10	\N
-66	Đặng Hoài Anh	Anh.dang66@gmail.com	0797945369	F	1989-02-19	2023-12-16	\N
-67	Nguyễn Minh Uyên	uyen.nguyen67@gmail.com	0513499342	F	1974-10-14	2025-07-06	\N
-68	Phạm Quang Trung	trung.pham68@outlook.com	0547439830	M	\N	2024-07-16	\N
-69	Trần Công Tùng	tung.tran69@outlook.com	0910498768	M	1968-03-24	2024-01-01	\N
-70	Nguyễn Tuấn Hùng	hung.nguyen70@gmail.com	0782727730	M	2000-12-28	2023-10-19	\N
-71	Lê Quang Huy	huy.le71@gmail.com	0582271847	M	1971-10-30	2025-03-27	\N
-72	Võ Thanh Hà	ha.vo72@gmail.com	0919956494	F	\N	2024-11-20	47
-73	Võ Tuấn Hùng	hung.vo73@gmail.com	0584849415	M	1999-04-08	2025-09-09	\N
-74	Nguyễn Quang Trung	trung.nguyen74@gmail.com	\N	M	\N	2025-11-30	25
-75	Phan Phương Nga	nga.phan75@yahoo.com	0389438064	F	2004-10-18	2025-12-11	\N
-76	Nguyễn Công Trung	trung.nguyen76@gmail.com	\N	M	1996-11-14	2023-12-08	\N
-77	Trần Công Tùng	tung.tran77@gmail.com	0386038023	M	2003-07-26	2024-02-08	\N
-78	Hoàng Mai Lan	lan.hoang78@mail.vn	0535945473	F	1991-03-25	2025-02-07	51
-79	Đỗ Công Hiếu	hieu.do79@outlook.com	\N	M	\N	2025-12-03	\N
-80	Trần Quang Huy	huy.tran80@outlook.com	0775019186	M	1970-09-27	2025-10-16	\N
-81	Nguyễn Thị Oanh	oanh.nguyen81@gmail.com	0569428356	F	1997-12-29	2025-05-09	\N
-82	Nguyễn Anh Huy	huy.nguyen82@gmail.com	0511620692	M	2004-09-21	2024-07-01	\N
-83	Lê Bảo Giang	giang.le83@gmail.com	0937367653	F	1987-10-21	2024-04-15	\N
-84	Huỳnh Anh Sơn	son.huynh84@gmail.com	0338223006	M	1967-01-07	2023-04-04	44
-85	Nguyễn Quang Đạt	dat.nguyen85@gmail.com	0312692851	M	1968-05-03	2025-11-03	13
-86	Phan Tuấn Tùng	tung.phan86@gmail.com	\N	M	1977-04-12	2024-11-22	74
-87	Phạm Anh Thắng	Thang.pham87@yahoo.com	0397716950	M	1982-12-07	2025-06-20	\N
-88	Trần Bảo Giang	giang.tran88@mail.vn	\N	F	\N	2023-11-03	\N
-89	Nguyễn Minh Giang	giang.nguyen89@gmail.com	0788116891	F	2002-02-20	2023-09-19	\N
-90	Dương Hữu Dũng	dung.duong90@outlook.com	0977137770	M	1993-08-04	2024-02-22	\N
-91	Dương Thị Giang	giang.duong91@outlook.com	0316125927	F	1998-06-05	2025-09-07	22
-92	Đỗ Bảo Lan	lan.do92@gmail.com	\N	F	2006-01-02	2023-10-27	\N
-93	Nguyễn Mai Trang	trang.nguyen93@gmail.com	\N	F	1989-10-23	2025-03-16	\N
-94	Nguyễn Mai Hoa	hoa.nguyen94@mail.vn	0770680659	F	\N	2024-11-10	\N
-95	Phạm Đức Đạt	dat.pham95@yahoo.com	0573070083	M	1983-03-18	2023-08-15	\N
-96	Phạm Quang Sơn	son.pham96@gmail.com	0526933715	M	1980-02-04	2024-03-29	\N
-97	Nguyễn Minh Dũng	dung.nguyen97@yahoo.com	\N	M	1977-07-18	2025-04-08	\N
-98	Nguyễn Phương Thảo	thao.nguyen98@outlook.com	0969182883	F	\N	2025-04-02	\N
-99	Phan Minh Giang	giang.phan99@gmail.com	0794054158	F	\N	2024-05-19	63
-100	Lý Thị Uyên	uyen.ly100@gmail.com	0535058696	F	\N	2024-04-16	\N
-101	Vũ Thu Dung	dung.vu101@mail.vn	0552910611	F	\N	2025-12-27	65
-102	Nguyễn Minh Nhung	nhung.nguyen102@gmail.com	0304190269	F	1989-01-13	2025-09-24	\N
-103	Đặng Minh Nhung	nhung.dang103@mail.vn	0325307820	F	\N	2024-01-13	\N
-104	Vũ Thành Phúc	phuc.vu104@gmail.com	0557580470	M	\N	2024-06-30	\N
-105	Nguyễn Thu Nhung	nhung.nguyen105@mail.vn	0559867550	F	1973-10-05	2025-10-16	59
-106	Nguyễn Bảo Trang	trang.nguyen106@gmail.com	0347478739	F	1974-04-02	2024-01-12	\N
-107	Nguyễn Hữu An	an.nguyen107@outlook.com	0392668105	M	2005-07-06	2024-05-15	50
-108	Lê Ngọc Giang	giang.le108@outlook.com	0347250852	F	2003-08-19	2025-10-25	\N
-109	Nguyễn Hoài Dung	dung.nguyen109@mail.vn	0567471225	F	\N	2025-07-16	\N
-110	Hoàng Thu Uyên	uyen.hoang110@mail.vn	0773555676	F	1965-03-23	2023-06-03	\N
-111	Nguyễn Hoài Chi	chi.nguyen111@gmail.com	0380126386	F	\N	2025-11-25	\N
-112	Trần Văn Long	long.tran112@gmail.com	0798114126	M	1986-10-29	2023-08-30	\N
-113	Trần Thu Chi	chi.tran113@gmail.com	0715652469	F	\N	2025-03-28	\N
-114	Trần Thu Diệp	diep.tran114@outlook.com	0907196726	F	\N	2023-09-24	\N
-115	Vũ Tuấn Việt	viet.vu115@gmail.com	0372340960	M	1970-06-09	2025-05-01	\N
-116	Võ Minh Chi	chi.vo116@mail.vn	0978770595	F	1995-02-09	2025-07-03	\N
-117	Nguyễn Đức Phong	Phong.nguyen117@gmail.com	0728041427	M	1993-08-21	2023-07-05	\N
-118	Nguyễn Thành Trung	trung.nguyen118@outlook.com	0709613239	M	2000-01-23	2025-11-11	77
-119	Lê Quang Toàn	toan.le119@gmail.com	0902195481	M	1987-03-20	2024-02-24	\N
-120	Ngô Công Phúc	phuc.ngo120@mail.vn	0952194423	M	1998-07-07	2025-07-23	115
-121	Nguyễn Thị My	my.nguyen121@gmail.com	0390960645	F	1989-04-24	2023-10-14	\N
-122	Ngô Bảo Linh	linh.ngo122@gmail.com	0519354161	F	\N	2025-11-22	\N
-123	Võ Hữu Huy	huy.vo123@gmail.com	0798893317	M	1979-07-12	2024-04-01	\N
-124	Phạm Hoài Hoa	hoa.pham124@yahoo.com	\N	F	1969-06-25	2025-12-14	\N
-125	Lý Ngọc Yến	yen.ly125@mail.vn	0988723479	F	1994-11-06	2023-11-18	\N
-126	Ngô Minh Phúc	phuc.ngo126@gmail.com	0389601868	M	1995-05-21	2024-11-10	\N
-127	Phạm Thu Hà	ha.pham127@outlook.com	0570310730	F	1968-08-17	2024-10-26	\N
-128	Nguyễn Tuấn Sơn	son.nguyen128@gmail.com	0501179185	M	1988-04-04	2023-08-19	\N
-129	Nguyễn Thu Giang	giang.nguyen129@mail.vn	0731514692	F	1973-10-27	2025-09-17	\N
-130	Trần Ngọc Ngân	ngan.tran130@gmail.com	0715967898	F	1994-11-09	2025-09-05	\N
-131	Đặng Minh Hải	hai.dang131@gmail.com	0900517971	M	2004-08-18	2023-09-05	\N
-132	Trần Khánh Nhung	nhung.tran132@gmail.com	0780622329	F	2005-01-29	2024-04-13	42
-133	Lê Khánh Hoa	hoa.le133@mail.vn	0761499578	F	1966-06-21	2023-01-21	\N
-134	Đặng Ngọc Hà	ha.dang134@yahoo.com	0543574444	F	1972-07-20	2025-07-30	\N
-135	Nguyễn Quang Toàn	toan.nguyen135@outlook.com	0948826762	M	1996-11-02	2025-08-17	\N
-136	Phạm Hoài Phương	phuong.pham136@mail.vn	0537366824	F	1992-11-12	2025-06-14	\N
-137	Nguyễn Tuấn Quân	quan.nguyen137@mail.vn	0996391626	M	1993-02-25	2023-03-28	\N
-138	Trần Công Bình	binh.tran138@gmail.com	\N	M	1995-01-30	2023-01-31	\N
-139	Hoàng Hoài Hà	ha.hoang139@mail.vn	0944367806	F	\N	2023-06-24	114
-140	Lê Hữu Trung	trung.le140@mail.vn	0927903329	M	1988-05-22	2025-04-13	\N
-141	Đặng Đức Thắng	thang.dang141@mail.vn	\N	M	1967-07-16	2023-05-06	127
-142	Bùi Mai Vân	van.bui142@gmail.com	\N	F	1996-09-06	2023-12-05	\N
-143	Lê Thành Long	long.le143@gmail.com	0539092381	M	2000-11-22	2025-12-12	\N
-144	Ngô Gia Dũng	dung.ngo144@gmail.com	0599049000	M	1995-10-20	2024-09-06	\N
-145	Nguyễn Thu Uyên	uyen.nguyen145@mail.vn	0575371752	F	\N	2023-12-15	\N
-146	Đỗ Hữu Dũng	dung.do146@yahoo.com	0991822595	M	1969-09-05	2025-05-13	\N
-147	Dương Minh Nga	nga.duong147@gmail.com	0569657853	F	1976-11-29	2024-07-11	\N
-148	Đặng Văn Việt	viet.dang148@mail.vn	0790908262	M	1990-05-03	2025-08-25	\N
-149	Trần Minh Vân	van.tran149@gmail.com	0790200215	F	1979-01-21	2025-09-25	\N
-150	Lê Tuấn Phong	Phong.le150@gmail.com	0535565398	M	1998-08-12	2024-07-31	29
-151	Trần Thị Hoa	hoa.tran151@yahoo.com	0784126283	F	1999-04-25	2025-07-13	\N
-152	Đặng Quang Phong	phong.dang152@gmail.com	\N	M	1981-05-25	2025-08-25	113
-153	Nguyễn Văn Hùng	hung.nguyen153@mail.vn	0327075051	M	1996-09-18	2025-05-31	\N
-154	Vũ Đức Dũng	dung.vu154@outlook.com	0322084311	M	1981-08-31	2023-11-25	\N
-155	Vũ Minh Đạt	dat.vu155@mail.vn	0513469146	\N	1999-03-20	2024-05-22	\N
-156	Nguyễn Bảo Thảo	thao.nguyen156@outlook.com	0727349322	F	2006-04-19	2024-12-28	\N
-157	Phạm Gia Huy	huy.pham157@yahoo.com	0397623448	M	\N	2025-01-27	\N
-158	Phạm Hữu An	an.pham158@gmail.com	0551812353	M	1974-11-15	2024-01-15	\N
-159	Lý Văn Khang	khang.ly159@gmail.com	0367084931	M	\N	2025-03-12	\N
-160	Trần Quang Dũng	dung.tran160@gmail.com	0375798807	M	\N	2024-10-14	50
-161	Lê Công Cường	cuong.le161@mail.vn	0349966059	M	1979-10-14	2024-11-04	\N
-162	Nguyễn Hoài Lan	lan.nguyen162@gmail.com	0586535715	F	1991-09-12	2023-06-14	\N
-163	Nguyễn Bảo Thảo	thao.nguyen163@gmail.com	0539604617	F	\N	2025-05-27	\N
-164	Phan Anh Trung	trung.phan164@gmail.com	0983369868	M	1991-02-20	2023-10-17	\N
-165	Nguyễn Thanh Dung	dung.nguyen165@gmail.com	0910855894	F	1997-06-23	2025-10-19	\N
-166	Võ Văn An	an.vo166@gmail.com	0310520893	M	1976-06-27	2024-02-09	\N
-167	Trần Khánh Linh	linh.tran167@gmail.com	\N	F	1973-04-07	2024-03-27	\N
-168	Trần Minh Tài	tai.tran168@gmail.com	0558201552	M	1965-07-27	2024-07-24	\N
-169	Vũ Tuấn Bình	Binh.vu169@outlook.com	0309367074	M	1989-07-11	2023-05-09	\N
-170	Đặng Tuấn Hiếu	hieu.dang170@gmail.com	0327994244	M	2000-04-02	2025-09-21	\N
-171	Lê Minh Trung	trung.le171@gmail.com	0526875047	M	\N	2024-04-17	\N
-172	Nguyễn Thành Hải	Hai.nguyen172@gmail.com	\N	M	\N	2023-08-31	\N
-173	Nguyễn Ngọc Vân	van.nguyen173@gmail.com	0532223278	F	\N	2024-02-05	\N
-174	Nguyễn Bảo Uyên	uyen.nguyen174@gmail.com	0731677379	F	1988-06-09	2024-05-11	\N
-175	Nguyễn Thị Hoa	Hoa.nguyen175@yahoo.com	0537745929	\N	1970-12-24	2025-05-21	\N
-176	Trần Anh Khang	khang.tran176@yahoo.com	0970297474	M	1974-06-17	2025-10-14	\N
-177	Phan Thu Anh	anh.phan177@mail.vn	0320338869	F	\N	2025-01-31	\N
-178	Phạm Thu Hương	huong.pham178@yahoo.com	0332415907	F	1975-02-13	2025-08-27	\N
-179	Nguyễn Minh Phúc	phuc.nguyen179@gmail.com	0593382272	M	\N	2024-07-20	19
-180	Nguyễn Thị Mai	mai.nguyen180@gmail.com	0963270202	F	2006-12-21	2024-06-16	\N
-181	Đặng Khánh Linh	linh.dang181@mail.vn	0598123669	F	\N	2023-06-16	133
-182	Võ Minh Trang	trang.vo182@gmail.com	0378774545	F	1983-01-14	2024-11-11	\N
-183	Nguyễn Thị Vân	van.nguyen183@outlook.com	0544617722	F	1999-05-18	2025-12-30	95
-184	Hoàng Tuấn Việt	viet.hoang184@yahoo.com	0757885700	M	\N	2024-04-29	\N
-185	Nguyễn Quang Bình	binh.nguyen185@yahoo.com	0513906757	M	1989-10-25	2025-09-27	\N
-186	Hoàng Phương Yến	yen.hoang186@yahoo.com	0712912546	F	\N	2025-06-28	\N
-187	Hoàng Thị Nhung	nhung.hoang187@gmail.com	\N	F	2001-02-23	2025-07-03	37
-188	Trần Thu Linh	linh.tran188@gmail.com	0797471867	F	1989-02-08	2024-12-17	\N
-189	Đỗ Khánh Oanh	oanh.do189@mail.vn	\N	F	\N	2025-04-17	\N
-190	Võ Công Việt	viet.vo190@gmail.com	0347585693	M	2002-04-08	2025-06-11	41
-191	Nguyễn Thành Phong	phong.nguyen191@outlook.com	\N	\N	1998-02-26	2025-02-01	\N
-192	Nguyễn Thành Khang	khang.nguyen192@yahoo.com	\N	M	1984-02-17	2025-05-13	90
-193	Lê Hoài Dung	dung.le193@gmail.com	0990025162	F	\N	2025-08-30	\N
-194	Phạm Thành Vinh	vinh.pham194@gmail.com	\N	M	\N	2024-02-04	\N
-195	Hồ Hữu Long	long.ho195@gmail.com	0513043484	M	1973-09-16	2023-11-11	\N
-196	Lê Tuấn Thắng	thang.le196@gmail.com	0981260723	M	1977-10-24	2024-08-01	\N
-197	Nguyễn Gia Vinh	vinh.nguyen197@mail.vn	\N	M	1974-06-11	2023-10-04	\N
-198	Vũ Thanh Diệp	diep.vu198@gmail.com	0748069516	F	\N	2023-05-09	\N
-199	Trần Văn Trung	trung.tran199@gmail.com	0949194793	M	1970-04-07	2025-02-11	\N
-200	Nguyễn Hữu Nam	nam.nguyen200@gmail.com	0563741328	M	1993-06-13	2025-12-18	\N
-201	Nguyễn Văn Hiếu	hieu.nguyen201@mail.vn	\N	M	\N	2025-08-31	\N
-202	Võ Đức Tài	tai.vo202@gmail.com	0729296702	M	\N	2024-08-19	\N
-203	Nguyễn Tuấn Phong	phong.nguyen203@outlook.com	0954420221	M	\N	2024-06-25	29
-204	Lê Thu Trang	trang.le204@gmail.com	0589666508	F	\N	2024-07-04	\N
-205	Vũ Thu Lan	lan.vu205@mail.vn	0979621289	F	1993-08-19	2025-01-12	46
-206	Dương Khánh Thảo	thao.duong206@gmail.com	0505982884	F	2004-03-11	2023-10-31	\N
-207	Huỳnh Anh Thắng	thang.huynh207@yahoo.com	0579579276	M	1973-11-30	2023-08-30	\N
-208	Nguyễn Bảo Hương	huong.nguyen208@mail.vn	\N	F	1968-02-13	2025-10-26	\N
-209	Đỗ Mai Uyên	uyen.do209@yahoo.com	0751555116	F	1977-10-13	2025-06-18	\N
-210	Trần Ngọc Nga	nga.tran210@gmail.com	\N	F	1989-01-02	2025-06-02	116
-211	Phan Văn Huy	huy.phan211@gmail.com	0735793856	M	1999-07-09	2024-11-05	\N
-212	Bùi Anh Phong	phong.bui212@yahoo.com	0755055412	\N	\N	2024-11-09	\N
-213	Nguyễn Minh Thảo	thao.nguyen213@yahoo.com	0922823460	F	2004-04-21	2024-12-01	\N
-214	Nguyễn Tuấn Đạt	dat.nguyen214@gmail.com	0952595803	M	\N	2024-09-08	\N
-215	Lê Quang Huy	huy.le215@mail.vn	0307093834	M	\N	2025-01-29	\N
-216	Vũ Tuấn Nam	nam.vu216@gmail.com	0794212210	M	1988-09-19	2025-03-17	\N
-217	Nguyễn Tuấn Quân	quan.nguyen217@gmail.com	0948875077	M	\N	2025-08-16	\N
-218	Trần Hoài Trang	trang.tran218@yahoo.com	0386220970	F	1991-08-28	2023-04-17	\N
-219	Hoàng Mai Trang	trang.hoang219@gmail.com	0975910007	F	\N	2025-04-28	7
-220	Lê Hoài Chi	chi.le220@gmail.com	0510682203	F	2006-05-03	2025-01-17	\N
-221	Đặng Hoài Quyên	Quyen.dang221@outlook.com	\N	F	1986-07-22	2025-04-06	\N
-222	Nguyễn Thị Oanh	oanh.nguyen222@gmail.com	0909080915	F	1976-08-12	2023-04-30	201
-223	Trần Khánh Trang	trang.tran223@gmail.com	0908730133	F	1981-02-24	2024-03-26	\N
-224	Lê Khánh Diệp	diep.le224@gmail.com	0727686329	F	1966-06-03	2025-09-23	\N
-225	Nguyễn Hoài Uyên	uyen.nguyen225@gmail.com	0311278487	F	1983-10-10	2024-12-27	\N
-226	Võ Minh Hải	Hai.vo226@outlook.com	0958742976	M	1993-06-04	2025-12-02	\N
-227	Trần Văn Đạt	dat.tran227@gmail.com	0963597789	M	1966-08-03	2023-07-06	212
-228	Trần Ngọc Hà	ha.tran228@gmail.com	0974693530	F	\N	2024-02-08	159
-229	Nguyễn Bảo Yến	yen.nguyen229@gmail.com	0553584208	F	2002-06-29	2025-01-31	\N
-230	Trần Thành Cường	cuong.tran230@yahoo.com	0773089452	M	2004-09-25	2024-10-25	\N
-231	Hồ Phương Ngân	ngan.ho231@gmail.com	0907413507	F	1981-11-08	2024-08-28	213
-232	Đỗ Quang Khang	khang.do232@gmail.com	0379321862	M	1998-09-28	2025-01-20	\N
-233	Nguyễn Phương Thảo	thao.nguyen233@gmail.com	0517586513	F	1971-04-28	2025-07-09	\N
-234	Bùi Đức An	an.bui234@gmail.com	0988234403	M	2004-02-20	2024-08-25	\N
-235	Nguyễn Thị Phương	phuong.nguyen235@yahoo.com	0380399989	F	1981-08-15	2025-07-10	\N
-236	Nguyễn Bảo Hương	huong.nguyen236@yahoo.com	\N	F	1970-05-27	2024-10-29	\N
-237	Lê Khánh Phương	phuong.le237@yahoo.com	0569847429	F	2005-02-11	2025-05-26	\N
-238	Phan Hữu Hiếu	hieu.phan238@gmail.com	0392692540	M	\N	2024-04-11	\N
-239	Ngô Công Tùng	tung.ngo239@outlook.com	0924726350	M	1990-08-05	2025-02-05	44
-240	Nguyễn Thị Lan	lan.nguyen240@yahoo.com	0369150386	F	1996-11-06	2023-12-16	79
-241	Nguyễn Ngọc Hà	ha.nguyen241@mail.vn	0905585277	F	1998-11-08	2024-02-15	\N
-242	Nguyễn Anh Tùng	tung.nguyen242@gmail.com	0586926948	M	2006-10-21	2024-10-09	\N
-243	Nguyễn Quang Sơn	son.nguyen243@gmail.com	0540199280	M	1990-09-01	2024-12-01	\N
-244	Lê Thu Lan	lan.le244@yahoo.com	0518083872	F	1979-06-11	2023-09-12	\N
-245	Hoàng Thu Thảo	thao.hoang245@outlook.com	0342342341	F	1970-11-29	2025-08-08	\N
-246	Vũ Gia Khoa	khoa.vu246@gmail.com	0959161527	M	1992-09-12	2023-08-17	\N
-247	Đỗ Mai Thảo	thao.do247@mail.vn	0709422665	F	\N	2025-06-29	\N
-248	Nguyễn Ngọc Chi	chi.nguyen248@gmail.com	0987231256	F	1980-06-24	2025-06-14	\N
-249	Nguyễn Hữu Hải	hai.nguyen249@gmail.com	0778707135	M	2004-01-05	2025-08-19	\N
-250	Phạm Minh Ngân	ngan.pham250@gmail.com	0379442219	F	1977-01-06	2025-03-12	\N
-251	Nguyễn Thị Vân	van.nguyen251@outlook.com	0795838367	F	1965-04-20	2024-03-02	\N
-252	Đỗ Tuấn Hiếu	hieu.do252@mail.vn	0377889753	M	1993-11-08	2025-05-26	\N
-253	Hoàng Thành Tùng	tung.hoang253@yahoo.com	0590308533	M	1979-02-13	2024-07-26	\N
-254	Phan Tuấn Phúc	phuc.phan254@gmail.com	0517069298	M	\N	2024-10-02	91
-255	Dương Mai Yến	yen.duong255@outlook.com	0355494703	F	1968-09-02	2025-07-25	\N
-256	Trần Quang Sơn	son.tran256@outlook.com	0357075352	M	1998-09-18	2025-03-22	\N
-257	Lê Bảo Diệp	diep.le257@yahoo.com	0901181786	\N	1967-02-08	2024-06-27	\N
-258	Hồ Bảo Nhung	nhung.ho258@gmail.com	0580870294	F	1977-09-06	2024-11-26	\N
-259	Võ Ngọc Oanh	oanh.vo259@gmail.com	0777367483	F	1976-03-13	2025-09-09	147
-260	Trần Công Khoa	khoa.tran260@mail.vn	0929740558	M	\N	2025-10-14	\N
-261	Nguyễn Đức Phong	phong.nguyen261@yahoo.com	0560347491	M	2004-03-09	2024-11-04	\N
-262	Ngô Phương Uyên	uyen.ngo262@gmail.com	0538005661	F	1999-09-14	2023-05-23	\N
-263	Trần Thị Uyên	uyen.tran263@gmail.com	0559867448	F	1966-08-31	2024-11-28	\N
-264	Nguyễn Đức Vinh	vinh.nguyen264@yahoo.com	0518837170	M	\N	2024-10-01	\N
-265	Vũ Văn Tùng	tung.vu265@yahoo.com	\N	M	1968-12-22	2023-07-12	\N
-266	Võ Bảo Lan	lan.vo266@yahoo.com	0563674400	F	1976-03-16	2024-02-25	\N
-267	Lê Thành Toàn	toan.le267@outlook.com	0751876334	M	1994-04-28	2024-06-14	\N
-268	Nguyễn Thu Nhung	nhung.nguyen268@mail.vn	0590609555	F	1971-10-31	2025-03-20	\N
-269	Trần Quang An	an.tran269@mail.vn	0544933815	M	1990-02-19	2025-11-07	\N
-270	Phạm Hữu Tài	tai.pham270@mail.vn	0964083496	M	1976-02-28	2024-04-15	\N
-271	Nguyễn Tuấn Vinh	vinh.nguyen271@gmail.com	0561492869	M	\N	2024-12-22	\N
-272	Trần Ngọc Uyên	uyen.tran272@yahoo.com	0545039221	F	\N	2023-07-23	207
-273	Đặng Đức Cường	cuong.dang273@mail.vn	0707888362	M	1977-05-21	2025-05-30	\N
-274	Nguyễn Thu Linh	linh.nguyen274@mail.vn	0580812261	F	1973-09-18	2024-01-03	\N
-275	Nguyễn Khánh Lan	lan.nguyen275@yahoo.com	0537570672	F	1992-05-16	2025-12-06	\N
-276	Nguyễn Minh Dung	dung.nguyen276@gmail.com	0350069848	F	1966-09-15	2025-12-29	\N
-277	Lê Quang Sơn	son.le277@gmail.com	0904139297	M	1970-03-22	2023-10-15	\N
-278	Nguyễn Mai Lan	lan.nguyen278@outlook.com	0760104162	\N	\N	2023-10-05	\N
-279	Trần Minh Hùng	hung.tran279@gmail.com	0330336118	M	1965-05-20	2024-02-01	\N
-280	Trần Khánh Ngân	ngan.tran280@gmail.com	0577236744	F	1971-11-17	2024-07-21	\N
-281	Nguyễn Thị Anh	anh.nguyen281@yahoo.com	0597405177	F	\N	2024-07-25	\N
-282	Nguyễn Phương Hạnh	hanh.nguyen282@gmail.com	0994876291	F	2003-05-19	2023-07-25	\N
-283	Nguyễn Thu Oanh	oanh.nguyen283@gmail.com	0777968636	F	1972-04-09	2023-10-05	\N
-284	Nguyễn Minh Dung	dung.nguyen284@mail.vn	0916473078	F	1982-03-07	2024-04-07	64
-285	Nguyễn Ngọc Linh	linh.nguyen285@outlook.com	0351997052	F	1985-04-02	2023-08-28	\N
-286	Nguyễn Đức Khoa	khoa.nguyen286@gmail.com	0987273676	\N	1989-03-10	2025-12-10	51
-287	Nguyễn Phương Hà	ha.nguyen287@gmail.com	0596664495	F	2005-07-08	2024-04-19	\N
-288	Ngô Phương Ngân	ngan.ngo288@gmail.com	0503999609	F	1969-11-12	2025-12-18	116
-289	Lê Thành Khang	khang.le289@outlook.com	0993067368	M	2002-08-02	2023-03-01	\N
-290	Trần Thu My	my.tran290@yahoo.com	0390404375	F	1991-01-10	2025-01-26	\N
-291	Nguyễn Gia Quân	quan.nguyen291@gmail.com	0534275390	M	1973-09-15	2024-09-25	\N
-292	Võ Thành Hải	hai.vo292@outlook.com	0913188863	\N	\N	2025-10-09	\N
-293	Huỳnh Ngọc Oanh	oanh.huynh293@gmail.com	0997618706	F	\N	2023-03-02	\N
-294	Phạm Thị Chi	chi.pham294@outlook.com	0747990585	\N	1981-02-10	2025-12-19	\N
-295	Huỳnh Tuấn Tùng	tung.huynh295@gmail.com	0703245380	\N	1994-05-12	2023-05-18	\N
-296	Huỳnh Minh Nga	nga.huynh296@yahoo.com	0741786494	\N	1999-06-09	2025-08-28	\N
-297	Nguyễn Quang Đạt	dat.nguyen297@gmail.com	0397768982	M	1970-09-05	2024-07-19	\N
-298	Nguyễn Đức Tùng	tung.nguyen298@gmail.com	0703020019	M	2001-02-24	2025-06-24	\N
-299	Trần Minh Uyên	uyen.tran299@gmail.com	0334892778	F	\N	2025-03-17	\N
-300	Dương Thanh Dung	dung.duong300@yahoo.com	0585496545	F	1994-07-27	2024-11-02	\N
-301	Huỳnh Phương Linh	linh.huynh301@gmail.com	0731344562	F	\N	2025-10-24	\N
-302	Nguyễn Thanh Mai	mai.nguyen302@yahoo.com	\N	F	1986-02-14	2025-10-03	\N
-303	Nguyễn Đức Việt	viet.nguyen303@gmail.com	0994767665	M	1986-04-19	2023-08-08	\N
-304	Nguyễn Anh Cường	cuong.nguyen304@gmail.com	0730304605	\N	2004-03-23	2025-08-09	\N
-305	Nguyễn Thanh Trang	trang.nguyen305@yahoo.com	0350701385	F	1985-01-20	2023-05-27	\N
-306	Nguyễn Quang Long	long.nguyen306@yahoo.com	0349271840	M	\N	2025-10-21	\N
-307	Nguyễn Tuấn Hùng	hung.nguyen307@gmail.com	0595978331	M	1992-06-19	2025-03-20	\N
-308	Đặng Hữu Quân	quan.dang308@gmail.com	0378781444	M	\N	2023-02-12	\N
-309	Đỗ Ngọc Hà	ha.do309@gmail.com	0995040165	F	\N	2023-07-05	\N
-310	Bùi Phương Giang	giang.bui310@gmail.com	0503048956	F	2005-06-17	2024-09-19	\N
-311	Trần Công Long	long.tran311@gmail.com	0728660374	M	\N	2025-12-11	\N
-312	Phan Bảo Phương	phuong.phan312@gmail.com	0750559127	F	1988-09-28	2025-03-20	\N
-313	Nguyễn Công Phong	phong.nguyen313@yahoo.com	\N	M	\N	2025-02-01	\N
-314	Đỗ Thị Yến	Yen.do314@mail.vn	\N	F	1985-06-08	2024-05-22	\N
-315	Đặng Quang Dũng	dung.dang315@outlook.com	0773469153	M	1996-11-26	2025-07-03	\N
-316	Nguyễn Mai Nga	nga.nguyen316@gmail.com	0714161195	F	1996-06-20	2024-01-19	195
-317	Nguyễn Công Khoa	khoa.nguyen317@yahoo.com	0707057339	M	1995-12-08	2024-10-26	\N
-318	Lý Thu Dung	dung.ly318@gmail.com	0971316392	F	\N	2025-04-07	\N
-319	Đỗ Phương Giang	giang.do319@yahoo.com	0740052390	F	1978-05-05	2024-11-28	\N
-320	Hồ Hoài Trang	trang.ho320@outlook.com	0569727592	F	\N	2025-04-06	\N
-321	Nguyễn Thị Nhung	nhung.nguyen321@outlook.com	0366407516	F	1975-08-23	2025-07-09	\N
-322	Phạm Văn Khang	khang.pham322@gmail.com	0350478387	M	\N	2025-04-06	\N
-323	Phan Gia Phong	phong.phan323@outlook.com	0599670042	M	1988-01-20	2023-06-11	\N
-324	Vũ Đức Việt	viet.vu324@gmail.com	0912630074	M	1982-09-07	2025-07-08	\N
-325	Huỳnh Hoài Trang	trang.huynh325@mail.vn	\N	F	\N	2025-02-12	171
-326	Lê Đức Tài	tai.le326@gmail.com	0588146670	M	\N	2025-11-30	246
-327	Nguyễn Ngọc Dung	dung.nguyen327@gmail.com	0347160253	F	\N	2025-11-01	\N
-328	Nguyễn Hữu Trung	trung.nguyen328@outlook.com	0509242757	M	1984-12-24	2023-05-13	\N
-329	Hồ Bảo Oanh	oanh.ho329@mail.vn	0713810076	F	1995-04-25	2023-05-13	\N
-330	Lê Thành Nam	nam.le330@yahoo.com	\N	M	1989-12-18	2025-06-10	54
-331	Ngô Minh Hạnh	hanh.ngo331@gmail.com	\N	F	1970-10-28	2024-07-01	\N
-332	Nguyễn Phương Nhung	nhung.nguyen332@gmail.com	0766752903	F	1972-06-26	2025-03-25	69
-333	Bùi Đức Đạt	dat.bui333@gmail.com	0751977666	M	1998-08-23	2025-08-13	\N
-334	Võ Hoài Hạnh	hanh.vo334@outlook.com	0911086905	F	\N	2025-02-05	\N
-335	Phan Minh Quyên	quyen.phan335@yahoo.com	\N	\N	1998-02-11	2023-01-11	\N
-336	Đỗ Thu Dung	dung.do336@outlook.com	\N	F	\N	2024-09-05	\N
-337	Nguyễn Mai Mai	mai.nguyen337@yahoo.com	0763146300	F	1982-07-10	2025-08-14	119
-338	Lê Minh Khang	khang.le338@gmail.com	\N	M	1982-10-24	2024-09-09	\N
-339	Võ Anh Việt	viet.vo339@gmail.com	0779220404	M	2004-01-11	2025-07-12	\N
-340	Nguyễn Khánh Hoa	hoa.nguyen340@gmail.com	0597817750	F	1987-04-19	2025-04-22	\N
-341	Phạm Tuấn Huy	huy.pham341@mail.vn	0767596568	M	1991-09-22	2024-05-22	\N
-342	Lê Thị Ngân	ngan.le342@gmail.com	0710218907	F	1980-04-17	2024-11-10	\N
-343	Nguyễn Đức Trung	trung.nguyen343@outlook.com	0737392979	M	1996-01-18	2025-10-03	\N
-344	Nguyễn Bảo Phương	phuong.nguyen344@gmail.com	0961676426	F	1972-07-29	2025-10-21	\N
-345	Phan Bảo Hương	huong.phan345@gmail.com	0782765753	F	1968-10-10	2025-10-11	\N
-346	Trần Anh Huy	huy.tran346@gmail.com	0793697618	M	1970-07-16	2025-09-03	\N
-347	Nguyễn Đức An	an.nguyen347@gmail.com	0780438181	M	1989-05-06	2023-08-02	\N
-348	Trần Thanh Mai	mai.tran348@gmail.com	0991273746	\N	1991-02-02	2025-06-22	\N
-349	Nguyễn Thành Thắng	thang.nguyen349@gmail.com	0926251382	\N	1994-01-13	2024-11-02	\N
-350	Nguyễn Ngọc Lan	lan.nguyen350@gmail.com	0964461975	F	1973-09-05	2025-10-24	273
-351	Nguyễn Hoài Linh	linh.nguyen351@gmail.com	\N	F	1973-09-21	2025-03-29	186
-352	Võ Thị Vân	van.vo352@outlook.com	0322161596	F	\N	2023-11-05	\N
-353	Bùi Thanh Thảo	thao.bui353@outlook.com	0336367132	F	1984-05-02	2025-02-19	\N
-354	Nguyễn Thanh My	my.nguyen354@mail.vn	0365391799	F	1987-05-08	2025-05-03	\N
-355	Đỗ Hữu Hiếu	hieu.do355@gmail.com	0777446617	M	1975-04-27	2024-05-05	133
-356	Vũ Gia Phúc	phuc.vu356@gmail.com	0716601575	M	1969-10-31	2024-10-09	172
-357	Hồ Đức Khang	khang.ho357@outlook.com	0589724636	M	2005-03-16	2024-01-09	\N
-358	Vũ Thành Long	long.vu358@yahoo.com	0361155548	M	1982-06-27	2024-05-08	\N
-359	Trần Mai Mai	mai.tran359@gmail.com	0341137946	F	1992-08-05	2023-06-07	\N
-360	Nguyễn Công An	an.nguyen360@gmail.com	\N	M	1965-09-29	2025-08-20	\N
-361	Lê Minh Mai	mai.le361@gmail.com	0790672039	F	1983-02-01	2024-09-18	\N
-362	Phan Thu Lan	lan.phan362@gmail.com	0726776109	F	1984-05-04	2024-04-16	\N
-363	Vũ Tuấn Đạt	dat.vu363@gmail.com	0332299116	M	\N	2025-05-22	184
-364	Nguyễn Thu Mai	mai.nguyen364@gmail.com	0723357237	F	2004-09-04	2025-07-12	\N
-365	Lê Thanh Quyên	quyen.le365@yahoo.com	0715639463	F	1987-02-09	2025-05-31	\N
-366	Phạm Tuấn Cường	cuong.pham366@gmail.com	\N	M	1990-07-26	2024-11-29	\N
-367	Lê Minh Nga	nga.le367@gmail.com	0587674444	F	1986-07-03	2024-03-12	\N
-368	Đỗ Thanh Nga	nga.do368@gmail.com	0771159158	F	1979-11-18	2025-07-27	45
-369	Huỳnh Hữu Phong	phong.huynh369@yahoo.com	0707237228	M	\N	2023-06-15	\N
-370	Ngô Minh Nhung	nhung.ngo370@outlook.com	0700027189	F	1984-07-07	2025-09-11	286
-371	Vũ Minh Hải	hai.vu371@yahoo.com	0968058675	M	1966-10-31	2025-08-18	\N
-372	Trần Hữu Đạt	dat.tran372@outlook.com	0593820783	M	1973-05-22	2024-06-19	\N
-373	Hoàng Minh Sơn	son.hoang373@gmail.com	0369254504	M	2003-07-02	2024-04-05	124
-374	Nguyễn Minh Dung	dung.nguyen374@yahoo.com	0362061826	F	\N	2024-12-22	237
-375	Lê Quang Hiếu	hieu.le375@mail.vn	0396205413	M	1992-06-18	2024-06-21	54
-376	Trần Bảo Trang	trang.tran376@gmail.com	0740035740	F	1986-06-19	2025-11-19	\N
-377	Vũ Quang Thắng	thang.vu377@outlook.com	0776414829	M	1999-03-20	2024-03-04	\N
-378	Phạm Hoài Nhung	nhung.pham378@yahoo.com	0315093585	F	1992-04-15	2024-03-23	\N
-379	Trần Bảo Nga	nga.tran379@gmail.com	0938662418	F	\N	2024-09-11	\N
-380	Nguyễn Anh Hiếu	hieu.nguyen380@mail.vn	0305649187	M	\N	2025-06-01	\N
-381	Nguyễn Thu Hạnh	hanh.nguyen381@gmail.com	0758161061	F	1996-10-02	2025-08-27	\N
-382	Phạm Bảo Trang	trang.pham382@gmail.com	0766062076	F	1970-09-23	2025-12-06	62
-383	Phan Phương Nhung	nhung.phan383@mail.vn	0987252874	F	\N	2024-09-11	276
-384	Bùi Anh Tài	tai.bui384@gmail.com	0908524665	M	1977-12-29	2025-01-22	\N
-385	Lê Minh My	my.le385@mail.vn	0346604578	F	1979-06-01	2025-09-04	\N
-386	Nguyễn Gia Vinh	vinh.nguyen386@gmail.com	0529000037	M	1988-06-27	2025-09-13	\N
-387	Lê Anh Dũng	dung.le387@mail.vn	\N	M	1989-03-10	2023-11-13	\N
-388	Lê Văn Cường	cuong.le388@yahoo.com	0934451193	M	1967-02-28	2025-09-29	\N
-389	Nguyễn Văn Hiếu	hieu.nguyen389@outlook.com	0972996282	M	\N	2024-03-08	194
-390	Nguyễn Gia Tùng	tung.nguyen390@gmail.com	0552465332	M	\N	2025-04-11	\N
-391	Nguyễn Công Thắng	thang.nguyen391@yahoo.com	0781948843	M	1971-12-07	2025-08-30	\N
-392	Nguyễn Mai Hương	huong.nguyen392@outlook.com	0595853005	F	1972-07-14	2023-09-22	\N
-393	Nguyễn Hữu Cường	cuong.nguyen393@gmail.com	0799052636	M	1982-11-12	2024-04-15	\N
-394	Phan Minh Vinh	vinh.phan394@mail.vn	0947296020	M	\N	2025-06-21	153
-395	Nguyễn Anh An	an.nguyen395@outlook.com	0357849085	M	\N	2025-02-27	\N
-396	Nguyễn Minh Trung	trung.nguyen396@mail.vn	0589125308	M	2003-05-08	2024-12-29	\N
-397	Lê Minh Long	long.le397@yahoo.com	0748562601	M	1996-07-12	2025-12-04	\N
-398	Nguyễn Hữu Vinh	vinh.nguyen398@gmail.com	0301511377	M	1993-08-07	2024-08-22	22
-399	Phạm Thu Anh	anh.pham399@gmail.com	0929390383	\N	\N	2025-12-05	\N
-400	Phạm Bảo Hạnh	hanh.pham400@outlook.com	\N	F	2006-01-31	2023-12-04	\N
-401	Trần Gia Bình	binh.tran401@mail.vn	0917400477	M	1987-11-25	2024-09-05	\N
-402	Vũ Anh Long	long.vu402@gmail.com	0596101813	M	\N	2024-08-12	\N
-403	Ngô Ngọc Quyên	quyen.ngo403@gmail.com	0332096599	F	1974-08-08	2025-12-19	\N
-404	Trần Gia Khang	khang.tran404@gmail.com	0592966968	M	2000-06-11	2024-10-12	\N
-405	Trần Công Hiếu	hieu.tran405@outlook.com	0364432134	M	1991-11-10	2023-01-27	\N
-406	Nguyễn Công Hùng	hung.nguyen406@gmail.com	0501196081	M	1996-02-03	2025-11-20	291
-407	Trần Đức Dũng	dung.tran407@mail.vn	0511033064	M	2000-04-07	2025-05-19	\N
-408	Nguyễn Văn Dũng	dung.nguyen408@gmail.com	0780567280	M	1975-05-05	2023-08-14	\N
-409	Nguyễn Bảo Yến	yen.nguyen409@gmail.com	0341984604	F	2002-02-10	2024-08-28	\N
-410	Trần Minh Vân	van.tran410@outlook.com	0347580012	F	2003-11-11	2025-12-06	\N
-411	Vũ Bảo Oanh	oanh.vu411@outlook.com	0531736414	F	1984-04-18	2025-05-16	\N
-412	Nguyễn Quang Hiếu	hieu.nguyen412@gmail.com	\N	M	1992-10-24	2023-12-04	33
-413	Đỗ Khánh Lan	lan.do413@yahoo.com	0320139103	F	1990-11-21	2024-12-10	116
-414	Nguyễn Văn Huy	huy.nguyen414@gmail.com	0948852135	M	1969-03-01	2024-07-09	\N
-415	Nguyễn Đức Bình	binh.nguyen415@gmail.com	0777714609	M	1972-11-02	2024-05-23	\N
-416	Nguyễn Đức Cường	cuong.nguyen416@outlook.com	0543426105	\N	1966-09-10	2024-07-27	\N
-417	Dương Văn An	an.duong417@gmail.com	\N	M	1971-10-08	2024-10-28	\N
-418	Nguyễn Thanh Ngân	ngan.nguyen418@gmail.com	0593518100	F	\N	2024-04-26	\N
-419	Huỳnh Ngọc Phương	phuong.huynh419@gmail.com	0971722673	F	1973-07-11	2025-01-25	\N
-420	Huỳnh Văn Hiếu	hieu.huynh420@outlook.com	0345939902	M	1998-11-17	2025-10-20	\N
-421	Phan Mai Anh	anh.phan421@gmail.com	0989041293	\N	\N	2024-07-09	\N
-422	Phan Anh Việt	viet.phan422@gmail.com	0525269310	M	1983-12-18	2025-08-08	\N
-423	Trần Thị Yến	yen.tran423@outlook.com	0953950043	F	\N	2024-04-06	\N
-424	Hoàng Khánh Mai	mai.hoang424@yahoo.com	\N	F	1968-02-01	2025-12-05	\N
-425	Võ Tuấn Thắng	thang.vo425@mail.vn	0591941233	M	\N	2025-05-20	\N
-426	Trần Hoài My	my.tran426@outlook.com	0797654892	\N	2002-05-18	2023-08-15	230
-427	Lê Thanh Diệp	diep.le427@gmail.com	0567782083	F	1991-01-11	2024-04-07	\N
-428	Nguyễn Minh Thắng	thang.nguyen428@gmail.com	0760826856	M	1979-04-01	2024-04-12	\N
-429	Nguyễn Phương Trang	trang.nguyen429@yahoo.com	0964054435	F	1997-01-02	2025-09-02	\N
-430	Lê Phương Mai	mai.le430@yahoo.com	0367876868	F	1969-05-01	2023-06-28	\N
-431	Lý Đức Phúc	phuc.ly431@outlook.com	0373345910	M	1999-08-19	2025-11-09	345
-432	Trần Minh Việt	viet.tran432@gmail.com	0542079629	M	2004-05-04	2023-08-26	\N
-433	Nguyễn Hữu An	an.nguyen433@gmail.com	0595619362	M	1992-06-28	2023-05-31	\N
-434	Nguyễn Thành Đạt	dat.nguyen434@gmail.com	0523034465	M	\N	2024-04-10	\N
-435	Nguyễn Đức Nam	nam.nguyen435@yahoo.com	0594758440	M	1966-06-05	2025-05-16	\N
-436	Nguyễn Mai Dung	dung.nguyen436@outlook.com	0394481337	\N	1989-04-16	2023-10-23	\N
-437	Nguyễn Hoài My	my.nguyen437@outlook.com	0983847240	F	1997-12-12	2024-09-26	\N
-438	Bùi Quang Thắng	thang.bui438@mail.vn	0591204139	M	\N	2025-12-24	\N
-439	Nguyễn Minh Anh	anh.nguyen439@mail.vn	0777488752	F	1965-08-24	2024-05-10	\N
-440	Nguyễn Bảo Giang	giang.nguyen440@gmail.com	0314551519	F	1965-09-26	2025-10-25	\N
-441	Bùi Minh Hương	huong.bui441@gmail.com	0710974996	F	1992-03-06	2025-07-21	\N
-442	Nguyễn Phương Chi	chi.nguyen442@gmail.com	0539353956	F	1973-05-27	2025-03-28	\N
-443	Lê Đức Khoa	Khoa.le443@gmail.com	0746357026	\N	1987-11-06	2023-11-10	435
-444	Trần Quang Vinh	vinh.tran444@yahoo.com	0510934043	M	1976-06-25	2025-05-16	\N
-445	Phạm Gia Tùng	tung.pham445@yahoo.com	0386655115	M	1989-08-19	2024-11-05	\N
-446	Phan Văn Huy	huy.phan446@yahoo.com	0575253358	M	\N	2024-05-26	\N
-447	Nguyễn Mai Ngân	ngan.nguyen447@yahoo.com	0571256394	F	1984-10-05	2024-07-13	\N
-448	Nguyễn Bảo My	my.nguyen448@gmail.com	0530169788	F	2002-08-24	2024-12-10	\N
-449	Hoàng Mai Lan	lan.hoang449@outlook.com	0765568513	F	1966-11-05	2023-07-24	\N
-450	Hoàng Quang Khoa	khoa.hoang450@gmail.com	0304889310	M	1989-08-21	2024-09-24	352
-451	Nguyễn Đức Phong	phong.nguyen451@gmail.com	0338735418	M	\N	2024-06-04	254
-452	Lê Ngọc Mai	mai.le452@mail.vn	0993833865	F	1980-01-03	2023-09-26	\N
-453	Dương Thành Khoa	khoa.duong453@outlook.com	0795375550	M	\N	2024-03-29	343
-454	Đặng Thanh Nga	nga.dang454@yahoo.com	0506997832	F	1989-08-24	2025-08-12	\N
-455	Vũ Mai Diệp	diep.vu455@yahoo.com	0382281786	F	\N	2025-07-30	\N
-456	Lê Bảo Giang	giang.le456@gmail.com	0950338736	F	1991-11-30	2025-11-07	\N
-457	Nguyễn Khánh Nga	nga.nguyen457@mail.vn	0759387856	F	1980-04-24	2023-05-02	\N
-458	Phạm Văn An	an.pham458@mail.vn	0564208535	M	1993-07-19	2024-06-27	\N
-459	Nguyễn Hữu Hiếu	hieu.nguyen459@yahoo.com	0720361703	M	1979-10-22	2025-02-03	\N
-460	Dương Hữu Đạt	dat.duong460@yahoo.com	0783410586	M	\N	2023-11-27	\N
-461	Lê Ngọc Hạnh	hanh.le461@gmail.com	\N	F	1967-03-30	2024-09-01	27
-462	Phạm Thành Tài	tai.pham462@gmail.com	0571865769	M	\N	2025-12-21	\N
-463	Võ Gia Tài	tai.vo463@gmail.com	0785554538	M	2000-11-12	2025-07-30	\N
-464	Phạm Hữu An	an.pham464@gmail.com	0739120378	M	1970-07-22	2023-03-10	330
-465	Nguyễn Công Phong	phong.nguyen465@yahoo.com	0333451506	M	1974-07-12	2025-07-17	\N
-466	Trần Quang Dũng	dung.tran466@mail.vn	0703799236	M	2000-12-23	2025-11-28	436
-467	Phạm Mai Uyên	uyen.pham467@gmail.com	0529669106	F	1979-05-19	2025-01-15	\N
-468	Nguyễn Anh Huy	huy.nguyen468@yahoo.com	0983717273	M	1990-08-23	2023-07-30	\N
-469	Võ Thanh Giang	giang.vo469@gmail.com	0508143513	F	\N	2024-04-25	\N
-470	Bùi Ngọc Anh	anh.bui470@gmail.com	0594824994	F	1975-10-25	2025-02-11	\N
-471	Trần Bảo Chi	chi.tran471@gmail.com	0363849895	F	1982-06-04	2024-07-29	291
-472	Lê Bảo Hà	ha.le472@gmail.com	0742734454	F	\N	2023-11-05	\N
-473	Hoàng Thu Nga	nga.hoang473@mail.vn	0523442359	F	1987-09-04	2025-11-04	\N
-474	Trần Mai Nhung	nhung.tran474@gmail.com	0354302752	F	2004-11-12	2025-04-25	\N
-475	Phan Quang Long	long.phan475@gmail.com	0923824828	M	1969-01-17	2025-07-02	\N
-476	Nguyễn Bảo Uyên	uyen.nguyen476@gmail.com	0997950163	F	2002-10-12	2024-09-21	160
-477	Hoàng Văn Trung	trung.hoang477@outlook.com	0580800368	M	2004-05-27	2024-05-24	\N
-478	Phan Minh Hà	ha.phan478@gmail.com	0775104354	F	2001-10-29	2025-11-16	104
-479	Vũ Thanh Ngân	ngan.vu479@yahoo.com	0513087928	F	2000-01-21	2025-10-17	\N
-480	Bùi Bảo Lan	lan.bui480@outlook.com	0947512565	F	1967-11-27	2025-09-21	\N
-481	Phan Hữu Dũng	dung.phan481@gmail.com	0757329982	M	\N	2025-08-07	393
-482	Hồ Thu Nhung	nhung.ho482@gmail.com	0714927421	F	\N	2025-05-16	\N
-483	Lê Tuấn Khang	khang.le483@outlook.com	0903247415	M	1970-06-13	2025-04-02	\N
-484	Bùi Đức Long	long.bui484@gmail.com	0558003133	M	1969-10-12	2025-06-20	\N
-485	Huỳnh Gia Tài	tai.huynh485@gmail.com	0936606948	M	\N	2025-04-20	263
-486	Hoàng Gia Khoa	khoa.hoang486@gmail.com	0709182567	M	1986-04-27	2025-05-23	\N
-487	Vũ Gia Phúc	phuc.vu487@yahoo.com	0949349897	M	1971-03-27	2025-08-30	\N
-488	Hồ Hoài Phương	phuong.ho488@gmail.com	0562563557	F	1969-11-04	2025-06-19	\N
-489	Nguyễn Thị Mai	mai.nguyen489@mail.vn	0367019750	F	1994-04-26	2025-08-24	\N
-490	Lê Minh Diệp	diep.le490@outlook.com	0999271748	F	1980-05-08	2024-02-10	\N
-491	Nguyễn Thị Phương	phuong.nguyen491@gmail.com	0572029147	F	1988-03-17	2025-07-02	\N
-492	Nguyễn Anh Trung	trung.nguyen492@yahoo.com	0532146041	M	1967-08-08	2023-06-23	\N
-493	Huỳnh Khánh Ngân	ngan.huynh493@yahoo.com	0304454769	\N	1970-03-04	2023-12-10	\N
-494	Hồ Công Việt	viet.ho494@gmail.com	0917568145	M	1998-01-01	2025-06-11	\N
-495	Nguyễn Thanh Mai	mai.nguyen495@gmail.com	0981263287	F	\N	2024-08-20	\N
-496	Nguyễn Anh Vinh	vinh.nguyen496@yahoo.com	0313835506	M	1969-04-01	2024-04-12	\N
-497	Huỳnh Minh Dũng	dung.huynh497@mail.vn	0520124507	M	\N	2024-07-02	\N
-498	Nguyễn Thanh Linh	linh.nguyen498@yahoo.com	0733430262	\N	\N	2024-09-11	\N
-499	Đặng Công An	an.dang499@yahoo.com	0713162991	M	1999-12-09	2025-11-11	148
-500	Trần Văn Huy	huy.tran500@yahoo.com	\N	M	1994-11-25	2025-11-05	\N
-501	Nguyễn Văn Dũng	dung.nguyen501@outlook.com	0946544742	M	2000-08-10	2024-05-11	298
-502	Nguyễn Thu Mai	mai.nguyen502@gmail.com	0358735051	F	1971-10-08	2023-12-06	124
-503	Trần Văn Khang	khang.tran503@gmail.com	\N	M	1983-02-13	2025-01-09	\N
-504	Dương Khánh Uyên	uyen.duong504@gmail.com	0587478631	F	2005-02-19	2025-01-14	\N
-505	Đặng Bảo Anh	anh.dang505@gmail.com	0509194021	F	2002-08-12	2023-05-28	\N
-506	Nguyễn Anh Toàn	toan.nguyen506@gmail.com	0544445545	M	1967-03-28	2024-07-23	\N
-507	Võ Hữu Vinh	vinh.vo507@mail.vn	0388091780	M	\N	2023-04-14	\N
-508	Võ Ngọc Vân	van.vo508@gmail.com	0970743423	F	2001-11-03	2023-08-07	\N
-509	Nguyễn Minh Uyên	uyen.nguyen509@mail.vn	0729243272	F	2000-06-24	2025-11-01	\N
-510	Trần Ngọc Nhung	nhung.tran510@gmail.com	\N	F	1980-05-30	2025-12-08	\N
-511	Võ Hữu Khoa	khoa.vo511@gmail.com	0501759082	M	1983-12-16	2025-07-25	\N
-512	Hoàng Ngọc Nga	nga.hoang512@gmail.com	0582267990	F	1965-03-08	2023-07-15	\N
-513	Lê Đức Sơn	son.le513@outlook.com	\N	M	\N	2023-02-06	122
-514	Trần Bảo Hương	huong.tran514@gmail.com	0752260373	F	\N	2025-06-14	\N
-515	Hoàng Quang Thắng	thang.hoang515@gmail.com	0937646916	M	1965-04-30	2025-05-07	\N
-516	Trần Thu Quyên	quyen.tran516@outlook.com	0950905526	F	1988-09-09	2024-10-28	\N
-517	Lý Hữu Vinh	vinh.ly517@outlook.com	\N	M	1983-08-07	2024-12-04	439
-518	Phạm Phương Quyên	quyen.pham518@yahoo.com	0357778076	F	2002-05-04	2024-04-12	\N
-519	Đỗ Thu Quyên	Quyen.do519@yahoo.com	0901074023	F	1980-04-06	2024-11-21	\N
-520	Nguyễn Khánh Lan	lan.nguyen520@gmail.com	0326268985	F	1971-07-08	2025-01-24	\N
-521	Lê Hữu Hùng	hung.le521@mail.vn	0776086522	M	1971-06-05	2024-06-27	108
-522	Đỗ Thành Sơn	son.do522@yahoo.com	0315788816	M	\N	2025-07-29	\N
-523	Lê Đức Khoa	khoa.le523@gmail.com	0924623324	M	1995-04-03	2023-10-15	\N
-524	Nguyễn Khánh Hoa	hoa.nguyen524@yahoo.com	0933481108	F	1972-09-03	2025-03-23	\N
-525	Phan Bảo Oanh	oanh.phan525@yahoo.com	0908388253	F	1979-08-12	2025-02-26	\N
-526	Lê Hữu Vinh	vinh.le526@gmail.com	0366110678	M	1976-05-04	2023-07-12	\N
-527	Hoàng Bảo Dung	dung.hoang527@mail.vn	0790175534	F	2003-03-29	2024-12-21	\N
-528	Hoàng Thanh Uyên	uyen.hoang528@gmail.com	0325938744	F	\N	2025-06-23	\N
-529	Nguyễn Anh Sơn	son.nguyen529@gmail.com	0768143249	M	\N	2025-12-22	\N
-530	Lê Công Thắng	thang.le530@gmail.com	0580269461	M	\N	2025-05-15	\N
-531	Bùi Thành Việt	viet.bui531@yahoo.com	\N	M	1981-01-21	2024-12-28	\N
-532	Trần Minh Hùng	hung.tran532@yahoo.com	\N	M	\N	2023-03-22	92
-533	Đặng Minh Oanh	oanh.dang533@mail.vn	0745484238	F	1994-10-06	2025-10-15	\N
-534	Hoàng Bảo Uyên	uyen.hoang534@gmail.com	0391501542	F	\N	2025-12-28	308
-535	Nguyễn Văn Phúc	phuc.nguyen535@gmail.com	\N	M	1996-06-18	2024-06-14	\N
-536	Huỳnh Đức Bình	binh.huynh536@mail.vn	0350956377	M	\N	2024-07-06	\N
-537	Nguyễn Thanh Oanh	oanh.nguyen537@outlook.com	0384582606	\N	1989-02-20	2023-04-08	\N
-538	Nguyễn Mai My	my.nguyen538@yahoo.com	\N	F	1969-05-06	2023-06-11	\N
-539	Nguyễn Công Quân	quan.nguyen539@yahoo.com	0745698868	M	1983-01-04	2023-07-15	255
-540	Đỗ Thanh Lan	lan.do540@mail.vn	0979667607	F	1993-04-02	2024-06-19	\N
-541	Lê Thị Oanh	oanh.le541@gmail.com	\N	F	1980-06-22	2023-05-30	439
-542	Lê Quang Trung	trung.le542@gmail.com	0525083012	M	1975-08-30	2023-07-19	\N
-543	Hồ Thành Đạt	dat.ho543@yahoo.com	\N	M	\N	2025-11-27	\N
-544	Nguyễn Thành Hiếu	hieu.nguyen544@yahoo.com	0712950746	M	1975-03-04	2025-05-13	405
-545	Dương Công Sơn	son.duong545@yahoo.com	0949888548	M	1965-07-27	2024-09-16	122
-546	Lê Mai Anh	anh.le546@outlook.com	0742420160	F	\N	2023-10-15	\N
-547	Phan Công Việt	viet.phan547@gmail.com	0906118845	M	1973-10-17	2023-02-12	\N
-548	Nguyễn Hữu Việt	Viet.nguyen548@outlook.com	\N	M	1979-04-07	2025-06-26	134
-549	Nguyễn Thu My	my.nguyen549@outlook.com	0963185135	F	\N	2025-09-16	\N
-550	Đặng Thị Hạnh	hanh.dang550@gmail.com	0301433915	F	1997-08-18	2024-03-08	\N
-551	Võ Ngọc Chi	chi.vo551@outlook.com	0511332951	F	1999-04-04	2025-03-17	471
-552	Lý Phương Uyên	uyen.ly552@outlook.com	0313241655	F	1983-08-23	2024-08-04	\N
-553	Trần Thành Huy	huy.tran553@mail.vn	0745492977	M	1996-05-03	2025-06-18	\N
-554	Nguyễn Bảo Diệp	Diep.nguyen554@yahoo.com	\N	F	2001-03-20	2023-09-02	\N
-555	Lê Anh Huy	huy.le555@outlook.com	0378135124	M	1985-01-08	2025-09-03	\N
-556	Phan Bảo Ngân	Ngan.phan556@gmail.com	0978365273	F	\N	2024-02-17	\N
-557	Vũ Đức Trung	trung.vu557@outlook.com	0376767390	M	\N	2023-04-29	\N
-558	Nguyễn Ngọc Linh	linh.nguyen558@gmail.com	0550800074	F	1986-06-16	2024-10-21	\N
-559	Nguyễn Thu Giang	giang.nguyen559@gmail.com	0770274565	F	1982-01-17	2023-11-14	\N
-560	Ngô Gia Cường	cuong.ngo560@mail.vn	0547181584	M	1970-06-18	2025-05-02	\N
-561	Ngô Minh Sơn	son.ngo561@gmail.com	\N	M	1985-01-20	2023-10-07	\N
-562	Nguyễn Quang Phúc	phuc.nguyen562@gmail.com	0559798972	M	1977-01-08	2025-05-15	165
-563	Đỗ Công Phúc	phuc.do563@gmail.com	0970424206	M	2006-07-27	2024-04-07	\N
-564	Phạm Thu Anh	anh.pham564@gmail.com	0500766185	F	1993-08-11	2025-06-02	\N
-565	Đỗ Thanh Lan	Lan.do565@mail.vn	0591161561	\N	1970-11-20	2024-12-25	\N
-566	Lê Quang Trung	trung.le566@gmail.com	0529152204	M	1979-12-10	2025-08-11	\N
-567	Vũ Bảo Yến	yen.vu567@gmail.com	0955858866	F	1965-12-04	2024-08-31	345
-568	Hồ Tuấn Việt	viet.ho568@gmail.com	0918030550	M	\N	2023-09-14	\N
-569	Đặng Thị Quyên	quyen.dang569@outlook.com	0963728269	F	1971-02-11	2024-03-18	\N
-570	Nguyễn Quang Toàn	Toan.nguyen570@outlook.com	\N	M	1976-10-06	2024-10-18	291
-571	Phạm Thành Hải	hai.pham571@yahoo.com	0399620358	\N	1974-08-14	2024-03-08	\N
-572	Vũ Khánh Nhung	nhung.vu572@gmail.com	0592083248	F	1999-08-05	2024-05-03	190
-573	Phan Hoài Uyên	uyen.phan573@gmail.com	0349958089	F	1980-08-05	2025-05-30	\N
-574	Nguyễn Bảo Hương	huong.nguyen574@outlook.com	\N	F	\N	2024-02-19	\N
-575	Nguyễn Minh Anh	anh.nguyen575@outlook.com	0569792461	F	2000-04-05	2025-08-18	\N
-576	Đặng Hữu Cường	Cuong.dang576@outlook.com	0997550656	\N	\N	2025-05-11	\N
-577	Lê Anh Toàn	toan.le577@outlook.com	0363420498	M	1973-11-22	2025-08-01	\N
-578	Huỳnh Quang Long	long.huynh578@yahoo.com	0316353914	M	1970-02-01	2025-10-16	\N
-579	Đặng Hoài Giang	giang.dang579@mail.vn	0978134518	F	\N	2024-10-24	\N
-580	Lê Minh Việt	Viet.le580@gmail.com	\N	M	\N	2023-07-05	\N
-581	Nguyễn Mai Yến	yen.nguyen581@mail.vn	0323261704	F	1966-02-05	2025-01-31	\N
-582	Vũ Thị Uyên	uyen.vu582@outlook.com	0929950577	F	2002-12-22	2023-05-11	\N
-583	Huỳnh Bảo Nga	nga.huynh583@yahoo.com	0304693706	F	1965-06-03	2024-11-15	222
-584	Trần Văn Nam	nam.tran584@yahoo.com	0971498994	M	1965-10-20	2024-09-07	\N
-585	Phạm Gia Sơn	son.pham585@outlook.com	\N	M	1989-12-10	2025-07-07	\N
-586	Nguyễn Công Tùng	tung.nguyen586@yahoo.com	0704483633	M	1966-01-25	2023-10-07	\N
-587	Nguyễn Văn Khoa	khoa.nguyen587@gmail.com	0734220806	M	1989-11-09	2025-01-27	\N
-588	Đặng Hoài Uyên	uyen.dang588@gmail.com	0751958884	F	\N	2023-08-10	307
-589	Nguyễn Khánh Nga	nga.nguyen589@gmail.com	0927465843	F	\N	2025-06-16	405
-590	Trần Đức Hải	hai.tran590@gmail.com	0549955174	M	1978-12-22	2025-10-27	\N
-591	Nguyễn Thị Ngân	ngan.nguyen591@gmail.com	0932350390	F	1975-05-06	2024-08-21	\N
-592	Hoàng Đức An	an.hoang592@yahoo.com	0771801769	M	1987-01-13	2023-07-30	\N
-593	Trần Quang Bình	binh.tran593@gmail.com	0714512301	M	\N	2024-07-22	\N
-594	Vũ Ngọc Lan	lan.vu594@yahoo.com	0916439557	F	1983-11-30	2023-05-25	\N
-595	Võ Mai Quyên	quyen.vo595@gmail.com	0555378823	F	\N	2023-07-09	\N
-596	Lê Minh Phong	phong.le596@gmail.com	0540045429	M	1999-04-25	2025-08-02	\N
-597	Lê Minh An	an.le597@mail.vn	0515899372	M	\N	2025-06-24	\N
-598	Trần Ngọc Trang	trang.tran598@mail.vn	\N	F	1979-05-03	2023-06-06	201
-599	Trần Ngọc Yến	yen.tran599@gmail.com	0317113734	F	1971-03-12	2023-09-16	\N
-600	Bùi Phương Oanh	oanh.bui600@gmail.com	0575205315	F	\N	2025-01-11	559
-601	Nguyễn Thanh Nga	nga.nguyen601@gmail.com	0790136715	F	1998-03-25	2025-01-28	\N
-602	Nguyễn Thành Đạt	dat.nguyen602@gmail.com	0984306833	M	2003-09-08	2025-10-25	\N
-603	Ngô Văn Dũng	dung.ngo603@outlook.com	0320481158	M	1982-06-07	2024-05-01	\N
-604	Nguyễn Hoài Chi	chi.nguyen604@mail.vn	0548104527	F	1995-01-20	2024-09-03	\N
-605	Phạm Công Việt	viet.pham605@gmail.com	0936892291	M	1978-12-23	2023-12-11	\N
-606	Phạm Minh Nam	nam.pham606@gmail.com	0515314794	M	\N	2025-02-23	\N
-607	Hoàng Hoài Yến	yen.hoang607@gmail.com	0573944512	F	1983-11-05	2023-12-23	10
-608	Hoàng Thị Dung	dung.hoang608@gmail.com	0799254227	F	1988-04-18	2024-01-19	\N
-609	Lê Hoài Phương	phuong.le609@gmail.com	0592130487	F	1999-12-18	2025-03-22	241
-610	Nguyễn Quang Nam	nam.nguyen610@gmail.com	0979720684	M	\N	2025-12-20	\N
-611	Nguyễn Minh Tùng	tung.nguyen611@gmail.com	0392407759	M	1998-07-25	2025-07-20	\N
-612	Bùi Khánh Nga	nga.bui612@mail.vn	0992396353	F	1981-06-29	2024-04-09	\N
-613	Phan Thành Tùng	tung.phan613@gmail.com	0509865893	M	1967-09-09	2025-12-21	\N
-614	Hoàng Thị Linh	linh.hoang614@outlook.com	0948733861	\N	1986-11-07	2023-11-13	85
-615	Hoàng Thu Oanh	oanh.hoang615@yahoo.com	0399843616	F	1987-08-23	2024-12-14	\N
-616	Trần Ngọc Yến	yen.tran616@gmail.com	0967292885	F	1978-01-28	2025-01-07	\N
-617	Lê Thu Diệp	diep.le617@gmail.com	0977422457	F	1974-11-19	2025-01-27	\N
-618	Nguyễn Phương Thảo	thao.nguyen618@gmail.com	0539158801	F	\N	2025-07-11	\N
-619	Trần Thị Uyên	uyen.tran619@gmail.com	\N	F	2001-06-05	2025-04-29	\N
-620	Hoàng Minh Bình	binh.hoang620@gmail.com	0584348019	M	2002-12-16	2024-07-17	\N
-621	Võ Khánh Hương	huong.vo621@gmail.com	0917516895	\N	1985-02-16	2025-08-10	\N
-622	Trần Minh Toàn	toan.tran622@mail.vn	0916469554	M	1982-11-13	2025-09-07	\N
-623	Hoàng Minh Long	long.hoang623@gmail.com	0740512038	M	\N	2024-02-26	\N
-624	Võ Quang Dũng	dung.vo624@gmail.com	\N	M	1970-01-08	2023-03-20	\N
-625	Vũ Hoài Mai	mai.vu625@gmail.com	0523639963	F	1968-07-04	2025-07-02	174
-626	Vũ Mai Trang	Trang.vu626@gmail.com	0907731841	F	1970-12-07	2024-04-03	\N
-627	Lê Bảo Quyên	quyen.le627@yahoo.com	\N	F	1980-10-29	2024-08-09	\N
-628	Lê Đức Phúc	phuc.le628@yahoo.com	0944923464	M	1998-10-19	2024-12-13	\N
-629	Nguyễn Văn Tùng	tung.nguyen629@gmail.com	\N	M	2005-05-08	2025-10-11	\N
-630	Nguyễn Mai Phương	phuong.nguyen630@yahoo.com	0313812995	F	1994-02-08	2025-10-19	\N
-631	Phan Ngọc Hạnh	hanh.phan631@outlook.com	0779926382	F	1965-02-03	2024-02-05	\N
-632	Nguyễn Gia Khang	khang.nguyen632@gmail.com	0545478530	M	1998-04-23	2025-03-18	\N
-633	Phan Phương Linh	linh.phan633@yahoo.com	0748749657	F	1983-09-15	2024-08-20	\N
-634	Lê Hữu Sơn	son.le634@gmail.com	0986076900	M	1989-02-11	2023-10-28	\N
-635	Huỳnh Thị Nga	nga.huynh635@gmail.com	0944472175	F	\N	2025-07-14	\N
-636	Phạm Minh Hoa	hoa.pham636@yahoo.com	0398392773	F	2006-06-13	2023-09-29	\N
-637	Đỗ Hữu Vinh	vinh.do637@gmail.com	0505345412	M	1977-11-07	2025-08-10	\N
-638	Nguyễn Thị Yến	yen.nguyen638@gmail.com	0920358092	F	1994-06-23	2023-12-04	447
-639	Phan Anh Tùng	tung.phan639@gmail.com	0902036553	M	1995-06-05	2025-06-21	7
-640	Nguyễn Khánh Nhung	nhung.nguyen640@gmail.com	0388230781	F	\N	2024-09-30	313
-641	Nguyễn Ngọc Yến	yen.nguyen641@gmail.com	0569912954	F	\N	2025-06-21	\N
-642	Huỳnh Khánh Nga	nga.huynh642@gmail.com	0587975170	F	1997-01-27	2025-09-24	\N
-643	Hồ Anh Tài	tai.ho643@yahoo.com	0798961927	M	1996-09-18	2023-12-08	\N
-644	Đỗ Hoài Hà	ha.do644@gmail.com	0591587490	F	\N	2025-04-14	\N
-645	Nguyễn Thị Linh	linh.nguyen645@gmail.com	\N	F	2006-04-23	2025-11-05	\N
-646	Phạm Mai Mai	mai.pham646@outlook.com	0320935730	F	1994-01-20	2023-07-17	217
-647	Lý Anh Hải	hai.ly647@gmail.com	0324170834	\N	\N	2024-08-05	495
-648	Phan Khánh Uyên	uyen.phan648@gmail.com	0937509819	F	1970-12-26	2024-10-26	\N
-649	Hoàng Hữu Huy	huy.hoang649@gmail.com	0347877688	M	\N	2025-08-05	\N
-650	Nguyễn Quang Cường	cuong.nguyen650@gmail.com	0370605021	M	\N	2023-06-20	\N
-651	Trần Thị Thảo	thao.tran651@gmail.com	0987326037	F	1978-05-13	2024-08-31	648
-652	Bùi Thu Linh	linh.bui652@outlook.com	0920070180	F	1999-11-02	2024-10-08	\N
-653	Phạm Mai Trang	trang.pham653@outlook.com	0900709704	F	1998-03-28	2025-02-12	\N
-654	Hoàng Phương Nga	nga.hoang654@mail.vn	0521271219	F	1999-10-09	2024-09-13	\N
-655	Nguyễn Văn Tài	tai.nguyen655@gmail.com	0557158755	M	\N	2025-04-23	\N
-656	Nguyễn Văn Thắng	thang.nguyen656@gmail.com	0945029582	M	1981-10-30	2024-05-02	186
-657	Phạm Hoài Trang	trang.pham657@mail.vn	0370720905	F	\N	2024-10-18	\N
-658	Dương Gia Quân	quan.duong658@mail.vn	0552161106	M	1976-03-20	2024-11-25	\N
-659	Hoàng Mai Hoa	hoa.hoang659@gmail.com	\N	F	1998-02-04	2024-11-03	\N
-660	Nguyễn Công Nam	nam.nguyen660@yahoo.com	0303650259	M	1978-05-04	2025-03-20	151
-661	Võ Thị Ngân	ngan.vo661@yahoo.com	0525087492	F	2005-02-24	2025-11-10	59
-662	Nguyễn Quang Bình	binh.nguyen662@yahoo.com	0551092810	M	1998-08-09	2024-12-24	\N
-663	Hồ Bảo Oanh	oanh.ho663@mail.vn	0779227379	F	1978-03-22	2023-09-25	\N
-664	Hoàng Bảo Oanh	oanh.hoang664@outlook.com	0963351378	F	1981-09-21	2025-01-12	\N
-665	Đặng Thanh Phương	phuong.dang665@outlook.com	0543014930	F	1972-02-14	2025-03-25	\N
-666	Võ Mai Nga	nga.vo666@yahoo.com	\N	F	1999-04-05	2023-11-10	423
-667	Nguyễn Gia Dũng	dung.nguyen667@mail.vn	0544653859	M	1994-12-19	2025-03-13	\N
-668	Đỗ Thành Cường	cuong.do668@outlook.com	0329545389	M	1991-10-22	2025-10-17	\N
-669	Trần Văn Hiếu	hieu.tran669@outlook.com	\N	M	1972-11-11	2025-09-09	\N
-670	Võ Anh Quân	quan.vo670@yahoo.com	0515363031	M	1984-02-29	2024-11-22	\N
-671	Nguyễn Tuấn Quân	quan.nguyen671@yahoo.com	0356075691	M	\N	2025-07-23	\N
-672	Vũ Thu Mai	mai.vu672@gmail.com	\N	F	1990-03-26	2025-09-13	29
-673	Dương Văn Thắng	thang.duong673@mail.vn	0398390462	M	1972-02-26	2025-07-24	\N
-674	Phan Ngọc Giang	giang.phan674@outlook.com	0358536238	F	1999-02-16	2025-02-03	\N
-675	Đặng Minh Chi	chi.dang675@gmail.com	0963118571	F	2006-04-01	2025-03-06	\N
-676	Võ Gia Nam	nam.vo676@gmail.com	0996156697	M	1977-09-23	2025-06-07	\N
-677	Trần Gia Nam	nam.tran677@yahoo.com	0362689839	M	\N	2023-06-04	\N
-678	Lê Minh Nga	nga.le678@gmail.com	0757451003	F	\N	2024-06-14	\N
-679	Hoàng Thị Hạnh	hanh.hoang679@gmail.com	0933372155	F	1967-04-17	2024-12-31	\N
-680	Trần Thu Linh	linh.tran680@outlook.com	0759476460	F	1990-12-22	2023-11-24	238
-681	Hoàng Tuấn Hùng	hung.hoang681@gmail.com	0936457594	M	\N	2023-07-23	519
-682	Trần Minh Việt	viet.tran682@yahoo.com	\N	M	\N	2025-02-02	\N
-683	Nguyễn Anh Việt	viet.nguyen683@yahoo.com	0786717821	M	2001-12-11	2024-02-27	515
-684	Hồ Bảo Hương	huong.ho684@outlook.com	0754911485	F	1980-03-15	2023-04-29	\N
-685	Vũ Anh Phúc	phuc.vu685@gmail.com	\N	M	2002-05-30	2025-12-07	\N
-686	Trần Hoài Hạnh	hanh.tran686@mail.vn	0932228683	F	2000-09-28	2025-05-19	\N
-687	Huỳnh Minh Chi	chi.huynh687@outlook.com	0701383479	F	\N	2024-05-06	\N
-688	Trần Bảo Trang	trang.tran688@yahoo.com	0360560226	F	2001-04-23	2023-10-12	\N
-689	Trần Thành Khoa	khoa.tran689@gmail.com	0928874275	M	2006-11-23	2025-09-05	\N
-690	Vũ Ngọc Phương	phuong.vu690@gmail.com	0715306981	F	1977-04-10	2023-12-08	\N
-691	Vũ Thanh Nga	nga.vu691@mail.vn	0934969023	F	\N	2024-10-20	\N
-692	Bùi Bảo Hà	ha.bui692@outlook.com	0323628224	F	2003-06-13	2023-07-12	\N
-693	Lê Gia Nam	nam.le693@gmail.com	0514721596	M	1986-09-29	2023-02-03	\N
-694	Lê Đức Long	long.le694@mail.vn	0335751111	\N	1985-11-09	2023-06-05	238
-695	Lê Thành Phong	phong.le695@gmail.com	\N	M	\N	2025-08-05	\N
-696	Lê Khánh Hà	ha.le696@mail.vn	0516069823	F	1974-01-21	2024-12-15	\N
-697	Bùi Văn Trung	trung.bui697@yahoo.com	0923994917	M	1969-02-27	2024-11-11	\N
-698	Nguyễn Hữu Vinh	vinh.nguyen698@gmail.com	0332545729	M	1999-11-19	2025-10-29	\N
-699	Lê Thanh Nhung	nhung.le699@gmail.com	0520157876	F	1999-06-19	2025-01-09	\N
-700	Nguyễn Anh Cường	cuong.nguyen700@gmail.com	0914079103	M	1987-01-19	2025-10-23	\N
-701	Phan Đức Long	long.phan701@gmail.com	0327501610	M	1966-05-06	2023-02-10	\N
-702	Nguyễn Hữu Toàn	toan.nguyen702@gmail.com	0963410513	M	\N	2024-12-19	\N
-703	Trần Khánh Lan	lan.tran703@gmail.com	0586702927	F	\N	2023-09-03	\N
-704	Nguyễn Thành Toàn	toan.nguyen704@outlook.com	0984526768	\N	1997-04-13	2024-05-22	\N
-705	Phạm Hữu Quân	quan.pham705@gmail.com	\N	M	\N	2024-05-22	\N
-706	Phan Thành Phong	phong.phan706@mail.vn	0770258161	M	1966-08-22	2024-02-16	311
-707	Nguyễn Quang Phong	phong.nguyen707@yahoo.com	0386471560	M	1968-09-23	2025-10-04	\N
-708	Trần Ngọc Phương	phuong.tran708@gmail.com	0707492646	F	2001-10-06	2025-05-31	\N
-709	Hoàng Thu Lan	lan.hoang709@mail.vn	0928244734	F	1990-08-14	2025-03-29	\N
-710	Lý Hữu Thắng	thang.ly710@gmail.com	0378034952	M	1988-05-23	2025-12-15	\N
-711	Lê Ngọc Trang	trang.le711@outlook.com	0322920033	F	1990-10-24	2025-10-22	570
-712	Phạm Mai Uyên	uyen.pham712@gmail.com	0353486537	F	2004-05-10	2024-06-26	\N
-713	Lê Minh Nhung	nhung.le713@gmail.com	0998919099	F	\N	2025-10-23	101
-714	Phạm Hoài Linh	linh.pham714@mail.vn	0355082922	F	1981-10-06	2025-08-31	\N
-715	Nguyễn Bảo Linh	linh.nguyen715@outlook.com	0792505675	F	1988-08-15	2023-05-09	\N
-716	Hoàng Khánh Anh	anh.hoang716@gmail.com	\N	F	2000-01-14	2024-10-09	\N
-717	Phan Quang Cường	cuong.phan717@yahoo.com	0945803163	M	1994-09-15	2024-11-05	\N
-718	Nguyễn Phương Diệp	diep.nguyen718@gmail.com	0750387948	F	2005-05-01	2025-02-27	117
-719	Trần Mai Dung	dung.tran719@mail.vn	0506031559	F	1983-10-21	2023-06-22	\N
-720	Nguyễn Minh Phúc	phuc.nguyen720@gmail.com	0716192103	M	1992-09-04	2025-12-13	\N
-721	Nguyễn Công Việt	viet.nguyen721@gmail.com	0941096378	M	1990-05-27	2025-04-11	489
-722	Trần Anh Vinh	vinh.tran722@mail.vn	0919716187	M	1989-11-29	2024-06-01	\N
-723	Võ Khánh Chi	chi.vo723@gmail.com	0990822365	F	1986-12-09	2023-09-12	\N
-724	Đặng Đức Thắng	thang.dang724@gmail.com	0579289292	M	1992-08-27	2024-06-03	\N
-725	Trần Minh Quân	quan.tran725@yahoo.com	0347254156	M	2003-05-21	2025-10-29	\N
-726	Vũ Thành Hải	hai.vu726@gmail.com	\N	M	1967-04-21	2025-04-18	\N
-727	Huỳnh Phương Ngân	ngan.huynh727@mail.vn	0705740472	F	2001-01-23	2023-11-12	\N
-728	Phạm Anh Hiếu	hieu.pham728@gmail.com	0561478360	M	\N	2024-08-06	237
-729	Trần Thị Vân	van.tran729@mail.vn	0576026948	F	1990-05-02	2025-12-20	387
-730	Đỗ Mai Thảo	Thao.do730@gmail.com	0356530746	F	2001-11-14	2025-01-15	\N
-731	Phạm Tuấn Khang	khang.pham731@mail.vn	0506910284	M	1979-03-08	2024-10-01	\N
-732	Hoàng Phương Diệp	diep.hoang732@mail.vn	0983878500	F	1992-01-01	2025-04-16	\N
-733	Đặng Khánh Anh	anh.dang733@gmail.com	0786854799	F	1992-03-29	2025-07-10	\N
-734	Phan Thị Uyên	uyen.phan734@mail.vn	0741839558	\N	1967-08-12	2025-06-11	\N
-735	Nguyễn Công Đạt	dat.nguyen735@gmail.com	0900097004	M	2001-07-08	2025-05-22	\N
-736	Huỳnh Ngọc Giang	giang.huynh736@yahoo.com	0553919496	F	1970-03-17	2023-07-24	\N
-737	Nguyễn Thị Hương	huong.nguyen737@gmail.com	0304446559	F	2000-12-25	2023-09-12	\N
-738	Trần Gia Toàn	toan.tran738@gmail.com	0371057447	M	1987-06-09	2025-03-24	204
-739	Nguyễn Văn Khoa	khoa.nguyen739@mail.vn	0573477425	M	1985-12-17	2024-06-25	\N
-740	Dương Thanh Mai	mai.duong740@yahoo.com	\N	F	1984-10-11	2024-10-07	\N
-741	Hoàng Mai Dung	dung.hoang741@mail.vn	0500671203	F	2006-12-12	2025-11-19	\N
-742	Đỗ Mai Hương	huong.do742@mail.vn	0728943011	F	1996-05-08	2024-12-17	\N
-743	Vũ Ngọc Nga	nga.vu743@gmail.com	0913240393	F	1988-11-09	2024-12-30	402
-744	Nguyễn Thanh Diệp	diep.nguyen744@gmail.com	\N	F	1980-10-26	2025-12-25	\N
-745	Nguyễn Khánh Quyên	quyen.nguyen745@gmail.com	0379083706	F	\N	2024-10-16	368
-746	Đặng Thanh My	my.dang746@gmail.com	0354293864	F	1990-01-07	2023-07-08	\N
-747	Bùi Ngọc Lan	lan.bui747@yahoo.com	0977325001	F	1970-02-19	2025-08-26	\N
-748	Trần Hữu Việt	viet.tran748@mail.vn	0743053947	M	2000-08-04	2024-08-02	\N
-749	Trần Văn An	an.tran749@gmail.com	0905503181	M	2005-07-25	2025-01-18	\N
-750	Phạm Quang Hùng	hung.pham750@gmail.com	0782107502	M	1973-08-14	2025-01-20	\N
-751	Phan Tuấn Hải	hai.phan751@gmail.com	0742633143	M	1987-11-29	2024-11-22	\N
-752	Hoàng Bảo Trang	trang.hoang752@gmail.com	0576517976	F	1996-09-13	2023-10-21	\N
-753	Võ Mai Ngân	ngan.vo753@gmail.com	0304172931	\N	1978-11-01	2025-09-10	\N
-754	Trần Hữu Tùng	tung.tran754@gmail.com	\N	M	1982-09-09	2025-08-24	\N
-755	Nguyễn Văn Trung	trung.nguyen755@yahoo.com	0371483196	M	1988-12-22	2024-08-21	\N
-756	Hoàng Khánh Mai	mai.hoang756@gmail.com	0589975471	F	\N	2023-02-06	\N
-757	Nguyễn Thị Linh	linh.nguyen757@gmail.com	0322778478	F	\N	2024-10-14	\N
-758	Phan Bảo Linh	linh.phan758@mail.vn	0747612396	F	1978-07-19	2025-07-24	\N
-759	Nguyễn Bảo Yến	yen.nguyen759@mail.vn	0526241902	\N	1987-06-16	2023-10-28	471
-760	Nguyễn Anh Đạt	dat.nguyen760@outlook.com	0502269630	M	1983-05-20	2023-07-11	\N
-761	Trần Quang Hùng	hung.tran761@gmail.com	0952613201	M	1988-01-14	2024-05-16	\N
-762	Trần Mai Hạnh	hanh.tran762@gmail.com	0764427519	F	1985-11-12	2025-11-05	\N
-763	Đỗ Tuấn Trung	trung.do763@gmail.com	0510102788	M	2002-10-23	2025-09-13	\N
-764	Nguyễn Bảo Hoa	hoa.nguyen764@gmail.com	0581885028	F	1992-06-20	2024-12-23	106
-765	Võ Ngọc Hà	ha.vo765@outlook.com	0565448873	F	1984-03-24	2024-04-19	\N
-766	Trần Minh Huy	huy.tran766@yahoo.com	0566264663	M	1992-03-12	2024-12-09	\N
-767	Nguyễn Quang Khang	khang.nguyen767@gmail.com	0706294510	M	1987-01-10	2023-07-25	\N
-768	Nguyễn Phương Giang	giang.nguyen768@outlook.com	0998335846	F	2003-05-16	2025-12-17	\N
-769	Nguyễn Bảo Oanh	oanh.nguyen769@mail.vn	\N	F	\N	2025-06-14	\N
-770	Nguyễn Thu Oanh	oanh.nguyen770@gmail.com	0720839908	F	1995-04-14	2024-02-04	\N
-771	Trần Minh Chi	chi.tran771@gmail.com	0542783650	F	2005-05-03	2025-07-02	\N
-772	Võ Văn Vinh	vinh.vo772@outlook.com	0301102918	M	1985-08-15	2025-11-07	410
-773	Vũ Thanh Nhung	nhung.vu773@yahoo.com	\N	F	1999-08-26	2024-10-04	\N
-774	Phan Thành Tùng	tung.phan774@outlook.com	0592017738	M	1978-08-25	2024-12-24	\N
-775	Võ Thị My	my.vo775@gmail.com	0972108784	F	1996-06-11	2023-10-23	\N
-776	Trần Quang Huy	huy.tran776@yahoo.com	0529539008	M	1969-11-12	2025-12-21	\N
-777	Trần Văn Sơn	son.tran777@gmail.com	0340326354	M	1999-02-18	2025-11-30	\N
-778	Nguyễn Bảo Anh	anh.nguyen778@mail.vn	0359790437	F	\N	2024-07-08	\N
-779	Phan Hữu Vinh	vinh.phan779@gmail.com	0737542293	M	1971-08-14	2023-12-17	\N
-780	Phạm Gia Vinh	Vinh.pham780@mail.vn	0570000520	M	\N	2025-09-14	\N
-781	Bùi Minh Hoa	hoa.bui781@mail.vn	\N	F	1988-02-08	2024-08-29	\N
-782	Lê Hoài My	my.le782@yahoo.com	0977899624	F	1980-03-21	2025-09-07	\N
-783	Huỳnh Phương Mai	mai.huynh783@gmail.com	0744213244	F	\N	2025-10-12	\N
-784	Lý Thu Thảo	thao.ly784@gmail.com	\N	F	1993-05-13	2023-09-05	\N
-785	Nguyễn Ngọc Hoa	hoa.nguyen785@gmail.com	0324792055	\N	1968-03-22	2025-11-25	\N
-786	Phan Phương Dung	dung.phan786@gmail.com	0371576087	F	\N	2025-11-20	\N
-787	Nguyễn Văn Phong	phong.nguyen787@gmail.com	0351550363	M	1976-10-02	2025-01-29	\N
-788	Dương Văn Khang	khang.duong788@gmail.com	\N	M	\N	2025-07-09	\N
-789	Võ Thị Uyên	uyen.vo789@outlook.com	0386240394	F	\N	2025-04-29	772
-790	Đỗ Hữu Huy	huy.do790@gmail.com	0956382315	M	1992-07-06	2024-07-02	\N
-791	Phan Anh Vinh	vinh.phan791@gmail.com	0395515293	M	1975-09-10	2025-11-04	\N
-792	Nguyễn Công Dũng	dung.nguyen792@gmail.com	\N	M	2003-11-21	2023-05-28	\N
-793	Đặng Anh Phong	phong.dang793@mail.vn	0985582221	M	1981-08-21	2025-12-20	1
-794	Trần Quang Khang	khang.tran794@yahoo.com	0343072240	M	1975-01-19	2025-11-23	460
-795	Trần Gia Cường	cuong.tran795@gmail.com	0358742913	M	\N	2025-03-25	\N
-796	Đặng Đức Khoa	khoa.dang796@mail.vn	0998471642	M	2006-03-29	2025-01-28	\N
-797	Nguyễn Quang Cường	cuong.nguyen797@gmail.com	0790574085	M	1983-10-30	2023-10-10	\N
-798	Nguyễn Thị Giang	giang.nguyen798@gmail.com	0786941911	F	2002-06-28	2023-04-24	\N
-799	Nguyễn Tuấn Khang	khang.nguyen799@gmail.com	0777380421	M	1995-09-14	2025-06-13	722
-800	Trần Thành Toàn	toan.tran800@gmail.com	0796133769	M	\N	2025-10-05	\N
-801	Phan Khánh Oanh	oanh.phan801@gmail.com	0335282708	F	1993-03-29	2024-03-01	\N
-802	Lê Hoài Hương	Huong.le802@yahoo.com	0314611187	F	1991-08-05	2025-10-14	\N
-803	Nguyễn Đức Tài	tai.nguyen803@yahoo.com	0941439462	M	1982-01-30	2023-10-28	\N
-804	Đặng Khánh Quyên	quyen.dang804@mail.vn	0741183304	F	\N	2025-02-11	\N
-805	Trần Khánh Ngân	ngan.tran805@yahoo.com	0326888042	F	1988-04-11	2023-02-01	\N
-806	Nguyễn Minh Tùng	tung.nguyen806@gmail.com	0387325415	M	\N	2025-01-25	196
-807	Nguyễn Thu Hương	huong.nguyen807@mail.vn	0520418190	F	1992-10-15	2025-08-05	\N
-808	Lê Bảo Dung	dung.le808@mail.vn	\N	F	2003-09-07	2025-12-10	\N
-809	Trần Mai Uyên	uyen.tran809@yahoo.com	0545188304	F	1975-03-23	2025-02-15	607
-810	Trần Hoài Lan	lan.tran810@mail.vn	0529002621	F	1998-11-24	2024-04-30	\N
-811	Nguyễn Phương Thảo	thao.nguyen811@gmail.com	0508974841	F	1983-10-16	2024-06-25	\N
-812	Nguyễn Phương Giang	giang.nguyen812@mail.vn	0992125881	F	2002-07-11	2025-01-31	\N
-813	Nguyễn Khánh Dung	dung.nguyen813@mail.vn	0951711012	F	1974-02-17	2025-08-10	628
-814	Nguyễn Hữu Dũng	dung.nguyen814@mail.vn	\N	M	1981-12-10	2024-08-12	\N
-815	Nguyễn Hoài Hương	huong.nguyen815@mail.vn	0903871389	\N	1980-03-10	2025-02-16	158
-816	Võ Minh Long	long.vo816@yahoo.com	0906553727	M	1982-06-25	2024-09-25	\N
-817	Đặng Minh Quyên	quyen.dang817@mail.vn	0555626020	F	1983-05-18	2024-11-14	\N
-818	Trần Minh Mai	mai.tran818@gmail.com	0579528703	F	1990-09-22	2023-11-09	\N
-819	Nguyễn Quang Bình	binh.nguyen819@gmail.com	\N	M	1965-05-11	2025-01-29	\N
-820	Phạm Minh Thắng	thang.pham820@yahoo.com	0702407625	M	\N	2025-07-25	\N
-821	Võ Hoài Anh	anh.vo821@mail.vn	0718037898	F	1986-03-14	2024-11-05	\N
-822	Phạm Gia Nam	Nam.pham822@outlook.com	0906399345	M	1991-12-02	2023-07-05	\N
-823	Ngô Gia Khoa	khoa.ngo823@gmail.com	0358354450	M	\N	2024-11-19	\N
-824	Trần Khánh Hà	ha.tran824@outlook.com	\N	F	1967-10-11	2024-07-26	\N
-825	Đỗ Thị Diệp	diep.do825@gmail.com	0305024153	F	\N	2025-01-11	\N
-826	Nguyễn Thành Tài	tai.nguyen826@outlook.com	\N	M	1965-12-12	2024-02-06	\N
-827	Huỳnh Quang Hải	hai.huynh827@gmail.com	0927627314	M	\N	2023-07-12	\N
-828	Nguyễn Thanh Chi	chi.nguyen828@mail.vn	0597815753	F	2006-06-13	2024-08-25	\N
-829	Nguyễn Thành Phong	phong.nguyen829@yahoo.com	0391884420	M	1994-05-18	2025-04-22	\N
-830	Phan Thành Hải	hai.phan830@outlook.com	\N	M	1973-11-10	2025-04-01	\N
-831	Nguyễn Anh Huy	Huy.nguyen831@mail.vn	0942468208	M	1993-11-28	2025-08-16	\N
-832	Lê Hữu Phúc	phuc.le832@outlook.com	0909285338	M	1965-10-01	2025-01-28	\N
-833	Lê Văn Sơn	son.le833@gmail.com	0710772450	M	1999-10-23	2023-07-02	\N
-834	Nguyễn Anh Trung	trung.nguyen834@gmail.com	0300063270	M	\N	2025-12-02	\N
-835	Hoàng Quang Nam	nam.hoang835@gmail.com	0312614849	M	1981-05-24	2024-06-17	\N
-836	Võ Khánh Hà	ha.vo836@mail.vn	0999079358	F	2003-08-20	2024-10-23	\N
-837	Nguyễn Anh An	an.nguyen837@gmail.com	\N	M	1974-07-18	2024-05-30	\N
-838	Nguyễn Khánh Ngân	ngan.nguyen838@yahoo.com	0564700627	F	2001-03-04	2025-03-27	560
-839	Nguyễn Ngọc Nga	nga.nguyen839@gmail.com	0722791580	F	1978-07-20	2025-12-10	\N
-840	Vũ Minh Quyên	quyen.vu840@outlook.com	0341006974	F	2006-08-03	2024-08-19	\N
-841	Huỳnh Quang Huy	huy.huynh841@gmail.com	\N	M	1972-11-16	2025-03-15	\N
-842	Vũ Gia Nam	nam.vu842@gmail.com	0575952860	M	1984-12-08	2024-04-28	\N
-843	Huỳnh Phương My	my.huynh843@gmail.com	0977215412	\N	1982-07-31	2024-02-14	\N
-844	Nguyễn Minh Huy	huy.nguyen844@gmail.com	0508187731	M	1982-03-13	2023-10-11	\N
-845	Hồ Anh Hùng	hung.ho845@outlook.com	\N	M	1985-03-05	2025-10-16	\N
-846	Nguyễn Phương Hà	ha.nguyen846@outlook.com	0365951887	F	1994-05-05	2025-10-26	\N
-847	Trần Đức Vinh	vinh.tran847@outlook.com	\N	M	\N	2025-06-21	\N
-848	Trần Thu Trang	trang.tran848@gmail.com	0322175880	F	1975-12-16	2023-04-06	\N
-849	Phan Tuấn Vinh	vinh.phan849@mail.vn	\N	M	1972-04-21	2025-09-22	\N
-850	Phan Hữu Thắng	thang.phan850@outlook.com	0933535924	M	1969-11-17	2025-03-14	\N
-851	Nguyễn Phương My	my.nguyen851@gmail.com	0555295330	F	\N	2024-07-14	\N
-852	Phạm Minh Quân	quan.pham852@outlook.com	0956716807	M	1986-02-03	2025-01-30	\N
-853	Nguyễn Minh Nhung	nhung.nguyen853@yahoo.com	0346389335	F	1983-04-02	2025-07-05	718
-854	Phạm Hoài Hà	ha.pham854@gmail.com	\N	F	1999-02-05	2025-12-10	\N
-855	Nguyễn Đức Trung	trung.nguyen855@yahoo.com	0772454296	M	\N	2024-11-05	\N
-856	Dương Thanh Diệp	diep.duong856@outlook.com	0903099824	F	2003-08-31	2025-03-25	\N
-857	Phan Minh Cường	cuong.phan857@yahoo.com	0516899393	M	1998-09-16	2024-03-27	\N
-858	Nguyễn Quang Khang	khang.nguyen858@gmail.com	0748717669	M	1993-03-17	2025-09-06	\N
-859	Phạm Mai Diệp	diep.pham859@outlook.com	0984699237	F	\N	2025-09-28	305
-860	Phạm Văn Thắng	thang.pham860@gmail.com	0593929592	M	1987-05-04	2023-04-10	\N
-861	Nguyễn Thu Giang	giang.nguyen861@mail.vn	0559770635	F	\N	2025-11-21	\N
-862	Lê Thị Anh	anh.le862@gmail.com	0900711610	F	1965-08-05	2023-10-28	\N
-863	Hoàng Thị Nhung	nhung.hoang863@outlook.com	\N	F	1997-07-15	2025-03-10	\N
-864	Vũ Thị My	my.vu864@gmail.com	0927842256	F	\N	2023-09-17	\N
-865	Đỗ Đức Phong	phong.do865@gmail.com	\N	M	2000-04-24	2025-08-01	\N
-866	Lê Gia Hải	hai.le866@gmail.com	0764986711	M	1988-05-05	2024-04-06	\N
-867	Nguyễn Bảo Hoa	hoa.nguyen867@outlook.com	0962275493	F	\N	2025-11-09	\N
-868	Vũ Gia An	an.vu868@yahoo.com	0373816062	M	1968-12-24	2024-12-07	\N
-869	Hoàng Minh Anh	anh.hoang869@gmail.com	0565259855	F	\N	2025-04-11	182
-870	Nguyễn Bảo Quyên	quyen.nguyen870@mail.vn	0572088450	\N	1999-11-06	2023-09-17	57
-871	Nguyễn Đức Hiếu	hieu.nguyen871@mail.vn	0519200370	M	\N	2025-06-01	\N
-872	Hoàng Văn Vinh	vinh.hoang872@mail.vn	0576927540	M	\N	2024-03-20	602
-873	Phạm Minh Dung	dung.pham873@gmail.com	0560795089	F	\N	2025-05-21	\N
-874	Trần Công Khang	khang.tran874@yahoo.com	0515196776	M	1970-11-14	2024-02-25	\N
-875	Nguyễn Phương Nga	nga.nguyen875@mail.vn	\N	F	1986-09-29	2025-03-25	694
-876	Vũ Mai Phương	phuong.vu876@gmail.com	0945551851	F	1968-10-03	2024-02-28	\N
-877	Nguyễn Mai Hương	Huong.nguyen877@gmail.com	0905782435	F	1978-12-09	2024-06-30	\N
-878	Đỗ Phương Yến	yen.do878@gmail.com	0307975979	F	1985-03-23	2024-01-03	\N
-879	Hoàng Anh Toàn	toan.hoang879@outlook.com	0737167799	M	1989-10-20	2024-02-12	\N
-880	Nguyễn Văn Hải	hai.nguyen880@outlook.com	0399899424	M	1984-02-02	2025-05-30	\N
-881	Trần Thu Vân	van.tran881@yahoo.com	0708105052	F	\N	2024-03-11	\N
-882	Đỗ Công Nam	nam.do882@gmail.com	\N	M	\N	2024-11-08	\N
-883	Vũ Hữu Việt	viet.vu883@gmail.com	\N	M	1973-12-24	2025-03-03	575
-884	Hồ Minh Ngân	ngan.ho884@outlook.com	0549219319	F	1991-10-10	2024-01-03	88
-885	Phạm Khánh Nhung	nhung.pham885@gmail.com	0949748005	F	1978-09-03	2023-05-19	\N
-886	Phạm Quang Phúc	phuc.pham886@gmail.com	\N	M	2005-02-11	2023-11-20	131
-887	Nguyễn Bảo Quyên	quyen.nguyen887@gmail.com	0764734122	F	1990-03-16	2023-03-15	\N
-888	Lê Khánh Dung	dung.le888@gmail.com	0961190624	F	1987-10-23	2025-11-13	107
-889	Ngô Thị Dung	dung.ngo889@gmail.com	0717914867	F	2005-02-02	2025-10-18	\N
-890	Lê Tuấn Dũng	dung.le890@gmail.com	0970403829	M	\N	2025-05-08	\N
-891	Trần Văn An	an.tran891@outlook.com	0702690054	M	1966-01-13	2025-03-08	\N
-892	Đặng Mai Hạnh	hanh.dang892@gmail.com	0702343090	F	2000-09-21	2024-06-11	\N
-893	Vũ Gia Phúc	phuc.vu893@gmail.com	0735387774	M	\N	2023-12-27	\N
-894	Huỳnh Văn Long	long.huynh894@mail.vn	0978552428	M	\N	2023-07-09	439
-895	Hoàng Minh Quân	quan.hoang895@gmail.com	0310711805	M	1965-04-10	2025-08-14	\N
-896	Trần Thị Nga	nga.tran896@yahoo.com	0551333467	F	\N	2023-08-08	\N
-897	Nguyễn Đức Trung	trung.nguyen897@mail.vn	\N	M	1992-05-26	2024-02-11	\N
-898	Nguyễn Văn Huy	huy.nguyen898@gmail.com	0540298313	M	1972-06-16	2023-11-10	\N
-899	Nguyễn Khánh Nga	nga.nguyen899@yahoo.com	\N	F	1999-07-31	2025-10-08	155
-900	Nguyễn Thị Nga	nga.nguyen900@yahoo.com	\N	F	1974-03-12	2024-06-12	\N
-901	Võ Phương Nga	nga.vo901@gmail.com	0904908892	F	1974-08-21	2025-12-06	\N
-902	Trần Hữu Phong	phong.tran902@gmail.com	\N	M	\N	2023-10-03	\N
-903	Lê Đức Phúc	phuc.le903@gmail.com	0773707484	M	2004-11-12	2024-03-05	\N
-904	Trần Công Dũng	dung.tran904@outlook.com	0730849858	M	\N	2024-01-09	\N
-905	Hoàng Thanh Chi	chi.hoang905@mail.vn	\N	F	1981-10-03	2025-01-10	\N
-906	Nguyễn Hữu Hùng	hung.nguyen906@yahoo.com	\N	M	2000-05-10	2025-11-24	\N
-907	Hoàng Gia Nam	nam.hoang907@outlook.com	0934831182	M	2000-08-15	2025-05-28	\N
-908	Lê Minh Phúc	phuc.le908@mail.vn	0572490899	M	2001-10-30	2024-11-11	\N
-909	Nguyễn Anh Huy	huy.nguyen909@yahoo.com	\N	M	1998-09-28	2025-09-30	\N
-910	Đặng Minh Thắng	thang.dang910@mail.vn	0792589522	M	\N	2025-06-18	\N
-911	Trần Công Quân	quan.tran911@mail.vn	0739920231	M	1990-05-29	2025-05-24	\N
-912	Phạm Bảo Lan	lan.pham912@gmail.com	0969685418	F	1991-02-27	2024-03-23	\N
-913	Nguyễn Thanh Hạnh	hanh.nguyen913@yahoo.com	0740587122	F	1977-04-24	2025-10-25	\N
-914	Hồ Minh Hương	huong.ho914@outlook.com	\N	F	\N	2025-03-30	\N
-915	Nguyễn Thị Hương	huong.nguyen915@gmail.com	0321753144	F	2001-08-24	2025-03-12	508
-916	Nguyễn Minh Khoa	khoa.nguyen916@gmail.com	\N	M	1992-05-15	2024-01-04	\N
-917	Nguyễn Anh Nam	nam.nguyen917@gmail.com	0701742641	M	1992-04-09	2023-06-16	\N
-918	Huỳnh Thanh Trang	trang.huynh918@yahoo.com	0799013859	F	2001-10-26	2025-08-10	\N
-919	Nguyễn Đức Tài	tai.nguyen919@gmail.com	0906015125	M	1987-07-26	2025-10-04	\N
-920	Dương Thanh Trang	Trang.duong920@mail.vn	0547906623	F	1992-12-11	2025-06-15	326
-921	Nguyễn Hoài Quyên	quyen.nguyen921@gmail.com	\N	F	2006-04-30	2024-04-25	\N
-922	Dương Tuấn Khang	khang.duong922@yahoo.com	0781612262	M	\N	2025-04-05	\N
-923	Nguyễn Thanh Hương	huong.nguyen923@gmail.com	0590230769	F	1985-07-03	2025-05-14	\N
-924	Trần Tuấn Cường	cuong.tran924@yahoo.com	0315162541	M	\N	2024-06-20	334
-925	Trần Phương Anh	anh.tran925@yahoo.com	0912189673	F	\N	2023-10-25	\N
-926	Hoàng Bảo Trang	trang.hoang926@gmail.com	0766228865	F	\N	2025-11-23	\N
-927	Võ Thành Hùng	Hung.vo927@gmail.com	0929390833	M	1993-08-24	2024-08-17	\N
-928	Bùi Công Quân	quan.bui928@gmail.com	0719560697	M	1996-10-31	2025-11-23	\N
-929	Nguyễn Tuấn Dũng	dung.nguyen929@mail.vn	0309233458	M	2006-03-07	2025-10-11	\N
-930	Nguyễn Văn Thắng	thang.nguyen930@yahoo.com	0969998014	M	1988-02-05	2025-10-28	\N
-931	Trần Thành Hiếu	hieu.tran931@mail.vn	0948331546	M	2004-09-19	2025-04-08	\N
-932	Trần Gia Toàn	toan.tran932@gmail.com	0753817717	M	1978-08-13	2025-11-19	\N
-933	Lê Bảo Quyên	quyen.le933@yahoo.com	\N	F	1995-08-21	2023-10-11	331
-934	Vũ Bảo Phương	phuong.vu934@mail.vn	0799461997	F	1977-12-12	2024-08-10	\N
-935	Nguyễn Minh Vinh	vinh.nguyen935@outlook.com	0308408541	M	1969-10-19	2024-02-13	\N
-936	Lý Văn Cường	cuong.ly936@gmail.com	0963494287	M	2006-03-01	2024-02-17	\N
-937	Huỳnh Thu Hoa	hoa.huynh937@gmail.com	0302077151	F	1974-01-21	2025-11-27	\N
-938	Trần Mai Anh	anh.tran938@gmail.com	0925309809	F	1977-09-03	2025-10-03	871
-939	Nguyễn Minh Long	long.nguyen939@gmail.com	0319602884	M	\N	2024-03-23	\N
-940	Hoàng Bảo Mai	mai.hoang940@gmail.com	0362825142	F	1989-07-06	2025-10-31	\N
-941	Ngô Quang Dũng	dung.ngo941@gmail.com	0364561153	M	\N	2025-12-03	\N
-942	Nguyễn Mai My	my.nguyen942@mail.vn	0979221745	F	1988-01-22	2023-12-08	89
-943	Trần Thành Huy	Huy.tran943@gmail.com	0554261557	M	2004-06-16	2025-10-05	\N
-944	Đặng Thị Thảo	thao.dang944@yahoo.com	0570962454	F	\N	2025-10-10	\N
-945	Nguyễn Phương Hương	huong.nguyen945@gmail.com	0959112780	F	1966-09-20	2025-11-22	\N
-946	Nguyễn Phương Lan	lan.nguyen946@yahoo.com	0394275969	F	\N	2025-03-06	\N
-947	Vũ Gia Long	long.vu947@gmail.com	0527805558	M	\N	2025-05-13	\N
-948	Nguyễn Tuấn Trung	trung.nguyen948@gmail.com	0968473178	M	1968-08-04	2024-08-19	\N
-949	Nguyễn Văn Hiếu	hieu.nguyen949@gmail.com	0568686552	M	\N	2023-11-01	\N
-950	Nguyễn Công Cường	cuong.nguyen950@gmail.com	0387966117	M	1985-12-02	2024-04-24	\N
-951	Đỗ Thu Quyên	quyen.do951@yahoo.com	0908476772	F	1967-10-17	2025-10-18	\N
-952	Đỗ Phương Yến	yen.do952@mail.vn	0367144332	F	1974-02-18	2025-08-19	\N
-953	Hoàng Ngọc Giang	giang.hoang953@gmail.com	0778074053	F	1994-08-11	2025-10-09	\N
-954	Trần Mai Ngân	ngan.tran954@outlook.com	\N	F	1985-08-12	2024-03-17	\N
-955	Đặng Minh Hoa	hoa.dang955@outlook.com	0718227153	F	1978-02-26	2023-12-22	\N
-956	Nguyễn Gia Hải	hai.nguyen956@yahoo.com	0301171320	M	1992-06-13	2025-10-16	\N
-957	Trần Đức Khang	khang.tran957@mail.vn	0773135787	M	1990-12-24	2024-08-01	\N
-958	Lý Thành Hiếu	hieu.ly958@yahoo.com	0766057984	M	\N	2025-03-29	\N
-959	Nguyễn Minh Bình	binh.nguyen959@mail.vn	0941126524	M	\N	2024-09-30	\N
-960	Lê Thu Hạnh	hanh.le960@gmail.com	0748960504	F	1994-02-26	2025-08-14	\N
-961	Hoàng Văn Sơn	son.hoang961@mail.vn	0356763692	M	1984-06-04	2025-04-26	\N
-962	Hoàng Thị Vân	van.hoang962@gmail.com	0906219407	F	1981-01-15	2024-07-03	\N
-963	Phan Minh Quyên	quyen.phan963@gmail.com	\N	F	1967-10-01	2024-02-20	\N
-964	Nguyễn Phương Uyên	uyen.nguyen964@outlook.com	0336252905	F	1998-12-24	2023-06-07	54
-965	Nguyễn Văn An	an.nguyen965@gmail.com	0967880147	M	1990-09-01	2024-10-31	\N
-966	Nguyễn Ngọc Chi	chi.nguyen966@gmail.com	0738999507	F	1990-04-24	2024-08-26	\N
-967	Đỗ Thành Sơn	son.do967@yahoo.com	0558355735	M	2006-03-14	2025-12-14	813
-968	Nguyễn Công Tài	tai.nguyen968@gmail.com	0977118838	M	1969-10-12	2025-06-18	\N
-969	Đặng Quang Trung	trung.dang969@gmail.com	0761956525	M	1999-07-19	2025-11-06	\N
-970	Lê Minh Nhung	nhung.le970@gmail.com	0587558838	F	1981-07-28	2025-06-25	\N
-971	Nguyễn Thị Nga	nga.nguyen971@mail.vn	0358399233	F	1966-01-27	2024-01-03	\N
-972	Nguyễn Quang Sơn	son.nguyen972@gmail.com	0524235814	M	1991-08-10	2023-11-04	\N
-973	Vũ Thanh Uyên	uyen.vu973@mail.vn	0308949545	F	1966-12-05	2024-10-29	\N
-974	Nguyễn Minh Uyên	uyen.nguyen974@mail.vn	0722855063	F	\N	2024-12-28	\N
-975	Trần Ngọc Ngân	ngan.tran975@outlook.com	0724479282	F	\N	2023-10-07	\N
-976	Nguyễn Minh Thảo	thao.nguyen976@gmail.com	\N	F	1988-06-20	2023-11-05	\N
-977	Nguyễn Công Sơn	son.nguyen977@mail.vn	0904088470	M	\N	2025-01-30	\N
-978	Lý Hoài Diệp	diep.ly978@outlook.com	0768716845	F	\N	2025-11-10	977
-979	Vũ Thị Quyên	quyen.vu979@gmail.com	\N	F	1996-08-04	2024-04-18	\N
-980	Hồ Minh Quân	quan.ho980@gmail.com	0329426681	M	1973-11-08	2025-09-08	\N
-981	Đỗ Anh Dũng	dung.do981@gmail.com	0548424552	M	2004-09-26	2023-06-05	\N
-982	Ngô Hữu Thắng	thang.ngo982@gmail.com	0332631391	M	\N	2024-06-28	459
-983	Nguyễn Tuấn Thắng	thang.nguyen983@gmail.com	\N	M	2001-02-28	2025-05-10	\N
-984	Nguyễn Đức Sơn	son.nguyen984@gmail.com	0791382213	M	1977-07-15	2023-08-29	\N
-985	Nguyễn Tuấn Việt	viet.nguyen985@mail.vn	0790377685	M	1982-03-23	2025-02-24	\N
-986	Nguyễn Phương Hoa	Hoa.nguyen986@gmail.com	0921450450	F	1978-02-21	2025-11-04	\N
-987	Nguyễn Ngọc Yến	yen.nguyen987@outlook.com	0743753736	F	1976-05-06	2025-07-27	\N
-988	Hoàng Hữu An	an.hoang988@gmail.com	\N	M	\N	2025-02-07	\N
-989	Phạm Công An	an.pham989@mail.vn	0535808480	M	1975-02-14	2025-05-20	\N
-990	Lê Văn Hải	hai.le990@outlook.com	0769842984	M	1995-12-21	2025-10-16	\N
-991	Phan Bảo Uyên	uyen.phan991@outlook.com	0988619743	F	1967-03-20	2025-06-08	934
-992	Trần Đức Đạt	dat.tran992@outlook.com	0308951049	M	\N	2024-12-30	\N
-993	Hoàng Thành Trung	trung.hoang993@gmail.com	0584621470	\N	\N	2025-01-27	\N
-994	Bùi Thành Quân	quan.bui994@gmail.com	0349778167	M	1975-01-10	2025-01-15	\N
-995	Trần Hoài Anh	anh.tran995@gmail.com	0760140234	F	2002-12-13	2024-05-31	\N
-996	Nguyễn Khánh Nhung	nhung.nguyen996@gmail.com	0374695400	F	1973-07-31	2025-03-10	\N
-997	Nguyễn Bảo Uyên	uyen.nguyen997@yahoo.com	0791703189	F	2002-11-04	2024-10-20	\N
-998	Hoàng Khánh Hương	huong.hoang998@gmail.com	0960390363	F	2000-04-26	2024-10-01	\N
-999	Đặng Mai Quyên	quyen.dang999@yahoo.com	0563694079	F	1997-04-26	2025-05-04	\N
-1000	Đỗ Quang An	an.do1000@mail.vn	0722333334	M	2004-12-06	2023-04-16	\N
-1001	Đặng Gia Khoa	khoa.dang1001@mail.vn	0904496615	M	1988-04-21	2023-07-11	\N
-1002	Lê Quang Hải	hai.le1002@mail.vn	0346542712	M	1975-12-08	2025-08-25	\N
-1003	Đỗ Gia Dũng	dung.do1003@mail.vn	0334445651	M	\N	2025-07-06	\N
-1004	Nguyễn Thị Linh	linh.nguyen1004@gmail.com	0933779801	F	1974-01-30	2025-07-16	\N
-1005	Võ Công Nam	nam.vo1005@gmail.com	0559738564	M	1999-04-03	2024-04-26	\N
-1006	Nguyễn Minh Bình	binh.nguyen1006@outlook.com	0358535128	M	\N	2025-11-29	585
-1007	Nguyễn Văn An	an.nguyen1007@gmail.com	0300788347	\N	1995-10-22	2024-02-29	\N
-1008	Nguyễn Anh Vinh	vinh.nguyen1008@outlook.com	0373216971	M	1996-04-15	2025-10-24	\N
-1009	Vũ Quang Long	long.vu1009@outlook.com	\N	M	2000-06-07	2024-05-08	\N
-1010	Trần Văn An	an.tran1010@gmail.com	0704609394	M	\N	2025-12-12	\N
-1011	Nguyễn Đức Phúc	phuc.nguyen1011@mail.vn	0346051990	M	1976-03-09	2025-09-29	\N
-1012	Trần Ngọc Hà	ha.tran1012@gmail.com	\N	F	1984-03-04	2025-05-09	\N
-1013	Phạm Tuấn Quân	quan.pham1013@gmail.com	0792472338	M	1977-01-27	2025-12-15	\N
-1014	Nguyễn Anh Quân	quan.nguyen1014@gmail.com	0523647610	M	2000-10-03	2023-06-20	\N
-1015	Ngô Thành Cường	Cuong.ngo1015@gmail.com	0372240561	M	1983-08-30	2025-07-31	\N
-1016	Nguyễn Bảo Hoa	hoa.nguyen1016@gmail.com	0736309266	F	1982-03-09	2024-03-21	\N
-1017	Võ Đức Hải	hai.vo1017@gmail.com	0552371289	M	\N	2025-05-06	13
-1018	Nguyễn Phương Linh	linh.nguyen1018@gmail.com	0357691703	F	1991-11-17	2024-08-22	\N
-1019	Phạm Đức An	an.pham1019@mail.vn	0912536928	M	1982-06-07	2025-08-29	\N
-1020	Lê Thành Trung	trung.le1020@mail.vn	0352764846	M	2006-01-02	2025-04-13	\N
-1021	Nguyễn Thành Việt	viet.nguyen1021@gmail.com	0783725242	M	2006-04-17	2025-01-26	\N
-1022	Phan Tuấn Dũng	dung.phan1022@gmail.com	0773475391	M	2000-02-09	2025-05-19	\N
-1023	Nguyễn Thanh Diệp	diep.nguyen1023@gmail.com	0518484224	F	\N	2025-08-19	\N
-1024	Bùi Anh Huy	huy.bui1024@gmail.com	0766731804	M	2002-05-12	2024-02-07	\N
-1025	Võ Quang Cường	cuong.vo1025@outlook.com	0560672386	M	2003-10-26	2025-02-25	961
-1026	Dương Quang Khoa	khoa.duong1026@outlook.com	\N	M	1998-08-22	2024-03-18	\N
-1027	Nguyễn Hoài Yến	yen.nguyen1027@gmail.com	0584808258	F	2004-04-10	2024-08-03	\N
-1028	Trần Thị Anh	anh.tran1028@mail.vn	0556428080	F	1966-12-17	2024-12-13	\N
-1029	Nguyễn Đức Long	long.nguyen1029@gmail.com	0338311962	M	2006-01-06	2025-01-29	\N
-1030	Nguyễn Phương Trang	trang.nguyen1030@gmail.com	\N	F	1979-01-26	2024-02-26	838
-1031	Dương Minh Phúc	phuc.duong1031@gmail.com	0363523135	M	1966-11-02	2024-01-16	\N
-1032	Lê Bảo Trang	trang.le1032@gmail.com	\N	F	\N	2025-04-26	32
-1033	Nguyễn Mai Oanh	oanh.nguyen1033@outlook.com	0309045225	F	1996-12-04	2024-12-12	\N
-1034	Nguyễn Minh Huy	huy.nguyen1034@gmail.com	0306504802	M	1967-09-10	2024-07-08	\N
-1035	Nguyễn Thu Thảo	thao.nguyen1035@gmail.com	0571956406	F	1984-01-13	2024-04-19	\N
-1036	Ngô Minh Chi	Chi.ngo1036@gmail.com	\N	F	\N	2025-04-01	\N
-1037	Nguyễn Tuấn Hiếu	hieu.nguyen1037@outlook.com	0793372432	M	1999-05-12	2024-09-02	\N
-1038	Võ Phương Anh	anh.vo1038@outlook.com	0980292962	F	2001-09-05	2025-12-21	\N
-1039	Trần Quang Đạt	dat.tran1039@gmail.com	0955094550	M	1986-08-07	2024-03-27	\N
-1040	Phạm Thành An	an.pham1040@gmail.com	0573766392	M	1986-04-04	2025-02-20	93
-1041	Nguyễn Văn Phong	phong.nguyen1041@gmail.com	0745703420	M	1972-02-23	2023-09-18	\N
-1042	Dương Mai Linh	linh.duong1042@gmail.com	0515111578	F	1998-03-22	2025-07-24	\N
-1043	Hồ Đức Vinh	vinh.ho1043@gmail.com	0540705919	M	1998-06-20	2025-05-31	\N
-1044	Đỗ Thanh Quyên	quyen.do1044@gmail.com	0951267061	F	\N	2025-08-30	\N
-1045	Nguyễn Hoài Giang	giang.nguyen1045@gmail.com	0547159695	F	2001-10-25	2023-09-27	74
-1046	Trần Bảo Nga	nga.tran1046@gmail.com	0930011063	F	1969-08-15	2024-08-11	\N
-1047	Nguyễn Văn Long	long.nguyen1047@yahoo.com	0588768259	M	\N	2024-03-05	\N
-1048	Đặng Tuấn Bình	Binh.dang1048@gmail.com	\N	M	2005-09-09	2023-06-11	\N
-1049	Vũ Quang Sơn	son.vu1049@yahoo.com	0920117111	M	\N	2024-10-25	951
-1050	Phạm Hoài Hạnh	hanh.pham1050@mail.vn	0376608065	F	1986-09-03	2025-07-20	\N
-1051	Lê Anh Tùng	tung.le1051@mail.vn	0751228484	M	2005-09-23	2024-11-14	191
-1052	Trần Hoài Yến	yen.tran1052@yahoo.com	0577122895	F	1997-03-27	2024-04-13	\N
-1053	Trần Công Trung	trung.tran1053@mail.vn	0911705130	M	1982-11-25	2025-04-06	\N
-1054	Lê Thanh Mai	mai.le1054@gmail.com	0717275336	F	1977-11-19	2025-03-12	\N
-1055	Hoàng Bảo Mai	mai.hoang1055@mail.vn	0371147248	F	1969-09-19	2025-11-29	\N
-1056	Trần Văn Quân	quan.tran1056@yahoo.com	0513576747	M	\N	2025-10-13	\N
-1057	Phan Anh Hải	hai.phan1057@mail.vn	0914756583	M	1985-06-11	2025-12-09	\N
-1058	Phạm Thu Quyên	quyen.pham1058@mail.vn	\N	F	1986-05-13	2025-06-20	594
-1059	Võ Quang An	an.vo1059@gmail.com	0527439496	M	1998-03-23	2025-06-02	506
-1060	Ngô Công Dũng	dung.ngo1060@gmail.com	0960707245	M	1987-08-18	2025-02-05	\N
-1061	Huỳnh Văn Huy	huy.huynh1061@gmail.com	0506453840	M	1989-07-21	2025-08-07	\N
-1062	Hoàng Thanh Nga	nga.hoang1062@yahoo.com	0702984630	F	1978-11-03	2024-02-03	421
-1063	Nguyễn Văn Cường	cuong.nguyen1063@gmail.com	0340434936	M	\N	2024-02-01	\N
-1064	Lê Mai Hoa	hoa.le1064@gmail.com	0971582635	\N	1989-09-27	2023-09-25	968
-1065	Trần Đức Tùng	tung.tran1065@gmail.com	0700999901	\N	\N	2025-08-19	\N
-1066	Trần Hữu Hùng	hung.tran1066@gmail.com	0721944325	M	1984-02-27	2023-12-29	\N
-1067	Lê Minh Cường	cuong.le1067@yahoo.com	0966965861	M	1999-06-03	2023-04-04	\N
-1068	Nguyễn Quang Dũng	dung.nguyen1068@outlook.com	0518010112	M	1981-08-28	2023-08-29	\N
-1069	Phạm Ngọc Nhung	nhung.pham1069@mail.vn	0365896199	F	1999-08-13	2024-10-12	\N
-1070	Nguyễn Phương Anh	anh.nguyen1070@gmail.com	0907233351	F	1973-12-08	2024-06-04	336
-1071	Phan Thu Trang	trang.phan1071@yahoo.com	0367862109	F	1972-09-20	2025-11-24	\N
-1072	Nguyễn Thanh Diệp	diep.nguyen1072@outlook.com	0945779484	F	1992-04-24	2024-09-14	\N
-1073	Nguyễn Tuấn Đạt	dat.nguyen1073@gmail.com	0911184695	M	1990-03-03	2025-05-12	\N
-1074	Hoàng Quang Hải	hai.hoang1074@gmail.com	0951380619	M	1985-04-03	2024-05-28	\N
-1075	Hoàng Thành Bình	binh.hoang1075@gmail.com	0921902436	M	1969-08-19	2025-06-16	\N
-1076	Trần Quang Phúc	phuc.tran1076@outlook.com	0728489543	M	1969-12-11	2025-02-11	66
-1077	Vũ Minh Yến	yen.vu1077@yahoo.com	0579122417	F	1973-11-17	2025-10-06	\N
-1078	Võ Khánh Ngân	ngan.vo1078@gmail.com	0924662935	F	\N	2025-04-30	79
-1079	Phạm Mai Nga	nga.pham1079@mail.vn	0346387340	F	1977-11-05	2024-04-09	\N
-1080	Nguyễn Minh Dũng	dung.nguyen1080@yahoo.com	0517235846	M	1982-05-24	2024-02-08	\N
-1081	Vũ Quang Việt	viet.vu1081@mail.vn	0372435768	M	1969-10-27	2024-02-18	\N
-1082	Nguyễn Mai Chi	chi.nguyen1082@gmail.com	0392556720	F	1977-03-15	2025-02-13	\N
-1083	Trần Đức Việt	viet.tran1083@gmail.com	0744505990	M	2006-02-26	2025-04-28	\N
-1084	Trần Ngọc Chi	chi.tran1084@gmail.com	0303477572	F	1975-03-21	2023-09-06	\N
-1085	Nguyễn Anh Tài	tai.nguyen1085@mail.vn	0520255840	M	1982-02-28	2025-08-03	\N
-1086	Phan Công Bình	binh.phan1086@outlook.com	0736718977	M	1997-04-24	2023-08-31	\N
-1087	Nguyễn Công Vinh	vinh.nguyen1087@outlook.com	\N	\N	1984-03-15	2023-12-24	\N
-1088	Hồ Thành Toàn	toan.ho1088@gmail.com	0746393151	M	\N	2023-12-01	\N
-1089	Trần Thanh Hạnh	hanh.tran1089@gmail.com	0307124052	F	1991-02-01	2025-11-06	\N
-1090	Trần Đức Quân	quan.tran1090@gmail.com	0751847014	M	2004-12-04	2025-07-09	\N
-1091	Nguyễn Công Đạt	dat.nguyen1091@gmail.com	0765337612	M	1997-08-27	2023-07-31	\N
-1092	Trần Công Nam	nam.tran1092@mail.vn	0501081567	M	1983-08-23	2024-11-04	795
-1093	Hoàng Công Phúc	phuc.hoang1093@gmail.com	0701297122	M	1999-12-17	2024-07-24	\N
-1094	Trần Hoài Mai	mai.tran1094@outlook.com	0785636832	\N	1977-12-05	2025-04-06	\N
-1095	Nguyễn Thanh Nga	nga.nguyen1095@gmail.com	0700708668	F	\N	2025-12-02	\N
-1096	Nguyễn Ngọc Quyên	quyen.nguyen1096@gmail.com	0740556005	F	1967-01-25	2024-11-02	\N
-1097	Phạm Phương Hoa	hoa.pham1097@gmail.com	0374456954	\N	1970-04-22	2025-10-31	137
-1098	Hoàng Đức Hiếu	hieu.hoang1098@outlook.com	0369197413	M	\N	2024-12-18	\N
-1099	Hoàng Đức Huy	huy.hoang1099@gmail.com	0760654546	M	1980-03-03	2023-10-22	\N
-1100	Hoàng Đức Long	long.hoang1100@yahoo.com	0709975976	M	1997-12-01	2025-10-15	\N
-1101	Nguyễn Thị Mai	mai.nguyen1101@gmail.com	0985922955	F	1969-01-22	2024-11-20	\N
-1102	Lê Thị Nga	nga.le1102@gmail.com	\N	F	1992-09-05	2023-09-28	\N
-1103	Hồ Công Hải	hai.ho1103@gmail.com	\N	M	\N	2023-10-18	\N
-1104	Phạm Anh Quân	quan.pham1104@gmail.com	0774720744	M	1965-09-18	2023-10-30	810
-1105	Nguyễn Khánh Quyên	quyen.nguyen1105@gmail.com	0379629658	F	\N	2024-12-03	\N
-1106	Trần Gia Toàn	toan.tran1106@outlook.com	0774130850	\N	1981-04-06	2025-04-03	\N
-1107	Nguyễn Thành Việt	viet.nguyen1107@mail.vn	0997643383	M	\N	2024-01-29	\N
-1108	Trần Ngọc Hoa	hoa.tran1108@outlook.com	0567626424	F	\N	2024-06-03	\N
-1109	Phạm Thành Đạt	dat.pham1109@gmail.com	0587446121	M	\N	2025-01-20	\N
-1110	Phan Hoài Hoa	hoa.phan1110@mail.vn	0507099059	F	2006-04-09	2025-12-04	\N
-1111	Vũ Văn Khang	khang.vu1111@yahoo.com	0351774510	M	\N	2025-07-31	\N
-1112	Nguyễn Quang An	an.nguyen1112@mail.vn	0755604421	M	1971-07-11	2023-06-14	\N
-1113	Nguyễn Văn Toàn	toan.nguyen1113@mail.vn	\N	M	1981-01-06	2024-09-10	657
-1114	Nguyễn Quang Bình	binh.nguyen1114@mail.vn	0703023449	\N	1982-05-13	2023-11-26	\N
-1115	Huỳnh Công An	an.huynh1115@yahoo.com	0942049358	M	1975-12-22	2024-12-30	\N
-1116	Nguyễn Hữu Thắng	thang.nguyen1116@gmail.com	0582476457	M	1972-02-05	2024-09-30	\N
-1117	Nguyễn Ngọc Ngân	ngan.nguyen1117@gmail.com	0959346809	F	1997-07-09	2025-08-13	\N
-1118	Nguyễn Mai Yến	yen.nguyen1118@yahoo.com	0977519717	F	1999-02-23	2025-09-15	325
-1119	Nguyễn Hoài My	my.nguyen1119@mail.vn	0316225448	F	2006-07-02	2023-02-16	\N
-1120	Phan Văn Dũng	dung.phan1120@gmail.com	0937188694	M	\N	2025-04-17	\N
-1121	Trần Minh Hạnh	hanh.tran1121@yahoo.com	0306847197	F	1977-05-10	2024-08-25	\N
-1122	Trần Thị Phương	phuong.tran1122@outlook.com	0561436032	F	\N	2025-11-21	\N
-1123	Nguyễn Minh Trang	trang.nguyen1123@mail.vn	0773005054	F	1968-10-11	2023-10-19	\N
-1124	Lê Đức Hải	hai.le1124@outlook.com	0329940667	M	1977-11-24	2024-12-10	\N
-1125	Vũ Văn Long	long.vu1125@mail.vn	0941615834	M	1966-06-12	2023-05-14	591
-1126	Nguyễn Công Hiếu	hieu.nguyen1126@yahoo.com	0575921454	M	1989-10-23	2024-04-12	\N
-1127	Nguyễn Anh Phong	phong.nguyen1127@outlook.com	0980969394	M	1983-01-18	2024-09-28	\N
-1128	Phạm Tuấn Việt	viet.pham1128@yahoo.com	\N	M	\N	2025-10-27	\N
-1129	Lý Tuấn Sơn	Son.ly1129@outlook.com	0589748532	M	1982-07-05	2024-08-17	\N
-1130	Võ Thanh Dung	dung.vo1130@mail.vn	0394462566	F	1995-01-11	2023-10-08	\N
-1131	Trần Thành Vinh	vinh.tran1131@outlook.com	0715098736	\N	\N	2023-03-24	\N
-1132	Nguyễn Minh Phong	phong.nguyen1132@outlook.com	0540901949	M	1996-09-15	2023-08-02	661
-1133	Trần Thị Nhung	nhung.tran1133@gmail.com	0561175614	F	\N	2024-09-05	\N
-1134	Ngô Thanh Linh	linh.ngo1134@gmail.com	\N	F	1974-06-14	2025-06-19	2
-1135	Nguyễn Mai Diệp	diep.nguyen1135@gmail.com	0386614605	F	\N	2025-08-27	\N
-1136	Phan Hoài Anh	anh.phan1136@gmail.com	\N	F	1969-07-06	2025-07-20	\N
-1137	Lê Minh My	my.le1137@gmail.com	\N	F	1977-05-13	2024-05-06	\N
-1138	Phạm Thành Bình	binh.pham1138@gmail.com	0980852363	M	1997-07-27	2025-10-06	\N
-1139	Võ Khánh Trang	trang.vo1139@gmail.com	\N	F	1990-01-19	2025-03-24	\N
-1140	Bùi Thu Giang	giang.bui1140@outlook.com	0765287674	F	\N	2025-10-07	\N
-1141	Đặng Thanh Quyên	quyen.dang1141@mail.vn	0340701921	F	\N	2024-04-24	\N
-1142	Đỗ Phương Oanh	oanh.do1142@yahoo.com	\N	F	1974-05-04	2025-06-08	\N
-1143	Nguyễn Bảo Hạnh	hanh.nguyen1143@outlook.com	0712604115	F	1980-05-18	2025-05-03	\N
-1144	Ngô Khánh Nhung	nhung.ngo1144@outlook.com	0789199321	F	\N	2024-09-19	\N
-1145	Nguyễn Văn Hùng	hung.nguyen1145@mail.vn	0536521227	M	2002-12-24	2023-08-13	\N
-1146	Dương Hữu Bình	binh.duong1146@gmail.com	0514092478	M	2005-03-31	2024-02-07	\N
-1147	Hồ Minh Nhung	Nhung.ho1147@mail.vn	0977079598	F	\N	2025-05-09	970
-1148	Nguyễn Khánh Mai	Mai.nguyen1148@gmail.com	0389184973	F	\N	2025-07-02	\N
-1149	Ngô Tuấn Tài	tai.ngo1149@gmail.com	\N	M	1979-03-14	2023-05-23	\N
-1150	Vũ Đức Khoa	khoa.vu1150@gmail.com	0348127111	M	1995-07-12	2024-06-20	\N
-1151	Võ Văn Khoa	khoa.vo1151@gmail.com	0797439416	M	1969-07-29	2025-03-13	\N
-1152	Đặng Thành Trung	trung.dang1152@yahoo.com	0362333196	M	1995-11-26	2025-11-26	\N
-1153	Phạm Mai Giang	giang.pham1153@mail.vn	0591492184	F	2005-10-11	2025-09-18	\N
-1154	Võ Đức Trung	trung.vo1154@gmail.com	\N	\N	1983-02-27	2024-05-28	\N
-1155	Đặng Đức Long	long.dang1155@gmail.com	0978069383	M	1991-10-05	2023-08-17	\N
-1156	Dương Anh Khang	khang.duong1156@gmail.com	0913571053	M	1972-11-14	2023-12-27	620
-1157	Lê Phương Nhung	nhung.le1157@mail.vn	0960300230	F	1998-02-22	2025-01-24	\N
-1158	Nguyễn Quang Vinh	vinh.nguyen1158@mail.vn	0937260787	M	1966-11-22	2025-06-27	\N
-1159	Nguyễn Gia Khang	khang.nguyen1159@yahoo.com	0350160421	M	1989-07-01	2025-05-19	842
-1160	Trần Ngọc Nga	nga.tran1160@gmail.com	0766604017	F	\N	2024-06-04	\N
-1161	Huỳnh Văn Huy	huy.huynh1161@yahoo.com	0709859199	M	1985-06-28	2025-10-21	929
-1162	Phạm Khánh Yến	yen.pham1162@gmail.com	0987957006	F	\N	2025-08-11	\N
-1163	Phan Tuấn Long	long.phan1163@outlook.com	0982855001	M	\N	2023-12-30	\N
-1164	Võ Phương Vân	van.vo1164@gmail.com	0911944656	F	1980-06-03	2025-06-13	\N
-1165	Vũ Minh Diệp	Diep.vu1165@mail.vn	0966378580	F	1971-03-30	2024-10-16	\N
-1166	Hoàng Văn Dũng	dung.hoang1166@outlook.com	0380558223	M	2005-01-31	2023-08-02	77
-1167	Trần Văn Cường	cuong.tran1167@gmail.com	\N	M	1998-10-03	2025-10-09	\N
-1168	Hồ Gia Dũng	dung.ho1168@gmail.com	0306873138	M	\N	2024-01-07	\N
-1169	Huỳnh Gia Hải	hai.huynh1169@gmail.com	0300533317	M	\N	2024-03-24	\N
-1170	Vũ Văn Thắng	thang.vu1170@gmail.com	0796175959	M	\N	2024-01-08	\N
-1171	Lê Mai Mai	mai.le1171@gmail.com	0528969562	F	1990-02-15	2025-10-25	\N
-1172	Lê Bảo Giang	giang.le1172@outlook.com	0901999519	F	1969-02-28	2025-09-11	\N
-1173	Đặng Hoài Nga	nga.dang1173@mail.vn	0380701974	F	1973-11-27	2025-12-28	\N
-1174	Bùi Anh Tùng	tung.bui1174@gmail.com	0979149078	M	1998-07-02	2024-01-31	\N
-1175	Trần Anh Sơn	son.tran1175@gmail.com	0350825786	M	\N	2024-06-01	309
-1176	Võ Thị Uyên	uyen.vo1176@gmail.com	0313245651	F	1971-01-11	2024-01-07	\N
-1177	Nguyễn Hữu Nam	nam.nguyen1177@gmail.com	0345766870	M	1988-08-21	2023-07-28	200
-1178	Đặng Thành Long	long.dang1178@yahoo.com	0542122664	M	1986-05-15	2025-02-26	\N
-1179	Võ Thanh Dung	dung.vo1179@gmail.com	0591971179	F	\N	2025-01-03	\N
-1180	Phạm Quang Hải	hai.pham1180@mail.vn	0548224803	M	1995-01-19	2024-11-04	\N
-1181	Nguyễn Hữu Cường	cuong.nguyen1181@yahoo.com	0302002661	M	1977-05-13	2025-03-01	\N
-1182	Nguyễn Bảo Hà	ha.nguyen1182@outlook.com	0997626753	F	\N	2023-01-26	\N
-1183	Nguyễn Công Thắng	thang.nguyen1183@yahoo.com	0544612181	M	\N	2025-10-20	24
-1184	Phạm Tuấn Việt	viet.pham1184@yahoo.com	0720400252	M	1978-11-07	2025-12-15	336
-1185	Nguyễn Khánh Anh	anh.nguyen1185@gmail.com	0995926023	F	1995-05-03	2025-12-04	\N
-1186	Lê Tuấn Quân	quan.le1186@yahoo.com	0942818228	M	1996-12-11	2024-03-01	\N
-1187	Lê Gia Hải	hai.le1187@yahoo.com	0597069909	M	1978-03-22	2024-12-30	\N
-1188	Huỳnh Ngọc Yến	yen.huynh1188@gmail.com	0301731011	F	2006-10-20	2024-08-27	\N
-1189	Huỳnh Ngọc Hạnh	hanh.huynh1189@yahoo.com	0799349739	F	1979-06-09	2025-09-29	\N
-1190	Phan Phương Hoa	hoa.phan1190@gmail.com	0579280321	F	2002-12-01	2024-11-17	\N
-1191	Lê Khánh Lan	lan.le1191@outlook.com	0749124294	F	1984-09-10	2023-09-19	\N
-1192	Đỗ Bảo Hoa	hoa.do1192@gmail.com	0969755078	F	\N	2025-12-01	\N
-1193	Trần Minh Mai	mai.tran1193@gmail.com	\N	F	1992-09-05	2025-08-24	\N
-1194	Lê Quang Tài	tai.le1194@outlook.com	0339150178	M	1990-06-10	2025-04-11	\N
-1195	Nguyễn Ngọc Linh	linh.nguyen1195@gmail.com	0999919954	F	1992-02-05	2025-07-22	\N
-1196	Lê Hoài Chi	chi.le1196@gmail.com	0506714032	F	1973-02-06	2025-03-02	\N
-1197	Phan Công Quân	quan.phan1197@gmail.com	0583687925	M	1989-12-20	2025-07-28	\N
-1198	Phạm Tuấn Khoa	khoa.pham1198@gmail.com	0925626278	M	\N	2023-06-08	\N
-1199	Trần Hữu Huy	huy.tran1199@yahoo.com	0949324370	M	1980-01-25	2023-10-08	1018
-1200	Nguyễn Đức Quân	quan.nguyen1200@outlook.com	0751715507	M	\N	2024-04-29	\N
-1201	Lê Quang Hải	Hai.le1201@gmail.com	0743531434	M	2000-02-03	2025-09-25	\N
-1202	Nguyễn Mai Quyên	quyen.nguyen1202@outlook.com	0929006208	F	1997-11-14	2025-11-09	\N
-1203	Trần Đức Đạt	dat.tran1203@gmail.com	0566816606	M	1974-08-10	2025-09-09	\N
-1204	Phạm Minh Mai	mai.pham1204@outlook.com	0974402665	F	1973-06-09	2023-09-11	\N
-1205	Nguyễn Thu Nga	nga.nguyen1205@gmail.com	0558714630	F	\N	2024-05-04	\N
-1206	Lê Hữu Phong	phong.le1206@gmail.com	0751404464	M	1976-11-20	2024-09-27	\N
-1207	Ngô Phương Linh	linh.ngo1207@yahoo.com	0330185237	F	\N	2025-12-28	446
-1208	Võ Hoài Oanh	oanh.vo1208@mail.vn	0394039003	F	1993-01-19	2025-01-08	\N
-1209	Đỗ Minh Trang	trang.do1209@mail.vn	0573105057	F	\N	2025-05-26	\N
-1210	Nguyễn Thanh Linh	linh.nguyen1210@mail.vn	0778185692	F	\N	2024-12-11	\N
-1211	Phạm Quang Dũng	dung.pham1211@gmail.com	0762097473	M	1983-07-22	2024-09-04	\N
-1212	Nguyễn Minh Toàn	toan.nguyen1212@gmail.com	0915135264	M	\N	2025-08-16	186
-1213	Huỳnh Khánh Nga	nga.huynh1213@yahoo.com	0318925231	F	2002-09-03	2023-09-24	\N
-1214	Nguyễn Khánh Linh	Linh.nguyen1214@gmail.com	0355975488	F	1968-10-26	2024-09-06	\N
-1215	Nguyễn Khánh Thảo	thao.nguyen1215@gmail.com	0992305078	F	1995-12-15	2025-11-27	1086
-1216	Nguyễn Thị Diệp	diep.nguyen1216@mail.vn	0900244543	F	1989-08-26	2023-10-02	637
-1217	Nguyễn Quang Phong	phong.nguyen1217@gmail.com	0769012415	M	1984-01-15	2024-03-02	1063
-1218	Nguyễn Phương Dung	dung.nguyen1218@gmail.com	0936956787	F	1977-03-03	2024-02-04	\N
-1219	Nguyễn Văn Long	long.nguyen1219@gmail.com	0334920321	M	2003-10-20	2023-07-24	907
-1220	Huỳnh Thu My	my.huynh1220@mail.vn	0911279123	F	\N	2025-08-31	\N
-1221	Nguyễn Thu Chi	chi.nguyen1221@yahoo.com	0534956623	F	1977-11-26	2025-12-24	373
-1222	Lê Văn Khang	khang.le1222@gmail.com	0345164764	M	\N	2025-10-27	\N
-1223	Dương Minh Nhung	nhung.duong1223@mail.vn	0383748174	F	2001-06-15	2024-10-18	\N
-1224	Nguyễn Công Hiếu	hieu.nguyen1224@yahoo.com	\N	\N	\N	2023-08-26	\N
-1225	Võ Đức Hùng	hung.vo1225@outlook.com	0976234896	M	1966-10-12	2025-01-24	\N
-1226	Phan Mai Mai	mai.phan1226@gmail.com	0532129124	F	1966-06-02	2024-04-10	\N
-1227	Dương Thị Hoa	hoa.duong1227@gmail.com	0908135634	F	1996-01-10	2024-05-29	\N
-1228	Trần Mai Hà	ha.tran1228@yahoo.com	\N	F	1986-03-01	2024-11-03	\N
-1229	Đỗ Thu Giang	giang.do1229@gmail.com	0592664294	F	2001-12-25	2024-03-01	\N
-1230	Nguyễn Phương My	my.nguyen1230@gmail.com	\N	F	\N	2023-08-07	\N
-1231	Võ Minh Quyên	quyen.vo1231@outlook.com	0995325293	F	\N	2023-04-25	\N
-1232	Hoàng Công Vinh	vinh.hoang1232@gmail.com	0501537207	M	\N	2023-10-13	\N
-1233	Ngô Hữu Dũng	dung.ngo1233@gmail.com	\N	M	1971-08-22	2024-12-19	\N
-1234	Nguyễn Anh Thắng	thang.nguyen1234@mail.vn	0790484784	M	1965-08-20	2024-04-13	\N
-1235	Hồ Hoài Quyên	quyen.ho1235@gmail.com	0978112067	F	1994-07-10	2024-04-10	\N
-1236	Lê Đức Sơn	son.le1236@gmail.com	0772460810	M	1984-07-13	2025-08-02	\N
-1237	Đỗ Thanh Chi	chi.do1237@outlook.com	0531359674	F	1970-08-14	2024-07-20	\N
-1238	Bùi Hoài Trang	trang.bui1238@mail.vn	0973630788	F	\N	2025-10-08	\N
-1239	Đặng Gia Tài	tai.dang1239@gmail.com	0981941877	M	1986-02-01	2025-12-15	\N
-1240	Ngô Khánh Thảo	thao.ngo1240@yahoo.com	0918000290	F	1993-02-03	2025-07-07	\N
-1241	Trần Đức Khoa	khoa.tran1241@gmail.com	0568121007	M	1973-11-01	2025-08-24	510
-1242	Lê Bảo Hạnh	hanh.le1242@outlook.com	0955308270	F	1986-07-16	2024-03-03	\N
-1243	Đặng Văn Dũng	dung.dang1243@mail.vn	0992888163	M	1992-10-16	2023-12-31	\N
-1244	Hoàng Hữu Việt	viet.hoang1244@yahoo.com	\N	M	\N	2025-03-19	\N
-1245	Trần Thị Oanh	Oanh.tran1245@outlook.com	0985024392	F	1976-01-04	2023-05-24	937
-1246	Lê Thu Anh	anh.le1246@gmail.com	\N	F	1974-12-11	2023-05-26	\N
-1247	Lý Khánh Linh	linh.ly1247@gmail.com	0762260714	F	1994-03-08	2024-02-06	\N
-1248	Đỗ Thu Diệp	diep.do1248@gmail.com	0561781915	F	1965-12-03	2024-07-24	374
-1249	Đặng Anh Tài	tai.dang1249@gmail.com	0527858459	M	1994-04-16	2024-07-24	\N
-1250	Nguyễn Văn Trung	trung.nguyen1250@gmail.com	0399512389	M	\N	2023-10-24	\N
-1251	Trần Thu Quyên	quyen.tran1251@gmail.com	0979525010	F	\N	2025-03-12	\N
-1252	Đặng Bảo Thảo	thao.dang1252@outlook.com	0941368436	F	1981-03-28	2025-07-29	\N
-1253	Nguyễn Công Huy	huy.nguyen1253@gmail.com	0774345063	M	1981-10-09	2023-12-11	\N
-1254	Lê Văn Phong	phong.le1254@yahoo.com	\N	M	\N	2024-06-19	\N
-1255	Nguyễn Hữu Phúc	phuc.nguyen1255@gmail.com	0778677415	M	2006-08-28	2025-02-26	\N
-1256	Huỳnh Bảo Quyên	quyen.huynh1256@gmail.com	0565835051	\N	\N	2025-06-07	\N
-1257	Võ Quang Khang	khang.vo1257@yahoo.com	0372977414	M	1999-01-25	2024-08-21	828
-1258	Trần Hoài Ngân	ngan.tran1258@mail.vn	\N	F	1974-07-11	2025-04-30	\N
-1259	Phạm Hữu Việt	Viet.pham1259@outlook.com	0324703481	M	\N	2023-06-03	\N
-1260	Lê Khánh Ngân	ngan.le1260@mail.vn	0923706508	F	1983-05-01	2023-01-23	\N
-1261	Vũ Quang Dũng	Dung.vu1261@gmail.com	0727771589	M	2006-04-25	2025-05-09	\N
-1262	Huỳnh Phương Hạnh	hanh.huynh1262@mail.vn	0703862153	F	1981-11-03	2024-12-09	\N
-1263	Đặng Quang Long	long.dang1263@mail.vn	0556074303	M	1981-11-09	2023-10-28	\N
-1264	Lê Thị Ngân	ngan.le1264@outlook.com	\N	F	\N	2024-05-29	1145
-1265	Dương Mai Thảo	thao.duong1265@outlook.com	0765050335	F	1971-07-31	2023-09-19	\N
-1266	Trần Ngọc Quyên	quyen.tran1266@gmail.com	0379597649	F	1999-12-14	2024-11-22	\N
-1267	Nguyễn Hữu An	an.nguyen1267@gmail.com	0951721077	M	1998-12-20	2024-05-14	\N
-1268	Võ Thành Tài	tai.vo1268@gmail.com	0905570532	M	2004-11-09	2024-03-10	\N
-1269	Dương Anh Vinh	vinh.duong1269@mail.vn	0502719356	M	1983-10-16	2023-08-22	\N
-1270	Lê Thanh Ngân	ngan.le1270@gmail.com	0782011250	F	\N	2023-08-19	\N
-1271	Phan Thị Hà	ha.phan1271@yahoo.com	0973971196	F	1972-10-15	2024-03-21	\N
-1272	Ngô Ngọc Hương	huong.ngo1272@gmail.com	0973752279	F	1983-01-11	2025-05-28	468
-1273	Lê Anh Khang	khang.le1273@gmail.com	0714225877	M	2001-02-23	2024-04-14	381
-1274	Lê Hoài Hương	huong.le1274@gmail.com	0300136306	F	\N	2023-02-09	\N
-1275	Hoàng Công Đạt	dat.hoang1275@yahoo.com	0751996676	M	1973-08-21	2025-04-19	\N
-1276	Nguyễn Minh Dung	dung.nguyen1276@gmail.com	0317623741	F	\N	2024-07-18	\N
-1277	Nguyễn Thành Dũng	dung.nguyen1277@yahoo.com	0723322803	M	1988-10-11	2025-07-20	\N
-1278	Lê Thu Hương	huong.le1278@yahoo.com	0914513854	F	1977-10-10	2025-02-05	\N
-1279	Võ Ngọc Nga	nga.vo1279@gmail.com	0344948206	F	1983-02-24	2025-01-04	\N
-1280	Nguyễn Minh Hải	Hai.nguyen1280@mail.vn	0554799740	M	2001-01-03	2024-07-04	\N
-1281	Bùi Phương Mai	mai.bui1281@gmail.com	0991508563	F	1991-09-20	2023-11-01	74
-1282	Lê Bảo Dung	Dung.le1282@outlook.com	0766111961	F	2004-09-20	2025-06-05	\N
-1283	Lê Khánh Ngân	ngan.le1283@gmail.com	0385628732	F	1974-08-11	2025-07-30	\N
-1284	Lê Ngọc Trang	trang.le1284@mail.vn	0348299215	\N	1975-07-04	2024-02-22	1249
-1285	Phan Hoài Uyên	uyen.phan1285@gmail.com	0308041868	F	1966-03-23	2025-03-10	\N
-1286	Nguyễn Bảo Uyên	uyen.nguyen1286@outlook.com	0742496274	F	\N	2025-02-10	\N
-1287	Nguyễn Gia Sơn	son.nguyen1287@gmail.com	0903040348	M	1981-11-27	2025-11-03	\N
-1288	Đặng Minh Linh	linh.dang1288@gmail.com	0364361530	F	\N	2024-12-24	\N
-1289	Trần Đức Vinh	Vinh.tran1289@gmail.com	0531035167	M	1993-02-23	2024-07-15	\N
-1290	Lê Hoài Nhung	nhung.le1290@gmail.com	0710735630	F	\N	2024-05-28	\N
-1291	Đặng Văn Dũng	dung.dang1291@gmail.com	0599102277	M	1965-07-14	2025-01-03	711
-1292	Nguyễn Minh Nhung	nhung.nguyen1292@outlook.com	0786639262	F	1970-02-25	2025-07-23	\N
-1293	Hoàng Thị Chi	chi.hoang1293@mail.vn	0741207697	\N	1969-05-05	2024-05-12	\N
-1294	Lê Hữu Sơn	son.le1294@gmail.com	0790694730	M	\N	2024-09-01	\N
-1295	Võ Ngọc My	my.vo1295@yahoo.com	0951821705	F	1982-03-01	2024-01-13	\N
-1296	Nguyễn Văn Nam	nam.nguyen1296@gmail.com	0975262599	M	1999-09-26	2025-08-22	\N
-1297	Trần Anh Hùng	hung.tran1297@mail.vn	0564399592	M	2001-01-07	2025-03-17	\N
-1298	Võ Văn Quân	quan.vo1298@outlook.com	\N	M	1993-01-04	2025-10-07	\N
-1299	Lê Hoài Hương	huong.le1299@outlook.com	0915268153	F	1970-02-27	2025-07-27	873
-1300	Lê Đức An	an.le1300@gmail.com	0336716280	M	1985-06-09	2024-06-13	\N
-1301	Nguyễn Thành Long	long.nguyen1301@mail.vn	\N	M	\N	2023-10-31	\N
-1302	Phạm Thu Mai	mai.pham1302@outlook.com	0300294935	F	\N	2023-10-16	\N
-1303	Dương Thu Nga	Nga.duong1303@yahoo.com	0545320841	F	1966-03-05	2025-10-24	\N
-1304	Trần Tuấn Hiếu	hieu.tran1304@gmail.com	0955359236	M	\N	2025-08-16	956
-1305	Ngô Thị Dung	dung.ngo1305@yahoo.com	0303447003	F	1993-02-19	2023-10-25	\N
-1306	Dương Mai Lan	lan.duong1306@gmail.com	0500400003	F	1986-01-10	2025-12-07	\N
-1307	Nguyễn Thị Mai	mai.nguyen1307@gmail.com	\N	F	\N	2025-05-28	496
-1308	Đỗ Thu Ngân	ngan.do1308@yahoo.com	0305574888	\N	\N	2023-11-25	\N
-1309	Lê Tuấn Hùng	hung.le1309@gmail.com	0535300415	M	\N	2025-02-02	\N
-1310	Vũ Gia Việt	viet.vu1310@gmail.com	0576224335	M	1974-11-20	2024-01-15	\N
-1311	Đỗ Minh Hà	ha.do1311@gmail.com	0941138242	F	1976-09-18	2023-04-15	\N
-1312	Nguyễn Gia Phúc	phuc.nguyen1312@gmail.com	0346484040	M	1977-05-30	2025-09-03	\N
-1313	Phạm Hữu Khang	khang.pham1313@outlook.com	0911697906	M	1967-03-23	2025-04-12	\N
-1314	Nguyễn Hữu Dũng	dung.nguyen1314@yahoo.com	0957831981	M	1994-10-06	2025-04-27	\N
-1315	Đỗ Hoài Lan	lan.do1315@yahoo.com	0917875716	F	\N	2025-11-27	619
-1316	Nguyễn Bảo Hương	huong.nguyen1316@yahoo.com	0318798027	F	1995-06-11	2025-11-02	\N
-1317	Trần Thu Diệp	diep.tran1317@yahoo.com	0360730891	F	\N	2025-10-14	\N
-1318	Võ Đức Bình	binh.vo1318@yahoo.com	0547287665	M	1968-11-18	2025-11-27	\N
-1319	Trần Minh Phương	phuong.tran1319@gmail.com	0349885126	F	2000-08-29	2025-01-28	\N
-1320	Trần Phương Giang	Giang.tran1320@mail.vn	0986293165	F	1969-08-07	2025-02-04	\N
-1321	Nguyễn Tuấn Hải	hai.nguyen1321@gmail.com	0999497024	M	\N	2025-12-17	1237
-1322	Vũ Bảo Nga	Nga.vu1322@gmail.com	0758777403	F	\N	2024-10-22	136
-1323	Phan Thành Sơn	son.phan1323@mail.vn	0921419827	M	2004-10-05	2023-12-13	\N
-1324	Nguyễn Tuấn Quân	quan.nguyen1324@gmail.com	0597884359	M	2006-02-06	2024-06-05	291
-1325	Phạm Minh Thắng	thang.pham1325@gmail.com	0359236026	M	1978-03-23	2024-04-19	\N
-1326	Phạm Anh Việt	viet.pham1326@gmail.com	0547459846	M	1999-08-24	2025-10-12	\N
-1327	Đặng Văn Thắng	thang.dang1327@gmail.com	0544393736	M	1984-04-11	2023-03-15	1002
-1328	Nguyễn Phương Uyên	uyen.nguyen1328@mail.vn	\N	F	2006-05-15	2025-08-07	\N
-1329	Nguyễn Mai Hà	ha.nguyen1329@outlook.com	0997585599	F	2003-09-19	2024-06-23	\N
-1330	Trần Anh Tài	tai.tran1330@gmail.com	0744936813	M	1994-02-19	2024-07-21	1149
-1331	Lê Thu Dung	dung.le1331@yahoo.com	0588235112	F	\N	2023-10-27	\N
-1332	Phạm Minh Trung	trung.pham1332@gmail.com	\N	M	1983-05-21	2025-03-04	\N
-1333	Nguyễn Ngọc Hoa	hoa.nguyen1333@yahoo.com	0370411013	F	\N	2024-12-09	\N
-1334	Hoàng Thanh Quyên	quyen.hoang1334@mail.vn	0938853519	F	1990-11-23	2024-01-16	\N
-1335	Võ Thị Chi	chi.vo1335@mail.vn	0777273281	F	1980-01-14	2025-03-18	\N
-1336	Nguyễn Khánh Yến	yen.nguyen1336@gmail.com	0708220672	\N	1972-11-08	2024-07-18	938
-1337	Trần Hữu Bình	binh.tran1337@gmail.com	0340955253	M	2001-09-21	2025-11-09	\N
-1338	Huỳnh Minh Nga	nga.huynh1338@outlook.com	0555062084	F	1974-06-07	2023-11-02	\N
-1339	Nguyễn Thanh Uyên	uyen.nguyen1339@mail.vn	0903321965	F	1981-12-22	2024-01-21	\N
-1340	Nguyễn Mai Hạnh	hanh.nguyen1340@gmail.com	\N	F	2003-07-03	2025-07-30	\N
-1341	Trần Anh Khang	khang.tran1341@yahoo.com	0704989016	M	1966-02-20	2024-02-21	\N
-1342	Phan Thu Uyên	uyen.phan1342@gmail.com	0361208588	F	1970-05-16	2025-12-16	\N
-1343	Nguyễn Bảo Hạnh	hanh.nguyen1343@outlook.com	0750014455	F	1971-02-22	2023-11-13	\N
-1344	Nguyễn Công Sơn	son.nguyen1344@gmail.com	0769879133	M	\N	2024-01-26	\N
-1345	Nguyễn Khánh Ngân	ngan.nguyen1345@yahoo.com	0594169455	F	\N	2024-05-25	515
-1346	Nguyễn Minh Oanh	oanh.nguyen1346@gmail.com	0916346685	F	1974-04-06	2023-05-15	402
-1347	Nguyễn Minh Cường	cuong.nguyen1347@outlook.com	0714852963	M	\N	2025-06-07	\N
-1348	Huỳnh Bảo Chi	chi.huynh1348@gmail.com	\N	F	1980-10-01	2024-04-13	\N
-1349	Nguyễn Hữu Hiếu	hieu.nguyen1349@gmail.com	\N	M	1967-03-04	2024-12-18	\N
-1350	Nguyễn Đức Thắng	thang.nguyen1350@outlook.com	0548063188	M	1989-04-23	2024-04-02	\N
-1351	Phạm Thành Đạt	dat.pham1351@mail.vn	0583559521	M	1979-01-11	2023-08-23	192
-1352	Ngô Gia Hải	hai.ngo1352@gmail.com	0543000619	M	1984-08-11	2024-10-25	\N
-1353	Đỗ Bảo Thảo	thao.do1353@gmail.com	0704745741	F	1983-02-09	2024-11-11	\N
-1354	Nguyễn Thanh Ngân	ngan.nguyen1354@gmail.com	0788191196	\N	2001-12-08	2023-12-19	\N
-1355	Nguyễn Tuấn Phong	phong.nguyen1355@gmail.com	0977310470	M	2004-10-16	2025-04-06	\N
-1356	Nguyễn Đức Quân	quan.nguyen1356@outlook.com	0789206832	M	2000-06-07	2025-09-11	\N
-1357	Ngô Văn Tùng	Tung.ngo1357@outlook.com	0347773923	M	\N	2025-07-15	\N
-1358	Nguyễn Hữu Huy	huy.nguyen1358@gmail.com	0543037431	M	1973-03-01	2024-11-22	579
-1359	Nguyễn Tuấn Phong	phong.nguyen1359@gmail.com	0576322983	\N	\N	2024-09-03	\N
-1360	Dương Quang Nam	nam.duong1360@gmail.com	0990442225	M	2006-04-23	2024-09-27	1245
-1361	Lý Thanh Quyên	Quyen.ly1361@mail.vn	0956412944	F	\N	2025-06-22	\N
-1362	Võ Gia Hùng	hung.vo1362@mail.vn	0334429387	M	1982-03-12	2023-02-27	\N
-1363	Trần Mai Vân	van.tran1363@gmail.com	0587951709	F	\N	2024-07-21	\N
-1364	Hoàng Công Việt	viet.hoang1364@outlook.com	0555380842	\N	1999-04-21	2025-02-02	723
-1365	Nguyễn Anh Sơn	son.nguyen1365@gmail.com	0312565563	M	\N	2025-08-25	1252
-1366	Phạm Thu Ngân	ngan.pham1366@mail.vn	0333656635	F	1980-04-12	2024-04-22	\N
-1367	Nguyễn Tuấn Sơn	son.nguyen1367@outlook.com	\N	M	1985-12-12	2024-12-04	\N
-1368	Võ Anh Phong	phong.vo1368@gmail.com	0958776240	M	1985-11-04	2024-06-29	\N
-1369	Bùi Minh Trung	trung.bui1369@outlook.com	0969210457	M	2005-07-08	2025-06-09	\N
-1370	Hoàng Bảo Phương	phuong.hoang1370@gmail.com	0391153727	F	2006-01-11	2023-07-18	\N
-1371	Trần Thu Trang	trang.tran1371@mail.vn	0983485765	F	1974-04-27	2025-10-25	\N
-1372	Lê Công Cường	cuong.le1372@gmail.com	0328766570	M	1977-06-05	2025-06-10	\N
-1373	Huỳnh Thanh Hà	ha.huynh1373@gmail.com	0769425173	F	1971-03-05	2025-09-23	688
-1374	Huỳnh Hoài Trang	trang.huynh1374@gmail.com	0773720326	F	1983-02-02	2024-05-06	\N
-1375	Dương Anh Bình	binh.duong1375@mail.vn	0368411826	M	1993-12-20	2023-09-16	\N
-1376	Trần Minh Thảo	thao.tran1376@yahoo.com	0524885836	F	1970-06-07	2025-04-11	\N
-1377	Lê Tuấn Thắng	thang.le1377@gmail.com	0741787370	M	2000-04-19	2024-11-20	\N
-1378	Dương Văn Bình	binh.duong1378@yahoo.com	0962356121	M	\N	2024-06-26	\N
-1379	Võ Gia Khoa	khoa.vo1379@gmail.com	0550511284	M	\N	2025-12-12	785
-1380	Dương Minh Hạnh	hanh.duong1380@outlook.com	\N	F	2002-11-11	2025-12-06	\N
-1381	Võ Đức An	an.vo1381@gmail.com	0576715048	M	1999-05-01	2024-08-14	1272
-1382	Nguyễn Thành Khang	khang.nguyen1382@gmail.com	0704441744	M	2006-01-04	2023-01-14	\N
-1383	Hồ Thu Dung	dung.ho1383@yahoo.com	0597469096	F	\N	2024-10-21	\N
-1384	Trần Mai Thảo	thao.tran1384@outlook.com	0741527632	F	\N	2025-01-14	\N
-1385	Trần Thị Linh	linh.tran1385@gmail.com	0566549551	F	2003-03-04	2025-10-23	\N
-1386	Nguyễn Thu Thảo	thao.nguyen1386@mail.vn	\N	F	1986-03-03	2024-05-19	\N
-1387	Vũ Ngọc Oanh	oanh.vu1387@gmail.com	0786087813	F	1971-06-14	2025-03-23	\N
-1388	Phạm Mai Hoa	hoa.pham1388@mail.vn	0388641249	F	1965-06-05	2024-04-25	\N
-1389	Nguyễn Bảo Yến	yen.nguyen1389@gmail.com	0902365782	\N	1971-08-15	2024-01-01	1179
-1390	Nguyễn Đức Khang	khang.nguyen1390@gmail.com	0767787424	M	2001-06-28	2024-07-31	\N
-1391	Vũ Minh Long	long.vu1391@gmail.com	0553485992	M	1966-08-02	2025-07-09	\N
-1392	Bùi Minh Quân	quan.bui1392@yahoo.com	0703006336	M	\N	2023-07-28	50
-1393	Huỳnh Thu Hoa	hoa.huynh1393@gmail.com	0502193540	F	\N	2025-12-24	914
-1394	Lê Bảo Hà	ha.le1394@mail.vn	0373990647	F	1988-01-29	2024-04-21	\N
-1395	Trần Minh Thắng	thang.tran1395@outlook.com	0323778166	M	1999-05-18	2025-07-13	1262
-1396	Nguyễn Mai Mai	mai.nguyen1396@mail.vn	0979028359	F	1999-05-11	2023-09-04	\N
-1397	Hoàng Gia An	an.hoang1397@gmail.com	0995496358	M	1975-02-26	2024-11-11	\N
-1398	Vũ Thị Oanh	oanh.vu1398@mail.vn	0583724003	F	1983-12-19	2025-08-05	\N
-1399	Trần Phương Quyên	quyen.tran1399@gmail.com	0950161480	F	1997-04-03	2024-04-15	\N
-1400	Nguyễn Tuấn Huy	huy.nguyen1400@yahoo.com	0573695286	M	1973-07-21	2025-04-26	\N
-1401	Nguyễn Gia Cường	cuong.nguyen1401@yahoo.com	0783157442	M	1966-06-22	2024-02-09	\N
-1402	Võ Văn Thắng	thang.vo1402@mail.vn	0316657938	M	1972-09-04	2024-01-03	\N
-1403	Vũ Anh Sơn	son.vu1403@gmail.com	0793744805	M	2003-09-09	2025-03-27	\N
-1404	Nguyễn Ngọc Ngân	ngan.nguyen1404@yahoo.com	0720605819	F	\N	2025-01-30	\N
-1405	Nguyễn Bảo Mai	mai.nguyen1405@mail.vn	\N	F	1979-06-03	2025-10-12	\N
-1406	Phạm Ngọc Hương	huong.pham1406@mail.vn	0574592442	\N	1990-02-02	2023-09-01	\N
-1407	Đặng Anh Nam	nam.dang1407@outlook.com	0304230753	M	2005-10-03	2025-06-07	\N
-1408	Phạm Công Tài	tai.pham1408@mail.vn	0538681964	M	1965-05-20	2024-05-28	\N
-1409	Trần Công Hiếu	hieu.tran1409@yahoo.com	0328813550	M	\N	2025-09-01	\N
-1410	Đỗ Thành Dũng	dung.do1410@yahoo.com	0742940689	M	1986-01-28	2024-10-29	\N
-1411	Lê Minh Phúc	phuc.le1411@yahoo.com	0969396429	M	\N	2025-10-11	\N
-1412	Phạm Ngọc Chi	chi.pham1412@gmail.com	0379232791	F	1993-05-10	2025-07-30	\N
-1413	Trần Ngọc Yến	yen.tran1413@yahoo.com	\N	F	2004-02-05	2023-06-14	393
-1414	Nguyễn Hữu Huy	huy.nguyen1414@yahoo.com	0303730873	M	2003-08-09	2023-05-30	\N
-1415	Đỗ Minh Linh	linh.do1415@yahoo.com	0395167320	\N	1993-10-04	2024-04-18	\N
-1416	Nguyễn Thị Hương	huong.nguyen1416@gmail.com	0960469116	F	1970-04-21	2024-02-18	\N
-1417	Trần Văn Nam	nam.tran1417@gmail.com	0916241845	M	\N	2025-07-27	\N
-1418	Trần Thanh Hà	ha.tran1418@mail.vn	0380595130	F	\N	2023-08-27	\N
-1419	Bùi Minh Ngân	ngan.bui1419@mail.vn	0914405978	F	\N	2023-09-23	\N
-1420	Lê Tuấn Khang	khang.le1420@mail.vn	0929099069	M	1984-11-06	2025-01-17	\N
-1421	Bùi Bảo Hương	huong.bui1421@gmail.com	0749040641	F	1984-06-01	2025-12-09	\N
-1422	Nguyễn Anh Đạt	dat.nguyen1422@outlook.com	0961332152	M	2003-10-04	2024-12-12	\N
-1423	Trần Công Khoa	khoa.tran1423@gmail.com	0530760661	M	1999-08-06	2025-08-10	\N
-1424	Nguyễn Công Cường	cuong.nguyen1424@gmail.com	0911774704	M	1991-12-11	2024-05-16	\N
-1425	Hoàng Minh Anh	anh.hoang1425@mail.vn	0915417069	F	1996-07-22	2025-12-19	\N
-1426	Nguyễn Khánh Thảo	thao.nguyen1426@gmail.com	0373906616	F	\N	2024-02-04	998
-1427	Nguyễn Công Hùng	hung.nguyen1427@gmail.com	0977599835	M	\N	2025-07-12	\N
-1428	Lê Mai Diệp	diep.le1428@gmail.com	\N	F	1999-09-21	2025-09-12	\N
-1429	Phạm Thành Huy	huy.pham1429@yahoo.com	0711360386	M	1995-09-01	2025-09-22	\N
-1430	Nguyễn Khánh Nga	nga.nguyen1430@mail.vn	0533126244	\N	2004-07-16	2025-06-17	\N
-1431	Nguyễn Văn Thắng	thang.nguyen1431@mail.vn	0727084623	M	1968-06-05	2025-02-13	\N
-1432	Hoàng Minh Nam	nam.hoang1432@yahoo.com	0702096600	M	1982-07-05	2023-10-23	\N
-1433	Huỳnh Minh Nam	nam.huynh1433@gmail.com	0393883283	M	\N	2024-04-16	\N
-1434	Nguyễn Thu Nga	nga.nguyen1434@mail.vn	0385707758	F	1996-07-17	2025-12-07	\N
-1435	Vũ Thành Vinh	vinh.vu1435@outlook.com	0948971327	M	1971-08-29	2025-10-15	\N
-1436	Nguyễn Hoài My	my.nguyen1436@gmail.com	0525253843	F	1998-08-17	2025-02-12	\N
-1437	Nguyễn Minh Thắng	thang.nguyen1437@gmail.com	\N	M	\N	2025-11-24	\N
-1438	Ngô Minh Anh	anh.ngo1438@gmail.com	0717063586	F	\N	2023-06-25	\N
-1439	Huỳnh Ngọc Hoa	hoa.huynh1439@yahoo.com	0703485173	F	\N	2024-05-27	\N
-1440	Nguyễn Minh Lan	lan.nguyen1440@gmail.com	0508672179	F	1995-06-05	2024-01-29	1172
-1441	Trần Quang Thắng	thang.tran1441@mail.vn	0537578171	M	1989-01-15	2024-05-10	\N
-1442	Đặng Mai Nhung	Nhung.dang1442@gmail.com	\N	F	1996-12-20	2025-11-29	\N
-1443	Nguyễn Thị Giang	giang.nguyen1443@gmail.com	0794439627	F	1980-02-04	2024-09-23	\N
-1444	Đặng Thị Hà	ha.dang1444@yahoo.com	0316461004	F	1979-07-16	2024-08-09	\N
-1445	Dương Đức Tài	tai.duong1445@gmail.com	0948784193	M	1969-10-17	2025-06-13	\N
-1446	Lê Thị Linh	linh.le1446@gmail.com	0722744709	F	2006-01-11	2023-09-09	1139
-1447	Vũ Hữu Trung	trung.vu1447@gmail.com	0333608404	M	1982-07-12	2025-12-28	\N
-1448	Hồ Văn Cường	Cuong.ho1448@mail.vn	\N	M	1978-09-11	2023-05-07	740
-1449	Ngô Thanh Vân	van.ngo1449@gmail.com	\N	F	1996-09-11	2024-04-08	274
-1450	Nguyễn Anh Khoa	khoa.nguyen1450@gmail.com	0386462297	M	1972-09-06	2023-04-21	\N
-1451	Lê Anh Huy	huy.le1451@mail.vn	0357778157	M	1973-01-16	2025-11-09	1261
-1452	Nguyễn Thanh Nga	nga.nguyen1452@gmail.com	0791662519	F	1986-10-03	2025-01-26	139
-1453	Huỳnh Ngọc Vân	van.huynh1453@gmail.com	0925812635	F	1995-09-05	2024-02-23	\N
-1454	Lê Quang Quân	quan.le1454@outlook.com	0763922608	M	\N	2025-04-05	489
-1455	Đỗ Mai Thảo	thao.do1455@mail.vn	0966099307	F	2001-08-24	2025-08-03	\N
-1456	Phạm Hoài Diệp	diep.pham1456@gmail.com	0749729910	F	1972-02-24	2024-08-18	1032
-1457	Bùi Minh Huy	huy.bui1457@outlook.com	0909077023	M	1998-06-26	2024-05-09	\N
-1458	Trần Mai Diệp	diep.tran1458@gmail.com	0734106218	F	\N	2024-08-31	\N
-1459	Nguyễn Đức Nam	nam.nguyen1459@gmail.com	0583650358	M	1989-12-14	2024-03-23	590
-1460	Huỳnh Thành Hùng	hung.huynh1460@yahoo.com	0787300731	M	1978-09-09	2025-01-11	414
-1461	Nguyễn Tuấn Khang	khang.nguyen1461@gmail.com	0793861353	M	\N	2024-07-08	\N
-1462	Nguyễn Thu My	my.nguyen1462@yahoo.com	0912621112	F	1985-04-09	2025-08-03	\N
-1463	Lê Thanh Trang	trang.le1463@gmail.com	0392407819	F	\N	2024-12-23	\N
-1464	Lê Thu Trang	trang.le1464@mail.vn	0745465119	F	1998-08-24	2024-12-09	\N
-1465	Ngô Quang Dũng	dung.ngo1465@gmail.com	0709527095	M	1993-06-24	2023-12-06	\N
-1466	Nguyễn Hữu Tùng	tung.nguyen1466@gmail.com	0716977427	M	1999-03-29	2024-02-10	\N
-1467	Lý Thị Hương	huong.ly1467@outlook.com	0725730915	F	1992-05-14	2025-10-11	\N
-1468	Đặng Ngọc Mai	mai.dang1468@yahoo.com	0352788907	F	1989-07-09	2024-12-17	\N
-1469	Nguyễn Thu My	my.nguyen1469@gmail.com	0979600789	F	\N	2025-03-20	\N
-1470	Phạm Thị Phương	phuong.pham1470@mail.vn	0543526501	F	2000-01-25	2023-04-12	926
-1471	Đỗ Hoài Hương	huong.do1471@gmail.com	0576940087	F	1972-08-03	2024-05-08	\N
-1472	Trần Hoài Hương	huong.tran1472@gmail.com	0534185034	\N	1966-02-01	2024-03-21	\N
-1473	Hồ Hữu Thắng	thang.ho1473@gmail.com	0504302788	M	\N	2024-02-03	\N
-1474	Lý Quang Sơn	son.ly1474@gmail.com	0548927788	M	\N	2025-05-13	\N
-1475	Trần Bảo Hà	ha.tran1475@mail.vn	0342982982	F	1969-07-26	2025-08-13	\N
-1476	Dương Hữu Nam	nam.duong1476@gmail.com	0538148666	M	1996-09-29	2024-10-31	293
-1477	Hoàng Khánh Giang	giang.hoang1477@outlook.com	0939127030	F	\N	2025-12-01	\N
-1478	Nguyễn Ngọc Phương	phuong.nguyen1478@gmail.com	\N	F	1998-08-02	2023-08-06	1018
-1479	Bùi Minh Đạt	dat.bui1479@gmail.com	0576843325	M	1987-11-24	2024-12-25	\N
-1480	Hồ Khánh Vân	van.ho1480@gmail.com	\N	F	1965-04-15	2025-12-09	\N
-1481	Nguyễn Quang Việt	viet.nguyen1481@gmail.com	0356977898	M	\N	2024-10-07	\N
-1482	Trần Khánh Quyên	quyen.tran1482@gmail.com	0380787892	F	1992-03-20	2025-08-02	\N
-1483	Võ Thanh Quyên	quyen.vo1483@yahoo.com	0599576892	F	1983-07-26	2024-09-03	1437
-1484	Trần Gia Phúc	phuc.tran1484@mail.vn	\N	M	2004-11-18	2023-02-11	\N
-1485	Nguyễn Quang Thắng	thang.nguyen1485@gmail.com	0318634533	M	1968-07-02	2025-12-13	\N
-1486	Lê Gia Tài	tai.le1486@gmail.com	0336142876	M	\N	2024-08-11	\N
-1487	Nguyễn Khánh Trang	trang.nguyen1487@yahoo.com	0717881136	F	2006-05-18	2023-07-17	\N
-1488	Vũ Ngọc Chi	chi.vu1488@gmail.com	0304737618	F	2005-03-26	2023-07-18	\N
-1489	Huỳnh Khánh Hạnh	hanh.huynh1489@gmail.com	\N	F	1992-08-09	2025-05-18	\N
-1490	Nguyễn Minh Trang	trang.nguyen1490@gmail.com	0355047603	F	1997-10-12	2023-10-06	\N
-1491	Nguyễn Thành Khang	khang.nguyen1491@yahoo.com	0981895547	M	\N	2025-07-14	\N
-1492	Phan Bảo Lan	lan.phan1492@gmail.com	\N	F	1984-09-14	2024-05-28	\N
-1493	Nguyễn Quang Long	long.nguyen1493@gmail.com	0548216396	M	\N	2025-09-04	\N
-1494	Nguyễn Thanh Yến	yen.nguyen1494@outlook.com	0710533779	F	1966-03-21	2025-11-23	1301
-1495	Nguyễn Tuấn Nam	nam.nguyen1495@gmail.com	0332835057	M	1968-10-14	2023-11-19	\N
-1496	Đỗ Hoài Uyên	uyen.do1496@gmail.com	\N	F	\N	2023-07-24	529
-1497	Nguyễn Bảo Thảo	Thao.nguyen1497@yahoo.com	0739640771	\N	1983-04-05	2025-08-20	\N
-1498	Lê Tuấn Cường	cuong.le1498@gmail.com	0502358890	M	1979-10-15	2023-07-23	\N
-1499	Nguyễn Thu Hạnh	hanh.nguyen1499@gmail.com	0539588669	F	\N	2025-01-29	\N
-1500	Phan Mai Hương	huong.phan1500@gmail.com	0515627801	F	1994-07-05	2024-02-08	\N
-1501	Hồ Hoài Vân	van.ho1501@outlook.com	0506614907	F	\N	2025-01-15	\N
-1502	Ngô Khánh Dung	dung.ngo1502@gmail.com	0796383126	F	1973-02-05	2023-04-11	\N
-1503	Trần Ngọc Giang	giang.tran1503@yahoo.com	\N	\N	1996-03-15	2023-11-09	\N
-1504	Lê Tuấn An	an.le1504@yahoo.com	0564576020	M	1974-06-23	2024-01-01	\N
-1505	Nguyễn Bảo Hà	ha.nguyen1505@yahoo.com	0585747452	F	1965-02-10	2024-11-06	\N
-1506	Phan Công Trung	trung.phan1506@gmail.com	0377479402	M	1991-01-08	2023-09-08	\N
-1507	Võ Gia Sơn	son.vo1507@gmail.com	0343135388	M	1965-06-06	2023-11-15	485
-1508	Huỳnh Thành Phong	phong.huynh1508@gmail.com	0560208252	M	\N	2025-01-12	\N
-1509	Vũ Đức Việt	viet.vu1509@mail.vn	0588809292	M	1989-06-12	2024-05-11	\N
-1510	Võ Văn Sơn	son.vo1510@gmail.com	0701219953	M	1997-06-21	2024-08-28	\N
-1511	Nguyễn Phương Nhung	nhung.nguyen1511@gmail.com	\N	F	\N	2024-02-24	312
-1512	Nguyễn Thành Tùng	tung.nguyen1512@gmail.com	\N	M	1977-05-19	2025-11-16	\N
-1513	Trần Anh Sơn	son.tran1513@yahoo.com	0935483742	\N	1970-03-26	2025-12-18	\N
-1514	Trần Thành An	an.tran1514@gmail.com	0549925623	M	1988-07-03	2025-07-18	547
-1515	Phan Công Nam	nam.phan1515@outlook.com	0362356023	M	1973-12-12	2025-05-11	\N
-1516	Nguyễn Thanh Trang	trang.nguyen1516@gmail.com	0742143903	F	2005-01-25	2025-02-04	555
-1517	Hoàng Văn Việt	viet.hoang1517@yahoo.com	0992367813	M	1972-11-17	2025-02-26	\N
-1518	Lê Minh Vân	van.le1518@yahoo.com	0304047747	F	2005-07-12	2025-07-12	\N
-1519	Lê Khánh Linh	linh.le1519@outlook.com	0994169177	F	\N	2025-09-01	\N
-1520	Nguyễn Ngọc Ngân	ngan.nguyen1520@yahoo.com	0701280943	F	1995-10-06	2025-03-11	\N
-1521	Nguyễn Quang Bình	binh.nguyen1521@yahoo.com	0726441272	M	\N	2025-05-18	1484
-1522	Lý Bảo Nhung	nhung.ly1522@gmail.com	0921714698	F	\N	2025-11-24	\N
-1523	Ngô Thị Ngân	ngan.ngo1523@gmail.com	0349535730	F	1978-04-22	2024-01-13	\N
-1524	Vũ Minh Đạt	dat.vu1524@gmail.com	0319925155	M	2000-10-20	2024-04-09	\N
-1525	Bùi Ngọc Nga	nga.bui1525@yahoo.com	0549750098	F	2004-07-14	2025-11-06	\N
-1526	Võ Minh Việt	viet.vo1526@gmail.com	0715559203	M	\N	2024-07-05	\N
-1527	Nguyễn Thu Quyên	quyen.nguyen1527@gmail.com	0992800634	F	1986-09-20	2025-05-26	636
-1528	Lê Thanh Oanh	oanh.le1528@yahoo.com	0301349448	F	1999-08-08	2024-05-16	\N
-1529	Đỗ Minh Chi	chi.do1529@gmail.com	0985852052	F	1981-11-09	2025-03-13	1313
-1530	Lê Phương Thảo	thao.le1530@outlook.com	0555266309	F	\N	2024-11-13	822
-1531	Nguyễn Gia Khang	khang.nguyen1531@gmail.com	0347993576	M	\N	2024-10-07	\N
-1532	Nguyễn Thanh Nga	nga.nguyen1532@gmail.com	0506571287	F	1985-09-04	2025-06-09	\N
-1533	Trần Anh Tùng	tung.tran1533@gmail.com	0913932294	M	\N	2023-04-17	\N
-1534	Huỳnh Bảo Vân	van.huynh1534@mail.vn	0984398371	\N	1993-01-02	2023-03-30	\N
-1535	Nguyễn Văn Bình	binh.nguyen1535@mail.vn	0921418721	M	1971-02-05	2025-03-27	363
-1536	Phan Minh Thắng	thang.phan1536@yahoo.com	0776408192	M	1990-09-06	2025-07-20	\N
-1537	Huỳnh Mai Linh	linh.huynh1537@yahoo.com	0923884273	\N	\N	2024-06-03	\N
-1538	Lê Khánh Phương	phuong.le1538@gmail.com	0549954712	F	1966-11-25	2025-06-21	\N
-1539	Lê Hoài Quyên	quyen.le1539@gmail.com	0976827351	F	1982-12-05	2025-07-18	\N
-1540	Nguyễn Anh Bình	binh.nguyen1540@gmail.com	0315517292	M	2003-09-23	2024-01-06	\N
-1541	Nguyễn Phương Giang	giang.nguyen1541@gmail.com	0736143285	F	1996-02-05	2025-12-10	56
-1542	Trần Anh Hiếu	hieu.tran1542@gmail.com	0757827091	M	\N	2024-12-25	\N
-1543	Nguyễn Tuấn Dũng	dung.nguyen1543@outlook.com	0568427146	M	1989-08-26	2025-06-26	\N
-1544	Vũ Minh Đạt	dat.vu1544@mail.vn	0749650181	M	\N	2024-06-07	\N
-1545	Phan Phương Chi	chi.phan1545@yahoo.com	0796626075	F	1974-02-20	2024-11-12	940
-1546	Trần Phương Giang	giang.tran1546@yahoo.com	0569097875	F	\N	2024-04-27	\N
-1547	Lê Thu Nga	nga.le1547@mail.vn	0753420224	F	1978-07-16	2025-10-11	\N
-1548	Vũ Khánh Chi	chi.vu1548@mail.vn	0502480829	F	1970-09-07	2025-02-15	\N
-1549	Bùi Mai Yến	yen.bui1549@gmail.com	0764510751	F	1986-11-08	2025-03-29	\N
-1550	Huỳnh Bảo Giang	giang.huynh1550@gmail.com	0525549114	F	1967-01-21	2025-08-25	\N
-1551	Nguyễn Thanh Lan	lan.nguyen1551@mail.vn	0509854289	F	\N	2023-08-19	\N
-1552	Trần Văn Bình	binh.tran1552@gmail.com	0516838051	M	\N	2025-09-24	\N
-1553	Hoàng Công Thắng	thang.hoang1553@mail.vn	0784101754	M	1988-12-04	2025-07-29	\N
-1554	Vũ Mai Nga	nga.vu1554@outlook.com	\N	F	1990-06-29	2024-08-01	\N
-1555	Trần Thị Hoa	Hoa.tran1555@mail.vn	0538042404	F	1973-11-30	2025-10-03	508
-1556	Vũ Đức Cường	cuong.vu1556@gmail.com	0754985275	\N	1995-12-08	2025-07-14	\N
-1557	Hoàng Khánh Phương	phuong.hoang1557@gmail.com	0793439801	F	1991-12-12	2024-07-06	\N
-1558	Nguyễn Quang Hùng	hung.nguyen1558@gmail.com	0519490514	M	1984-06-23	2024-05-30	\N
-1559	Nguyễn Khánh Nhung	nhung.nguyen1559@gmail.com	0704828828	\N	1972-05-08	2024-05-06	\N
-1560	Lý Khánh Diệp	diep.ly1560@mail.vn	0351950374	F	1972-06-02	2025-11-22	934
-1561	Nguyễn Minh Hoa	hoa.nguyen1561@gmail.com	0916719231	F	1984-02-25	2025-09-13	\N
-1562	Vũ Đức Toàn	toan.vu1562@outlook.com	\N	M	1965-12-14	2024-10-30	\N
-1563	Phan Thị Oanh	oanh.phan1563@gmail.com	\N	F	1983-04-12	2025-10-04	1542
-1564	Lê Phương Nhung	nhung.le1564@outlook.com	0702151823	F	1997-10-04	2024-11-21	\N
-1565	Hồ Khánh Hoa	hoa.ho1565@gmail.com	0777294973	F	2002-05-27	2025-04-03	\N
-1566	Nguyễn Gia An	an.nguyen1566@gmail.com	0913950856	M	1976-02-29	2025-05-16	\N
-1567	Lê Thanh Diệp	diep.le1567@gmail.com	0901258508	F	1977-09-05	2025-11-03	\N
-1568	Đỗ Văn Huy	huy.do1568@mail.vn	\N	M	\N	2025-11-07	\N
-1569	Đặng Công Tài	tai.dang1569@yahoo.com	0976651614	M	1969-04-18	2025-07-18	668
-1570	Lê Quang Đạt	dat.le1570@gmail.com	0728716784	M	2003-12-24	2024-02-26	659
-1571	Đặng Minh Ngân	ngan.dang1571@yahoo.com	0982218816	F	1993-11-29	2024-06-24	\N
-1572	Nguyễn Đức Dũng	dung.nguyen1572@mail.vn	\N	M	\N	2024-01-02	\N
-1573	Nguyễn Gia Hiếu	hieu.nguyen1573@gmail.com	0943148513	M	1994-09-11	2023-03-28	425
-1574	Ngô Đức Dũng	dung.ngo1574@outlook.com	0349397205	M	1981-08-18	2024-12-16	\N
-1575	Phan Quang Bình	binh.phan1575@mail.vn	0768893326	M	1977-01-06	2024-02-28	\N
-1576	Bùi Hoài Linh	linh.bui1576@yahoo.com	0309520155	F	1997-02-04	2024-10-18	\N
-1577	Nguyễn Hữu Hải	hai.nguyen1577@yahoo.com	\N	M	\N	2025-01-09	1441
-1578	Lê Khánh Mai	mai.le1578@outlook.com	0783083269	F	\N	2023-05-20	\N
-1579	Nguyễn Công Toàn	toan.nguyen1579@gmail.com	0508267588	M	1969-08-28	2023-03-07	\N
-1580	Nguyễn Đức Thắng	thang.nguyen1580@gmail.com	0321539110	M	1988-09-11	2025-01-07	\N
-1581	Nguyễn Bảo Trang	trang.nguyen1581@mail.vn	0312979892	F	1970-11-28	2025-10-07	\N
-1582	Lê Công Trung	trung.le1582@gmail.com	0545530332	M	\N	2023-10-22	\N
-1583	Lê Gia Bình	binh.le1583@gmail.com	0545903125	M	1996-12-21	2025-05-15	\N
-1584	Lý Thu Nga	nga.ly1584@mail.vn	0392285480	F	1975-01-29	2024-11-09	\N
-1585	Lê Công Phúc	phuc.le1585@outlook.com	0399292255	M	\N	2024-02-06	437
-1586	Hoàng Hữu Huy	huy.hoang1586@yahoo.com	0974130972	M	\N	2023-12-13	467
-1587	Nguyễn Thu Phương	phuong.nguyen1587@mail.vn	0731498142	F	\N	2025-08-15	\N
-1588	Võ Hữu Dũng	dung.vo1588@gmail.com	0335658266	M	1984-10-20	2025-12-01	\N
-1589	Trần Thị Nhung	nhung.tran1589@yahoo.com	\N	F	1990-11-12	2024-08-30	700
-1590	Trần Công Hải	hai.tran1590@mail.vn	0763708040	M	\N	2025-06-08	\N
-1591	Trần Minh Nam	nam.tran1591@mail.vn	0347602481	M	1987-02-07	2024-07-01	\N
-1592	Nguyễn Gia Đạt	dat.nguyen1592@gmail.com	0572857802	M	1965-06-07	2024-05-10	\N
-1593	Nguyễn Hữu Toàn	toan.nguyen1593@mail.vn	0508960443	M	\N	2023-07-06	\N
-1594	Dương Khánh Vân	van.duong1594@outlook.com	0737529820	F	1982-06-03	2024-06-27	\N
-1595	Phan Đức Trung	trung.phan1595@gmail.com	0762803842	M	1991-07-24	2025-10-13	\N
-1596	Đỗ Quang Tài	tai.do1596@mail.vn	0535621395	M	2003-08-30	2024-09-19	\N
-1597	Phạm Công Khoa	khoa.pham1597@outlook.com	0735412349	M	1981-08-26	2025-09-15	\N
-1598	Lê Gia Tùng	tung.le1598@outlook.com	0742097888	M	1991-07-23	2025-08-22	\N
-1599	Phạm Thị Hạnh	hanh.pham1599@gmail.com	0388904453	F	1971-07-06	2025-11-11	\N
-1600	Đỗ Đức Tài	tai.do1600@yahoo.com	\N	M	1992-05-22	2025-02-26	\N
-1601	Trần Thành Việt	viet.tran1601@yahoo.com	0975560830	M	2005-12-15	2024-07-15	\N
-1602	Nguyễn Hoài Yến	yen.nguyen1602@mail.vn	0997860665	F	1965-12-02	2025-11-15	\N
-1603	Hoàng Bảo Diệp	diep.hoang1603@gmail.com	0506188758	F	1973-07-06	2024-04-08	\N
-1604	Trần Quang Đạt	dat.tran1604@gmail.com	0902359032	M	1994-07-02	2024-03-28	\N
-1605	Đặng Gia Quân	quan.dang1605@mail.vn	0331419856	M	1974-02-24	2023-02-18	\N
-1606	Lê Thị Giang	giang.le1606@gmail.com	0709407584	F	1969-12-18	2024-07-20	766
-1607	Nguyễn Ngọc Lan	lan.nguyen1607@gmail.com	0700377247	F	1970-02-26	2025-09-30	\N
-1608	Nguyễn Khánh Hoa	hoa.nguyen1608@gmail.com	0547778593	F	\N	2025-07-31	\N
-1609	Hồ Gia Quân	quan.ho1609@gmail.com	0504267944	M	1985-06-01	2025-07-20	128
-1610	Đỗ Minh Tùng	tung.do1610@gmail.com	0771971989	M	1987-05-17	2024-06-27	\N
-1611	Trần Khánh Nhung	Nhung.tran1611@outlook.com	0387796172	F	2006-07-04	2025-03-04	\N
-1612	Trần Khánh Dung	dung.tran1612@gmail.com	0957616295	F	1991-08-04	2024-11-03	\N
-1613	Đỗ Hữu Toàn	toan.do1613@gmail.com	0563153690	M	\N	2024-02-20	\N
-1614	Nguyễn Đức Phong	phong.nguyen1614@yahoo.com	\N	M	\N	2023-06-06	\N
-1615	Vũ Anh Tài	tai.vu1615@gmail.com	\N	M	1978-03-17	2025-12-13	\N
-1616	Đỗ Thanh Chi	chi.do1616@mail.vn	0536242599	F	1984-08-23	2025-12-24	\N
-1617	Nguyễn Minh Phong	phong.nguyen1617@gmail.com	0759489322	M	1975-03-11	2025-08-30	\N
-1618	Nguyễn Bảo Giang	giang.nguyen1618@outlook.com	0745775406	F	\N	2024-06-07	\N
-1619	Nguyễn Thanh My	my.nguyen1619@gmail.com	0752143895	F	1992-10-12	2024-09-18	1564
-1620	Vũ Khánh Giang	giang.vu1620@outlook.com	0561810491	F	1986-10-04	2023-10-29	\N
-1621	Phạm Đức Khang	khang.pham1621@yahoo.com	0729848357	M	\N	2023-10-05	\N
-1622	Nguyễn Công Khoa	khoa.nguyen1622@mail.vn	0744776854	M	1965-07-03	2025-05-11	\N
-1623	Nguyễn Quang Nam	nam.nguyen1623@gmail.com	0904630823	M	1992-05-25	2023-10-21	\N
-1624	Phan Thanh Trang	trang.phan1624@yahoo.com	0306616464	F	1998-08-08	2024-05-13	\N
-1625	Phạm Minh Hoa	hoa.pham1625@mail.vn	0790893026	F	1967-01-19	2025-08-30	\N
-1626	Nguyễn Khánh Hạnh	hanh.nguyen1626@yahoo.com	0923633845	F	1996-10-21	2025-11-30	1152
-1627	Trần Thành Toàn	toan.tran1627@yahoo.com	0995388463	M	\N	2024-09-27	\N
-1628	Bùi Anh Phúc	phuc.bui1628@gmail.com	0794891191	M	1980-04-12	2025-02-17	\N
-1629	Hoàng Đức Thắng	thang.hoang1629@gmail.com	0565812046	M	1966-10-13	2024-09-19	\N
-1630	Nguyễn Hữu Dũng	dung.nguyen1630@gmail.com	0739998646	M	1979-02-09	2025-01-31	1580
-1631	Nguyễn Ngọc Giang	giang.nguyen1631@mail.vn	0347071085	F	1992-12-15	2025-05-14	716
-1632	Trần Minh Dũng	dung.tran1632@gmail.com	0740642648	M	1999-11-12	2025-12-01	596
-1633	Lê Mai Mai	mai.le1633@gmail.com	0986357549	F	1987-05-17	2024-02-04	\N
-1634	Đỗ Minh Nga	Nga.do1634@mail.vn	0552886009	\N	1977-09-12	2023-06-27	\N
-1635	Đặng Phương Yến	yen.dang1635@yahoo.com	0968252044	F	\N	2024-11-22	\N
-1636	Nguyễn Công Vinh	vinh.nguyen1636@gmail.com	0944819024	\N	1968-05-23	2025-01-26	\N
-1637	Trần Thành Hùng	hung.tran1637@mail.vn	0395552181	M	\N	2024-10-20	\N
-1638	Dương Phương Hạnh	hanh.duong1638@outlook.com	0742102219	F	1968-08-18	2025-05-12	\N
-1639	Nguyễn Đức Thắng	thang.nguyen1639@yahoo.com	0975041815	M	\N	2025-06-29	\N
-1640	Hoàng Hữu Toàn	toan.hoang1640@gmail.com	0316850386	M	\N	2025-07-16	\N
-1641	Nguyễn Minh Bình	binh.nguyen1641@yahoo.com	0701334582	M	\N	2023-11-12	\N
-1642	Nguyễn Thanh Dung	dung.nguyen1642@gmail.com	0951015521	F	\N	2024-12-19	\N
-1643	Phan Văn Phong	phong.phan1643@gmail.com	0589315650	M	1995-11-05	2025-08-09	42
-1644	Trần Tuấn Huy	huy.tran1644@outlook.com	0744213597	M	\N	2025-01-10	\N
-1645	Phạm Tuấn Hiếu	hieu.pham1645@gmail.com	0310199158	M	1974-10-29	2025-08-25	\N
-1646	Lê Mai Nhung	nhung.le1646@gmail.com	0931253918	F	1978-09-04	2024-06-05	\N
-1647	Trần Khánh Hương	huong.tran1647@mail.vn	0709778486	F	\N	2024-11-15	\N
-1648	Nguyễn Mai Phương	phuong.nguyen1648@gmail.com	0709961500	F	2003-11-26	2024-11-12	\N
-1649	Nguyễn Thanh Nhung	nhung.nguyen1649@yahoo.com	0795326098	\N	1983-05-03	2023-12-13	\N
-1650	Hoàng Tuấn Huy	huy.hoang1650@gmail.com	\N	M	2001-02-10	2025-04-08	537
-1651	Ngô Công Long	long.ngo1651@yahoo.com	0785615314	M	1976-01-23	2023-09-19	\N
-1652	Nguyễn Bảo Linh	linh.nguyen1652@gmail.com	0350735673	F	1995-02-07	2023-06-22	\N
-1653	Huỳnh Bảo Hương	huong.huynh1653@yahoo.com	0701113430	F	1999-09-25	2024-10-12	\N
-1654	Trần Minh Anh	anh.tran1654@outlook.com	0344449674	F	1985-01-24	2025-05-04	\N
-1655	Nguyễn Khánh Nhung	nhung.nguyen1655@gmail.com	0782137409	F	\N	2024-09-02	\N
-1656	Lê Thị Hạnh	hanh.le1656@mail.vn	0564018545	F	\N	2024-11-23	\N
-1657	Phạm Phương Oanh	oanh.pham1657@gmail.com	0541146510	F	1978-02-16	2025-10-07	1333
-1658	Võ Quang Toàn	toan.vo1658@gmail.com	0909741948	M	1965-08-03	2023-04-17	\N
-1659	Nguyễn Hữu Quân	quan.nguyen1659@gmail.com	0999984419	M	1966-11-11	2024-11-06	\N
-1660	Dương Văn An	an.duong1660@gmail.com	0957536504	M	1983-06-13	2023-10-26	\N
-1661	Bùi Anh Nam	nam.bui1661@gmail.com	0944678758	M	\N	2025-12-17	\N
-1662	Trần Quang Hải	hai.tran1662@gmail.com	\N	M	1968-02-16	2025-11-12	\N
-1663	Nguyễn Đức Tài	tai.nguyen1663@yahoo.com	0794468701	M	\N	2023-08-16	\N
-1664	Vũ Minh Anh	anh.vu1664@yahoo.com	0700418819	F	1975-02-01	2024-12-26	\N
-1665	Nguyễn Phương Linh	linh.nguyen1665@outlook.com	0387436840	F	1970-11-02	2025-08-24	755
-1666	Nguyễn Công Hiếu	hieu.nguyen1666@gmail.com	0359748844	M	1980-02-11	2025-07-05	884
-1667	Hồ Ngọc Giang	giang.ho1667@gmail.com	0594550310	F	1965-02-19	2025-09-18	\N
-1668	Nguyễn Văn Khang	khang.nguyen1668@gmail.com	0791266407	M	\N	2024-08-16	\N
-1669	Trần Gia Cường	cuong.tran1669@yahoo.com	0937213980	\N	1991-09-09	2025-09-22	\N
-1670	Nguyễn Anh Vinh	vinh.nguyen1670@mail.vn	\N	M	1975-08-14	2023-09-04	\N
-1671	Phan Gia Hải	hai.phan1671@yahoo.com	\N	M	1982-03-05	2023-01-17	\N
-1672	Nguyễn Phương Hà	ha.nguyen1672@yahoo.com	0911333397	F	1969-11-22	2023-08-15	\N
-1673	Đặng Bảo Quyên	Quyen.dang1673@mail.vn	0570129981	F	\N	2025-07-08	315
-1674	Trần Minh Thảo	thao.tran1674@mail.vn	0341940254	F	1966-11-19	2025-09-11	153
-1675	Nguyễn Hữu Toàn	toan.nguyen1675@outlook.com	0374791830	M	1970-06-16	2023-03-08	\N
-1676	Nguyễn Minh Nam	nam.nguyen1676@outlook.com	0590340605	M	1997-12-11	2024-03-06	584
-1677	Nguyễn Thanh Mai	mai.nguyen1677@gmail.com	0352541693	F	1990-03-14	2024-11-05	\N
-1678	Trần Thành Vinh	vinh.tran1678@gmail.com	0517343850	M	1984-02-27	2025-09-08	\N
-1679	Nguyễn Thị Mai	mai.nguyen1679@gmail.com	0740401052	F	1985-11-11	2025-10-04	\N
-1680	Lê Tuấn Đạt	dat.le1680@gmail.com	0968662049	M	1967-11-09	2025-07-22	\N
-1681	Huỳnh Phương Phương	phuong.huynh1681@mail.vn	0320977817	F	2004-04-29	2024-03-22	\N
-1682	Hoàng Ngọc Dung	dung.hoang1682@gmail.com	0560853140	F	1979-07-30	2024-09-18	\N
-1683	Phan Công Tài	tai.phan1683@mail.vn	0940446120	M	1999-07-20	2024-12-30	\N
-1684	Phan Thị Phương	phuong.phan1684@gmail.com	\N	F	1996-05-31	2025-01-05	\N
-1685	Lý Thành Long	Long.ly1685@yahoo.com	0350444739	M	1988-04-12	2025-10-18	\N
-1686	Nguyễn Quang Đạt	dat.nguyen1686@yahoo.com	0510454355	M	1999-04-07	2024-04-18	\N
-1687	Nguyễn Công Phong	phong.nguyen1687@outlook.com	0391791298	M	1974-05-13	2024-07-29	\N
-1688	Hoàng Hữu Trung	trung.hoang1688@gmail.com	0963220844	M	1996-02-16	2025-11-13	\N
-1689	Hồ Quang Vinh	vinh.ho1689@gmail.com	0772674033	M	1980-05-26	2023-04-18	1510
-1690	Trần Tuấn Huy	huy.tran1690@gmail.com	0778161712	M	1970-04-14	2024-12-01	\N
-1691	Bùi Minh My	my.bui1691@outlook.com	\N	F	1985-12-17	2024-07-08	\N
-1692	Vũ Gia Phúc	phuc.vu1692@outlook.com	0781627126	M	\N	2023-11-28	\N
-1693	Nguyễn Khánh Nga	nga.nguyen1693@gmail.com	0366651552	F	1983-02-12	2024-03-26	\N
-1694	Trần Quang Huy	huy.tran1694@yahoo.com	0900782043	M	1971-07-28	2024-04-08	995
-1695	Nguyễn Hoài Phương	phuong.nguyen1695@outlook.com	0398865619	\N	\N	2024-09-13	917
-1696	Lê Minh Long	long.le1696@gmail.com	0358642638	M	1988-10-28	2024-04-22	\N
-1697	Phạm Thị Yến	yen.pham1697@gmail.com	\N	F	1969-12-10	2024-12-07	\N
-1698	Lê Thị Quyên	quyen.le1698@yahoo.com	0942296183	F	\N	2023-11-04	\N
-1699	Nguyễn Bảo My	my.nguyen1699@mail.vn	0598194369	F	1996-02-08	2024-12-06	\N
-1700	Hoàng Thanh Giang	giang.hoang1700@yahoo.com	0758681242	F	2004-01-07	2024-01-21	320
-1701	Nguyễn Ngọc Hà	ha.nguyen1701@mail.vn	0934138415	F	1983-10-01	2024-09-08	\N
-1702	Võ Đức Việt	viet.vo1702@outlook.com	\N	M	1997-08-18	2025-02-28	\N
-1703	Trần Thanh Chi	Chi.tran1703@gmail.com	0317751201	F	1977-01-16	2025-02-20	850
-1704	Phan Hoài Hạnh	hanh.phan1704@gmail.com	0737421509	F	1984-02-23	2023-04-07	\N
-1705	Lê Hữu Toàn	toan.le1705@gmail.com	0742479354	M	\N	2025-08-15	\N
-1706	Nguyễn Mai Dung	dung.nguyen1706@yahoo.com	0713384484	F	\N	2025-04-03	\N
-1707	Lê Văn Tài	tai.le1707@gmail.com	\N	M	1975-01-13	2024-04-02	\N
-1708	Bùi Gia Thắng	thang.bui1708@gmail.com	0979403501	M	2002-05-14	2025-09-10	1001
-1709	Bùi Bảo Quyên	quyen.bui1709@mail.vn	0749979200	\N	1983-01-15	2024-02-20	729
-1710	Nguyễn Phương Thảo	thao.nguyen1710@gmail.com	0322991257	F	\N	2025-08-17	\N
-1711	Nguyễn Văn Long	long.nguyen1711@yahoo.com	0357311303	\N	1971-08-01	2025-06-10	\N
-1712	Nguyễn Khánh Trang	trang.nguyen1712@gmail.com	0782033890	F	\N	2024-08-04	508
-1713	Nguyễn Đức Sơn	Son.nguyen1713@yahoo.com	0900047427	M	2001-02-07	2025-10-03	\N
-1714	Huỳnh Anh An	an.huynh1714@yahoo.com	0944985287	M	1987-08-31	2025-07-11	\N
-1715	Trần Minh Long	long.tran1715@gmail.com	0518568712	M	1996-08-03	2025-01-26	\N
-1716	Hoàng Gia Huy	huy.hoang1716@mail.vn	0332559883	M	1986-06-23	2025-02-19	\N
-1717	Phạm Gia Huy	huy.pham1717@mail.vn	0386637958	M	1986-11-08	2024-04-29	\N
-1718	Ngô Thành Khoa	khoa.ngo1718@gmail.com	\N	\N	1966-08-04	2024-09-11	\N
-1719	Vũ Đức Vinh	vinh.vu1719@gmail.com	0529484254	M	1990-02-19	2023-10-04	\N
-1720	Võ Văn Huy	huy.vo1720@mail.vn	0561493080	M	1969-01-04	2025-12-11	1018
-1721	Nguyễn Công An	an.nguyen1721@mail.vn	\N	M	1986-08-18	2024-08-06	\N
-1722	Lê Bảo Thảo	thao.le1722@outlook.com	0927703785	\N	2006-11-05	2025-02-27	\N
-1723	Trần Phương Oanh	oanh.tran1723@mail.vn	0590140949	\N	\N	2024-11-16	\N
-1724	Huỳnh Khánh Lan	lan.huynh1724@gmail.com	\N	F	\N	2024-08-03	\N
-1725	Huỳnh Minh Dũng	dung.huynh1725@gmail.com	0375643760	M	1965-07-04	2025-02-15	\N
-1726	Đỗ Thanh Vân	van.do1726@gmail.com	0765620196	F	1979-06-30	2024-01-13	\N
-1727	Nguyễn Hữu Quân	quan.nguyen1727@gmail.com	0943855308	M	1981-07-14	2024-11-17	\N
-1728	Nguyễn Thành Thắng	thang.nguyen1728@yahoo.com	0571579087	M	2003-08-29	2025-10-21	\N
-1729	Huỳnh Công Nam	nam.huynh1729@yahoo.com	0582566544	M	\N	2023-08-10	\N
-1730	Nguyễn Hoài Ngân	ngan.nguyen1730@gmail.com	0946185404	F	1993-12-01	2023-03-17	\N
-1731	Lê Bảo Hà	ha.le1731@yahoo.com	0755158159	F	1968-02-23	2023-07-14	\N
-1732	Ngô Văn Long	long.ngo1732@outlook.com	0739556058	M	1983-11-27	2025-05-18	\N
-1733	Hồ Khánh Hà	ha.ho1733@outlook.com	0798895824	F	\N	2023-03-26	\N
-1734	Phạm Phương Quyên	quyen.pham1734@outlook.com	0365681913	F	1995-04-26	2024-02-21	\N
-1735	Trần Minh Nhung	nhung.tran1735@mail.vn	0554216973	F	1990-06-04	2025-05-12	\N
-1736	Võ Bảo Oanh	oanh.vo1736@gmail.com	0568898418	F	1965-06-26	2023-07-11	\N
-1737	Nguyễn Thu Quyên	quyen.nguyen1737@gmail.com	0524627966	F	1987-05-19	2024-09-30	59
-1738	Lý Hữu Hùng	hung.ly1738@gmail.com	0900054654	M	1970-08-07	2025-04-18	\N
-1739	Trần Minh Anh	anh.tran1739@gmail.com	0985673385	F	\N	2025-08-28	\N
-1740	Nguyễn Hữu Quân	quan.nguyen1740@gmail.com	0527291341	M	\N	2023-09-18	752
-1741	Bùi Phương Anh	anh.bui1741@mail.vn	\N	F	1998-01-12	2024-12-05	\N
-1742	Nguyễn Hoài My	my.nguyen1742@yahoo.com	0503708000	F	\N	2025-11-13	\N
-1743	Nguyễn Phương Diệp	diep.nguyen1743@gmail.com	\N	F	1995-11-06	2023-12-31	\N
-1744	Trần Thị Lan	lan.tran1744@outlook.com	0396575027	F	1999-09-26	2024-03-15	\N
-1745	Phan Tuấn Cường	cuong.phan1745@gmail.com	0967791324	M	2001-03-06	2025-04-30	\N
-1746	Nguyễn Thanh Oanh	oanh.nguyen1746@gmail.com	\N	F	1976-12-19	2024-06-14	\N
-1747	Nguyễn Công Trung	trung.nguyen1747@gmail.com	0325974017	M	1973-12-18	2025-07-25	\N
-1748	Trần Công Dũng	dung.tran1748@gmail.com	0574582017	M	2000-11-10	2024-04-11	\N
-1749	Phạm Thị Hà	ha.pham1749@gmail.com	0985218888	F	2004-08-05	2025-08-18	\N
-1750	Trần Tuấn Huy	huy.tran1750@yahoo.com	0505454925	M	1973-01-10	2023-06-28	\N
-1751	Trần Thị Yến	yen.tran1751@mail.vn	0551201893	F	1983-10-27	2023-07-27	\N
-1752	Lê Khánh Uyên	uyen.le1752@yahoo.com	\N	F	1994-07-24	2024-03-07	\N
-1753	Nguyễn Thanh Mai	mai.nguyen1753@gmail.com	0549797965	F	\N	2024-12-12	1112
-1754	Nguyễn Công Việt	viet.nguyen1754@gmail.com	0755945543	M	1977-07-18	2025-10-10	\N
-1755	Đặng Hoài Phương	phuong.dang1755@yahoo.com	0746502981	F	1970-09-16	2024-08-20	\N
-1756	Phan Hữu Trung	trung.phan1756@gmail.com	0387066753	M	\N	2023-02-01	\N
-1757	Trần Khánh Dung	dung.tran1757@gmail.com	0921216692	F	\N	2023-10-18	\N
-1758	Trần Khánh Nga	nga.tran1758@mail.vn	\N	F	1978-11-18	2025-06-14	\N
-1759	Bùi Mai Trang	trang.bui1759@gmail.com	0338982450	F	1976-03-10	2025-10-26	939
-1760	Nguyễn Minh Hà	ha.nguyen1760@gmail.com	0766405899	F	1989-01-16	2024-11-23	\N
-1761	Dương Công Hải	hai.duong1761@outlook.com	0576763208	M	1996-04-15	2025-03-06	17
-1762	Lý Hữu Long	long.ly1762@gmail.com	0772729520	M	1973-03-29	2024-09-29	\N
-1763	Phạm Tuấn Sơn	son.pham1763@gmail.com	0931305796	M	1994-08-04	2023-03-23	\N
-1764	Nguyễn Gia An	an.nguyen1764@yahoo.com	\N	M	1989-01-09	2023-09-20	\N
-1765	Nguyễn Phương Dung	dung.nguyen1765@mail.vn	0586166343	F	\N	2025-04-22	1639
-1766	Đặng Thanh Ngân	ngan.dang1766@gmail.com	0527905247	F	2000-05-28	2024-02-28	\N
-1767	Phạm Hữu Sơn	son.pham1767@gmail.com	0927201457	M	\N	2025-11-16	72
-1768	Phạm Tuấn Toàn	toan.pham1768@outlook.com	0926113331	M	1985-12-25	2025-12-29	\N
-1769	Lê Thu My	my.le1769@gmail.com	0368680563	F	2003-01-22	2024-02-08	\N
-1770	Nguyễn Văn Long	long.nguyen1770@gmail.com	0350958830	M	1968-06-22	2025-07-01	\N
-1771	Bùi Hoài Uyên	uyen.bui1771@yahoo.com	0744235781	F	1990-08-31	2023-08-18	\N
-1772	Nguyễn Hữu Long	long.nguyen1772@gmail.com	0799891475	M	1975-11-23	2025-05-15	\N
-1773	Nguyễn Gia Toàn	toan.nguyen1773@outlook.com	0918621206	M	2002-11-02	2024-04-25	\N
-1774	Nguyễn Ngọc Yến	yen.nguyen1774@gmail.com	0382911458	F	\N	2024-01-17	929
-1775	Nguyễn Công Cường	cuong.nguyen1775@mail.vn	0301573812	M	1990-01-21	2025-11-18	\N
-1776	Nguyễn Thu Nga	nga.nguyen1776@gmail.com	\N	F	1973-06-13	2023-08-25	\N
-1777	Lê Đức Hùng	Hung.le1777@gmail.com	0392372490	M	1998-03-14	2024-03-17	\N
-1778	Phạm Tuấn Bình	binh.pham1778@gmail.com	0579667734	M	1984-11-08	2024-07-15	\N
-1779	Đặng Minh Cường	cuong.dang1779@outlook.com	0504203926	M	1997-05-10	2025-11-15	\N
-1780	Trần Mai Hà	ha.tran1780@gmail.com	0931517935	F	1998-02-25	2023-06-23	\N
-1781	Đặng Phương Ngân	ngan.dang1781@gmail.com	0724830622	F	1979-10-20	2025-05-09	\N
-1782	Huỳnh Thanh Uyên	uyen.huynh1782@gmail.com	0753894990	F	1991-08-27	2025-01-10	\N
-1783	Nguyễn Khánh Thảo	thao.nguyen1783@yahoo.com	0795799079	F	1989-12-29	2023-11-13	\N
-1784	Võ Thành Sơn	son.vo1784@gmail.com	0521417180	M	2004-01-30	2024-05-28	\N
-1785	Hoàng Bảo Hạnh	hanh.hoang1785@mail.vn	0733875774	F	1976-01-16	2025-04-04	\N
-1786	Nguyễn Khánh Anh	anh.nguyen1786@mail.vn	0397022007	F	\N	2023-08-31	\N
-1787	Nguyễn Đức Vinh	vinh.nguyen1787@gmail.com	0540762411	M	1998-08-03	2023-11-19	582
-1788	Vũ Mai Giang	giang.vu1788@yahoo.com	0501932585	F	\N	2025-06-24	\N
-1789	Phan Công Bình	binh.phan1789@outlook.com	0923785933	\N	1976-03-24	2025-08-27	\N
-1790	Nguyễn Thị Quyên	quyen.nguyen1790@mail.vn	\N	F	1972-06-12	2024-04-24	\N
-1791	Nguyễn Hữu Dũng	dung.nguyen1791@gmail.com	0300967984	M	1967-09-13	2025-04-19	925
-1792	Dương Thanh Hương	huong.duong1792@gmail.com	0909318010	F	1990-09-09	2025-12-07	\N
-1793	Nguyễn Thị Mai	mai.nguyen1793@outlook.com	0943028905	F	1972-12-09	2024-04-23	\N
-1794	Trần Khánh Uyên	uyen.tran1794@gmail.com	0517693484	F	1976-03-01	2025-11-18	1027
-1795	Nguyễn Thanh Phương	phuong.nguyen1795@yahoo.com	0758525986	F	\N	2025-11-20	\N
-1796	Lê Tuấn Long	long.le1796@mail.vn	0579977616	M	\N	2024-04-19	\N
-1797	Nguyễn Phương Oanh	oanh.nguyen1797@yahoo.com	0515606066	F	\N	2024-07-15	\N
-1798	Phạm Quang Huy	huy.pham1798@mail.vn	0955662053	M	1968-10-10	2024-08-08	\N
-1799	Nguyễn Hoài Uyên	uyen.nguyen1799@outlook.com	0333361282	\N	\N	2023-10-02	\N
-1800	Võ Minh Long	long.vo1800@mail.vn	0579014993	M	1990-02-19	2024-04-26	\N
-1801	Nguyễn Phương Trang	trang.nguyen1801@gmail.com	0371509175	F	2004-03-23	2024-11-26	\N
-1802	Dương Gia Hùng	hung.duong1802@gmail.com	0514436221	M	2000-09-12	2025-08-25	\N
-1803	Huỳnh Công Trung	trung.huynh1803@gmail.com	0720357439	\N	2001-04-24	2025-12-04	\N
-1804	Nguyễn Văn Dũng	dung.nguyen1804@gmail.com	0301242068	M	2006-03-11	2025-05-05	\N
-1805	Trần Thanh Uyên	uyen.tran1805@gmail.com	0987510676	F	1978-09-26	2024-12-09	\N
-1806	Trần Phương Uyên	uyen.tran1806@gmail.com	0700682160	F	1985-03-04	2025-12-30	\N
-1807	Nguyễn Bảo Hạnh	hanh.nguyen1807@gmail.com	0957765284	F	\N	2024-04-18	\N
-1808	Phan Gia Việt	viet.phan1808@yahoo.com	\N	M	1970-10-11	2023-05-10	\N
-1809	Đặng Gia Thắng	thang.dang1809@gmail.com	0906753789	M	1978-08-01	2025-06-12	\N
-1810	Nguyễn Minh Trung	trung.nguyen1810@gmail.com	0379429162	M	1974-03-30	2024-09-01	\N
-1811	Phạm Hữu Đạt	dat.pham1811@gmail.com	0394454506	M	1984-03-11	2025-01-18	\N
-1812	Võ Văn Tài	tai.vo1812@gmail.com	0381025903	M	2002-02-17	2023-02-01	\N
-1813	Phạm Khánh Yến	yen.pham1813@outlook.com	0746963988	F	\N	2023-03-28	\N
-1814	Dương Quang Nam	nam.duong1814@gmail.com	0550336916	M	\N	2023-06-21	\N
-1815	Lê Quang Khang	khang.le1815@gmail.com	0394315186	\N	1997-06-24	2023-06-18	\N
-1816	Nguyễn Công Thắng	Thang.nguyen1816@mail.vn	0957559617	M	\N	2024-08-05	459
-1817	Võ Công Tùng	tung.vo1817@gmail.com	0786640767	M	\N	2025-06-06	\N
-1818	Huỳnh Mai Quyên	quyen.huynh1818@outlook.com	0772133621	F	1993-07-19	2023-08-22	\N
-1819	Nguyễn Thu Diệp	diep.nguyen1819@yahoo.com	0734124409	F	\N	2023-05-29	\N
-1820	Trần Văn Dũng	dung.tran1820@mail.vn	0931602612	M	\N	2023-10-30	1189
-1821	Nguyễn Thu Anh	anh.nguyen1821@gmail.com	0958381927	F	1983-02-01	2024-10-19	\N
-1822	Hồ Ngọc Trang	trang.ho1822@gmail.com	0574859460	F	\N	2024-09-03	\N
-1823	Vũ Phương Quyên	quyen.vu1823@yahoo.com	0700931985	F	2000-09-03	2025-01-29	\N
-1824	Nguyễn Thanh Lan	lan.nguyen1824@yahoo.com	0913773743	F	1965-07-19	2025-03-06	\N
-1825	Đỗ Gia Hùng	hung.do1825@outlook.com	0763037769	M	1986-11-28	2025-03-20	\N
-1826	Trần Anh Hiếu	hieu.tran1826@outlook.com	0728755769	M	1975-09-08	2025-11-04	\N
-1827	Trần Thị Diệp	diep.tran1827@outlook.com	0766620533	F	2000-07-23	2025-11-24	890
-1828	Nguyễn Công Toàn	toan.nguyen1828@gmail.com	\N	M	1978-09-07	2025-05-31	511
-1829	Huỳnh Phương My	my.huynh1829@gmail.com	0994880253	F	1982-07-02	2025-04-17	105
-1830	Đặng Minh Nam	nam.dang1830@mail.vn	0920055875	\N	1989-08-29	2025-08-26	\N
-1831	Huỳnh Thị Ngân	ngan.huynh1831@outlook.com	0724111718	F	1968-03-09	2024-10-01	\N
-1832	Phan Minh Hà	ha.phan1832@yahoo.com	0553573421	F	1982-07-10	2023-04-15	\N
-1833	Phạm Minh Long	long.pham1833@yahoo.com	0770476049	M	1987-01-12	2025-06-19	\N
-1834	Bùi Khánh Hương	huong.bui1834@gmail.com	\N	F	1995-01-07	2024-11-24	\N
-1835	Nguyễn Tuấn Quân	quan.nguyen1835@outlook.com	0507624842	M	1999-07-13	2024-12-13	\N
-1836	Nguyễn Thu Thảo	thao.nguyen1836@outlook.com	0916177755	F	1995-01-23	2023-05-17	\N
-1837	Đặng Thu Anh	anh.dang1837@outlook.com	0947378826	F	\N	2025-02-01	\N
-1838	Trần Hoài Phương	phuong.tran1838@gmail.com	0376498670	F	1973-12-25	2024-01-17	\N
-1839	Trần Ngọc Hạnh	hanh.tran1839@gmail.com	0731844477	F	1966-03-27	2023-07-20	1331
-1840	Phạm Thu Hoa	hoa.pham1840@mail.vn	0913951034	F	2004-02-27	2025-08-15	\N
-1841	Võ Thu My	my.vo1841@gmail.com	0723908768	F	1973-12-24	2024-03-22	\N
-1842	Nguyễn Thành Hùng	hung.nguyen1842@mail.vn	0538604395	M	\N	2023-08-08	310
-1843	Vũ Phương Uyên	uyen.vu1843@gmail.com	0990491376	F	1991-07-10	2024-06-15	\N
-1844	Võ Khánh Quyên	quyen.vo1844@gmail.com	0563047913	F	1972-03-28	2023-11-18	\N
-1845	Nguyễn Anh Việt	viet.nguyen1845@yahoo.com	0941212872	\N	2002-10-21	2023-01-13	\N
-1846	Nguyễn Thu Chi	chi.nguyen1846@outlook.com	0544423334	F	1969-09-28	2024-10-27	\N
-1847	Nguyễn Thanh Nhung	nhung.nguyen1847@outlook.com	0538535410	F	\N	2024-04-20	\N
-1848	Nguyễn Quang Huy	huy.nguyen1848@gmail.com	0714157918	M	\N	2023-12-06	\N
-1849	Trần Đức Việt	viet.tran1849@gmail.com	0337258868	M	\N	2024-03-19	\N
-1850	Nguyễn Phương Giang	giang.nguyen1850@mail.vn	0566451438	F	1995-05-15	2025-05-14	1510
-1851	Nguyễn Bảo Chi	chi.nguyen1851@gmail.com	0730828862	F	1989-05-25	2024-06-06	\N
-1852	Võ Khánh Nhung	nhung.vo1852@gmail.com	0703660879	\N	1994-11-18	2024-08-20	\N
-1853	Võ Thanh Nhung	nhung.vo1853@mail.vn	0915088349	F	2000-05-20	2024-03-20	\N
-1854	Nguyễn Công Dũng	dung.nguyen1854@mail.vn	0983830550	M	\N	2025-02-22	\N
-1855	Nguyễn Mai Yến	yen.nguyen1855@mail.vn	0597311405	F	1974-07-22	2025-11-21	\N
-1856	Nguyễn Quang Sơn	son.nguyen1856@yahoo.com	0317524282	\N	1995-07-11	2024-08-14	\N
-1857	Nguyễn Thanh Hương	huong.nguyen1857@gmail.com	0535749517	F	1980-06-06	2025-03-29	\N
-1858	Đỗ Minh Mai	mai.do1858@yahoo.com	\N	F	\N	2024-02-29	\N
-1859	Lê Thị Trang	trang.le1859@gmail.com	0922526671	F	2001-01-07	2023-01-13	\N
-1860	Nguyễn Gia Vinh	vinh.nguyen1860@yahoo.com	0580549943	M	\N	2024-06-23	1578
-1861	Ngô Công Cường	cuong.ngo1861@mail.vn	0566267054	M	1977-11-07	2025-03-04	\N
-1862	Đặng Quang Đạt	dat.dang1862@gmail.com	0331730727	M	1986-01-06	2025-03-11	998
-1863	Hồ Thu Hà	ha.ho1863@mail.vn	\N	F	\N	2024-07-27	\N
-1864	Vũ Hoài Mai	mai.vu1864@mail.vn	0739085096	F	1973-01-31	2023-12-20	\N
-1865	Nguyễn Thanh My	my.nguyen1865@gmail.com	0381847523	F	1971-03-16	2023-12-06	\N
-1866	Nguyễn Thanh Yến	yen.nguyen1866@gmail.com	0748144232	F	1968-02-28	2024-01-28	\N
-1867	Lê Hữu Thắng	thang.le1867@gmail.com	0745167583	M	1991-05-02	2024-09-22	\N
-1868	Phạm Minh Phong	phong.pham1868@gmail.com	0987085370	M	1996-07-02	2025-10-31	691
-1869	Lê Tuấn Khoa	khoa.le1869@mail.vn	0316329532	M	1975-07-05	2023-03-20	\N
-1870	Trần Gia Hùng	hung.tran1870@mail.vn	0723557309	M	1998-08-01	2025-10-20	\N
-1871	Lê Thu Linh	linh.le1871@outlook.com	\N	F	1984-10-30	2023-10-28	\N
-1872	Nguyễn Phương Ngân	ngan.nguyen1872@gmail.com	0951910460	F	1995-08-05	2025-04-27	856
-1873	Trần Đức Huy	huy.tran1873@mail.vn	\N	M	2004-05-15	2024-04-26	\N
-1874	Trần Khánh My	my.tran1874@gmail.com	0333221261	F	1969-07-21	2024-02-10	\N
-1875	Lý Quang Hải	hai.ly1875@gmail.com	0786723909	M	\N	2024-07-06	\N
-1876	Võ Anh Thắng	thang.vo1876@mail.vn	0731263402	M	\N	2025-08-26	1608
-1877	Lý Thị Yến	yen.ly1877@yahoo.com	\N	F	1991-12-27	2025-06-06	1022
-1878	Phạm Ngọc Hương	huong.pham1878@gmail.com	0987292771	F	1995-10-18	2025-11-08	\N
-1879	Trần Anh Hùng	hung.tran1879@outlook.com	0910872569	M	1973-09-22	2024-02-22	\N
-1880	Trần Quang Hùng	hung.tran1880@gmail.com	0335825788	M	\N	2024-07-19	\N
-1881	Phạm Văn Trung	trung.pham1881@yahoo.com	0570975503	M	1983-06-27	2025-07-14	\N
-1882	Lê Phương Phương	phuong.le1882@yahoo.com	0374148533	F	1970-08-08	2024-07-07	\N
-1883	Dương Anh Toàn	toan.duong1883@gmail.com	0531735838	M	\N	2024-03-16	\N
-1884	Nguyễn Phương Nhung	nhung.nguyen1884@yahoo.com	0375755436	F	1991-10-08	2024-01-07	\N
-1885	Trần Anh Nam	nam.tran1885@outlook.com	0996839851	M	\N	2025-09-21	\N
-1886	Trần Anh Phong	phong.tran1886@mail.vn	0964265948	\N	1981-11-30	2024-09-28	343
-1887	Huỳnh Đức Dũng	dung.huynh1887@gmail.com	0936728623	M	\N	2025-07-14	\N
-1888	Võ Mai Thảo	thao.vo1888@gmail.com	0963975365	F	1970-10-12	2025-01-12	821
-1889	Phan Bảo Chi	chi.phan1889@gmail.com	0739512989	F	1999-02-21	2025-12-24	146
-1890	Trần Văn Toàn	toan.tran1890@outlook.com	0306199285	M	1998-04-23	2023-12-19	\N
-1891	Nguyễn Minh Toàn	toan.nguyen1891@gmail.com	0387408965	M	1976-09-12	2023-08-04	1644
-1892	Phạm Công Tùng	tung.pham1892@gmail.com	0946639557	M	\N	2025-09-27	\N
-1893	Nguyễn Anh Đạt	dat.nguyen1893@mail.vn	0788640650	M	1978-01-17	2025-06-09	\N
-1894	Hoàng Tuấn Thắng	thang.hoang1894@gmail.com	0521158724	M	2006-02-23	2025-09-05	\N
-1895	Trần Tuấn Hùng	hung.tran1895@gmail.com	0547181165	M	1983-08-24	2023-12-05	\N
-1896	Nguyễn Khánh Linh	linh.nguyen1896@gmail.com	\N	F	1969-08-08	2024-02-11	\N
-1897	Lý Minh Dũng	dung.ly1897@gmail.com	0579824333	M	\N	2024-01-08	\N
-1898	Nguyễn Tuấn Tài	tai.nguyen1898@yahoo.com	\N	M	2005-11-28	2025-07-05	\N
-1899	Đỗ Quang Tài	tai.do1899@gmail.com	0568526628	M	1990-08-17	2025-06-03	\N
-1900	Bùi Thu Chi	chi.bui1900@yahoo.com	\N	F	\N	2024-12-27	\N
-1901	Nguyễn Công Việt	viet.nguyen1901@gmail.com	0378078191	M	1999-08-15	2023-01-21	\N
-1902	Nguyễn Mai My	my.nguyen1902@gmail.com	\N	F	1973-11-01	2025-08-09	\N
-1903	Huỳnh Khánh Lan	lan.huynh1903@outlook.com	0750252905	F	\N	2024-01-02	\N
-1904	Nguyễn Phương Quyên	quyen.nguyen1904@mail.vn	0980474455	F	1966-12-30	2025-09-04	1451
-1905	Phan Công An	an.phan1905@outlook.com	0970843075	M	1972-11-04	2025-01-23	\N
-1906	Vũ Thành Toàn	toan.vu1906@gmail.com	0901980531	M	1977-01-24	2025-10-20	\N
-1907	Lê Khánh Linh	linh.le1907@yahoo.com	0558760255	F	1992-01-10	2023-10-21	\N
-1908	Hoàng Thu Uyên	uyen.hoang1908@mail.vn	0584445302	F	1985-08-13	2025-09-24	\N
-1909	Trần Thanh Ngân	ngan.tran1909@mail.vn	0585122144	F	1992-09-30	2025-08-10	\N
-1910	Võ Văn Thắng	thang.vo1910@gmail.com	0986319794	M	\N	2024-04-04	\N
-1911	Đỗ Phương Hương	huong.do1911@gmail.com	0962922424	F	1982-01-05	2024-11-02	\N
-1912	Phạm Thu Ngân	ngan.pham1912@yahoo.com	0362018141	F	2006-10-11	2025-05-15	693
-1913	Dương Thành Dũng	dung.duong1913@gmail.com	0577349409	M	1994-09-27	2024-10-25	\N
-1914	Trần Thành An	an.tran1914@mail.vn	0998828636	M	1998-10-30	2024-09-12	1188
-1915	Vũ Ngọc Hà	ha.vu1915@yahoo.com	0936484661	F	\N	2024-12-06	\N
-1916	Lê Thành Toàn	toan.le1916@gmail.com	0909302706	M	\N	2024-11-27	\N
-1917	Hoàng Công Việt	viet.hoang1917@gmail.com	0735073832	M	1980-10-13	2024-04-03	\N
-1918	Nguyễn Ngọc Mai	mai.nguyen1918@gmail.com	0903177377	F	1992-08-16	2025-09-19	\N
-1919	Hoàng Thanh Dung	dung.hoang1919@gmail.com	0322034945	F	\N	2025-01-23	1220
-1920	Trần Minh Hoa	hoa.tran1920@gmail.com	\N	F	1987-02-03	2025-04-06	271
-1921	Lê Văn Tài	tai.le1921@mail.vn	0740723146	M	1988-04-26	2024-05-13	\N
-1922	Hoàng Hữu Dũng	dung.hoang1922@gmail.com	0334756123	M	1989-04-01	2023-08-13	\N
-1923	Dương Phương Diệp	diep.duong1923@gmail.com	0906643086	F	\N	2025-11-09	\N
-1924	Trần Đức Phong	phong.tran1924@gmail.com	0733534099	M	1998-01-01	2024-04-03	\N
-1925	Huỳnh Công Việt	viet.huynh1925@yahoo.com	0339428064	M	2003-11-07	2024-07-16	\N
-1926	Nguyễn Tuấn Phúc	phuc.nguyen1926@yahoo.com	0522645388	M	\N	2023-08-03	\N
-1927	Vũ Hoài Phương	phuong.vu1927@gmail.com	0944547065	F	2004-01-03	2023-05-11	\N
-1928	Nguyễn Hoài Dung	dung.nguyen1928@gmail.com	0754940946	F	\N	2024-05-04	1924
-1929	Trần Thu My	my.tran1929@gmail.com	0919501054	F	1985-04-03	2024-01-21	\N
-1930	Nguyễn Văn Huy	huy.nguyen1930@gmail.com	0988454732	M	1968-01-24	2025-11-10	\N
-1931	Hồ Hữu Đạt	dat.ho1931@yahoo.com	0562910428	M	\N	2025-06-30	1054
-1932	Lê Thị Ngân	ngan.le1932@gmail.com	\N	F	2006-01-11	2025-05-04	\N
-1933	Phạm Thu Hạnh	hanh.pham1933@gmail.com	0544622841	F	\N	2024-01-09	\N
-1934	Bùi Minh Hiếu	hieu.bui1934@gmail.com	0913917875	M	\N	2025-04-07	1377
-1935	Lê Minh Hà	ha.le1935@outlook.com	0318631042	F	\N	2023-06-13	1562
-1936	Nguyễn Mai Diệp	diep.nguyen1936@gmail.com	0952288875	F	1995-02-12	2025-03-01	\N
-1937	Bùi Phương Anh	anh.bui1937@yahoo.com	\N	F	2006-09-23	2025-10-12	\N
-1938	Nguyễn Gia Phong	phong.nguyen1938@outlook.com	0358710259	M	1975-05-27	2023-06-05	\N
-1939	Huỳnh Minh An	an.huynh1939@gmail.com	0382619582	M	1973-10-23	2025-08-14	\N
-1940	Nguyễn Thanh Dung	dung.nguyen1940@gmail.com	0543661103	\N	1982-11-26	2025-01-20	\N
-1941	Nguyễn Phương Hương	huong.nguyen1941@gmail.com	0326649623	F	1972-04-19	2025-03-05	\N
-1942	Đặng Thị Anh	anh.dang1942@gmail.com	0928149058	F	1989-03-31	2024-12-06	\N
-1943	Huỳnh Quang Quân	quan.huynh1943@yahoo.com	0555426931	M	1968-06-13	2024-05-12	\N
-1944	Nguyễn Thành Sơn	son.nguyen1944@mail.vn	0597426855	M	1984-08-10	2025-08-24	\N
-1945	Phạm Gia Long	long.pham1945@gmail.com	\N	M	1974-05-09	2024-10-16	\N
-1946	Nguyễn Hữu Khoa	khoa.nguyen1946@gmail.com	0360543088	M	1972-12-27	2025-11-15	\N
-1947	Bùi Gia Tùng	tung.bui1947@mail.vn	0968779419	M	1997-01-02	2023-06-29	\N
-1948	Trần Quang Hải	hai.tran1948@yahoo.com	0936428701	\N	1988-11-27	2025-07-09	\N
-1949	Đặng Anh Cường	cuong.dang1949@mail.vn	0938479282	M	\N	2023-10-15	\N
-1950	Nguyễn Mai My	my.nguyen1950@yahoo.com	\N	F	\N	2023-07-09	\N
-1951	Trần Gia Nam	nam.tran1951@outlook.com	0545444841	\N	\N	2025-05-21	1633
-1952	Đặng Thanh Lan	lan.dang1952@yahoo.com	0972512238	F	\N	2023-02-25	\N
-1953	Phạm Thị Lan	lan.pham1953@yahoo.com	\N	F	1971-02-20	2024-12-07	\N
-1954	Nguyễn Khánh Mai	mai.nguyen1954@gmail.com	0798592132	F	1973-12-11	2023-05-08	\N
-1955	Nguyễn Mai Vân	Van.nguyen1955@gmail.com	\N	F	1977-05-28	2023-08-12	\N
-1956	Dương Đức Việt	viet.duong1956@gmail.com	0313487788	M	2000-02-22	2024-02-09	\N
-1957	Vũ Đức Toàn	toan.vu1957@yahoo.com	0552417253	M	1972-03-05	2024-01-05	\N
-1958	Nguyễn Minh Thảo	thao.nguyen1958@gmail.com	0919352128	F	1976-02-17	2025-08-17	\N
-1959	Dương Gia Việt	viet.duong1959@gmail.com	\N	M	1998-08-23	2025-05-28	\N
-1960	Trần Phương Hoa	hoa.tran1960@yahoo.com	0781277342	F	\N	2025-05-31	1876
-1961	Trần Anh Đạt	dat.tran1961@gmail.com	0985006361	M	2003-01-13	2024-06-10	\N
-1962	Đỗ Tuấn Tài	tai.do1962@mail.vn	0735181524	M	1968-10-04	2024-06-26	\N
-1963	Đỗ Gia An	an.do1963@mail.vn	0370401522	M	1974-12-31	2025-01-02	\N
-1964	Phạm Hoài Nhung	nhung.pham1964@mail.vn	0978341831	F	1981-03-01	2025-12-19	\N
-1965	Lê Minh Trung	Trung.le1965@yahoo.com	0945204037	M	1969-01-13	2024-11-12	1899
-1966	Trần Hữu Toàn	toan.tran1966@outlook.com	0948535641	M	2002-04-06	2023-12-15	\N
-1967	Lê Công Cường	cuong.le1967@mail.vn	0942448114	M	1997-05-08	2024-05-13	\N
-1968	Nguyễn Thành An	an.nguyen1968@gmail.com	0377251718	M	1990-11-30	2025-12-11	\N
-1969	Huỳnh Hữu Hải	hai.huynh1969@gmail.com	0720721740	M	1979-09-14	2023-11-27	\N
-1970	Huỳnh Gia Đạt	dat.huynh1970@gmail.com	0398032642	M	2003-04-01	2024-01-29	\N
-1971	Huỳnh Quang Phong	phong.huynh1971@mail.vn	0976216723	M	\N	2024-07-15	\N
-1972	Nguyễn Thị Phương	phuong.nguyen1972@outlook.com	0364789526	F	\N	2023-12-05	505
-1973	Phan Minh Khoa	khoa.phan1973@gmail.com	\N	M	\N	2025-12-09	\N
-1974	Trần Đức Phong	phong.tran1974@gmail.com	0513185775	\N	1990-05-01	2024-08-03	\N
-1975	Nguyễn Gia Khoa	khoa.nguyen1975@gmail.com	0905639660	M	2006-05-02	2025-05-17	553
-1976	Đặng Thị Dung	dung.dang1976@gmail.com	0347389246	F	2003-07-19	2025-10-09	398
-1977	Nguyễn Đức Hùng	hung.nguyen1977@yahoo.com	0743207714	M	\N	2024-04-25	\N
-1978	Nguyễn Đức Quân	quan.nguyen1978@gmail.com	0944796933	M	\N	2025-10-02	\N
-1979	Võ Minh My	my.vo1979@gmail.com	\N	F	1986-04-02	2025-02-01	\N
-1980	Nguyễn Hữu Quân	quan.nguyen1980@outlook.com	\N	M	1965-02-17	2025-09-10	\N
-1981	Trần Minh Hương	huong.tran1981@yahoo.com	0365122580	F	1981-03-17	2023-09-20	\N
-1982	Phạm Anh Phúc	phuc.pham1982@outlook.com	0500789285	M	1965-09-07	2024-03-04	\N
-1983	Lê Bảo Anh	anh.le1983@mail.vn	0769423654	F	1973-04-30	2025-02-11	\N
-1984	Nguyễn Mai My	my.nguyen1984@gmail.com	0361654501	F	1971-03-30	2025-02-06	\N
-1985	Lê Anh Hùng	hung.le1985@gmail.com	0732635054	M	\N	2024-01-19	\N
-1986	Trần Hữu Đạt	dat.tran1986@mail.vn	\N	M	\N	2024-05-19	\N
-1987	Nguyễn Anh Sơn	Son.nguyen1987@gmail.com	0706879549	M	1976-05-14	2024-02-06	\N
-1988	Trần Hữu Phúc	phuc.tran1988@outlook.com	0588745153	M	1999-04-11	2023-05-19	\N
-1989	Võ Minh Khang	khang.vo1989@gmail.com	0724136589	M	\N	2025-06-20	\N
-1990	Lê Thị Yến	yen.le1990@yahoo.com	0767154772	F	\N	2024-10-02	576
-1991	Lý Bảo Yến	yen.ly1991@yahoo.com	0586693856	F	1988-09-07	2025-09-24	\N
-1992	Nguyễn Công Vinh	vinh.nguyen1992@outlook.com	0522822134	M	1993-02-14	2024-08-08	\N
-1993	Lê Anh Việt	viet.le1993@gmail.com	0998389744	M	1987-07-16	2025-11-02	964
-1994	Trần Minh Toàn	toan.tran1994@mail.vn	0928839944	M	1982-05-20	2024-06-27	\N
-1995	Nguyễn Thanh Oanh	oanh.nguyen1995@yahoo.com	0521029026	F	\N	2023-06-09	\N
-1996	Lý Bảo Vân	van.ly1996@gmail.com	0321094659	F	1972-10-10	2025-03-26	1074
-1997	Dương Công Hiếu	hieu.duong1997@outlook.com	0525216517	M	\N	2024-04-08	\N
-1998	Đặng Hoài Ngân	ngan.dang1998@gmail.com	0968397344	F	\N	2025-11-02	\N
-1999	Bùi Thanh Diệp	diep.bui1999@gmail.com	0915895570	F	1967-06-12	2025-11-18	\N
-2000	Vũ Thanh Hương	huong.vu2000@gmail.com	0531883272	\N	1985-03-28	2025-05-10	663
-2001	Lê Anh Hùng	hung.le2001@mail.vn	0955126260	M	1976-09-16	2024-10-15	\N
-2002	Nguyễn Thu Anh	anh.nguyen2002@yahoo.com	0774984890	F	\N	2023-06-03	\N
-2003	Nguyễn Phương Hạnh	hanh.nguyen2003@gmail.com	0572868156	F	2002-10-31	2024-05-26	\N
-2004	Nguyễn Ngọc Mai	mai.nguyen2004@gmail.com	0797265407	F	\N	2024-05-02	\N
-2005	Lê Hữu Khoa	khoa.le2005@gmail.com	0737772641	M	1966-08-11	2024-11-27	\N
-2006	Nguyễn Thu Phương	phuong.nguyen2006@gmail.com	0537398078	F	\N	2023-10-16	\N
-2007	Trần Thanh Trang	trang.tran2007@gmail.com	0503709213	F	1993-01-09	2023-12-23	46
-2008	Lê Thu Nga	nga.le2008@outlook.com	0944269457	F	\N	2024-07-30	\N
-2009	Vũ Tuấn Long	long.vu2009@mail.vn	\N	M	1971-10-31	2024-11-10	476
-2010	Đặng Minh Lan	lan.dang2010@mail.vn	0336873243	F	1984-02-07	2025-05-16	\N
-2011	Nguyễn Gia Khoa	khoa.nguyen2011@gmail.com	0966514412	\N	\N	2025-11-23	\N
-2012	Nguyễn Quang Đạt	dat.nguyen2012@mail.vn	0368264589	M	1973-02-16	2024-06-09	\N
-2013	Lê Phương Hương	huong.le2013@gmail.com	0562193058	F	1966-10-26	2025-09-18	905
-2014	Phan Phương My	my.phan2014@mail.vn	0925079851	F	1995-11-22	2024-06-29	\N
-2015	Võ Hoài Quyên	quyen.vo2015@outlook.com	0706523369	F	\N	2023-12-29	\N
-2016	Nguyễn Tuấn Đạt	dat.nguyen2016@gmail.com	0715031095	M	1972-09-28	2025-07-22	\N
-2017	Hồ Gia Bình	binh.ho2017@outlook.com	0925691563	M	\N	2024-07-19	\N
-2018	Huỳnh Công Việt	viet.huynh2018@gmail.com	0723887190	M	2001-09-12	2025-02-17	1670
-2019	Nguyễn Ngọc Chi	chi.nguyen2019@yahoo.com	0915518559	F	1984-09-20	2025-03-08	141
-2020	Dương Hữu Trung	trung.duong2020@outlook.com	0565760662	M	\N	2023-02-23	\N
-2021	Huỳnh Quang Hiếu	hieu.huynh2021@yahoo.com	\N	M	1971-06-24	2024-10-22	\N
-2022	Nguyễn Anh Việt	viet.nguyen2022@gmail.com	0381212599	M	1971-09-22	2024-06-17	\N
-2023	Vũ Thanh Giang	Giang.vu2023@gmail.com	0334881190	F	1998-07-08	2024-04-07	\N
-2024	Vũ Anh Toàn	Toan.vu2024@yahoo.com	0551362880	M	\N	2024-05-19	\N
-2025	Trần Hữu Phúc	phuc.tran2025@gmail.com	0506827382	M	\N	2023-05-19	\N
-2026	Nguyễn Thanh Hoa	hoa.nguyen2026@mail.vn	0350644545	F	1979-09-14	2024-12-18	\N
-2027	Trần Văn Nam	nam.tran2027@gmail.com	0920034960	M	\N	2024-12-09	\N
-2028	Nguyễn Tuấn Quân	quan.nguyen2028@gmail.com	0367096495	M	1975-08-06	2023-07-30	\N
-2029	Vũ Bảo Hà	ha.vu2029@gmail.com	0727903457	F	1971-05-04	2025-01-28	1689
-2030	Nguyễn Minh Chi	chi.nguyen2030@gmail.com	0506606248	F	1988-11-01	2024-12-25	\N
-2031	Hoàng Hoài Linh	linh.hoang2031@yahoo.com	0757811325	F	\N	2024-12-23	\N
-2032	Lê Công Trung	trung.le2032@mail.vn	0593991178	M	1976-10-17	2025-02-15	\N
-2033	Nguyễn Phương Chi	chi.nguyen2033@gmail.com	0966962989	F	\N	2025-01-21	\N
-2034	Hồ Ngọc Hương	huong.ho2034@outlook.com	0905238534	F	1999-07-02	2025-01-27	\N
-2035	Đỗ Văn Bình	binh.do2035@mail.vn	\N	M	2000-10-21	2025-12-22	\N
-2036	Trần Minh Nga	nga.tran2036@gmail.com	0716729070	F	1994-02-01	2024-06-28	\N
-2037	Bùi Thành Đạt	dat.bui2037@yahoo.com	0518399751	M	1972-04-21	2024-09-16	\N
-2038	Nguyễn Thị Yến	yen.nguyen2038@gmail.com	0343133756	F	2004-05-05	2025-12-10	1960
-2039	Trần Gia Hùng	hung.tran2039@mail.vn	\N	M	2001-09-08	2024-11-18	\N
-2040	Vũ Thanh Hà	ha.vu2040@outlook.com	0937147292	F	\N	2025-12-19	\N
-2041	Lê Thu Nga	nga.le2041@gmail.com	0510845557	F	\N	2025-11-07	\N
-2042	Bùi Gia Long	long.bui2042@gmail.com	0500159062	M	1967-12-25	2025-09-03	54
-2043	Lê Phương Hà	ha.le2043@mail.vn	0320420905	F	2004-11-20	2025-09-24	\N
-2044	Phạm Minh Sơn	son.pham2044@outlook.com	0529645511	M	2006-03-21	2024-08-13	\N
-2045	Trần Minh Thắng	thang.tran2045@gmail.com	0776449811	M	1986-11-28	2025-08-17	\N
-2046	Trần Thành Dũng	dung.tran2046@outlook.com	0776388074	M	1995-04-16	2025-04-11	\N
-2047	Phan Công Vinh	vinh.phan2047@gmail.com	0707683163	M	1968-08-23	2024-04-12	\N
-2048	Nguyễn Văn Toàn	toan.nguyen2048@mail.vn	\N	M	1993-10-07	2025-08-13	\N
-2049	Huỳnh Ngọc Hạnh	hanh.huynh2049@gmail.com	0577018523	F	1966-04-13	2025-01-06	\N
-2050	Ngô Hữu Dũng	dung.ngo2050@outlook.com	0500493737	M	1975-11-23	2024-06-03	\N
-2051	Nguyễn Đức Quân	quan.nguyen2051@yahoo.com	0504054585	M	\N	2023-04-24	\N
-2052	Nguyễn Quang Khang	khang.nguyen2052@mail.vn	0323246991	M	\N	2025-07-17	\N
-2053	Phạm Anh Sơn	son.pham2053@yahoo.com	0353092525	M	\N	2025-10-08	369
-2054	Phan Đức Vinh	vinh.phan2054@gmail.com	0596296092	M	1984-04-06	2023-09-23	\N
-2055	Nguyễn Thanh Hà	ha.nguyen2055@gmail.com	0345104231	F	1986-11-19	2023-07-31	\N
-2056	Phan Mai My	My.phan2056@yahoo.com	0936553283	F	\N	2025-01-30	\N
-2057	Phạm Minh Hùng	hung.pham2057@gmail.com	0791683877	M	1974-09-21	2024-09-23	\N
-2058	Võ Thành Quân	quan.vo2058@outlook.com	0307917364	M	1989-12-13	2023-08-05	612
-2059	Nguyễn Mai Uyên	uyen.nguyen2059@gmail.com	0961320316	F	1979-01-11	2024-05-26	\N
-2060	Đỗ Hoài Quyên	quyen.do2060@mail.vn	0793152692	\N	1967-07-13	2025-07-07	\N
-2061	Phạm Thu Thảo	thao.pham2061@gmail.com	0915072854	F	1967-12-06	2024-08-17	\N
-2062	Huỳnh Thu Thảo	thao.huynh2062@outlook.com	0710254639	\N	\N	2024-02-05	175
-2063	Phạm Ngọc Hạnh	hanh.pham2063@gmail.com	0505611631	F	1979-05-04	2024-03-05	\N
-2064	Trần Gia Long	long.tran2064@gmail.com	0994740653	M	1981-08-27	2025-09-28	\N
-2065	Hoàng Ngọc Hà	ha.hoang2065@gmail.com	0344570450	F	1997-10-19	2023-12-09	\N
-2066	Võ Tuấn Long	long.vo2066@yahoo.com	0345146980	M	\N	2025-08-15	623
-2067	Phạm Thu Nhung	nhung.pham2067@gmail.com	0573498375	F	1970-02-19	2023-03-05	\N
-2068	Lê Đức Phong	phong.le2068@gmail.com	0925049693	M	1969-03-13	2023-10-06	\N
-2069	Lê Đức Hải	hai.le2069@gmail.com	0796551571	M	1999-03-08	2023-06-01	\N
-2070	Nguyễn Mai Lan	lan.nguyen2070@mail.vn	0523364359	F	1972-12-19	2023-09-02	\N
-2071	Phạm Minh Khang	khang.pham2071@gmail.com	\N	M	1984-03-27	2024-05-04	433
-2072	Hoàng Ngọc Ngân	ngan.hoang2072@gmail.com	0993710159	F	1987-08-16	2024-12-23	\N
-2073	Đặng Gia Bình	binh.dang2073@outlook.com	\N	M	1967-04-21	2023-04-27	\N
-2074	Trần Minh Hoa	hoa.tran2074@yahoo.com	0318957903	F	1966-08-05	2024-09-07	\N
-2075	Nguyễn Thành Vinh	vinh.nguyen2075@gmail.com	0720971784	M	\N	2024-06-13	\N
-2076	Nguyễn Bảo Hà	ha.nguyen2076@gmail.com	0749213566	\N	\N	2025-08-29	\N
-2077	Nguyễn Quang Tài	tai.nguyen2077@mail.vn	\N	M	\N	2025-10-05	\N
-2078	Trần Thị Chi	chi.tran2078@outlook.com	0515993462	\N	1981-03-17	2025-12-30	\N
-2079	Trần Gia Tài	tai.tran2079@gmail.com	0347416961	M	\N	2025-10-25	\N
-2080	Bùi Thu Quyên	quyen.bui2080@gmail.com	0777269430	F	2003-05-03	2025-10-28	\N
-2081	Phan Khánh My	my.phan2081@yahoo.com	0780362756	F	1972-01-02	2024-04-28	\N
-2082	Nguyễn Anh Đạt	dat.nguyen2082@outlook.com	0315576051	M	1986-12-05	2025-07-28	\N
-2083	Lê Khánh Hương	huong.le2083@gmail.com	0984833061	F	1990-04-08	2024-08-28	\N
-2084	Trần Thị Quyên	quyen.tran2084@yahoo.com	0302999368	F	\N	2023-12-12	\N
-2085	Nguyễn Công Nam	nam.nguyen2085@mail.vn	0311362780	M	\N	2025-01-29	\N
-2086	Lê Hoài Vân	van.le2086@outlook.com	0529101345	F	1976-09-13	2025-02-24	\N
-2087	Phan Ngọc Uyên	Uyen.phan2087@gmail.com	0503344407	F	\N	2024-02-13	\N
-2088	Dương Bảo Hà	ha.duong2088@gmail.com	0980924105	F	\N	2025-06-03	\N
-2089	Huỳnh Công Phúc	phuc.huynh2089@mail.vn	0372038146	M	1989-12-28	2024-11-07	\N
-2090	Bùi Hoài Dung	dung.bui2090@gmail.com	0928729797	F	\N	2023-02-23	\N
-2091	Trần Thành Hải	hai.tran2091@gmail.com	0542427728	M	1967-08-16	2024-04-12	\N
-2092	Nguyễn Đức Trung	Trung.nguyen2092@outlook.com	0956843296	M	1978-11-14	2024-07-13	\N
-2093	Trần Thu Trang	trang.tran2093@gmail.com	0560614819	F	1982-08-25	2025-02-10	\N
-2094	Võ Thanh Hoa	hoa.vo2094@gmail.com	0544378217	F	\N	2024-01-01	\N
-2095	Phạm Thu Lan	lan.pham2095@gmail.com	0550013612	F	\N	2025-02-15	\N
-2096	Trần Phương Nga	nga.tran2096@gmail.com	\N	F	1989-04-26	2023-04-11	\N
-2097	Nguyễn Hoài Lan	lan.nguyen2097@mail.vn	0917808038	F	1982-09-22	2025-11-24	\N
-2098	Trần Công Cường	cuong.tran2098@yahoo.com	\N	M	1999-05-27	2024-05-20	\N
-2099	Nguyễn Thành Khoa	khoa.nguyen2099@mail.vn	0395619003	M	1989-08-23	2025-03-19	\N
-2100	Hoàng Ngọc Trang	Trang.hoang2100@mail.vn	0917332879	F	1969-05-26	2024-08-04	39
-2101	Nguyễn Khánh Linh	linh.nguyen2101@outlook.com	0505961875	F	1989-01-12	2024-12-05	1409
-2102	Nguyễn Gia Tùng	tung.nguyen2102@yahoo.com	0795001776	M	2001-09-17	2024-11-26	\N
-2103	Lê Hoài Anh	anh.le2103@gmail.com	0919046619	F	\N	2025-04-21	1809
-2104	Lê Văn Vinh	vinh.le2104@yahoo.com	0722251218	M	1997-04-23	2024-08-23	\N
-2105	Trần Gia Thắng	thang.tran2105@gmail.com	0963075190	M	1972-02-15	2025-12-18	\N
-2106	Dương Minh Oanh	oanh.duong2106@mail.vn	\N	F	1972-09-27	2024-04-06	\N
-2107	Phạm Ngọc My	my.pham2107@gmail.com	0552970240	F	1979-04-27	2024-10-15	1847
-2108	Nguyễn Tuấn Tùng	tung.nguyen2108@outlook.com	0997340631	M	1999-05-18	2025-03-27	\N
-2109	Huỳnh Thanh Thảo	thao.huynh2109@gmail.com	0345275543	F	1980-02-08	2025-06-19	\N
-2110	Huỳnh Công Sơn	son.huynh2110@gmail.com	0541946492	M	2006-01-09	2024-04-09	\N
-2111	Đặng Minh Nga	nga.dang2111@gmail.com	0795279645	F	1966-11-24	2024-02-16	\N
-2112	Hồ Thành Hiếu	hieu.ho2112@gmail.com	0948305487	\N	\N	2025-11-29	\N
-2113	Phạm Hoài Yến	yen.pham2113@gmail.com	0985247137	F	2001-11-15	2024-08-15	\N
-2114	Ngô Thu Hương	huong.ngo2114@outlook.com	0722933963	F	1985-02-08	2023-06-04	588
-2115	Nguyễn Đức Hải	hai.nguyen2115@gmail.com	0908786506	M	\N	2024-09-28	\N
-2116	Nguyễn Minh Nam	nam.nguyen2116@gmail.com	0515899405	M	\N	2025-01-03	\N
-2117	Nguyễn Bảo Ngân	ngan.nguyen2117@yahoo.com	0903408658	F	2000-12-21	2023-12-13	\N
-2118	Nguyễn Thanh Thảo	thao.nguyen2118@gmail.com	0701367610	F	1976-05-25	2025-12-26	2096
-2119	Ngô Anh Tài	tai.ngo2119@gmail.com	0532676714	M	1992-10-16	2025-01-15	\N
-2120	Nguyễn Phương Giang	giang.nguyen2120@gmail.com	0551811736	F	\N	2023-08-25	\N
-2121	Nguyễn Anh Hiếu	hieu.nguyen2121@gmail.com	0966348426	\N	1993-11-03	2025-12-19	962
-2122	Trần Tuấn Hiếu	hieu.tran2122@yahoo.com	0994785639	M	\N	2025-07-28	\N
-2123	Phạm Thu Phương	phuong.pham2123@outlook.com	0594691140	F	1972-01-02	2025-02-03	\N
-2124	Trần Bảo Ngân	ngan.tran2124@outlook.com	0992323233	\N	1968-10-04	2025-07-23	\N
-2125	Trần Thu Anh	anh.tran2125@yahoo.com	0733269239	F	1986-12-10	2024-11-25	\N
-2126	Nguyễn Anh Thắng	thang.nguyen2126@gmail.com	0302053130	M	1995-07-13	2024-09-08	\N
-2127	Ngô Bảo Nhung	nhung.ngo2127@gmail.com	0363014992	F	2000-12-13	2025-12-19	\N
-2128	Hoàng Gia Huy	huy.hoang2128@gmail.com	0550586892	M	1981-11-26	2025-04-14	\N
-2129	Nguyễn Thanh Yến	yen.nguyen2129@gmail.com	0985842700	F	1992-09-30	2024-09-03	\N
-2130	Trần Khánh Vân	van.tran2130@outlook.com	0799308783	F	1969-04-02	2025-04-17	\N
-2131	Phan Gia Trung	trung.phan2131@gmail.com	0580433121	M	2006-12-16	2024-09-04	\N
-2132	Trần Quang Tài	tai.tran2132@outlook.com	0328086768	M	1985-07-26	2024-07-28	\N
-2133	Phan Bảo Dung	dung.phan2133@gmail.com	0511097193	F	2002-02-01	2024-10-19	1644
-2134	Phạm Minh Hoa	hoa.pham2134@mail.vn	0316383729	F	1997-04-15	2023-05-07	611
-2135	Võ Văn Quân	quan.vo2135@yahoo.com	0944794805	M	2000-01-20	2023-09-12	\N
-2136	Hoàng Thanh Yến	yen.hoang2136@gmail.com	0726361060	F	1997-06-01	2025-12-24	1559
-2137	Nguyễn Mai Nga	nga.nguyen2137@gmail.com	0927910552	F	1971-11-21	2024-09-05	\N
-2138	Phạm Hoài Lan	lan.pham2138@gmail.com	0508840037	F	1984-05-14	2023-04-20	\N
-2139	Lý Hoài Giang	giang.ly2139@gmail.com	0939706164	F	1975-09-07	2023-12-17	\N
-2140	Phạm Quang Phong	phong.pham2140@gmail.com	\N	M	1991-06-22	2025-01-30	\N
-2141	Hồ Mai Uyên	uyen.ho2141@outlook.com	0796327322	F	1975-12-13	2024-09-28	\N
-2142	Nguyễn Minh Yến	yen.nguyen2142@gmail.com	0793247575	F	1986-05-18	2025-11-09	\N
-2143	Nguyễn Bảo Oanh	oanh.nguyen2143@mail.vn	0905619557	F	1988-08-07	2025-12-12	\N
-2144	Phạm Hoài Mai	mai.pham2144@gmail.com	0332906282	F	1994-06-07	2023-10-01	\N
-2145	Đặng Anh Toàn	toan.dang2145@yahoo.com	0325143161	M	1997-03-30	2024-10-01	\N
-2146	Nguyễn Thu Nga	nga.nguyen2146@mail.vn	0563862899	F	\N	2025-07-24	\N
-2147	Phạm Thị Ngân	ngan.pham2147@gmail.com	0541183703	F	\N	2025-03-09	\N
-2148	Nguyễn Thành Huy	huy.nguyen2148@mail.vn	0522791754	M	1983-06-07	2025-08-28	\N
-2149	Nguyễn Hoài Uyên	uyen.nguyen2149@gmail.com	0938748168	F	1973-10-25	2025-12-05	1701
-2150	Lê Anh Khoa	khoa.le2150@gmail.com	0971291823	M	1973-10-28	2025-10-28	\N
-2151	Nguyễn Quang An	an.nguyen2151@mail.vn	0915050659	M	1966-10-26	2024-03-04	\N
-2152	Phạm Đức Hiếu	hieu.pham2152@mail.vn	0909497891	M	2004-03-29	2024-05-10	1496
-2153	Hoàng Đức Thắng	thang.hoang2153@gmail.com	0513465753	M	\N	2025-08-07	\N
-2154	Trần Ngọc Hà	ha.tran2154@gmail.com	0387667524	F	2006-02-18	2025-02-12	1473
-2155	Nguyễn Công Hải	hai.nguyen2155@mail.vn	0369420637	M	1995-07-01	2023-03-07	\N
-2156	Bùi Hữu Trung	trung.bui2156@gmail.com	0357195123	M	\N	2024-08-07	1762
-2157	Lê Gia Dũng	dung.le2157@gmail.com	0379970409	M	\N	2025-11-14	\N
-2158	Lý Anh Huy	huy.ly2158@yahoo.com	0759935067	M	1978-07-17	2025-05-18	\N
-2159	Nguyễn Ngọc Uyên	uyen.nguyen2159@yahoo.com	0364868750	F	1974-10-16	2025-07-30	\N
-2160	Đặng Bảo Thảo	thao.dang2160@gmail.com	0342396453	F	\N	2025-05-27	\N
-2161	Nguyễn Thị Giang	giang.nguyen2161@gmail.com	0346496296	F	1978-10-21	2024-11-13	\N
-2162	Bùi Thanh My	my.bui2162@outlook.com	0901100069	F	\N	2025-07-29	\N
-2163	Nguyễn Anh Khoa	khoa.nguyen2163@mail.vn	0950515915	M	1976-08-03	2024-11-15	\N
-2164	Bùi Thanh Mai	mai.bui2164@outlook.com	0337963504	F	1983-06-03	2023-06-17	546
-2165	Vũ Công Hùng	hung.vu2165@gmail.com	0528051815	M	1965-07-03	2023-12-16	\N
-2166	Phạm Mai Giang	giang.pham2166@yahoo.com	\N	F	\N	2023-11-17	\N
-2167	Hồ Mai Trang	trang.ho2167@gmail.com	0700779109	F	1971-03-16	2024-11-13	\N
-2168	Nguyễn Tuấn Hiếu	hieu.nguyen2168@mail.vn	0311749577	M	1988-02-07	2025-03-07	\N
-2169	Hoàng Ngọc Uyên	uyen.hoang2169@yahoo.com	0587238839	F	1996-08-27	2025-10-18	1295
-2170	Nguyễn Đức Nam	nam.nguyen2170@yahoo.com	0585571661	M	2005-01-04	2025-08-01	\N
-2171	Nguyễn Minh Đạt	dat.nguyen2171@gmail.com	\N	M	1976-11-14	2023-10-03	\N
-2172	Nguyễn Văn Tùng	tung.nguyen2172@yahoo.com	0941857928	M	1992-05-29	2025-12-25	\N
-2173	Phạm Ngọc Oanh	oanh.pham2173@gmail.com	0371765678	F	2005-04-16	2025-05-24	\N
-2174	Nguyễn Đức Khang	khang.nguyen2174@outlook.com	0957172598	M	2003-05-08	2024-07-03	\N
-2175	Nguyễn Tuấn Quân	quan.nguyen2175@gmail.com	0904460657	M	1989-03-08	2025-01-02	\N
-2176	Nguyễn Đức Việt	viet.nguyen2176@gmail.com	0950846673	M	1978-09-08	2024-10-19	\N
-2177	Nguyễn Công Trung	trung.nguyen2177@outlook.com	\N	M	1986-04-28	2025-06-01	\N
-2178	Đỗ Thành Khang	khang.do2178@mail.vn	\N	M	1973-10-27	2024-06-08	\N
-2179	Trần Tuấn Dũng	Dung.tran2179@mail.vn	0581570309	\N	1987-01-15	2024-12-08	1572
-2180	Trần Văn Nam	nam.tran2180@gmail.com	0997628402	M	1984-02-19	2025-07-07	\N
-2181	Đặng Tuấn Nam	nam.dang2181@gmail.com	0510225823	M	1983-12-20	2023-03-25	\N
-2182	Dương Anh Đạt	dat.duong2182@mail.vn	0744881485	M	2006-08-07	2024-03-20	233
-2183	Phan Thành Nam	nam.phan2183@yahoo.com	0510759230	M	1981-03-03	2024-12-18	\N
-2184	Nguyễn Thu Yến	yen.nguyen2184@gmail.com	0923511419	F	1988-10-21	2024-12-10	\N
-2185	Lê Gia Tài	tai.le2185@yahoo.com	0526101183	M	2002-02-28	2025-07-16	712
-2186	Trần Đức Quân	quan.tran2186@yahoo.com	0516224192	M	1986-07-24	2024-05-03	\N
-2187	Trần Thị Anh	anh.tran2187@gmail.com	0915023310	F	2004-01-14	2023-12-05	\N
-2188	Phan Thu Vân	van.phan2188@gmail.com	0590613612	F	\N	2025-06-08	\N
-2189	Nguyễn Thu My	my.nguyen2189@outlook.com	0536973746	F	\N	2023-08-15	\N
-2190	Ngô Đức Tài	tai.ngo2190@mail.vn	0970209224	M	1991-04-29	2025-08-07	11
-2191	Nguyễn Minh Hà	ha.nguyen2191@gmail.com	0342322386	F	2005-08-14	2023-12-27	\N
-2192	Đặng Thanh Lan	lan.dang2192@yahoo.com	0338666820	F	\N	2024-04-18	\N
-2193	Huỳnh Khánh Dung	dung.huynh2193@gmail.com	0368627981	F	1997-09-30	2023-07-09	\N
-2194	Nguyễn Thị Oanh	oanh.nguyen2194@outlook.com	0912752352	F	1969-09-28	2025-01-28	1135
-2195	Nguyễn Ngọc Hương	huong.nguyen2195@outlook.com	0578438530	F	1971-01-21	2025-01-10	\N
-2196	Phan Thị Chi	chi.phan2196@gmail.com	\N	F	1997-07-14	2025-06-03	\N
-2197	Phạm Quang Đạt	dat.pham2197@gmail.com	0573767454	M	\N	2025-09-19	\N
-2198	Huỳnh Công Tài	tai.huynh2198@yahoo.com	0932991605	M	\N	2024-03-20	\N
-2199	Nguyễn Hữu Nam	nam.nguyen2199@outlook.com	0965302305	M	1972-05-11	2025-09-16	\N
-2200	Phan Tuấn Nam	nam.phan2200@yahoo.com	0738800402	M	1998-06-27	2024-07-04	\N
-2201	Đặng Thu Trang	trang.dang2201@gmail.com	0304032010	F	2003-12-22	2025-06-24	\N
-2202	Nguyễn Anh Dũng	dung.nguyen2202@gmail.com	0988194989	M	\N	2024-09-01	469
-2203	Nguyễn Bảo Hà	ha.nguyen2203@gmail.com	0716248151	F	1975-10-23	2023-10-29	\N
-2204	Nguyễn Bảo Lan	lan.nguyen2204@gmail.com	0975743053	F	\N	2025-05-23	2164
-2205	Phan Công Toàn	toan.phan2205@gmail.com	0588144001	M	1988-08-25	2025-12-17	\N
-2206	Nguyễn Thanh Uyên	uyen.nguyen2206@yahoo.com	0994667282	F	\N	2025-06-29	651
-2207	Nguyễn Gia Cường	cuong.nguyen2207@outlook.com	0706740004	M	\N	2025-10-30	\N
-2208	Trần Thị Diệp	diep.tran2208@yahoo.com	0718495658	F	2005-10-18	2025-01-16	\N
-2209	Hoàng Mai Trang	trang.hoang2209@gmail.com	0303335346	F	1990-11-12	2025-09-25	\N
-2210	Huỳnh Thành Khang	khang.huynh2210@mail.vn	\N	M	1996-09-14	2024-02-02	\N
-2211	Lê Anh Hùng	hung.le2211@outlook.com	0969658416	M	1983-12-23	2025-06-16	\N
-2212	Ngô Anh Hiếu	hieu.ngo2212@gmail.com	0332774085	M	1995-09-26	2023-06-03	\N
-2213	Lý Bảo Diệp	diep.ly2213@gmail.com	\N	F	2000-10-11	2025-03-29	\N
-2214	Lê Khánh Hương	huong.le2214@gmail.com	0536520374	F	2006-06-28	2025-11-12	\N
-2215	Võ Thị Mai	mai.vo2215@gmail.com	0720821575	F	\N	2025-07-22	\N
-2216	Phạm Thành Dũng	dung.pham2216@gmail.com	0921305337	M	1984-07-07	2024-05-19	\N
-2217	Lê Hoài Uyên	uyen.le2217@outlook.com	\N	F	1975-07-05	2023-08-19	351
-2218	Phạm Minh Lan	lan.pham2218@outlook.com	0912815155	F	1969-08-22	2025-08-23	\N
-2219	Lý Hữu Hiếu	hieu.ly2219@gmail.com	0301426311	M	\N	2024-09-15	\N
-2220	Đỗ Minh Anh	anh.do2220@mail.vn	0948794252	F	1990-06-06	2025-12-13	\N
-2221	Nguyễn Bảo My	my.nguyen2221@mail.vn	0302921724	F	1979-04-22	2024-08-03	\N
-2222	Nguyễn Minh Nga	nga.nguyen2222@yahoo.com	0337018587	F	\N	2024-05-03	\N
-2223	Nguyễn Anh Hiếu	hieu.nguyen2223@gmail.com	0379373959	M	1966-10-30	2024-02-05	\N
-2224	Lê Thanh Hà	ha.le2224@outlook.com	0313339416	F	2001-08-25	2024-07-28	2078
-2225	Nguyễn Mai Hạnh	hanh.nguyen2225@yahoo.com	0558963413	F	1978-09-18	2025-10-10	\N
-2226	Ngô Anh Vinh	vinh.ngo2226@yahoo.com	0501796429	M	2005-11-24	2023-11-11	\N
-2227	Đỗ Minh Vinh	vinh.do2227@yahoo.com	0796922330	M	1970-12-02	2023-01-18	\N
-2228	Lê Quang Đạt	dat.le2228@mail.vn	0998221048	M	\N	2025-09-10	\N
-2229	Nguyễn Minh Tùng	tung.nguyen2229@gmail.com	\N	M	1977-10-12	2023-08-11	\N
-2230	Huỳnh Thành Quân	quan.huynh2230@gmail.com	\N	M	1974-09-12	2024-09-07	1740
-2231	Phạm Gia Phúc	phuc.pham2231@gmail.com	0573158719	M	\N	2025-08-20	\N
-2232	Đỗ Minh Bình	binh.do2232@gmail.com	\N	M	1988-07-07	2025-02-15	\N
-2233	Nguyễn Hữu Việt	viet.nguyen2233@mail.vn	0765842084	M	\N	2023-10-08	\N
-2234	Phan Mai Uyên	uyen.phan2234@yahoo.com	0912204179	F	1990-11-12	2024-05-24	\N
-2235	Bùi Bảo Nhung	Nhung.bui2235@outlook.com	0358406266	F	1971-03-04	2025-06-22	1361
-2236	Hồ Thanh Chi	chi.ho2236@mail.vn	\N	F	\N	2025-02-02	\N
-2237	Lý Bảo Dung	dung.ly2237@gmail.com	0590224566	F	2004-11-11	2024-11-04	\N
-2238	Đặng Văn Việt	viet.dang2238@outlook.com	0944749143	M	\N	2025-04-11	1091
-2239	Nguyễn Thị Hương	huong.nguyen2239@gmail.com	0765883549	F	\N	2025-08-09	\N
-2240	Lê Khánh Hương	huong.le2240@outlook.com	0374164246	F	2004-07-28	2023-08-21	\N
-2241	Nguyễn Bảo Diệp	diep.nguyen2241@yahoo.com	0541835261	F	1970-10-14	2024-12-13	\N
-2242	Nguyễn Văn Hùng	hung.nguyen2242@outlook.com	0568759703	M	1982-12-26	2024-11-27	\N
-2243	Vũ Phương Hoa	hoa.vu2243@outlook.com	0797230750	F	\N	2025-12-25	\N
-2244	Vũ Bảo Chi	chi.vu2244@outlook.com	0928139556	F	1972-02-15	2025-11-22	\N
-2245	Hoàng Thị Phương	phuong.hoang2245@mail.vn	0774019002	F	1981-07-27	2025-05-23	453
-2246	Nguyễn Minh Mai	mai.nguyen2246@gmail.com	0372613841	F	1969-01-04	2024-07-13	\N
-2247	Nguyễn Khánh My	my.nguyen2247@outlook.com	\N	F	1993-04-29	2023-06-03	1111
-2248	Nguyễn Minh Hà	ha.nguyen2248@yahoo.com	0584672573	F	1985-05-25	2024-12-05	\N
-2249	Phan Hữu Toàn	toan.phan2249@gmail.com	0973658888	M	2006-06-18	2025-03-19	\N
-2250	Phan Hữu Việt	viet.phan2250@gmail.com	0916273374	M	1965-09-06	2025-05-17	\N
-2251	Đỗ Công Toàn	toan.do2251@yahoo.com	0534731540	M	2001-08-23	2024-12-04	\N
-2252	Nguyễn Công Phong	phong.nguyen2252@gmail.com	0743911340	M	\N	2024-12-13	\N
-2253	Nguyễn Thị Uyên	uyen.nguyen2253@mail.vn	0919855313	F	1975-08-21	2024-01-22	\N
-2254	Vũ Tuấn Long	long.vu2254@mail.vn	0336633968	M	\N	2025-04-10	1749
-2255	Lê Anh Phong	phong.le2255@gmail.com	\N	M	\N	2025-09-03	\N
-2256	Nguyễn Ngọc Phương	phuong.nguyen2256@gmail.com	\N	F	1978-09-14	2025-12-02	\N
-2257	Dương Thành Sơn	son.duong2257@outlook.com	0733169344	M	1987-12-22	2025-05-15	\N
-2258	Lê Quang Tùng	Tung.le2258@mail.vn	0509320819	M	1974-06-09	2024-10-23	\N
-2259	Nguyễn Gia Toàn	toan.nguyen2259@yahoo.com	\N	M	\N	2024-09-03	\N
-2260	Lê Tuấn Tùng	tung.le2260@gmail.com	0771875348	M	\N	2024-10-10	1829
-2261	Võ Anh Toàn	toan.vo2261@mail.vn	0341597289	M	\N	2025-07-04	1847
-2262	Nguyễn Công Việt	viet.nguyen2262@outlook.com	0534787880	M	1970-12-05	2024-06-19	\N
-2263	Dương Công Phúc	phuc.duong2263@gmail.com	0343707016	M	1996-05-22	2025-12-08	\N
-2264	Nguyễn Công Bình	binh.nguyen2264@yahoo.com	0308145290	M	1974-10-16	2024-01-10	\N
-2265	Nguyễn Ngọc Hương	huong.nguyen2265@outlook.com	0777992353	F	\N	2025-08-28	\N
-2266	Vũ Văn Toàn	toan.vu2266@yahoo.com	0991785614	M	\N	2024-07-26	\N
-2267	Nguyễn Văn Huy	huy.nguyen2267@gmail.com	0766896449	M	1988-03-14	2024-07-02	\N
-2268	Nguyễn Minh Long	long.nguyen2268@gmail.com	\N	M	1995-12-06	2025-10-10	1622
-2269	Bùi Tuấn Vinh	vinh.bui2269@yahoo.com	0787786079	M	1979-08-13	2024-09-12	\N
-2270	Nguyễn Bảo My	my.nguyen2270@yahoo.com	0398204867	F	1975-10-03	2024-05-15	\N
-2271	Huỳnh Đức Nam	nam.huynh2271@outlook.com	\N	M	\N	2025-02-10	1427
-2272	Võ Công Phong	phong.vo2272@mail.vn	0795752033	M	1992-11-30	2024-08-13	\N
-2273	Phan Thu Hạnh	hanh.phan2273@gmail.com	0522347946	F	1978-06-04	2024-11-16	\N
-2274	Huỳnh Bảo Hương	huong.huynh2274@yahoo.com	0983004019	F	\N	2023-09-12	\N
-2275	Lê Mai Diệp	diep.le2275@gmail.com	\N	F	1998-11-25	2023-08-11	\N
-2276	Lý Thị Hạnh	hanh.ly2276@mail.vn	0514167567	F	1995-08-11	2024-12-18	\N
-2277	Nguyễn Gia Toàn	toan.nguyen2277@outlook.com	0946174666	M	1976-05-28	2025-01-25	\N
-2278	Dương Minh Lan	lan.duong2278@outlook.com	0394251393	F	1994-03-28	2024-11-25	\N
-2279	Phạm Quang Quân	quan.pham2279@gmail.com	0700917409	M	1991-07-30	2025-01-22	\N
-2280	Nguyễn Gia An	an.nguyen2280@gmail.com	0325247381	M	\N	2023-10-23	995
-2281	Đặng Bảo Nga	nga.dang2281@gmail.com	\N	F	1999-01-06	2023-09-23	428
-2282	Nguyễn Ngọc Diệp	diep.nguyen2282@gmail.com	0555360359	F	1970-03-28	2025-06-30	\N
-2283	Nguyễn Công Vinh	vinh.nguyen2283@mail.vn	0931295359	M	\N	2023-08-14	\N
-2284	Lê Thị Hoa	hoa.le2284@mail.vn	0735445989	F	1981-03-25	2025-04-30	\N
-2285	Lê Tuấn Đạt	Dat.le2285@gmail.com	\N	M	2004-01-17	2024-11-14	\N
-2286	Lê Mai Diệp	diep.le2286@gmail.com	0752475559	F	1988-11-05	2025-10-17	\N
-2287	Lê Hữu An	an.le2287@gmail.com	0302916411	M	2006-10-20	2025-12-23	\N
-2288	Nguyễn Hữu Sơn	son.nguyen2288@yahoo.com	0764406833	M	1995-10-30	2024-01-14	\N
-2289	Lê Ngọc Linh	linh.le2289@gmail.com	0952063970	F	1981-07-13	2025-03-25	\N
-2290	Lê Hữu Bình	binh.le2290@mail.vn	\N	M	1981-07-10	2025-07-30	\N
-2291	Nguyễn Hoài Nga	nga.nguyen2291@mail.vn	0399466564	F	1989-03-26	2025-05-26	1560
-2292	Trần Thành Toàn	toan.tran2292@gmail.com	\N	M	1970-07-10	2024-06-01	1193
-2293	Phan Gia Hùng	hung.phan2293@gmail.com	0941643239	M	1974-02-21	2024-02-29	1848
-2294	Lê Tuấn Tài	tai.le2294@outlook.com	0356766038	M	\N	2024-09-21	\N
-2295	Bùi Gia Hiếu	hieu.bui2295@outlook.com	0542413365	M	\N	2024-04-24	\N
-2296	Lê Minh Hiếu	hieu.le2296@gmail.com	0916593280	M	1984-06-11	2024-10-01	\N
-2297	Võ Đức Sơn	son.vo2297@gmail.com	0980189242	\N	1981-11-21	2025-07-13	\N
-2298	Vũ Thành Long	long.vu2298@mail.vn	\N	M	1985-10-17	2024-07-19	\N
-2299	Nguyễn Hoài Chi	chi.nguyen2299@outlook.com	0385521986	F	1989-08-25	2024-09-14	\N
-2300	Lê Thị Anh	anh.le2300@gmail.com	0505800666	F	\N	2025-03-20	\N
-2301	Võ Anh Nam	nam.vo2301@gmail.com	0799600952	M	1977-03-01	2025-12-25	\N
-2302	Nguyễn Đức Cường	cuong.nguyen2302@gmail.com	0560101374	M	1996-03-18	2025-10-22	\N
-2303	Phan Thị Hà	ha.phan2303@yahoo.com	0721459791	F	1970-05-10	2025-07-06	\N
-2304	Hồ Văn Khang	khang.ho2304@yahoo.com	0325006855	M	1976-06-17	2024-02-06	\N
-2305	Nguyễn Thu Vân	van.nguyen2305@gmail.com	0790322942	F	1968-08-02	2025-08-11	\N
-2306	Đỗ Bảo Nga	nga.do2306@outlook.com	0708551765	F	1971-08-04	2024-07-17	\N
-2307	Vũ Hoài Yến	yen.vu2307@gmail.com	0581813180	F	\N	2023-05-15	\N
-2308	Trần Gia Hải	hai.tran2308@yahoo.com	0509729826	M	1973-07-24	2025-09-21	1473
-2309	Vũ Hữu Phúc	phuc.vu2309@gmail.com	0309960312	M	1967-04-06	2024-05-31	1457
-2310	Nguyễn Công Khoa	khoa.nguyen2310@outlook.com	0770492233	M	1991-06-19	2025-05-22	2007
-2311	Nguyễn Mai Phương	phuong.nguyen2311@gmail.com	0529176966	F	\N	2023-07-11	631
-2312	Huỳnh Thị Mai	mai.huynh2312@mail.vn	0313218919	F	\N	2025-02-11	\N
-2313	Lê Đức Nam	nam.le2313@gmail.com	0717223406	M	1997-09-08	2025-11-27	\N
-2314	Nguyễn Bảo Oanh	oanh.nguyen2314@yahoo.com	0749100266	F	1997-12-08	2024-12-03	\N
-2315	Trần Mai Hà	ha.tran2315@gmail.com	0503992154	F	1999-01-22	2023-03-08	\N
-2316	Đỗ Công Khang	khang.do2316@outlook.com	0503322115	M	\N	2024-12-13	473
-2317	Nguyễn Bảo Hoa	hoa.nguyen2317@mail.vn	0937963480	F	1972-01-27	2025-07-19	\N
-2318	Nguyễn Ngọc Uyên	uyen.nguyen2318@gmail.com	0377178441	F	1984-06-28	2023-09-11	\N
-2319	Bùi Quang Vinh	vinh.bui2319@mail.vn	\N	M	\N	2024-01-01	1699
-2320	Dương Hữu Vinh	vinh.duong2320@outlook.com	0358722518	M	1972-09-07	2024-11-03	\N
-2321	Nguyễn Minh Khang	khang.nguyen2321@yahoo.com	0563705721	M	1986-11-05	2023-11-15	\N
-2322	Phạm Thị Diệp	diep.pham2322@mail.vn	\N	F	1974-11-06	2025-06-15	\N
-2323	Hoàng Tuấn Cường	cuong.hoang2323@gmail.com	0994662628	M	\N	2025-10-24	\N
-2324	Nguyễn Đức Toàn	toan.nguyen2324@gmail.com	0383757428	M	1975-03-22	2025-12-16	\N
-2325	Nguyễn Minh Quân	quan.nguyen2325@gmail.com	\N	M	1998-04-27	2025-10-25	\N
-2326	Võ Minh Anh	anh.vo2326@yahoo.com	0744778177	\N	1972-06-09	2024-05-21	501
-2327	Trần Khánh Quyên	quyen.tran2327@mail.vn	0707660166	F	1978-01-04	2025-08-21	\N
-2328	Võ Ngọc Phương	phuong.vo2328@outlook.com	0738095773	F	1973-09-02	2023-12-19	\N
-2329	Đỗ Gia Sơn	son.do2329@gmail.com	0552243409	M	1979-05-13	2025-07-25	\N
-2330	Đặng Công Nam	nam.dang2330@gmail.com	0581002396	M	1978-04-21	2024-06-05	\N
-2331	Lê Khánh Hoa	hoa.le2331@gmail.com	0556340703	F	1970-09-21	2025-06-03	\N
-2332	Huỳnh Phương Lan	lan.huynh2332@outlook.com	0301427740	F	1987-03-12	2024-11-15	\N
-2333	Nguyễn Khánh Hoa	hoa.nguyen2333@gmail.com	\N	F	\N	2024-07-24	\N
-2334	Nguyễn Quang Thắng	thang.nguyen2334@gmail.com	0798047109	M	2005-05-09	2025-05-11	\N
-2335	Nguyễn Hoài Quyên	quyen.nguyen2335@outlook.com	0761070879	F	2006-10-08	2023-08-01	\N
-2336	Nguyễn Minh Vinh	vinh.nguyen2336@gmail.com	0793110672	M	1984-10-06	2025-10-25	\N
-2337	Trần Minh Bình	binh.tran2337@mail.vn	0323187830	M	2000-11-17	2025-11-25	\N
-2338	Nguyễn Thị Ngân	ngan.nguyen2338@gmail.com	0797603124	F	1971-11-07	2025-06-26	\N
-2339	Đỗ Thị Chi	chi.do2339@gmail.com	\N	F	1980-10-14	2025-05-03	\N
-2340	Nguyễn Thị Chi	chi.nguyen2340@mail.vn	\N	F	1999-10-23	2024-09-24	1543
-2341	Phạm Hữu Phúc	phuc.pham2341@mail.vn	0560848920	M	1982-01-16	2025-07-15	\N
-2342	Nguyễn Thanh My	my.nguyen2342@mail.vn	0310131845	F	1978-07-02	2024-07-30	\N
-2343	Phạm Khánh Uyên	uyen.pham2343@gmail.com	0719211624	F	1968-10-27	2024-05-02	\N
-2344	Nguyễn Gia Toàn	toan.nguyen2344@gmail.com	0309230413	M	1988-08-22	2023-12-08	\N
-2345	Dương Tuấn Khoa	khoa.duong2345@mail.vn	0971329275	M	\N	2025-04-10	53
-2346	Trần Mai My	my.tran2346@outlook.com	0921547487	\N	1978-02-04	2023-10-15	1626
-2347	Lê Anh Phong	phong.le2347@mail.vn	0704331855	M	1977-10-11	2023-02-19	\N
-2348	Hồ Hữu Nam	nam.ho2348@gmail.com	0325831054	M	\N	2024-08-17	438
-2349	Lê Hoài Ngân	ngan.le2349@gmail.com	\N	F	1981-03-26	2025-08-06	\N
-2350	Nguyễn Đức Dũng	dung.nguyen2350@mail.vn	\N	M	\N	2024-11-10	\N
-2351	Nguyễn Ngọc Vân	van.nguyen2351@gmail.com	0936853411	F	1998-02-03	2025-04-04	\N
-2352	Dương Minh Toàn	toan.duong2352@gmail.com	\N	\N	1996-04-25	2024-11-22	914
-2353	Nguyễn Khánh Uyên	uyen.nguyen2353@yahoo.com	0375914471	F	1982-08-15	2024-03-05	\N
-2354	Nguyễn Mai Oanh	oanh.nguyen2354@outlook.com	0520191435	F	2005-08-31	2024-07-31	1390
-2355	Lê Minh Khang	khang.le2355@gmail.com	0311852914	M	\N	2023-02-20	\N
-2356	Hoàng Tuấn Khang	khang.hoang2356@mail.vn	0928331177	M	\N	2024-09-14	1794
-2357	Hồ Hoài Hoa	hoa.ho2357@yahoo.com	0990904623	F	1990-06-25	2024-08-02	429
-2358	Lê Tuấn Vinh	vinh.le2358@mail.vn	0960163729	M	1984-06-16	2025-06-15	\N
-2359	Nguyễn Khánh My	my.nguyen2359@mail.vn	0774290792	F	1988-11-04	2024-04-13	\N
-2360	Trần Minh Quyên	quyen.tran2360@mail.vn	0751034516	F	2004-11-17	2025-12-19	\N
-2361	Đỗ Đức Thắng	thang.do2361@outlook.com	0979910619	M	1967-06-19	2024-10-14	761
-2362	Nguyễn Gia Tài	tai.nguyen2362@gmail.com	\N	M	1985-11-03	2025-06-11	\N
-2363	Phạm Mai Dung	dung.pham2363@gmail.com	0358024061	F	1971-04-01	2025-08-10	\N
-2364	Lê Đức Sơn	Son.le2364@gmail.com	0334079029	M	\N	2024-01-17	\N
-2365	Võ Gia Tài	tai.vo2365@mail.vn	0386687675	M	\N	2025-08-17	\N
-2366	Trần Ngọc Oanh	oanh.tran2366@outlook.com	0952250297	F	1976-11-19	2025-07-21	\N
-2367	Nguyễn Khánh Hạnh	hanh.nguyen2367@gmail.com	0379963808	F	\N	2025-03-22	\N
-2368	Nguyễn Thu Hạnh	hanh.nguyen2368@yahoo.com	\N	F	1995-06-04	2025-05-18	1298
-2369	Phan Văn Việt	viet.phan2369@outlook.com	0567535640	\N	2001-01-04	2025-05-22	\N
-2370	Đặng Minh Phúc	phuc.dang2370@gmail.com	0798512372	M	1982-05-02	2023-06-19	\N
-2371	Lê Anh Hùng	hung.le2371@outlook.com	0336466345	M	1999-11-22	2025-04-13	2317
-2372	Nguyễn Mai Hạnh	hanh.nguyen2372@mail.vn	0364985752	F	1967-08-07	2023-12-20	\N
-2373	Đỗ Quang Tùng	tung.do2373@outlook.com	0502379682	M	1966-08-14	2025-10-30	\N
-2374	Hoàng Công Phúc	phuc.hoang2374@gmail.com	\N	M	1999-12-10	2025-10-17	\N
-2375	Nguyễn Thanh Nhung	nhung.nguyen2375@gmail.com	0346881171	F	1995-02-15	2024-09-15	\N
-2376	Võ Anh Sơn	son.vo2376@yahoo.com	0501724684	M	1968-12-13	2025-09-14	\N
-2377	Dương Anh Đạt	dat.duong2377@outlook.com	0788983497	M	\N	2024-06-30	\N
-2378	Vũ Hữu Long	long.vu2378@gmail.com	0774861841	M	1989-04-04	2023-10-02	\N
-2379	Nguyễn Thanh Diệp	diep.nguyen2379@yahoo.com	0989245208	F	1986-12-08	2025-10-16	\N
-2380	Huỳnh Đức Tùng	tung.huynh2380@gmail.com	\N	M	\N	2024-11-07	2092
-2381	Lê Thành Khoa	khoa.le2381@mail.vn	0370325850	M	1994-08-26	2024-09-05	2271
-2382	Huỳnh Thị Dung	dung.huynh2382@gmail.com	0525123024	F	\N	2024-03-03	\N
-2383	Nguyễn Công Long	long.nguyen2383@gmail.com	0945709608	\N	1983-05-03	2025-03-28	\N
-2384	Đỗ Minh Hùng	hung.do2384@outlook.com	0904797249	M	1966-12-22	2024-08-16	\N
-2385	Vũ Công Nam	nam.vu2385@yahoo.com	0363489957	M	\N	2025-12-23	2311
-2386	Nguyễn Công Khoa	khoa.nguyen2386@gmail.com	\N	M	\N	2024-10-05	\N
-2387	Nguyễn Hữu Hải	hai.nguyen2387@outlook.com	0963499056	M	1974-04-23	2025-04-06	\N
-2388	Lê Đức Tài	tai.le2388@yahoo.com	0700629834	M	1975-09-24	2024-03-29	1607
-2389	Nguyễn Gia Bình	binh.nguyen2389@gmail.com	\N	M	2002-12-09	2025-05-30	\N
-2390	Nguyễn Tuấn Huy	huy.nguyen2390@outlook.com	0381621732	M	1992-12-14	2024-04-08	\N
-2391	Hoàng Ngọc Linh	linh.hoang2391@gmail.com	0388237855	F	1978-10-02	2023-10-05	\N
-2392	Nguyễn Ngọc Anh	anh.nguyen2392@gmail.com	0986368303	F	\N	2025-04-11	\N
-2393	Võ Thị Mai	mai.vo2393@gmail.com	0398401993	F	\N	2025-05-24	\N
-2394	Lê Văn Khang	khang.le2394@outlook.com	\N	M	1989-09-15	2024-05-01	\N
-2395	Đặng Bảo Linh	linh.dang2395@mail.vn	0302596691	F	1995-06-25	2025-01-01	247
-2396	Hoàng Thị Diệp	diep.hoang2396@gmail.com	0502061667	F	1986-06-02	2024-10-21	\N
-2397	Lê Đức Dũng	dung.le2397@gmail.com	0900840293	M	\N	2025-05-15	\N
-2398	Lý Quang Trung	trung.ly2398@mail.vn	\N	M	\N	2025-12-04	\N
-2399	Hoàng Thu Linh	linh.hoang2399@mail.vn	0754165887	F	\N	2025-02-25	\N
-2400	Trần Mai Yến	yen.tran2400@gmail.com	0798311317	F	\N	2025-12-10	\N
-2401	Nguyễn Bảo Linh	linh.nguyen2401@outlook.com	0330815728	F	1987-08-15	2024-03-06	\N
-2402	Lê Minh Phương	phuong.le2402@outlook.com	0512160440	F	1996-05-18	2025-12-16	\N
-2403	Lê Khánh Hà	ha.le2403@yahoo.com	0916509980	F	1980-11-24	2025-10-14	\N
-2404	Nguyễn Thành Quân	quan.nguyen2404@mail.vn	0762117522	M	1996-07-04	2024-06-19	\N
-2405	Nguyễn Minh Khang	khang.nguyen2405@yahoo.com	0718509853	M	1994-05-28	2025-05-15	\N
-2406	Trần Thanh Chi	chi.tran2406@yahoo.com	\N	F	1979-08-03	2025-12-21	\N
-2407	Huỳnh Quang An	an.huynh2407@gmail.com	0750933764	M	\N	2025-10-11	\N
-2408	Đặng Thu Linh	linh.dang2408@outlook.com	0767505909	F	1971-01-14	2025-07-05	\N
-2409	Hoàng Hoài Anh	anh.hoang2409@outlook.com	0534025993	F	1986-08-25	2025-12-18	538
-2410	Nguyễn Tuấn Sơn	son.nguyen2410@gmail.com	0330761541	M	1969-02-03	2023-05-21	512
-2411	Hoàng Văn Sơn	son.hoang2411@outlook.com	0573264995	M	1972-05-01	2025-02-20	1039
-2412	Nguyễn Thu Trang	trang.nguyen2412@outlook.com	\N	\N	\N	2024-11-17	\N
-2413	Lý Thành Thắng	thang.ly2413@yahoo.com	0358950313	M	1994-02-03	2024-05-05	\N
-2414	Lê Hữu Phúc	phuc.le2414@gmail.com	0344221836	M	\N	2025-11-11	\N
-2415	Hoàng Ngọc Lan	lan.hoang2415@mail.vn	0950940311	F	1998-04-23	2024-02-27	1838
-2416	Trần Văn Phong	phong.tran2416@yahoo.com	0305042700	M	1995-11-29	2024-01-22	\N
-2417	Vũ Mai Nga	nga.vu2417@outlook.com	0514618574	F	\N	2024-10-21	\N
-2418	Trần Thị Hà	ha.tran2418@outlook.com	0585010997	F	\N	2025-03-28	\N
-2419	Nguyễn Mai Diệp	diep.nguyen2419@mail.vn	0567832566	F	1994-05-09	2023-11-23	\N
-2420	Nguyễn Quang Đạt	dat.nguyen2420@yahoo.com	0363508290	M	1985-11-21	2024-11-10	\N
-2421	Hoàng Mai Anh	anh.hoang2421@outlook.com	0592737774	F	1981-10-27	2023-10-11	997
-2422	Dương Hữu Dũng	dung.duong2422@outlook.com	0795651013	M	\N	2023-01-03	\N
-2423	Nguyễn Minh Thảo	thao.nguyen2423@gmail.com	0798466518	F	1987-01-06	2023-12-19	\N
-2424	Vũ Thành Cường	cuong.vu2424@gmail.com	0561362223	M	1968-12-28	2025-08-05	\N
-2425	Bùi Khánh Nhung	nhung.bui2425@mail.vn	0785887590	\N	1992-07-09	2024-02-09	\N
-2426	Hồ Thành Long	long.ho2426@yahoo.com	0918549655	M	1976-06-25	2025-08-05	2216
-2427	Nguyễn Minh Hà	ha.nguyen2427@mail.vn	0538910590	F	2006-08-31	2023-07-21	\N
-2428	Lê Thành Quân	quan.le2428@yahoo.com	0758230322	M	1972-09-17	2025-03-24	\N
-2429	Nguyễn Anh Tùng	tung.nguyen2429@outlook.com	0595674017	M	1988-10-08	2023-02-22	\N
-2430	Lê Minh Phong	Phong.le2430@outlook.com	0314060376	M	\N	2025-07-12	\N
-2431	Phạm Minh Hà	ha.pham2431@yahoo.com	0918766575	F	1973-02-10	2024-11-06	\N
-2432	Nguyễn Thị Mai	mai.nguyen2432@gmail.com	0722687631	F	1997-12-15	2024-01-08	\N
-2433	Võ Thanh Thảo	thao.vo2433@yahoo.com	0301510594	F	2005-05-11	2024-09-14	2262
-2434	Hoàng Minh Hải	hai.hoang2434@gmail.com	0761479616	M	1965-05-29	2023-09-18	1051
-2435	Lê Thanh Linh	linh.le2435@gmail.com	0567881711	F	1992-03-24	2025-02-27	\N
-2436	Lê Đức Khang	khang.le2436@yahoo.com	0579332091	M	1971-05-01	2023-09-22	\N
-2437	Ngô Quang Huy	huy.ngo2437@mail.vn	0531785668	M	\N	2025-03-04	119
-2438	Trần Thị Nga	nga.tran2438@gmail.com	0701619673	F	2003-03-03	2025-10-10	\N
-2439	Phan Tuấn Thắng	thang.phan2439@gmail.com	\N	M	1973-04-06	2024-08-27	1378
-2440	Nguyễn Thanh Thảo	thao.nguyen2440@yahoo.com	0371539125	F	\N	2025-11-29	2148
-2441	Huỳnh Văn Phúc	phuc.huynh2441@gmail.com	0360057463	M	2006-02-10	2025-03-27	\N
-2442	Nguyễn Thành Cường	cuong.nguyen2442@gmail.com	0385664287	M	1993-05-08	2024-06-08	\N
-2443	Nguyễn Mai Diệp	diep.nguyen2443@mail.vn	0738759237	F	\N	2024-09-30	\N
-2444	Nguyễn Quang Hùng	hung.nguyen2444@gmail.com	0578468698	M	1984-03-21	2025-08-09	\N
-2445	Nguyễn Hoài Quyên	quyen.nguyen2445@outlook.com	0974585613	F	\N	2025-10-25	\N
-2446	Huỳnh Mai Nhung	nhung.huynh2446@gmail.com	\N	F	1996-08-05	2024-08-26	\N
-2447	Nguyễn Văn An	an.nguyen2447@gmail.com	\N	M	\N	2025-09-28	1861
-2448	Bùi Bảo Linh	linh.bui2448@gmail.com	0365108002	F	1965-07-27	2023-10-07	357
-2449	Lê Hoài Yến	yen.le2449@gmail.com	0517200140	F	1987-08-30	2024-05-05	\N
-2450	Phạm Bảo My	my.pham2450@gmail.com	0517010473	F	2006-07-09	2025-03-11	\N
-2451	Nguyễn Thành Hùng	hung.nguyen2451@outlook.com	0510763895	M	\N	2023-09-05	65
-2452	Lê Quang Vinh	vinh.le2452@mail.vn	0954930260	M	\N	2024-02-03	\N
-2453	Hoàng Minh Long	long.hoang2453@yahoo.com	\N	M	1974-04-13	2024-10-02	\N
-2454	Lý Thanh Hạnh	hanh.ly2454@gmail.com	0909440969	F	\N	2025-11-21	\N
-2455	Lý Gia Hải	hai.ly2455@yahoo.com	0359770357	M	1983-12-23	2024-09-06	\N
-2456	Nguyễn Minh Hương	huong.nguyen2456@outlook.com	\N	F	1975-06-14	2024-11-18	\N
-2457	Nguyễn Quang Hải	hai.nguyen2457@yahoo.com	0968713584	M	1979-05-29	2025-05-26	\N
-2458	Nguyễn Anh Vinh	vinh.nguyen2458@gmail.com	0905861238	M	\N	2025-10-29	375
-2459	Nguyễn Mai Nga	nga.nguyen2459@outlook.com	0309768666	F	1999-12-15	2025-05-06	\N
-2460	Võ Tuấn Tài	tai.vo2460@gmail.com	0931745671	M	1973-03-10	2025-10-19	\N
-2461	Lê Công Vinh	vinh.le2461@mail.vn	0392772712	M	2005-08-17	2025-03-31	1213
-2462	Phan Gia Việt	viet.phan2462@mail.vn	0772983804	M	1990-01-01	2025-11-19	\N
-2463	Phạm Công Khoa	khoa.pham2463@gmail.com	0577417538	M	1995-05-02	2025-01-15	353
-2464	Phạm Minh Ngân	ngan.pham2464@yahoo.com	0971402514	F	1993-06-15	2023-10-05	\N
-2465	Trần Phương My	my.tran2465@yahoo.com	\N	F	1967-10-15	2024-12-20	\N
-2466	Trần Công Toàn	Toan.tran2466@gmail.com	0723276885	M	1998-10-05	2024-02-12	72
-2467	Nguyễn Thu Vân	van.nguyen2467@mail.vn	0319153886	F	1981-11-25	2023-08-17	\N
-2468	Nguyễn Thanh Trang	trang.nguyen2468@gmail.com	0312593519	F	1975-07-01	2025-06-07	\N
-2469	Lê Thành Quân	quan.le2469@outlook.com	0547483991	M	\N	2025-10-13	\N
-2470	Lê Đức Quân	quan.le2470@yahoo.com	\N	M	2001-03-05	2024-05-03	\N
-2471	Trần Khánh My	my.tran2471@gmail.com	0527601081	F	\N	2023-06-08	\N
-2472	Trần Tuấn An	an.tran2472@gmail.com	0790742962	M	\N	2024-06-17	\N
-2473	Đặng Công Khang	khang.dang2473@yahoo.com	0317943186	M	1983-10-18	2025-12-30	\N
-2474	Nguyễn Thị Hạnh	hanh.nguyen2474@gmail.com	0547918764	F	\N	2023-11-29	\N
-2475	Nguyễn Thị Phương	phuong.nguyen2475@gmail.com	0362547965	F	1969-11-19	2025-03-09	\N
-2476	Huỳnh Bảo Linh	linh.huynh2476@gmail.com	0961953947	F	\N	2025-09-01	\N
-2477	Phạm Minh Giang	giang.pham2477@yahoo.com	0543470744	F	\N	2024-09-13	\N
-2478	Nguyễn Văn Tùng	tung.nguyen2478@mail.vn	0991889451	M	1966-01-28	2024-10-06	\N
-2479	Nguyễn Minh Hoa	hoa.nguyen2479@gmail.com	0915560656	F	2006-10-18	2024-12-03	\N
-2480	Trần Thành An	an.tran2480@yahoo.com	0586423059	M	1976-02-10	2025-01-23	\N
-2481	Nguyễn Mai Vân	van.nguyen2481@gmail.com	0906612772	F	\N	2025-09-30	\N
-2482	Nguyễn Công Cường	cuong.nguyen2482@outlook.com	0317404508	M	1966-12-25	2025-09-03	\N
-2483	Nguyễn Thành Hiếu	hieu.nguyen2483@outlook.com	0586654722	M	\N	2024-09-12	1791
-2484	Nguyễn Văn Cường	cuong.nguyen2484@gmail.com	\N	M	\N	2024-09-12	1329
-2485	Nguyễn Anh Đạt	dat.nguyen2485@yahoo.com	0528792703	M	1996-11-09	2024-01-28	762
-2486	Bùi Quang Huy	huy.bui2486@outlook.com	0908878790	M	1980-09-10	2023-03-02	754
-2487	Trần Bảo Nga	nga.tran2487@mail.vn	0925552641	F	1995-02-11	2024-12-04	\N
-2488	Phan Thành Nam	nam.phan2488@outlook.com	\N	M	\N	2025-06-27	\N
-2489	Phan Thu Uyên	uyen.phan2489@gmail.com	0731973027	F	2001-09-21	2024-12-29	\N
-2490	Dương Thành Hải	hai.duong2490@gmail.com	0524112736	M	\N	2024-08-15	\N
-2491	Bùi Gia Sơn	son.bui2491@gmail.com	0591820059	M	1973-09-25	2024-10-15	\N
-2492	Nguyễn Công An	an.nguyen2492@outlook.com	0959002770	M	2005-10-08	2024-06-27	\N
-2493	Trần Khánh Lan	lan.tran2493@gmail.com	0709145364	F	\N	2025-08-13	\N
-2494	Trần Bảo Yến	yen.tran2494@mail.vn	0744515606	F	\N	2024-09-17	\N
-2495	Đặng Thanh Mai	mai.dang2495@gmail.com	0704250571	F	\N	2024-05-10	\N
-2496	Võ Thị Nga	nga.vo2496@gmail.com	\N	F	\N	2024-01-13	\N
-2497	Phan Thị Nhung	nhung.phan2497@mail.vn	\N	F	1977-05-25	2025-07-19	1453
-2498	Đặng Công Long	long.dang2498@outlook.com	0958719349	M	1994-03-04	2025-06-10	2249
-2499	Trần Hoài Linh	linh.tran2499@gmail.com	0739174489	F	1979-02-09	2025-05-12	1972
-2500	Nguyễn Thanh Lan	lan.nguyen2500@gmail.com	0331496494	F	1978-06-07	2025-05-20	\N
-2501	Bùi Công Huy	huy.bui2501@outlook.com	0343564297	M	1969-08-19	2024-04-08	\N
-2502	Nguyễn Công Việt	viet.nguyen2502@yahoo.com	0563706933	M	1965-12-28	2025-09-13	\N
-2503	Huỳnh Gia Khang	khang.huynh2503@gmail.com	0922799160	M	1994-11-23	2024-05-12	\N
-2504	Phạm Thành Trung	trung.pham2504@outlook.com	0312836214	M	1966-06-18	2024-10-13	\N
-2505	Nguyễn Minh Mai	mai.nguyen2505@mail.vn	\N	F	1999-05-05	2024-01-14	1023
-2506	Nguyễn Minh Dũng	dung.nguyen2506@outlook.com	0529707444	M	1981-10-15	2023-05-26	\N
-2507	Phan Bảo Oanh	oanh.phan2507@yahoo.com	0772013958	F	1999-03-02	2024-02-23	\N
-2508	Hồ Đức Sơn	son.ho2508@yahoo.com	0533385548	M	1979-03-31	2024-11-12	\N
-2509	Nguyễn Minh Hương	huong.nguyen2509@outlook.com	0382340153	F	1970-04-17	2025-04-05	\N
-2510	Nguyễn Quang Khoa	khoa.nguyen2510@outlook.com	0782998692	M	1998-05-14	2024-01-28	\N
-2511	Phạm Đức Sơn	son.pham2511@outlook.com	0709990641	M	1994-10-21	2024-12-19	2227
-2512	Trần Bảo Hoa	hoa.tran2512@gmail.com	0504738727	F	\N	2025-11-29	521
-2513	Lê Thu Mai	mai.le2513@mail.vn	0590739839	F	1992-09-20	2024-04-11	\N
-2514	Lê Khánh Dung	dung.le2514@gmail.com	0375283991	F	1982-07-10	2023-06-01	1943
-2515	Trần Thành Quân	quan.tran2515@gmail.com	0769305063	M	1996-04-01	2024-11-17	\N
-2516	Trần Thu Hạnh	hanh.tran2516@mail.vn	\N	F	\N	2024-03-28	\N
-2517	Nguyễn Anh Cường	cuong.nguyen2517@yahoo.com	0989233993	M	2003-09-23	2025-01-26	1560
-2518	Phạm Quang Đạt	dat.pham2518@gmail.com	\N	M	1994-03-17	2023-05-30	\N
-2519	Hoàng Thu Uyên	uyen.hoang2519@outlook.com	0589813955	F	1999-01-15	2025-02-21	\N
-2520	Nguyễn Hoài Hương	huong.nguyen2520@outlook.com	0772842202	F	1985-02-01	2024-12-25	\N
-2521	Huỳnh Anh Bình	binh.huynh2521@outlook.com	0338429467	M	2005-06-11	2024-02-16	\N
-2522	Nguyễn Thành Toàn	toan.nguyen2522@gmail.com	0929345214	M	1968-02-11	2025-04-25	161
-2523	Nguyễn Minh Khoa	khoa.nguyen2523@outlook.com	0955121325	M	1986-03-08	2024-05-08	\N
-2524	Đỗ Minh Dung	dung.do2524@mail.vn	0578651361	F	1978-05-02	2023-12-31	\N
-2525	Nguyễn Mai Uyên	uyen.nguyen2525@yahoo.com	0974415321	\N	1975-02-04	2025-11-16	\N
-2526	Nguyễn Thị Nhung	nhung.nguyen2526@gmail.com	0700264242	F	1989-03-25	2025-09-03	2173
-2527	Nguyễn Hoài Hà	ha.nguyen2527@yahoo.com	0975670948	F	1987-02-27	2025-10-16	\N
-2528	Phạm Minh Nhung	nhung.pham2528@yahoo.com	0742390200	F	1987-08-31	2025-05-24	\N
-2529	Lê Thanh Thảo	thao.le2529@gmail.com	0949503504	F	1971-10-13	2025-02-09	\N
-2530	Lê Minh Nhung	nhung.le2530@gmail.com	0738887883	F	\N	2025-09-23	\N
-2531	Lê Hoài Anh	anh.le2531@mail.vn	\N	F	1998-05-13	2025-11-26	\N
-2532	Nguyễn Bảo My	my.nguyen2532@gmail.com	0998370855	F	1978-10-05	2024-07-04	\N
-2533	Phạm Minh Khoa	khoa.pham2533@gmail.com	0909847277	M	1978-05-13	2024-03-14	\N
-2534	Nguyễn Bảo My	my.nguyen2534@gmail.com	\N	F	1968-06-04	2024-10-02	1910
-2535	Nguyễn Thanh Oanh	Oanh.nguyen2535@gmail.com	0309528047	F	1972-02-18	2024-01-22	\N
-2536	Nguyễn Thu Quyên	quyen.nguyen2536@gmail.com	\N	F	1971-11-22	2024-01-08	\N
-2537	Trần Gia Cường	cuong.tran2537@mail.vn	\N	M	2001-09-18	2023-04-27	1196
-2538	Lê Anh Phong	phong.le2538@yahoo.com	0932577606	M	1987-02-20	2025-06-22	\N
-2539	Hồ Hoài Mai	mai.ho2539@gmail.com	0713531200	F	\N	2025-04-09	\N
-2540	Hồ Văn Phong	phong.ho2540@gmail.com	0552147688	M	\N	2024-06-09	\N
-2541	Nguyễn Minh Bình	binh.nguyen2541@mail.vn	0567469189	M	1982-07-26	2024-07-21	\N
-2542	Lê Thành Long	long.le2542@gmail.com	0545299535	M	\N	2024-01-02	\N
-2543	Phạm Mai Uyên	uyen.pham2543@gmail.com	0945655185	F	\N	2024-08-19	\N
-2544	Lê Thanh Vân	van.le2544@mail.vn	0357032592	F	1979-11-15	2025-11-06	\N
-2545	Hoàng Quang Tùng	tung.hoang2545@yahoo.com	0367849368	M	1968-09-10	2025-08-18	\N
-2546	Phan Văn Sơn	son.phan2546@outlook.com	0515033792	M	1970-12-08	2024-05-05	\N
-2547	Huỳnh Mai Yến	yen.huynh2547@gmail.com	0936469635	\N	1989-05-27	2025-01-20	2064
-2548	Nguyễn Mai Uyên	Uyen.nguyen2548@mail.vn	0335495947	F	\N	2024-05-21	\N
-2549	Ngô Văn Sơn	son.ngo2549@yahoo.com	0317617802	M	1979-07-18	2025-02-08	\N
-2550	Huỳnh Ngọc Mai	mai.huynh2550@gmail.com	0915820141	F	1975-02-28	2025-10-11	1718
-2551	Huỳnh Phương Vân	van.huynh2551@outlook.com	0965642665	F	\N	2025-08-31	\N
-2552	Phan Văn Huy	huy.phan2552@yahoo.com	0322385611	M	1983-06-09	2024-05-11	\N
-2553	Hoàng Thanh Dung	dung.hoang2553@mail.vn	0501263410	\N	1985-07-22	2023-07-31	\N
-2554	Nguyễn Thu My	my.nguyen2554@yahoo.com	0570815107	F	\N	2025-09-27	274
-2555	Nguyễn Mai Quyên	quyen.nguyen2555@yahoo.com	0773457693	F	1974-01-31	2024-08-05	\N
-2556	Huỳnh Bảo Dung	dung.huynh2556@gmail.com	\N	F	1998-08-06	2023-12-31	\N
-2557	Phạm Đức Sơn	son.pham2557@gmail.com	0541187822	M	1974-09-14	2025-01-14	\N
-2558	Nguyễn Mai Hạnh	hanh.nguyen2558@yahoo.com	0753828550	F	1977-03-23	2023-08-24	\N
-2559	Phan Hữu Huy	huy.phan2559@mail.vn	0902685014	M	1985-11-02	2025-02-02	\N
-2560	Nguyễn Phương Trang	trang.nguyen2560@gmail.com	0381300801	F	\N	2025-02-16	\N
-2561	Hoàng Thành Phong	phong.hoang2561@gmail.com	0308791774	M	1974-06-12	2025-12-19	\N
-2562	Nguyễn Thị Uyên	uyen.nguyen2562@yahoo.com	0557373978	F	1989-09-06	2024-05-22	\N
-2563	Hoàng Ngọc Dung	dung.hoang2563@yahoo.com	0314426284	F	1981-10-15	2023-06-06	\N
-2564	Ngô Mai Linh	linh.ngo2564@yahoo.com	0555461355	\N	1978-09-22	2024-09-18	\N
-2565	Nguyễn Khánh Trang	trang.nguyen2565@gmail.com	0992441016	F	\N	2025-07-09	\N
-2566	Nguyễn Văn Vinh	vinh.nguyen2566@gmail.com	0368712569	M	\N	2024-08-04	2441
-2567	Nguyễn Thành Bình	binh.nguyen2567@mail.vn	0768999244	M	1995-08-14	2025-04-29	\N
-2568	Trần Quang Tài	tai.tran2568@yahoo.com	0509914973	M	1978-01-16	2025-07-16	\N
-2569	Nguyễn Gia An	an.nguyen2569@gmail.com	\N	M	1990-09-08	2024-02-15	\N
-2570	Nguyễn Anh Hải	hai.nguyen2570@outlook.com	0540904726	M	\N	2025-06-18	\N
-2571	Nguyễn Đức Hiếu	hieu.nguyen2571@gmail.com	0998908817	M	1974-01-17	2024-01-06	\N
-2572	Phạm Anh Bình	binh.pham2572@outlook.com	0556268924	M	2003-06-07	2024-12-07	\N
-2573	Lê Thành Phúc	phuc.le2573@gmail.com	0367721029	M	1984-11-15	2023-01-26	\N
-2574	Nguyễn Công Việt	viet.nguyen2574@gmail.com	0330068252	M	1985-04-22	2025-11-07	\N
-2575	Nguyễn Minh Hiếu	hieu.nguyen2575@mail.vn	0521711715	M	\N	2025-05-25	\N
-2576	Nguyễn Mai Dung	dung.nguyen2576@yahoo.com	0730777966	F	\N	2024-12-22	\N
-2577	Huỳnh Bảo Nga	nga.huynh2577@gmail.com	0729623459	F	\N	2025-01-28	\N
-2578	Trần Đức Đạt	dat.tran2578@mail.vn	0920707060	M	1980-12-01	2023-10-17	\N
-2579	Hoàng Minh Khoa	khoa.hoang2579@gmail.com	0942040634	M	1977-02-22	2024-06-27	\N
-2580	Vũ Tuấn Khoa	khoa.vu2580@gmail.com	0949315774	M	1989-11-08	2025-01-16	\N
-2581	Hoàng Mai Hạnh	Hanh.hoang2581@yahoo.com	0710633233	F	1980-11-30	2025-10-19	\N
-2582	Đặng Anh Long	long.dang2582@gmail.com	\N	M	\N	2024-12-08	\N
-2583	Đặng Đức Trung	trung.dang2583@gmail.com	0501308804	\N	1971-11-19	2025-03-28	\N
-2584	Lê Phương Lan	lan.le2584@gmail.com	0942449015	F	1979-04-04	2023-12-06	\N
-2585	Phan Phương Hà	ha.phan2585@gmail.com	0364450282	F	\N	2023-12-05	2437
-2586	Huỳnh Văn Bình	binh.huynh2586@gmail.com	0302116535	M	1984-03-27	2024-03-02	\N
-2587	Huỳnh Hoài Ngân	ngan.huynh2587@gmail.com	\N	F	1970-09-21	2024-04-06	\N
-2588	Phan Ngọc Anh	anh.phan2588@mail.vn	0961113301	F	\N	2023-05-15	2
-2589	Nguyễn Quang Thắng	thang.nguyen2589@mail.vn	0578221720	M	1995-02-13	2024-10-05	\N
-2590	Đặng Phương Phương	phuong.dang2590@yahoo.com	\N	F	1968-06-29	2024-11-07	\N
-2591	Lê Minh Quyên	quyen.le2591@mail.vn	\N	F	1993-01-26	2024-03-14	\N
-2592	Lê Quang Phong	phong.le2592@mail.vn	0965246373	M	2000-07-25	2024-07-21	\N
-2593	Ngô Thành Toàn	toan.ngo2593@gmail.com	\N	M	1971-06-19	2024-11-26	\N
-2594	Phan Minh Cường	cuong.phan2594@mail.vn	0383642956	M	2001-03-23	2025-07-31	891
-2595	Trần Thành Trung	trung.tran2595@outlook.com	0338090202	M	1968-05-23	2023-09-09	\N
-2596	Nguyễn Ngọc Dung	dung.nguyen2596@gmail.com	0576786590	F	1976-12-12	2023-12-21	\N
-2597	Nguyễn Ngọc Nhung	nhung.nguyen2597@gmail.com	0319365163	F	2004-06-24	2025-10-02	\N
-2598	Dương Gia Bình	binh.duong2598@mail.vn	0934842357	M	1968-03-16	2025-03-27	\N
-2599	Huỳnh Quang Hải	hai.huynh2599@yahoo.com	0917121379	M	1969-01-24	2024-04-09	\N
-2600	Huỳnh Ngọc Anh	anh.huynh2600@mail.vn	0308432207	F	1987-12-09	2025-05-13	\N
-2601	Bùi Ngọc Lan	lan.bui2601@gmail.com	0969145511	F	\N	2023-07-26	\N
-2602	Lê Hoài Hà	ha.le2602@gmail.com	0592247824	F	1971-08-28	2024-05-13	1177
-2603	Nguyễn Minh Vinh	vinh.nguyen2603@gmail.com	0770497355	M	1972-03-14	2025-03-18	1023
-2604	Võ Thanh Quyên	quyen.vo2604@yahoo.com	0720586627	F	1975-09-12	2025-11-24	\N
-2605	Nguyễn Ngọc Dung	dung.nguyen2605@gmail.com	0727476236	F	2000-06-26	2023-08-04	\N
-2606	Trần Ngọc Phương	phuong.tran2606@gmail.com	0373934830	F	2002-09-16	2025-08-26	\N
-2607	Phan Công Bình	binh.phan2607@yahoo.com	0996579846	M	\N	2023-09-28	\N
-2608	Bùi Minh Thảo	thao.bui2608@outlook.com	0764527261	F	1979-03-25	2024-01-08	2141
-2609	Lê Công Hùng	hung.le2609@gmail.com	\N	M	1970-06-14	2025-05-18	\N
-2610	Hoàng Phương Giang	giang.hoang2610@gmail.com	\N	F	1970-09-30	2025-01-16	1674
-2611	Lý Công Hải	hai.ly2611@gmail.com	0592826770	M	\N	2025-05-19	\N
-2612	Trần Anh Quân	quan.tran2612@yahoo.com	0798677858	\N	\N	2025-03-30	\N
-2613	Ngô Khánh Oanh	oanh.ngo2613@outlook.com	0371251083	F	1971-09-02	2023-10-20	2064
-2614	Trần Phương Hạnh	hanh.tran2614@yahoo.com	0540159568	F	\N	2023-03-17	\N
-2615	Nguyễn Mai Phương	phuong.nguyen2615@gmail.com	0913097722	F	2000-05-04	2025-10-08	77
-2616	Phan Mai Mai	mai.phan2616@outlook.com	\N	F	\N	2024-10-23	\N
-2617	Dương Hoài Diệp	diep.duong2617@gmail.com	0943884447	F	\N	2024-09-09	1610
-2618	Phan Đức Hiếu	hieu.phan2618@yahoo.com	\N	M	1978-07-21	2024-01-07	\N
-2619	Nguyễn Hữu Đạt	dat.nguyen2619@outlook.com	0589992154	M	1982-12-15	2024-03-20	\N
-2620	Nguyễn Gia Phong	phong.nguyen2620@yahoo.com	0559980794	M	1994-08-12	2025-05-13	\N
-2621	Nguyễn Quang Khoa	khoa.nguyen2621@gmail.com	0380275381	M	1978-09-27	2024-08-02	\N
-2622	Hồ Mai My	my.ho2622@gmail.com	0766748461	F	2000-08-21	2024-05-23	\N
-2623	Nguyễn Mai Phương	phuong.nguyen2623@gmail.com	\N	F	1977-02-18	2025-11-21	729
-2624	Phan Thu Chi	chi.phan2624@yahoo.com	0934438296	F	1969-11-29	2023-07-28	531
-2625	Nguyễn Văn An	an.nguyen2625@yahoo.com	0967780932	M	1981-04-06	2023-08-10	\N
-2626	Phan Ngọc Linh	linh.phan2626@gmail.com	0393561937	F	1986-06-16	2023-12-13	\N
-2627	Nguyễn Phương Diệp	Diep.nguyen2627@mail.vn	0906936564	F	1983-08-19	2025-07-19	\N
-2628	Lê Minh Anh	anh.le2628@gmail.com	0995658202	F	1977-10-18	2024-05-30	\N
-2629	Nguyễn Thu Phương	phuong.nguyen2629@yahoo.com	\N	F	2003-11-22	2025-06-27	\N
-2630	Phan Văn Bình	binh.phan2630@mail.vn	0313257434	M	1967-05-20	2025-09-18	\N
-2631	Lý Khánh Lan	lan.ly2631@mail.vn	0555743178	F	2001-02-19	2024-06-13	\N
-2632	Nguyễn Thị Ngân	ngan.nguyen2632@gmail.com	0542454596	F	1985-08-10	2025-08-24	\N
-2633	Phạm Bảo Hà	ha.pham2633@yahoo.com	0386242374	F	\N	2023-10-11	\N
-2634	Trần Quang Tùng	tung.tran2634@gmail.com	0561179822	M	1982-01-15	2024-04-26	\N
-2635	Nguyễn Hoài Chi	chi.nguyen2635@mail.vn	\N	F	1973-07-11	2024-01-13	\N
-2636	Đỗ Bảo Diệp	diep.do2636@mail.vn	0709247822	F	1997-06-25	2024-02-11	\N
-2637	Đặng Bảo Uyên	uyen.dang2637@gmail.com	0750202278	F	1983-03-24	2025-06-29	\N
-2638	Nguyễn Hoài Trang	trang.nguyen2638@yahoo.com	0315080741	F	1983-09-12	2023-11-10	\N
-2639	Dương Thu Hạnh	hanh.duong2639@gmail.com	0929689648	F	\N	2024-03-06	\N
-2640	Phạm Gia Việt	viet.pham2640@gmail.com	0748880242	\N	1998-08-05	2024-07-16	\N
-2641	Hoàng Tuấn Hiếu	hieu.hoang2641@gmail.com	0301435492	M	1977-01-17	2025-08-12	\N
-2642	Hồ Thu Ngân	Ngan.ho2642@outlook.com	0352584675	F	\N	2025-02-18	\N
-2643	Vũ Khánh Chi	chi.vu2643@yahoo.com	\N	F	1998-08-11	2024-06-03	\N
-2644	Hoàng Gia Tài	tai.hoang2644@gmail.com	0764441878	M	1988-11-13	2023-11-08	\N
-2645	Nguyễn Bảo Oanh	oanh.nguyen2645@gmail.com	0551209844	F	1987-05-26	2024-10-10	\N
-2646	Phạm Công Toàn	toan.pham2646@gmail.com	0907965078	M	1966-12-20	2025-08-10	\N
-2647	Trần Hữu Vinh	vinh.tran2647@gmail.com	0380704877	M	1972-06-17	2023-11-24	\N
-2648	Phạm Văn Quân	quan.pham2648@gmail.com	\N	M	\N	2024-11-29	\N
-2649	Nguyễn Hữu Việt	viet.nguyen2649@yahoo.com	0397328781	M	2003-04-02	2025-11-21	\N
-2650	Nguyễn Hữu Quân	quan.nguyen2650@outlook.com	0594548052	M	1969-06-22	2025-05-09	\N
-2651	Võ Bảo Diệp	diep.vo2651@yahoo.com	0329198634	\N	1975-01-31	2024-05-11	\N
-2652	Phạm Văn Tài	tai.pham2652@mail.vn	0578420875	M	2002-11-07	2023-12-06	2284
-2653	Nguyễn Công Việt	viet.nguyen2653@yahoo.com	0383912684	M	\N	2025-03-13	\N
-2654	Nguyễn Quang Phúc	phuc.nguyen2654@gmail.com	0935953700	M	1972-04-13	2024-05-08	2048
-2655	Hồ Đức Long	long.ho2655@gmail.com	0711124649	M	1967-12-21	2025-12-09	\N
-2656	Nguyễn Thành Khang	khang.nguyen2656@gmail.com	0709427020	M	1968-11-23	2023-10-15	\N
-2657	Trần Minh Yến	yen.tran2657@outlook.com	0764549541	F	\N	2025-01-15	753
-2658	Nguyễn Bảo Hạnh	hanh.nguyen2658@yahoo.com	0582989739	F	1965-05-07	2025-09-16	\N
-2659	Đỗ Ngọc Mai	mai.do2659@gmail.com	0332191904	F	1986-05-05	2024-06-25	\N
-2660	Võ Thu Yến	yen.vo2660@gmail.com	0714211555	F	\N	2025-12-02	\N
-2661	Huỳnh Đức Long	long.huynh2661@outlook.com	0929309832	M	1994-04-09	2025-07-09	\N
-2662	Nguyễn Anh Hùng	hung.nguyen2662@mail.vn	0910800348	M	\N	2023-08-17	\N
-2663	Hồ Công Khang	khang.ho2663@yahoo.com	0589108548	M	1982-10-03	2025-03-26	\N
-2664	Dương Mai Ngân	ngan.duong2664@gmail.com	0581164347	F	\N	2024-06-26	\N
-2665	Nguyễn Anh Nam	Nam.nguyen2665@gmail.com	0732624762	M	1971-01-14	2023-06-06	\N
-2666	Huỳnh Quang Dũng	dung.huynh2666@gmail.com	0392707387	\N	1968-07-08	2025-05-26	\N
-2667	Bùi Văn Toàn	toan.bui2667@outlook.com	0912134601	M	2003-05-01	2024-10-09	\N
-2668	Lý Thanh Hoa	hoa.ly2668@gmail.com	0362358763	F	1978-09-27	2023-08-31	\N
-2669	Đỗ Thị Anh	anh.do2669@gmail.com	0736559113	F	1973-04-26	2025-02-23	\N
-2670	Lê Hữu Cường	cuong.le2670@gmail.com	0900743316	M	1968-04-28	2024-06-29	\N
-2671	Nguyễn Hữu Phúc	phuc.nguyen2671@gmail.com	0304914343	M	1976-11-05	2024-02-08	\N
-2672	Lê Khánh Mai	mai.le2672@yahoo.com	0937047295	F	1980-11-02	2025-09-27	\N
-2673	Nguyễn Văn Dũng	dung.nguyen2673@gmail.com	0789376118	M	1979-12-24	2024-04-30	\N
-2674	Vũ Đức Nam	nam.vu2674@gmail.com	0942214076	M	2005-06-04	2025-02-04	\N
-2675	Nguyễn Thị Nhung	nhung.nguyen2675@mail.vn	0393219626	F	1982-03-18	2025-08-13	1380
-2676	Vũ Quang Hùng	hung.vu2676@mail.vn	0544380493	M	\N	2025-08-06	\N
-2677	Lê Minh Hà	ha.le2677@yahoo.com	0703680313	\N	1982-10-17	2025-12-01	\N
-2678	Nguyễn Thị Giang	giang.nguyen2678@gmail.com	0593594295	\N	\N	2023-12-24	\N
-2679	Đỗ Minh Hải	hai.do2679@gmail.com	0393907842	M	\N	2024-03-22	\N
-2680	Hồ Đức Tài	tai.ho2680@gmail.com	\N	M	\N	2023-05-26	\N
-2681	Phạm Đức Trung	trung.pham2681@gmail.com	0735697709	M	2003-11-09	2024-05-03	\N
-2682	Võ Bảo Hoa	hoa.vo2682@gmail.com	0361736699	F	1974-11-11	2025-08-13	2233
-2683	Nguyễn Công Long	long.nguyen2683@outlook.com	0762173485	M	1973-04-24	2025-06-07	\N
-2684	Trần Thành Quân	quan.tran2684@gmail.com	0789743874	M	1984-10-31	2023-03-04	\N
-2685	Huỳnh Công Thắng	thang.huynh2685@outlook.com	0903228323	M	1968-01-30	2025-02-17	\N
-2686	Ngô Ngọc Dung	dung.ngo2686@gmail.com	0557092917	F	1989-09-20	2024-11-22	\N
-2687	Lê Thanh Linh	linh.le2687@outlook.com	0561563845	F	\N	2025-10-20	\N
-2688	Lê Thành Khoa	khoa.le2688@gmail.com	\N	M	\N	2025-03-23	605
-2689	Đỗ Khánh Hoa	hoa.do2689@yahoo.com	\N	F	1979-03-13	2024-04-27	\N
-2690	Nguyễn Tuấn Khang	Khang.nguyen2690@yahoo.com	0579876699	M	\N	2025-05-23	\N
-2691	Trần Hoài Oanh	oanh.tran2691@gmail.com	0368787888	F	1995-05-15	2025-07-15	\N
-2692	Vũ Minh Mai	mai.vu2692@yahoo.com	\N	\N	1982-12-02	2025-08-04	\N
-2693	Phạm Hữu Hùng	hung.pham2693@gmail.com	0531770855	M	1973-10-03	2025-06-13	\N
-2694	Nguyễn Thành Dũng	dung.nguyen2694@yahoo.com	0304304596	M	1992-04-08	2025-02-28	\N
-2695	Phan Tuấn Toàn	toan.phan2695@outlook.com	0757048107	\N	1970-03-24	2025-12-27	\N
-2696	Nguyễn Thị My	my.nguyen2696@outlook.com	0709292584	F	\N	2025-04-07	\N
-2697	Trần Thị Nga	nga.tran2697@gmail.com	0744711274	F	1978-12-07	2024-05-21	\N
-2698	Dương Minh Giang	giang.duong2698@yahoo.com	0546665891	F	1977-05-12	2024-07-28	\N
-2699	Phan Bảo Oanh	oanh.phan2699@yahoo.com	0342519163	F	1977-04-12	2024-06-22	\N
-2700	Phạm Khánh Linh	linh.pham2700@gmail.com	0510066871	F	1995-04-22	2023-05-08	1724
-2701	Lê Thị Phương	phuong.le2701@mail.vn	0761742365	F	1965-11-09	2025-06-21	\N
-2702	Trần Hoài Hương	huong.tran2702@gmail.com	\N	F	1977-11-01	2025-02-24	\N
-2703	Hoàng Quang Long	long.hoang2703@gmail.com	0905458611	\N	1988-02-08	2025-09-23	\N
-2704	Lê Công Hùng	hung.le2704@gmail.com	0389105959	M	\N	2024-06-08	\N
-2705	Bùi Gia Tài	tai.bui2705@outlook.com	0385264382	M	2003-05-02	2024-07-26	\N
-2706	Trần Ngọc Dung	dung.tran2706@gmail.com	\N	F	1981-04-08	2024-12-12	\N
-2707	Nguyễn Hoài Linh	linh.nguyen2707@yahoo.com	0783967804	\N	1991-10-07	2024-04-01	\N
-2708	Nguyễn Bảo Diệp	diep.nguyen2708@gmail.com	\N	F	1973-03-29	2025-08-08	\N
-2709	Nguyễn Khánh Nhung	nhung.nguyen2709@mail.vn	0742499510	F	1981-07-16	2025-04-03	\N
-2710	Nguyễn Thị Quyên	quyen.nguyen2710@yahoo.com	\N	F	\N	2023-01-31	\N
-2711	Lê Anh An	an.le2711@mail.vn	0789676731	M	\N	2025-12-30	\N
-2712	Trần Ngọc Dung	dung.tran2712@gmail.com	0326896505	F	1976-08-08	2023-05-29	\N
-2713	Trần Minh Lan	lan.tran2713@gmail.com	0963450986	F	1978-05-06	2023-04-02	\N
-2714	Nguyễn Tuấn Đạt	dat.nguyen2714@yahoo.com	0724838788	M	1998-02-28	2025-11-02	\N
-2715	Nguyễn Minh Vân	van.nguyen2715@gmail.com	0512154404	F	\N	2024-06-16	\N
-2716	Nguyễn Thành Dũng	dung.nguyen2716@gmail.com	0534287061	M	1998-04-05	2025-08-09	1115
-2717	Phạm Văn Long	long.pham2717@outlook.com	0763438805	M	1967-08-11	2023-06-12	\N
-2718	Nguyễn Ngọc Hạnh	hanh.nguyen2718@mail.vn	0731534896	F	1986-06-20	2023-09-11	\N
-2719	Trần Khánh Oanh	oanh.tran2719@gmail.com	0508319634	F	1996-11-30	2023-01-02	\N
-2720	Nguyễn Tuấn An	an.nguyen2720@gmail.com	0571470053	M	1986-01-20	2024-03-05	\N
-2721	Ngô Thanh Phương	phuong.ngo2721@gmail.com	0543571924	F	1965-07-04	2024-05-25	1851
-2722	Lê Gia Long	long.le2722@yahoo.com	0772362633	M	1968-09-01	2025-06-04	\N
-2723	Vũ Thanh Oanh	oanh.vu2723@gmail.com	0599737159	F	1996-03-30	2025-06-13	\N
-2724	Trần Quang Phong	phong.tran2724@gmail.com	0577423401	M	1967-04-30	2023-08-05	\N
-2725	Trần Mai Diệp	diep.tran2725@yahoo.com	\N	F	1997-05-31	2025-12-20	\N
-2726	Nguyễn Ngọc Giang	giang.nguyen2726@gmail.com	0946638470	F	1984-04-14	2025-02-02	\N
-2727	Nguyễn Đức Sơn	son.nguyen2727@outlook.com	0714249036	M	1989-10-02	2025-06-27	\N
-2728	Lê Thanh Hà	ha.le2728@gmail.com	0771654888	F	1999-06-04	2023-10-05	\N
-2729	Trần Hữu Thắng	thang.tran2729@gmail.com	0371459206	M	1985-10-02	2024-02-01	\N
-2730	Nguyễn Ngọc Anh	anh.nguyen2730@gmail.com	\N	F	1976-08-06	2025-12-03	\N
-2731	Phạm Thu Ngân	ngan.pham2731@yahoo.com	0314344708	F	1996-01-11	2023-08-03	\N
-2732	Bùi Văn Nam	nam.bui2732@gmail.com	0920313338	M	\N	2025-08-11	\N
-2733	Phan Ngọc Vân	van.phan2733@outlook.com	0338675140	F	1981-03-18	2025-12-20	\N
-2734	Nguyễn Thành Phúc	phuc.nguyen2734@gmail.com	0592594852	M	1987-03-11	2024-12-19	\N
-2735	Bùi Hữu Long	long.bui2735@gmail.com	0517363383	M	1990-03-30	2025-08-04	\N
-2736	Phạm Văn Vinh	vinh.pham2736@yahoo.com	0903228524	M	1967-10-31	2025-03-03	2104
-2737	Phan Hữu Tùng	tung.phan2737@mail.vn	0584177684	M	2005-03-30	2024-05-29	1195
-2738	Nguyễn Thị Chi	chi.nguyen2738@gmail.com	0307407584	F	1980-10-09	2025-12-19	\N
-2739	Ngô Minh Phong	phong.ngo2739@gmail.com	0543104169	M	1971-09-23	2025-11-02	\N
-2740	Huỳnh Thanh Nga	Nga.huynh2740@gmail.com	0521889266	F	\N	2025-06-29	\N
-2741	Dương Công Hùng	hung.duong2741@gmail.com	0306201361	M	2000-05-03	2025-02-16	\N
-2742	Vũ Thành Hiếu	hieu.vu2742@yahoo.com	\N	M	\N	2025-05-11	\N
-2743	Phạm Thành Thắng	thang.pham2743@mail.vn	0383710371	M	1990-09-11	2025-03-16	\N
-2744	Lê Hữu Khang	khang.le2744@gmail.com	0940471436	M	1968-04-01	2023-12-31	\N
-2745	Nguyễn Anh Bình	binh.nguyen2745@mail.vn	0505705490	M	\N	2024-07-28	\N
-2746	Trần Hữu Trung	trung.tran2746@gmail.com	\N	M	1965-11-29	2024-06-13	\N
-2747	Trần Khánh Phương	phuong.tran2747@gmail.com	0389425139	F	\N	2023-11-22	\N
-2748	Trần Phương Chi	chi.tran2748@yahoo.com	0342538730	F	1994-12-11	2024-11-20	\N
-2749	Hoàng Khánh Quyên	quyen.hoang2749@gmail.com	0978979878	F	1974-11-05	2024-09-25	1368
-2750	Nguyễn Quang Bình	binh.nguyen2750@gmail.com	0520920672	\N	1991-07-07	2025-10-02	\N
-2751	Hồ Ngọc Quyên	quyen.ho2751@mail.vn	\N	F	\N	2024-07-15	\N
-2752	Võ Khánh Mai	mai.vo2752@outlook.com	0910909583	\N	\N	2025-10-28	\N
-2753	Hoàng Khánh Nga	nga.hoang2753@outlook.com	0765264664	F	2001-05-21	2023-07-30	\N
-2754	Nguyễn Minh Quân	quan.nguyen2754@gmail.com	0568374558	M	1993-08-15	2025-08-11	\N
-2755	Phạm Khánh Thảo	thao.pham2755@gmail.com	0950484666	F	1991-06-05	2023-03-07	\N
-2756	Lê Văn Vinh	vinh.le2756@mail.vn	0566524452	M	\N	2024-11-27	1853
-2757	Nguyễn Văn Thắng	thang.nguyen2757@mail.vn	0915431784	M	1995-09-13	2023-04-20	409
-2758	Nguyễn Đức Khang	khang.nguyen2758@outlook.com	0585315944	M	1971-09-29	2024-11-13	\N
-2759	Nguyễn Thành Phong	phong.nguyen2759@gmail.com	0561283866	M	2001-03-25	2025-03-19	\N
-2760	Lê Hữu Vinh	vinh.le2760@outlook.com	0999063489	M	\N	2025-06-23	\N
-2761	Ngô Văn Phong	phong.ngo2761@gmail.com	\N	M	\N	2025-11-25	\N
-2762	Nguyễn Anh Trung	trung.nguyen2762@gmail.com	0510521506	M	1968-08-09	2023-09-03	\N
-2763	Lê Văn Bình	binh.le2763@mail.vn	\N	M	1970-08-02	2024-08-24	\N
-2764	Bùi Minh Nhung	nhung.bui2764@mail.vn	0988666712	F	1978-03-11	2023-12-28	431
-2765	Huỳnh Ngọc Giang	giang.huynh2765@outlook.com	0593838403	F	1992-01-09	2024-10-19	\N
-2766	Nguyễn Khánh Lan	lan.nguyen2766@mail.vn	0302558272	F	1976-04-23	2025-11-01	\N
-2767	Phan Đức Huy	huy.phan2767@gmail.com	0916577001	M	2006-04-19	2024-03-19	\N
-2768	Trần Đức Phong	phong.tran2768@gmail.com	0399154057	M	1975-08-28	2025-06-23	\N
-2769	Nguyễn Ngọc Diệp	diep.nguyen2769@gmail.com	\N	F	1981-03-29	2025-03-06	\N
-2770	Lê Minh Vinh	vinh.le2770@mail.vn	\N	M	\N	2024-11-23	1018
-2771	Trần Văn Khoa	khoa.tran2771@outlook.com	\N	M	2002-05-18	2024-06-15	\N
-2772	Nguyễn Phương Nga	Nga.nguyen2772@mail.vn	\N	F	1980-10-04	2024-12-19	\N
-2773	Nguyễn Đức Thắng	thang.nguyen2773@gmail.com	0367297149	M	\N	2023-05-21	\N
-2774	Trần Anh Hùng	hung.tran2774@yahoo.com	0703464061	M	\N	2025-10-12	\N
-2775	Trần Minh My	my.tran2775@yahoo.com	\N	F	\N	2024-12-02	\N
-2776	Nguyễn Thanh Diệp	diep.nguyen2776@mail.vn	0749081355	F	\N	2025-01-27	\N
-2777	Nguyễn Thu Nhung	nhung.nguyen2777@outlook.com	0502899095	F	1975-10-29	2025-12-05	\N
-2778	Hoàng Minh Nhung	nhung.hoang2778@gmail.com	\N	F	\N	2023-08-10	\N
-2779	Nguyễn Thu Uyên	uyen.nguyen2779@outlook.com	0369673606	F	\N	2023-08-31	\N
-2780	Đỗ Thu Hạnh	hanh.do2780@mail.vn	0356704643	F	1975-04-08	2025-03-17	\N
-2781	Hoàng Hoài Lan	lan.hoang2781@gmail.com	0515737229	F	1971-05-29	2025-12-12	\N
-2782	Nguyễn Khánh Vân	van.nguyen2782@yahoo.com	0352630435	F	1967-08-16	2025-07-08	1894
-2783	Phạm Ngọc Nhung	nhung.pham2783@gmail.com	0743308185	F	1985-06-17	2025-06-27	\N
-2784	Nguyễn Phương Yến	yen.nguyen2784@gmail.com	\N	F	1974-05-25	2025-05-28	\N
-2785	Nguyễn Văn Thắng	thang.nguyen2785@gmail.com	\N	M	1976-11-26	2025-10-08	\N
-2786	Hồ Văn Huy	Huy.ho2786@gmail.com	0319002805	M	2002-11-17	2025-12-18	1114
-2787	Nguyễn Tuấn Đạt	dat.nguyen2787@yahoo.com	0978660464	M	1965-12-28	2024-12-12	2038
-2788	Lê Đức Thắng	thang.le2788@yahoo.com	0940662112	M	\N	2025-10-08	\N
-2789	Hồ Văn Quân	quan.ho2789@outlook.com	0797784199	M	1994-03-18	2025-07-30	\N
-2790	Nguyễn Đức Dũng	dung.nguyen2790@gmail.com	0760279237	M	1966-11-25	2023-04-27	\N
-2791	Lê Ngọc Diệp	Diep.le2791@mail.vn	\N	F	1965-04-15	2024-05-05	\N
-2792	Phạm Mai Mai	mai.pham2792@gmail.com	0991503625	F	\N	2025-07-30	\N
-2793	Nguyễn Thanh Giang	giang.nguyen2793@gmail.com	0552433533	\N	2002-03-27	2024-04-14	\N
-2794	Vũ Phương Hương	huong.vu2794@gmail.com	0917001473	F	1967-06-06	2024-08-07	\N
-2795	Huỳnh Thu Chi	chi.huynh2795@gmail.com	0395562074	F	1979-04-18	2024-11-08	788
-2796	Vũ Tuấn Dũng	dung.vu2796@gmail.com	0731796675	M	1977-06-30	2024-02-23	\N
-2797	Bùi Hoài Linh	linh.bui2797@mail.vn	0339478517	F	2001-04-09	2024-09-19	\N
-2798	Bùi Ngọc Ngân	ngan.bui2798@gmail.com	\N	F	\N	2024-02-25	\N
-2799	Phạm Anh Cường	cuong.pham2799@gmail.com	0767029718	M	1967-01-08	2025-10-17	\N
-2800	Đỗ Hữu Phong	phong.do2800@yahoo.com	0958850426	M	1980-12-26	2024-01-27	167
-2801	Huỳnh Anh Thắng	thang.huynh2801@gmail.com	0589056928	M	1970-12-02	2025-03-20	2160
-2802	Nguyễn Thu Uyên	uyen.nguyen2802@yahoo.com	0755673490	F	2001-01-23	2024-11-10	\N
-2803	Trần Tuấn Hùng	Hung.tran2803@outlook.com	0508867813	M	1993-07-14	2023-12-23	\N
-2804	Huỳnh Tuấn An	an.huynh2804@gmail.com	0748125514	M	1986-11-19	2024-10-13	\N
-2805	Nguyễn Minh Phong	phong.nguyen2805@gmail.com	0796272097	M	1998-05-31	2025-11-13	\N
-2806	Đặng Tuấn Dũng	dung.dang2806@gmail.com	0798277003	M	1972-12-18	2025-12-02	\N
-2807	Huỳnh Thị Hoa	hoa.huynh2807@mail.vn	0918338043	F	1971-10-19	2023-01-20	\N
-2808	Nguyễn Thanh Uyên	uyen.nguyen2808@gmail.com	0314861012	F	1982-05-26	2025-01-25	\N
-2809	Hoàng Khánh Quyên	quyen.hoang2809@gmail.com	0974703355	F	1970-01-07	2025-04-26	1076
-2810	Nguyễn Minh Phương	phuong.nguyen2810@yahoo.com	0908245363	F	1992-06-27	2023-02-18	\N
-2811	Nguyễn Ngọc Ngân	ngan.nguyen2811@gmail.com	0760119782	F	2004-01-30	2024-05-14	582
-2812	Đỗ Quang Long	long.do2812@gmail.com	\N	M	1967-10-19	2024-09-27	\N
-2813	Huỳnh Hữu Long	long.huynh2813@gmail.com	0919151429	M	2002-05-26	2024-10-15	\N
-2814	Nguyễn Thị Diệp	diep.nguyen2814@yahoo.com	0794700100	F	1987-03-06	2025-07-08	\N
-2815	Phan Công Việt	viet.phan2815@mail.vn	0350908965	M	1996-08-21	2025-08-29	\N
-2816	Trần Thu Linh	linh.tran2816@yahoo.com	0988252892	F	1981-08-15	2024-10-27	\N
-2817	Võ Đức Quân	quan.vo2817@outlook.com	0334557188	M	1987-07-10	2024-04-24	\N
-2818	Nguyễn Văn Trung	trung.nguyen2818@gmail.com	0994428399	\N	\N	2023-12-04	\N
-2819	Nguyễn Văn Tài	tai.nguyen2819@yahoo.com	0958759195	M	2001-03-22	2023-10-13	\N
-2820	Nguyễn Minh Hùng	hung.nguyen2820@yahoo.com	0337564466	M	2001-08-25	2023-11-03	\N
-2821	Nguyễn Phương Diệp	diep.nguyen2821@outlook.com	0776125192	F	\N	2023-06-21	1049
-2822	Nguyễn Tuấn Khoa	khoa.nguyen2822@gmail.com	\N	M	\N	2023-06-10	\N
-2823	Nguyễn Thành Hùng	hung.nguyen2823@mail.vn	\N	M	1975-07-13	2023-12-28	\N
-2824	Hoàng Đức Đạt	dat.hoang2824@gmail.com	0376704746	M	1965-06-05	2025-07-19	\N
-2825	Huỳnh Khánh Trang	trang.huynh2825@gmail.com	0369035597	F	1989-03-21	2023-10-17	\N
-2826	Trần Thị Yến	yen.tran2826@gmail.com	0375798085	F	1991-05-26	2023-09-07	\N
-2827	Nguyễn Minh Toàn	toan.nguyen2827@yahoo.com	0386546032	M	\N	2023-12-06	\N
-2828	Trần Thị Uyên	uyen.tran2828@mail.vn	0507981405	F	\N	2023-11-30	\N
-2829	Đặng Thanh Phương	phuong.dang2829@gmail.com	0301645027	F	\N	2025-07-29	2429
-2830	Phạm Thanh Lan	Lan.pham2830@gmail.com	0513201604	F	\N	2024-05-02	\N
-2831	Ngô Văn Hiếu	hieu.ngo2831@mail.vn	0755669892	M	\N	2025-12-28	\N
-2832	Hồ Minh Sơn	son.ho2832@gmail.com	0782057809	M	1965-01-23	2023-11-10	\N
-2833	Lê Thanh Lan	lan.le2833@outlook.com	0993205173	F	\N	2024-11-27	\N
-2834	Nguyễn Gia Đạt	dat.nguyen2834@gmail.com	0523070200	M	1981-06-29	2025-07-09	366
-2835	Nguyễn Tuấn Tùng	tung.nguyen2835@gmail.com	0762952900	M	1984-12-02	2025-10-24	\N
-2836	Võ Văn Dũng	dung.vo2836@gmail.com	0336457708	\N	1966-12-19	2025-03-06	\N
-2837	Trần Anh Khang	khang.tran2837@gmail.com	0998589077	M	1968-05-09	2025-04-28	\N
-2838	Phan Văn Nam	nam.phan2838@gmail.com	0931980342	M	1983-05-03	2025-04-10	\N
-2839	Đặng Đức Việt	viet.dang2839@gmail.com	0590258775	M	1965-09-14	2025-12-02	\N
-2840	Phan Phương Quyên	quyen.phan2840@outlook.com	0540794998	F	1997-09-05	2025-10-10	\N
-2841	Đặng Gia Cường	cuong.dang2841@yahoo.com	0967256471	M	\N	2025-08-16	\N
-2842	Dương Phương My	my.duong2842@mail.vn	0510132529	F	\N	2025-10-13	\N
-2843	Phạm Hoài Uyên	uyen.pham2843@gmail.com	0377005279	F	\N	2024-02-25	\N
-2844	Trần Gia Toàn	toan.tran2844@outlook.com	0528674866	M	\N	2023-11-05	\N
-2845	Nguyễn Đức Tùng	tung.nguyen2845@gmail.com	0957531131	M	1990-03-18	2025-08-24	\N
-2846	Lê Đức Việt	viet.le2846@gmail.com	\N	M	\N	2025-12-08	1760
-2847	Hoàng Hoài Dung	dung.hoang2847@gmail.com	\N	F	1966-10-14	2024-03-07	\N
-2848	Dương Khánh Nhung	nhung.duong2848@yahoo.com	0922515263	F	2006-04-18	2024-02-27	\N
-2849	Nguyễn Tuấn Cường	cuong.nguyen2849@outlook.com	\N	M	\N	2024-09-28	\N
-2850	Phạm Thành Bình	binh.pham2850@yahoo.com	0936853357	M	1988-11-09	2025-11-14	2290
-2851	Dương Bảo Mai	mai.duong2851@gmail.com	0542674912	F	\N	2025-03-02	\N
-2852	Đỗ Gia Trung	trung.do2852@outlook.com	0940456711	M	1992-06-01	2024-08-03	\N
-2853	Hoàng Đức Tài	tai.hoang2853@yahoo.com	0703011828	M	1989-09-06	2024-04-11	\N
-2854	Nguyễn Hoài Quyên	quyen.nguyen2854@mail.vn	0974711495	F	1986-11-18	2023-03-30	\N
-2855	Vũ Thanh Oanh	oanh.vu2855@mail.vn	0335618167	\N	1991-09-06	2023-07-14	\N
-2856	Phạm Anh Hùng	hung.pham2856@outlook.com	0702891345	M	2003-04-28	2023-02-06	\N
-2857	Lê Bảo Thảo	thao.le2857@gmail.com	0927953705	F	1977-05-18	2024-12-05	\N
-2858	Hoàng Thu Quyên	quyen.hoang2858@mail.vn	0911012210	\N	1990-06-06	2025-05-14	\N
-2859	Hoàng Ngọc Phương	phuong.hoang2859@outlook.com	0900247831	F	1972-06-04	2025-08-28	\N
-2860	Vũ Thanh Diệp	diep.vu2860@gmail.com	0983119455	F	1985-08-15	2025-05-29	1687
-2861	Dương Thị Giang	giang.duong2861@yahoo.com	0584429398	F	1992-11-30	2023-09-05	2271
-2862	Nguyễn Anh Thắng	thang.nguyen2862@mail.vn	0350721186	M	1985-06-29	2023-07-02	\N
-2863	Nguyễn Thu Uyên	uyen.nguyen2863@mail.vn	0538894732	F	1977-04-07	2025-08-03	\N
-2864	Vũ Hữu Cường	cuong.vu2864@gmail.com	0531717509	M	1990-08-12	2024-02-15	\N
-2865	Huỳnh Minh Diệp	diep.huynh2865@gmail.com	\N	F	\N	2023-12-28	\N
-2866	Bùi Hoài Thảo	thao.bui2866@gmail.com	0963105411	F	\N	2024-03-02	\N
-2867	Nguyễn Văn Bình	binh.nguyen2867@yahoo.com	0955585061	M	2005-07-29	2023-12-22	\N
-2868	Lê Gia Long	long.le2868@yahoo.com	0308587616	M	\N	2024-08-14	\N
-2869	Võ Phương Hương	huong.vo2869@gmail.com	0573183266	F	2004-08-09	2024-11-24	\N
-2870	Võ Minh Hương	huong.vo2870@outlook.com	0597490658	F	1984-01-30	2024-09-18	\N
-2871	Nguyễn Quang Long	long.nguyen2871@gmail.com	0565172137	M	\N	2024-02-05	\N
-2872	Bùi Đức Khoa	khoa.bui2872@yahoo.com	0910753510	\N	1980-07-28	2025-08-30	\N
-2873	Nguyễn Khánh Nhung	nhung.nguyen2873@yahoo.com	0591522634	F	1988-03-21	2025-09-24	\N
-2874	Trần Thị Ngân	ngan.tran2874@gmail.com	0700550799	F	1989-08-26	2025-07-04	\N
-2875	Huỳnh Thành Toàn	toan.huynh2875@mail.vn	\N	M	2006-10-31	2023-08-30	\N
-2876	Hoàng Đức Tài	tai.hoang2876@gmail.com	0514729528	M	\N	2023-07-08	\N
-2877	Nguyễn Phương Oanh	oanh.nguyen2877@yahoo.com	0329436152	F	1988-07-26	2023-08-22	\N
-2878	Đỗ Công Toàn	toan.do2878@gmail.com	0334942212	M	1984-07-15	2025-08-11	\N
-2879	Lê Phương Vân	van.le2879@outlook.com	0393237965	F	2005-11-04	2024-12-08	\N
-2880	Trần Đức Tài	tai.tran2880@gmail.com	0571235625	M	1998-08-06	2024-02-19	\N
-2881	Nguyễn Khánh Chi	chi.nguyen2881@gmail.com	0561175222	F	1978-03-30	2025-05-24	\N
-2882	Ngô Quang Thắng	thang.ngo2882@gmail.com	0797665835	M	\N	2025-03-20	\N
-2883	Nguyễn Ngọc Ngân	ngan.nguyen2883@gmail.com	\N	F	2001-07-27	2023-09-08	425
-2884	Nguyễn Văn Khoa	khoa.nguyen2884@gmail.com	\N	M	1979-09-02	2025-08-17	\N
-2885	Dương Ngọc Yến	Yen.duong2885@yahoo.com	0962341787	F	1996-01-06	2024-10-16	\N
-2886	Trần Thành Đạt	Dat.tran2886@mail.vn	0585128784	M	1965-12-05	2024-08-19	\N
-2887	Lê Gia Phong	phong.le2887@outlook.com	0759254686	M	\N	2024-09-22	\N
-2888	Đặng Gia Hùng	hung.dang2888@outlook.com	0564437429	M	1990-08-04	2025-07-06	\N
-2889	Huỳnh Văn Quân	quan.huynh2889@gmail.com	0339289659	M	1995-06-26	2025-03-29	\N
-2890	Phan Công Nam	nam.phan2890@gmail.com	0931804923	M	\N	2024-02-16	\N
-2891	Nguyễn Anh Hải	hai.nguyen2891@gmail.com	0933009820	M	1984-05-10	2024-11-14	\N
-2892	Nguyễn Minh Trung	trung.nguyen2892@gmail.com	0332622041	M	\N	2023-01-19	\N
-2893	Nguyễn Thành Trung	trung.nguyen2893@yahoo.com	0309810936	M	1970-10-27	2023-04-28	\N
-2894	Nguyễn Thanh My	my.nguyen2894@gmail.com	0715724613	F	1986-04-11	2024-02-03	\N
-2895	Nguyễn Minh Phong	phong.nguyen2895@outlook.com	0383554711	M	1990-06-30	2024-08-08	\N
-2896	Nguyễn Quang Tùng	tung.nguyen2896@gmail.com	0567521528	M	1975-08-09	2024-02-17	\N
-2897	Nguyễn Bảo Uyên	uyen.nguyen2897@gmail.com	0347767791	F	\N	2024-07-12	\N
-2898	Võ Bảo Thảo	thao.vo2898@yahoo.com	0330844176	F	2003-08-08	2025-05-09	\N
-2899	Dương Quang Trung	trung.duong2899@gmail.com	\N	M	2004-08-28	2025-08-19	\N
-2900	Lê Hoài Giang	giang.le2900@gmail.com	0305808891	F	1994-09-30	2025-05-05	666
-2901	Lê Hữu Long	long.le2901@outlook.com	0994103699	M	\N	2024-09-23	\N
-2902	Phan Quang Tài	tai.phan2902@gmail.com	0974736545	M	1988-04-18	2023-07-07	2793
-2903	Lê Tuấn Phúc	phuc.le2903@yahoo.com	0321687100	M	1989-05-28	2025-01-23	\N
-2904	Trần Mai Diệp	diep.tran2904@mail.vn	0792116398	F	\N	2023-11-02	\N
-2905	Vũ Anh Nam	nam.vu2905@outlook.com	0379895553	M	1987-03-27	2025-05-02	\N
-2906	Hồ Hoài Mai	mai.ho2906@yahoo.com	0363701205	F	\N	2023-09-23	\N
-2907	Võ Minh Tài	Tai.vo2907@gmail.com	0934493245	M	1966-12-21	2025-06-24	\N
-2908	Nguyễn Thanh Vân	van.nguyen2908@gmail.com	0571940554	F	1981-07-16	2024-09-15	\N
-2909	Lê Gia Huy	huy.le2909@gmail.com	0543869069	M	\N	2024-10-06	\N
-2910	Huỳnh Thành Toàn	toan.huynh2910@gmail.com	0940279781	M	1991-10-20	2023-04-04	\N
-2911	Phan Bảo Dung	dung.phan2911@gmail.com	0939115024	F	2003-11-17	2025-06-28	\N
-2912	Phạm Minh Hùng	hung.pham2912@mail.vn	0565428662	M	1991-06-27	2025-06-02	\N
-2913	Hoàng Thành Bình	binh.hoang2913@gmail.com	0383040718	M	1981-12-19	2024-12-28	\N
-2914	Nguyễn Công Vinh	vinh.nguyen2914@gmail.com	\N	M	2003-01-06	2024-03-05	\N
-2915	Nguyễn Hoài Chi	chi.nguyen2915@outlook.com	0798329062	F	\N	2024-06-14	\N
-2916	Nguyễn Thị Linh	linh.nguyen2916@yahoo.com	0363624377	F	\N	2025-12-07	\N
-2917	Nguyễn Hữu Bình	binh.nguyen2917@gmail.com	0765096746	M	\N	2024-08-03	1271
-2918	Nguyễn Minh Quân	quan.nguyen2918@outlook.com	0767518538	M	1982-09-03	2025-12-29	\N
-2919	Nguyễn Minh Hương	huong.nguyen2919@gmail.com	0769511930	F	1984-03-07	2023-07-01	\N
-2920	Nguyễn Hoài Hà	ha.nguyen2920@mail.vn	0937398775	F	1970-09-09	2025-05-07	\N
-2921	Lê Hữu Trung	trung.le2921@yahoo.com	0319116021	M	1998-03-23	2023-04-26	\N
-2922	Nguyễn Thành Khoa	khoa.nguyen2922@gmail.com	\N	M	1997-08-14	2023-11-09	\N
-2923	Lý Thành Phúc	phuc.ly2923@yahoo.com	0796470582	M	1991-05-18	2024-03-21	\N
-2924	Đỗ Tuấn Vinh	vinh.do2924@gmail.com	\N	M	2005-11-06	2024-01-20	\N
-2925	Nguyễn Phương Hà	ha.nguyen2925@gmail.com	0908390556	F	1984-09-27	2023-07-27	\N
-2926	Hồ Văn Bình	binh.ho2926@gmail.com	0972044531	M	1990-08-29	2024-05-02	\N
-2927	Nguyễn Hữu Phúc	phuc.nguyen2927@outlook.com	0957475162	M	1999-11-15	2025-05-11	\N
-2928	Vũ Minh Ngân	ngan.vu2928@mail.vn	0945672513	F	1997-08-03	2025-12-23	\N
-2929	Đỗ Phương Ngân	ngan.do2929@outlook.com	0300827283	F	2003-08-23	2024-03-06	\N
-2930	Võ Thị Giang	giang.vo2930@gmail.com	0562317751	\N	1969-02-23	2024-07-26	2928
-2931	Phan Minh Trang	trang.phan2931@mail.vn	0909510948	F	1983-12-17	2023-12-21	\N
-2932	Đặng Thu Hạnh	hanh.dang2932@gmail.com	0776646199	F	\N	2025-11-02	\N
-2933	Nguyễn Ngọc Hương	huong.nguyen2933@gmail.com	0573946205	F	2004-02-06	2023-07-14	\N
-2934	Phạm Minh Dũng	Dung.pham2934@gmail.com	\N	M	\N	2024-01-03	902
-2935	Phan Văn Hiếu	hieu.phan2935@outlook.com	0503869255	M	1994-05-01	2024-06-26	\N
-2936	Ngô Quang Thắng	thang.ngo2936@gmail.com	0531566446	M	1995-04-29	2023-07-31	700
-2937	Hoàng Đức Cường	cuong.hoang2937@gmail.com	0913398514	M	1979-03-01	2025-03-18	1737
-2938	Phạm Văn Hiếu	hieu.pham2938@gmail.com	0375968366	\N	2005-04-10	2024-06-13	\N
-2939	Vũ Khánh Mai	mai.vu2939@gmail.com	0911581188	F	1981-04-14	2024-01-27	710
-2940	Hoàng Hoài Nga	nga.hoang2940@mail.vn	\N	F	\N	2024-08-15	\N
-2941	Hoàng Hữu Dũng	dung.hoang2941@yahoo.com	0900855616	M	\N	2025-12-21	\N
-2942	Lê Mai Chi	chi.le2942@gmail.com	0962400255	F	1986-07-02	2025-11-10	\N
-2943	Vũ Gia Hải	hai.vu2943@gmail.com	0969046734	M	1966-02-19	2025-11-27	\N
-2944	Ngô Hữu Dũng	dung.ngo2944@yahoo.com	0360443573	M	1967-12-28	2023-10-29	\N
-2945	Đỗ Gia Hiếu	hieu.do2945@outlook.com	0329008835	M	1987-01-08	2025-10-31	537
-2946	Vũ Văn Trung	trung.vu2946@gmail.com	0550286909	M	2006-09-15	2024-05-03	\N
-2947	Đặng Anh Phong	phong.dang2947@gmail.com	0960624344	M	1995-06-07	2024-09-27	\N
-2948	Phạm Ngọc Oanh	oanh.pham2948@gmail.com	0590869574	F	\N	2025-01-13	\N
-2949	Nguyễn Minh Toàn	toan.nguyen2949@gmail.com	0517817478	M	1989-03-21	2024-09-12	\N
-2950	Lý Phương Hà	ha.ly2950@outlook.com	\N	F	1986-04-03	2024-11-15	\N
-2951	Nguyễn Văn Bình	binh.nguyen2951@yahoo.com	0945687649	\N	2004-01-23	2025-04-13	\N
-2952	Trần Công Cường	cuong.tran2952@gmail.com	0569803382	M	\N	2025-03-08	\N
-2953	Trần Đức Thắng	thang.tran2953@gmail.com	0549882209	\N	1985-01-08	2025-04-17	\N
-2954	Hoàng Khánh Diệp	diep.hoang2954@gmail.com	0778973162	F	1991-05-04	2025-01-29	\N
-2955	Trần Công Hải	hai.tran2955@gmail.com	0555139275	M	\N	2025-08-22	\N
-2956	Hoàng Quang Nam	nam.hoang2956@gmail.com	0529930951	M	\N	2023-05-30	\N
-2957	Nguyễn Gia Bình	binh.nguyen2957@gmail.com	0943927505	M	1977-06-21	2023-07-07	\N
-2958	Ngô Mai Lan	lan.ngo2958@gmail.com	0728017648	F	1998-03-01	2024-12-14	\N
-2959	Nguyễn Tuấn Hùng	hung.nguyen2959@outlook.com	0785576642	M	1979-12-17	2025-07-28	\N
-2960	Trần Gia Vinh	vinh.tran2960@yahoo.com	\N	M	1992-10-07	2024-05-15	\N
-2961	Nguyễn Hoài Hà	ha.nguyen2961@outlook.com	0324971808	F	1986-03-04	2024-03-31	\N
-2962	Ngô Ngọc Nga	nga.ngo2962@gmail.com	0763883873	\N	\N	2024-06-29	\N
-2963	Phan Khánh Uyên	uyen.phan2963@gmail.com	0360837100	F	\N	2025-06-03	\N
-2964	Nguyễn Công Hiếu	hieu.nguyen2964@yahoo.com	\N	M	1982-01-21	2024-09-27	\N
-2965	Đỗ Quang Khoa	khoa.do2965@outlook.com	0940399012	M	1995-01-16	2025-04-02	\N
-2966	Phạm Mai Trang	Trang.pham2966@yahoo.com	0522990201	F	1965-04-02	2025-05-08	\N
-2967	Nguyễn Thị Ngân	Ngan.nguyen2967@gmail.com	0926235192	F	\N	2024-03-28	\N
-2968	Ngô Khánh Dung	dung.ngo2968@gmail.com	0933541021	F	1970-05-19	2025-04-05	\N
-2969	Lý Tuấn Toàn	toan.ly2969@gmail.com	0379531409	M	1968-02-16	2024-06-02	\N
-2970	Trần Hữu Hùng	hung.tran2970@mail.vn	0912687887	M	\N	2025-10-29	2858
-2971	Võ Bảo Diệp	diep.vo2971@gmail.com	0511030109	F	\N	2025-09-07	\N
-2972	Ngô Minh Sơn	son.ngo2972@gmail.com	0708441554	M	1980-10-25	2025-11-05	\N
-2973	Huỳnh Văn Phúc	phuc.huynh2973@gmail.com	0517823366	\N	1981-06-02	2025-07-12	\N
-2974	Phan Thành Nam	nam.phan2974@mail.vn	0960099918	M	\N	2023-07-02	\N
-2975	Lê Văn Vinh	vinh.le2975@gmail.com	0380854899	M	1982-12-25	2025-03-18	\N
-2976	Nguyễn Bảo Anh	anh.nguyen2976@yahoo.com	0508314091	F	2003-05-28	2025-04-15	\N
-2977	Trần Khánh Nhung	nhung.tran2977@gmail.com	0565930407	F	1983-10-01	2023-10-27	1582
-2978	Hoàng Công Quân	Quan.hoang2978@outlook.com	\N	M	\N	2025-05-22	1381
-2979	Bùi Văn Hải	hai.bui2979@gmail.com	0984386335	M	\N	2025-02-12	\N
-2980	Nguyễn Gia Khang	khang.nguyen2980@gmail.com	\N	M	\N	2024-01-24	\N
-2981	Lê Phương Trang	trang.le2981@mail.vn	0794764340	F	1996-09-30	2024-06-08	\N
-2982	Bùi Anh Phúc	phuc.bui2982@gmail.com	\N	M	\N	2024-09-22	\N
-2983	Lý Phương Hà	ha.ly2983@outlook.com	0940562419	F	1976-06-21	2025-06-12	\N
-2984	Lê Thu Yến	yen.le2984@gmail.com	0537842681	F	1988-08-26	2025-05-18	\N
-2985	Đặng Bảo Vân	van.dang2985@gmail.com	0554985856	F	\N	2024-10-16	\N
-2986	Huỳnh Anh Nam	nam.huynh2986@outlook.com	0780212886	M	1992-09-08	2025-07-16	\N
-2987	Nguyễn Gia An	an.nguyen2987@gmail.com	0959226606	M	2001-05-18	2024-10-12	\N
-2988	Nguyễn Thành Cường	cuong.nguyen2988@outlook.com	0733089940	M	1999-02-22	2024-06-02	\N
-2989	Phạm Phương Nga	nga.pham2989@yahoo.com	0365422469	F	1976-02-23	2024-01-15	\N
-2990	Trần Phương Nhung	nhung.tran2990@gmail.com	0734049653	F	1990-12-26	2023-07-23	213
-2991	Nguyễn Quang Khoa	khoa.nguyen2991@gmail.com	0766984079	M	1975-01-11	2024-01-10	\N
-2992	Lý Gia Đạt	dat.ly2992@mail.vn	0588501328	M	1981-07-23	2025-01-06	1776
-2993	Phạm Thu Quyên	quyen.pham2993@mail.vn	0306525573	F	1974-06-07	2024-07-27	322
-2994	Huỳnh Anh Tùng	tung.huynh2994@gmail.com	0748766988	M	2003-02-13	2025-06-25	\N
-2995	Nguyễn Anh Dũng	dung.nguyen2995@gmail.com	0991310619	M	\N	2025-07-08	\N
-2996	Nguyễn Gia Khoa	khoa.nguyen2996@gmail.com	0916456311	M	1998-08-03	2025-01-28	\N
-2997	Lê Minh Sơn	son.le2997@mail.vn	0912849675	M	1967-01-01	2023-01-20	\N
-2998	Trần Hoài Vân	van.tran2998@gmail.com	0588362285	F	1975-04-04	2025-05-05	\N
-2999	Hoàng Khánh Nhung	nhung.hoang2999@yahoo.com	0968214635	F	1994-11-21	2025-07-15	1554
-3000	Nguyễn Minh Ngân	ngan.nguyen3000@gmail.com	0752541092	F	1995-10-28	2024-09-23	\N
+1	Donna Johnson	donna.johnson1@mail.com	0782364735	F	1981-01-23	2024-01-23	\N
+2	Kevin Garcia	kevin.garcia2@gmail.com	0525625975	M	1976-02-06	2025-03-19	\N
+3	Kevin Rodriguez	kevin.rodriguez3@gmail.com	0516179728	M	1988-05-08	2023-12-08	\N
+4	Sandra Williams	sandra.williams4@outlook.com	0975625161	F	1995-10-22	2023-08-19	\N
+5	Joshua Johnson	joshua.johnson5@gmail.com	0558281451	M	1976-05-04	2023-03-24	\N
+6	Sarah Johnson	sarah.johnson6@yahoo.com	0985966238	F	1981-04-26	2025-11-14	\N
+7	Lisa Smith	lisa.smith7@gmail.com	0907770495	F	1995-01-23	2025-03-10	\N
+8	Brian Smith	brian.smith8@yahoo.com	0763315531	M	1998-09-03	2024-05-02	\N
+9	Donald Smith	donald.smith9@yahoo.com	\N	M	\N	2024-06-23	\N
+10	Susan Johnson	susan.johnson10@gmail.com	0943420646	F	\N	2024-03-11	\N
+11	Donald Martinez	donald.martinez11@yahoo.com	0767369089	M	1972-05-07	2025-06-17	\N
+12	Elizabeth Smith	elizabeth.smith12@gmail.com	0703137857	F	1975-11-22	2025-07-11	\N
+13	Nancy Brown	nancy.brown13@gmail.com	0351072781	F	1973-11-18	2024-01-28	\N
+14	Daniel Rodriguez	daniel.rodriguez14@gmail.com	0526863634	M	\N	2024-03-13	\N
+15	Donald Garcia	donald.garcia15@gmail.com	0581647579	M	1979-05-08	2025-08-28	\N
+16	Karen Williams	karen.williams16@gmail.com	0725646745	F	1988-06-08	2025-09-29	\N
+17	Mark Davis	mark.davis17@gmail.com	0925301560	M	2003-03-05	2025-07-28	\N
+18	Deborah Smith	deborah.smith18@mail.com	0547457026	F	1969-11-09	2025-01-29	\N
+19	Joshua Smith	joshua.smith19@gmail.com	0338372085	M	1979-03-31	2024-08-06	\N
+20	Jessica Rodriguez	jessica.rodriguez20@gmail.com	0537180966	F	1995-02-21	2024-08-21	\N
+21	Paul Martinez	paul.martinez21@gmail.com	0563506330	M	1996-10-27	2025-01-02	\N
+22	Kevin Wilson	kevin.wilson22@yahoo.com	0331863990	M	1997-08-10	2024-03-21	\N
+23	Thomas Johnson	thomas.johnson23@gmail.com	0565188700	M	\N	2025-02-01	\N
+24	John Jones	john.jones24@gmail.com	0900904701	M	1984-03-16	2024-11-08	\N
+25	Elizabeth Smith	elizabeth.smith25@yahoo.com	0522293047	F	2002-07-18	2025-08-12	\N
+26	Sandra Hernandez	sandra.hernandez26@gmail.com	0562948270	F	\N	2025-02-05	\N
+27	Ashley Smith	ashley.smith27@gmail.com	\N	F	\N	2023-11-14	\N
+28	Barbara Smith	barbara.smith28@mail.com	0337346466	F	\N	2025-06-21	\N
+29	Brian Johnson	brian.johnson29@yahoo.com	\N	\N	1992-05-13	2024-07-03	\N
+30	Amanda Smith	amanda.smith30@gmail.com	\N	\N	\N	2023-06-23	\N
+31	Deborah Brown	deborah.brown31@gmail.com	0947344947	F	1984-08-19	2023-03-20	\N
+32	Edward Smith	edward.smith32@mail.com	\N	M	1980-10-02	2024-06-25	\N
+33	Edward Johnson	edward.johnson33@gmail.com	0759479667	M	1968-07-12	2024-12-03	\N
+34	Mark Anderson	mark.anderson34@mail.com	0939192839	M	2002-10-24	2024-09-16	\N
+35	Linda Johnson	linda.johnson35@yahoo.com	0712371579	F	1971-09-06	2025-02-28	\N
+36	Lisa Smith	lisa.smith36@yahoo.com	0931827453	F	1978-03-03	2025-10-20	\N
+37	Kevin Miller	kevin.miller37@gmail.com	\N	M	\N	2025-03-11	\N
+38	Patricia Johnson	patricia.johnson38@outlook.com	0358630180	F	1999-06-04	2025-03-31	\N
+39	Carol Lopez	carol.lopez39@gmail.com	\N	F	1978-03-06	2025-09-07	\N
+40	James Smith	james.smith40@gmail.com	0336676500	M	\N	2023-06-29	\N
+41	Carol Williams	carol.williams41@yahoo.com	\N	F	1973-06-26	2025-01-08	\N
+42	Margaret Garcia	margaret.garcia42@yahoo.com	0975320517	F	1996-12-21	2025-10-14	\N
+43	Jessica Johnson	jessica.johnson43@gmail.com	0553068669	F	1975-04-27	2024-07-08	\N
+44	Richard Smith	richard.smith44@yahoo.com	0526882500	M	1968-05-19	2025-10-26	\N
+45	Kevin Smith	kevin.smith45@gmail.com	0549238319	M	1982-01-29	2025-04-08	\N
+46	Jessica Jones	jessica.jones46@gmail.com	0920110948	F	1991-05-21	2024-04-02	\N
+47	Brian Davis	brian.davis47@gmail.com	0954469751	M	1986-06-03	2025-12-09	\N
+48	William Taylor	william.taylor48@outlook.com	\N	M	\N	2025-10-28	\N
+49	Michelle Smith	michelle.smith49@gmail.com	0551106894	F	2006-09-24	2025-05-09	\N
+50	Linda Davis	linda.davis50@outlook.com	0362041899	F	2003-06-21	2023-03-26	\N
+51	Brian Smith	brian.smith51@yahoo.com	0377419461	M	2000-11-06	2025-11-21	\N
+52	James Miller	james.miller52@yahoo.com	0771792757	M	1999-08-13	2025-01-09	\N
+53	Joseph Smith	joseph.smith53@mail.com	0310392046	M	\N	2025-06-24	\N
+54	Joseph Williams	joseph.williams54@gmail.com	0369024103	M	1992-01-05	2024-05-06	\N
+55	Margaret Johnson	margaret.johnson55@yahoo.com	\N	F	1988-02-11	2024-10-09	\N
+56	Paul Smith	paul.smith56@mail.com	0577484897	M	1969-04-18	2024-05-03	\N
+57	Anthony Smith	Anthony.smith57@gmail.com	0533184724	M	\N	2024-07-14	11
+58	Donald Johnson	donald.johnson58@gmail.com	0361632539	M	1996-12-04	2025-08-13	55
+59	Susan Smith	susan.smith59@outlook.com	\N	F	1996-08-16	2024-12-05	\N
+60	Donna Miller	donna.miller60@gmail.com	\N	F	\N	2025-01-12	\N
+61	Linda Smith	linda.smith61@gmail.com	0504675743	F	1968-10-07	2025-09-18	\N
+62	George Johnson	george.johnson62@gmail.com	0530408664	M	1996-03-11	2025-03-02	5
+63	Karen Williams	karen.williams63@gmail.com	0518579845	\N	2001-05-03	2025-05-30	\N
+64	Emily Hernandez	emily.hernandez64@mail.com	\N	F	1969-03-23	2024-12-06	54
+65	Jennifer Lopez	jennifer.lopez65@gmail.com	0992053944	F	1987-06-27	2024-06-10	\N
+66	Mary Martinez	Mary.martinez66@gmail.com	0797945369	F	1989-02-19	2023-12-16	\N
+67	Amanda Smith	amanda.smith67@gmail.com	0513499342	F	1974-10-14	2025-07-06	\N
+68	Joshua Brown	joshua.brown68@outlook.com	0547439830	M	\N	2024-07-16	\N
+69	Kevin Johnson	kevin.johnson69@outlook.com	0910498768	M	1968-03-24	2024-01-01	\N
+70	Richard Smith	richard.smith70@gmail.com	0782727730	M	2000-12-28	2023-10-19	\N
+71	Joseph Williams	joseph.williams71@gmail.com	0582271847	M	1971-10-30	2025-03-27	\N
+72	Barbara Rodriguez	barbara.rodriguez72@gmail.com	0919956494	F	\N	2024-11-20	47
+73	Richard Rodriguez	richard.rodriguez73@gmail.com	0584849415	M	1999-04-08	2025-09-09	\N
+74	Joshua Smith	joshua.smith74@gmail.com	\N	M	\N	2025-11-30	25
+75	Margaret Miller	margaret.miller75@yahoo.com	0389438064	F	2004-10-18	2025-12-11	\N
+76	Joshua Smith	joshua.smith76@gmail.com	\N	M	1996-11-14	2023-12-08	\N
+77	Kevin Johnson	kevin.johnson77@gmail.com	0386038023	M	2003-07-26	2024-02-08	\N
+78	Karen Jones	karen.jones78@mail.com	0535945473	F	1991-03-25	2025-02-07	51
+79	David Lopez	david.lopez79@outlook.com	\N	M	\N	2025-12-03	\N
+80	Joseph Johnson	joseph.johnson80@outlook.com	0775019186	M	1970-09-27	2025-10-16	\N
+81	Kimberly Smith	kimberly.smith81@gmail.com	0569428356	F	1997-12-29	2025-05-09	\N
+82	Joseph Smith	joseph.smith82@gmail.com	0511620692	M	2004-09-21	2024-07-01	\N
+83	Elizabeth Williams	elizabeth.williams83@gmail.com	0937367653	F	1987-10-21	2024-04-15	\N
+84	Donald Garcia	donald.garcia84@gmail.com	0338223006	M	1967-01-07	2023-04-04	44
+85	Edward Smith	edward.smith85@gmail.com	0312692851	M	1968-05-03	2025-11-03	13
+86	Kevin Miller	kevin.miller86@gmail.com	\N	M	1977-04-12	2024-11-22	74
+87	Paul Brown	Paul.brown87@yahoo.com	0397716950	M	1982-12-07	2025-06-20	\N
+88	Elizabeth Johnson	elizabeth.johnson88@mail.com	\N	F	\N	2023-11-03	\N
+89	Elizabeth Smith	elizabeth.smith89@gmail.com	0788116891	F	2002-02-20	2023-09-19	\N
+90	Michael Taylor	michael.taylor90@outlook.com	0977137770	M	1993-08-04	2024-02-22	\N
+91	Elizabeth Taylor	elizabeth.taylor91@outlook.com	0316125927	F	1998-06-05	2025-09-07	22
+92	Karen Lopez	karen.lopez92@gmail.com	\N	F	2006-01-02	2023-10-27	\N
+93	Carol Smith	carol.smith93@gmail.com	\N	F	1989-10-23	2025-03-16	\N
+94	Jessica Smith	jessica.smith94@mail.com	0770680659	F	\N	2024-11-10	\N
+95	Edward Brown	edward.brown95@yahoo.com	0573070083	M	1983-03-18	2023-08-15	\N
+96	Donald Brown	donald.brown96@gmail.com	0526933715	M	1980-02-04	2024-03-29	\N
+97	Michael Smith	michael.smith97@yahoo.com	\N	M	1977-07-18	2025-04-08	\N
+98	Michelle Smith	michelle.smith98@outlook.com	0969182883	F	\N	2025-04-02	\N
+99	Elizabeth Miller	elizabeth.miller99@gmail.com	0794054158	F	\N	2024-05-19	63
+100	Amanda Thomas	amanda.thomas100@gmail.com	0535058696	F	\N	2024-04-16	\N
+101	Linda Davis	linda.davis101@mail.com	0552910611	F	\N	2025-12-27	65
+102	Ashley Smith	ashley.smith102@gmail.com	0304190269	F	1989-01-13	2025-09-24	\N
+103	Ashley Martinez	ashley.martinez103@mail.com	0325307820	F	\N	2024-01-13	\N
+104	Anthony Davis	anthony.davis104@gmail.com	0557580470	M	\N	2024-06-30	\N
+105	Ashley Smith	ashley.smith105@mail.com	0559867550	F	1973-10-05	2025-10-16	59
+106	Carol Smith	carol.smith106@gmail.com	0347478739	F	1974-04-02	2024-01-12	\N
+107	James Smith	james.smith107@outlook.com	0392668105	M	2005-07-06	2024-05-15	50
+108	Elizabeth Williams	elizabeth.williams108@outlook.com	0347250852	F	2003-08-19	2025-10-25	\N
+109	Linda Smith	linda.smith109@mail.com	0567471225	F	\N	2025-07-16	\N
+110	Amanda Jones	amanda.jones110@mail.com	0773555676	F	1965-03-23	2023-06-03	\N
+111	Patricia Smith	patricia.smith111@gmail.com	0380126386	F	\N	2025-11-25	\N
+112	Christopher Johnson	christopher.johnson112@gmail.com	0798114126	M	1986-10-29	2023-08-30	\N
+113	Patricia Johnson	patricia.johnson113@gmail.com	0715652469	F	\N	2025-03-28	\N
+114	Jennifer Johnson	jennifer.johnson114@outlook.com	0907196726	F	\N	2023-09-24	\N
+115	Brian Davis	brian.davis115@gmail.com	0372340960	M	1970-06-09	2025-05-01	\N
+116	Patricia Rodriguez	patricia.rodriguez116@mail.com	0978770595	F	1995-02-09	2025-07-03	\N
+117	Matthew Smith	Matthew.smith117@gmail.com	0728041427	M	1993-08-21	2023-07-05	\N
+118	Joshua Smith	joshua.smith118@outlook.com	0709613239	M	2000-01-23	2025-11-11	77
+119	Andrew Williams	andrew.williams119@gmail.com	0902195481	M	1987-03-20	2024-02-24	\N
+120	Anthony Anderson	anthony.anderson120@mail.com	0952194423	M	1998-07-07	2025-07-23	115
+121	Betty Smith	betty.smith121@gmail.com	0390960645	F	1989-04-24	2023-10-14	\N
+122	Lisa Anderson	lisa.anderson122@gmail.com	0519354161	F	\N	2025-11-22	\N
+123	Joseph Rodriguez	joseph.rodriguez123@gmail.com	0798893317	M	1979-07-12	2024-04-01	\N
+124	Jessica Brown	jessica.brown124@yahoo.com	\N	F	1969-06-25	2025-12-14	\N
+125	Deborah Thomas	deborah.thomas125@mail.com	0988723479	F	1994-11-06	2023-11-18	\N
+126	Anthony Anderson	anthony.anderson126@gmail.com	0389601868	M	1995-05-21	2024-11-10	\N
+127	Barbara Brown	barbara.brown127@outlook.com	0570310730	F	1968-08-17	2024-10-26	\N
+128	Donald Smith	donald.smith128@gmail.com	0501179185	M	1988-04-04	2023-08-19	\N
+129	Elizabeth Smith	elizabeth.smith129@mail.com	0731514692	F	1973-10-27	2025-09-17	\N
+130	Sandra Johnson	sandra.johnson130@gmail.com	0715967898	F	1994-11-09	2025-09-05	\N
+131	William Martinez	william.martinez131@gmail.com	0900517971	M	2004-08-18	2023-09-05	\N
+132	Ashley Johnson	ashley.johnson132@gmail.com	0780622329	F	2005-01-29	2024-04-13	42
+133	Jessica Williams	jessica.williams133@mail.com	0761499578	F	1966-06-21	2023-01-21	\N
+134	Barbara Martinez	barbara.martinez134@yahoo.com	0543574444	F	1972-07-20	2025-07-30	\N
+135	Andrew Smith	andrew.smith135@outlook.com	0948826762	M	1996-11-02	2025-08-17	\N
+136	Emily Brown	emily.brown136@mail.com	0537366824	F	1992-11-12	2025-06-14	\N
+137	Mark Smith	mark.smith137@mail.com	0996391626	M	1993-02-25	2023-03-28	\N
+138	John Johnson	john.johnson138@gmail.com	\N	M	1995-01-30	2023-01-31	\N
+139	Barbara Jones	barbara.jones139@mail.com	0944367806	F	\N	2023-06-24	114
+140	Joshua Williams	joshua.williams140@mail.com	0927903329	M	1988-05-22	2025-04-13	\N
+141	Paul Martinez	paul.martinez141@mail.com	\N	M	1967-07-16	2023-05-06	127
+142	Melissa Hernandez	melissa.hernandez142@gmail.com	\N	F	1996-09-06	2023-12-05	\N
+143	Christopher Williams	christopher.williams143@gmail.com	0539092381	M	2000-11-22	2025-12-12	\N
+144	Michael Anderson	michael.anderson144@gmail.com	0599049000	M	1995-10-20	2024-09-06	\N
+145	Amanda Smith	amanda.smith145@mail.com	0575371752	F	\N	2023-12-15	\N
+146	Michael Lopez	michael.lopez146@yahoo.com	0991822595	M	1969-09-05	2025-05-13	\N
+147	Margaret Taylor	margaret.taylor147@gmail.com	0569657853	F	1976-11-29	2024-07-11	\N
+148	Brian Martinez	brian.martinez148@mail.com	0790908262	M	1990-05-03	2025-08-25	\N
+149	Melissa Johnson	melissa.johnson149@gmail.com	0790200215	F	1979-01-21	2025-09-25	\N
+150	Matthew Williams	Matthew.williams150@gmail.com	0535565398	M	1998-08-12	2024-07-31	29
+151	Jessica Johnson	jessica.johnson151@yahoo.com	0784126283	F	1999-04-25	2025-07-13	\N
+152	Matthew Martinez	matthew.martinez152@gmail.com	\N	M	1981-05-25	2025-08-25	113
+153	Richard Smith	richard.smith153@mail.com	0327075051	M	1996-09-18	2025-05-31	\N
+154	Michael Davis	michael.davis154@outlook.com	0322084311	M	1981-08-31	2023-11-25	\N
+155	Edward Davis	edward.davis155@mail.com	0513469146	\N	1999-03-20	2024-05-22	\N
+156	Michelle Smith	michelle.smith156@outlook.com	0727349322	F	2006-04-19	2024-12-28	\N
+157	Joseph Brown	joseph.brown157@yahoo.com	0397623448	M	\N	2025-01-27	\N
+158	James Brown	james.brown158@gmail.com	0551812353	M	1974-11-15	2024-01-15	\N
+159	Thomas Thomas	thomas.thomas159@gmail.com	0367084931	M	\N	2025-03-12	\N
+160	Michael Johnson	michael.johnson160@gmail.com	0375798807	M	\N	2024-10-14	50
+161	Robert Williams	robert.williams161@mail.com	0349966059	M	1979-10-14	2024-11-04	\N
+162	Karen Smith	karen.smith162@gmail.com	0586535715	F	1991-09-12	2023-06-14	\N
+163	Michelle Smith	michelle.smith163@gmail.com	0539604617	F	\N	2025-05-27	\N
+164	Joshua Miller	joshua.miller164@gmail.com	0983369868	M	1991-02-20	2023-10-17	\N
+165	Linda Smith	linda.smith165@gmail.com	0910855894	F	1997-06-23	2025-10-19	\N
+166	James Rodriguez	james.rodriguez166@gmail.com	0310520893	M	1976-06-27	2024-02-09	\N
+167	Lisa Johnson	lisa.johnson167@gmail.com	\N	F	1973-04-07	2024-03-27	\N
+168	Steven Johnson	steven.johnson168@gmail.com	0558201552	M	1965-07-27	2024-07-24	\N
+169	John Davis	John.davis169@outlook.com	0309367074	M	1989-07-11	2023-05-09	\N
+170	David Martinez	david.martinez170@gmail.com	0327994244	M	2000-04-02	2025-09-21	\N
+171	Joshua Williams	joshua.williams171@gmail.com	0526875047	M	\N	2024-04-17	\N
+172	William Smith	William.smith172@gmail.com	\N	M	\N	2023-08-31	\N
+173	Melissa Smith	melissa.smith173@gmail.com	0532223278	F	\N	2024-02-05	\N
+174	Amanda Smith	amanda.smith174@gmail.com	0731677379	F	1988-06-09	2024-05-11	\N
+175	Jessica Smith	Jessica.smith175@yahoo.com	0537745929	\N	1970-12-24	2025-05-21	\N
+176	Thomas Johnson	thomas.johnson176@yahoo.com	0970297474	M	1974-06-17	2025-10-14	\N
+177	Mary Miller	mary.miller177@mail.com	0320338869	F	\N	2025-01-31	\N
+178	Sarah Brown	sarah.brown178@yahoo.com	0332415907	F	1975-02-13	2025-08-27	\N
+179	Anthony Smith	anthony.smith179@gmail.com	0593382272	M	\N	2024-07-20	19
+180	Nancy Smith	nancy.smith180@gmail.com	0963270202	F	2006-12-21	2024-06-16	\N
+181	Lisa Martinez	lisa.martinez181@mail.com	0598123669	F	\N	2023-06-16	133
+182	Carol Rodriguez	carol.rodriguez182@gmail.com	0378774545	F	1983-01-14	2024-11-11	\N
+183	Melissa Smith	melissa.smith183@outlook.com	0544617722	F	1999-05-18	2025-12-30	95
+184	Brian Jones	brian.jones184@yahoo.com	0757885700	M	\N	2024-04-29	\N
+185	John Smith	john.smith185@yahoo.com	0513906757	M	1989-10-25	2025-09-27	\N
+186	Deborah Jones	deborah.jones186@yahoo.com	0712912546	F	\N	2025-06-28	\N
+187	Ashley Jones	ashley.jones187@gmail.com	\N	F	2001-02-23	2025-07-03	37
+188	Lisa Johnson	lisa.johnson188@gmail.com	0797471867	F	1989-02-08	2024-12-17	\N
+189	Kimberly Lopez	kimberly.lopez189@mail.com	\N	F	\N	2025-04-17	\N
+190	Brian Rodriguez	brian.rodriguez190@gmail.com	0347585693	M	2002-04-08	2025-06-11	41
+191	Matthew Smith	matthew.smith191@outlook.com	\N	\N	1998-02-26	2025-02-01	\N
+192	Thomas Smith	thomas.smith192@yahoo.com	\N	M	1984-02-17	2025-05-13	90
+193	Linda Williams	linda.williams193@gmail.com	0990025162	F	\N	2025-08-30	\N
+194	George Brown	george.brown194@gmail.com	\N	M	\N	2024-02-04	\N
+195	Christopher Wilson	christopher.wilson195@gmail.com	0513043484	M	1973-09-16	2023-11-11	\N
+196	Paul Williams	paul.williams196@gmail.com	0981260723	M	1977-10-24	2024-08-01	\N
+197	George Smith	george.smith197@mail.com	\N	M	1974-06-11	2023-10-04	\N
+198	Jennifer Davis	jennifer.davis198@gmail.com	0748069516	F	\N	2023-05-09	\N
+199	Joshua Johnson	joshua.johnson199@gmail.com	0949194793	M	1970-04-07	2025-02-11	\N
+200	Daniel Smith	daniel.smith200@gmail.com	0563741328	M	1993-06-13	2025-12-18	\N
+201	David Smith	david.smith201@mail.com	\N	M	\N	2025-08-31	\N
+202	Steven Rodriguez	steven.rodriguez202@gmail.com	0729296702	M	\N	2024-08-19	\N
+203	Matthew Smith	matthew.smith203@outlook.com	0954420221	M	\N	2024-06-25	29
+204	Carol Williams	carol.williams204@gmail.com	0589666508	F	\N	2024-07-04	\N
+205	Karen Davis	karen.davis205@mail.com	0979621289	F	1993-08-19	2025-01-12	46
+206	Michelle Taylor	michelle.taylor206@gmail.com	0505982884	F	2004-03-11	2023-10-31	\N
+207	Paul Garcia	paul.garcia207@yahoo.com	0579579276	M	1973-11-30	2023-08-30	\N
+208	Sarah Smith	sarah.smith208@mail.com	\N	F	1968-02-13	2025-10-26	\N
+209	Amanda Lopez	amanda.lopez209@yahoo.com	0751555116	F	1977-10-13	2025-06-18	\N
+210	Margaret Johnson	margaret.johnson210@gmail.com	\N	F	1989-01-02	2025-06-02	116
+211	Joseph Miller	joseph.miller211@gmail.com	0735793856	M	1999-07-09	2024-11-05	\N
+212	Matthew Hernandez	matthew.hernandez212@yahoo.com	0755055412	\N	\N	2024-11-09	\N
+213	Michelle Smith	michelle.smith213@yahoo.com	0922823460	F	2004-04-21	2024-12-01	\N
+214	Edward Smith	edward.smith214@gmail.com	0952595803	M	\N	2024-09-08	\N
+215	Joseph Williams	joseph.williams215@mail.com	0307093834	M	\N	2025-01-29	\N
+216	Daniel Davis	daniel.davis216@gmail.com	0794212210	M	1988-09-19	2025-03-17	\N
+217	Mark Smith	mark.smith217@gmail.com	0948875077	M	\N	2025-08-16	\N
+218	Carol Johnson	carol.johnson218@yahoo.com	0386220970	F	1991-08-28	2023-04-17	\N
+219	Carol Jones	carol.jones219@gmail.com	0975910007	F	\N	2025-04-28	7
+220	Patricia Williams	patricia.williams220@gmail.com	0510682203	F	2006-05-03	2025-01-17	\N
+221	Donna Martinez	Donna.martinez221@outlook.com	\N	F	1986-07-22	2025-04-06	\N
+222	Kimberly Smith	kimberly.smith222@gmail.com	0909080915	F	1976-08-12	2023-04-30	201
+223	Carol Johnson	carol.johnson223@gmail.com	0908730133	F	1981-02-24	2024-03-26	\N
+224	Jennifer Williams	jennifer.williams224@gmail.com	0727686329	F	1966-06-03	2025-09-23	\N
+225	Amanda Smith	amanda.smith225@gmail.com	0311278487	F	1983-10-10	2024-12-27	\N
+226	William Rodriguez	William.rodriguez226@outlook.com	0958742976	M	1993-06-04	2025-12-02	\N
+227	Edward Johnson	edward.johnson227@gmail.com	0963597789	M	1966-08-03	2023-07-06	212
+228	Barbara Johnson	barbara.johnson228@gmail.com	0974693530	F	\N	2024-02-08	159
+229	Deborah Smith	deborah.smith229@gmail.com	0553584208	F	2002-06-29	2025-01-31	\N
+230	Robert Johnson	robert.johnson230@yahoo.com	0773089452	M	2004-09-25	2024-10-25	\N
+231	Sandra Wilson	sandra.wilson231@gmail.com	0907413507	F	1981-11-08	2024-08-28	213
+232	Thomas Lopez	thomas.lopez232@gmail.com	0379321862	M	1998-09-28	2025-01-20	\N
+233	Michelle Smith	michelle.smith233@gmail.com	0517586513	F	1971-04-28	2025-07-09	\N
+234	James Hernandez	james.hernandez234@gmail.com	0988234403	M	2004-02-20	2024-08-25	\N
+235	Emily Smith	emily.smith235@yahoo.com	0380399989	F	1981-08-15	2025-07-10	\N
+236	Sarah Smith	sarah.smith236@yahoo.com	\N	F	1970-05-27	2024-10-29	\N
+237	Emily Williams	emily.williams237@yahoo.com	0569847429	F	2005-02-11	2025-05-26	\N
+238	David Miller	david.miller238@gmail.com	0392692540	M	\N	2024-04-11	\N
+239	Kevin Anderson	kevin.anderson239@outlook.com	0924726350	M	1990-08-05	2025-02-05	44
+240	Karen Smith	karen.smith240@yahoo.com	0369150386	F	1996-11-06	2023-12-16	79
+241	Barbara Smith	barbara.smith241@mail.com	0905585277	F	1998-11-08	2024-02-15	\N
+242	Kevin Smith	kevin.smith242@gmail.com	0586926948	M	2006-10-21	2024-10-09	\N
+243	Donald Smith	donald.smith243@gmail.com	0540199280	M	1990-09-01	2024-12-01	\N
+244	Karen Williams	karen.williams244@yahoo.com	0518083872	F	1979-06-11	2023-09-12	\N
+245	Michelle Jones	michelle.jones245@outlook.com	0342342341	F	1970-11-29	2025-08-08	\N
+246	Charles Davis	charles.davis246@gmail.com	0959161527	M	1992-09-12	2023-08-17	\N
+247	Michelle Lopez	michelle.lopez247@mail.com	0709422665	F	\N	2025-06-29	\N
+248	Patricia Smith	patricia.smith248@gmail.com	0987231256	F	1980-06-24	2025-06-14	\N
+249	William Smith	william.smith249@gmail.com	0778707135	M	2004-01-05	2025-08-19	\N
+250	Sandra Brown	sandra.brown250@gmail.com	0379442219	F	1977-01-06	2025-03-12	\N
+251	Melissa Smith	melissa.smith251@outlook.com	0795838367	F	1965-04-20	2024-03-02	\N
+252	David Lopez	david.lopez252@mail.com	0377889753	M	1993-11-08	2025-05-26	\N
+253	Kevin Jones	kevin.jones253@yahoo.com	0590308533	M	1979-02-13	2024-07-26	\N
+254	Anthony Miller	anthony.miller254@gmail.com	0517069298	M	\N	2024-10-02	91
+255	Deborah Taylor	deborah.taylor255@outlook.com	0355494703	F	1968-09-02	2025-07-25	\N
+256	Donald Johnson	donald.johnson256@outlook.com	0357075352	M	1998-09-18	2025-03-22	\N
+257	Jennifer Williams	jennifer.williams257@yahoo.com	0901181786	\N	1967-02-08	2024-06-27	\N
+258	Ashley Wilson	ashley.wilson258@gmail.com	0580870294	F	1977-09-06	2024-11-26	\N
+259	Kimberly Rodriguez	kimberly.rodriguez259@gmail.com	0777367483	F	1976-03-13	2025-09-09	147
+260	Charles Johnson	charles.johnson260@mail.com	0929740558	M	\N	2025-10-14	\N
+261	Matthew Smith	matthew.smith261@yahoo.com	0560347491	M	2004-03-09	2024-11-04	\N
+262	Amanda Anderson	amanda.anderson262@gmail.com	0538005661	F	1999-09-14	2023-05-23	\N
+263	Amanda Johnson	amanda.johnson263@gmail.com	0559867448	F	1966-08-31	2024-11-28	\N
+264	George Smith	george.smith264@yahoo.com	0518837170	M	\N	2024-10-01	\N
+265	Kevin Davis	kevin.davis265@yahoo.com	\N	M	1968-12-22	2023-07-12	\N
+266	Karen Rodriguez	karen.rodriguez266@yahoo.com	0563674400	F	1976-03-16	2024-02-25	\N
+267	Andrew Williams	andrew.williams267@outlook.com	0751876334	M	1994-04-28	2024-06-14	\N
+268	Ashley Smith	ashley.smith268@mail.com	0590609555	F	1971-10-31	2025-03-20	\N
+269	James Johnson	james.johnson269@mail.com	0544933815	M	1990-02-19	2025-11-07	\N
+270	Steven Brown	steven.brown270@mail.com	0964083496	M	1976-02-28	2024-04-15	\N
+271	George Smith	george.smith271@gmail.com	0561492869	M	\N	2024-12-22	\N
+272	Amanda Johnson	amanda.johnson272@yahoo.com	0545039221	F	\N	2023-07-23	207
+273	Robert Martinez	robert.martinez273@mail.com	0707888362	M	1977-05-21	2025-05-30	\N
+274	Lisa Smith	lisa.smith274@mail.com	0580812261	F	1973-09-18	2024-01-03	\N
+275	Karen Smith	karen.smith275@yahoo.com	0537570672	F	1992-05-16	2025-12-06	\N
+276	Linda Smith	linda.smith276@gmail.com	0350069848	F	1966-09-15	2025-12-29	\N
+277	Donald Williams	donald.williams277@gmail.com	0904139297	M	1970-03-22	2023-10-15	\N
+278	Karen Smith	karen.smith278@outlook.com	0760104162	\N	\N	2023-10-05	\N
+279	Richard Johnson	richard.johnson279@gmail.com	0330336118	M	1965-05-20	2024-02-01	\N
+280	Sandra Johnson	sandra.johnson280@gmail.com	0577236744	F	1971-11-17	2024-07-21	\N
+281	Mary Smith	mary.smith281@yahoo.com	0597405177	F	\N	2024-07-25	\N
+282	Susan Smith	susan.smith282@gmail.com	0994876291	F	2003-05-19	2023-07-25	\N
+283	Kimberly Smith	kimberly.smith283@gmail.com	0777968636	F	1972-04-09	2023-10-05	\N
+284	Linda Smith	linda.smith284@mail.com	0916473078	F	1982-03-07	2024-04-07	64
+285	Lisa Smith	lisa.smith285@outlook.com	0351997052	F	1985-04-02	2023-08-28	\N
+286	Charles Smith	charles.smith286@gmail.com	0987273676	\N	1989-03-10	2025-12-10	51
+287	Barbara Smith	barbara.smith287@gmail.com	0596664495	F	2005-07-08	2024-04-19	\N
+288	Sandra Anderson	sandra.anderson288@gmail.com	0503999609	F	1969-11-12	2025-12-18	116
+289	Thomas Williams	thomas.williams289@outlook.com	0993067368	M	2002-08-02	2023-03-01	\N
+290	Betty Johnson	betty.johnson290@yahoo.com	0390404375	F	1991-01-10	2025-01-26	\N
+291	Mark Smith	mark.smith291@gmail.com	0534275390	M	1973-09-15	2024-09-25	\N
+292	William Rodriguez	william.rodriguez292@outlook.com	0913188863	\N	\N	2025-10-09	\N
+293	Kimberly Garcia	kimberly.garcia293@gmail.com	0997618706	F	\N	2023-03-02	\N
+294	Patricia Brown	patricia.brown294@outlook.com	0747990585	\N	1981-02-10	2025-12-19	\N
+295	Kevin Garcia	kevin.garcia295@gmail.com	0703245380	\N	1994-05-12	2023-05-18	\N
+296	Margaret Garcia	margaret.garcia296@yahoo.com	0741786494	\N	1999-06-09	2025-08-28	\N
+297	Edward Smith	edward.smith297@gmail.com	0397768982	M	1970-09-05	2024-07-19	\N
+298	Kevin Smith	kevin.smith298@gmail.com	0703020019	M	2001-02-24	2025-06-24	\N
+299	Amanda Johnson	amanda.johnson299@gmail.com	0334892778	F	\N	2025-03-17	\N
+300	Linda Taylor	linda.taylor300@yahoo.com	0585496545	F	1994-07-27	2024-11-02	\N
+301	Lisa Garcia	lisa.garcia301@gmail.com	0731344562	F	\N	2025-10-24	\N
+302	Nancy Smith	nancy.smith302@yahoo.com	\N	F	1986-02-14	2025-10-03	\N
+303	Brian Smith	brian.smith303@gmail.com	0994767665	M	1986-04-19	2023-08-08	\N
+304	Robert Smith	robert.smith304@gmail.com	0730304605	\N	2004-03-23	2025-08-09	\N
+305	Carol Smith	carol.smith305@yahoo.com	0350701385	F	1985-01-20	2023-05-27	\N
+306	Christopher Smith	christopher.smith306@yahoo.com	0349271840	M	\N	2025-10-21	\N
+307	Richard Smith	richard.smith307@gmail.com	0595978331	M	1992-06-19	2025-03-20	\N
+308	Mark Martinez	mark.martinez308@gmail.com	0378781444	M	\N	2023-02-12	\N
+309	Barbara Lopez	barbara.lopez309@gmail.com	0995040165	F	\N	2023-07-05	\N
+310	Elizabeth Hernandez	elizabeth.hernandez310@gmail.com	0503048956	F	2005-06-17	2024-09-19	\N
+311	Christopher Johnson	christopher.johnson311@gmail.com	0728660374	M	\N	2025-12-11	\N
+312	Emily Miller	emily.miller312@gmail.com	0750559127	F	1988-09-28	2025-03-20	\N
+313	Matthew Smith	matthew.smith313@yahoo.com	\N	M	\N	2025-02-01	\N
+314	Deborah Lopez	Deborah.lopez314@mail.com	\N	F	1985-06-08	2024-05-22	\N
+315	Michael Martinez	michael.martinez315@outlook.com	0773469153	M	1996-11-26	2025-07-03	\N
+316	Margaret Smith	margaret.smith316@gmail.com	0714161195	F	1996-06-20	2024-01-19	195
+317	Charles Smith	charles.smith317@yahoo.com	0707057339	M	1995-12-08	2024-10-26	\N
+318	Linda Thomas	linda.thomas318@gmail.com	0971316392	F	\N	2025-04-07	\N
+319	Elizabeth Lopez	elizabeth.lopez319@yahoo.com	0740052390	F	1978-05-05	2024-11-28	\N
+320	Carol Wilson	carol.wilson320@outlook.com	0569727592	F	\N	2025-04-06	\N
+321	Ashley Smith	ashley.smith321@outlook.com	0366407516	F	1975-08-23	2025-07-09	\N
+322	Thomas Brown	thomas.brown322@gmail.com	0350478387	M	\N	2025-04-06	\N
+323	Matthew Miller	matthew.miller323@outlook.com	0599670042	M	1988-01-20	2023-06-11	\N
+324	Brian Davis	brian.davis324@gmail.com	0912630074	M	1982-09-07	2025-07-08	\N
+325	Carol Garcia	carol.garcia325@mail.com	\N	F	\N	2025-02-12	171
+326	Steven Williams	steven.williams326@gmail.com	0588146670	M	\N	2025-11-30	246
+327	Linda Smith	linda.smith327@gmail.com	0347160253	F	\N	2025-11-01	\N
+328	Joshua Smith	joshua.smith328@outlook.com	0509242757	M	1984-12-24	2023-05-13	\N
+329	Kimberly Wilson	kimberly.wilson329@mail.com	0713810076	F	1995-04-25	2023-05-13	\N
+330	Daniel Williams	daniel.williams330@yahoo.com	\N	M	1989-12-18	2025-06-10	54
+331	Susan Anderson	susan.anderson331@gmail.com	\N	F	1970-10-28	2024-07-01	\N
+332	Ashley Smith	ashley.smith332@gmail.com	0766752903	F	1972-06-26	2025-03-25	69
+333	Edward Hernandez	edward.hernandez333@gmail.com	0751977666	M	1998-08-23	2025-08-13	\N
+334	Susan Rodriguez	susan.rodriguez334@outlook.com	0911086905	F	\N	2025-02-05	\N
+335	Donna Miller	donna.miller335@yahoo.com	\N	\N	1998-02-11	2023-01-11	\N
+336	Linda Lopez	linda.lopez336@outlook.com	\N	F	\N	2024-09-05	\N
+337	Nancy Smith	nancy.smith337@yahoo.com	0763146300	F	1982-07-10	2025-08-14	119
+338	Thomas Williams	thomas.williams338@gmail.com	\N	M	1982-10-24	2024-09-09	\N
+339	Brian Rodriguez	brian.rodriguez339@gmail.com	0779220404	M	2004-01-11	2025-07-12	\N
+340	Jessica Smith	jessica.smith340@gmail.com	0597817750	F	1987-04-19	2025-04-22	\N
+341	Joseph Brown	joseph.brown341@mail.com	0767596568	M	1991-09-22	2024-05-22	\N
+342	Sandra Williams	sandra.williams342@gmail.com	0710218907	F	1980-04-17	2024-11-10	\N
+343	Joshua Smith	joshua.smith343@outlook.com	0737392979	M	1996-01-18	2025-10-03	\N
+344	Emily Smith	emily.smith344@gmail.com	0961676426	F	1972-07-29	2025-10-21	\N
+345	Sarah Miller	sarah.miller345@gmail.com	0782765753	F	1968-10-10	2025-10-11	\N
+346	Joseph Johnson	joseph.johnson346@gmail.com	0793697618	M	1970-07-16	2025-09-03	\N
+347	James Smith	james.smith347@gmail.com	0780438181	M	1989-05-06	2023-08-02	\N
+348	Nancy Johnson	nancy.johnson348@gmail.com	0991273746	\N	1991-02-02	2025-06-22	\N
+349	Paul Smith	paul.smith349@gmail.com	0926251382	\N	1994-01-13	2024-11-02	\N
+350	Karen Smith	karen.smith350@gmail.com	0964461975	F	1973-09-05	2025-10-24	273
+351	Lisa Smith	lisa.smith351@gmail.com	\N	F	1973-09-21	2025-03-29	186
+352	Melissa Rodriguez	melissa.rodriguez352@outlook.com	0322161596	F	\N	2023-11-05	\N
+353	Michelle Hernandez	michelle.hernandez353@outlook.com	0336367132	F	1984-05-02	2025-02-19	\N
+354	Betty Smith	betty.smith354@mail.com	0365391799	F	1987-05-08	2025-05-03	\N
+355	David Lopez	david.lopez355@gmail.com	0777446617	M	1975-04-27	2024-05-05	133
+356	Anthony Davis	anthony.davis356@gmail.com	0716601575	M	1969-10-31	2024-10-09	172
+357	Thomas Wilson	thomas.wilson357@outlook.com	0589724636	M	2005-03-16	2024-01-09	\N
+358	Christopher Davis	christopher.davis358@yahoo.com	0361155548	M	1982-06-27	2024-05-08	\N
+359	Nancy Johnson	nancy.johnson359@gmail.com	0341137946	F	1992-08-05	2023-06-07	\N
+360	James Smith	james.smith360@gmail.com	\N	M	1965-09-29	2025-08-20	\N
+361	Nancy Williams	nancy.williams361@gmail.com	0790672039	F	1983-02-01	2024-09-18	\N
+362	Karen Miller	karen.miller362@gmail.com	0726776109	F	1984-05-04	2024-04-16	\N
+363	Edward Davis	edward.davis363@gmail.com	0332299116	M	\N	2025-05-22	184
+364	Nancy Smith	nancy.smith364@gmail.com	0723357237	F	2004-09-04	2025-07-12	\N
+365	Donna Williams	donna.williams365@yahoo.com	0715639463	F	1987-02-09	2025-05-31	\N
+366	Robert Brown	robert.brown366@gmail.com	\N	M	1990-07-26	2024-11-29	\N
+367	Margaret Williams	margaret.williams367@gmail.com	0587674444	F	1986-07-03	2024-03-12	\N
+368	Margaret Lopez	margaret.lopez368@gmail.com	0771159158	F	1979-11-18	2025-07-27	45
+369	Matthew Garcia	matthew.garcia369@yahoo.com	0707237228	M	\N	2023-06-15	\N
+370	Ashley Anderson	ashley.anderson370@outlook.com	0700027189	F	1984-07-07	2025-09-11	286
+371	William Davis	william.davis371@yahoo.com	0968058675	M	1966-10-31	2025-08-18	\N
+372	Edward Johnson	edward.johnson372@outlook.com	0593820783	M	1973-05-22	2024-06-19	\N
+373	Donald Jones	donald.jones373@gmail.com	0369254504	M	2003-07-02	2024-04-05	124
+374	Linda Smith	linda.smith374@yahoo.com	0362061826	F	\N	2024-12-22	237
+375	David Williams	david.williams375@mail.com	0396205413	M	1992-06-18	2024-06-21	54
+376	Carol Johnson	carol.johnson376@gmail.com	0740035740	F	1986-06-19	2025-11-19	\N
+377	Paul Davis	paul.davis377@outlook.com	0776414829	M	1999-03-20	2024-03-04	\N
+378	Ashley Brown	ashley.brown378@yahoo.com	0315093585	F	1992-04-15	2024-03-23	\N
+379	Margaret Johnson	margaret.johnson379@gmail.com	0938662418	F	\N	2024-09-11	\N
+380	David Smith	david.smith380@mail.com	0305649187	M	\N	2025-06-01	\N
+381	Susan Smith	susan.smith381@gmail.com	0758161061	F	1996-10-02	2025-08-27	\N
+382	Carol Brown	carol.brown382@gmail.com	0766062076	F	1970-09-23	2025-12-06	62
+383	Ashley Miller	ashley.miller383@mail.com	0987252874	F	\N	2024-09-11	276
+384	Steven Hernandez	steven.hernandez384@gmail.com	0908524665	M	1977-12-29	2025-01-22	\N
+385	Betty Williams	betty.williams385@mail.com	0346604578	F	1979-06-01	2025-09-04	\N
+386	George Smith	george.smith386@gmail.com	0529000037	M	1988-06-27	2025-09-13	\N
+387	Michael Williams	michael.williams387@mail.com	\N	M	1989-03-10	2023-11-13	\N
+388	Robert Williams	robert.williams388@yahoo.com	0934451193	M	1967-02-28	2025-09-29	\N
+389	David Smith	david.smith389@outlook.com	0972996282	M	\N	2024-03-08	194
+390	Kevin Smith	kevin.smith390@gmail.com	0552465332	M	\N	2025-04-11	\N
+391	Paul Smith	paul.smith391@yahoo.com	0781948843	M	1971-12-07	2025-08-30	\N
+392	Sarah Smith	sarah.smith392@outlook.com	0595853005	F	1972-07-14	2023-09-22	\N
+393	Robert Smith	robert.smith393@gmail.com	0799052636	M	1982-11-12	2024-04-15	\N
+394	George Miller	george.miller394@mail.com	0947296020	M	\N	2025-06-21	153
+395	James Smith	james.smith395@outlook.com	0357849085	M	\N	2025-02-27	\N
+396	Joshua Smith	joshua.smith396@mail.com	0589125308	M	2003-05-08	2024-12-29	\N
+397	Christopher Williams	christopher.williams397@yahoo.com	0748562601	M	1996-07-12	2025-12-04	\N
+398	George Smith	george.smith398@gmail.com	0301511377	M	1993-08-07	2024-08-22	22
+399	Mary Brown	mary.brown399@gmail.com	0929390383	\N	\N	2025-12-05	\N
+400	Susan Brown	susan.brown400@outlook.com	\N	F	2006-01-31	2023-12-04	\N
+401	John Johnson	john.johnson401@mail.com	0917400477	M	1987-11-25	2024-09-05	\N
+402	Christopher Davis	christopher.davis402@gmail.com	0596101813	M	\N	2024-08-12	\N
+403	Donna Anderson	donna.anderson403@gmail.com	0332096599	F	1974-08-08	2025-12-19	\N
+404	Thomas Johnson	thomas.johnson404@gmail.com	0592966968	M	2000-06-11	2024-10-12	\N
+405	David Johnson	david.johnson405@outlook.com	0364432134	M	1991-11-10	2023-01-27	\N
+406	Richard Smith	richard.smith406@gmail.com	0501196081	M	1996-02-03	2025-11-20	291
+407	Michael Johnson	michael.johnson407@mail.com	0511033064	M	2000-04-07	2025-05-19	\N
+408	Michael Smith	michael.smith408@gmail.com	0780567280	M	1975-05-05	2023-08-14	\N
+409	Deborah Smith	deborah.smith409@gmail.com	0341984604	F	2002-02-10	2024-08-28	\N
+410	Melissa Johnson	melissa.johnson410@outlook.com	0347580012	F	2003-11-11	2025-12-06	\N
+411	Kimberly Davis	kimberly.davis411@outlook.com	0531736414	F	1984-04-18	2025-05-16	\N
+412	David Smith	david.smith412@gmail.com	\N	M	1992-10-24	2023-12-04	33
+413	Karen Lopez	karen.lopez413@yahoo.com	0320139103	F	1990-11-21	2024-12-10	116
+414	Joseph Smith	joseph.smith414@gmail.com	0948852135	M	1969-03-01	2024-07-09	\N
+415	John Smith	john.smith415@gmail.com	0777714609	M	1972-11-02	2024-05-23	\N
+416	Robert Smith	robert.smith416@outlook.com	0543426105	\N	1966-09-10	2024-07-27	\N
+417	James Taylor	james.taylor417@gmail.com	\N	M	1971-10-08	2024-10-28	\N
+418	Sandra Smith	sandra.smith418@gmail.com	0593518100	F	\N	2024-04-26	\N
+419	Emily Garcia	emily.garcia419@gmail.com	0971722673	F	1973-07-11	2025-01-25	\N
+420	David Garcia	david.garcia420@outlook.com	0345939902	M	1998-11-17	2025-10-20	\N
+421	Mary Miller	mary.miller421@gmail.com	0989041293	\N	\N	2024-07-09	\N
+422	Brian Miller	brian.miller422@gmail.com	0525269310	M	1983-12-18	2025-08-08	\N
+423	Deborah Johnson	deborah.johnson423@outlook.com	0953950043	F	\N	2024-04-06	\N
+424	Nancy Jones	nancy.jones424@yahoo.com	\N	F	1968-02-01	2025-12-05	\N
+425	Paul Rodriguez	paul.rodriguez425@mail.com	0591941233	M	\N	2025-05-20	\N
+426	Betty Johnson	betty.johnson426@outlook.com	0797654892	\N	2002-05-18	2023-08-15	230
+427	Jennifer Williams	jennifer.williams427@gmail.com	0567782083	F	1991-01-11	2024-04-07	\N
+428	Paul Smith	paul.smith428@gmail.com	0760826856	M	1979-04-01	2024-04-12	\N
+429	Carol Smith	carol.smith429@yahoo.com	0964054435	F	1997-01-02	2025-09-02	\N
+430	Nancy Williams	nancy.williams430@yahoo.com	0367876868	F	1969-05-01	2023-06-28	\N
+431	Anthony Thomas	anthony.thomas431@outlook.com	0373345910	M	1999-08-19	2025-11-09	345
+432	Brian Johnson	brian.johnson432@gmail.com	0542079629	M	2004-05-04	2023-08-26	\N
+433	James Smith	james.smith433@gmail.com	0595619362	M	1992-06-28	2023-05-31	\N
+434	Edward Smith	edward.smith434@gmail.com	0523034465	M	\N	2024-04-10	\N
+435	Daniel Smith	daniel.smith435@yahoo.com	0594758440	M	1966-06-05	2025-05-16	\N
+436	Linda Smith	linda.smith436@outlook.com	0394481337	\N	1989-04-16	2023-10-23	\N
+437	Betty Smith	betty.smith437@outlook.com	0983847240	F	1997-12-12	2024-09-26	\N
+438	Paul Hernandez	paul.hernandez438@mail.com	0591204139	M	\N	2025-12-24	\N
+439	Mary Smith	mary.smith439@mail.com	0777488752	F	1965-08-24	2024-05-10	\N
+440	Elizabeth Smith	elizabeth.smith440@gmail.com	0314551519	F	1965-09-26	2025-10-25	\N
+441	Sarah Hernandez	sarah.hernandez441@gmail.com	0710974996	F	1992-03-06	2025-07-21	\N
+442	Patricia Smith	patricia.smith442@gmail.com	0539353956	F	1973-05-27	2025-03-28	\N
+443	Charles Williams	Charles.williams443@gmail.com	0746357026	\N	1987-11-06	2023-11-10	435
+444	George Johnson	george.johnson444@yahoo.com	0510934043	M	1976-06-25	2025-05-16	\N
+445	Kevin Brown	kevin.brown445@yahoo.com	0386655115	M	1989-08-19	2024-11-05	\N
+446	Joseph Miller	joseph.miller446@yahoo.com	0575253358	M	\N	2024-05-26	\N
+447	Sandra Smith	sandra.smith447@yahoo.com	0571256394	F	1984-10-05	2024-07-13	\N
+448	Betty Smith	betty.smith448@gmail.com	0530169788	F	2002-08-24	2024-12-10	\N
+449	Karen Jones	karen.jones449@outlook.com	0765568513	F	1966-11-05	2023-07-24	\N
+450	Charles Jones	charles.jones450@gmail.com	0304889310	M	1989-08-21	2024-09-24	352
+451	Matthew Smith	matthew.smith451@gmail.com	0338735418	M	\N	2024-06-04	254
+452	Nancy Williams	nancy.williams452@mail.com	0993833865	F	1980-01-03	2023-09-26	\N
+453	Charles Taylor	charles.taylor453@outlook.com	0795375550	M	\N	2024-03-29	343
+454	Margaret Martinez	margaret.martinez454@yahoo.com	0506997832	F	1989-08-24	2025-08-12	\N
+455	Jennifer Davis	jennifer.davis455@yahoo.com	0382281786	F	\N	2025-07-30	\N
+456	Elizabeth Williams	elizabeth.williams456@gmail.com	0950338736	F	1991-11-30	2025-11-07	\N
+457	Margaret Smith	margaret.smith457@mail.com	0759387856	F	1980-04-24	2023-05-02	\N
+458	James Brown	james.brown458@mail.com	0564208535	M	1993-07-19	2024-06-27	\N
+459	David Smith	david.smith459@yahoo.com	0720361703	M	1979-10-22	2025-02-03	\N
+460	Edward Taylor	edward.taylor460@yahoo.com	0783410586	M	\N	2023-11-27	\N
+461	Susan Williams	susan.williams461@gmail.com	\N	F	1967-03-30	2024-09-01	27
+462	Steven Brown	steven.brown462@gmail.com	0571865769	M	\N	2025-12-21	\N
+463	Steven Rodriguez	steven.rodriguez463@gmail.com	0785554538	M	2000-11-12	2025-07-30	\N
+464	James Brown	james.brown464@gmail.com	0739120378	M	1970-07-22	2023-03-10	330
+465	Matthew Smith	matthew.smith465@yahoo.com	0333451506	M	1974-07-12	2025-07-17	\N
+466	Michael Johnson	michael.johnson466@mail.com	0703799236	M	2000-12-23	2025-11-28	436
+467	Amanda Brown	amanda.brown467@gmail.com	0529669106	F	1979-05-19	2025-01-15	\N
+468	Joseph Smith	joseph.smith468@yahoo.com	0983717273	M	1990-08-23	2023-07-30	\N
+469	Elizabeth Rodriguez	elizabeth.rodriguez469@gmail.com	0508143513	F	\N	2024-04-25	\N
+470	Mary Hernandez	mary.hernandez470@gmail.com	0594824994	F	1975-10-25	2025-02-11	\N
+471	Patricia Johnson	patricia.johnson471@gmail.com	0363849895	F	1982-06-04	2024-07-29	291
+472	Barbara Williams	barbara.williams472@gmail.com	0742734454	F	\N	2023-11-05	\N
+473	Margaret Jones	margaret.jones473@mail.com	0523442359	F	1987-09-04	2025-11-04	\N
+474	Ashley Johnson	ashley.johnson474@gmail.com	0354302752	F	2004-11-12	2025-04-25	\N
+475	Christopher Miller	christopher.miller475@gmail.com	0923824828	M	1969-01-17	2025-07-02	\N
+476	Amanda Smith	amanda.smith476@gmail.com	0997950163	F	2002-10-12	2024-09-21	160
+477	Joshua Jones	joshua.jones477@outlook.com	0580800368	M	2004-05-27	2024-05-24	\N
+478	Barbara Miller	barbara.miller478@gmail.com	0775104354	F	2001-10-29	2025-11-16	104
+479	Sandra Davis	sandra.davis479@yahoo.com	0513087928	F	2000-01-21	2025-10-17	\N
+480	Karen Hernandez	karen.hernandez480@outlook.com	0947512565	F	1967-11-27	2025-09-21	\N
+481	Michael Miller	michael.miller481@gmail.com	0757329982	M	\N	2025-08-07	393
+482	Ashley Wilson	ashley.wilson482@gmail.com	0714927421	F	\N	2025-05-16	\N
+483	Thomas Williams	thomas.williams483@outlook.com	0903247415	M	1970-06-13	2025-04-02	\N
+484	Christopher Hernandez	christopher.hernandez484@gmail.com	0558003133	M	1969-10-12	2025-06-20	\N
+485	Steven Garcia	steven.garcia485@gmail.com	0936606948	M	\N	2025-04-20	263
+486	Charles Jones	charles.jones486@gmail.com	0709182567	M	1986-04-27	2025-05-23	\N
+487	Anthony Davis	anthony.davis487@yahoo.com	0949349897	M	1971-03-27	2025-08-30	\N
+488	Emily Wilson	emily.wilson488@gmail.com	0562563557	F	1969-11-04	2025-06-19	\N
+489	Nancy Smith	nancy.smith489@mail.com	0367019750	F	1994-04-26	2025-08-24	\N
+490	Jennifer Williams	jennifer.williams490@outlook.com	0999271748	F	1980-05-08	2024-02-10	\N
+491	Emily Smith	emily.smith491@gmail.com	0572029147	F	1988-03-17	2025-07-02	\N
+492	Joshua Smith	joshua.smith492@yahoo.com	0532146041	M	1967-08-08	2023-06-23	\N
+493	Sandra Garcia	sandra.garcia493@yahoo.com	0304454769	\N	1970-03-04	2023-12-10	\N
+494	Brian Wilson	brian.wilson494@gmail.com	0917568145	M	1998-01-01	2025-06-11	\N
+495	Nancy Smith	nancy.smith495@gmail.com	0981263287	F	\N	2024-08-20	\N
+496	George Smith	george.smith496@yahoo.com	0313835506	M	1969-04-01	2024-04-12	\N
+497	Michael Garcia	michael.garcia497@mail.com	0520124507	M	\N	2024-07-02	\N
+498	Lisa Smith	lisa.smith498@yahoo.com	0733430262	\N	\N	2024-09-11	\N
+499	James Martinez	james.martinez499@yahoo.com	0713162991	M	1999-12-09	2025-11-11	148
+500	Joseph Johnson	joseph.johnson500@yahoo.com	\N	M	1994-11-25	2025-11-05	\N
+501	Michael Smith	michael.smith501@outlook.com	0946544742	M	2000-08-10	2024-05-11	298
+502	Nancy Smith	nancy.smith502@gmail.com	0358735051	F	1971-10-08	2023-12-06	124
+503	Thomas Johnson	thomas.johnson503@gmail.com	\N	M	1983-02-13	2025-01-09	\N
+504	Amanda Taylor	amanda.taylor504@gmail.com	0587478631	F	2005-02-19	2025-01-14	\N
+505	Mary Martinez	mary.martinez505@gmail.com	0509194021	F	2002-08-12	2023-05-28	\N
+506	Andrew Smith	andrew.smith506@gmail.com	0544445545	M	1967-03-28	2024-07-23	\N
+507	George Rodriguez	george.rodriguez507@mail.com	0388091780	M	\N	2023-04-14	\N
+508	Melissa Rodriguez	melissa.rodriguez508@gmail.com	0970743423	F	2001-11-03	2023-08-07	\N
+509	Amanda Smith	amanda.smith509@mail.com	0729243272	F	2000-06-24	2025-11-01	\N
+510	Ashley Johnson	ashley.johnson510@gmail.com	\N	F	1980-05-30	2025-12-08	\N
+511	Charles Rodriguez	charles.rodriguez511@gmail.com	0501759082	M	1983-12-16	2025-07-25	\N
+512	Margaret Jones	margaret.jones512@gmail.com	0582267990	F	1965-03-08	2023-07-15	\N
+513	Donald Williams	donald.williams513@outlook.com	\N	M	\N	2023-02-06	122
+514	Sarah Johnson	sarah.johnson514@gmail.com	0752260373	F	\N	2025-06-14	\N
+515	Paul Jones	paul.jones515@gmail.com	0937646916	M	1965-04-30	2025-05-07	\N
+516	Donna Johnson	donna.johnson516@outlook.com	0950905526	F	1988-09-09	2024-10-28	\N
+517	George Thomas	george.thomas517@outlook.com	\N	M	1983-08-07	2024-12-04	439
+518	Donna Brown	donna.brown518@yahoo.com	0357778076	F	2002-05-04	2024-04-12	\N
+519	Donna Lopez	Donna.lopez519@yahoo.com	0901074023	F	1980-04-06	2024-11-21	\N
+520	Karen Smith	karen.smith520@gmail.com	0326268985	F	1971-07-08	2025-01-24	\N
+521	Richard Williams	richard.williams521@mail.com	0776086522	M	1971-06-05	2024-06-27	108
+522	Donald Lopez	donald.lopez522@yahoo.com	0315788816	M	\N	2025-07-29	\N
+523	Charles Williams	charles.williams523@gmail.com	0924623324	M	1995-04-03	2023-10-15	\N
+524	Jessica Smith	jessica.smith524@yahoo.com	0933481108	F	1972-09-03	2025-03-23	\N
+525	Kimberly Miller	kimberly.miller525@yahoo.com	0908388253	F	1979-08-12	2025-02-26	\N
+526	George Williams	george.williams526@gmail.com	0366110678	M	1976-05-04	2023-07-12	\N
+527	Linda Jones	linda.jones527@mail.com	0790175534	F	2003-03-29	2024-12-21	\N
+528	Amanda Jones	amanda.jones528@gmail.com	0325938744	F	\N	2025-06-23	\N
+529	Donald Smith	donald.smith529@gmail.com	0768143249	M	\N	2025-12-22	\N
+530	Paul Williams	paul.williams530@gmail.com	0580269461	M	\N	2025-05-15	\N
+531	Brian Hernandez	brian.hernandez531@yahoo.com	\N	M	1981-01-21	2024-12-28	\N
+532	Richard Johnson	richard.johnson532@yahoo.com	\N	M	\N	2023-03-22	92
+533	Kimberly Martinez	kimberly.martinez533@mail.com	0745484238	F	1994-10-06	2025-10-15	\N
+534	Amanda Jones	amanda.jones534@gmail.com	0391501542	F	\N	2025-12-28	308
+535	Anthony Smith	anthony.smith535@gmail.com	\N	M	1996-06-18	2024-06-14	\N
+536	John Garcia	john.garcia536@mail.com	0350956377	M	\N	2024-07-06	\N
+537	Kimberly Smith	kimberly.smith537@outlook.com	0384582606	\N	1989-02-20	2023-04-08	\N
+538	Betty Smith	betty.smith538@yahoo.com	\N	F	1969-05-06	2023-06-11	\N
+539	Mark Smith	mark.smith539@yahoo.com	0745698868	M	1983-01-04	2023-07-15	255
+540	Karen Lopez	karen.lopez540@mail.com	0979667607	F	1993-04-02	2024-06-19	\N
+541	Kimberly Williams	kimberly.williams541@gmail.com	\N	F	1980-06-22	2023-05-30	439
+542	Joshua Williams	joshua.williams542@gmail.com	0525083012	M	1975-08-30	2023-07-19	\N
+543	Edward Wilson	edward.wilson543@yahoo.com	\N	M	\N	2025-11-27	\N
+544	David Smith	david.smith544@yahoo.com	0712950746	M	1975-03-04	2025-05-13	405
+545	Donald Taylor	donald.taylor545@yahoo.com	0949888548	M	1965-07-27	2024-09-16	122
+546	Mary Williams	mary.williams546@outlook.com	0742420160	F	\N	2023-10-15	\N
+547	Brian Miller	brian.miller547@gmail.com	0906118845	M	1973-10-17	2023-02-12	\N
+548	Brian Smith	Brian.smith548@outlook.com	\N	M	1979-04-07	2025-06-26	134
+549	Betty Smith	betty.smith549@outlook.com	0963185135	F	\N	2025-09-16	\N
+550	Susan Martinez	susan.martinez550@gmail.com	0301433915	F	1997-08-18	2024-03-08	\N
+551	Patricia Rodriguez	patricia.rodriguez551@outlook.com	0511332951	F	1999-04-04	2025-03-17	471
+552	Amanda Thomas	amanda.thomas552@outlook.com	0313241655	F	1983-08-23	2024-08-04	\N
+553	Joseph Johnson	joseph.johnson553@mail.com	0745492977	M	1996-05-03	2025-06-18	\N
+554	Jennifer Smith	Jennifer.smith554@yahoo.com	\N	F	2001-03-20	2023-09-02	\N
+555	Joseph Williams	joseph.williams555@outlook.com	0378135124	M	1985-01-08	2025-09-03	\N
+556	Sandra Miller	Sandra.miller556@gmail.com	0978365273	F	\N	2024-02-17	\N
+557	Joshua Davis	joshua.davis557@outlook.com	0376767390	M	\N	2023-04-29	\N
+558	Lisa Smith	lisa.smith558@gmail.com	0550800074	F	1986-06-16	2024-10-21	\N
+559	Elizabeth Smith	elizabeth.smith559@gmail.com	0770274565	F	1982-01-17	2023-11-14	\N
+560	Robert Anderson	robert.anderson560@mail.com	0547181584	M	1970-06-18	2025-05-02	\N
+561	Donald Anderson	donald.anderson561@gmail.com	\N	M	1985-01-20	2023-10-07	\N
+562	Anthony Smith	anthony.smith562@gmail.com	0559798972	M	1977-01-08	2025-05-15	165
+563	Anthony Lopez	anthony.lopez563@gmail.com	0970424206	M	2006-07-27	2024-04-07	\N
+564	Mary Brown	mary.brown564@gmail.com	0500766185	F	1993-08-11	2025-06-02	\N
+565	Karen Lopez	Karen.lopez565@mail.com	0591161561	\N	1970-11-20	2024-12-25	\N
+566	Joshua Williams	joshua.williams566@gmail.com	0529152204	M	1979-12-10	2025-08-11	\N
+567	Deborah Davis	deborah.davis567@gmail.com	0955858866	F	1965-12-04	2024-08-31	345
+568	Brian Wilson	brian.wilson568@gmail.com	0918030550	M	\N	2023-09-14	\N
+569	Donna Martinez	donna.martinez569@outlook.com	0963728269	F	1971-02-11	2024-03-18	\N
+570	Andrew Smith	Andrew.smith570@outlook.com	\N	M	1976-10-06	2024-10-18	291
+571	William Brown	william.brown571@yahoo.com	0399620358	\N	1974-08-14	2024-03-08	\N
+572	Ashley Davis	ashley.davis572@gmail.com	0592083248	F	1999-08-05	2024-05-03	190
+573	Amanda Miller	amanda.miller573@gmail.com	0349958089	F	1980-08-05	2025-05-30	\N
+574	Sarah Smith	sarah.smith574@outlook.com	\N	F	\N	2024-02-19	\N
+575	Mary Smith	mary.smith575@outlook.com	0569792461	F	2000-04-05	2025-08-18	\N
+576	Robert Martinez	Robert.martinez576@outlook.com	0997550656	\N	\N	2025-05-11	\N
+577	Andrew Williams	andrew.williams577@outlook.com	0363420498	M	1973-11-22	2025-08-01	\N
+578	Christopher Garcia	christopher.garcia578@yahoo.com	0316353914	M	1970-02-01	2025-10-16	\N
+579	Elizabeth Martinez	elizabeth.martinez579@mail.com	0978134518	F	\N	2024-10-24	\N
+580	Brian Williams	Brian.williams580@gmail.com	\N	M	\N	2023-07-05	\N
+581	Deborah Smith	deborah.smith581@mail.com	0323261704	F	1966-02-05	2025-01-31	\N
+582	Amanda Davis	amanda.davis582@outlook.com	0929950577	F	2002-12-22	2023-05-11	\N
+583	Margaret Garcia	margaret.garcia583@yahoo.com	0304693706	F	1965-06-03	2024-11-15	222
+584	Daniel Johnson	daniel.johnson584@yahoo.com	0971498994	M	1965-10-20	2024-09-07	\N
+585	Donald Brown	donald.brown585@outlook.com	\N	M	1989-12-10	2025-07-07	\N
+586	Kevin Smith	kevin.smith586@yahoo.com	0704483633	M	1966-01-25	2023-10-07	\N
+587	Charles Smith	charles.smith587@gmail.com	0734220806	M	1989-11-09	2025-01-27	\N
+588	Amanda Martinez	amanda.martinez588@gmail.com	0751958884	F	\N	2023-08-10	307
+589	Margaret Smith	margaret.smith589@gmail.com	0927465843	F	\N	2025-06-16	405
+590	William Johnson	william.johnson590@gmail.com	0549955174	M	1978-12-22	2025-10-27	\N
+591	Sandra Smith	sandra.smith591@gmail.com	0932350390	F	1975-05-06	2024-08-21	\N
+592	James Jones	james.jones592@yahoo.com	0771801769	M	1987-01-13	2023-07-30	\N
+593	John Johnson	john.johnson593@gmail.com	0714512301	M	\N	2024-07-22	\N
+594	Karen Davis	karen.davis594@yahoo.com	0916439557	F	1983-11-30	2023-05-25	\N
+595	Donna Rodriguez	donna.rodriguez595@gmail.com	0555378823	F	\N	2023-07-09	\N
+596	Matthew Williams	matthew.williams596@gmail.com	0540045429	M	1999-04-25	2025-08-02	\N
+597	James Williams	james.williams597@mail.com	0515899372	M	\N	2025-06-24	\N
+598	Carol Johnson	carol.johnson598@mail.com	\N	F	1979-05-03	2023-06-06	201
+599	Deborah Johnson	deborah.johnson599@gmail.com	0317113734	F	1971-03-12	2023-09-16	\N
+600	Kimberly Hernandez	kimberly.hernandez600@gmail.com	0575205315	F	\N	2025-01-11	559
+601	Margaret Smith	margaret.smith601@gmail.com	0790136715	F	1998-03-25	2025-01-28	\N
+602	Edward Smith	edward.smith602@gmail.com	0984306833	M	2003-09-08	2025-10-25	\N
+603	Michael Anderson	michael.anderson603@outlook.com	0320481158	M	1982-06-07	2024-05-01	\N
+604	Patricia Smith	patricia.smith604@mail.com	0548104527	F	1995-01-20	2024-09-03	\N
+605	Brian Brown	brian.brown605@gmail.com	0936892291	M	1978-12-23	2023-12-11	\N
+606	Daniel Brown	daniel.brown606@gmail.com	0515314794	M	\N	2025-02-23	\N
+607	Deborah Jones	deborah.jones607@gmail.com	0573944512	F	1983-11-05	2023-12-23	10
+608	Linda Jones	linda.jones608@gmail.com	0799254227	F	1988-04-18	2024-01-19	\N
+609	Emily Williams	emily.williams609@gmail.com	0592130487	F	1999-12-18	2025-03-22	241
+610	Daniel Smith	daniel.smith610@gmail.com	0979720684	M	\N	2025-12-20	\N
+611	Kevin Smith	kevin.smith611@gmail.com	0392407759	M	1998-07-25	2025-07-20	\N
+612	Margaret Hernandez	margaret.hernandez612@mail.com	0992396353	F	1981-06-29	2024-04-09	\N
+613	Kevin Miller	kevin.miller613@gmail.com	0509865893	M	1967-09-09	2025-12-21	\N
+614	Lisa Jones	lisa.jones614@outlook.com	0948733861	\N	1986-11-07	2023-11-13	85
+615	Kimberly Jones	kimberly.jones615@yahoo.com	0399843616	F	1987-08-23	2024-12-14	\N
+616	Deborah Johnson	deborah.johnson616@gmail.com	0967292885	F	1978-01-28	2025-01-07	\N
+617	Jennifer Williams	jennifer.williams617@gmail.com	0977422457	F	1974-11-19	2025-01-27	\N
+618	Michelle Smith	michelle.smith618@gmail.com	0539158801	F	\N	2025-07-11	\N
+619	Amanda Johnson	amanda.johnson619@gmail.com	\N	F	2001-06-05	2025-04-29	\N
+620	John Jones	john.jones620@gmail.com	0584348019	M	2002-12-16	2024-07-17	\N
+621	Sarah Rodriguez	sarah.rodriguez621@gmail.com	0917516895	\N	1985-02-16	2025-08-10	\N
+622	Andrew Johnson	andrew.johnson622@mail.com	0916469554	M	1982-11-13	2025-09-07	\N
+623	Christopher Jones	christopher.jones623@gmail.com	0740512038	M	\N	2024-02-26	\N
+624	Michael Rodriguez	michael.rodriguez624@gmail.com	\N	M	1970-01-08	2023-03-20	\N
+625	Nancy Davis	nancy.davis625@gmail.com	0523639963	F	1968-07-04	2025-07-02	174
+626	Carol Davis	Carol.davis626@gmail.com	0907731841	F	1970-12-07	2024-04-03	\N
+627	Donna Williams	donna.williams627@yahoo.com	\N	F	1980-10-29	2024-08-09	\N
+628	Anthony Williams	anthony.williams628@yahoo.com	0944923464	M	1998-10-19	2024-12-13	\N
+629	Kevin Smith	kevin.smith629@gmail.com	\N	M	2005-05-08	2025-10-11	\N
+630	Emily Smith	emily.smith630@yahoo.com	0313812995	F	1994-02-08	2025-10-19	\N
+631	Susan Miller	susan.miller631@outlook.com	0779926382	F	1965-02-03	2024-02-05	\N
+632	Thomas Smith	thomas.smith632@gmail.com	0545478530	M	1998-04-23	2025-03-18	\N
+633	Lisa Miller	lisa.miller633@yahoo.com	0748749657	F	1983-09-15	2024-08-20	\N
+634	Donald Williams	donald.williams634@gmail.com	0986076900	M	1989-02-11	2023-10-28	\N
+635	Margaret Garcia	margaret.garcia635@gmail.com	0944472175	F	\N	2025-07-14	\N
+636	Jessica Brown	jessica.brown636@yahoo.com	0398392773	F	2006-06-13	2023-09-29	\N
+637	George Lopez	george.lopez637@gmail.com	0505345412	M	1977-11-07	2025-08-10	\N
+638	Deborah Smith	deborah.smith638@gmail.com	0920358092	F	1994-06-23	2023-12-04	447
+639	Kevin Miller	kevin.miller639@gmail.com	0902036553	M	1995-06-05	2025-06-21	7
+640	Ashley Smith	ashley.smith640@gmail.com	0388230781	F	\N	2024-09-30	313
+641	Deborah Smith	deborah.smith641@gmail.com	0569912954	F	\N	2025-06-21	\N
+642	Margaret Garcia	margaret.garcia642@gmail.com	0587975170	F	1997-01-27	2025-09-24	\N
+643	Steven Wilson	steven.wilson643@yahoo.com	0798961927	M	1996-09-18	2023-12-08	\N
+644	Barbara Lopez	barbara.lopez644@gmail.com	0591587490	F	\N	2025-04-14	\N
+645	Lisa Smith	lisa.smith645@gmail.com	\N	F	2006-04-23	2025-11-05	\N
+646	Nancy Brown	nancy.brown646@outlook.com	0320935730	F	1994-01-20	2023-07-17	217
+647	William Thomas	william.thomas647@gmail.com	0324170834	\N	\N	2024-08-05	495
+648	Amanda Miller	amanda.miller648@gmail.com	0937509819	F	1970-12-26	2024-10-26	\N
+649	Joseph Jones	joseph.jones649@gmail.com	0347877688	M	\N	2025-08-05	\N
+650	Robert Smith	robert.smith650@gmail.com	0370605021	M	\N	2023-06-20	\N
+651	Michelle Johnson	michelle.johnson651@gmail.com	0987326037	F	1978-05-13	2024-08-31	648
+652	Lisa Hernandez	lisa.hernandez652@outlook.com	0920070180	F	1999-11-02	2024-10-08	\N
+653	Carol Brown	carol.brown653@outlook.com	0900709704	F	1998-03-28	2025-02-12	\N
+654	Margaret Jones	margaret.jones654@mail.com	0521271219	F	1999-10-09	2024-09-13	\N
+655	Steven Smith	steven.smith655@gmail.com	0557158755	M	\N	2025-04-23	\N
+656	Paul Smith	paul.smith656@gmail.com	0945029582	M	1981-10-30	2024-05-02	186
+657	Carol Brown	carol.brown657@mail.com	0370720905	F	\N	2024-10-18	\N
+658	Mark Taylor	mark.taylor658@mail.com	0552161106	M	1976-03-20	2024-11-25	\N
+659	Jessica Jones	jessica.jones659@gmail.com	\N	F	1998-02-04	2024-11-03	\N
+660	Daniel Smith	daniel.smith660@yahoo.com	0303650259	M	1978-05-04	2025-03-20	151
+661	Sandra Rodriguez	sandra.rodriguez661@yahoo.com	0525087492	F	2005-02-24	2025-11-10	59
+662	John Smith	john.smith662@yahoo.com	0551092810	M	1998-08-09	2024-12-24	\N
+663	Kimberly Wilson	kimberly.wilson663@mail.com	0779227379	F	1978-03-22	2023-09-25	\N
+664	Kimberly Jones	kimberly.jones664@outlook.com	0963351378	F	1981-09-21	2025-01-12	\N
+665	Emily Martinez	emily.martinez665@outlook.com	0543014930	F	1972-02-14	2025-03-25	\N
+666	Margaret Rodriguez	margaret.rodriguez666@yahoo.com	\N	F	1999-04-05	2023-11-10	423
+667	Michael Smith	michael.smith667@mail.com	0544653859	M	1994-12-19	2025-03-13	\N
+668	Robert Lopez	robert.lopez668@outlook.com	0329545389	M	1991-10-22	2025-10-17	\N
+669	David Johnson	david.johnson669@outlook.com	\N	M	1972-11-11	2025-09-09	\N
+670	Mark Rodriguez	mark.rodriguez670@yahoo.com	0515363031	M	1984-02-29	2024-11-22	\N
+671	Mark Smith	mark.smith671@yahoo.com	0356075691	M	\N	2025-07-23	\N
+672	Nancy Davis	nancy.davis672@gmail.com	\N	F	1990-03-26	2025-09-13	29
+673	Paul Taylor	paul.taylor673@mail.com	0398390462	M	1972-02-26	2025-07-24	\N
+674	Elizabeth Miller	elizabeth.miller674@outlook.com	0358536238	F	1999-02-16	2025-02-03	\N
+675	Patricia Martinez	patricia.martinez675@gmail.com	0963118571	F	2006-04-01	2025-03-06	\N
+676	Daniel Rodriguez	daniel.rodriguez676@gmail.com	0996156697	M	1977-09-23	2025-06-07	\N
+677	Daniel Johnson	daniel.johnson677@yahoo.com	0362689839	M	\N	2023-06-04	\N
+678	Margaret Williams	margaret.williams678@gmail.com	0757451003	F	\N	2024-06-14	\N
+679	Susan Jones	susan.jones679@gmail.com	0933372155	F	1967-04-17	2024-12-31	\N
+680	Lisa Johnson	lisa.johnson680@outlook.com	0759476460	F	1990-12-22	2023-11-24	238
+681	Richard Jones	richard.jones681@gmail.com	0936457594	M	\N	2023-07-23	519
+682	Brian Johnson	brian.johnson682@yahoo.com	\N	M	\N	2025-02-02	\N
+683	Brian Smith	brian.smith683@yahoo.com	0786717821	M	2001-12-11	2024-02-27	515
+684	Sarah Wilson	sarah.wilson684@outlook.com	0754911485	F	1980-03-15	2023-04-29	\N
+685	Anthony Davis	anthony.davis685@gmail.com	\N	M	2002-05-30	2025-12-07	\N
+686	Susan Johnson	susan.johnson686@mail.com	0932228683	F	2000-09-28	2025-05-19	\N
+687	Patricia Garcia	patricia.garcia687@outlook.com	0701383479	F	\N	2024-05-06	\N
+688	Carol Johnson	carol.johnson688@yahoo.com	0360560226	F	2001-04-23	2023-10-12	\N
+689	Charles Johnson	charles.johnson689@gmail.com	0928874275	M	2006-11-23	2025-09-05	\N
+690	Emily Davis	emily.davis690@gmail.com	0715306981	F	1977-04-10	2023-12-08	\N
+691	Margaret Davis	margaret.davis691@mail.com	0934969023	F	\N	2024-10-20	\N
+692	Barbara Hernandez	barbara.hernandez692@outlook.com	0323628224	F	2003-06-13	2023-07-12	\N
+693	Daniel Williams	daniel.williams693@gmail.com	0514721596	M	1986-09-29	2023-02-03	\N
+694	Christopher Williams	christopher.williams694@mail.com	0335751111	\N	1985-11-09	2023-06-05	238
+695	Matthew Williams	matthew.williams695@gmail.com	\N	M	\N	2025-08-05	\N
+696	Barbara Williams	barbara.williams696@mail.com	0516069823	F	1974-01-21	2024-12-15	\N
+697	Joshua Hernandez	joshua.hernandez697@yahoo.com	0923994917	M	1969-02-27	2024-11-11	\N
+698	George Smith	george.smith698@gmail.com	0332545729	M	1999-11-19	2025-10-29	\N
+699	Ashley Williams	ashley.williams699@gmail.com	0520157876	F	1999-06-19	2025-01-09	\N
+700	Robert Smith	robert.smith700@gmail.com	0914079103	M	1987-01-19	2025-10-23	\N
+701	Christopher Miller	christopher.miller701@gmail.com	0327501610	M	1966-05-06	2023-02-10	\N
+702	Andrew Smith	andrew.smith702@gmail.com	0963410513	M	\N	2024-12-19	\N
+703	Karen Johnson	karen.johnson703@gmail.com	0586702927	F	\N	2023-09-03	\N
+704	Andrew Smith	andrew.smith704@outlook.com	0984526768	\N	1997-04-13	2024-05-22	\N
+705	Mark Brown	mark.brown705@gmail.com	\N	M	\N	2024-05-22	\N
+706	Matthew Miller	matthew.miller706@mail.com	0770258161	M	1966-08-22	2024-02-16	311
+707	Matthew Smith	matthew.smith707@yahoo.com	0386471560	M	1968-09-23	2025-10-04	\N
+708	Emily Johnson	emily.johnson708@gmail.com	0707492646	F	2001-10-06	2025-05-31	\N
+709	Karen Jones	karen.jones709@mail.com	0928244734	F	1990-08-14	2025-03-29	\N
+710	Paul Thomas	paul.thomas710@gmail.com	0378034952	M	1988-05-23	2025-12-15	\N
+711	Carol Williams	carol.williams711@outlook.com	0322920033	F	1990-10-24	2025-10-22	570
+712	Amanda Brown	amanda.brown712@gmail.com	0353486537	F	2004-05-10	2024-06-26	\N
+713	Ashley Williams	ashley.williams713@gmail.com	0998919099	F	\N	2025-10-23	101
+714	Lisa Brown	lisa.brown714@mail.com	0355082922	F	1981-10-06	2025-08-31	\N
+715	Lisa Smith	lisa.smith715@outlook.com	0792505675	F	1988-08-15	2023-05-09	\N
+716	Mary Jones	mary.jones716@gmail.com	\N	F	2000-01-14	2024-10-09	\N
+717	Robert Miller	robert.miller717@yahoo.com	0945803163	M	1994-09-15	2024-11-05	\N
+718	Jennifer Smith	jennifer.smith718@gmail.com	0750387948	F	2005-05-01	2025-02-27	117
+719	Linda Johnson	linda.johnson719@mail.com	0506031559	F	1983-10-21	2023-06-22	\N
+720	Anthony Smith	anthony.smith720@gmail.com	0716192103	M	1992-09-04	2025-12-13	\N
+721	Brian Smith	brian.smith721@gmail.com	0941096378	M	1990-05-27	2025-04-11	489
+722	George Johnson	george.johnson722@mail.com	0919716187	M	1989-11-29	2024-06-01	\N
+723	Patricia Rodriguez	patricia.rodriguez723@gmail.com	0990822365	F	1986-12-09	2023-09-12	\N
+724	Paul Martinez	paul.martinez724@gmail.com	0579289292	M	1992-08-27	2024-06-03	\N
+725	Mark Johnson	mark.johnson725@yahoo.com	0347254156	M	2003-05-21	2025-10-29	\N
+726	William Davis	william.davis726@gmail.com	\N	M	1967-04-21	2025-04-18	\N
+727	Sandra Garcia	sandra.garcia727@mail.com	0705740472	F	2001-01-23	2023-11-12	\N
+728	David Brown	david.brown728@gmail.com	0561478360	M	\N	2024-08-06	237
+729	Melissa Johnson	melissa.johnson729@mail.com	0576026948	F	1990-05-02	2025-12-20	387
+730	Michelle Lopez	Michelle.lopez730@gmail.com	0356530746	F	2001-11-14	2025-01-15	\N
+731	Thomas Brown	thomas.brown731@mail.com	0506910284	M	1979-03-08	2024-10-01	\N
+732	Jennifer Jones	jennifer.jones732@mail.com	0983878500	F	1992-01-01	2025-04-16	\N
+733	Mary Martinez	mary.martinez733@gmail.com	0786854799	F	1992-03-29	2025-07-10	\N
+734	Amanda Miller	amanda.miller734@mail.com	0741839558	\N	1967-08-12	2025-06-11	\N
+735	Edward Smith	edward.smith735@gmail.com	0900097004	M	2001-07-08	2025-05-22	\N
+736	Elizabeth Garcia	elizabeth.garcia736@yahoo.com	0553919496	F	1970-03-17	2023-07-24	\N
+737	Sarah Smith	sarah.smith737@gmail.com	0304446559	F	2000-12-25	2023-09-12	\N
+738	Andrew Johnson	andrew.johnson738@gmail.com	0371057447	M	1987-06-09	2025-03-24	204
+739	Charles Smith	charles.smith739@mail.com	0573477425	M	1985-12-17	2024-06-25	\N
+740	Nancy Taylor	nancy.taylor740@yahoo.com	\N	F	1984-10-11	2024-10-07	\N
+741	Linda Jones	linda.jones741@mail.com	0500671203	F	2006-12-12	2025-11-19	\N
+742	Sarah Lopez	sarah.lopez742@mail.com	0728943011	F	1996-05-08	2024-12-17	\N
+743	Margaret Davis	margaret.davis743@gmail.com	0913240393	F	1988-11-09	2024-12-30	402
+744	Jennifer Smith	jennifer.smith744@gmail.com	\N	F	1980-10-26	2025-12-25	\N
+745	Donna Smith	donna.smith745@gmail.com	0379083706	F	\N	2024-10-16	368
+746	Betty Martinez	betty.martinez746@gmail.com	0354293864	F	1990-01-07	2023-07-08	\N
+747	Karen Hernandez	karen.hernandez747@yahoo.com	0977325001	F	1970-02-19	2025-08-26	\N
+748	Brian Johnson	brian.johnson748@mail.com	0743053947	M	2000-08-04	2024-08-02	\N
+749	James Johnson	james.johnson749@gmail.com	0905503181	M	2005-07-25	2025-01-18	\N
+750	Richard Brown	richard.brown750@gmail.com	0782107502	M	1973-08-14	2025-01-20	\N
+751	William Miller	william.miller751@gmail.com	0742633143	M	1987-11-29	2024-11-22	\N
+752	Carol Jones	carol.jones752@gmail.com	0576517976	F	1996-09-13	2023-10-21	\N
+753	Sandra Rodriguez	sandra.rodriguez753@gmail.com	0304172931	\N	1978-11-01	2025-09-10	\N
+754	Kevin Johnson	kevin.johnson754@gmail.com	\N	M	1982-09-09	2025-08-24	\N
+755	Joshua Smith	joshua.smith755@yahoo.com	0371483196	M	1988-12-22	2024-08-21	\N
+756	Nancy Jones	nancy.jones756@gmail.com	0589975471	F	\N	2023-02-06	\N
+757	Lisa Smith	lisa.smith757@gmail.com	0322778478	F	\N	2024-10-14	\N
+758	Lisa Miller	lisa.miller758@mail.com	0747612396	F	1978-07-19	2025-07-24	\N
+759	Deborah Smith	deborah.smith759@mail.com	0526241902	\N	1987-06-16	2023-10-28	471
+760	Edward Smith	edward.smith760@outlook.com	0502269630	M	1983-05-20	2023-07-11	\N
+761	Richard Johnson	richard.johnson761@gmail.com	0952613201	M	1988-01-14	2024-05-16	\N
+762	Susan Johnson	susan.johnson762@gmail.com	0764427519	F	1985-11-12	2025-11-05	\N
+763	Joshua Lopez	joshua.lopez763@gmail.com	0510102788	M	2002-10-23	2025-09-13	\N
+764	Jessica Smith	jessica.smith764@gmail.com	0581885028	F	1992-06-20	2024-12-23	106
+765	Barbara Rodriguez	barbara.rodriguez765@outlook.com	0565448873	F	1984-03-24	2024-04-19	\N
+766	Joseph Johnson	joseph.johnson766@yahoo.com	0566264663	M	1992-03-12	2024-12-09	\N
+767	Thomas Smith	thomas.smith767@gmail.com	0706294510	M	1987-01-10	2023-07-25	\N
+768	Elizabeth Smith	elizabeth.smith768@outlook.com	0998335846	F	2003-05-16	2025-12-17	\N
+769	Kimberly Smith	kimberly.smith769@mail.com	\N	F	\N	2025-06-14	\N
+770	Kimberly Smith	kimberly.smith770@gmail.com	0720839908	F	1995-04-14	2024-02-04	\N
+771	Patricia Johnson	patricia.johnson771@gmail.com	0542783650	F	2005-05-03	2025-07-02	\N
+772	George Rodriguez	george.rodriguez772@outlook.com	0301102918	M	1985-08-15	2025-11-07	410
+773	Ashley Davis	ashley.davis773@yahoo.com	\N	F	1999-08-26	2024-10-04	\N
+774	Kevin Miller	kevin.miller774@outlook.com	0592017738	M	1978-08-25	2024-12-24	\N
+775	Betty Rodriguez	betty.rodriguez775@gmail.com	0972108784	F	1996-06-11	2023-10-23	\N
+776	Joseph Johnson	joseph.johnson776@yahoo.com	0529539008	M	1969-11-12	2025-12-21	\N
+777	Donald Johnson	donald.johnson777@gmail.com	0340326354	M	1999-02-18	2025-11-30	\N
+778	Mary Smith	mary.smith778@mail.com	0359790437	F	\N	2024-07-08	\N
+779	George Miller	george.miller779@gmail.com	0737542293	M	1971-08-14	2023-12-17	\N
+780	George Brown	George.brown780@mail.com	0570000520	M	\N	2025-09-14	\N
+781	Jessica Hernandez	jessica.hernandez781@mail.com	\N	F	1988-02-08	2024-08-29	\N
+782	Betty Williams	betty.williams782@yahoo.com	0977899624	F	1980-03-21	2025-09-07	\N
+783	Nancy Garcia	nancy.garcia783@gmail.com	0744213244	F	\N	2025-10-12	\N
+784	Michelle Thomas	michelle.thomas784@gmail.com	\N	F	1993-05-13	2023-09-05	\N
+785	Jessica Smith	jessica.smith785@gmail.com	0324792055	\N	1968-03-22	2025-11-25	\N
+786	Linda Miller	linda.miller786@gmail.com	0371576087	F	\N	2025-11-20	\N
+787	Matthew Smith	matthew.smith787@gmail.com	0351550363	M	1976-10-02	2025-01-29	\N
+788	Thomas Taylor	thomas.taylor788@gmail.com	\N	M	\N	2025-07-09	\N
+789	Amanda Rodriguez	amanda.rodriguez789@outlook.com	0386240394	F	\N	2025-04-29	772
+790	Joseph Lopez	joseph.lopez790@gmail.com	0956382315	M	1992-07-06	2024-07-02	\N
+791	George Miller	george.miller791@gmail.com	0395515293	M	1975-09-10	2025-11-04	\N
+792	Michael Smith	michael.smith792@gmail.com	\N	M	2003-11-21	2023-05-28	\N
+793	Matthew Martinez	matthew.martinez793@mail.com	0985582221	M	1981-08-21	2025-12-20	1
+794	Thomas Johnson	thomas.johnson794@yahoo.com	0343072240	M	1975-01-19	2025-11-23	460
+795	Robert Johnson	robert.johnson795@gmail.com	0358742913	M	\N	2025-03-25	\N
+796	Charles Martinez	charles.martinez796@mail.com	0998471642	M	2006-03-29	2025-01-28	\N
+797	Robert Smith	robert.smith797@gmail.com	0790574085	M	1983-10-30	2023-10-10	\N
+798	Elizabeth Smith	elizabeth.smith798@gmail.com	0786941911	F	2002-06-28	2023-04-24	\N
+799	Thomas Smith	thomas.smith799@gmail.com	0777380421	M	1995-09-14	2025-06-13	722
+800	Andrew Johnson	andrew.johnson800@gmail.com	0796133769	M	\N	2025-10-05	\N
+801	Kimberly Miller	kimberly.miller801@gmail.com	0335282708	F	1993-03-29	2024-03-01	\N
+802	Sarah Williams	Sarah.williams802@yahoo.com	0314611187	F	1991-08-05	2025-10-14	\N
+803	Steven Smith	steven.smith803@yahoo.com	0941439462	M	1982-01-30	2023-10-28	\N
+804	Donna Martinez	donna.martinez804@mail.com	0741183304	F	\N	2025-02-11	\N
+805	Sandra Johnson	sandra.johnson805@yahoo.com	0326888042	F	1988-04-11	2023-02-01	\N
+806	Kevin Smith	kevin.smith806@gmail.com	0387325415	M	\N	2025-01-25	196
+807	Sarah Smith	sarah.smith807@mail.com	0520418190	F	1992-10-15	2025-08-05	\N
+808	Linda Williams	linda.williams808@mail.com	\N	F	2003-09-07	2025-12-10	\N
+809	Amanda Johnson	amanda.johnson809@yahoo.com	0545188304	F	1975-03-23	2025-02-15	607
+810	Karen Johnson	karen.johnson810@mail.com	0529002621	F	1998-11-24	2024-04-30	\N
+811	Michelle Smith	michelle.smith811@gmail.com	0508974841	F	1983-10-16	2024-06-25	\N
+812	Elizabeth Smith	elizabeth.smith812@mail.com	0992125881	F	2002-07-11	2025-01-31	\N
+813	Linda Smith	linda.smith813@mail.com	0951711012	F	1974-02-17	2025-08-10	628
+814	Michael Smith	michael.smith814@mail.com	\N	M	1981-12-10	2024-08-12	\N
+815	Sarah Smith	sarah.smith815@mail.com	0903871389	\N	1980-03-10	2025-02-16	158
+816	Christopher Rodriguez	christopher.rodriguez816@yahoo.com	0906553727	M	1982-06-25	2024-09-25	\N
+817	Donna Martinez	donna.martinez817@mail.com	0555626020	F	1983-05-18	2024-11-14	\N
+818	Nancy Johnson	nancy.johnson818@gmail.com	0579528703	F	1990-09-22	2023-11-09	\N
+819	John Smith	john.smith819@gmail.com	\N	M	1965-05-11	2025-01-29	\N
+820	Paul Brown	paul.brown820@yahoo.com	0702407625	M	\N	2025-07-25	\N
+821	Mary Rodriguez	mary.rodriguez821@mail.com	0718037898	F	1986-03-14	2024-11-05	\N
+822	Daniel Brown	Daniel.brown822@outlook.com	0906399345	M	1991-12-02	2023-07-05	\N
+823	Charles Anderson	charles.anderson823@gmail.com	0358354450	M	\N	2024-11-19	\N
+824	Barbara Johnson	barbara.johnson824@outlook.com	\N	F	1967-10-11	2024-07-26	\N
+825	Jennifer Lopez	jennifer.lopez825@gmail.com	0305024153	F	\N	2025-01-11	\N
+826	Steven Smith	steven.smith826@outlook.com	\N	M	1965-12-12	2024-02-06	\N
+827	William Garcia	william.garcia827@gmail.com	0927627314	M	\N	2023-07-12	\N
+828	Patricia Smith	patricia.smith828@mail.com	0597815753	F	2006-06-13	2024-08-25	\N
+829	Matthew Smith	matthew.smith829@yahoo.com	0391884420	M	1994-05-18	2025-04-22	\N
+830	William Miller	william.miller830@outlook.com	\N	M	1973-11-10	2025-04-01	\N
+831	Joseph Smith	Joseph.smith831@mail.com	0942468208	M	1993-11-28	2025-08-16	\N
+832	Anthony Williams	anthony.williams832@outlook.com	0909285338	M	1965-10-01	2025-01-28	\N
+833	Donald Williams	donald.williams833@gmail.com	0710772450	M	1999-10-23	2023-07-02	\N
+834	Joshua Smith	joshua.smith834@gmail.com	0300063270	M	\N	2025-12-02	\N
+835	Daniel Jones	daniel.jones835@gmail.com	0312614849	M	1981-05-24	2024-06-17	\N
+836	Barbara Rodriguez	barbara.rodriguez836@mail.com	0999079358	F	2003-08-20	2024-10-23	\N
+837	James Smith	james.smith837@gmail.com	\N	M	1974-07-18	2024-05-30	\N
+838	Sandra Smith	sandra.smith838@yahoo.com	0564700627	F	2001-03-04	2025-03-27	560
+839	Margaret Smith	margaret.smith839@gmail.com	0722791580	F	1978-07-20	2025-12-10	\N
+840	Donna Davis	donna.davis840@outlook.com	0341006974	F	2006-08-03	2024-08-19	\N
+841	Joseph Garcia	joseph.garcia841@gmail.com	\N	M	1972-11-16	2025-03-15	\N
+842	Daniel Davis	daniel.davis842@gmail.com	0575952860	M	1984-12-08	2024-04-28	\N
+843	Betty Garcia	betty.garcia843@gmail.com	0977215412	\N	1982-07-31	2024-02-14	\N
+844	Joseph Smith	joseph.smith844@gmail.com	0508187731	M	1982-03-13	2023-10-11	\N
+845	Richard Wilson	richard.wilson845@outlook.com	\N	M	1985-03-05	2025-10-16	\N
+846	Barbara Smith	barbara.smith846@outlook.com	0365951887	F	1994-05-05	2025-10-26	\N
+847	George Johnson	george.johnson847@outlook.com	\N	M	\N	2025-06-21	\N
+848	Carol Johnson	carol.johnson848@gmail.com	0322175880	F	1975-12-16	2023-04-06	\N
+849	George Miller	george.miller849@mail.com	\N	M	1972-04-21	2025-09-22	\N
+850	Paul Miller	paul.miller850@outlook.com	0933535924	M	1969-11-17	2025-03-14	\N
+851	Betty Smith	betty.smith851@gmail.com	0555295330	F	\N	2024-07-14	\N
+852	Mark Brown	mark.brown852@outlook.com	0956716807	M	1986-02-03	2025-01-30	\N
+853	Ashley Smith	ashley.smith853@yahoo.com	0346389335	F	1983-04-02	2025-07-05	718
+854	Barbara Brown	barbara.brown854@gmail.com	\N	F	1999-02-05	2025-12-10	\N
+855	Joshua Smith	joshua.smith855@yahoo.com	0772454296	M	\N	2024-11-05	\N
+856	Jennifer Taylor	jennifer.taylor856@outlook.com	0903099824	F	2003-08-31	2025-03-25	\N
+857	Robert Miller	robert.miller857@yahoo.com	0516899393	M	1998-09-16	2024-03-27	\N
+858	Thomas Smith	thomas.smith858@gmail.com	0748717669	M	1993-03-17	2025-09-06	\N
+859	Jennifer Brown	jennifer.brown859@outlook.com	0984699237	F	\N	2025-09-28	305
+860	Paul Brown	paul.brown860@gmail.com	0593929592	M	1987-05-04	2023-04-10	\N
+861	Elizabeth Smith	elizabeth.smith861@mail.com	0559770635	F	\N	2025-11-21	\N
+862	Mary Williams	mary.williams862@gmail.com	0900711610	F	1965-08-05	2023-10-28	\N
+863	Ashley Jones	ashley.jones863@outlook.com	\N	F	1997-07-15	2025-03-10	\N
+864	Betty Davis	betty.davis864@gmail.com	0927842256	F	\N	2023-09-17	\N
+865	Matthew Lopez	matthew.lopez865@gmail.com	\N	M	2000-04-24	2025-08-01	\N
+866	William Williams	william.williams866@gmail.com	0764986711	M	1988-05-05	2024-04-06	\N
+867	Jessica Smith	jessica.smith867@outlook.com	0962275493	F	\N	2025-11-09	\N
+868	James Davis	james.davis868@yahoo.com	0373816062	M	1968-12-24	2024-12-07	\N
+869	Mary Jones	mary.jones869@gmail.com	0565259855	F	\N	2025-04-11	182
+870	Donna Smith	donna.smith870@mail.com	0572088450	\N	1999-11-06	2023-09-17	57
+871	David Smith	david.smith871@mail.com	0519200370	M	\N	2025-06-01	\N
+872	George Jones	george.jones872@mail.com	0576927540	M	\N	2024-03-20	602
+873	Linda Brown	linda.brown873@gmail.com	0560795089	F	\N	2025-05-21	\N
+874	Thomas Johnson	thomas.johnson874@yahoo.com	0515196776	M	1970-11-14	2024-02-25	\N
+875	Margaret Smith	margaret.smith875@mail.com	\N	F	1986-09-29	2025-03-25	694
+876	Emily Davis	emily.davis876@gmail.com	0945551851	F	1968-10-03	2024-02-28	\N
+877	Sarah Smith	Sarah.smith877@gmail.com	0905782435	F	1978-12-09	2024-06-30	\N
+878	Deborah Lopez	deborah.lopez878@gmail.com	0307975979	F	1985-03-23	2024-01-03	\N
+879	Andrew Jones	andrew.jones879@outlook.com	0737167799	M	1989-10-20	2024-02-12	\N
+880	William Smith	william.smith880@outlook.com	0399899424	M	1984-02-02	2025-05-30	\N
+881	Melissa Johnson	melissa.johnson881@yahoo.com	0708105052	F	\N	2024-03-11	\N
+882	Daniel Lopez	daniel.lopez882@gmail.com	\N	M	\N	2024-11-08	\N
+883	Brian Davis	brian.davis883@gmail.com	\N	M	1973-12-24	2025-03-03	575
+884	Sandra Wilson	sandra.wilson884@outlook.com	0549219319	F	1991-10-10	2024-01-03	88
+885	Ashley Brown	ashley.brown885@gmail.com	0949748005	F	1978-09-03	2023-05-19	\N
+886	Anthony Brown	anthony.brown886@gmail.com	\N	M	2005-02-11	2023-11-20	131
+887	Donna Smith	donna.smith887@gmail.com	0764734122	F	1990-03-16	2023-03-15	\N
+888	Linda Williams	linda.williams888@gmail.com	0961190624	F	1987-10-23	2025-11-13	107
+889	Linda Anderson	linda.anderson889@gmail.com	0717914867	F	2005-02-02	2025-10-18	\N
+890	Michael Williams	michael.williams890@gmail.com	0970403829	M	\N	2025-05-08	\N
+891	James Johnson	james.johnson891@outlook.com	0702690054	M	1966-01-13	2025-03-08	\N
+892	Susan Martinez	susan.martinez892@gmail.com	0702343090	F	2000-09-21	2024-06-11	\N
+893	Anthony Davis	anthony.davis893@gmail.com	0735387774	M	\N	2023-12-27	\N
+894	Christopher Garcia	christopher.garcia894@mail.com	0978552428	M	\N	2023-07-09	439
+895	Mark Jones	mark.jones895@gmail.com	0310711805	M	1965-04-10	2025-08-14	\N
+896	Margaret Johnson	margaret.johnson896@yahoo.com	0551333467	F	\N	2023-08-08	\N
+897	Joshua Smith	joshua.smith897@mail.com	\N	M	1992-05-26	2024-02-11	\N
+898	Joseph Smith	joseph.smith898@gmail.com	0540298313	M	1972-06-16	2023-11-10	\N
+899	Margaret Smith	margaret.smith899@yahoo.com	\N	F	1999-07-31	2025-10-08	155
+900	Margaret Smith	margaret.smith900@yahoo.com	\N	F	1974-03-12	2024-06-12	\N
+901	Margaret Rodriguez	margaret.rodriguez901@gmail.com	0904908892	F	1974-08-21	2025-12-06	\N
+902	Matthew Johnson	matthew.johnson902@gmail.com	\N	M	\N	2023-10-03	\N
+903	Anthony Williams	anthony.williams903@gmail.com	0773707484	M	2004-11-12	2024-03-05	\N
+904	Michael Johnson	michael.johnson904@outlook.com	0730849858	M	\N	2024-01-09	\N
+905	Patricia Jones	patricia.jones905@mail.com	\N	F	1981-10-03	2025-01-10	\N
+906	Richard Smith	richard.smith906@yahoo.com	\N	M	2000-05-10	2025-11-24	\N
+907	Daniel Jones	daniel.jones907@outlook.com	0934831182	M	2000-08-15	2025-05-28	\N
+908	Anthony Williams	anthony.williams908@mail.com	0572490899	M	2001-10-30	2024-11-11	\N
+909	Joseph Smith	joseph.smith909@yahoo.com	\N	M	1998-09-28	2025-09-30	\N
+910	Paul Martinez	paul.martinez910@mail.com	0792589522	M	\N	2025-06-18	\N
+911	Mark Johnson	mark.johnson911@mail.com	0739920231	M	1990-05-29	2025-05-24	\N
+912	Karen Brown	karen.brown912@gmail.com	0969685418	F	1991-02-27	2024-03-23	\N
+913	Susan Smith	susan.smith913@yahoo.com	0740587122	F	1977-04-24	2025-10-25	\N
+914	Sarah Wilson	sarah.wilson914@outlook.com	\N	F	\N	2025-03-30	\N
+915	Sarah Smith	sarah.smith915@gmail.com	0321753144	F	2001-08-24	2025-03-12	508
+916	Charles Smith	charles.smith916@gmail.com	\N	M	1992-05-15	2024-01-04	\N
+917	Daniel Smith	daniel.smith917@gmail.com	0701742641	M	1992-04-09	2023-06-16	\N
+918	Carol Garcia	carol.garcia918@yahoo.com	0799013859	F	2001-10-26	2025-08-10	\N
+919	Steven Smith	steven.smith919@gmail.com	0906015125	M	1987-07-26	2025-10-04	\N
+920	Carol Taylor	Carol.taylor920@mail.com	0547906623	F	1992-12-11	2025-06-15	326
+921	Donna Smith	donna.smith921@gmail.com	\N	F	2006-04-30	2024-04-25	\N
+922	Thomas Taylor	thomas.taylor922@yahoo.com	0781612262	M	\N	2025-04-05	\N
+923	Sarah Smith	sarah.smith923@gmail.com	0590230769	F	1985-07-03	2025-05-14	\N
+924	Robert Johnson	robert.johnson924@yahoo.com	0315162541	M	\N	2024-06-20	334
+925	Mary Johnson	mary.johnson925@yahoo.com	0912189673	F	\N	2023-10-25	\N
+926	Carol Jones	carol.jones926@gmail.com	0766228865	F	\N	2025-11-23	\N
+927	Richard Rodriguez	Richard.rodriguez927@gmail.com	0929390833	M	1993-08-24	2024-08-17	\N
+928	Mark Hernandez	mark.hernandez928@gmail.com	0719560697	M	1996-10-31	2025-11-23	\N
+929	Michael Smith	michael.smith929@mail.com	0309233458	M	2006-03-07	2025-10-11	\N
+930	Paul Smith	paul.smith930@yahoo.com	0969998014	M	1988-02-05	2025-10-28	\N
+931	David Johnson	david.johnson931@mail.com	0948331546	M	2004-09-19	2025-04-08	\N
+932	Andrew Johnson	andrew.johnson932@gmail.com	0753817717	M	1978-08-13	2025-11-19	\N
+933	Donna Williams	donna.williams933@yahoo.com	\N	F	1995-08-21	2023-10-11	331
+934	Emily Davis	emily.davis934@mail.com	0799461997	F	1977-12-12	2024-08-10	\N
+935	George Smith	george.smith935@outlook.com	0308408541	M	1969-10-19	2024-02-13	\N
+936	Robert Thomas	robert.thomas936@gmail.com	0963494287	M	2006-03-01	2024-02-17	\N
+937	Jessica Garcia	jessica.garcia937@gmail.com	0302077151	F	1974-01-21	2025-11-27	\N
+938	Mary Johnson	mary.johnson938@gmail.com	0925309809	F	1977-09-03	2025-10-03	871
+939	Christopher Smith	christopher.smith939@gmail.com	0319602884	M	\N	2024-03-23	\N
+940	Nancy Jones	nancy.jones940@gmail.com	0362825142	F	1989-07-06	2025-10-31	\N
+941	Michael Anderson	michael.anderson941@gmail.com	0364561153	M	\N	2025-12-03	\N
+942	Betty Smith	betty.smith942@mail.com	0979221745	F	1988-01-22	2023-12-08	89
+943	Joseph Johnson	Joseph.johnson943@gmail.com	0554261557	M	2004-06-16	2025-10-05	\N
+944	Michelle Martinez	michelle.martinez944@yahoo.com	0570962454	F	\N	2025-10-10	\N
+945	Sarah Smith	sarah.smith945@gmail.com	0959112780	F	1966-09-20	2025-11-22	\N
+946	Karen Smith	karen.smith946@yahoo.com	0394275969	F	\N	2025-03-06	\N
+947	Christopher Davis	christopher.davis947@gmail.com	0527805558	M	\N	2025-05-13	\N
+948	Joshua Smith	joshua.smith948@gmail.com	0968473178	M	1968-08-04	2024-08-19	\N
+949	David Smith	david.smith949@gmail.com	0568686552	M	\N	2023-11-01	\N
+950	Robert Smith	robert.smith950@gmail.com	0387966117	M	1985-12-02	2024-04-24	\N
+951	Donna Lopez	donna.lopez951@yahoo.com	0908476772	F	1967-10-17	2025-10-18	\N
+952	Deborah Lopez	deborah.lopez952@mail.com	0367144332	F	1974-02-18	2025-08-19	\N
+953	Elizabeth Jones	elizabeth.jones953@gmail.com	0778074053	F	1994-08-11	2025-10-09	\N
+954	Sandra Johnson	sandra.johnson954@outlook.com	\N	F	1985-08-12	2024-03-17	\N
+955	Jessica Martinez	jessica.martinez955@outlook.com	0718227153	F	1978-02-26	2023-12-22	\N
+956	William Smith	william.smith956@yahoo.com	0301171320	M	1992-06-13	2025-10-16	\N
+957	Thomas Johnson	thomas.johnson957@mail.com	0773135787	M	1990-12-24	2024-08-01	\N
+958	David Thomas	david.thomas958@yahoo.com	0766057984	M	\N	2025-03-29	\N
+959	John Smith	john.smith959@mail.com	0941126524	M	\N	2024-09-30	\N
+960	Susan Williams	susan.williams960@gmail.com	0748960504	F	1994-02-26	2025-08-14	\N
+961	Donald Jones	donald.jones961@mail.com	0356763692	M	1984-06-04	2025-04-26	\N
+962	Melissa Jones	melissa.jones962@gmail.com	0906219407	F	1981-01-15	2024-07-03	\N
+963	Donna Miller	donna.miller963@gmail.com	\N	F	1967-10-01	2024-02-20	\N
+964	Amanda Smith	amanda.smith964@outlook.com	0336252905	F	1998-12-24	2023-06-07	54
+965	James Smith	james.smith965@gmail.com	0967880147	M	1990-09-01	2024-10-31	\N
+966	Patricia Smith	patricia.smith966@gmail.com	0738999507	F	1990-04-24	2024-08-26	\N
+967	Donald Lopez	donald.lopez967@yahoo.com	0558355735	M	2006-03-14	2025-12-14	813
+968	Steven Smith	steven.smith968@gmail.com	0977118838	M	1969-10-12	2025-06-18	\N
+969	Joshua Martinez	joshua.martinez969@gmail.com	0761956525	M	1999-07-19	2025-11-06	\N
+970	Ashley Williams	ashley.williams970@gmail.com	0587558838	F	1981-07-28	2025-06-25	\N
+971	Margaret Smith	margaret.smith971@mail.com	0358399233	F	1966-01-27	2024-01-03	\N
+972	Donald Smith	donald.smith972@gmail.com	0524235814	M	1991-08-10	2023-11-04	\N
+973	Amanda Davis	amanda.davis973@mail.com	0308949545	F	1966-12-05	2024-10-29	\N
+974	Amanda Smith	amanda.smith974@mail.com	0722855063	F	\N	2024-12-28	\N
+975	Sandra Johnson	sandra.johnson975@outlook.com	0724479282	F	\N	2023-10-07	\N
+976	Michelle Smith	michelle.smith976@gmail.com	\N	F	1988-06-20	2023-11-05	\N
+977	Donald Smith	donald.smith977@mail.com	0904088470	M	\N	2025-01-30	\N
+978	Jennifer Thomas	jennifer.thomas978@outlook.com	0768716845	F	\N	2025-11-10	977
+979	Donna Davis	donna.davis979@gmail.com	\N	F	1996-08-04	2024-04-18	\N
+980	Mark Wilson	mark.wilson980@gmail.com	0329426681	M	1973-11-08	2025-09-08	\N
+981	Michael Lopez	michael.lopez981@gmail.com	0548424552	M	2004-09-26	2023-06-05	\N
+982	Paul Anderson	paul.anderson982@gmail.com	0332631391	M	\N	2024-06-28	459
+983	Paul Smith	paul.smith983@gmail.com	\N	M	2001-02-28	2025-05-10	\N
+984	Donald Smith	donald.smith984@gmail.com	0791382213	M	1977-07-15	2023-08-29	\N
+985	Brian Smith	brian.smith985@mail.com	0790377685	M	1982-03-23	2025-02-24	\N
+986	Jessica Smith	Jessica.smith986@gmail.com	0921450450	F	1978-02-21	2025-11-04	\N
+987	Deborah Smith	deborah.smith987@outlook.com	0743753736	F	1976-05-06	2025-07-27	\N
+988	James Jones	james.jones988@gmail.com	\N	M	\N	2025-02-07	\N
+989	James Brown	james.brown989@mail.com	0535808480	M	1975-02-14	2025-05-20	\N
+990	William Williams	william.williams990@outlook.com	0769842984	M	1995-12-21	2025-10-16	\N
+991	Amanda Miller	amanda.miller991@outlook.com	0988619743	F	1967-03-20	2025-06-08	934
+992	Edward Johnson	edward.johnson992@outlook.com	0308951049	M	\N	2024-12-30	\N
+993	Joshua Jones	joshua.jones993@gmail.com	0584621470	\N	\N	2025-01-27	\N
+994	Mark Hernandez	mark.hernandez994@gmail.com	0349778167	M	1975-01-10	2025-01-15	\N
+995	Mary Johnson	mary.johnson995@gmail.com	0760140234	F	2002-12-13	2024-05-31	\N
+996	Ashley Smith	ashley.smith996@gmail.com	0374695400	F	1973-07-31	2025-03-10	\N
+997	Amanda Smith	amanda.smith997@yahoo.com	0791703189	F	2002-11-04	2024-10-20	\N
+998	Sarah Jones	sarah.jones998@gmail.com	0960390363	F	2000-04-26	2024-10-01	\N
+999	Donna Martinez	donna.martinez999@yahoo.com	0563694079	F	1997-04-26	2025-05-04	\N
+1000	James Lopez	james.lopez1000@mail.com	0722333334	M	2004-12-06	2023-04-16	\N
+1001	Charles Martinez	charles.martinez1001@mail.com	0904496615	M	1988-04-21	2023-07-11	\N
+1002	William Williams	william.williams1002@mail.com	0346542712	M	1975-12-08	2025-08-25	\N
+1003	Michael Lopez	michael.lopez1003@mail.com	0334445651	M	\N	2025-07-06	\N
+1004	Lisa Smith	lisa.smith1004@gmail.com	0933779801	F	1974-01-30	2025-07-16	\N
+1005	Daniel Rodriguez	daniel.rodriguez1005@gmail.com	0559738564	M	1999-04-03	2024-04-26	\N
+1006	John Smith	john.smith1006@outlook.com	0358535128	M	\N	2025-11-29	585
+1007	James Smith	james.smith1007@gmail.com	0300788347	\N	1995-10-22	2024-02-29	\N
+1008	George Smith	george.smith1008@outlook.com	0373216971	M	1996-04-15	2025-10-24	\N
+1009	Christopher Davis	christopher.davis1009@outlook.com	\N	M	2000-06-07	2024-05-08	\N
+1010	James Johnson	james.johnson1010@gmail.com	0704609394	M	\N	2025-12-12	\N
+1011	Anthony Smith	anthony.smith1011@mail.com	0346051990	M	1976-03-09	2025-09-29	\N
+1012	Barbara Johnson	barbara.johnson1012@gmail.com	\N	F	1984-03-04	2025-05-09	\N
+1013	Mark Brown	mark.brown1013@gmail.com	0792472338	M	1977-01-27	2025-12-15	\N
+1014	Mark Smith	mark.smith1014@gmail.com	0523647610	M	2000-10-03	2023-06-20	\N
+1015	Robert Anderson	Robert.anderson1015@gmail.com	0372240561	M	1983-08-30	2025-07-31	\N
+1016	Jessica Smith	jessica.smith1016@gmail.com	0736309266	F	1982-03-09	2024-03-21	\N
+1017	William Rodriguez	william.rodriguez1017@gmail.com	0552371289	M	\N	2025-05-06	13
+1018	Lisa Smith	lisa.smith1018@gmail.com	0357691703	F	1991-11-17	2024-08-22	\N
+1019	James Brown	james.brown1019@mail.com	0912536928	M	1982-06-07	2025-08-29	\N
+1020	Joshua Williams	joshua.williams1020@mail.com	0352764846	M	2006-01-02	2025-04-13	\N
+1021	Brian Smith	brian.smith1021@gmail.com	0783725242	M	2006-04-17	2025-01-26	\N
+1022	Michael Miller	michael.miller1022@gmail.com	0773475391	M	2000-02-09	2025-05-19	\N
+1023	Jennifer Smith	jennifer.smith1023@gmail.com	0518484224	F	\N	2025-08-19	\N
+1024	Joseph Hernandez	joseph.hernandez1024@gmail.com	0766731804	M	2002-05-12	2024-02-07	\N
+1025	Robert Rodriguez	robert.rodriguez1025@outlook.com	0560672386	M	2003-10-26	2025-02-25	961
+1026	Charles Taylor	charles.taylor1026@outlook.com	\N	M	1998-08-22	2024-03-18	\N
+1027	Deborah Smith	deborah.smith1027@gmail.com	0584808258	F	2004-04-10	2024-08-03	\N
+1028	Mary Johnson	mary.johnson1028@mail.com	0556428080	F	1966-12-17	2024-12-13	\N
+1029	Christopher Smith	christopher.smith1029@gmail.com	0338311962	M	2006-01-06	2025-01-29	\N
+1030	Carol Smith	carol.smith1030@gmail.com	\N	F	1979-01-26	2024-02-26	838
+1031	Anthony Taylor	anthony.taylor1031@gmail.com	0363523135	M	1966-11-02	2024-01-16	\N
+1032	Carol Williams	carol.williams1032@gmail.com	\N	F	\N	2025-04-26	32
+1033	Kimberly Smith	kimberly.smith1033@outlook.com	0309045225	F	1996-12-04	2024-12-12	\N
+1034	Joseph Smith	joseph.smith1034@gmail.com	0306504802	M	1967-09-10	2024-07-08	\N
+1035	Michelle Smith	michelle.smith1035@gmail.com	0571956406	F	1984-01-13	2024-04-19	\N
+1036	Patricia Anderson	Patricia.anderson1036@gmail.com	\N	F	\N	2025-04-01	\N
+1037	David Smith	david.smith1037@outlook.com	0793372432	M	1999-05-12	2024-09-02	\N
+1038	Mary Rodriguez	mary.rodriguez1038@outlook.com	0980292962	F	2001-09-05	2025-12-21	\N
+1039	Edward Johnson	edward.johnson1039@gmail.com	0955094550	M	1986-08-07	2024-03-27	\N
+1040	James Brown	james.brown1040@gmail.com	0573766392	M	1986-04-04	2025-02-20	93
+1041	Matthew Smith	matthew.smith1041@gmail.com	0745703420	M	1972-02-23	2023-09-18	\N
+1042	Lisa Taylor	lisa.taylor1042@gmail.com	0515111578	F	1998-03-22	2025-07-24	\N
+1043	George Wilson	george.wilson1043@gmail.com	0540705919	M	1998-06-20	2025-05-31	\N
+1044	Donna Lopez	donna.lopez1044@gmail.com	0951267061	F	\N	2025-08-30	\N
+1045	Elizabeth Smith	elizabeth.smith1045@gmail.com	0547159695	F	2001-10-25	2023-09-27	74
+1046	Margaret Johnson	margaret.johnson1046@gmail.com	0930011063	F	1969-08-15	2024-08-11	\N
+1047	Christopher Smith	christopher.smith1047@yahoo.com	0588768259	M	\N	2024-03-05	\N
+1048	John Martinez	John.martinez1048@gmail.com	\N	M	2005-09-09	2023-06-11	\N
+1049	Donald Davis	donald.davis1049@yahoo.com	0920117111	M	\N	2024-10-25	951
+1050	Susan Brown	susan.brown1050@mail.com	0376608065	F	1986-09-03	2025-07-20	\N
+1051	Kevin Williams	kevin.williams1051@mail.com	0751228484	M	2005-09-23	2024-11-14	191
+1052	Deborah Johnson	deborah.johnson1052@yahoo.com	0577122895	F	1997-03-27	2024-04-13	\N
+1053	Joshua Johnson	joshua.johnson1053@mail.com	0911705130	M	1982-11-25	2025-04-06	\N
+1054	Nancy Williams	nancy.williams1054@gmail.com	0717275336	F	1977-11-19	2025-03-12	\N
+1055	Nancy Jones	nancy.jones1055@mail.com	0371147248	F	1969-09-19	2025-11-29	\N
+1056	Mark Johnson	mark.johnson1056@yahoo.com	0513576747	M	\N	2025-10-13	\N
+1057	William Miller	william.miller1057@mail.com	0914756583	M	1985-06-11	2025-12-09	\N
+1058	Donna Brown	donna.brown1058@mail.com	\N	F	1986-05-13	2025-06-20	594
+1059	James Rodriguez	james.rodriguez1059@gmail.com	0527439496	M	1998-03-23	2025-06-02	506
+1060	Michael Anderson	michael.anderson1060@gmail.com	0960707245	M	1987-08-18	2025-02-05	\N
+1061	Joseph Garcia	joseph.garcia1061@gmail.com	0506453840	M	1989-07-21	2025-08-07	\N
+1062	Margaret Jones	margaret.jones1062@yahoo.com	0702984630	F	1978-11-03	2024-02-03	421
+1063	Robert Smith	robert.smith1063@gmail.com	0340434936	M	\N	2024-02-01	\N
+1064	Jessica Williams	jessica.williams1064@gmail.com	0971582635	\N	1989-09-27	2023-09-25	968
+1065	Kevin Johnson	kevin.johnson1065@gmail.com	0700999901	\N	\N	2025-08-19	\N
+1066	Richard Johnson	richard.johnson1066@gmail.com	0721944325	M	1984-02-27	2023-12-29	\N
+1067	Robert Williams	robert.williams1067@yahoo.com	0966965861	M	1999-06-03	2023-04-04	\N
+1068	Michael Smith	michael.smith1068@outlook.com	0518010112	M	1981-08-28	2023-08-29	\N
+1069	Ashley Brown	ashley.brown1069@mail.com	0365896199	F	1999-08-13	2024-10-12	\N
+1070	Mary Smith	mary.smith1070@gmail.com	0907233351	F	1973-12-08	2024-06-04	336
+1071	Carol Miller	carol.miller1071@yahoo.com	0367862109	F	1972-09-20	2025-11-24	\N
+1072	Jennifer Smith	jennifer.smith1072@outlook.com	0945779484	F	1992-04-24	2024-09-14	\N
+1073	Edward Smith	edward.smith1073@gmail.com	0911184695	M	1990-03-03	2025-05-12	\N
+1074	William Jones	william.jones1074@gmail.com	0951380619	M	1985-04-03	2024-05-28	\N
+1075	John Jones	john.jones1075@gmail.com	0921902436	M	1969-08-19	2025-06-16	\N
+1076	Anthony Johnson	anthony.johnson1076@outlook.com	0728489543	M	1969-12-11	2025-02-11	66
+1077	Deborah Davis	deborah.davis1077@yahoo.com	0579122417	F	1973-11-17	2025-10-06	\N
+1078	Sandra Rodriguez	sandra.rodriguez1078@gmail.com	0924662935	F	\N	2025-04-30	79
+1079	Margaret Brown	margaret.brown1079@mail.com	0346387340	F	1977-11-05	2024-04-09	\N
+1080	Michael Smith	michael.smith1080@yahoo.com	0517235846	M	1982-05-24	2024-02-08	\N
+1081	Brian Davis	brian.davis1081@mail.com	0372435768	M	1969-10-27	2024-02-18	\N
+1082	Patricia Smith	patricia.smith1082@gmail.com	0392556720	F	1977-03-15	2025-02-13	\N
+1083	Brian Johnson	brian.johnson1083@gmail.com	0744505990	M	2006-02-26	2025-04-28	\N
+1084	Patricia Johnson	patricia.johnson1084@gmail.com	0303477572	F	1975-03-21	2023-09-06	\N
+1085	Steven Smith	steven.smith1085@mail.com	0520255840	M	1982-02-28	2025-08-03	\N
+1086	John Miller	john.miller1086@outlook.com	0736718977	M	1997-04-24	2023-08-31	\N
+1087	George Smith	george.smith1087@outlook.com	\N	\N	1984-03-15	2023-12-24	\N
+1088	Andrew Wilson	andrew.wilson1088@gmail.com	0746393151	M	\N	2023-12-01	\N
+1089	Susan Johnson	susan.johnson1089@gmail.com	0307124052	F	1991-02-01	2025-11-06	\N
+1090	Mark Johnson	mark.johnson1090@gmail.com	0751847014	M	2004-12-04	2025-07-09	\N
+1091	Edward Smith	edward.smith1091@gmail.com	0765337612	M	1997-08-27	2023-07-31	\N
+1092	Daniel Johnson	daniel.johnson1092@mail.com	0501081567	M	1983-08-23	2024-11-04	795
+1093	Anthony Jones	anthony.jones1093@gmail.com	0701297122	M	1999-12-17	2024-07-24	\N
+1094	Nancy Johnson	nancy.johnson1094@outlook.com	0785636832	\N	1977-12-05	2025-04-06	\N
+1095	Margaret Smith	margaret.smith1095@gmail.com	0700708668	F	\N	2025-12-02	\N
+1096	Donna Smith	donna.smith1096@gmail.com	0740556005	F	1967-01-25	2024-11-02	\N
+1097	Jessica Brown	jessica.brown1097@gmail.com	0374456954	\N	1970-04-22	2025-10-31	137
+1098	David Jones	david.jones1098@outlook.com	0369197413	M	\N	2024-12-18	\N
+1099	Joseph Jones	joseph.jones1099@gmail.com	0760654546	M	1980-03-03	2023-10-22	\N
+1100	Christopher Jones	christopher.jones1100@yahoo.com	0709975976	M	1997-12-01	2025-10-15	\N
+1101	Nancy Smith	nancy.smith1101@gmail.com	0985922955	F	1969-01-22	2024-11-20	\N
+1102	Margaret Williams	margaret.williams1102@gmail.com	\N	F	1992-09-05	2023-09-28	\N
+1103	William Wilson	william.wilson1103@gmail.com	\N	M	\N	2023-10-18	\N
+1104	Mark Brown	mark.brown1104@gmail.com	0774720744	M	1965-09-18	2023-10-30	810
+1105	Donna Smith	donna.smith1105@gmail.com	0379629658	F	\N	2024-12-03	\N
+1106	Andrew Johnson	andrew.johnson1106@outlook.com	0774130850	\N	1981-04-06	2025-04-03	\N
+1107	Brian Smith	brian.smith1107@mail.com	0997643383	M	\N	2024-01-29	\N
+1108	Jessica Johnson	jessica.johnson1108@outlook.com	0567626424	F	\N	2024-06-03	\N
+1109	Edward Brown	edward.brown1109@gmail.com	0587446121	M	\N	2025-01-20	\N
+1110	Jessica Miller	jessica.miller1110@mail.com	0507099059	F	2006-04-09	2025-12-04	\N
+1111	Thomas Davis	thomas.davis1111@yahoo.com	0351774510	M	\N	2025-07-31	\N
+1112	James Smith	james.smith1112@mail.com	0755604421	M	1971-07-11	2023-06-14	\N
+1113	Andrew Smith	andrew.smith1113@mail.com	\N	M	1981-01-06	2024-09-10	657
+1114	John Smith	john.smith1114@mail.com	0703023449	\N	1982-05-13	2023-11-26	\N
+1115	James Garcia	james.garcia1115@yahoo.com	0942049358	M	1975-12-22	2024-12-30	\N
+1116	Paul Smith	paul.smith1116@gmail.com	0582476457	M	1972-02-05	2024-09-30	\N
+1117	Sandra Smith	sandra.smith1117@gmail.com	0959346809	F	1997-07-09	2025-08-13	\N
+1118	Deborah Smith	deborah.smith1118@yahoo.com	0977519717	F	1999-02-23	2025-09-15	325
+1119	Betty Smith	betty.smith1119@mail.com	0316225448	F	2006-07-02	2023-02-16	\N
+1120	Michael Miller	michael.miller1120@gmail.com	0937188694	M	\N	2025-04-17	\N
+1121	Susan Johnson	susan.johnson1121@yahoo.com	0306847197	F	1977-05-10	2024-08-25	\N
+1122	Emily Johnson	emily.johnson1122@outlook.com	0561436032	F	\N	2025-11-21	\N
+1123	Carol Smith	carol.smith1123@mail.com	0773005054	F	1968-10-11	2023-10-19	\N
+1124	William Williams	william.williams1124@outlook.com	0329940667	M	1977-11-24	2024-12-10	\N
+1125	Christopher Davis	christopher.davis1125@mail.com	0941615834	M	1966-06-12	2023-05-14	591
+1126	David Smith	david.smith1126@yahoo.com	0575921454	M	1989-10-23	2024-04-12	\N
+1127	Matthew Smith	matthew.smith1127@outlook.com	0980969394	M	1983-01-18	2024-09-28	\N
+1128	Brian Brown	brian.brown1128@yahoo.com	\N	M	\N	2025-10-27	\N
+1129	Donald Thomas	Donald.thomas1129@outlook.com	0589748532	M	1982-07-05	2024-08-17	\N
+1130	Linda Rodriguez	linda.rodriguez1130@mail.com	0394462566	F	1995-01-11	2023-10-08	\N
+1131	George Johnson	george.johnson1131@outlook.com	0715098736	\N	\N	2023-03-24	\N
+1132	Matthew Smith	matthew.smith1132@outlook.com	0540901949	M	1996-09-15	2023-08-02	661
+1133	Ashley Johnson	ashley.johnson1133@gmail.com	0561175614	F	\N	2024-09-05	\N
+1134	Lisa Anderson	lisa.anderson1134@gmail.com	\N	F	1974-06-14	2025-06-19	2
+1135	Jennifer Smith	jennifer.smith1135@gmail.com	0386614605	F	\N	2025-08-27	\N
+1136	Mary Miller	mary.miller1136@gmail.com	\N	F	1969-07-06	2025-07-20	\N
+1137	Betty Williams	betty.williams1137@gmail.com	\N	F	1977-05-13	2024-05-06	\N
+1138	John Brown	john.brown1138@gmail.com	0980852363	M	1997-07-27	2025-10-06	\N
+1139	Carol Rodriguez	carol.rodriguez1139@gmail.com	\N	F	1990-01-19	2025-03-24	\N
+1140	Elizabeth Hernandez	elizabeth.hernandez1140@outlook.com	0765287674	F	\N	2025-10-07	\N
+1141	Donna Martinez	donna.martinez1141@mail.com	0340701921	F	\N	2024-04-24	\N
+1142	Kimberly Lopez	kimberly.lopez1142@yahoo.com	\N	F	1974-05-04	2025-06-08	\N
+1143	Susan Smith	susan.smith1143@outlook.com	0712604115	F	1980-05-18	2025-05-03	\N
+1144	Ashley Anderson	ashley.anderson1144@outlook.com	0789199321	F	\N	2024-09-19	\N
+1145	Richard Smith	richard.smith1145@mail.com	0536521227	M	2002-12-24	2023-08-13	\N
+1146	John Taylor	john.taylor1146@gmail.com	0514092478	M	2005-03-31	2024-02-07	\N
+1147	Ashley Wilson	Ashley.wilson1147@mail.com	0977079598	F	\N	2025-05-09	970
+1148	Nancy Smith	Nancy.smith1148@gmail.com	0389184973	F	\N	2025-07-02	\N
+1149	Steven Anderson	steven.anderson1149@gmail.com	\N	M	1979-03-14	2023-05-23	\N
+1150	Charles Davis	charles.davis1150@gmail.com	0348127111	M	1995-07-12	2024-06-20	\N
+1151	Charles Rodriguez	charles.rodriguez1151@gmail.com	0797439416	M	1969-07-29	2025-03-13	\N
+1152	Joshua Martinez	joshua.martinez1152@yahoo.com	0362333196	M	1995-11-26	2025-11-26	\N
+1153	Elizabeth Brown	elizabeth.brown1153@mail.com	0591492184	F	2005-10-11	2025-09-18	\N
+1154	Joshua Rodriguez	joshua.rodriguez1154@gmail.com	\N	\N	1983-02-27	2024-05-28	\N
+1155	Christopher Martinez	christopher.martinez1155@gmail.com	0978069383	M	1991-10-05	2023-08-17	\N
+1156	Thomas Taylor	thomas.taylor1156@gmail.com	0913571053	M	1972-11-14	2023-12-27	620
+1157	Ashley Williams	ashley.williams1157@mail.com	0960300230	F	1998-02-22	2025-01-24	\N
+1158	George Smith	george.smith1158@mail.com	0937260787	M	1966-11-22	2025-06-27	\N
+1159	Thomas Smith	thomas.smith1159@yahoo.com	0350160421	M	1989-07-01	2025-05-19	842
+1160	Margaret Johnson	margaret.johnson1160@gmail.com	0766604017	F	\N	2024-06-04	\N
+1161	Joseph Garcia	joseph.garcia1161@yahoo.com	0709859199	M	1985-06-28	2025-10-21	929
+1162	Deborah Brown	deborah.brown1162@gmail.com	0987957006	F	\N	2025-08-11	\N
+1163	Christopher Miller	christopher.miller1163@outlook.com	0982855001	M	\N	2023-12-30	\N
+1164	Melissa Rodriguez	melissa.rodriguez1164@gmail.com	0911944656	F	1980-06-03	2025-06-13	\N
+1165	Jennifer Davis	Jennifer.davis1165@mail.com	0966378580	F	1971-03-30	2024-10-16	\N
+1166	Michael Jones	michael.jones1166@outlook.com	0380558223	M	2005-01-31	2023-08-02	77
+1167	Robert Johnson	robert.johnson1167@gmail.com	\N	M	1998-10-03	2025-10-09	\N
+1168	Michael Wilson	michael.wilson1168@gmail.com	0306873138	M	\N	2024-01-07	\N
+1169	William Garcia	william.garcia1169@gmail.com	0300533317	M	\N	2024-03-24	\N
+1170	Paul Davis	paul.davis1170@gmail.com	0796175959	M	\N	2024-01-08	\N
+1171	Nancy Williams	nancy.williams1171@gmail.com	0528969562	F	1990-02-15	2025-10-25	\N
+1172	Elizabeth Williams	elizabeth.williams1172@outlook.com	0901999519	F	1969-02-28	2025-09-11	\N
+1173	Margaret Martinez	margaret.martinez1173@mail.com	0380701974	F	1973-11-27	2025-12-28	\N
+1174	Kevin Hernandez	kevin.hernandez1174@gmail.com	0979149078	M	1998-07-02	2024-01-31	\N
+1175	Donald Johnson	donald.johnson1175@gmail.com	0350825786	M	\N	2024-06-01	309
+1176	Amanda Rodriguez	amanda.rodriguez1176@gmail.com	0313245651	F	1971-01-11	2024-01-07	\N
+1177	Daniel Smith	daniel.smith1177@gmail.com	0345766870	M	1988-08-21	2023-07-28	200
+1178	Christopher Martinez	christopher.martinez1178@yahoo.com	0542122664	M	1986-05-15	2025-02-26	\N
+1179	Linda Rodriguez	linda.rodriguez1179@gmail.com	0591971179	F	\N	2025-01-03	\N
+1180	William Brown	william.brown1180@mail.com	0548224803	M	1995-01-19	2024-11-04	\N
+1181	Robert Smith	robert.smith1181@yahoo.com	0302002661	M	1977-05-13	2025-03-01	\N
+1182	Barbara Smith	barbara.smith1182@outlook.com	0997626753	F	\N	2023-01-26	\N
+1183	Paul Smith	paul.smith1183@yahoo.com	0544612181	M	\N	2025-10-20	24
+1184	Brian Brown	brian.brown1184@yahoo.com	0720400252	M	1978-11-07	2025-12-15	336
+1185	Mary Smith	mary.smith1185@gmail.com	0995926023	F	1995-05-03	2025-12-04	\N
+1186	Mark Williams	mark.williams1186@yahoo.com	0942818228	M	1996-12-11	2024-03-01	\N
+1187	William Williams	william.williams1187@yahoo.com	0597069909	M	1978-03-22	2024-12-30	\N
+1188	Deborah Garcia	deborah.garcia1188@gmail.com	0301731011	F	2006-10-20	2024-08-27	\N
+1189	Susan Garcia	susan.garcia1189@yahoo.com	0799349739	F	1979-06-09	2025-09-29	\N
+1190	Jessica Miller	jessica.miller1190@gmail.com	0579280321	F	2002-12-01	2024-11-17	\N
+1191	Karen Williams	karen.williams1191@outlook.com	0749124294	F	1984-09-10	2023-09-19	\N
+1192	Jessica Lopez	jessica.lopez1192@gmail.com	0969755078	F	\N	2025-12-01	\N
+1193	Nancy Johnson	nancy.johnson1193@gmail.com	\N	F	1992-09-05	2025-08-24	\N
+1194	Steven Williams	steven.williams1194@outlook.com	0339150178	M	1990-06-10	2025-04-11	\N
+1195	Lisa Smith	lisa.smith1195@gmail.com	0999919954	F	1992-02-05	2025-07-22	\N
+1196	Patricia Williams	patricia.williams1196@gmail.com	0506714032	F	1973-02-06	2025-03-02	\N
+1197	Mark Miller	mark.miller1197@gmail.com	0583687925	M	1989-12-20	2025-07-28	\N
+1198	Charles Brown	charles.brown1198@gmail.com	0925626278	M	\N	2023-06-08	\N
+1199	Joseph Johnson	joseph.johnson1199@yahoo.com	0949324370	M	1980-01-25	2023-10-08	1018
+1200	Mark Smith	mark.smith1200@outlook.com	0751715507	M	\N	2024-04-29	\N
+1201	William Williams	William.williams1201@gmail.com	0743531434	M	2000-02-03	2025-09-25	\N
+1202	Donna Smith	donna.smith1202@outlook.com	0929006208	F	1997-11-14	2025-11-09	\N
+1203	Edward Johnson	edward.johnson1203@gmail.com	0566816606	M	1974-08-10	2025-09-09	\N
+1204	Nancy Brown	nancy.brown1204@outlook.com	0974402665	F	1973-06-09	2023-09-11	\N
+1205	Margaret Smith	margaret.smith1205@gmail.com	0558714630	F	\N	2024-05-04	\N
+1206	Matthew Williams	matthew.williams1206@gmail.com	0751404464	M	1976-11-20	2024-09-27	\N
+1207	Lisa Anderson	lisa.anderson1207@yahoo.com	0330185237	F	\N	2025-12-28	446
+1208	Kimberly Rodriguez	kimberly.rodriguez1208@mail.com	0394039003	F	1993-01-19	2025-01-08	\N
+1209	Carol Lopez	carol.lopez1209@mail.com	0573105057	F	\N	2025-05-26	\N
+1210	Lisa Smith	lisa.smith1210@mail.com	0778185692	F	\N	2024-12-11	\N
+1211	Michael Brown	michael.brown1211@gmail.com	0762097473	M	1983-07-22	2024-09-04	\N
+1212	Andrew Smith	andrew.smith1212@gmail.com	0915135264	M	\N	2025-08-16	186
+1213	Margaret Garcia	margaret.garcia1213@yahoo.com	0318925231	F	2002-09-03	2023-09-24	\N
+1214	Lisa Smith	Lisa.smith1214@gmail.com	0355975488	F	1968-10-26	2024-09-06	\N
+1215	Michelle Smith	michelle.smith1215@gmail.com	0992305078	F	1995-12-15	2025-11-27	1086
+1216	Jennifer Smith	jennifer.smith1216@mail.com	0900244543	F	1989-08-26	2023-10-02	637
+1217	Matthew Smith	matthew.smith1217@gmail.com	0769012415	M	1984-01-15	2024-03-02	1063
+1218	Linda Smith	linda.smith1218@gmail.com	0936956787	F	1977-03-03	2024-02-04	\N
+1219	Christopher Smith	christopher.smith1219@gmail.com	0334920321	M	2003-10-20	2023-07-24	907
+1220	Betty Garcia	betty.garcia1220@mail.com	0911279123	F	\N	2025-08-31	\N
+1221	Patricia Smith	patricia.smith1221@yahoo.com	0534956623	F	1977-11-26	2025-12-24	373
+1222	Thomas Williams	thomas.williams1222@gmail.com	0345164764	M	\N	2025-10-27	\N
+1223	Ashley Taylor	ashley.taylor1223@mail.com	0383748174	F	2001-06-15	2024-10-18	\N
+1224	David Smith	david.smith1224@yahoo.com	\N	\N	\N	2023-08-26	\N
+1225	Richard Rodriguez	richard.rodriguez1225@outlook.com	0976234896	M	1966-10-12	2025-01-24	\N
+1226	Nancy Miller	nancy.miller1226@gmail.com	0532129124	F	1966-06-02	2024-04-10	\N
+1227	Jessica Taylor	jessica.taylor1227@gmail.com	0908135634	F	1996-01-10	2024-05-29	\N
+1228	Barbara Johnson	barbara.johnson1228@yahoo.com	\N	F	1986-03-01	2024-11-03	\N
+1229	Elizabeth Lopez	elizabeth.lopez1229@gmail.com	0592664294	F	2001-12-25	2024-03-01	\N
+1230	Betty Smith	betty.smith1230@gmail.com	\N	F	\N	2023-08-07	\N
+1231	Donna Rodriguez	donna.rodriguez1231@outlook.com	0995325293	F	\N	2023-04-25	\N
+1232	George Jones	george.jones1232@gmail.com	0501537207	M	\N	2023-10-13	\N
+1233	Michael Anderson	michael.anderson1233@gmail.com	\N	M	1971-08-22	2024-12-19	\N
+1234	Paul Smith	paul.smith1234@mail.com	0790484784	M	1965-08-20	2024-04-13	\N
+1235	Donna Wilson	donna.wilson1235@gmail.com	0978112067	F	1994-07-10	2024-04-10	\N
+1236	Donald Williams	donald.williams1236@gmail.com	0772460810	M	1984-07-13	2025-08-02	\N
+1237	Patricia Lopez	patricia.lopez1237@outlook.com	0531359674	F	1970-08-14	2024-07-20	\N
+1238	Carol Hernandez	carol.hernandez1238@mail.com	0973630788	F	\N	2025-10-08	\N
+1239	Steven Martinez	steven.martinez1239@gmail.com	0981941877	M	1986-02-01	2025-12-15	\N
+1240	Michelle Anderson	michelle.anderson1240@yahoo.com	0918000290	F	1993-02-03	2025-07-07	\N
+1241	Charles Johnson	charles.johnson1241@gmail.com	0568121007	M	1973-11-01	2025-08-24	510
+1242	Susan Williams	susan.williams1242@outlook.com	0955308270	F	1986-07-16	2024-03-03	\N
+1243	Michael Martinez	michael.martinez1243@mail.com	0992888163	M	1992-10-16	2023-12-31	\N
+1244	Brian Jones	brian.jones1244@yahoo.com	\N	M	\N	2025-03-19	\N
+1245	Kimberly Johnson	Kimberly.johnson1245@outlook.com	0985024392	F	1976-01-04	2023-05-24	937
+1246	Mary Williams	mary.williams1246@gmail.com	\N	F	1974-12-11	2023-05-26	\N
+1247	Lisa Thomas	lisa.thomas1247@gmail.com	0762260714	F	1994-03-08	2024-02-06	\N
+1248	Jennifer Lopez	jennifer.lopez1248@gmail.com	0561781915	F	1965-12-03	2024-07-24	374
+1249	Steven Martinez	steven.martinez1249@gmail.com	0527858459	M	1994-04-16	2024-07-24	\N
+1250	Joshua Smith	joshua.smith1250@gmail.com	0399512389	M	\N	2023-10-24	\N
+1251	Donna Johnson	donna.johnson1251@gmail.com	0979525010	F	\N	2025-03-12	\N
+1252	Michelle Martinez	michelle.martinez1252@outlook.com	0941368436	F	1981-03-28	2025-07-29	\N
+1253	Joseph Smith	joseph.smith1253@gmail.com	0774345063	M	1981-10-09	2023-12-11	\N
+1254	Matthew Williams	matthew.williams1254@yahoo.com	\N	M	\N	2024-06-19	\N
+1255	Anthony Smith	anthony.smith1255@gmail.com	0778677415	M	2006-08-28	2025-02-26	\N
+1256	Donna Garcia	donna.garcia1256@gmail.com	0565835051	\N	\N	2025-06-07	\N
+1257	Thomas Rodriguez	thomas.rodriguez1257@yahoo.com	0372977414	M	1999-01-25	2024-08-21	828
+1258	Sandra Johnson	sandra.johnson1258@mail.com	\N	F	1974-07-11	2025-04-30	\N
+1259	Brian Brown	Brian.brown1259@outlook.com	0324703481	M	\N	2023-06-03	\N
+1260	Sandra Williams	sandra.williams1260@mail.com	0923706508	F	1983-05-01	2023-01-23	\N
+1261	Michael Davis	Michael.davis1261@gmail.com	0727771589	M	2006-04-25	2025-05-09	\N
+1262	Susan Garcia	susan.garcia1262@mail.com	0703862153	F	1981-11-03	2024-12-09	\N
+1263	Christopher Martinez	christopher.martinez1263@mail.com	0556074303	M	1981-11-09	2023-10-28	\N
+1264	Sandra Williams	sandra.williams1264@outlook.com	\N	F	\N	2024-05-29	1145
+1265	Michelle Taylor	michelle.taylor1265@outlook.com	0765050335	F	1971-07-31	2023-09-19	\N
+1266	Donna Johnson	donna.johnson1266@gmail.com	0379597649	F	1999-12-14	2024-11-22	\N
+1267	James Smith	james.smith1267@gmail.com	0951721077	M	1998-12-20	2024-05-14	\N
+1268	Steven Rodriguez	steven.rodriguez1268@gmail.com	0905570532	M	2004-11-09	2024-03-10	\N
+1269	George Taylor	george.taylor1269@mail.com	0502719356	M	1983-10-16	2023-08-22	\N
+1270	Sandra Williams	sandra.williams1270@gmail.com	0782011250	F	\N	2023-08-19	\N
+1271	Barbara Miller	barbara.miller1271@yahoo.com	0973971196	F	1972-10-15	2024-03-21	\N
+1272	Sarah Anderson	sarah.anderson1272@gmail.com	0973752279	F	1983-01-11	2025-05-28	468
+1273	Thomas Williams	thomas.williams1273@gmail.com	0714225877	M	2001-02-23	2024-04-14	381
+1274	Sarah Williams	sarah.williams1274@gmail.com	0300136306	F	\N	2023-02-09	\N
+1275	Edward Jones	edward.jones1275@yahoo.com	0751996676	M	1973-08-21	2025-04-19	\N
+1276	Linda Smith	linda.smith1276@gmail.com	0317623741	F	\N	2024-07-18	\N
+1277	Michael Smith	michael.smith1277@yahoo.com	0723322803	M	1988-10-11	2025-07-20	\N
+1278	Sarah Williams	sarah.williams1278@yahoo.com	0914513854	F	1977-10-10	2025-02-05	\N
+1279	Margaret Rodriguez	margaret.rodriguez1279@gmail.com	0344948206	F	1983-02-24	2025-01-04	\N
+1280	William Smith	William.smith1280@mail.com	0554799740	M	2001-01-03	2024-07-04	\N
+1281	Nancy Hernandez	nancy.hernandez1281@gmail.com	0991508563	F	1991-09-20	2023-11-01	74
+1282	Linda Williams	Linda.williams1282@outlook.com	0766111961	F	2004-09-20	2025-06-05	\N
+1283	Sandra Williams	sandra.williams1283@gmail.com	0385628732	F	1974-08-11	2025-07-30	\N
+1284	Carol Williams	carol.williams1284@mail.com	0348299215	\N	1975-07-04	2024-02-22	1249
+1285	Amanda Miller	amanda.miller1285@gmail.com	0308041868	F	1966-03-23	2025-03-10	\N
+1286	Amanda Smith	amanda.smith1286@outlook.com	0742496274	F	\N	2025-02-10	\N
+1287	Donald Smith	donald.smith1287@gmail.com	0903040348	M	1981-11-27	2025-11-03	\N
+1288	Lisa Martinez	lisa.martinez1288@gmail.com	0364361530	F	\N	2024-12-24	\N
+1289	George Johnson	George.johnson1289@gmail.com	0531035167	M	1993-02-23	2024-07-15	\N
+1290	Ashley Williams	ashley.williams1290@gmail.com	0710735630	F	\N	2024-05-28	\N
+1291	Michael Martinez	michael.martinez1291@gmail.com	0599102277	M	1965-07-14	2025-01-03	711
+1292	Ashley Smith	ashley.smith1292@outlook.com	0786639262	F	1970-02-25	2025-07-23	\N
+1293	Patricia Jones	patricia.jones1293@mail.com	0741207697	\N	1969-05-05	2024-05-12	\N
+1294	Donald Williams	donald.williams1294@gmail.com	0790694730	M	\N	2024-09-01	\N
+1295	Betty Rodriguez	betty.rodriguez1295@yahoo.com	0951821705	F	1982-03-01	2024-01-13	\N
+1296	Daniel Smith	daniel.smith1296@gmail.com	0975262599	M	1999-09-26	2025-08-22	\N
+1297	Richard Johnson	richard.johnson1297@mail.com	0564399592	M	2001-01-07	2025-03-17	\N
+1298	Mark Rodriguez	mark.rodriguez1298@outlook.com	\N	M	1993-01-04	2025-10-07	\N
+1299	Sarah Williams	sarah.williams1299@outlook.com	0915268153	F	1970-02-27	2025-07-27	873
+1300	James Williams	james.williams1300@gmail.com	0336716280	M	1985-06-09	2024-06-13	\N
+1301	Christopher Smith	christopher.smith1301@mail.com	\N	M	\N	2023-10-31	\N
+1302	Nancy Brown	nancy.brown1302@outlook.com	0300294935	F	\N	2023-10-16	\N
+1303	Margaret Taylor	Margaret.taylor1303@yahoo.com	0545320841	F	1966-03-05	2025-10-24	\N
+1304	David Johnson	david.johnson1304@gmail.com	0955359236	M	\N	2025-08-16	956
+1305	Linda Anderson	linda.anderson1305@yahoo.com	0303447003	F	1993-02-19	2023-10-25	\N
+1306	Karen Taylor	karen.taylor1306@gmail.com	0500400003	F	1986-01-10	2025-12-07	\N
+1307	Nancy Smith	nancy.smith1307@gmail.com	\N	F	\N	2025-05-28	496
+1308	Sandra Lopez	sandra.lopez1308@yahoo.com	0305574888	\N	\N	2023-11-25	\N
+1309	Richard Williams	richard.williams1309@gmail.com	0535300415	M	\N	2025-02-02	\N
+1310	Brian Davis	brian.davis1310@gmail.com	0576224335	M	1974-11-20	2024-01-15	\N
+1311	Barbara Lopez	barbara.lopez1311@gmail.com	0941138242	F	1976-09-18	2023-04-15	\N
+1312	Anthony Smith	anthony.smith1312@gmail.com	0346484040	M	1977-05-30	2025-09-03	\N
+1313	Thomas Brown	thomas.brown1313@outlook.com	0911697906	M	1967-03-23	2025-04-12	\N
+1314	Michael Smith	michael.smith1314@yahoo.com	0957831981	M	1994-10-06	2025-04-27	\N
+1315	Karen Lopez	karen.lopez1315@yahoo.com	0917875716	F	\N	2025-11-27	619
+1316	Sarah Smith	sarah.smith1316@yahoo.com	0318798027	F	1995-06-11	2025-11-02	\N
+1317	Jennifer Johnson	jennifer.johnson1317@yahoo.com	0360730891	F	\N	2025-10-14	\N
+1318	John Rodriguez	john.rodriguez1318@yahoo.com	0547287665	M	1968-11-18	2025-11-27	\N
+1319	Emily Johnson	emily.johnson1319@gmail.com	0349885126	F	2000-08-29	2025-01-28	\N
+1320	Elizabeth Johnson	Elizabeth.johnson1320@mail.com	0986293165	F	1969-08-07	2025-02-04	\N
+1321	William Smith	william.smith1321@gmail.com	0999497024	M	\N	2025-12-17	1237
+1322	Margaret Davis	Margaret.davis1322@gmail.com	0758777403	F	\N	2024-10-22	136
+1323	Donald Miller	donald.miller1323@mail.com	0921419827	M	2004-10-05	2023-12-13	\N
+1324	Mark Smith	mark.smith1324@gmail.com	0597884359	M	2006-02-06	2024-06-05	291
+1325	Paul Brown	paul.brown1325@gmail.com	0359236026	M	1978-03-23	2024-04-19	\N
+1326	Brian Brown	brian.brown1326@gmail.com	0547459846	M	1999-08-24	2025-10-12	\N
+1327	Paul Martinez	paul.martinez1327@gmail.com	0544393736	M	1984-04-11	2023-03-15	1002
+1328	Amanda Smith	amanda.smith1328@mail.com	\N	F	2006-05-15	2025-08-07	\N
+1329	Barbara Smith	barbara.smith1329@outlook.com	0997585599	F	2003-09-19	2024-06-23	\N
+1330	Steven Johnson	steven.johnson1330@gmail.com	0744936813	M	1994-02-19	2024-07-21	1149
+1331	Linda Williams	linda.williams1331@yahoo.com	0588235112	F	\N	2023-10-27	\N
+1332	Joshua Brown	joshua.brown1332@gmail.com	\N	M	1983-05-21	2025-03-04	\N
+1333	Jessica Smith	jessica.smith1333@yahoo.com	0370411013	F	\N	2024-12-09	\N
+1334	Donna Jones	donna.jones1334@mail.com	0938853519	F	1990-11-23	2024-01-16	\N
+1335	Patricia Rodriguez	patricia.rodriguez1335@mail.com	0777273281	F	1980-01-14	2025-03-18	\N
+1336	Deborah Smith	deborah.smith1336@gmail.com	0708220672	\N	1972-11-08	2024-07-18	938
+1337	John Johnson	john.johnson1337@gmail.com	0340955253	M	2001-09-21	2025-11-09	\N
+1338	Margaret Garcia	margaret.garcia1338@outlook.com	0555062084	F	1974-06-07	2023-11-02	\N
+1339	Amanda Smith	amanda.smith1339@mail.com	0903321965	F	1981-12-22	2024-01-21	\N
+1340	Susan Smith	susan.smith1340@gmail.com	\N	F	2003-07-03	2025-07-30	\N
+1341	Thomas Johnson	thomas.johnson1341@yahoo.com	0704989016	M	1966-02-20	2024-02-21	\N
+1342	Amanda Miller	amanda.miller1342@gmail.com	0361208588	F	1970-05-16	2025-12-16	\N
+1343	Susan Smith	susan.smith1343@outlook.com	0750014455	F	1971-02-22	2023-11-13	\N
+1344	Donald Smith	donald.smith1344@gmail.com	0769879133	M	\N	2024-01-26	\N
+1345	Sandra Smith	sandra.smith1345@yahoo.com	0594169455	F	\N	2024-05-25	515
+1346	Kimberly Smith	kimberly.smith1346@gmail.com	0916346685	F	1974-04-06	2023-05-15	402
+1347	Robert Smith	robert.smith1347@outlook.com	0714852963	M	\N	2025-06-07	\N
+1348	Patricia Garcia	patricia.garcia1348@gmail.com	\N	F	1980-10-01	2024-04-13	\N
+1349	David Smith	david.smith1349@gmail.com	\N	M	1967-03-04	2024-12-18	\N
+1350	Paul Smith	paul.smith1350@outlook.com	0548063188	M	1989-04-23	2024-04-02	\N
+1351	Edward Brown	edward.brown1351@mail.com	0583559521	M	1979-01-11	2023-08-23	192
+1352	William Anderson	william.anderson1352@gmail.com	0543000619	M	1984-08-11	2024-10-25	\N
+1353	Michelle Lopez	michelle.lopez1353@gmail.com	0704745741	F	1983-02-09	2024-11-11	\N
+1354	Sandra Smith	sandra.smith1354@gmail.com	0788191196	\N	2001-12-08	2023-12-19	\N
+1355	Matthew Smith	matthew.smith1355@gmail.com	0977310470	M	2004-10-16	2025-04-06	\N
+1356	Mark Smith	mark.smith1356@outlook.com	0789206832	M	2000-06-07	2025-09-11	\N
+1357	Kevin Anderson	Kevin.anderson1357@outlook.com	0347773923	M	\N	2025-07-15	\N
+1358	Joseph Smith	joseph.smith1358@gmail.com	0543037431	M	1973-03-01	2024-11-22	579
+1359	Matthew Smith	matthew.smith1359@gmail.com	0576322983	\N	\N	2024-09-03	\N
+1360	Daniel Taylor	daniel.taylor1360@gmail.com	0990442225	M	2006-04-23	2024-09-27	1245
+1361	Donna Thomas	Donna.thomas1361@mail.com	0956412944	F	\N	2025-06-22	\N
+1362	Richard Rodriguez	richard.rodriguez1362@mail.com	0334429387	M	1982-03-12	2023-02-27	\N
+1363	Melissa Johnson	melissa.johnson1363@gmail.com	0587951709	F	\N	2024-07-21	\N
+1364	Brian Jones	brian.jones1364@outlook.com	0555380842	\N	1999-04-21	2025-02-02	723
+1365	Donald Smith	donald.smith1365@gmail.com	0312565563	M	\N	2025-08-25	1252
+1366	Sandra Brown	sandra.brown1366@mail.com	0333656635	F	1980-04-12	2024-04-22	\N
+1367	Donald Smith	donald.smith1367@outlook.com	\N	M	1985-12-12	2024-12-04	\N
+1368	Matthew Rodriguez	matthew.rodriguez1368@gmail.com	0958776240	M	1985-11-04	2024-06-29	\N
+1369	Joshua Hernandez	joshua.hernandez1369@outlook.com	0969210457	M	2005-07-08	2025-06-09	\N
+1370	Emily Jones	emily.jones1370@gmail.com	0391153727	F	2006-01-11	2023-07-18	\N
+1371	Carol Johnson	carol.johnson1371@mail.com	0983485765	F	1974-04-27	2025-10-25	\N
+1372	Robert Williams	robert.williams1372@gmail.com	0328766570	M	1977-06-05	2025-06-10	\N
+1373	Barbara Garcia	barbara.garcia1373@gmail.com	0769425173	F	1971-03-05	2025-09-23	688
+1374	Carol Garcia	carol.garcia1374@gmail.com	0773720326	F	1983-02-02	2024-05-06	\N
+1375	John Taylor	john.taylor1375@mail.com	0368411826	M	1993-12-20	2023-09-16	\N
+1376	Michelle Johnson	michelle.johnson1376@yahoo.com	0524885836	F	1970-06-07	2025-04-11	\N
+1377	Paul Williams	paul.williams1377@gmail.com	0741787370	M	2000-04-19	2024-11-20	\N
+1378	John Taylor	john.taylor1378@yahoo.com	0962356121	M	\N	2024-06-26	\N
+1379	Charles Rodriguez	charles.rodriguez1379@gmail.com	0550511284	M	\N	2025-12-12	785
+1380	Susan Taylor	susan.taylor1380@outlook.com	\N	F	2002-11-11	2025-12-06	\N
+1381	James Rodriguez	james.rodriguez1381@gmail.com	0576715048	M	1999-05-01	2024-08-14	1272
+1382	Thomas Smith	thomas.smith1382@gmail.com	0704441744	M	2006-01-04	2023-01-14	\N
+1383	Linda Wilson	linda.wilson1383@yahoo.com	0597469096	F	\N	2024-10-21	\N
+1384	Michelle Johnson	michelle.johnson1384@outlook.com	0741527632	F	\N	2025-01-14	\N
+1385	Lisa Johnson	lisa.johnson1385@gmail.com	0566549551	F	2003-03-04	2025-10-23	\N
+1386	Michelle Smith	michelle.smith1386@mail.com	\N	F	1986-03-03	2024-05-19	\N
+1387	Kimberly Davis	kimberly.davis1387@gmail.com	0786087813	F	1971-06-14	2025-03-23	\N
+1388	Jessica Brown	jessica.brown1388@mail.com	0388641249	F	1965-06-05	2024-04-25	\N
+1389	Deborah Smith	deborah.smith1389@gmail.com	0902365782	\N	1971-08-15	2024-01-01	1179
+1390	Thomas Smith	thomas.smith1390@gmail.com	0767787424	M	2001-06-28	2024-07-31	\N
+1391	Christopher Davis	christopher.davis1391@gmail.com	0553485992	M	1966-08-02	2025-07-09	\N
+1392	Mark Hernandez	mark.hernandez1392@yahoo.com	0703006336	M	\N	2023-07-28	50
+1393	Jessica Garcia	jessica.garcia1393@gmail.com	0502193540	F	\N	2025-12-24	914
+1394	Barbara Williams	barbara.williams1394@mail.com	0373990647	F	1988-01-29	2024-04-21	\N
+1395	Paul Johnson	paul.johnson1395@outlook.com	0323778166	M	1999-05-18	2025-07-13	1262
+1396	Nancy Smith	nancy.smith1396@mail.com	0979028359	F	1999-05-11	2023-09-04	\N
+1397	James Jones	james.jones1397@gmail.com	0995496358	M	1975-02-26	2024-11-11	\N
+1398	Kimberly Davis	kimberly.davis1398@mail.com	0583724003	F	1983-12-19	2025-08-05	\N
+1399	Donna Johnson	donna.johnson1399@gmail.com	0950161480	F	1997-04-03	2024-04-15	\N
+1400	Joseph Smith	joseph.smith1400@yahoo.com	0573695286	M	1973-07-21	2025-04-26	\N
+1401	Robert Smith	robert.smith1401@yahoo.com	0783157442	M	1966-06-22	2024-02-09	\N
+1402	Paul Rodriguez	paul.rodriguez1402@mail.com	0316657938	M	1972-09-04	2024-01-03	\N
+1403	Donald Davis	donald.davis1403@gmail.com	0793744805	M	2003-09-09	2025-03-27	\N
+1404	Sandra Smith	sandra.smith1404@yahoo.com	0720605819	F	\N	2025-01-30	\N
+1405	Nancy Smith	nancy.smith1405@mail.com	\N	F	1979-06-03	2025-10-12	\N
+1406	Sarah Brown	sarah.brown1406@mail.com	0574592442	\N	1990-02-02	2023-09-01	\N
+1407	Daniel Martinez	daniel.martinez1407@outlook.com	0304230753	M	2005-10-03	2025-06-07	\N
+1408	Steven Brown	steven.brown1408@mail.com	0538681964	M	1965-05-20	2024-05-28	\N
+1409	David Johnson	david.johnson1409@yahoo.com	0328813550	M	\N	2025-09-01	\N
+1410	Michael Lopez	michael.lopez1410@yahoo.com	0742940689	M	1986-01-28	2024-10-29	\N
+1411	Anthony Williams	anthony.williams1411@yahoo.com	0969396429	M	\N	2025-10-11	\N
+1412	Patricia Brown	patricia.brown1412@gmail.com	0379232791	F	1993-05-10	2025-07-30	\N
+1413	Deborah Johnson	deborah.johnson1413@yahoo.com	\N	F	2004-02-05	2023-06-14	393
+1414	Joseph Smith	joseph.smith1414@yahoo.com	0303730873	M	2003-08-09	2023-05-30	\N
+1415	Lisa Lopez	lisa.lopez1415@yahoo.com	0395167320	\N	1993-10-04	2024-04-18	\N
+1416	Sarah Smith	sarah.smith1416@gmail.com	0960469116	F	1970-04-21	2024-02-18	\N
+1417	Daniel Johnson	daniel.johnson1417@gmail.com	0916241845	M	\N	2025-07-27	\N
+1418	Barbara Johnson	barbara.johnson1418@mail.com	0380595130	F	\N	2023-08-27	\N
+1419	Sandra Hernandez	sandra.hernandez1419@mail.com	0914405978	F	\N	2023-09-23	\N
+1420	Thomas Williams	thomas.williams1420@mail.com	0929099069	M	1984-11-06	2025-01-17	\N
+1421	Sarah Hernandez	sarah.hernandez1421@gmail.com	0749040641	F	1984-06-01	2025-12-09	\N
+1422	Edward Smith	edward.smith1422@outlook.com	0961332152	M	2003-10-04	2024-12-12	\N
+1423	Charles Johnson	charles.johnson1423@gmail.com	0530760661	M	1999-08-06	2025-08-10	\N
+1424	Robert Smith	robert.smith1424@gmail.com	0911774704	M	1991-12-11	2024-05-16	\N
+1425	Mary Jones	mary.jones1425@mail.com	0915417069	F	1996-07-22	2025-12-19	\N
+1426	Michelle Smith	michelle.smith1426@gmail.com	0373906616	F	\N	2024-02-04	998
+1427	Richard Smith	richard.smith1427@gmail.com	0977599835	M	\N	2025-07-12	\N
+1428	Jennifer Williams	jennifer.williams1428@gmail.com	\N	F	1999-09-21	2025-09-12	\N
+1429	Joseph Brown	joseph.brown1429@yahoo.com	0711360386	M	1995-09-01	2025-09-22	\N
+1430	Margaret Smith	margaret.smith1430@mail.com	0533126244	\N	2004-07-16	2025-06-17	\N
+1431	Paul Smith	paul.smith1431@mail.com	0727084623	M	1968-06-05	2025-02-13	\N
+1432	Daniel Jones	daniel.jones1432@yahoo.com	0702096600	M	1982-07-05	2023-10-23	\N
+1433	Daniel Garcia	daniel.garcia1433@gmail.com	0393883283	M	\N	2024-04-16	\N
+1434	Margaret Smith	margaret.smith1434@mail.com	0385707758	F	1996-07-17	2025-12-07	\N
+1435	George Davis	george.davis1435@outlook.com	0948971327	M	1971-08-29	2025-10-15	\N
+1436	Betty Smith	betty.smith1436@gmail.com	0525253843	F	1998-08-17	2025-02-12	\N
+1437	Paul Smith	paul.smith1437@gmail.com	\N	M	\N	2025-11-24	\N
+1438	Mary Anderson	mary.anderson1438@gmail.com	0717063586	F	\N	2023-06-25	\N
+1439	Jessica Garcia	jessica.garcia1439@yahoo.com	0703485173	F	\N	2024-05-27	\N
+1440	Karen Smith	karen.smith1440@gmail.com	0508672179	F	1995-06-05	2024-01-29	1172
+1441	Paul Johnson	paul.johnson1441@mail.com	0537578171	M	1989-01-15	2024-05-10	\N
+1442	Ashley Martinez	Ashley.martinez1442@gmail.com	\N	F	1996-12-20	2025-11-29	\N
+1443	Elizabeth Smith	elizabeth.smith1443@gmail.com	0794439627	F	1980-02-04	2024-09-23	\N
+1444	Barbara Martinez	barbara.martinez1444@yahoo.com	0316461004	F	1979-07-16	2024-08-09	\N
+1445	Steven Taylor	steven.taylor1445@gmail.com	0948784193	M	1969-10-17	2025-06-13	\N
+1446	Lisa Williams	lisa.williams1446@gmail.com	0722744709	F	2006-01-11	2023-09-09	1139
+1447	Joshua Davis	joshua.davis1447@gmail.com	0333608404	M	1982-07-12	2025-12-28	\N
+1448	Robert Wilson	Robert.wilson1448@mail.com	\N	M	1978-09-11	2023-05-07	740
+1449	Melissa Anderson	melissa.anderson1449@gmail.com	\N	F	1996-09-11	2024-04-08	274
+1450	Charles Smith	charles.smith1450@gmail.com	0386462297	M	1972-09-06	2023-04-21	\N
+1451	Joseph Williams	joseph.williams1451@mail.com	0357778157	M	1973-01-16	2025-11-09	1261
+1452	Margaret Smith	margaret.smith1452@gmail.com	0791662519	F	1986-10-03	2025-01-26	139
+1453	Melissa Garcia	melissa.garcia1453@gmail.com	0925812635	F	1995-09-05	2024-02-23	\N
+1454	Mark Williams	mark.williams1454@outlook.com	0763922608	M	\N	2025-04-05	489
+1455	Michelle Lopez	michelle.lopez1455@mail.com	0966099307	F	2001-08-24	2025-08-03	\N
+1456	Jennifer Brown	jennifer.brown1456@gmail.com	0749729910	F	1972-02-24	2024-08-18	1032
+1457	Joseph Hernandez	joseph.hernandez1457@outlook.com	0909077023	M	1998-06-26	2024-05-09	\N
+1458	Jennifer Johnson	jennifer.johnson1458@gmail.com	0734106218	F	\N	2024-08-31	\N
+1459	Daniel Smith	daniel.smith1459@gmail.com	0583650358	M	1989-12-14	2024-03-23	590
+1460	Richard Garcia	richard.garcia1460@yahoo.com	0787300731	M	1978-09-09	2025-01-11	414
+1461	Thomas Smith	thomas.smith1461@gmail.com	0793861353	M	\N	2024-07-08	\N
+1462	Betty Smith	betty.smith1462@yahoo.com	0912621112	F	1985-04-09	2025-08-03	\N
+1463	Carol Williams	carol.williams1463@gmail.com	0392407819	F	\N	2024-12-23	\N
+1464	Carol Williams	carol.williams1464@mail.com	0745465119	F	1998-08-24	2024-12-09	\N
+1465	Michael Anderson	michael.anderson1465@gmail.com	0709527095	M	1993-06-24	2023-12-06	\N
+1466	Kevin Smith	kevin.smith1466@gmail.com	0716977427	M	1999-03-29	2024-02-10	\N
+1467	Sarah Thomas	sarah.thomas1467@outlook.com	0725730915	F	1992-05-14	2025-10-11	\N
+1468	Nancy Martinez	nancy.martinez1468@yahoo.com	0352788907	F	1989-07-09	2024-12-17	\N
+1469	Betty Smith	betty.smith1469@gmail.com	0979600789	F	\N	2025-03-20	\N
+1470	Emily Brown	emily.brown1470@mail.com	0543526501	F	2000-01-25	2023-04-12	926
+1471	Sarah Lopez	sarah.lopez1471@gmail.com	0576940087	F	1972-08-03	2024-05-08	\N
+1472	Sarah Johnson	sarah.johnson1472@gmail.com	0534185034	\N	1966-02-01	2024-03-21	\N
+1473	Paul Wilson	paul.wilson1473@gmail.com	0504302788	M	\N	2024-02-03	\N
+1474	Donald Thomas	donald.thomas1474@gmail.com	0548927788	M	\N	2025-05-13	\N
+1475	Barbara Johnson	barbara.johnson1475@mail.com	0342982982	F	1969-07-26	2025-08-13	\N
+1476	Daniel Taylor	daniel.taylor1476@gmail.com	0538148666	M	1996-09-29	2024-10-31	293
+1477	Elizabeth Jones	elizabeth.jones1477@outlook.com	0939127030	F	\N	2025-12-01	\N
+1478	Emily Smith	emily.smith1478@gmail.com	\N	F	1998-08-02	2023-08-06	1018
+1479	Edward Hernandez	edward.hernandez1479@gmail.com	0576843325	M	1987-11-24	2024-12-25	\N
+1480	Melissa Wilson	melissa.wilson1480@gmail.com	\N	F	1965-04-15	2025-12-09	\N
+1481	Brian Smith	brian.smith1481@gmail.com	0356977898	M	\N	2024-10-07	\N
+1482	Donna Johnson	donna.johnson1482@gmail.com	0380787892	F	1992-03-20	2025-08-02	\N
+1483	Donna Rodriguez	donna.rodriguez1483@yahoo.com	0599576892	F	1983-07-26	2024-09-03	1437
+1484	Anthony Johnson	anthony.johnson1484@mail.com	\N	M	2004-11-18	2023-02-11	\N
+1485	Paul Smith	paul.smith1485@gmail.com	0318634533	M	1968-07-02	2025-12-13	\N
+1486	Steven Williams	steven.williams1486@gmail.com	0336142876	M	\N	2024-08-11	\N
+1487	Carol Smith	carol.smith1487@yahoo.com	0717881136	F	2006-05-18	2023-07-17	\N
+1488	Patricia Davis	patricia.davis1488@gmail.com	0304737618	F	2005-03-26	2023-07-18	\N
+1489	Susan Garcia	susan.garcia1489@gmail.com	\N	F	1992-08-09	2025-05-18	\N
+1490	Carol Smith	carol.smith1490@gmail.com	0355047603	F	1997-10-12	2023-10-06	\N
+1491	Thomas Smith	thomas.smith1491@yahoo.com	0981895547	M	\N	2025-07-14	\N
+1492	Karen Miller	karen.miller1492@gmail.com	\N	F	1984-09-14	2024-05-28	\N
+1493	Christopher Smith	christopher.smith1493@gmail.com	0548216396	M	\N	2025-09-04	\N
+1494	Deborah Smith	deborah.smith1494@outlook.com	0710533779	F	1966-03-21	2025-11-23	1301
+1495	Daniel Smith	daniel.smith1495@gmail.com	0332835057	M	1968-10-14	2023-11-19	\N
+1496	Amanda Lopez	amanda.lopez1496@gmail.com	\N	F	\N	2023-07-24	529
+1497	Michelle Smith	Michelle.smith1497@yahoo.com	0739640771	\N	1983-04-05	2025-08-20	\N
+1498	Robert Williams	robert.williams1498@gmail.com	0502358890	M	1979-10-15	2023-07-23	\N
+1499	Susan Smith	susan.smith1499@gmail.com	0539588669	F	\N	2025-01-29	\N
+1500	Sarah Miller	sarah.miller1500@gmail.com	0515627801	F	1994-07-05	2024-02-08	\N
+1501	Melissa Wilson	melissa.wilson1501@outlook.com	0506614907	F	\N	2025-01-15	\N
+1502	Linda Anderson	linda.anderson1502@gmail.com	0796383126	F	1973-02-05	2023-04-11	\N
+1503	Elizabeth Johnson	elizabeth.johnson1503@yahoo.com	\N	\N	1996-03-15	2023-11-09	\N
+1504	James Williams	james.williams1504@yahoo.com	0564576020	M	1974-06-23	2024-01-01	\N
+1505	Barbara Smith	barbara.smith1505@yahoo.com	0585747452	F	1965-02-10	2024-11-06	\N
+1506	Joshua Miller	joshua.miller1506@gmail.com	0377479402	M	1991-01-08	2023-09-08	\N
+1507	Donald Rodriguez	donald.rodriguez1507@gmail.com	0343135388	M	1965-06-06	2023-11-15	485
+1508	Matthew Garcia	matthew.garcia1508@gmail.com	0560208252	M	\N	2025-01-12	\N
+1509	Brian Davis	brian.davis1509@mail.com	0588809292	M	1989-06-12	2024-05-11	\N
+1510	Donald Rodriguez	donald.rodriguez1510@gmail.com	0701219953	M	1997-06-21	2024-08-28	\N
+1511	Ashley Smith	ashley.smith1511@gmail.com	\N	F	\N	2024-02-24	312
+1512	Kevin Smith	kevin.smith1512@gmail.com	\N	M	1977-05-19	2025-11-16	\N
+1513	Donald Johnson	donald.johnson1513@yahoo.com	0935483742	\N	1970-03-26	2025-12-18	\N
+1514	James Johnson	james.johnson1514@gmail.com	0549925623	M	1988-07-03	2025-07-18	547
+1515	Daniel Miller	daniel.miller1515@outlook.com	0362356023	M	1973-12-12	2025-05-11	\N
+1516	Carol Smith	carol.smith1516@gmail.com	0742143903	F	2005-01-25	2025-02-04	555
+1517	Brian Jones	brian.jones1517@yahoo.com	0992367813	M	1972-11-17	2025-02-26	\N
+1518	Melissa Williams	melissa.williams1518@yahoo.com	0304047747	F	2005-07-12	2025-07-12	\N
+1519	Lisa Williams	lisa.williams1519@outlook.com	0994169177	F	\N	2025-09-01	\N
+1520	Sandra Smith	sandra.smith1520@yahoo.com	0701280943	F	1995-10-06	2025-03-11	\N
+1521	John Smith	john.smith1521@yahoo.com	0726441272	M	\N	2025-05-18	1484
+1522	Ashley Thomas	ashley.thomas1522@gmail.com	0921714698	F	\N	2025-11-24	\N
+1523	Sandra Anderson	sandra.anderson1523@gmail.com	0349535730	F	1978-04-22	2024-01-13	\N
+1524	Edward Davis	edward.davis1524@gmail.com	0319925155	M	2000-10-20	2024-04-09	\N
+1525	Margaret Hernandez	margaret.hernandez1525@yahoo.com	0549750098	F	2004-07-14	2025-11-06	\N
+1526	Brian Rodriguez	brian.rodriguez1526@gmail.com	0715559203	M	\N	2024-07-05	\N
+1527	Donna Smith	donna.smith1527@gmail.com	0992800634	F	1986-09-20	2025-05-26	636
+1528	Kimberly Williams	kimberly.williams1528@yahoo.com	0301349448	F	1999-08-08	2024-05-16	\N
+1529	Patricia Lopez	patricia.lopez1529@gmail.com	0985852052	F	1981-11-09	2025-03-13	1313
+1530	Michelle Williams	michelle.williams1530@outlook.com	0555266309	F	\N	2024-11-13	822
+1531	Thomas Smith	thomas.smith1531@gmail.com	0347993576	M	\N	2024-10-07	\N
+1532	Margaret Smith	margaret.smith1532@gmail.com	0506571287	F	1985-09-04	2025-06-09	\N
+1533	Kevin Johnson	kevin.johnson1533@gmail.com	0913932294	M	\N	2023-04-17	\N
+1534	Melissa Garcia	melissa.garcia1534@mail.com	0984398371	\N	1993-01-02	2023-03-30	\N
+1535	John Smith	john.smith1535@mail.com	0921418721	M	1971-02-05	2025-03-27	363
+1536	Paul Miller	paul.miller1536@yahoo.com	0776408192	M	1990-09-06	2025-07-20	\N
+1537	Lisa Garcia	lisa.garcia1537@yahoo.com	0923884273	\N	\N	2024-06-03	\N
+1538	Emily Williams	emily.williams1538@gmail.com	0549954712	F	1966-11-25	2025-06-21	\N
+1539	Donna Williams	donna.williams1539@gmail.com	0976827351	F	1982-12-05	2025-07-18	\N
+1540	John Smith	john.smith1540@gmail.com	0315517292	M	2003-09-23	2024-01-06	\N
+1541	Elizabeth Smith	elizabeth.smith1541@gmail.com	0736143285	F	1996-02-05	2025-12-10	56
+1542	David Johnson	david.johnson1542@gmail.com	0757827091	M	\N	2024-12-25	\N
+1543	Michael Smith	michael.smith1543@outlook.com	0568427146	M	1989-08-26	2025-06-26	\N
+1544	Edward Davis	edward.davis1544@mail.com	0749650181	M	\N	2024-06-07	\N
+1545	Patricia Miller	patricia.miller1545@yahoo.com	0796626075	F	1974-02-20	2024-11-12	940
+1546	Elizabeth Johnson	elizabeth.johnson1546@yahoo.com	0569097875	F	\N	2024-04-27	\N
+1547	Margaret Williams	margaret.williams1547@mail.com	0753420224	F	1978-07-16	2025-10-11	\N
+1548	Patricia Davis	patricia.davis1548@mail.com	0502480829	F	1970-09-07	2025-02-15	\N
+1549	Deborah Hernandez	deborah.hernandez1549@gmail.com	0764510751	F	1986-11-08	2025-03-29	\N
+1550	Elizabeth Garcia	elizabeth.garcia1550@gmail.com	0525549114	F	1967-01-21	2025-08-25	\N
+1551	Karen Smith	karen.smith1551@mail.com	0509854289	F	\N	2023-08-19	\N
+1552	John Johnson	john.johnson1552@gmail.com	0516838051	M	\N	2025-09-24	\N
+1553	Paul Jones	paul.jones1553@mail.com	0784101754	M	1988-12-04	2025-07-29	\N
+1554	Margaret Davis	margaret.davis1554@outlook.com	\N	F	1990-06-29	2024-08-01	\N
+1555	Jessica Johnson	Jessica.johnson1555@mail.com	0538042404	F	1973-11-30	2025-10-03	508
+1556	Robert Davis	robert.davis1556@gmail.com	0754985275	\N	1995-12-08	2025-07-14	\N
+1557	Emily Jones	emily.jones1557@gmail.com	0793439801	F	1991-12-12	2024-07-06	\N
+1558	Richard Smith	richard.smith1558@gmail.com	0519490514	M	1984-06-23	2024-05-30	\N
+1559	Ashley Smith	ashley.smith1559@gmail.com	0704828828	\N	1972-05-08	2024-05-06	\N
+1560	Jennifer Thomas	jennifer.thomas1560@mail.com	0351950374	F	1972-06-02	2025-11-22	934
+1561	Jessica Smith	jessica.smith1561@gmail.com	0916719231	F	1984-02-25	2025-09-13	\N
+1562	Andrew Davis	andrew.davis1562@outlook.com	\N	M	1965-12-14	2024-10-30	\N
+1563	Kimberly Miller	kimberly.miller1563@gmail.com	\N	F	1983-04-12	2025-10-04	1542
+1564	Ashley Williams	ashley.williams1564@outlook.com	0702151823	F	1997-10-04	2024-11-21	\N
+1565	Jessica Wilson	jessica.wilson1565@gmail.com	0777294973	F	2002-05-27	2025-04-03	\N
+1566	James Smith	james.smith1566@gmail.com	0913950856	M	1976-02-29	2025-05-16	\N
+1567	Jennifer Williams	jennifer.williams1567@gmail.com	0901258508	F	1977-09-05	2025-11-03	\N
+1568	Joseph Lopez	joseph.lopez1568@mail.com	\N	M	\N	2025-11-07	\N
+1569	Steven Martinez	steven.martinez1569@yahoo.com	0976651614	M	1969-04-18	2025-07-18	668
+1570	Edward Williams	edward.williams1570@gmail.com	0728716784	M	2003-12-24	2024-02-26	659
+1571	Sandra Martinez	sandra.martinez1571@yahoo.com	0982218816	F	1993-11-29	2024-06-24	\N
+1572	Michael Smith	michael.smith1572@mail.com	\N	M	\N	2024-01-02	\N
+1573	David Smith	david.smith1573@gmail.com	0943148513	M	1994-09-11	2023-03-28	425
+1574	Michael Anderson	michael.anderson1574@outlook.com	0349397205	M	1981-08-18	2024-12-16	\N
+1575	John Miller	john.miller1575@mail.com	0768893326	M	1977-01-06	2024-02-28	\N
+1576	Lisa Hernandez	lisa.hernandez1576@yahoo.com	0309520155	F	1997-02-04	2024-10-18	\N
+1577	William Smith	william.smith1577@yahoo.com	\N	M	\N	2025-01-09	1441
+1578	Nancy Williams	nancy.williams1578@outlook.com	0783083269	F	\N	2023-05-20	\N
+1579	Andrew Smith	andrew.smith1579@gmail.com	0508267588	M	1969-08-28	2023-03-07	\N
+1580	Paul Smith	paul.smith1580@gmail.com	0321539110	M	1988-09-11	2025-01-07	\N
+1581	Carol Smith	carol.smith1581@mail.com	0312979892	F	1970-11-28	2025-10-07	\N
+1582	Joshua Williams	joshua.williams1582@gmail.com	0545530332	M	\N	2023-10-22	\N
+1583	John Williams	john.williams1583@gmail.com	0545903125	M	1996-12-21	2025-05-15	\N
+1584	Margaret Thomas	margaret.thomas1584@mail.com	0392285480	F	1975-01-29	2024-11-09	\N
+1585	Anthony Williams	anthony.williams1585@outlook.com	0399292255	M	\N	2024-02-06	437
+1586	Joseph Jones	joseph.jones1586@yahoo.com	0974130972	M	\N	2023-12-13	467
+1587	Emily Smith	emily.smith1587@mail.com	0731498142	F	\N	2025-08-15	\N
+1588	Michael Rodriguez	michael.rodriguez1588@gmail.com	0335658266	M	1984-10-20	2025-12-01	\N
+1589	Ashley Johnson	ashley.johnson1589@yahoo.com	\N	F	1990-11-12	2024-08-30	700
+1590	William Johnson	william.johnson1590@mail.com	0763708040	M	\N	2025-06-08	\N
+1591	Daniel Johnson	daniel.johnson1591@mail.com	0347602481	M	1987-02-07	2024-07-01	\N
+1592	Edward Smith	edward.smith1592@gmail.com	0572857802	M	1965-06-07	2024-05-10	\N
+1593	Andrew Smith	andrew.smith1593@mail.com	0508960443	M	\N	2023-07-06	\N
+1594	Melissa Taylor	melissa.taylor1594@outlook.com	0737529820	F	1982-06-03	2024-06-27	\N
+1595	Joshua Miller	joshua.miller1595@gmail.com	0762803842	M	1991-07-24	2025-10-13	\N
+1596	Steven Lopez	steven.lopez1596@mail.com	0535621395	M	2003-08-30	2024-09-19	\N
+1597	Charles Brown	charles.brown1597@outlook.com	0735412349	M	1981-08-26	2025-09-15	\N
+1598	Kevin Williams	kevin.williams1598@outlook.com	0742097888	M	1991-07-23	2025-08-22	\N
+1599	Susan Brown	susan.brown1599@gmail.com	0388904453	F	1971-07-06	2025-11-11	\N
+1600	Steven Lopez	steven.lopez1600@yahoo.com	\N	M	1992-05-22	2025-02-26	\N
+1601	Brian Johnson	brian.johnson1601@yahoo.com	0975560830	M	2005-12-15	2024-07-15	\N
+1602	Deborah Smith	deborah.smith1602@mail.com	0997860665	F	1965-12-02	2025-11-15	\N
+1603	Jennifer Jones	jennifer.jones1603@gmail.com	0506188758	F	1973-07-06	2024-04-08	\N
+1604	Edward Johnson	edward.johnson1604@gmail.com	0902359032	M	1994-07-02	2024-03-28	\N
+1605	Mark Martinez	mark.martinez1605@mail.com	0331419856	M	1974-02-24	2023-02-18	\N
+1606	Elizabeth Williams	elizabeth.williams1606@gmail.com	0709407584	F	1969-12-18	2024-07-20	766
+1607	Karen Smith	karen.smith1607@gmail.com	0700377247	F	1970-02-26	2025-09-30	\N
+1608	Jessica Smith	jessica.smith1608@gmail.com	0547778593	F	\N	2025-07-31	\N
+1609	Mark Wilson	mark.wilson1609@gmail.com	0504267944	M	1985-06-01	2025-07-20	128
+1610	Kevin Lopez	kevin.lopez1610@gmail.com	0771971989	M	1987-05-17	2024-06-27	\N
+1611	Ashley Johnson	Ashley.johnson1611@outlook.com	0387796172	F	2006-07-04	2025-03-04	\N
+1612	Linda Johnson	linda.johnson1612@gmail.com	0957616295	F	1991-08-04	2024-11-03	\N
+1613	Andrew Lopez	andrew.lopez1613@gmail.com	0563153690	M	\N	2024-02-20	\N
+1614	Matthew Smith	matthew.smith1614@yahoo.com	\N	M	\N	2023-06-06	\N
+1615	Steven Davis	steven.davis1615@gmail.com	\N	M	1978-03-17	2025-12-13	\N
+1616	Patricia Lopez	patricia.lopez1616@mail.com	0536242599	F	1984-08-23	2025-12-24	\N
+1617	Matthew Smith	matthew.smith1617@gmail.com	0759489322	M	1975-03-11	2025-08-30	\N
+1618	Elizabeth Smith	elizabeth.smith1618@outlook.com	0745775406	F	\N	2024-06-07	\N
+1619	Betty Smith	betty.smith1619@gmail.com	0752143895	F	1992-10-12	2024-09-18	1564
+1620	Elizabeth Davis	elizabeth.davis1620@outlook.com	0561810491	F	1986-10-04	2023-10-29	\N
+1621	Thomas Brown	thomas.brown1621@yahoo.com	0729848357	M	\N	2023-10-05	\N
+1622	Charles Smith	charles.smith1622@mail.com	0744776854	M	1965-07-03	2025-05-11	\N
+1623	Daniel Smith	daniel.smith1623@gmail.com	0904630823	M	1992-05-25	2023-10-21	\N
+1624	Carol Miller	carol.miller1624@yahoo.com	0306616464	F	1998-08-08	2024-05-13	\N
+1625	Jessica Brown	jessica.brown1625@mail.com	0790893026	F	1967-01-19	2025-08-30	\N
+1626	Susan Smith	susan.smith1626@yahoo.com	0923633845	F	1996-10-21	2025-11-30	1152
+1627	Andrew Johnson	andrew.johnson1627@yahoo.com	0995388463	M	\N	2024-09-27	\N
+1628	Anthony Hernandez	anthony.hernandez1628@gmail.com	0794891191	M	1980-04-12	2025-02-17	\N
+1629	Paul Jones	paul.jones1629@gmail.com	0565812046	M	1966-10-13	2024-09-19	\N
+1630	Michael Smith	michael.smith1630@gmail.com	0739998646	M	1979-02-09	2025-01-31	1580
+1631	Elizabeth Smith	elizabeth.smith1631@mail.com	0347071085	F	1992-12-15	2025-05-14	716
+1632	Michael Johnson	michael.johnson1632@gmail.com	0740642648	M	1999-11-12	2025-12-01	596
+1633	Nancy Williams	nancy.williams1633@gmail.com	0986357549	F	1987-05-17	2024-02-04	\N
+1634	Margaret Lopez	Margaret.lopez1634@mail.com	0552886009	\N	1977-09-12	2023-06-27	\N
+1635	Deborah Martinez	deborah.martinez1635@yahoo.com	0968252044	F	\N	2024-11-22	\N
+1636	George Smith	george.smith1636@gmail.com	0944819024	\N	1968-05-23	2025-01-26	\N
+1637	Richard Johnson	richard.johnson1637@mail.com	0395552181	M	\N	2024-10-20	\N
+1638	Susan Taylor	susan.taylor1638@outlook.com	0742102219	F	1968-08-18	2025-05-12	\N
+1639	Paul Smith	paul.smith1639@yahoo.com	0975041815	M	\N	2025-06-29	\N
+1640	Andrew Jones	andrew.jones1640@gmail.com	0316850386	M	\N	2025-07-16	\N
+1641	John Smith	john.smith1641@yahoo.com	0701334582	M	\N	2023-11-12	\N
+1642	Linda Smith	linda.smith1642@gmail.com	0951015521	F	\N	2024-12-19	\N
+1643	Matthew Miller	matthew.miller1643@gmail.com	0589315650	M	1995-11-05	2025-08-09	42
+1644	Joseph Johnson	joseph.johnson1644@outlook.com	0744213597	M	\N	2025-01-10	\N
+1645	David Brown	david.brown1645@gmail.com	0310199158	M	1974-10-29	2025-08-25	\N
+1646	Ashley Williams	ashley.williams1646@gmail.com	0931253918	F	1978-09-04	2024-06-05	\N
+1647	Sarah Johnson	sarah.johnson1647@mail.com	0709778486	F	\N	2024-11-15	\N
+1648	Emily Smith	emily.smith1648@gmail.com	0709961500	F	2003-11-26	2024-11-12	\N
+1649	Ashley Smith	ashley.smith1649@yahoo.com	0795326098	\N	1983-05-03	2023-12-13	\N
+1650	Joseph Jones	joseph.jones1650@gmail.com	\N	M	2001-02-10	2025-04-08	537
+1651	Christopher Anderson	christopher.anderson1651@yahoo.com	0785615314	M	1976-01-23	2023-09-19	\N
+1652	Lisa Smith	lisa.smith1652@gmail.com	0350735673	F	1995-02-07	2023-06-22	\N
+1653	Sarah Garcia	sarah.garcia1653@yahoo.com	0701113430	F	1999-09-25	2024-10-12	\N
+1654	Mary Johnson	mary.johnson1654@outlook.com	0344449674	F	1985-01-24	2025-05-04	\N
+1655	Ashley Smith	ashley.smith1655@gmail.com	0782137409	F	\N	2024-09-02	\N
+1656	Susan Williams	susan.williams1656@mail.com	0564018545	F	\N	2024-11-23	\N
+1657	Kimberly Brown	kimberly.brown1657@gmail.com	0541146510	F	1978-02-16	2025-10-07	1333
+1658	Andrew Rodriguez	andrew.rodriguez1658@gmail.com	0909741948	M	1965-08-03	2023-04-17	\N
+1659	Mark Smith	mark.smith1659@gmail.com	0999984419	M	1966-11-11	2024-11-06	\N
+1660	James Taylor	james.taylor1660@gmail.com	0957536504	M	1983-06-13	2023-10-26	\N
+1661	Daniel Hernandez	daniel.hernandez1661@gmail.com	0944678758	M	\N	2025-12-17	\N
+1662	William Johnson	william.johnson1662@gmail.com	\N	M	1968-02-16	2025-11-12	\N
+1663	Steven Smith	steven.smith1663@yahoo.com	0794468701	M	\N	2023-08-16	\N
+1664	Mary Davis	mary.davis1664@yahoo.com	0700418819	F	1975-02-01	2024-12-26	\N
+1665	Lisa Smith	lisa.smith1665@outlook.com	0387436840	F	1970-11-02	2025-08-24	755
+1666	David Smith	david.smith1666@gmail.com	0359748844	M	1980-02-11	2025-07-05	884
+1667	Elizabeth Wilson	elizabeth.wilson1667@gmail.com	0594550310	F	1965-02-19	2025-09-18	\N
+1668	Thomas Smith	thomas.smith1668@gmail.com	0791266407	M	\N	2024-08-16	\N
+1669	Robert Johnson	robert.johnson1669@yahoo.com	0937213980	\N	1991-09-09	2025-09-22	\N
+1670	George Smith	george.smith1670@mail.com	\N	M	1975-08-14	2023-09-04	\N
+1671	William Miller	william.miller1671@yahoo.com	\N	M	1982-03-05	2023-01-17	\N
+1672	Barbara Smith	barbara.smith1672@yahoo.com	0911333397	F	1969-11-22	2023-08-15	\N
+1673	Donna Martinez	Donna.martinez1673@mail.com	0570129981	F	\N	2025-07-08	315
+1674	Michelle Johnson	michelle.johnson1674@mail.com	0341940254	F	1966-11-19	2025-09-11	153
+1675	Andrew Smith	andrew.smith1675@outlook.com	0374791830	M	1970-06-16	2023-03-08	\N
+1676	Daniel Smith	daniel.smith1676@outlook.com	0590340605	M	1997-12-11	2024-03-06	584
+1677	Nancy Smith	nancy.smith1677@gmail.com	0352541693	F	1990-03-14	2024-11-05	\N
+1678	George Johnson	george.johnson1678@gmail.com	0517343850	M	1984-02-27	2025-09-08	\N
+1679	Nancy Smith	nancy.smith1679@gmail.com	0740401052	F	1985-11-11	2025-10-04	\N
+1680	Edward Williams	edward.williams1680@gmail.com	0968662049	M	1967-11-09	2025-07-22	\N
+1681	Emily Garcia	emily.garcia1681@mail.com	0320977817	F	2004-04-29	2024-03-22	\N
+1682	Linda Jones	linda.jones1682@gmail.com	0560853140	F	1979-07-30	2024-09-18	\N
+1683	Steven Miller	steven.miller1683@mail.com	0940446120	M	1999-07-20	2024-12-30	\N
+1684	Emily Miller	emily.miller1684@gmail.com	\N	F	1996-05-31	2025-01-05	\N
+1685	Christopher Thomas	Christopher.thomas1685@yahoo.com	0350444739	M	1988-04-12	2025-10-18	\N
+1686	Edward Smith	edward.smith1686@yahoo.com	0510454355	M	1999-04-07	2024-04-18	\N
+1687	Matthew Smith	matthew.smith1687@outlook.com	0391791298	M	1974-05-13	2024-07-29	\N
+1688	Joshua Jones	joshua.jones1688@gmail.com	0963220844	M	1996-02-16	2025-11-13	\N
+1689	George Wilson	george.wilson1689@gmail.com	0772674033	M	1980-05-26	2023-04-18	1510
+1690	Joseph Johnson	joseph.johnson1690@gmail.com	0778161712	M	1970-04-14	2024-12-01	\N
+1691	Betty Hernandez	betty.hernandez1691@outlook.com	\N	F	1985-12-17	2024-07-08	\N
+1692	Anthony Davis	anthony.davis1692@outlook.com	0781627126	M	\N	2023-11-28	\N
+1693	Margaret Smith	margaret.smith1693@gmail.com	0366651552	F	1983-02-12	2024-03-26	\N
+1694	Joseph Johnson	joseph.johnson1694@yahoo.com	0900782043	M	1971-07-28	2024-04-08	995
+1695	Emily Smith	emily.smith1695@outlook.com	0398865619	\N	\N	2024-09-13	917
+1696	Christopher Williams	christopher.williams1696@gmail.com	0358642638	M	1988-10-28	2024-04-22	\N
+1697	Deborah Brown	deborah.brown1697@gmail.com	\N	F	1969-12-10	2024-12-07	\N
+1698	Donna Williams	donna.williams1698@yahoo.com	0942296183	F	\N	2023-11-04	\N
+1699	Betty Smith	betty.smith1699@mail.com	0598194369	F	1996-02-08	2024-12-06	\N
+1700	Elizabeth Jones	elizabeth.jones1700@yahoo.com	0758681242	F	2004-01-07	2024-01-21	320
+1701	Barbara Smith	barbara.smith1701@mail.com	0934138415	F	1983-10-01	2024-09-08	\N
+1702	Brian Rodriguez	brian.rodriguez1702@outlook.com	\N	M	1997-08-18	2025-02-28	\N
+1703	Patricia Johnson	Patricia.johnson1703@gmail.com	0317751201	F	1977-01-16	2025-02-20	850
+1704	Susan Miller	susan.miller1704@gmail.com	0737421509	F	1984-02-23	2023-04-07	\N
+1705	Andrew Williams	andrew.williams1705@gmail.com	0742479354	M	\N	2025-08-15	\N
+1706	Linda Smith	linda.smith1706@yahoo.com	0713384484	F	\N	2025-04-03	\N
+1707	Steven Williams	steven.williams1707@gmail.com	\N	M	1975-01-13	2024-04-02	\N
+1708	Paul Hernandez	paul.hernandez1708@gmail.com	0979403501	M	2002-05-14	2025-09-10	1001
+1709	Donna Hernandez	donna.hernandez1709@mail.com	0749979200	\N	1983-01-15	2024-02-20	729
+1710	Michelle Smith	michelle.smith1710@gmail.com	0322991257	F	\N	2025-08-17	\N
+1711	Christopher Smith	christopher.smith1711@yahoo.com	0357311303	\N	1971-08-01	2025-06-10	\N
+1712	Carol Smith	carol.smith1712@gmail.com	0782033890	F	\N	2024-08-04	508
+1713	Donald Smith	Donald.smith1713@yahoo.com	0900047427	M	2001-02-07	2025-10-03	\N
+1714	James Garcia	james.garcia1714@yahoo.com	0944985287	M	1987-08-31	2025-07-11	\N
+1715	Christopher Johnson	christopher.johnson1715@gmail.com	0518568712	M	1996-08-03	2025-01-26	\N
+1716	Joseph Jones	joseph.jones1716@mail.com	0332559883	M	1986-06-23	2025-02-19	\N
+1717	Joseph Brown	joseph.brown1717@mail.com	0386637958	M	1986-11-08	2024-04-29	\N
+1718	Charles Anderson	charles.anderson1718@gmail.com	\N	\N	1966-08-04	2024-09-11	\N
+1719	George Davis	george.davis1719@gmail.com	0529484254	M	1990-02-19	2023-10-04	\N
+1720	Joseph Rodriguez	joseph.rodriguez1720@mail.com	0561493080	M	1969-01-04	2025-12-11	1018
+1721	James Smith	james.smith1721@mail.com	\N	M	1986-08-18	2024-08-06	\N
+1722	Michelle Williams	michelle.williams1722@outlook.com	0927703785	\N	2006-11-05	2025-02-27	\N
+1723	Kimberly Johnson	kimberly.johnson1723@mail.com	0590140949	\N	\N	2024-11-16	\N
+1724	Karen Garcia	karen.garcia1724@gmail.com	\N	F	\N	2024-08-03	\N
+1725	Michael Garcia	michael.garcia1725@gmail.com	0375643760	M	1965-07-04	2025-02-15	\N
+1726	Melissa Lopez	melissa.lopez1726@gmail.com	0765620196	F	1979-06-30	2024-01-13	\N
+1727	Mark Smith	mark.smith1727@gmail.com	0943855308	M	1981-07-14	2024-11-17	\N
+1728	Paul Smith	paul.smith1728@yahoo.com	0571579087	M	2003-08-29	2025-10-21	\N
+1729	Daniel Garcia	daniel.garcia1729@yahoo.com	0582566544	M	\N	2023-08-10	\N
+1730	Sandra Smith	sandra.smith1730@gmail.com	0946185404	F	1993-12-01	2023-03-17	\N
+1731	Barbara Williams	barbara.williams1731@yahoo.com	0755158159	F	1968-02-23	2023-07-14	\N
+1732	Christopher Anderson	christopher.anderson1732@outlook.com	0739556058	M	1983-11-27	2025-05-18	\N
+1733	Barbara Wilson	barbara.wilson1733@outlook.com	0798895824	F	\N	2023-03-26	\N
+1734	Donna Brown	donna.brown1734@outlook.com	0365681913	F	1995-04-26	2024-02-21	\N
+1735	Ashley Johnson	ashley.johnson1735@mail.com	0554216973	F	1990-06-04	2025-05-12	\N
+1736	Kimberly Rodriguez	kimberly.rodriguez1736@gmail.com	0568898418	F	1965-06-26	2023-07-11	\N
+1737	Donna Smith	donna.smith1737@gmail.com	0524627966	F	1987-05-19	2024-09-30	59
+1738	Richard Thomas	richard.thomas1738@gmail.com	0900054654	M	1970-08-07	2025-04-18	\N
+1739	Mary Johnson	mary.johnson1739@gmail.com	0985673385	F	\N	2025-08-28	\N
+1740	Mark Smith	mark.smith1740@gmail.com	0527291341	M	\N	2023-09-18	752
+1741	Mary Hernandez	mary.hernandez1741@mail.com	\N	F	1998-01-12	2024-12-05	\N
+1742	Betty Smith	betty.smith1742@yahoo.com	0503708000	F	\N	2025-11-13	\N
+1743	Jennifer Smith	jennifer.smith1743@gmail.com	\N	F	1995-11-06	2023-12-31	\N
+1744	Karen Johnson	karen.johnson1744@outlook.com	0396575027	F	1999-09-26	2024-03-15	\N
+1745	Robert Miller	robert.miller1745@gmail.com	0967791324	M	2001-03-06	2025-04-30	\N
+1746	Kimberly Smith	kimberly.smith1746@gmail.com	\N	F	1976-12-19	2024-06-14	\N
+1747	Joshua Smith	joshua.smith1747@gmail.com	0325974017	M	1973-12-18	2025-07-25	\N
+1748	Michael Johnson	michael.johnson1748@gmail.com	0574582017	M	2000-11-10	2024-04-11	\N
+1749	Barbara Brown	barbara.brown1749@gmail.com	0985218888	F	2004-08-05	2025-08-18	\N
+1750	Joseph Johnson	joseph.johnson1750@yahoo.com	0505454925	M	1973-01-10	2023-06-28	\N
+1751	Deborah Johnson	deborah.johnson1751@mail.com	0551201893	F	1983-10-27	2023-07-27	\N
+1752	Amanda Williams	amanda.williams1752@yahoo.com	\N	F	1994-07-24	2024-03-07	\N
+1753	Nancy Smith	nancy.smith1753@gmail.com	0549797965	F	\N	2024-12-12	1112
+1754	Brian Smith	brian.smith1754@gmail.com	0755945543	M	1977-07-18	2025-10-10	\N
+1755	Emily Martinez	emily.martinez1755@yahoo.com	0746502981	F	1970-09-16	2024-08-20	\N
+1756	Joshua Miller	joshua.miller1756@gmail.com	0387066753	M	\N	2023-02-01	\N
+1757	Linda Johnson	linda.johnson1757@gmail.com	0921216692	F	\N	2023-10-18	\N
+1758	Margaret Johnson	margaret.johnson1758@mail.com	\N	F	1978-11-18	2025-06-14	\N
+1759	Carol Hernandez	carol.hernandez1759@gmail.com	0338982450	F	1976-03-10	2025-10-26	939
+1760	Barbara Smith	barbara.smith1760@gmail.com	0766405899	F	1989-01-16	2024-11-23	\N
+1761	William Taylor	william.taylor1761@outlook.com	0576763208	M	1996-04-15	2025-03-06	17
+1762	Christopher Thomas	christopher.thomas1762@gmail.com	0772729520	M	1973-03-29	2024-09-29	\N
+1763	Donald Brown	donald.brown1763@gmail.com	0931305796	M	1994-08-04	2023-03-23	\N
+1764	James Smith	james.smith1764@yahoo.com	\N	M	1989-01-09	2023-09-20	\N
+1765	Linda Smith	linda.smith1765@mail.com	0586166343	F	\N	2025-04-22	1639
+1766	Sandra Martinez	sandra.martinez1766@gmail.com	0527905247	F	2000-05-28	2024-02-28	\N
+1767	Donald Brown	donald.brown1767@gmail.com	0927201457	M	\N	2025-11-16	72
+1768	Andrew Brown	andrew.brown1768@outlook.com	0926113331	M	1985-12-25	2025-12-29	\N
+1769	Betty Williams	betty.williams1769@gmail.com	0368680563	F	2003-01-22	2024-02-08	\N
+1770	Christopher Smith	christopher.smith1770@gmail.com	0350958830	M	1968-06-22	2025-07-01	\N
+1771	Amanda Hernandez	amanda.hernandez1771@yahoo.com	0744235781	F	1990-08-31	2023-08-18	\N
+1772	Christopher Smith	christopher.smith1772@gmail.com	0799891475	M	1975-11-23	2025-05-15	\N
+1773	Andrew Smith	andrew.smith1773@outlook.com	0918621206	M	2002-11-02	2024-04-25	\N
+1774	Deborah Smith	deborah.smith1774@gmail.com	0382911458	F	\N	2024-01-17	929
+1775	Robert Smith	robert.smith1775@mail.com	0301573812	M	1990-01-21	2025-11-18	\N
+1776	Margaret Smith	margaret.smith1776@gmail.com	\N	F	1973-06-13	2023-08-25	\N
+1777	Richard Williams	Richard.williams1777@gmail.com	0392372490	M	1998-03-14	2024-03-17	\N
+1778	John Brown	john.brown1778@gmail.com	0579667734	M	1984-11-08	2024-07-15	\N
+1779	Robert Martinez	robert.martinez1779@outlook.com	0504203926	M	1997-05-10	2025-11-15	\N
+1780	Barbara Johnson	barbara.johnson1780@gmail.com	0931517935	F	1998-02-25	2023-06-23	\N
+1781	Sandra Martinez	sandra.martinez1781@gmail.com	0724830622	F	1979-10-20	2025-05-09	\N
+1782	Amanda Garcia	amanda.garcia1782@gmail.com	0753894990	F	1991-08-27	2025-01-10	\N
+1783	Michelle Smith	michelle.smith1783@yahoo.com	0795799079	F	1989-12-29	2023-11-13	\N
+1784	Donald Rodriguez	donald.rodriguez1784@gmail.com	0521417180	M	2004-01-30	2024-05-28	\N
+1785	Susan Jones	susan.jones1785@mail.com	0733875774	F	1976-01-16	2025-04-04	\N
+1786	Mary Smith	mary.smith1786@mail.com	0397022007	F	\N	2023-08-31	\N
+1787	George Smith	george.smith1787@gmail.com	0540762411	M	1998-08-03	2023-11-19	582
+1788	Elizabeth Davis	elizabeth.davis1788@yahoo.com	0501932585	F	\N	2025-06-24	\N
+1789	John Miller	john.miller1789@outlook.com	0923785933	\N	1976-03-24	2025-08-27	\N
+1790	Donna Smith	donna.smith1790@mail.com	\N	F	1972-06-12	2024-04-24	\N
+1791	Michael Smith	michael.smith1791@gmail.com	0300967984	M	1967-09-13	2025-04-19	925
+1792	Sarah Taylor	sarah.taylor1792@gmail.com	0909318010	F	1990-09-09	2025-12-07	\N
+1793	Nancy Smith	nancy.smith1793@outlook.com	0943028905	F	1972-12-09	2024-04-23	\N
+1794	Amanda Johnson	amanda.johnson1794@gmail.com	0517693484	F	1976-03-01	2025-11-18	1027
+1795	Emily Smith	emily.smith1795@yahoo.com	0758525986	F	\N	2025-11-20	\N
+1796	Christopher Williams	christopher.williams1796@mail.com	0579977616	M	\N	2024-04-19	\N
+1797	Kimberly Smith	kimberly.smith1797@yahoo.com	0515606066	F	\N	2024-07-15	\N
+1798	Joseph Brown	joseph.brown1798@mail.com	0955662053	M	1968-10-10	2024-08-08	\N
+1799	Amanda Smith	amanda.smith1799@outlook.com	0333361282	\N	\N	2023-10-02	\N
+1800	Christopher Rodriguez	christopher.rodriguez1800@mail.com	0579014993	M	1990-02-19	2024-04-26	\N
+1801	Carol Smith	carol.smith1801@gmail.com	0371509175	F	2004-03-23	2024-11-26	\N
+1802	Richard Taylor	richard.taylor1802@gmail.com	0514436221	M	2000-09-12	2025-08-25	\N
+1803	Joshua Garcia	joshua.garcia1803@gmail.com	0720357439	\N	2001-04-24	2025-12-04	\N
+1804	Michael Smith	michael.smith1804@gmail.com	0301242068	M	2006-03-11	2025-05-05	\N
+1805	Amanda Johnson	amanda.johnson1805@gmail.com	0987510676	F	1978-09-26	2024-12-09	\N
+1806	Amanda Johnson	amanda.johnson1806@gmail.com	0700682160	F	1985-03-04	2025-12-30	\N
+1807	Susan Smith	susan.smith1807@gmail.com	0957765284	F	\N	2024-04-18	\N
+1808	Brian Miller	brian.miller1808@yahoo.com	\N	M	1970-10-11	2023-05-10	\N
+1809	Paul Martinez	paul.martinez1809@gmail.com	0906753789	M	1978-08-01	2025-06-12	\N
+1810	Joshua Smith	joshua.smith1810@gmail.com	0379429162	M	1974-03-30	2024-09-01	\N
+1811	Edward Brown	edward.brown1811@gmail.com	0394454506	M	1984-03-11	2025-01-18	\N
+1812	Steven Rodriguez	steven.rodriguez1812@gmail.com	0381025903	M	2002-02-17	2023-02-01	\N
+1813	Deborah Brown	deborah.brown1813@outlook.com	0746963988	F	\N	2023-03-28	\N
+1814	Daniel Taylor	daniel.taylor1814@gmail.com	0550336916	M	\N	2023-06-21	\N
+1815	Thomas Williams	thomas.williams1815@gmail.com	0394315186	\N	1997-06-24	2023-06-18	\N
+1816	Paul Smith	Paul.smith1816@mail.com	0957559617	M	\N	2024-08-05	459
+1817	Kevin Rodriguez	kevin.rodriguez1817@gmail.com	0786640767	M	\N	2025-06-06	\N
+1818	Donna Garcia	donna.garcia1818@outlook.com	0772133621	F	1993-07-19	2023-08-22	\N
+1819	Jennifer Smith	jennifer.smith1819@yahoo.com	0734124409	F	\N	2023-05-29	\N
+1820	Michael Johnson	michael.johnson1820@mail.com	0931602612	M	\N	2023-10-30	1189
+1821	Mary Smith	mary.smith1821@gmail.com	0958381927	F	1983-02-01	2024-10-19	\N
+1822	Carol Wilson	carol.wilson1822@gmail.com	0574859460	F	\N	2024-09-03	\N
+1823	Donna Davis	donna.davis1823@yahoo.com	0700931985	F	2000-09-03	2025-01-29	\N
+1824	Karen Smith	karen.smith1824@yahoo.com	0913773743	F	1965-07-19	2025-03-06	\N
+1825	Richard Lopez	richard.lopez1825@outlook.com	0763037769	M	1986-11-28	2025-03-20	\N
+1826	David Johnson	david.johnson1826@outlook.com	0728755769	M	1975-09-08	2025-11-04	\N
+1827	Jennifer Johnson	jennifer.johnson1827@outlook.com	0766620533	F	2000-07-23	2025-11-24	890
+1828	Andrew Smith	andrew.smith1828@gmail.com	\N	M	1978-09-07	2025-05-31	511
+1829	Betty Garcia	betty.garcia1829@gmail.com	0994880253	F	1982-07-02	2025-04-17	105
+1830	Daniel Martinez	daniel.martinez1830@mail.com	0920055875	\N	1989-08-29	2025-08-26	\N
+1831	Sandra Garcia	sandra.garcia1831@outlook.com	0724111718	F	1968-03-09	2024-10-01	\N
+1832	Barbara Miller	barbara.miller1832@yahoo.com	0553573421	F	1982-07-10	2023-04-15	\N
+1833	Christopher Brown	christopher.brown1833@yahoo.com	0770476049	M	1987-01-12	2025-06-19	\N
+1834	Sarah Hernandez	sarah.hernandez1834@gmail.com	\N	F	1995-01-07	2024-11-24	\N
+1835	Mark Smith	mark.smith1835@outlook.com	0507624842	M	1999-07-13	2024-12-13	\N
+1836	Michelle Smith	michelle.smith1836@outlook.com	0916177755	F	1995-01-23	2023-05-17	\N
+1837	Mary Martinez	mary.martinez1837@outlook.com	0947378826	F	\N	2025-02-01	\N
+1838	Emily Johnson	emily.johnson1838@gmail.com	0376498670	F	1973-12-25	2024-01-17	\N
+1839	Susan Johnson	susan.johnson1839@gmail.com	0731844477	F	1966-03-27	2023-07-20	1331
+1840	Jessica Brown	jessica.brown1840@mail.com	0913951034	F	2004-02-27	2025-08-15	\N
+1841	Betty Rodriguez	betty.rodriguez1841@gmail.com	0723908768	F	1973-12-24	2024-03-22	\N
+1842	Richard Smith	richard.smith1842@mail.com	0538604395	M	\N	2023-08-08	310
+1843	Amanda Davis	amanda.davis1843@gmail.com	0990491376	F	1991-07-10	2024-06-15	\N
+1844	Donna Rodriguez	donna.rodriguez1844@gmail.com	0563047913	F	1972-03-28	2023-11-18	\N
+1845	Brian Smith	brian.smith1845@yahoo.com	0941212872	\N	2002-10-21	2023-01-13	\N
+1846	Patricia Smith	patricia.smith1846@outlook.com	0544423334	F	1969-09-28	2024-10-27	\N
+1847	Ashley Smith	ashley.smith1847@outlook.com	0538535410	F	\N	2024-04-20	\N
+1848	Joseph Smith	joseph.smith1848@gmail.com	0714157918	M	\N	2023-12-06	\N
+1849	Brian Johnson	brian.johnson1849@gmail.com	0337258868	M	\N	2024-03-19	\N
+1850	Elizabeth Smith	elizabeth.smith1850@mail.com	0566451438	F	1995-05-15	2025-05-14	1510
+1851	Patricia Smith	patricia.smith1851@gmail.com	0730828862	F	1989-05-25	2024-06-06	\N
+1852	Ashley Rodriguez	ashley.rodriguez1852@gmail.com	0703660879	\N	1994-11-18	2024-08-20	\N
+1853	Ashley Rodriguez	ashley.rodriguez1853@mail.com	0915088349	F	2000-05-20	2024-03-20	\N
+1854	Michael Smith	michael.smith1854@mail.com	0983830550	M	\N	2025-02-22	\N
+1855	Deborah Smith	deborah.smith1855@mail.com	0597311405	F	1974-07-22	2025-11-21	\N
+1856	Donald Smith	donald.smith1856@yahoo.com	0317524282	\N	1995-07-11	2024-08-14	\N
+1857	Sarah Smith	sarah.smith1857@gmail.com	0535749517	F	1980-06-06	2025-03-29	\N
+1858	Nancy Lopez	nancy.lopez1858@yahoo.com	\N	F	\N	2024-02-29	\N
+1859	Carol Williams	carol.williams1859@gmail.com	0922526671	F	2001-01-07	2023-01-13	\N
+1860	George Smith	george.smith1860@yahoo.com	0580549943	M	\N	2024-06-23	1578
+1861	Robert Anderson	robert.anderson1861@mail.com	0566267054	M	1977-11-07	2025-03-04	\N
+1862	Edward Martinez	edward.martinez1862@gmail.com	0331730727	M	1986-01-06	2025-03-11	998
+1863	Barbara Wilson	barbara.wilson1863@mail.com	\N	F	\N	2024-07-27	\N
+1864	Nancy Davis	nancy.davis1864@mail.com	0739085096	F	1973-01-31	2023-12-20	\N
+1865	Betty Smith	betty.smith1865@gmail.com	0381847523	F	1971-03-16	2023-12-06	\N
+1866	Deborah Smith	deborah.smith1866@gmail.com	0748144232	F	1968-02-28	2024-01-28	\N
+1867	Paul Williams	paul.williams1867@gmail.com	0745167583	M	1991-05-02	2024-09-22	\N
+1868	Matthew Brown	matthew.brown1868@gmail.com	0987085370	M	1996-07-02	2025-10-31	691
+1869	Charles Williams	charles.williams1869@mail.com	0316329532	M	1975-07-05	2023-03-20	\N
+1870	Richard Johnson	richard.johnson1870@mail.com	0723557309	M	1998-08-01	2025-10-20	\N
+1871	Lisa Williams	lisa.williams1871@outlook.com	\N	F	1984-10-30	2023-10-28	\N
+1872	Sandra Smith	sandra.smith1872@gmail.com	0951910460	F	1995-08-05	2025-04-27	856
+1873	Joseph Johnson	joseph.johnson1873@mail.com	\N	M	2004-05-15	2024-04-26	\N
+1874	Betty Johnson	betty.johnson1874@gmail.com	0333221261	F	1969-07-21	2024-02-10	\N
+1875	William Thomas	william.thomas1875@gmail.com	0786723909	M	\N	2024-07-06	\N
+1876	Paul Rodriguez	paul.rodriguez1876@mail.com	0731263402	M	\N	2025-08-26	1608
+1877	Deborah Thomas	deborah.thomas1877@yahoo.com	\N	F	1991-12-27	2025-06-06	1022
+1878	Sarah Brown	sarah.brown1878@gmail.com	0987292771	F	1995-10-18	2025-11-08	\N
+1879	Richard Johnson	richard.johnson1879@outlook.com	0910872569	M	1973-09-22	2024-02-22	\N
+1880	Richard Johnson	richard.johnson1880@gmail.com	0335825788	M	\N	2024-07-19	\N
+1881	Joshua Brown	joshua.brown1881@yahoo.com	0570975503	M	1983-06-27	2025-07-14	\N
+1882	Emily Williams	emily.williams1882@yahoo.com	0374148533	F	1970-08-08	2024-07-07	\N
+1883	Andrew Taylor	andrew.taylor1883@gmail.com	0531735838	M	\N	2024-03-16	\N
+1884	Ashley Smith	ashley.smith1884@yahoo.com	0375755436	F	1991-10-08	2024-01-07	\N
+1885	Daniel Johnson	daniel.johnson1885@outlook.com	0996839851	M	\N	2025-09-21	\N
+1886	Matthew Johnson	matthew.johnson1886@mail.com	0964265948	\N	1981-11-30	2024-09-28	343
+1887	Michael Garcia	michael.garcia1887@gmail.com	0936728623	M	\N	2025-07-14	\N
+1888	Michelle Rodriguez	michelle.rodriguez1888@gmail.com	0963975365	F	1970-10-12	2025-01-12	821
+1889	Patricia Miller	patricia.miller1889@gmail.com	0739512989	F	1999-02-21	2025-12-24	146
+1890	Andrew Johnson	andrew.johnson1890@outlook.com	0306199285	M	1998-04-23	2023-12-19	\N
+1891	Andrew Smith	andrew.smith1891@gmail.com	0387408965	M	1976-09-12	2023-08-04	1644
+1892	Kevin Brown	kevin.brown1892@gmail.com	0946639557	M	\N	2025-09-27	\N
+1893	Edward Smith	edward.smith1893@mail.com	0788640650	M	1978-01-17	2025-06-09	\N
+1894	Paul Jones	paul.jones1894@gmail.com	0521158724	M	2006-02-23	2025-09-05	\N
+1895	Richard Johnson	richard.johnson1895@gmail.com	0547181165	M	1983-08-24	2023-12-05	\N
+1896	Lisa Smith	lisa.smith1896@gmail.com	\N	F	1969-08-08	2024-02-11	\N
+1897	Michael Thomas	michael.thomas1897@gmail.com	0579824333	M	\N	2024-01-08	\N
+1898	Steven Smith	steven.smith1898@yahoo.com	\N	M	2005-11-28	2025-07-05	\N
+1899	Steven Lopez	steven.lopez1899@gmail.com	0568526628	M	1990-08-17	2025-06-03	\N
+1900	Patricia Hernandez	patricia.hernandez1900@yahoo.com	\N	F	\N	2024-12-27	\N
+1901	Brian Smith	brian.smith1901@gmail.com	0378078191	M	1999-08-15	2023-01-21	\N
+1902	Betty Smith	betty.smith1902@gmail.com	\N	F	1973-11-01	2025-08-09	\N
+1903	Karen Garcia	karen.garcia1903@outlook.com	0750252905	F	\N	2024-01-02	\N
+1904	Donna Smith	donna.smith1904@mail.com	0980474455	F	1966-12-30	2025-09-04	1451
+1905	James Miller	james.miller1905@outlook.com	0970843075	M	1972-11-04	2025-01-23	\N
+1906	Andrew Davis	andrew.davis1906@gmail.com	0901980531	M	1977-01-24	2025-10-20	\N
+1907	Lisa Williams	lisa.williams1907@yahoo.com	0558760255	F	1992-01-10	2023-10-21	\N
+1908	Amanda Jones	amanda.jones1908@mail.com	0584445302	F	1985-08-13	2025-09-24	\N
+1909	Sandra Johnson	sandra.johnson1909@mail.com	0585122144	F	1992-09-30	2025-08-10	\N
+1910	Paul Rodriguez	paul.rodriguez1910@gmail.com	0986319794	M	\N	2024-04-04	\N
+1911	Sarah Lopez	sarah.lopez1911@gmail.com	0962922424	F	1982-01-05	2024-11-02	\N
+1912	Sandra Brown	sandra.brown1912@yahoo.com	0362018141	F	2006-10-11	2025-05-15	693
+1913	Michael Taylor	michael.taylor1913@gmail.com	0577349409	M	1994-09-27	2024-10-25	\N
+1914	James Johnson	james.johnson1914@mail.com	0998828636	M	1998-10-30	2024-09-12	1188
+1915	Barbara Davis	barbara.davis1915@yahoo.com	0936484661	F	\N	2024-12-06	\N
+1916	Andrew Williams	andrew.williams1916@gmail.com	0909302706	M	\N	2024-11-27	\N
+1917	Brian Jones	brian.jones1917@gmail.com	0735073832	M	1980-10-13	2024-04-03	\N
+1918	Nancy Smith	nancy.smith1918@gmail.com	0903177377	F	1992-08-16	2025-09-19	\N
+1919	Linda Jones	linda.jones1919@gmail.com	0322034945	F	\N	2025-01-23	1220
+1920	Jessica Johnson	jessica.johnson1920@gmail.com	\N	F	1987-02-03	2025-04-06	271
+1921	Steven Williams	steven.williams1921@mail.com	0740723146	M	1988-04-26	2024-05-13	\N
+1922	Michael Jones	michael.jones1922@gmail.com	0334756123	M	1989-04-01	2023-08-13	\N
+1923	Jennifer Taylor	jennifer.taylor1923@gmail.com	0906643086	F	\N	2025-11-09	\N
+1924	Matthew Johnson	matthew.johnson1924@gmail.com	0733534099	M	1998-01-01	2024-04-03	\N
+1925	Brian Garcia	brian.garcia1925@yahoo.com	0339428064	M	2003-11-07	2024-07-16	\N
+1926	Anthony Smith	anthony.smith1926@yahoo.com	0522645388	M	\N	2023-08-03	\N
+1927	Emily Davis	emily.davis1927@gmail.com	0944547065	F	2004-01-03	2023-05-11	\N
+1928	Linda Smith	linda.smith1928@gmail.com	0754940946	F	\N	2024-05-04	1924
+1929	Betty Johnson	betty.johnson1929@gmail.com	0919501054	F	1985-04-03	2024-01-21	\N
+1930	Joseph Smith	joseph.smith1930@gmail.com	0988454732	M	1968-01-24	2025-11-10	\N
+1931	Edward Wilson	edward.wilson1931@yahoo.com	0562910428	M	\N	2025-06-30	1054
+1932	Sandra Williams	sandra.williams1932@gmail.com	\N	F	2006-01-11	2025-05-04	\N
+1933	Susan Brown	susan.brown1933@gmail.com	0544622841	F	\N	2024-01-09	\N
+1934	David Hernandez	david.hernandez1934@gmail.com	0913917875	M	\N	2025-04-07	1377
+1935	Barbara Williams	barbara.williams1935@outlook.com	0318631042	F	\N	2023-06-13	1562
+1936	Jennifer Smith	jennifer.smith1936@gmail.com	0952288875	F	1995-02-12	2025-03-01	\N
+1937	Mary Hernandez	mary.hernandez1937@yahoo.com	\N	F	2006-09-23	2025-10-12	\N
+1938	Matthew Smith	matthew.smith1938@outlook.com	0358710259	M	1975-05-27	2023-06-05	\N
+1939	James Garcia	james.garcia1939@gmail.com	0382619582	M	1973-10-23	2025-08-14	\N
+1940	Linda Smith	linda.smith1940@gmail.com	0543661103	\N	1982-11-26	2025-01-20	\N
+1941	Sarah Smith	sarah.smith1941@gmail.com	0326649623	F	1972-04-19	2025-03-05	\N
+1942	Mary Martinez	mary.martinez1942@gmail.com	0928149058	F	1989-03-31	2024-12-06	\N
+1943	Mark Garcia	mark.garcia1943@yahoo.com	0555426931	M	1968-06-13	2024-05-12	\N
+1944	Donald Smith	donald.smith1944@mail.com	0597426855	M	1984-08-10	2025-08-24	\N
+1945	Christopher Brown	christopher.brown1945@gmail.com	\N	M	1974-05-09	2024-10-16	\N
+1946	Charles Smith	charles.smith1946@gmail.com	0360543088	M	1972-12-27	2025-11-15	\N
+1947	Kevin Hernandez	kevin.hernandez1947@mail.com	0968779419	M	1997-01-02	2023-06-29	\N
+1948	William Johnson	william.johnson1948@yahoo.com	0936428701	\N	1988-11-27	2025-07-09	\N
+1949	Robert Martinez	robert.martinez1949@mail.com	0938479282	M	\N	2023-10-15	\N
+1950	Betty Smith	betty.smith1950@yahoo.com	\N	F	\N	2023-07-09	\N
+1951	Daniel Johnson	daniel.johnson1951@outlook.com	0545444841	\N	\N	2025-05-21	1633
+1952	Karen Martinez	karen.martinez1952@yahoo.com	0972512238	F	\N	2023-02-25	\N
+1953	Karen Brown	karen.brown1953@yahoo.com	\N	F	1971-02-20	2024-12-07	\N
+1954	Nancy Smith	nancy.smith1954@gmail.com	0798592132	F	1973-12-11	2023-05-08	\N
+1955	Melissa Smith	Melissa.smith1955@gmail.com	\N	F	1977-05-28	2023-08-12	\N
+1956	Brian Taylor	brian.taylor1956@gmail.com	0313487788	M	2000-02-22	2024-02-09	\N
+1957	Andrew Davis	andrew.davis1957@yahoo.com	0552417253	M	1972-03-05	2024-01-05	\N
+1958	Michelle Smith	michelle.smith1958@gmail.com	0919352128	F	1976-02-17	2025-08-17	\N
+1959	Brian Taylor	brian.taylor1959@gmail.com	\N	M	1998-08-23	2025-05-28	\N
+1960	Jessica Johnson	jessica.johnson1960@yahoo.com	0781277342	F	\N	2025-05-31	1876
+1961	Edward Johnson	edward.johnson1961@gmail.com	0985006361	M	2003-01-13	2024-06-10	\N
+1962	Steven Lopez	steven.lopez1962@mail.com	0735181524	M	1968-10-04	2024-06-26	\N
+1963	James Lopez	james.lopez1963@mail.com	0370401522	M	1974-12-31	2025-01-02	\N
+1964	Ashley Brown	ashley.brown1964@mail.com	0978341831	F	1981-03-01	2025-12-19	\N
+1965	Joshua Williams	Joshua.williams1965@yahoo.com	0945204037	M	1969-01-13	2024-11-12	1899
+1966	Andrew Johnson	andrew.johnson1966@outlook.com	0948535641	M	2002-04-06	2023-12-15	\N
+1967	Robert Williams	robert.williams1967@mail.com	0942448114	M	1997-05-08	2024-05-13	\N
+1968	James Smith	james.smith1968@gmail.com	0377251718	M	1990-11-30	2025-12-11	\N
+1969	William Garcia	william.garcia1969@gmail.com	0720721740	M	1979-09-14	2023-11-27	\N
+1970	Edward Garcia	edward.garcia1970@gmail.com	0398032642	M	2003-04-01	2024-01-29	\N
+1971	Matthew Garcia	matthew.garcia1971@mail.com	0976216723	M	\N	2024-07-15	\N
+1972	Emily Smith	emily.smith1972@outlook.com	0364789526	F	\N	2023-12-05	505
+1973	Charles Miller	charles.miller1973@gmail.com	\N	M	\N	2025-12-09	\N
+1974	Matthew Johnson	matthew.johnson1974@gmail.com	0513185775	\N	1990-05-01	2024-08-03	\N
+1975	Charles Smith	charles.smith1975@gmail.com	0905639660	M	2006-05-02	2025-05-17	553
+1976	Linda Martinez	linda.martinez1976@gmail.com	0347389246	F	2003-07-19	2025-10-09	398
+1977	Richard Smith	richard.smith1977@yahoo.com	0743207714	M	\N	2024-04-25	\N
+1978	Mark Smith	mark.smith1978@gmail.com	0944796933	M	\N	2025-10-02	\N
+1979	Betty Rodriguez	betty.rodriguez1979@gmail.com	\N	F	1986-04-02	2025-02-01	\N
+1980	Mark Smith	mark.smith1980@outlook.com	\N	M	1965-02-17	2025-09-10	\N
+1981	Sarah Johnson	sarah.johnson1981@yahoo.com	0365122580	F	1981-03-17	2023-09-20	\N
+1982	Anthony Brown	anthony.brown1982@outlook.com	0500789285	M	1965-09-07	2024-03-04	\N
+1983	Mary Williams	mary.williams1983@mail.com	0769423654	F	1973-04-30	2025-02-11	\N
+1984	Betty Smith	betty.smith1984@gmail.com	0361654501	F	1971-03-30	2025-02-06	\N
+1985	Richard Williams	richard.williams1985@gmail.com	0732635054	M	\N	2024-01-19	\N
+1986	Edward Johnson	edward.johnson1986@mail.com	\N	M	\N	2024-05-19	\N
+1987	Donald Smith	Donald.smith1987@gmail.com	0706879549	M	1976-05-14	2024-02-06	\N
+1988	Anthony Johnson	anthony.johnson1988@outlook.com	0588745153	M	1999-04-11	2023-05-19	\N
+1989	Thomas Rodriguez	thomas.rodriguez1989@gmail.com	0724136589	M	\N	2025-06-20	\N
+1990	Deborah Williams	deborah.williams1990@yahoo.com	0767154772	F	\N	2024-10-02	576
+1991	Deborah Thomas	deborah.thomas1991@yahoo.com	0586693856	F	1988-09-07	2025-09-24	\N
+1992	George Smith	george.smith1992@outlook.com	0522822134	M	1993-02-14	2024-08-08	\N
+1993	Brian Williams	brian.williams1993@gmail.com	0998389744	M	1987-07-16	2025-11-02	964
+1994	Andrew Johnson	andrew.johnson1994@mail.com	0928839944	M	1982-05-20	2024-06-27	\N
+1995	Kimberly Smith	kimberly.smith1995@yahoo.com	0521029026	F	\N	2023-06-09	\N
+1996	Melissa Thomas	melissa.thomas1996@gmail.com	0321094659	F	1972-10-10	2025-03-26	1074
+1997	David Taylor	david.taylor1997@outlook.com	0525216517	M	\N	2024-04-08	\N
+1998	Sandra Martinez	sandra.martinez1998@gmail.com	0968397344	F	\N	2025-11-02	\N
+1999	Jennifer Hernandez	jennifer.hernandez1999@gmail.com	0915895570	F	1967-06-12	2025-11-18	\N
+2000	Sarah Davis	sarah.davis2000@gmail.com	0531883272	\N	1985-03-28	2025-05-10	663
+2001	Richard Williams	richard.williams2001@mail.com	0955126260	M	1976-09-16	2024-10-15	\N
+2002	Mary Smith	mary.smith2002@yahoo.com	0774984890	F	\N	2023-06-03	\N
+2003	Susan Smith	susan.smith2003@gmail.com	0572868156	F	2002-10-31	2024-05-26	\N
+2004	Nancy Smith	nancy.smith2004@gmail.com	0797265407	F	\N	2024-05-02	\N
+2005	Charles Williams	charles.williams2005@gmail.com	0737772641	M	1966-08-11	2024-11-27	\N
+2006	Emily Smith	emily.smith2006@gmail.com	0537398078	F	\N	2023-10-16	\N
+2007	Carol Johnson	carol.johnson2007@gmail.com	0503709213	F	1993-01-09	2023-12-23	46
+2008	Margaret Williams	margaret.williams2008@outlook.com	0944269457	F	\N	2024-07-30	\N
+2009	Christopher Davis	christopher.davis2009@mail.com	\N	M	1971-10-31	2024-11-10	476
+2010	Karen Martinez	karen.martinez2010@mail.com	0336873243	F	1984-02-07	2025-05-16	\N
+2011	Charles Smith	charles.smith2011@gmail.com	0966514412	\N	\N	2025-11-23	\N
+2012	Edward Smith	edward.smith2012@mail.com	0368264589	M	1973-02-16	2024-06-09	\N
+2013	Sarah Williams	sarah.williams2013@gmail.com	0562193058	F	1966-10-26	2025-09-18	905
+2014	Betty Miller	betty.miller2014@mail.com	0925079851	F	1995-11-22	2024-06-29	\N
+2015	Donna Rodriguez	donna.rodriguez2015@outlook.com	0706523369	F	\N	2023-12-29	\N
+2016	Edward Smith	edward.smith2016@gmail.com	0715031095	M	1972-09-28	2025-07-22	\N
+2017	John Wilson	john.wilson2017@outlook.com	0925691563	M	\N	2024-07-19	\N
+2018	Brian Garcia	brian.garcia2018@gmail.com	0723887190	M	2001-09-12	2025-02-17	1670
+2019	Patricia Smith	patricia.smith2019@yahoo.com	0915518559	F	1984-09-20	2025-03-08	141
+2020	Joshua Taylor	joshua.taylor2020@outlook.com	0565760662	M	\N	2023-02-23	\N
+2021	David Garcia	david.garcia2021@yahoo.com	\N	M	1971-06-24	2024-10-22	\N
+2022	Brian Smith	brian.smith2022@gmail.com	0381212599	M	1971-09-22	2024-06-17	\N
+2023	Elizabeth Davis	Elizabeth.davis2023@gmail.com	0334881190	F	1998-07-08	2024-04-07	\N
+2024	Andrew Davis	Andrew.davis2024@yahoo.com	0551362880	M	\N	2024-05-19	\N
+2025	Anthony Johnson	anthony.johnson2025@gmail.com	0506827382	M	\N	2023-05-19	\N
+2026	Jessica Smith	jessica.smith2026@mail.com	0350644545	F	1979-09-14	2024-12-18	\N
+2027	Daniel Johnson	daniel.johnson2027@gmail.com	0920034960	M	\N	2024-12-09	\N
+2028	Mark Smith	mark.smith2028@gmail.com	0367096495	M	1975-08-06	2023-07-30	\N
+2029	Barbara Davis	barbara.davis2029@gmail.com	0727903457	F	1971-05-04	2025-01-28	1689
+2030	Patricia Smith	patricia.smith2030@gmail.com	0506606248	F	1988-11-01	2024-12-25	\N
+2031	Lisa Jones	lisa.jones2031@yahoo.com	0757811325	F	\N	2024-12-23	\N
+2032	Joshua Williams	joshua.williams2032@mail.com	0593991178	M	1976-10-17	2025-02-15	\N
+2033	Patricia Smith	patricia.smith2033@gmail.com	0966962989	F	\N	2025-01-21	\N
+2034	Sarah Wilson	sarah.wilson2034@outlook.com	0905238534	F	1999-07-02	2025-01-27	\N
+2035	John Lopez	john.lopez2035@mail.com	\N	M	2000-10-21	2025-12-22	\N
+2036	Margaret Johnson	margaret.johnson2036@gmail.com	0716729070	F	1994-02-01	2024-06-28	\N
+2037	Edward Hernandez	edward.hernandez2037@yahoo.com	0518399751	M	1972-04-21	2024-09-16	\N
+2038	Deborah Smith	deborah.smith2038@gmail.com	0343133756	F	2004-05-05	2025-12-10	1960
+2039	Richard Johnson	richard.johnson2039@mail.com	\N	M	2001-09-08	2024-11-18	\N
+2040	Barbara Davis	barbara.davis2040@outlook.com	0937147292	F	\N	2025-12-19	\N
+2041	Margaret Williams	margaret.williams2041@gmail.com	0510845557	F	\N	2025-11-07	\N
+2042	Christopher Hernandez	christopher.hernandez2042@gmail.com	0500159062	M	1967-12-25	2025-09-03	54
+2043	Barbara Williams	barbara.williams2043@mail.com	0320420905	F	2004-11-20	2025-09-24	\N
+2044	Donald Brown	donald.brown2044@outlook.com	0529645511	M	2006-03-21	2024-08-13	\N
+2045	Paul Johnson	paul.johnson2045@gmail.com	0776449811	M	1986-11-28	2025-08-17	\N
+2046	Michael Johnson	michael.johnson2046@outlook.com	0776388074	M	1995-04-16	2025-04-11	\N
+2047	George Miller	george.miller2047@gmail.com	0707683163	M	1968-08-23	2024-04-12	\N
+2048	Andrew Smith	andrew.smith2048@mail.com	\N	M	1993-10-07	2025-08-13	\N
+2049	Susan Garcia	susan.garcia2049@gmail.com	0577018523	F	1966-04-13	2025-01-06	\N
+2050	Michael Anderson	michael.anderson2050@outlook.com	0500493737	M	1975-11-23	2024-06-03	\N
+2051	Mark Smith	mark.smith2051@yahoo.com	0504054585	M	\N	2023-04-24	\N
+2052	Thomas Smith	thomas.smith2052@mail.com	0323246991	M	\N	2025-07-17	\N
+2053	Donald Brown	donald.brown2053@yahoo.com	0353092525	M	\N	2025-10-08	369
+2054	George Miller	george.miller2054@gmail.com	0596296092	M	1984-04-06	2023-09-23	\N
+2055	Barbara Smith	barbara.smith2055@gmail.com	0345104231	F	1986-11-19	2023-07-31	\N
+2056	Betty Miller	Betty.miller2056@yahoo.com	0936553283	F	\N	2025-01-30	\N
+2057	Richard Brown	richard.brown2057@gmail.com	0791683877	M	1974-09-21	2024-09-23	\N
+2058	Mark Rodriguez	mark.rodriguez2058@outlook.com	0307917364	M	1989-12-13	2023-08-05	612
+2059	Amanda Smith	amanda.smith2059@gmail.com	0961320316	F	1979-01-11	2024-05-26	\N
+2060	Donna Lopez	donna.lopez2060@mail.com	0793152692	\N	1967-07-13	2025-07-07	\N
+2061	Michelle Brown	michelle.brown2061@gmail.com	0915072854	F	1967-12-06	2024-08-17	\N
+2062	Michelle Garcia	michelle.garcia2062@outlook.com	0710254639	\N	\N	2024-02-05	175
+2063	Susan Brown	susan.brown2063@gmail.com	0505611631	F	1979-05-04	2024-03-05	\N
+2064	Christopher Johnson	christopher.johnson2064@gmail.com	0994740653	M	1981-08-27	2025-09-28	\N
+2065	Barbara Jones	barbara.jones2065@gmail.com	0344570450	F	1997-10-19	2023-12-09	\N
+2066	Christopher Rodriguez	christopher.rodriguez2066@yahoo.com	0345146980	M	\N	2025-08-15	623
+2067	Ashley Brown	ashley.brown2067@gmail.com	0573498375	F	1970-02-19	2023-03-05	\N
+2068	Matthew Williams	matthew.williams2068@gmail.com	0925049693	M	1969-03-13	2023-10-06	\N
+2069	William Williams	william.williams2069@gmail.com	0796551571	M	1999-03-08	2023-06-01	\N
+2070	Karen Smith	karen.smith2070@mail.com	0523364359	F	1972-12-19	2023-09-02	\N
+2071	Thomas Brown	thomas.brown2071@gmail.com	\N	M	1984-03-27	2024-05-04	433
+2072	Sandra Jones	sandra.jones2072@gmail.com	0993710159	F	1987-08-16	2024-12-23	\N
+2073	John Martinez	john.martinez2073@outlook.com	\N	M	1967-04-21	2023-04-27	\N
+2074	Jessica Johnson	jessica.johnson2074@yahoo.com	0318957903	F	1966-08-05	2024-09-07	\N
+2075	George Smith	george.smith2075@gmail.com	0720971784	M	\N	2024-06-13	\N
+2076	Barbara Smith	barbara.smith2076@gmail.com	0749213566	\N	\N	2025-08-29	\N
+2077	Steven Smith	steven.smith2077@mail.com	\N	M	\N	2025-10-05	\N
+2078	Patricia Johnson	patricia.johnson2078@outlook.com	0515993462	\N	1981-03-17	2025-12-30	\N
+2079	Steven Johnson	steven.johnson2079@gmail.com	0347416961	M	\N	2025-10-25	\N
+2080	Donna Hernandez	donna.hernandez2080@gmail.com	0777269430	F	2003-05-03	2025-10-28	\N
+2081	Betty Miller	betty.miller2081@yahoo.com	0780362756	F	1972-01-02	2024-04-28	\N
+2082	Edward Smith	edward.smith2082@outlook.com	0315576051	M	1986-12-05	2025-07-28	\N
+2083	Sarah Williams	sarah.williams2083@gmail.com	0984833061	F	1990-04-08	2024-08-28	\N
+2084	Donna Johnson	donna.johnson2084@yahoo.com	0302999368	F	\N	2023-12-12	\N
+2085	Daniel Smith	daniel.smith2085@mail.com	0311362780	M	\N	2025-01-29	\N
+2086	Melissa Williams	melissa.williams2086@outlook.com	0529101345	F	1976-09-13	2025-02-24	\N
+2087	Amanda Miller	Amanda.miller2087@gmail.com	0503344407	F	\N	2024-02-13	\N
+2088	Barbara Taylor	barbara.taylor2088@gmail.com	0980924105	F	\N	2025-06-03	\N
+2089	Anthony Garcia	anthony.garcia2089@mail.com	0372038146	M	1989-12-28	2024-11-07	\N
+2090	Linda Hernandez	linda.hernandez2090@gmail.com	0928729797	F	\N	2023-02-23	\N
+2091	William Johnson	william.johnson2091@gmail.com	0542427728	M	1967-08-16	2024-04-12	\N
+2092	Joshua Smith	Joshua.smith2092@outlook.com	0956843296	M	1978-11-14	2024-07-13	\N
+2093	Carol Johnson	carol.johnson2093@gmail.com	0560614819	F	1982-08-25	2025-02-10	\N
+2094	Jessica Rodriguez	jessica.rodriguez2094@gmail.com	0544378217	F	\N	2024-01-01	\N
+2095	Karen Brown	karen.brown2095@gmail.com	0550013612	F	\N	2025-02-15	\N
+2096	Margaret Johnson	margaret.johnson2096@gmail.com	\N	F	1989-04-26	2023-04-11	\N
+2097	Karen Smith	karen.smith2097@mail.com	0917808038	F	1982-09-22	2025-11-24	\N
+2098	Robert Johnson	robert.johnson2098@yahoo.com	\N	M	1999-05-27	2024-05-20	\N
+2099	Charles Smith	charles.smith2099@mail.com	0395619003	M	1989-08-23	2025-03-19	\N
+2100	Carol Jones	Carol.jones2100@mail.com	0917332879	F	1969-05-26	2024-08-04	39
+2101	Lisa Smith	lisa.smith2101@outlook.com	0505961875	F	1989-01-12	2024-12-05	1409
+2102	Kevin Smith	kevin.smith2102@yahoo.com	0795001776	M	2001-09-17	2024-11-26	\N
+2103	Mary Williams	mary.williams2103@gmail.com	0919046619	F	\N	2025-04-21	1809
+2104	George Williams	george.williams2104@yahoo.com	0722251218	M	1997-04-23	2024-08-23	\N
+2105	Paul Johnson	paul.johnson2105@gmail.com	0963075190	M	1972-02-15	2025-12-18	\N
+2106	Kimberly Taylor	kimberly.taylor2106@mail.com	\N	F	1972-09-27	2024-04-06	\N
+2107	Betty Brown	betty.brown2107@gmail.com	0552970240	F	1979-04-27	2024-10-15	1847
+2108	Kevin Smith	kevin.smith2108@outlook.com	0997340631	M	1999-05-18	2025-03-27	\N
+2109	Michelle Garcia	michelle.garcia2109@gmail.com	0345275543	F	1980-02-08	2025-06-19	\N
+2110	Donald Garcia	donald.garcia2110@gmail.com	0541946492	M	2006-01-09	2024-04-09	\N
+2111	Margaret Martinez	margaret.martinez2111@gmail.com	0795279645	F	1966-11-24	2024-02-16	\N
+2112	David Wilson	david.wilson2112@gmail.com	0948305487	\N	\N	2025-11-29	\N
+2113	Deborah Brown	deborah.brown2113@gmail.com	0985247137	F	2001-11-15	2024-08-15	\N
+2114	Sarah Anderson	sarah.anderson2114@outlook.com	0722933963	F	1985-02-08	2023-06-04	588
+2115	William Smith	william.smith2115@gmail.com	0908786506	M	\N	2024-09-28	\N
+2116	Daniel Smith	daniel.smith2116@gmail.com	0515899405	M	\N	2025-01-03	\N
+2117	Sandra Smith	sandra.smith2117@yahoo.com	0903408658	F	2000-12-21	2023-12-13	\N
+2118	Michelle Smith	michelle.smith2118@gmail.com	0701367610	F	1976-05-25	2025-12-26	2096
+2119	Steven Anderson	steven.anderson2119@gmail.com	0532676714	M	1992-10-16	2025-01-15	\N
+2120	Elizabeth Smith	elizabeth.smith2120@gmail.com	0551811736	F	\N	2023-08-25	\N
+2121	David Smith	david.smith2121@gmail.com	0966348426	\N	1993-11-03	2025-12-19	962
+2122	David Johnson	david.johnson2122@yahoo.com	0994785639	M	\N	2025-07-28	\N
+2123	Emily Brown	emily.brown2123@outlook.com	0594691140	F	1972-01-02	2025-02-03	\N
+2124	Sandra Johnson	sandra.johnson2124@outlook.com	0992323233	\N	1968-10-04	2025-07-23	\N
+2125	Mary Johnson	mary.johnson2125@yahoo.com	0733269239	F	1986-12-10	2024-11-25	\N
+2126	Paul Smith	paul.smith2126@gmail.com	0302053130	M	1995-07-13	2024-09-08	\N
+2127	Ashley Anderson	ashley.anderson2127@gmail.com	0363014992	F	2000-12-13	2025-12-19	\N
+2128	Joseph Jones	joseph.jones2128@gmail.com	0550586892	M	1981-11-26	2025-04-14	\N
+2129	Deborah Smith	deborah.smith2129@gmail.com	0985842700	F	1992-09-30	2024-09-03	\N
+2130	Melissa Johnson	melissa.johnson2130@outlook.com	0799308783	F	1969-04-02	2025-04-17	\N
+2131	Joshua Miller	joshua.miller2131@gmail.com	0580433121	M	2006-12-16	2024-09-04	\N
+2132	Steven Johnson	steven.johnson2132@outlook.com	0328086768	M	1985-07-26	2024-07-28	\N
+2133	Linda Miller	linda.miller2133@gmail.com	0511097193	F	2002-02-01	2024-10-19	1644
+2134	Jessica Brown	jessica.brown2134@mail.com	0316383729	F	1997-04-15	2023-05-07	611
+2135	Mark Rodriguez	mark.rodriguez2135@yahoo.com	0944794805	M	2000-01-20	2023-09-12	\N
+2136	Deborah Jones	deborah.jones2136@gmail.com	0726361060	F	1997-06-01	2025-12-24	1559
+2137	Margaret Smith	margaret.smith2137@gmail.com	0927910552	F	1971-11-21	2024-09-05	\N
+2138	Karen Brown	karen.brown2138@gmail.com	0508840037	F	1984-05-14	2023-04-20	\N
+2139	Elizabeth Thomas	elizabeth.thomas2139@gmail.com	0939706164	F	1975-09-07	2023-12-17	\N
+2140	Matthew Brown	matthew.brown2140@gmail.com	\N	M	1991-06-22	2025-01-30	\N
+2141	Amanda Wilson	amanda.wilson2141@outlook.com	0796327322	F	1975-12-13	2024-09-28	\N
+2142	Deborah Smith	deborah.smith2142@gmail.com	0793247575	F	1986-05-18	2025-11-09	\N
+2143	Kimberly Smith	kimberly.smith2143@mail.com	0905619557	F	1988-08-07	2025-12-12	\N
+2144	Nancy Brown	nancy.brown2144@gmail.com	0332906282	F	1994-06-07	2023-10-01	\N
+2145	Andrew Martinez	andrew.martinez2145@yahoo.com	0325143161	M	1997-03-30	2024-10-01	\N
+2146	Margaret Smith	margaret.smith2146@mail.com	0563862899	F	\N	2025-07-24	\N
+2147	Sandra Brown	sandra.brown2147@gmail.com	0541183703	F	\N	2025-03-09	\N
+2148	Joseph Smith	joseph.smith2148@mail.com	0522791754	M	1983-06-07	2025-08-28	\N
+2149	Amanda Smith	amanda.smith2149@gmail.com	0938748168	F	1973-10-25	2025-12-05	1701
+2150	Charles Williams	charles.williams2150@gmail.com	0971291823	M	1973-10-28	2025-10-28	\N
+2151	James Smith	james.smith2151@mail.com	0915050659	M	1966-10-26	2024-03-04	\N
+2152	David Brown	david.brown2152@mail.com	0909497891	M	2004-03-29	2024-05-10	1496
+2153	Paul Jones	paul.jones2153@gmail.com	0513465753	M	\N	2025-08-07	\N
+2154	Barbara Johnson	barbara.johnson2154@gmail.com	0387667524	F	2006-02-18	2025-02-12	1473
+2155	William Smith	william.smith2155@mail.com	0369420637	M	1995-07-01	2023-03-07	\N
+2156	Joshua Hernandez	joshua.hernandez2156@gmail.com	0357195123	M	\N	2024-08-07	1762
+2157	Michael Williams	michael.williams2157@gmail.com	0379970409	M	\N	2025-11-14	\N
+2158	Joseph Thomas	joseph.thomas2158@yahoo.com	0759935067	M	1978-07-17	2025-05-18	\N
+2159	Amanda Smith	amanda.smith2159@yahoo.com	0364868750	F	1974-10-16	2025-07-30	\N
+2160	Michelle Martinez	michelle.martinez2160@gmail.com	0342396453	F	\N	2025-05-27	\N
+2161	Elizabeth Smith	elizabeth.smith2161@gmail.com	0346496296	F	1978-10-21	2024-11-13	\N
+2162	Betty Hernandez	betty.hernandez2162@outlook.com	0901100069	F	\N	2025-07-29	\N
+2163	Charles Smith	charles.smith2163@mail.com	0950515915	M	1976-08-03	2024-11-15	\N
+2164	Nancy Hernandez	nancy.hernandez2164@outlook.com	0337963504	F	1983-06-03	2023-06-17	546
+2165	Richard Davis	richard.davis2165@gmail.com	0528051815	M	1965-07-03	2023-12-16	\N
+2166	Elizabeth Brown	elizabeth.brown2166@yahoo.com	\N	F	\N	2023-11-17	\N
+2167	Carol Wilson	carol.wilson2167@gmail.com	0700779109	F	1971-03-16	2024-11-13	\N
+2168	David Smith	david.smith2168@mail.com	0311749577	M	1988-02-07	2025-03-07	\N
+2169	Amanda Jones	amanda.jones2169@yahoo.com	0587238839	F	1996-08-27	2025-10-18	1295
+2170	Daniel Smith	daniel.smith2170@yahoo.com	0585571661	M	2005-01-04	2025-08-01	\N
+2171	Edward Smith	edward.smith2171@gmail.com	\N	M	1976-11-14	2023-10-03	\N
+2172	Kevin Smith	kevin.smith2172@yahoo.com	0941857928	M	1992-05-29	2025-12-25	\N
+2173	Kimberly Brown	kimberly.brown2173@gmail.com	0371765678	F	2005-04-16	2025-05-24	\N
+2174	Thomas Smith	thomas.smith2174@outlook.com	0957172598	M	2003-05-08	2024-07-03	\N
+2175	Mark Smith	mark.smith2175@gmail.com	0904460657	M	1989-03-08	2025-01-02	\N
+2176	Brian Smith	brian.smith2176@gmail.com	0950846673	M	1978-09-08	2024-10-19	\N
+2177	Joshua Smith	joshua.smith2177@outlook.com	\N	M	1986-04-28	2025-06-01	\N
+2178	Thomas Lopez	thomas.lopez2178@mail.com	\N	M	1973-10-27	2024-06-08	\N
+2179	Michael Johnson	Michael.johnson2179@mail.com	0581570309	\N	1987-01-15	2024-12-08	1572
+2180	Daniel Johnson	daniel.johnson2180@gmail.com	0997628402	M	1984-02-19	2025-07-07	\N
+2181	Daniel Martinez	daniel.martinez2181@gmail.com	0510225823	M	1983-12-20	2023-03-25	\N
+2182	Edward Taylor	edward.taylor2182@mail.com	0744881485	M	2006-08-07	2024-03-20	233
+2183	Daniel Miller	daniel.miller2183@yahoo.com	0510759230	M	1981-03-03	2024-12-18	\N
+2184	Deborah Smith	deborah.smith2184@gmail.com	0923511419	F	1988-10-21	2024-12-10	\N
+2185	Steven Williams	steven.williams2185@yahoo.com	0526101183	M	2002-02-28	2025-07-16	712
+2186	Mark Johnson	mark.johnson2186@yahoo.com	0516224192	M	1986-07-24	2024-05-03	\N
+2187	Mary Johnson	mary.johnson2187@gmail.com	0915023310	F	2004-01-14	2023-12-05	\N
+2188	Melissa Miller	melissa.miller2188@gmail.com	0590613612	F	\N	2025-06-08	\N
+2189	Betty Smith	betty.smith2189@outlook.com	0536973746	F	\N	2023-08-15	\N
+2190	Steven Anderson	steven.anderson2190@mail.com	0970209224	M	1991-04-29	2025-08-07	11
+2191	Barbara Smith	barbara.smith2191@gmail.com	0342322386	F	2005-08-14	2023-12-27	\N
+2192	Karen Martinez	karen.martinez2192@yahoo.com	0338666820	F	\N	2024-04-18	\N
+2193	Linda Garcia	linda.garcia2193@gmail.com	0368627981	F	1997-09-30	2023-07-09	\N
+2194	Kimberly Smith	kimberly.smith2194@outlook.com	0912752352	F	1969-09-28	2025-01-28	1135
+2195	Sarah Smith	sarah.smith2195@outlook.com	0578438530	F	1971-01-21	2025-01-10	\N
+2196	Patricia Miller	patricia.miller2196@gmail.com	\N	F	1997-07-14	2025-06-03	\N
+2197	Edward Brown	edward.brown2197@gmail.com	0573767454	M	\N	2025-09-19	\N
+2198	Steven Garcia	steven.garcia2198@yahoo.com	0932991605	M	\N	2024-03-20	\N
+2199	Daniel Smith	daniel.smith2199@outlook.com	0965302305	M	1972-05-11	2025-09-16	\N
+2200	Daniel Miller	daniel.miller2200@yahoo.com	0738800402	M	1998-06-27	2024-07-04	\N
+2201	Carol Martinez	carol.martinez2201@gmail.com	0304032010	F	2003-12-22	2025-06-24	\N
+2202	Michael Smith	michael.smith2202@gmail.com	0988194989	M	\N	2024-09-01	469
+2203	Barbara Smith	barbara.smith2203@gmail.com	0716248151	F	1975-10-23	2023-10-29	\N
+2204	Karen Smith	karen.smith2204@gmail.com	0975743053	F	\N	2025-05-23	2164
+2205	Andrew Miller	andrew.miller2205@gmail.com	0588144001	M	1988-08-25	2025-12-17	\N
+2206	Amanda Smith	amanda.smith2206@yahoo.com	0994667282	F	\N	2025-06-29	651
+2207	Robert Smith	robert.smith2207@outlook.com	0706740004	M	\N	2025-10-30	\N
+2208	Jennifer Johnson	jennifer.johnson2208@yahoo.com	0718495658	F	2005-10-18	2025-01-16	\N
+2209	Carol Jones	carol.jones2209@gmail.com	0303335346	F	1990-11-12	2025-09-25	\N
+2210	Thomas Garcia	thomas.garcia2210@mail.com	\N	M	1996-09-14	2024-02-02	\N
+2211	Richard Williams	richard.williams2211@outlook.com	0969658416	M	1983-12-23	2025-06-16	\N
+2212	David Anderson	david.anderson2212@gmail.com	0332774085	M	1995-09-26	2023-06-03	\N
+2213	Jennifer Thomas	jennifer.thomas2213@gmail.com	\N	F	2000-10-11	2025-03-29	\N
+2214	Sarah Williams	sarah.williams2214@gmail.com	0536520374	F	2006-06-28	2025-11-12	\N
+2215	Nancy Rodriguez	nancy.rodriguez2215@gmail.com	0720821575	F	\N	2025-07-22	\N
+2216	Michael Brown	michael.brown2216@gmail.com	0921305337	M	1984-07-07	2024-05-19	\N
+2217	Amanda Williams	amanda.williams2217@outlook.com	\N	F	1975-07-05	2023-08-19	351
+2218	Karen Brown	karen.brown2218@outlook.com	0912815155	F	1969-08-22	2025-08-23	\N
+2219	David Thomas	david.thomas2219@gmail.com	0301426311	M	\N	2024-09-15	\N
+2220	Mary Lopez	mary.lopez2220@mail.com	0948794252	F	1990-06-06	2025-12-13	\N
+2221	Betty Smith	betty.smith2221@mail.com	0302921724	F	1979-04-22	2024-08-03	\N
+2222	Margaret Smith	margaret.smith2222@yahoo.com	0337018587	F	\N	2024-05-03	\N
+2223	David Smith	david.smith2223@gmail.com	0379373959	M	1966-10-30	2024-02-05	\N
+2224	Barbara Williams	barbara.williams2224@outlook.com	0313339416	F	2001-08-25	2024-07-28	2078
+2225	Susan Smith	susan.smith2225@yahoo.com	0558963413	F	1978-09-18	2025-10-10	\N
+2226	George Anderson	george.anderson2226@yahoo.com	0501796429	M	2005-11-24	2023-11-11	\N
+2227	George Lopez	george.lopez2227@yahoo.com	0796922330	M	1970-12-02	2023-01-18	\N
+2228	Edward Williams	edward.williams2228@mail.com	0998221048	M	\N	2025-09-10	\N
+2229	Kevin Smith	kevin.smith2229@gmail.com	\N	M	1977-10-12	2023-08-11	\N
+2230	Mark Garcia	mark.garcia2230@gmail.com	\N	M	1974-09-12	2024-09-07	1740
+2231	Anthony Brown	anthony.brown2231@gmail.com	0573158719	M	\N	2025-08-20	\N
+2232	John Lopez	john.lopez2232@gmail.com	\N	M	1988-07-07	2025-02-15	\N
+2233	Brian Smith	brian.smith2233@mail.com	0765842084	M	\N	2023-10-08	\N
+2234	Amanda Miller	amanda.miller2234@yahoo.com	0912204179	F	1990-11-12	2024-05-24	\N
+2235	Ashley Hernandez	Ashley.hernandez2235@outlook.com	0358406266	F	1971-03-04	2025-06-22	1361
+2236	Patricia Wilson	patricia.wilson2236@mail.com	\N	F	\N	2025-02-02	\N
+2237	Linda Thomas	linda.thomas2237@gmail.com	0590224566	F	2004-11-11	2024-11-04	\N
+2238	Brian Martinez	brian.martinez2238@outlook.com	0944749143	M	\N	2025-04-11	1091
+2239	Sarah Smith	sarah.smith2239@gmail.com	0765883549	F	\N	2025-08-09	\N
+2240	Sarah Williams	sarah.williams2240@outlook.com	0374164246	F	2004-07-28	2023-08-21	\N
+2241	Jennifer Smith	jennifer.smith2241@yahoo.com	0541835261	F	1970-10-14	2024-12-13	\N
+2242	Richard Smith	richard.smith2242@outlook.com	0568759703	M	1982-12-26	2024-11-27	\N
+2243	Jessica Davis	jessica.davis2243@outlook.com	0797230750	F	\N	2025-12-25	\N
+2244	Patricia Davis	patricia.davis2244@outlook.com	0928139556	F	1972-02-15	2025-11-22	\N
+2245	Emily Jones	emily.jones2245@mail.com	0774019002	F	1981-07-27	2025-05-23	453
+2246	Nancy Smith	nancy.smith2246@gmail.com	0372613841	F	1969-01-04	2024-07-13	\N
+2247	Betty Smith	betty.smith2247@outlook.com	\N	F	1993-04-29	2023-06-03	1111
+2248	Barbara Smith	barbara.smith2248@yahoo.com	0584672573	F	1985-05-25	2024-12-05	\N
+2249	Andrew Miller	andrew.miller2249@gmail.com	0973658888	M	2006-06-18	2025-03-19	\N
+2250	Brian Miller	brian.miller2250@gmail.com	0916273374	M	1965-09-06	2025-05-17	\N
+2251	Andrew Lopez	andrew.lopez2251@yahoo.com	0534731540	M	2001-08-23	2024-12-04	\N
+2252	Matthew Smith	matthew.smith2252@gmail.com	0743911340	M	\N	2024-12-13	\N
+2253	Amanda Smith	amanda.smith2253@mail.com	0919855313	F	1975-08-21	2024-01-22	\N
+2254	Christopher Davis	christopher.davis2254@mail.com	0336633968	M	\N	2025-04-10	1749
+2255	Matthew Williams	matthew.williams2255@gmail.com	\N	M	\N	2025-09-03	\N
+2256	Emily Smith	emily.smith2256@gmail.com	\N	F	1978-09-14	2025-12-02	\N
+2257	Donald Taylor	donald.taylor2257@outlook.com	0733169344	M	1987-12-22	2025-05-15	\N
+2258	Kevin Williams	Kevin.williams2258@mail.com	0509320819	M	1974-06-09	2024-10-23	\N
+2259	Andrew Smith	andrew.smith2259@yahoo.com	\N	M	\N	2024-09-03	\N
+2260	Kevin Williams	kevin.williams2260@gmail.com	0771875348	M	\N	2024-10-10	1829
+2261	Andrew Rodriguez	andrew.rodriguez2261@mail.com	0341597289	M	\N	2025-07-04	1847
+2262	Brian Smith	brian.smith2262@outlook.com	0534787880	M	1970-12-05	2024-06-19	\N
+2263	Anthony Taylor	anthony.taylor2263@gmail.com	0343707016	M	1996-05-22	2025-12-08	\N
+2264	John Smith	john.smith2264@yahoo.com	0308145290	M	1974-10-16	2024-01-10	\N
+2265	Sarah Smith	sarah.smith2265@outlook.com	0777992353	F	\N	2025-08-28	\N
+2266	Andrew Davis	andrew.davis2266@yahoo.com	0991785614	M	\N	2024-07-26	\N
+2267	Joseph Smith	joseph.smith2267@gmail.com	0766896449	M	1988-03-14	2024-07-02	\N
+2268	Christopher Smith	christopher.smith2268@gmail.com	\N	M	1995-12-06	2025-10-10	1622
+2269	George Hernandez	george.hernandez2269@yahoo.com	0787786079	M	1979-08-13	2024-09-12	\N
+2270	Betty Smith	betty.smith2270@yahoo.com	0398204867	F	1975-10-03	2024-05-15	\N
+2271	Daniel Garcia	daniel.garcia2271@outlook.com	\N	M	\N	2025-02-10	1427
+2272	Matthew Rodriguez	matthew.rodriguez2272@mail.com	0795752033	M	1992-11-30	2024-08-13	\N
+2273	Susan Miller	susan.miller2273@gmail.com	0522347946	F	1978-06-04	2024-11-16	\N
+2274	Sarah Garcia	sarah.garcia2274@yahoo.com	0983004019	F	\N	2023-09-12	\N
+2275	Jennifer Williams	jennifer.williams2275@gmail.com	\N	F	1998-11-25	2023-08-11	\N
+2276	Susan Thomas	susan.thomas2276@mail.com	0514167567	F	1995-08-11	2024-12-18	\N
+2277	Andrew Smith	andrew.smith2277@outlook.com	0946174666	M	1976-05-28	2025-01-25	\N
+2278	Karen Taylor	karen.taylor2278@outlook.com	0394251393	F	1994-03-28	2024-11-25	\N
+2279	Mark Brown	mark.brown2279@gmail.com	0700917409	M	1991-07-30	2025-01-22	\N
+2280	James Smith	james.smith2280@gmail.com	0325247381	M	\N	2023-10-23	995
+2281	Margaret Martinez	margaret.martinez2281@gmail.com	\N	F	1999-01-06	2023-09-23	428
+2282	Jennifer Smith	jennifer.smith2282@gmail.com	0555360359	F	1970-03-28	2025-06-30	\N
+2283	George Smith	george.smith2283@mail.com	0931295359	M	\N	2023-08-14	\N
+2284	Jessica Williams	jessica.williams2284@mail.com	0735445989	F	1981-03-25	2025-04-30	\N
+2285	Edward Williams	Edward.williams2285@gmail.com	\N	M	2004-01-17	2024-11-14	\N
+2286	Jennifer Williams	jennifer.williams2286@gmail.com	0752475559	F	1988-11-05	2025-10-17	\N
+2287	James Williams	james.williams2287@gmail.com	0302916411	M	2006-10-20	2025-12-23	\N
+2288	Donald Smith	donald.smith2288@yahoo.com	0764406833	M	1995-10-30	2024-01-14	\N
+2289	Lisa Williams	lisa.williams2289@gmail.com	0952063970	F	1981-07-13	2025-03-25	\N
+2290	John Williams	john.williams2290@mail.com	\N	M	1981-07-10	2025-07-30	\N
+2291	Margaret Smith	margaret.smith2291@mail.com	0399466564	F	1989-03-26	2025-05-26	1560
+2292	Andrew Johnson	andrew.johnson2292@gmail.com	\N	M	1970-07-10	2024-06-01	1193
+2293	Richard Miller	richard.miller2293@gmail.com	0941643239	M	1974-02-21	2024-02-29	1848
+2294	Steven Williams	steven.williams2294@outlook.com	0356766038	M	\N	2024-09-21	\N
+2295	David Hernandez	david.hernandez2295@outlook.com	0542413365	M	\N	2024-04-24	\N
+2296	David Williams	david.williams2296@gmail.com	0916593280	M	1984-06-11	2024-10-01	\N
+2297	Donald Rodriguez	donald.rodriguez2297@gmail.com	0980189242	\N	1981-11-21	2025-07-13	\N
+2298	Christopher Davis	christopher.davis2298@mail.com	\N	M	1985-10-17	2024-07-19	\N
+2299	Patricia Smith	patricia.smith2299@outlook.com	0385521986	F	1989-08-25	2024-09-14	\N
+2300	Mary Williams	mary.williams2300@gmail.com	0505800666	F	\N	2025-03-20	\N
+2301	Daniel Rodriguez	daniel.rodriguez2301@gmail.com	0799600952	M	1977-03-01	2025-12-25	\N
+2302	Robert Smith	robert.smith2302@gmail.com	0560101374	M	1996-03-18	2025-10-22	\N
+2303	Barbara Miller	barbara.miller2303@yahoo.com	0721459791	F	1970-05-10	2025-07-06	\N
+2304	Thomas Wilson	thomas.wilson2304@yahoo.com	0325006855	M	1976-06-17	2024-02-06	\N
+2305	Melissa Smith	melissa.smith2305@gmail.com	0790322942	F	1968-08-02	2025-08-11	\N
+2306	Margaret Lopez	margaret.lopez2306@outlook.com	0708551765	F	1971-08-04	2024-07-17	\N
+2307	Deborah Davis	deborah.davis2307@gmail.com	0581813180	F	\N	2023-05-15	\N
+2308	William Johnson	william.johnson2308@yahoo.com	0509729826	M	1973-07-24	2025-09-21	1473
+2309	Anthony Davis	anthony.davis2309@gmail.com	0309960312	M	1967-04-06	2024-05-31	1457
+2310	Charles Smith	charles.smith2310@outlook.com	0770492233	M	1991-06-19	2025-05-22	2007
+2311	Emily Smith	emily.smith2311@gmail.com	0529176966	F	\N	2023-07-11	631
+2312	Nancy Garcia	nancy.garcia2312@mail.com	0313218919	F	\N	2025-02-11	\N
+2313	Daniel Williams	daniel.williams2313@gmail.com	0717223406	M	1997-09-08	2025-11-27	\N
+2314	Kimberly Smith	kimberly.smith2314@yahoo.com	0749100266	F	1997-12-08	2024-12-03	\N
+2315	Barbara Johnson	barbara.johnson2315@gmail.com	0503992154	F	1999-01-22	2023-03-08	\N
+2316	Thomas Lopez	thomas.lopez2316@outlook.com	0503322115	M	\N	2024-12-13	473
+2317	Jessica Smith	jessica.smith2317@mail.com	0937963480	F	1972-01-27	2025-07-19	\N
+2318	Amanda Smith	amanda.smith2318@gmail.com	0377178441	F	1984-06-28	2023-09-11	\N
+2319	George Hernandez	george.hernandez2319@mail.com	\N	M	\N	2024-01-01	1699
+2320	George Taylor	george.taylor2320@outlook.com	0358722518	M	1972-09-07	2024-11-03	\N
+2321	Thomas Smith	thomas.smith2321@yahoo.com	0563705721	M	1986-11-05	2023-11-15	\N
+2322	Jennifer Brown	jennifer.brown2322@mail.com	\N	F	1974-11-06	2025-06-15	\N
+2323	Robert Jones	robert.jones2323@gmail.com	0994662628	M	\N	2025-10-24	\N
+2324	Andrew Smith	andrew.smith2324@gmail.com	0383757428	M	1975-03-22	2025-12-16	\N
+2325	Mark Smith	mark.smith2325@gmail.com	\N	M	1998-04-27	2025-10-25	\N
+2326	Mary Rodriguez	mary.rodriguez2326@yahoo.com	0744778177	\N	1972-06-09	2024-05-21	501
+2327	Donna Johnson	donna.johnson2327@mail.com	0707660166	F	1978-01-04	2025-08-21	\N
+2328	Emily Rodriguez	emily.rodriguez2328@outlook.com	0738095773	F	1973-09-02	2023-12-19	\N
+2329	Donald Lopez	donald.lopez2329@gmail.com	0552243409	M	1979-05-13	2025-07-25	\N
+2330	Daniel Martinez	daniel.martinez2330@gmail.com	0581002396	M	1978-04-21	2024-06-05	\N
+2331	Jessica Williams	jessica.williams2331@gmail.com	0556340703	F	1970-09-21	2025-06-03	\N
+2332	Karen Garcia	karen.garcia2332@outlook.com	0301427740	F	1987-03-12	2024-11-15	\N
+2333	Jessica Smith	jessica.smith2333@gmail.com	\N	F	\N	2024-07-24	\N
+2334	Paul Smith	paul.smith2334@gmail.com	0798047109	M	2005-05-09	2025-05-11	\N
+2335	Donna Smith	donna.smith2335@outlook.com	0761070879	F	2006-10-08	2023-08-01	\N
+2336	George Smith	george.smith2336@gmail.com	0793110672	M	1984-10-06	2025-10-25	\N
+2337	John Johnson	john.johnson2337@mail.com	0323187830	M	2000-11-17	2025-11-25	\N
+2338	Sandra Smith	sandra.smith2338@gmail.com	0797603124	F	1971-11-07	2025-06-26	\N
+2339	Patricia Lopez	patricia.lopez2339@gmail.com	\N	F	1980-10-14	2025-05-03	\N
+2340	Patricia Smith	patricia.smith2340@mail.com	\N	F	1999-10-23	2024-09-24	1543
+2341	Anthony Brown	anthony.brown2341@mail.com	0560848920	M	1982-01-16	2025-07-15	\N
+2342	Betty Smith	betty.smith2342@mail.com	0310131845	F	1978-07-02	2024-07-30	\N
+2343	Amanda Brown	amanda.brown2343@gmail.com	0719211624	F	1968-10-27	2024-05-02	\N
+2344	Andrew Smith	andrew.smith2344@gmail.com	0309230413	M	1988-08-22	2023-12-08	\N
+2345	Charles Taylor	charles.taylor2345@mail.com	0971329275	M	\N	2025-04-10	53
+2346	Betty Johnson	betty.johnson2346@outlook.com	0921547487	\N	1978-02-04	2023-10-15	1626
+2347	Matthew Williams	matthew.williams2347@mail.com	0704331855	M	1977-10-11	2023-02-19	\N
+2348	Daniel Wilson	daniel.wilson2348@gmail.com	0325831054	M	\N	2024-08-17	438
+2349	Sandra Williams	sandra.williams2349@gmail.com	\N	F	1981-03-26	2025-08-06	\N
+2350	Michael Smith	michael.smith2350@mail.com	\N	M	\N	2024-11-10	\N
+2351	Melissa Smith	melissa.smith2351@gmail.com	0936853411	F	1998-02-03	2025-04-04	\N
+2352	Andrew Taylor	andrew.taylor2352@gmail.com	\N	\N	1996-04-25	2024-11-22	914
+2353	Amanda Smith	amanda.smith2353@yahoo.com	0375914471	F	1982-08-15	2024-03-05	\N
+2354	Kimberly Smith	kimberly.smith2354@outlook.com	0520191435	F	2005-08-31	2024-07-31	1390
+2355	Thomas Williams	thomas.williams2355@gmail.com	0311852914	M	\N	2023-02-20	\N
+2356	Thomas Jones	thomas.jones2356@mail.com	0928331177	M	\N	2024-09-14	1794
+2357	Jessica Wilson	jessica.wilson2357@yahoo.com	0990904623	F	1990-06-25	2024-08-02	429
+2358	George Williams	george.williams2358@mail.com	0960163729	M	1984-06-16	2025-06-15	\N
+2359	Betty Smith	betty.smith2359@mail.com	0774290792	F	1988-11-04	2024-04-13	\N
+2360	Donna Johnson	donna.johnson2360@mail.com	0751034516	F	2004-11-17	2025-12-19	\N
+2361	Paul Lopez	paul.lopez2361@outlook.com	0979910619	M	1967-06-19	2024-10-14	761
+2362	Steven Smith	steven.smith2362@gmail.com	\N	M	1985-11-03	2025-06-11	\N
+2363	Linda Brown	linda.brown2363@gmail.com	0358024061	F	1971-04-01	2025-08-10	\N
+2364	Donald Williams	Donald.williams2364@gmail.com	0334079029	M	\N	2024-01-17	\N
+2365	Steven Rodriguez	steven.rodriguez2365@mail.com	0386687675	M	\N	2025-08-17	\N
+2366	Kimberly Johnson	kimberly.johnson2366@outlook.com	0952250297	F	1976-11-19	2025-07-21	\N
+2367	Susan Smith	susan.smith2367@gmail.com	0379963808	F	\N	2025-03-22	\N
+2368	Susan Smith	susan.smith2368@yahoo.com	\N	F	1995-06-04	2025-05-18	1298
+2369	Brian Miller	brian.miller2369@outlook.com	0567535640	\N	2001-01-04	2025-05-22	\N
+2370	Anthony Martinez	anthony.martinez2370@gmail.com	0798512372	M	1982-05-02	2023-06-19	\N
+2371	Richard Williams	richard.williams2371@outlook.com	0336466345	M	1999-11-22	2025-04-13	2317
+2372	Susan Smith	susan.smith2372@mail.com	0364985752	F	1967-08-07	2023-12-20	\N
+2373	Kevin Lopez	kevin.lopez2373@outlook.com	0502379682	M	1966-08-14	2025-10-30	\N
+2374	Anthony Jones	anthony.jones2374@gmail.com	\N	M	1999-12-10	2025-10-17	\N
+2375	Ashley Smith	ashley.smith2375@gmail.com	0346881171	F	1995-02-15	2024-09-15	\N
+2376	Donald Rodriguez	donald.rodriguez2376@yahoo.com	0501724684	M	1968-12-13	2025-09-14	\N
+2377	Edward Taylor	edward.taylor2377@outlook.com	0788983497	M	\N	2024-06-30	\N
+2378	Christopher Davis	christopher.davis2378@gmail.com	0774861841	M	1989-04-04	2023-10-02	\N
+2379	Jennifer Smith	jennifer.smith2379@yahoo.com	0989245208	F	1986-12-08	2025-10-16	\N
+2380	Kevin Garcia	kevin.garcia2380@gmail.com	\N	M	\N	2024-11-07	2092
+2381	Charles Williams	charles.williams2381@mail.com	0370325850	M	1994-08-26	2024-09-05	2271
+2382	Linda Garcia	linda.garcia2382@gmail.com	0525123024	F	\N	2024-03-03	\N
+2383	Christopher Smith	christopher.smith2383@gmail.com	0945709608	\N	1983-05-03	2025-03-28	\N
+2384	Richard Lopez	richard.lopez2384@outlook.com	0904797249	M	1966-12-22	2024-08-16	\N
+2385	Daniel Davis	daniel.davis2385@yahoo.com	0363489957	M	\N	2025-12-23	2311
+2386	Charles Smith	charles.smith2386@gmail.com	\N	M	\N	2024-10-05	\N
+2387	William Smith	william.smith2387@outlook.com	0963499056	M	1974-04-23	2025-04-06	\N
+2388	Steven Williams	steven.williams2388@yahoo.com	0700629834	M	1975-09-24	2024-03-29	1607
+2389	John Smith	john.smith2389@gmail.com	\N	M	2002-12-09	2025-05-30	\N
+2390	Joseph Smith	joseph.smith2390@outlook.com	0381621732	M	1992-12-14	2024-04-08	\N
+2391	Lisa Jones	lisa.jones2391@gmail.com	0388237855	F	1978-10-02	2023-10-05	\N
+2392	Mary Smith	mary.smith2392@gmail.com	0986368303	F	\N	2025-04-11	\N
+2393	Nancy Rodriguez	nancy.rodriguez2393@gmail.com	0398401993	F	\N	2025-05-24	\N
+2394	Thomas Williams	thomas.williams2394@outlook.com	\N	M	1989-09-15	2024-05-01	\N
+2395	Lisa Martinez	lisa.martinez2395@mail.com	0302596691	F	1995-06-25	2025-01-01	247
+2396	Jennifer Jones	jennifer.jones2396@gmail.com	0502061667	F	1986-06-02	2024-10-21	\N
+2397	Michael Williams	michael.williams2397@gmail.com	0900840293	M	\N	2025-05-15	\N
+2398	Joshua Thomas	joshua.thomas2398@mail.com	\N	M	\N	2025-12-04	\N
+2399	Lisa Jones	lisa.jones2399@mail.com	0754165887	F	\N	2025-02-25	\N
+2400	Deborah Johnson	deborah.johnson2400@gmail.com	0798311317	F	\N	2025-12-10	\N
+2401	Lisa Smith	lisa.smith2401@outlook.com	0330815728	F	1987-08-15	2024-03-06	\N
+2402	Emily Williams	emily.williams2402@outlook.com	0512160440	F	1996-05-18	2025-12-16	\N
+2403	Barbara Williams	barbara.williams2403@yahoo.com	0916509980	F	1980-11-24	2025-10-14	\N
+2404	Mark Smith	mark.smith2404@mail.com	0762117522	M	1996-07-04	2024-06-19	\N
+2405	Thomas Smith	thomas.smith2405@yahoo.com	0718509853	M	1994-05-28	2025-05-15	\N
+2406	Patricia Johnson	patricia.johnson2406@yahoo.com	\N	F	1979-08-03	2025-12-21	\N
+2407	James Garcia	james.garcia2407@gmail.com	0750933764	M	\N	2025-10-11	\N
+2408	Lisa Martinez	lisa.martinez2408@outlook.com	0767505909	F	1971-01-14	2025-07-05	\N
+2409	Mary Jones	mary.jones2409@outlook.com	0534025993	F	1986-08-25	2025-12-18	538
+2410	Donald Smith	donald.smith2410@gmail.com	0330761541	M	1969-02-03	2023-05-21	512
+2411	Donald Jones	donald.jones2411@outlook.com	0573264995	M	1972-05-01	2025-02-20	1039
+2412	Carol Smith	carol.smith2412@outlook.com	\N	\N	\N	2024-11-17	\N
+2413	Paul Thomas	paul.thomas2413@yahoo.com	0358950313	M	1994-02-03	2024-05-05	\N
+2414	Anthony Williams	anthony.williams2414@gmail.com	0344221836	M	\N	2025-11-11	\N
+2415	Karen Jones	karen.jones2415@mail.com	0950940311	F	1998-04-23	2024-02-27	1838
+2416	Matthew Johnson	matthew.johnson2416@yahoo.com	0305042700	M	1995-11-29	2024-01-22	\N
+2417	Margaret Davis	margaret.davis2417@outlook.com	0514618574	F	\N	2024-10-21	\N
+2418	Barbara Johnson	barbara.johnson2418@outlook.com	0585010997	F	\N	2025-03-28	\N
+2419	Jennifer Smith	jennifer.smith2419@mail.com	0567832566	F	1994-05-09	2023-11-23	\N
+2420	Edward Smith	edward.smith2420@yahoo.com	0363508290	M	1985-11-21	2024-11-10	\N
+2421	Mary Jones	mary.jones2421@outlook.com	0592737774	F	1981-10-27	2023-10-11	997
+2422	Michael Taylor	michael.taylor2422@outlook.com	0795651013	M	\N	2023-01-03	\N
+2423	Michelle Smith	michelle.smith2423@gmail.com	0798466518	F	1987-01-06	2023-12-19	\N
+2424	Robert Davis	robert.davis2424@gmail.com	0561362223	M	1968-12-28	2025-08-05	\N
+2425	Ashley Hernandez	ashley.hernandez2425@mail.com	0785887590	\N	1992-07-09	2024-02-09	\N
+2426	Christopher Wilson	christopher.wilson2426@yahoo.com	0918549655	M	1976-06-25	2025-08-05	2216
+2427	Barbara Smith	barbara.smith2427@mail.com	0538910590	F	2006-08-31	2023-07-21	\N
+2428	Mark Williams	mark.williams2428@yahoo.com	0758230322	M	1972-09-17	2025-03-24	\N
+2429	Kevin Smith	kevin.smith2429@outlook.com	0595674017	M	1988-10-08	2023-02-22	\N
+2430	Matthew Williams	Matthew.williams2430@outlook.com	0314060376	M	\N	2025-07-12	\N
+2431	Barbara Brown	barbara.brown2431@yahoo.com	0918766575	F	1973-02-10	2024-11-06	\N
+2432	Nancy Smith	nancy.smith2432@gmail.com	0722687631	F	1997-12-15	2024-01-08	\N
+2433	Michelle Rodriguez	michelle.rodriguez2433@yahoo.com	0301510594	F	2005-05-11	2024-09-14	2262
+2434	William Jones	william.jones2434@gmail.com	0761479616	M	1965-05-29	2023-09-18	1051
+2435	Lisa Williams	lisa.williams2435@gmail.com	0567881711	F	1992-03-24	2025-02-27	\N
+2436	Thomas Williams	thomas.williams2436@yahoo.com	0579332091	M	1971-05-01	2023-09-22	\N
+2437	Joseph Anderson	joseph.anderson2437@mail.com	0531785668	M	\N	2025-03-04	119
+2438	Margaret Johnson	margaret.johnson2438@gmail.com	0701619673	F	2003-03-03	2025-10-10	\N
+2439	Paul Miller	paul.miller2439@gmail.com	\N	M	1973-04-06	2024-08-27	1378
+2440	Michelle Smith	michelle.smith2440@yahoo.com	0371539125	F	\N	2025-11-29	2148
+2441	Anthony Garcia	anthony.garcia2441@gmail.com	0360057463	M	2006-02-10	2025-03-27	\N
+2442	Robert Smith	robert.smith2442@gmail.com	0385664287	M	1993-05-08	2024-06-08	\N
+2443	Jennifer Smith	jennifer.smith2443@mail.com	0738759237	F	\N	2024-09-30	\N
+2444	Richard Smith	richard.smith2444@gmail.com	0578468698	M	1984-03-21	2025-08-09	\N
+2445	Donna Smith	donna.smith2445@outlook.com	0974585613	F	\N	2025-10-25	\N
+2446	Ashley Garcia	ashley.garcia2446@gmail.com	\N	F	1996-08-05	2024-08-26	\N
+2447	James Smith	james.smith2447@gmail.com	\N	M	\N	2025-09-28	1861
+2448	Lisa Hernandez	lisa.hernandez2448@gmail.com	0365108002	F	1965-07-27	2023-10-07	357
+2449	Deborah Williams	deborah.williams2449@gmail.com	0517200140	F	1987-08-30	2024-05-05	\N
+2450	Betty Brown	betty.brown2450@gmail.com	0517010473	F	2006-07-09	2025-03-11	\N
+2451	Richard Smith	richard.smith2451@outlook.com	0510763895	M	\N	2023-09-05	65
+2452	George Williams	george.williams2452@mail.com	0954930260	M	\N	2024-02-03	\N
+2453	Christopher Jones	christopher.jones2453@yahoo.com	\N	M	1974-04-13	2024-10-02	\N
+2454	Susan Thomas	susan.thomas2454@gmail.com	0909440969	F	\N	2025-11-21	\N
+2455	William Thomas	william.thomas2455@yahoo.com	0359770357	M	1983-12-23	2024-09-06	\N
+2456	Sarah Smith	sarah.smith2456@outlook.com	\N	F	1975-06-14	2024-11-18	\N
+2457	William Smith	william.smith2457@yahoo.com	0968713584	M	1979-05-29	2025-05-26	\N
+2458	George Smith	george.smith2458@gmail.com	0905861238	M	\N	2025-10-29	375
+2459	Margaret Smith	margaret.smith2459@outlook.com	0309768666	F	1999-12-15	2025-05-06	\N
+2460	Steven Rodriguez	steven.rodriguez2460@gmail.com	0931745671	M	1973-03-10	2025-10-19	\N
+2461	George Williams	george.williams2461@mail.com	0392772712	M	2005-08-17	2025-03-31	1213
+2462	Brian Miller	brian.miller2462@mail.com	0772983804	M	1990-01-01	2025-11-19	\N
+2463	Charles Brown	charles.brown2463@gmail.com	0577417538	M	1995-05-02	2025-01-15	353
+2464	Sandra Brown	sandra.brown2464@yahoo.com	0971402514	F	1993-06-15	2023-10-05	\N
+2465	Betty Johnson	betty.johnson2465@yahoo.com	\N	F	1967-10-15	2024-12-20	\N
+2466	Andrew Johnson	Andrew.johnson2466@gmail.com	0723276885	M	1998-10-05	2024-02-12	72
+2467	Melissa Smith	melissa.smith2467@mail.com	0319153886	F	1981-11-25	2023-08-17	\N
+2468	Carol Smith	carol.smith2468@gmail.com	0312593519	F	1975-07-01	2025-06-07	\N
+2469	Mark Williams	mark.williams2469@outlook.com	0547483991	M	\N	2025-10-13	\N
+2470	Mark Williams	mark.williams2470@yahoo.com	\N	M	2001-03-05	2024-05-03	\N
+2471	Betty Johnson	betty.johnson2471@gmail.com	0527601081	F	\N	2023-06-08	\N
+2472	James Johnson	james.johnson2472@gmail.com	0790742962	M	\N	2024-06-17	\N
+2473	Thomas Martinez	thomas.martinez2473@yahoo.com	0317943186	M	1983-10-18	2025-12-30	\N
+2474	Susan Smith	susan.smith2474@gmail.com	0547918764	F	\N	2023-11-29	\N
+2475	Emily Smith	emily.smith2475@gmail.com	0362547965	F	1969-11-19	2025-03-09	\N
+2476	Lisa Garcia	lisa.garcia2476@gmail.com	0961953947	F	\N	2025-09-01	\N
+2477	Elizabeth Brown	elizabeth.brown2477@yahoo.com	0543470744	F	\N	2024-09-13	\N
+2478	Kevin Smith	kevin.smith2478@mail.com	0991889451	M	1966-01-28	2024-10-06	\N
+2479	Jessica Smith	jessica.smith2479@gmail.com	0915560656	F	2006-10-18	2024-12-03	\N
+2480	James Johnson	james.johnson2480@yahoo.com	0586423059	M	1976-02-10	2025-01-23	\N
+2481	Melissa Smith	melissa.smith2481@gmail.com	0906612772	F	\N	2025-09-30	\N
+2482	Robert Smith	robert.smith2482@outlook.com	0317404508	M	1966-12-25	2025-09-03	\N
+2483	David Smith	david.smith2483@outlook.com	0586654722	M	\N	2024-09-12	1791
+2484	Robert Smith	robert.smith2484@gmail.com	\N	M	\N	2024-09-12	1329
+2485	Edward Smith	edward.smith2485@yahoo.com	0528792703	M	1996-11-09	2024-01-28	762
+2486	Joseph Hernandez	joseph.hernandez2486@outlook.com	0908878790	M	1980-09-10	2023-03-02	754
+2487	Margaret Johnson	margaret.johnson2487@mail.com	0925552641	F	1995-02-11	2024-12-04	\N
+2488	Daniel Miller	daniel.miller2488@outlook.com	\N	M	\N	2025-06-27	\N
+2489	Amanda Miller	amanda.miller2489@gmail.com	0731973027	F	2001-09-21	2024-12-29	\N
+2490	William Taylor	william.taylor2490@gmail.com	0524112736	M	\N	2024-08-15	\N
+2491	Donald Hernandez	donald.hernandez2491@gmail.com	0591820059	M	1973-09-25	2024-10-15	\N
+2492	James Smith	james.smith2492@outlook.com	0959002770	M	2005-10-08	2024-06-27	\N
+2493	Karen Johnson	karen.johnson2493@gmail.com	0709145364	F	\N	2025-08-13	\N
+2494	Deborah Johnson	deborah.johnson2494@mail.com	0744515606	F	\N	2024-09-17	\N
+2495	Nancy Martinez	nancy.martinez2495@gmail.com	0704250571	F	\N	2024-05-10	\N
+2496	Margaret Rodriguez	margaret.rodriguez2496@gmail.com	\N	F	\N	2024-01-13	\N
+2497	Ashley Miller	ashley.miller2497@mail.com	\N	F	1977-05-25	2025-07-19	1453
+2498	Christopher Martinez	christopher.martinez2498@outlook.com	0958719349	M	1994-03-04	2025-06-10	2249
+2499	Lisa Johnson	lisa.johnson2499@gmail.com	0739174489	F	1979-02-09	2025-05-12	1972
+2500	Karen Smith	karen.smith2500@gmail.com	0331496494	F	1978-06-07	2025-05-20	\N
+2501	Joseph Hernandez	joseph.hernandez2501@outlook.com	0343564297	M	1969-08-19	2024-04-08	\N
+2502	Brian Smith	brian.smith2502@yahoo.com	0563706933	M	1965-12-28	2025-09-13	\N
+2503	Thomas Garcia	thomas.garcia2503@gmail.com	0922799160	M	1994-11-23	2024-05-12	\N
+2504	Joshua Brown	joshua.brown2504@outlook.com	0312836214	M	1966-06-18	2024-10-13	\N
+2505	Nancy Smith	nancy.smith2505@mail.com	\N	F	1999-05-05	2024-01-14	1023
+2506	Michael Smith	michael.smith2506@outlook.com	0529707444	M	1981-10-15	2023-05-26	\N
+2507	Kimberly Miller	kimberly.miller2507@yahoo.com	0772013958	F	1999-03-02	2024-02-23	\N
+2508	Donald Wilson	donald.wilson2508@yahoo.com	0533385548	M	1979-03-31	2024-11-12	\N
+2509	Sarah Smith	sarah.smith2509@outlook.com	0382340153	F	1970-04-17	2025-04-05	\N
+2510	Charles Smith	charles.smith2510@outlook.com	0782998692	M	1998-05-14	2024-01-28	\N
+2511	Donald Brown	donald.brown2511@outlook.com	0709990641	M	1994-10-21	2024-12-19	2227
+2512	Jessica Johnson	jessica.johnson2512@gmail.com	0504738727	F	\N	2025-11-29	521
+2513	Nancy Williams	nancy.williams2513@mail.com	0590739839	F	1992-09-20	2024-04-11	\N
+2514	Linda Williams	linda.williams2514@gmail.com	0375283991	F	1982-07-10	2023-06-01	1943
+2515	Mark Johnson	mark.johnson2515@gmail.com	0769305063	M	1996-04-01	2024-11-17	\N
+2516	Susan Johnson	susan.johnson2516@mail.com	\N	F	\N	2024-03-28	\N
+2517	Robert Smith	robert.smith2517@yahoo.com	0989233993	M	2003-09-23	2025-01-26	1560
+2518	Edward Brown	edward.brown2518@gmail.com	\N	M	1994-03-17	2023-05-30	\N
+2519	Amanda Jones	amanda.jones2519@outlook.com	0589813955	F	1999-01-15	2025-02-21	\N
+2520	Sarah Smith	sarah.smith2520@outlook.com	0772842202	F	1985-02-01	2024-12-25	\N
+2521	John Garcia	john.garcia2521@outlook.com	0338429467	M	2005-06-11	2024-02-16	\N
+2522	Andrew Smith	andrew.smith2522@gmail.com	0929345214	M	1968-02-11	2025-04-25	161
+2523	Charles Smith	charles.smith2523@outlook.com	0955121325	M	1986-03-08	2024-05-08	\N
+2524	Linda Lopez	linda.lopez2524@mail.com	0578651361	F	1978-05-02	2023-12-31	\N
+2525	Amanda Smith	amanda.smith2525@yahoo.com	0974415321	\N	1975-02-04	2025-11-16	\N
+2526	Ashley Smith	ashley.smith2526@gmail.com	0700264242	F	1989-03-25	2025-09-03	2173
+2527	Barbara Smith	barbara.smith2527@yahoo.com	0975670948	F	1987-02-27	2025-10-16	\N
+2528	Ashley Brown	ashley.brown2528@yahoo.com	0742390200	F	1987-08-31	2025-05-24	\N
+2529	Michelle Williams	michelle.williams2529@gmail.com	0949503504	F	1971-10-13	2025-02-09	\N
+2530	Ashley Williams	ashley.williams2530@gmail.com	0738887883	F	\N	2025-09-23	\N
+2531	Mary Williams	mary.williams2531@mail.com	\N	F	1998-05-13	2025-11-26	\N
+2532	Betty Smith	betty.smith2532@gmail.com	0998370855	F	1978-10-05	2024-07-04	\N
+2533	Charles Brown	charles.brown2533@gmail.com	0909847277	M	1978-05-13	2024-03-14	\N
+2534	Betty Smith	betty.smith2534@gmail.com	\N	F	1968-06-04	2024-10-02	1910
+2535	Kimberly Smith	Kimberly.smith2535@gmail.com	0309528047	F	1972-02-18	2024-01-22	\N
+2536	Donna Smith	donna.smith2536@gmail.com	\N	F	1971-11-22	2024-01-08	\N
+2537	Robert Johnson	robert.johnson2537@mail.com	\N	M	2001-09-18	2023-04-27	1196
+2538	Matthew Williams	matthew.williams2538@yahoo.com	0932577606	M	1987-02-20	2025-06-22	\N
+2539	Nancy Wilson	nancy.wilson2539@gmail.com	0713531200	F	\N	2025-04-09	\N
+2540	Matthew Wilson	matthew.wilson2540@gmail.com	0552147688	M	\N	2024-06-09	\N
+2541	John Smith	john.smith2541@mail.com	0567469189	M	1982-07-26	2024-07-21	\N
+2542	Christopher Williams	christopher.williams2542@gmail.com	0545299535	M	\N	2024-01-02	\N
+2543	Amanda Brown	amanda.brown2543@gmail.com	0945655185	F	\N	2024-08-19	\N
+2544	Melissa Williams	melissa.williams2544@mail.com	0357032592	F	1979-11-15	2025-11-06	\N
+2545	Kevin Jones	kevin.jones2545@yahoo.com	0367849368	M	1968-09-10	2025-08-18	\N
+2546	Donald Miller	donald.miller2546@outlook.com	0515033792	M	1970-12-08	2024-05-05	\N
+2547	Deborah Garcia	deborah.garcia2547@gmail.com	0936469635	\N	1989-05-27	2025-01-20	2064
+2548	Amanda Smith	Amanda.smith2548@mail.com	0335495947	F	\N	2024-05-21	\N
+2549	Donald Anderson	donald.anderson2549@yahoo.com	0317617802	M	1979-07-18	2025-02-08	\N
+2550	Nancy Garcia	nancy.garcia2550@gmail.com	0915820141	F	1975-02-28	2025-10-11	1718
+2551	Melissa Garcia	melissa.garcia2551@outlook.com	0965642665	F	\N	2025-08-31	\N
+2552	Joseph Miller	joseph.miller2552@yahoo.com	0322385611	M	1983-06-09	2024-05-11	\N
+2553	Linda Jones	linda.jones2553@mail.com	0501263410	\N	1985-07-22	2023-07-31	\N
+2554	Betty Smith	betty.smith2554@yahoo.com	0570815107	F	\N	2025-09-27	274
+2555	Donna Smith	donna.smith2555@yahoo.com	0773457693	F	1974-01-31	2024-08-05	\N
+2556	Linda Garcia	linda.garcia2556@gmail.com	\N	F	1998-08-06	2023-12-31	\N
+2557	Donald Brown	donald.brown2557@gmail.com	0541187822	M	1974-09-14	2025-01-14	\N
+2558	Susan Smith	susan.smith2558@yahoo.com	0753828550	F	1977-03-23	2023-08-24	\N
+2559	Joseph Miller	joseph.miller2559@mail.com	0902685014	M	1985-11-02	2025-02-02	\N
+2560	Carol Smith	carol.smith2560@gmail.com	0381300801	F	\N	2025-02-16	\N
+2561	Matthew Jones	matthew.jones2561@gmail.com	0308791774	M	1974-06-12	2025-12-19	\N
+2562	Amanda Smith	amanda.smith2562@yahoo.com	0557373978	F	1989-09-06	2024-05-22	\N
+2563	Linda Jones	linda.jones2563@yahoo.com	0314426284	F	1981-10-15	2023-06-06	\N
+2564	Lisa Anderson	lisa.anderson2564@yahoo.com	0555461355	\N	1978-09-22	2024-09-18	\N
+2565	Carol Smith	carol.smith2565@gmail.com	0992441016	F	\N	2025-07-09	\N
+2566	George Smith	george.smith2566@gmail.com	0368712569	M	\N	2024-08-04	2441
+2567	John Smith	john.smith2567@mail.com	0768999244	M	1995-08-14	2025-04-29	\N
+2568	Steven Johnson	steven.johnson2568@yahoo.com	0509914973	M	1978-01-16	2025-07-16	\N
+2569	James Smith	james.smith2569@gmail.com	\N	M	1990-09-08	2024-02-15	\N
+2570	William Smith	william.smith2570@outlook.com	0540904726	M	\N	2025-06-18	\N
+2571	David Smith	david.smith2571@gmail.com	0998908817	M	1974-01-17	2024-01-06	\N
+2572	John Brown	john.brown2572@outlook.com	0556268924	M	2003-06-07	2024-12-07	\N
+2573	Anthony Williams	anthony.williams2573@gmail.com	0367721029	M	1984-11-15	2023-01-26	\N
+2574	Brian Smith	brian.smith2574@gmail.com	0330068252	M	1985-04-22	2025-11-07	\N
+2575	David Smith	david.smith2575@mail.com	0521711715	M	\N	2025-05-25	\N
+2576	Linda Smith	linda.smith2576@yahoo.com	0730777966	F	\N	2024-12-22	\N
+2577	Margaret Garcia	margaret.garcia2577@gmail.com	0729623459	F	\N	2025-01-28	\N
+2578	Edward Johnson	edward.johnson2578@mail.com	0920707060	M	1980-12-01	2023-10-17	\N
+2579	Charles Jones	charles.jones2579@gmail.com	0942040634	M	1977-02-22	2024-06-27	\N
+2580	Charles Davis	charles.davis2580@gmail.com	0949315774	M	1989-11-08	2025-01-16	\N
+2581	Susan Jones	Susan.jones2581@yahoo.com	0710633233	F	1980-11-30	2025-10-19	\N
+2582	Christopher Martinez	christopher.martinez2582@gmail.com	\N	M	\N	2024-12-08	\N
+2583	Joshua Martinez	joshua.martinez2583@gmail.com	0501308804	\N	1971-11-19	2025-03-28	\N
+2584	Karen Williams	karen.williams2584@gmail.com	0942449015	F	1979-04-04	2023-12-06	\N
+2585	Barbara Miller	barbara.miller2585@gmail.com	0364450282	F	\N	2023-12-05	2437
+2586	John Garcia	john.garcia2586@gmail.com	0302116535	M	1984-03-27	2024-03-02	\N
+2587	Sandra Garcia	sandra.garcia2587@gmail.com	\N	F	1970-09-21	2024-04-06	\N
+2588	Mary Miller	mary.miller2588@mail.com	0961113301	F	\N	2023-05-15	2
+2589	Paul Smith	paul.smith2589@mail.com	0578221720	M	1995-02-13	2024-10-05	\N
+2590	Emily Martinez	emily.martinez2590@yahoo.com	\N	F	1968-06-29	2024-11-07	\N
+2591	Donna Williams	donna.williams2591@mail.com	\N	F	1993-01-26	2024-03-14	\N
+2592	Matthew Williams	matthew.williams2592@mail.com	0965246373	M	2000-07-25	2024-07-21	\N
+2593	Andrew Anderson	andrew.anderson2593@gmail.com	\N	M	1971-06-19	2024-11-26	\N
+2594	Robert Miller	robert.miller2594@mail.com	0383642956	M	2001-03-23	2025-07-31	891
+2595	Joshua Johnson	joshua.johnson2595@outlook.com	0338090202	M	1968-05-23	2023-09-09	\N
+2596	Linda Smith	linda.smith2596@gmail.com	0576786590	F	1976-12-12	2023-12-21	\N
+2597	Ashley Smith	ashley.smith2597@gmail.com	0319365163	F	2004-06-24	2025-10-02	\N
+2598	John Taylor	john.taylor2598@mail.com	0934842357	M	1968-03-16	2025-03-27	\N
+2599	William Garcia	william.garcia2599@yahoo.com	0917121379	M	1969-01-24	2024-04-09	\N
+2600	Mary Garcia	mary.garcia2600@mail.com	0308432207	F	1987-12-09	2025-05-13	\N
+2601	Karen Hernandez	karen.hernandez2601@gmail.com	0969145511	F	\N	2023-07-26	\N
+2602	Barbara Williams	barbara.williams2602@gmail.com	0592247824	F	1971-08-28	2024-05-13	1177
+2603	George Smith	george.smith2603@gmail.com	0770497355	M	1972-03-14	2025-03-18	1023
+2604	Donna Rodriguez	donna.rodriguez2604@yahoo.com	0720586627	F	1975-09-12	2025-11-24	\N
+2605	Linda Smith	linda.smith2605@gmail.com	0727476236	F	2000-06-26	2023-08-04	\N
+2606	Emily Johnson	emily.johnson2606@gmail.com	0373934830	F	2002-09-16	2025-08-26	\N
+2607	John Miller	john.miller2607@yahoo.com	0996579846	M	\N	2023-09-28	\N
+2608	Michelle Hernandez	michelle.hernandez2608@outlook.com	0764527261	F	1979-03-25	2024-01-08	2141
+2609	Richard Williams	richard.williams2609@gmail.com	\N	M	1970-06-14	2025-05-18	\N
+2610	Elizabeth Jones	elizabeth.jones2610@gmail.com	\N	F	1970-09-30	2025-01-16	1674
+2611	William Thomas	william.thomas2611@gmail.com	0592826770	M	\N	2025-05-19	\N
+2612	Mark Johnson	mark.johnson2612@yahoo.com	0798677858	\N	\N	2025-03-30	\N
+2613	Kimberly Anderson	kimberly.anderson2613@outlook.com	0371251083	F	1971-09-02	2023-10-20	2064
+2614	Susan Johnson	susan.johnson2614@yahoo.com	0540159568	F	\N	2023-03-17	\N
+2615	Emily Smith	emily.smith2615@gmail.com	0913097722	F	2000-05-04	2025-10-08	77
+2616	Nancy Miller	nancy.miller2616@outlook.com	\N	F	\N	2024-10-23	\N
+2617	Jennifer Taylor	jennifer.taylor2617@gmail.com	0943884447	F	\N	2024-09-09	1610
+2618	David Miller	david.miller2618@yahoo.com	\N	M	1978-07-21	2024-01-07	\N
+2619	Edward Smith	edward.smith2619@outlook.com	0589992154	M	1982-12-15	2024-03-20	\N
+2620	Matthew Smith	matthew.smith2620@yahoo.com	0559980794	M	1994-08-12	2025-05-13	\N
+2621	Charles Smith	charles.smith2621@gmail.com	0380275381	M	1978-09-27	2024-08-02	\N
+2622	Betty Wilson	betty.wilson2622@gmail.com	0766748461	F	2000-08-21	2024-05-23	\N
+2623	Emily Smith	emily.smith2623@gmail.com	\N	F	1977-02-18	2025-11-21	729
+2624	Patricia Miller	patricia.miller2624@yahoo.com	0934438296	F	1969-11-29	2023-07-28	531
+2625	James Smith	james.smith2625@yahoo.com	0967780932	M	1981-04-06	2023-08-10	\N
+2626	Lisa Miller	lisa.miller2626@gmail.com	0393561937	F	1986-06-16	2023-12-13	\N
+2627	Jennifer Smith	Jennifer.smith2627@mail.com	0906936564	F	1983-08-19	2025-07-19	\N
+2628	Mary Williams	mary.williams2628@gmail.com	0995658202	F	1977-10-18	2024-05-30	\N
+2629	Emily Smith	emily.smith2629@yahoo.com	\N	F	2003-11-22	2025-06-27	\N
+2630	John Miller	john.miller2630@mail.com	0313257434	M	1967-05-20	2025-09-18	\N
+2631	Karen Thomas	karen.thomas2631@mail.com	0555743178	F	2001-02-19	2024-06-13	\N
+2632	Sandra Smith	sandra.smith2632@gmail.com	0542454596	F	1985-08-10	2025-08-24	\N
+2633	Barbara Brown	barbara.brown2633@yahoo.com	0386242374	F	\N	2023-10-11	\N
+2634	Kevin Johnson	kevin.johnson2634@gmail.com	0561179822	M	1982-01-15	2024-04-26	\N
+2635	Patricia Smith	patricia.smith2635@mail.com	\N	F	1973-07-11	2024-01-13	\N
+2636	Jennifer Lopez	jennifer.lopez2636@mail.com	0709247822	F	1997-06-25	2024-02-11	\N
+2637	Amanda Martinez	amanda.martinez2637@gmail.com	0750202278	F	1983-03-24	2025-06-29	\N
+2638	Carol Smith	carol.smith2638@yahoo.com	0315080741	F	1983-09-12	2023-11-10	\N
+2639	Susan Taylor	susan.taylor2639@gmail.com	0929689648	F	\N	2024-03-06	\N
+2640	Brian Brown	brian.brown2640@gmail.com	0748880242	\N	1998-08-05	2024-07-16	\N
+2641	David Jones	david.jones2641@gmail.com	0301435492	M	1977-01-17	2025-08-12	\N
+2642	Sandra Wilson	Sandra.wilson2642@outlook.com	0352584675	F	\N	2025-02-18	\N
+2643	Patricia Davis	patricia.davis2643@yahoo.com	\N	F	1998-08-11	2024-06-03	\N
+2644	Steven Jones	steven.jones2644@gmail.com	0764441878	M	1988-11-13	2023-11-08	\N
+2645	Kimberly Smith	kimberly.smith2645@gmail.com	0551209844	F	1987-05-26	2024-10-10	\N
+2646	Andrew Brown	andrew.brown2646@gmail.com	0907965078	M	1966-12-20	2025-08-10	\N
+2647	George Johnson	george.johnson2647@gmail.com	0380704877	M	1972-06-17	2023-11-24	\N
+2648	Mark Brown	mark.brown2648@gmail.com	\N	M	\N	2024-11-29	\N
+2649	Brian Smith	brian.smith2649@yahoo.com	0397328781	M	2003-04-02	2025-11-21	\N
+2650	Mark Smith	mark.smith2650@outlook.com	0594548052	M	1969-06-22	2025-05-09	\N
+2651	Jennifer Rodriguez	jennifer.rodriguez2651@yahoo.com	0329198634	\N	1975-01-31	2024-05-11	\N
+2652	Steven Brown	steven.brown2652@mail.com	0578420875	M	2002-11-07	2023-12-06	2284
+2653	Brian Smith	brian.smith2653@yahoo.com	0383912684	M	\N	2025-03-13	\N
+2654	Anthony Smith	anthony.smith2654@gmail.com	0935953700	M	1972-04-13	2024-05-08	2048
+2655	Christopher Wilson	christopher.wilson2655@gmail.com	0711124649	M	1967-12-21	2025-12-09	\N
+2656	Thomas Smith	thomas.smith2656@gmail.com	0709427020	M	1968-11-23	2023-10-15	\N
+2657	Deborah Johnson	deborah.johnson2657@outlook.com	0764549541	F	\N	2025-01-15	753
+2658	Susan Smith	susan.smith2658@yahoo.com	0582989739	F	1965-05-07	2025-09-16	\N
+2659	Nancy Lopez	nancy.lopez2659@gmail.com	0332191904	F	1986-05-05	2024-06-25	\N
+2660	Deborah Rodriguez	deborah.rodriguez2660@gmail.com	0714211555	F	\N	2025-12-02	\N
+2661	Christopher Garcia	christopher.garcia2661@outlook.com	0929309832	M	1994-04-09	2025-07-09	\N
+2662	Richard Smith	richard.smith2662@mail.com	0910800348	M	\N	2023-08-17	\N
+2663	Thomas Wilson	thomas.wilson2663@yahoo.com	0589108548	M	1982-10-03	2025-03-26	\N
+2664	Sandra Taylor	sandra.taylor2664@gmail.com	0581164347	F	\N	2024-06-26	\N
+2665	Daniel Smith	Daniel.smith2665@gmail.com	0732624762	M	1971-01-14	2023-06-06	\N
+2666	Michael Garcia	michael.garcia2666@gmail.com	0392707387	\N	1968-07-08	2025-05-26	\N
+2667	Andrew Hernandez	andrew.hernandez2667@outlook.com	0912134601	M	2003-05-01	2024-10-09	\N
+2668	Jessica Thomas	jessica.thomas2668@gmail.com	0362358763	F	1978-09-27	2023-08-31	\N
+2669	Mary Lopez	mary.lopez2669@gmail.com	0736559113	F	1973-04-26	2025-02-23	\N
+2670	Robert Williams	robert.williams2670@gmail.com	0900743316	M	1968-04-28	2024-06-29	\N
+2671	Anthony Smith	anthony.smith2671@gmail.com	0304914343	M	1976-11-05	2024-02-08	\N
+2672	Nancy Williams	nancy.williams2672@yahoo.com	0937047295	F	1980-11-02	2025-09-27	\N
+2673	Michael Smith	michael.smith2673@gmail.com	0789376118	M	1979-12-24	2024-04-30	\N
+2674	Daniel Davis	daniel.davis2674@gmail.com	0942214076	M	2005-06-04	2025-02-04	\N
+2675	Ashley Smith	ashley.smith2675@mail.com	0393219626	F	1982-03-18	2025-08-13	1380
+2676	Richard Davis	richard.davis2676@mail.com	0544380493	M	\N	2025-08-06	\N
+2677	Barbara Williams	barbara.williams2677@yahoo.com	0703680313	\N	1982-10-17	2025-12-01	\N
+2678	Elizabeth Smith	elizabeth.smith2678@gmail.com	0593594295	\N	\N	2023-12-24	\N
+2679	William Lopez	william.lopez2679@gmail.com	0393907842	M	\N	2024-03-22	\N
+2680	Steven Wilson	steven.wilson2680@gmail.com	\N	M	\N	2023-05-26	\N
+2681	Joshua Brown	joshua.brown2681@gmail.com	0735697709	M	2003-11-09	2024-05-03	\N
+2682	Jessica Rodriguez	jessica.rodriguez2682@gmail.com	0361736699	F	1974-11-11	2025-08-13	2233
+2683	Christopher Smith	christopher.smith2683@outlook.com	0762173485	M	1973-04-24	2025-06-07	\N
+2684	Mark Johnson	mark.johnson2684@gmail.com	0789743874	M	1984-10-31	2023-03-04	\N
+2685	Paul Garcia	paul.garcia2685@outlook.com	0903228323	M	1968-01-30	2025-02-17	\N
+2686	Linda Anderson	linda.anderson2686@gmail.com	0557092917	F	1989-09-20	2024-11-22	\N
+2687	Lisa Williams	lisa.williams2687@outlook.com	0561563845	F	\N	2025-10-20	\N
+2688	Charles Williams	charles.williams2688@gmail.com	\N	M	\N	2025-03-23	605
+2689	Jessica Lopez	jessica.lopez2689@yahoo.com	\N	F	1979-03-13	2024-04-27	\N
+2690	Thomas Smith	Thomas.smith2690@yahoo.com	0579876699	M	\N	2025-05-23	\N
+2691	Kimberly Johnson	kimberly.johnson2691@gmail.com	0368787888	F	1995-05-15	2025-07-15	\N
+2692	Nancy Davis	nancy.davis2692@yahoo.com	\N	\N	1982-12-02	2025-08-04	\N
+2693	Richard Brown	richard.brown2693@gmail.com	0531770855	M	1973-10-03	2025-06-13	\N
+2694	Michael Smith	michael.smith2694@yahoo.com	0304304596	M	1992-04-08	2025-02-28	\N
+2695	Andrew Miller	andrew.miller2695@outlook.com	0757048107	\N	1970-03-24	2025-12-27	\N
+2696	Betty Smith	betty.smith2696@outlook.com	0709292584	F	\N	2025-04-07	\N
+2697	Margaret Johnson	margaret.johnson2697@gmail.com	0744711274	F	1978-12-07	2024-05-21	\N
+2698	Elizabeth Taylor	elizabeth.taylor2698@yahoo.com	0546665891	F	1977-05-12	2024-07-28	\N
+2699	Kimberly Miller	kimberly.miller2699@yahoo.com	0342519163	F	1977-04-12	2024-06-22	\N
+2700	Lisa Brown	lisa.brown2700@gmail.com	0510066871	F	1995-04-22	2023-05-08	1724
+2701	Emily Williams	emily.williams2701@mail.com	0761742365	F	1965-11-09	2025-06-21	\N
+2702	Sarah Johnson	sarah.johnson2702@gmail.com	\N	F	1977-11-01	2025-02-24	\N
+2703	Christopher Jones	christopher.jones2703@gmail.com	0905458611	\N	1988-02-08	2025-09-23	\N
+2704	Richard Williams	richard.williams2704@gmail.com	0389105959	M	\N	2024-06-08	\N
+2705	Steven Hernandez	steven.hernandez2705@outlook.com	0385264382	M	2003-05-02	2024-07-26	\N
+2706	Linda Johnson	linda.johnson2706@gmail.com	\N	F	1981-04-08	2024-12-12	\N
+2707	Lisa Smith	lisa.smith2707@yahoo.com	0783967804	\N	1991-10-07	2024-04-01	\N
+2708	Jennifer Smith	jennifer.smith2708@gmail.com	\N	F	1973-03-29	2025-08-08	\N
+2709	Ashley Smith	ashley.smith2709@mail.com	0742499510	F	1981-07-16	2025-04-03	\N
+2710	Donna Smith	donna.smith2710@yahoo.com	\N	F	\N	2023-01-31	\N
+2711	James Williams	james.williams2711@mail.com	0789676731	M	\N	2025-12-30	\N
+2712	Linda Johnson	linda.johnson2712@gmail.com	0326896505	F	1976-08-08	2023-05-29	\N
+2713	Karen Johnson	karen.johnson2713@gmail.com	0963450986	F	1978-05-06	2023-04-02	\N
+2714	Edward Smith	edward.smith2714@yahoo.com	0724838788	M	1998-02-28	2025-11-02	\N
+2715	Melissa Smith	melissa.smith2715@gmail.com	0512154404	F	\N	2024-06-16	\N
+2716	Michael Smith	michael.smith2716@gmail.com	0534287061	M	1998-04-05	2025-08-09	1115
+2717	Christopher Brown	christopher.brown2717@outlook.com	0763438805	M	1967-08-11	2023-06-12	\N
+2718	Susan Smith	susan.smith2718@mail.com	0731534896	F	1986-06-20	2023-09-11	\N
+2719	Kimberly Johnson	kimberly.johnson2719@gmail.com	0508319634	F	1996-11-30	2023-01-02	\N
+2720	James Smith	james.smith2720@gmail.com	0571470053	M	1986-01-20	2024-03-05	\N
+2721	Emily Anderson	emily.anderson2721@gmail.com	0543571924	F	1965-07-04	2024-05-25	1851
+2722	Christopher Williams	christopher.williams2722@yahoo.com	0772362633	M	1968-09-01	2025-06-04	\N
+2723	Kimberly Davis	kimberly.davis2723@gmail.com	0599737159	F	1996-03-30	2025-06-13	\N
+2724	Matthew Johnson	matthew.johnson2724@gmail.com	0577423401	M	1967-04-30	2023-08-05	\N
+2725	Jennifer Johnson	jennifer.johnson2725@yahoo.com	\N	F	1997-05-31	2025-12-20	\N
+2726	Elizabeth Smith	elizabeth.smith2726@gmail.com	0946638470	F	1984-04-14	2025-02-02	\N
+2727	Donald Smith	donald.smith2727@outlook.com	0714249036	M	1989-10-02	2025-06-27	\N
+2728	Barbara Williams	barbara.williams2728@gmail.com	0771654888	F	1999-06-04	2023-10-05	\N
+2729	Paul Johnson	paul.johnson2729@gmail.com	0371459206	M	1985-10-02	2024-02-01	\N
+2730	Mary Smith	mary.smith2730@gmail.com	\N	F	1976-08-06	2025-12-03	\N
+2731	Sandra Brown	sandra.brown2731@yahoo.com	0314344708	F	1996-01-11	2023-08-03	\N
+2732	Daniel Hernandez	daniel.hernandez2732@gmail.com	0920313338	M	\N	2025-08-11	\N
+2733	Melissa Miller	melissa.miller2733@outlook.com	0338675140	F	1981-03-18	2025-12-20	\N
+2734	Anthony Smith	anthony.smith2734@gmail.com	0592594852	M	1987-03-11	2024-12-19	\N
+2735	Christopher Hernandez	christopher.hernandez2735@gmail.com	0517363383	M	1990-03-30	2025-08-04	\N
+2736	George Brown	george.brown2736@yahoo.com	0903228524	M	1967-10-31	2025-03-03	2104
+2737	Kevin Miller	kevin.miller2737@mail.com	0584177684	M	2005-03-30	2024-05-29	1195
+2738	Patricia Smith	patricia.smith2738@gmail.com	0307407584	F	1980-10-09	2025-12-19	\N
+2739	Matthew Anderson	matthew.anderson2739@gmail.com	0543104169	M	1971-09-23	2025-11-02	\N
+2740	Margaret Garcia	Margaret.garcia2740@gmail.com	0521889266	F	\N	2025-06-29	\N
+2741	Richard Taylor	richard.taylor2741@gmail.com	0306201361	M	2000-05-03	2025-02-16	\N
+2742	David Davis	david.davis2742@yahoo.com	\N	M	\N	2025-05-11	\N
+2743	Paul Brown	paul.brown2743@mail.com	0383710371	M	1990-09-11	2025-03-16	\N
+2744	Thomas Williams	thomas.williams2744@gmail.com	0940471436	M	1968-04-01	2023-12-31	\N
+2745	John Smith	john.smith2745@mail.com	0505705490	M	\N	2024-07-28	\N
+2746	Joshua Johnson	joshua.johnson2746@gmail.com	\N	M	1965-11-29	2024-06-13	\N
+2747	Emily Johnson	emily.johnson2747@gmail.com	0389425139	F	\N	2023-11-22	\N
+2748	Patricia Johnson	patricia.johnson2748@yahoo.com	0342538730	F	1994-12-11	2024-11-20	\N
+2749	Donna Jones	donna.jones2749@gmail.com	0978979878	F	1974-11-05	2024-09-25	1368
+2750	John Smith	john.smith2750@gmail.com	0520920672	\N	1991-07-07	2025-10-02	\N
+2751	Donna Wilson	donna.wilson2751@mail.com	\N	F	\N	2024-07-15	\N
+2752	Nancy Rodriguez	nancy.rodriguez2752@outlook.com	0910909583	\N	\N	2025-10-28	\N
+2753	Margaret Jones	margaret.jones2753@outlook.com	0765264664	F	2001-05-21	2023-07-30	\N
+2754	Mark Smith	mark.smith2754@gmail.com	0568374558	M	1993-08-15	2025-08-11	\N
+2755	Michelle Brown	michelle.brown2755@gmail.com	0950484666	F	1991-06-05	2023-03-07	\N
+2756	George Williams	george.williams2756@mail.com	0566524452	M	\N	2024-11-27	1853
+2757	Paul Smith	paul.smith2757@mail.com	0915431784	M	1995-09-13	2023-04-20	409
+2758	Thomas Smith	thomas.smith2758@outlook.com	0585315944	M	1971-09-29	2024-11-13	\N
+2759	Matthew Smith	matthew.smith2759@gmail.com	0561283866	M	2001-03-25	2025-03-19	\N
+2760	George Williams	george.williams2760@outlook.com	0999063489	M	\N	2025-06-23	\N
+2761	Matthew Anderson	matthew.anderson2761@gmail.com	\N	M	\N	2025-11-25	\N
+2762	Joshua Smith	joshua.smith2762@gmail.com	0510521506	M	1968-08-09	2023-09-03	\N
+2763	John Williams	john.williams2763@mail.com	\N	M	1970-08-02	2024-08-24	\N
+2764	Ashley Hernandez	ashley.hernandez2764@mail.com	0988666712	F	1978-03-11	2023-12-28	431
+2765	Elizabeth Garcia	elizabeth.garcia2765@outlook.com	0593838403	F	1992-01-09	2024-10-19	\N
+2766	Karen Smith	karen.smith2766@mail.com	0302558272	F	1976-04-23	2025-11-01	\N
+2767	Joseph Miller	joseph.miller2767@gmail.com	0916577001	M	2006-04-19	2024-03-19	\N
+2768	Matthew Johnson	matthew.johnson2768@gmail.com	0399154057	M	1975-08-28	2025-06-23	\N
+2769	Jennifer Smith	jennifer.smith2769@gmail.com	\N	F	1981-03-29	2025-03-06	\N
+2770	George Williams	george.williams2770@mail.com	\N	M	\N	2024-11-23	1018
+2771	Charles Johnson	charles.johnson2771@outlook.com	\N	M	2002-05-18	2024-06-15	\N
+2772	Margaret Smith	Margaret.smith2772@mail.com	\N	F	1980-10-04	2024-12-19	\N
+2773	Paul Smith	paul.smith2773@gmail.com	0367297149	M	\N	2023-05-21	\N
+2774	Richard Johnson	richard.johnson2774@yahoo.com	0703464061	M	\N	2025-10-12	\N
+2775	Betty Johnson	betty.johnson2775@yahoo.com	\N	F	\N	2024-12-02	\N
+2776	Jennifer Smith	jennifer.smith2776@mail.com	0749081355	F	\N	2025-01-27	\N
+2777	Ashley Smith	ashley.smith2777@outlook.com	0502899095	F	1975-10-29	2025-12-05	\N
+2778	Ashley Jones	ashley.jones2778@gmail.com	\N	F	\N	2023-08-10	\N
+2779	Amanda Smith	amanda.smith2779@outlook.com	0369673606	F	\N	2023-08-31	\N
+2780	Susan Lopez	susan.lopez2780@mail.com	0356704643	F	1975-04-08	2025-03-17	\N
+2781	Karen Jones	karen.jones2781@gmail.com	0515737229	F	1971-05-29	2025-12-12	\N
+2782	Melissa Smith	melissa.smith2782@yahoo.com	0352630435	F	1967-08-16	2025-07-08	1894
+2783	Ashley Brown	ashley.brown2783@gmail.com	0743308185	F	1985-06-17	2025-06-27	\N
+2784	Deborah Smith	deborah.smith2784@gmail.com	\N	F	1974-05-25	2025-05-28	\N
+2785	Paul Smith	paul.smith2785@gmail.com	\N	M	1976-11-26	2025-10-08	\N
+2786	Joseph Wilson	Joseph.wilson2786@gmail.com	0319002805	M	2002-11-17	2025-12-18	1114
+2787	Edward Smith	edward.smith2787@yahoo.com	0978660464	M	1965-12-28	2024-12-12	2038
+2788	Paul Williams	paul.williams2788@yahoo.com	0940662112	M	\N	2025-10-08	\N
+2789	Mark Wilson	mark.wilson2789@outlook.com	0797784199	M	1994-03-18	2025-07-30	\N
+2790	Michael Smith	michael.smith2790@gmail.com	0760279237	M	1966-11-25	2023-04-27	\N
+2791	Jennifer Williams	Jennifer.williams2791@mail.com	\N	F	1965-04-15	2024-05-05	\N
+2792	Nancy Brown	nancy.brown2792@gmail.com	0991503625	F	\N	2025-07-30	\N
+2793	Elizabeth Smith	elizabeth.smith2793@gmail.com	0552433533	\N	2002-03-27	2024-04-14	\N
+2794	Sarah Davis	sarah.davis2794@gmail.com	0917001473	F	1967-06-06	2024-08-07	\N
+2795	Patricia Garcia	patricia.garcia2795@gmail.com	0395562074	F	1979-04-18	2024-11-08	788
+2796	Michael Davis	michael.davis2796@gmail.com	0731796675	M	1977-06-30	2024-02-23	\N
+2797	Lisa Hernandez	lisa.hernandez2797@mail.com	0339478517	F	2001-04-09	2024-09-19	\N
+2798	Sandra Hernandez	sandra.hernandez2798@gmail.com	\N	F	\N	2024-02-25	\N
+2799	Robert Brown	robert.brown2799@gmail.com	0767029718	M	1967-01-08	2025-10-17	\N
+2800	Matthew Lopez	matthew.lopez2800@yahoo.com	0958850426	M	1980-12-26	2024-01-27	167
+2801	Paul Garcia	paul.garcia2801@gmail.com	0589056928	M	1970-12-02	2025-03-20	2160
+2802	Amanda Smith	amanda.smith2802@yahoo.com	0755673490	F	2001-01-23	2024-11-10	\N
+2803	Richard Johnson	Richard.johnson2803@outlook.com	0508867813	M	1993-07-14	2023-12-23	\N
+2804	James Garcia	james.garcia2804@gmail.com	0748125514	M	1986-11-19	2024-10-13	\N
+2805	Matthew Smith	matthew.smith2805@gmail.com	0796272097	M	1998-05-31	2025-11-13	\N
+2806	Michael Martinez	michael.martinez2806@gmail.com	0798277003	M	1972-12-18	2025-12-02	\N
+2807	Jessica Garcia	jessica.garcia2807@mail.com	0918338043	F	1971-10-19	2023-01-20	\N
+2808	Amanda Smith	amanda.smith2808@gmail.com	0314861012	F	1982-05-26	2025-01-25	\N
+2809	Donna Jones	donna.jones2809@gmail.com	0974703355	F	1970-01-07	2025-04-26	1076
+2810	Emily Smith	emily.smith2810@yahoo.com	0908245363	F	1992-06-27	2023-02-18	\N
+2811	Sandra Smith	sandra.smith2811@gmail.com	0760119782	F	2004-01-30	2024-05-14	582
+2812	Christopher Lopez	christopher.lopez2812@gmail.com	\N	M	1967-10-19	2024-09-27	\N
+2813	Christopher Garcia	christopher.garcia2813@gmail.com	0919151429	M	2002-05-26	2024-10-15	\N
+2814	Jennifer Smith	jennifer.smith2814@yahoo.com	0794700100	F	1987-03-06	2025-07-08	\N
+2815	Brian Miller	brian.miller2815@mail.com	0350908965	M	1996-08-21	2025-08-29	\N
+2816	Lisa Johnson	lisa.johnson2816@yahoo.com	0988252892	F	1981-08-15	2024-10-27	\N
+2817	Mark Rodriguez	mark.rodriguez2817@outlook.com	0334557188	M	1987-07-10	2024-04-24	\N
+2818	Joshua Smith	joshua.smith2818@gmail.com	0994428399	\N	\N	2023-12-04	\N
+2819	Steven Smith	steven.smith2819@yahoo.com	0958759195	M	2001-03-22	2023-10-13	\N
+2820	Richard Smith	richard.smith2820@yahoo.com	0337564466	M	2001-08-25	2023-11-03	\N
+2821	Jennifer Smith	jennifer.smith2821@outlook.com	0776125192	F	\N	2023-06-21	1049
+2822	Charles Smith	charles.smith2822@gmail.com	\N	M	\N	2023-06-10	\N
+2823	Richard Smith	richard.smith2823@mail.com	\N	M	1975-07-13	2023-12-28	\N
+2824	Edward Jones	edward.jones2824@gmail.com	0376704746	M	1965-06-05	2025-07-19	\N
+2825	Carol Garcia	carol.garcia2825@gmail.com	0369035597	F	1989-03-21	2023-10-17	\N
+2826	Deborah Johnson	deborah.johnson2826@gmail.com	0375798085	F	1991-05-26	2023-09-07	\N
+2827	Andrew Smith	andrew.smith2827@yahoo.com	0386546032	M	\N	2023-12-06	\N
+2828	Amanda Johnson	amanda.johnson2828@mail.com	0507981405	F	\N	2023-11-30	\N
+2829	Emily Martinez	emily.martinez2829@gmail.com	0301645027	F	\N	2025-07-29	2429
+2830	Karen Brown	Karen.brown2830@gmail.com	0513201604	F	\N	2024-05-02	\N
+2831	David Anderson	david.anderson2831@mail.com	0755669892	M	\N	2025-12-28	\N
+2832	Donald Wilson	donald.wilson2832@gmail.com	0782057809	M	1965-01-23	2023-11-10	\N
+2833	Karen Williams	karen.williams2833@outlook.com	0993205173	F	\N	2024-11-27	\N
+2834	Edward Smith	edward.smith2834@gmail.com	0523070200	M	1981-06-29	2025-07-09	366
+2835	Kevin Smith	kevin.smith2835@gmail.com	0762952900	M	1984-12-02	2025-10-24	\N
+2836	Michael Rodriguez	michael.rodriguez2836@gmail.com	0336457708	\N	1966-12-19	2025-03-06	\N
+2837	Thomas Johnson	thomas.johnson2837@gmail.com	0998589077	M	1968-05-09	2025-04-28	\N
+2838	Daniel Miller	daniel.miller2838@gmail.com	0931980342	M	1983-05-03	2025-04-10	\N
+2839	Brian Martinez	brian.martinez2839@gmail.com	0590258775	M	1965-09-14	2025-12-02	\N
+2840	Donna Miller	donna.miller2840@outlook.com	0540794998	F	1997-09-05	2025-10-10	\N
+2841	Robert Martinez	robert.martinez2841@yahoo.com	0967256471	M	\N	2025-08-16	\N
+2842	Betty Taylor	betty.taylor2842@mail.com	0510132529	F	\N	2025-10-13	\N
+2843	Amanda Brown	amanda.brown2843@gmail.com	0377005279	F	\N	2024-02-25	\N
+2844	Andrew Johnson	andrew.johnson2844@outlook.com	0528674866	M	\N	2023-11-05	\N
+2845	Kevin Smith	kevin.smith2845@gmail.com	0957531131	M	1990-03-18	2025-08-24	\N
+2846	Brian Williams	brian.williams2846@gmail.com	\N	M	\N	2025-12-08	1760
+2847	Linda Jones	linda.jones2847@gmail.com	\N	F	1966-10-14	2024-03-07	\N
+2848	Ashley Taylor	ashley.taylor2848@yahoo.com	0922515263	F	2006-04-18	2024-02-27	\N
+2849	Robert Smith	robert.smith2849@outlook.com	\N	M	\N	2024-09-28	\N
+2850	John Brown	john.brown2850@yahoo.com	0936853357	M	1988-11-09	2025-11-14	2290
+2851	Nancy Taylor	nancy.taylor2851@gmail.com	0542674912	F	\N	2025-03-02	\N
+2852	Joshua Lopez	joshua.lopez2852@outlook.com	0940456711	M	1992-06-01	2024-08-03	\N
+2853	Steven Jones	steven.jones2853@yahoo.com	0703011828	M	1989-09-06	2024-04-11	\N
+2854	Donna Smith	donna.smith2854@mail.com	0974711495	F	1986-11-18	2023-03-30	\N
+2855	Kimberly Davis	kimberly.davis2855@mail.com	0335618167	\N	1991-09-06	2023-07-14	\N
+2856	Richard Brown	richard.brown2856@outlook.com	0702891345	M	2003-04-28	2023-02-06	\N
+2857	Michelle Williams	michelle.williams2857@gmail.com	0927953705	F	1977-05-18	2024-12-05	\N
+2858	Donna Jones	donna.jones2858@mail.com	0911012210	\N	1990-06-06	2025-05-14	\N
+2859	Emily Jones	emily.jones2859@outlook.com	0900247831	F	1972-06-04	2025-08-28	\N
+2860	Jennifer Davis	jennifer.davis2860@gmail.com	0983119455	F	1985-08-15	2025-05-29	1687
+2861	Elizabeth Taylor	elizabeth.taylor2861@yahoo.com	0584429398	F	1992-11-30	2023-09-05	2271
+2862	Paul Smith	paul.smith2862@mail.com	0350721186	M	1985-06-29	2023-07-02	\N
+2863	Amanda Smith	amanda.smith2863@mail.com	0538894732	F	1977-04-07	2025-08-03	\N
+2864	Robert Davis	robert.davis2864@gmail.com	0531717509	M	1990-08-12	2024-02-15	\N
+2865	Jennifer Garcia	jennifer.garcia2865@gmail.com	\N	F	\N	2023-12-28	\N
+2866	Michelle Hernandez	michelle.hernandez2866@gmail.com	0963105411	F	\N	2024-03-02	\N
+2867	John Smith	john.smith2867@yahoo.com	0955585061	M	2005-07-29	2023-12-22	\N
+2868	Christopher Williams	christopher.williams2868@yahoo.com	0308587616	M	\N	2024-08-14	\N
+2869	Sarah Rodriguez	sarah.rodriguez2869@gmail.com	0573183266	F	2004-08-09	2024-11-24	\N
+2870	Sarah Rodriguez	sarah.rodriguez2870@outlook.com	0597490658	F	1984-01-30	2024-09-18	\N
+2871	Christopher Smith	christopher.smith2871@gmail.com	0565172137	M	\N	2024-02-05	\N
+2872	Charles Hernandez	charles.hernandez2872@yahoo.com	0910753510	\N	1980-07-28	2025-08-30	\N
+2873	Ashley Smith	ashley.smith2873@yahoo.com	0591522634	F	1988-03-21	2025-09-24	\N
+2874	Sandra Johnson	sandra.johnson2874@gmail.com	0700550799	F	1989-08-26	2025-07-04	\N
+2875	Andrew Garcia	andrew.garcia2875@mail.com	\N	M	2006-10-31	2023-08-30	\N
+2876	Steven Jones	steven.jones2876@gmail.com	0514729528	M	\N	2023-07-08	\N
+2877	Kimberly Smith	kimberly.smith2877@yahoo.com	0329436152	F	1988-07-26	2023-08-22	\N
+2878	Andrew Lopez	andrew.lopez2878@gmail.com	0334942212	M	1984-07-15	2025-08-11	\N
+2879	Melissa Williams	melissa.williams2879@outlook.com	0393237965	F	2005-11-04	2024-12-08	\N
+2880	Steven Johnson	steven.johnson2880@gmail.com	0571235625	M	1998-08-06	2024-02-19	\N
+2881	Patricia Smith	patricia.smith2881@gmail.com	0561175222	F	1978-03-30	2025-05-24	\N
+2882	Paul Anderson	paul.anderson2882@gmail.com	0797665835	M	\N	2025-03-20	\N
+2883	Sandra Smith	sandra.smith2883@gmail.com	\N	F	2001-07-27	2023-09-08	425
+2884	Charles Smith	charles.smith2884@gmail.com	\N	M	1979-09-02	2025-08-17	\N
+2885	Deborah Taylor	Deborah.taylor2885@yahoo.com	0962341787	F	1996-01-06	2024-10-16	\N
+2886	Edward Johnson	Edward.johnson2886@mail.com	0585128784	M	1965-12-05	2024-08-19	\N
+2887	Matthew Williams	matthew.williams2887@outlook.com	0759254686	M	\N	2024-09-22	\N
+2888	Richard Martinez	richard.martinez2888@outlook.com	0564437429	M	1990-08-04	2025-07-06	\N
+2889	Mark Garcia	mark.garcia2889@gmail.com	0339289659	M	1995-06-26	2025-03-29	\N
+2890	Daniel Miller	daniel.miller2890@gmail.com	0931804923	M	\N	2024-02-16	\N
+2891	William Smith	william.smith2891@gmail.com	0933009820	M	1984-05-10	2024-11-14	\N
+2892	Joshua Smith	joshua.smith2892@gmail.com	0332622041	M	\N	2023-01-19	\N
+2893	Joshua Smith	joshua.smith2893@yahoo.com	0309810936	M	1970-10-27	2023-04-28	\N
+2894	Betty Smith	betty.smith2894@gmail.com	0715724613	F	1986-04-11	2024-02-03	\N
+2895	Matthew Smith	matthew.smith2895@outlook.com	0383554711	M	1990-06-30	2024-08-08	\N
+2896	Kevin Smith	kevin.smith2896@gmail.com	0567521528	M	1975-08-09	2024-02-17	\N
+2897	Amanda Smith	amanda.smith2897@gmail.com	0347767791	F	\N	2024-07-12	\N
+2898	Michelle Rodriguez	michelle.rodriguez2898@yahoo.com	0330844176	F	2003-08-08	2025-05-09	\N
+2899	Joshua Taylor	joshua.taylor2899@gmail.com	\N	M	2004-08-28	2025-08-19	\N
+2900	Elizabeth Williams	elizabeth.williams2900@gmail.com	0305808891	F	1994-09-30	2025-05-05	666
+2901	Christopher Williams	christopher.williams2901@outlook.com	0994103699	M	\N	2024-09-23	\N
+2902	Steven Miller	steven.miller2902@gmail.com	0974736545	M	1988-04-18	2023-07-07	2793
+2903	Anthony Williams	anthony.williams2903@yahoo.com	0321687100	M	1989-05-28	2025-01-23	\N
+2904	Jennifer Johnson	jennifer.johnson2904@mail.com	0792116398	F	\N	2023-11-02	\N
+2905	Daniel Davis	daniel.davis2905@outlook.com	0379895553	M	1987-03-27	2025-05-02	\N
+2906	Nancy Wilson	nancy.wilson2906@yahoo.com	0363701205	F	\N	2023-09-23	\N
+2907	Steven Rodriguez	Steven.rodriguez2907@gmail.com	0934493245	M	1966-12-21	2025-06-24	\N
+2908	Melissa Smith	melissa.smith2908@gmail.com	0571940554	F	1981-07-16	2024-09-15	\N
+2909	Joseph Williams	joseph.williams2909@gmail.com	0543869069	M	\N	2024-10-06	\N
+2910	Andrew Garcia	andrew.garcia2910@gmail.com	0940279781	M	1991-10-20	2023-04-04	\N
+2911	Linda Miller	linda.miller2911@gmail.com	0939115024	F	2003-11-17	2025-06-28	\N
+2912	Richard Brown	richard.brown2912@mail.com	0565428662	M	1991-06-27	2025-06-02	\N
+2913	John Jones	john.jones2913@gmail.com	0383040718	M	1981-12-19	2024-12-28	\N
+2914	George Smith	george.smith2914@gmail.com	\N	M	2003-01-06	2024-03-05	\N
+2915	Patricia Smith	patricia.smith2915@outlook.com	0798329062	F	\N	2024-06-14	\N
+2916	Lisa Smith	lisa.smith2916@yahoo.com	0363624377	F	\N	2025-12-07	\N
+2917	John Smith	john.smith2917@gmail.com	0765096746	M	\N	2024-08-03	1271
+2918	Mark Smith	mark.smith2918@outlook.com	0767518538	M	1982-09-03	2025-12-29	\N
+2919	Sarah Smith	sarah.smith2919@gmail.com	0769511930	F	1984-03-07	2023-07-01	\N
+2920	Barbara Smith	barbara.smith2920@mail.com	0937398775	F	1970-09-09	2025-05-07	\N
+2921	Joshua Williams	joshua.williams2921@yahoo.com	0319116021	M	1998-03-23	2023-04-26	\N
+2922	Charles Smith	charles.smith2922@gmail.com	\N	M	1997-08-14	2023-11-09	\N
+2923	Anthony Thomas	anthony.thomas2923@yahoo.com	0796470582	M	1991-05-18	2024-03-21	\N
+2924	George Lopez	george.lopez2924@gmail.com	\N	M	2005-11-06	2024-01-20	\N
+2925	Barbara Smith	barbara.smith2925@gmail.com	0908390556	F	1984-09-27	2023-07-27	\N
+2926	John Wilson	john.wilson2926@gmail.com	0972044531	M	1990-08-29	2024-05-02	\N
+2927	Anthony Smith	anthony.smith2927@outlook.com	0957475162	M	1999-11-15	2025-05-11	\N
+2928	Sandra Davis	sandra.davis2928@mail.com	0945672513	F	1997-08-03	2025-12-23	\N
+2929	Sandra Lopez	sandra.lopez2929@outlook.com	0300827283	F	2003-08-23	2024-03-06	\N
+2930	Elizabeth Rodriguez	elizabeth.rodriguez2930@gmail.com	0562317751	\N	1969-02-23	2024-07-26	2928
+2931	Carol Miller	carol.miller2931@mail.com	0909510948	F	1983-12-17	2023-12-21	\N
+2932	Susan Martinez	susan.martinez2932@gmail.com	0776646199	F	\N	2025-11-02	\N
+2933	Sarah Smith	sarah.smith2933@gmail.com	0573946205	F	2004-02-06	2023-07-14	\N
+2934	Michael Brown	Michael.brown2934@gmail.com	\N	M	\N	2024-01-03	902
+2935	David Miller	david.miller2935@outlook.com	0503869255	M	1994-05-01	2024-06-26	\N
+2936	Paul Anderson	paul.anderson2936@gmail.com	0531566446	M	1995-04-29	2023-07-31	700
+2937	Robert Jones	robert.jones2937@gmail.com	0913398514	M	1979-03-01	2025-03-18	1737
+2938	David Brown	david.brown2938@gmail.com	0375968366	\N	2005-04-10	2024-06-13	\N
+2939	Nancy Davis	nancy.davis2939@gmail.com	0911581188	F	1981-04-14	2024-01-27	710
+2940	Margaret Jones	margaret.jones2940@mail.com	\N	F	\N	2024-08-15	\N
+2941	Michael Jones	michael.jones2941@yahoo.com	0900855616	M	\N	2025-12-21	\N
+2942	Patricia Williams	patricia.williams2942@gmail.com	0962400255	F	1986-07-02	2025-11-10	\N
+2943	William Davis	william.davis2943@gmail.com	0969046734	M	1966-02-19	2025-11-27	\N
+2944	Michael Anderson	michael.anderson2944@yahoo.com	0360443573	M	1967-12-28	2023-10-29	\N
+2945	David Lopez	david.lopez2945@outlook.com	0329008835	M	1987-01-08	2025-10-31	537
+2946	Joshua Davis	joshua.davis2946@gmail.com	0550286909	M	2006-09-15	2024-05-03	\N
+2947	Matthew Martinez	matthew.martinez2947@gmail.com	0960624344	M	1995-06-07	2024-09-27	\N
+2948	Kimberly Brown	kimberly.brown2948@gmail.com	0590869574	F	\N	2025-01-13	\N
+2949	Andrew Smith	andrew.smith2949@gmail.com	0517817478	M	1989-03-21	2024-09-12	\N
+2950	Barbara Thomas	barbara.thomas2950@outlook.com	\N	F	1986-04-03	2024-11-15	\N
+2951	John Smith	john.smith2951@yahoo.com	0945687649	\N	2004-01-23	2025-04-13	\N
+2952	Robert Johnson	robert.johnson2952@gmail.com	0569803382	M	\N	2025-03-08	\N
+2953	Paul Johnson	paul.johnson2953@gmail.com	0549882209	\N	1985-01-08	2025-04-17	\N
+2954	Jennifer Jones	jennifer.jones2954@gmail.com	0778973162	F	1991-05-04	2025-01-29	\N
+2955	William Johnson	william.johnson2955@gmail.com	0555139275	M	\N	2025-08-22	\N
+2956	Daniel Jones	daniel.jones2956@gmail.com	0529930951	M	\N	2023-05-30	\N
+2957	John Smith	john.smith2957@gmail.com	0943927505	M	1977-06-21	2023-07-07	\N
+2958	Karen Anderson	karen.anderson2958@gmail.com	0728017648	F	1998-03-01	2024-12-14	\N
+2959	Richard Smith	richard.smith2959@outlook.com	0785576642	M	1979-12-17	2025-07-28	\N
+2960	George Johnson	george.johnson2960@yahoo.com	\N	M	1992-10-07	2024-05-15	\N
+2961	Barbara Smith	barbara.smith2961@outlook.com	0324971808	F	1986-03-04	2024-03-31	\N
+2962	Margaret Anderson	margaret.anderson2962@gmail.com	0763883873	\N	\N	2024-06-29	\N
+2963	Amanda Miller	amanda.miller2963@gmail.com	0360837100	F	\N	2025-06-03	\N
+2964	David Smith	david.smith2964@yahoo.com	\N	M	1982-01-21	2024-09-27	\N
+2965	Charles Lopez	charles.lopez2965@outlook.com	0940399012	M	1995-01-16	2025-04-02	\N
+2966	Carol Brown	Carol.brown2966@yahoo.com	0522990201	F	1965-04-02	2025-05-08	\N
+2967	Sandra Smith	Sandra.smith2967@gmail.com	0926235192	F	\N	2024-03-28	\N
+2968	Linda Anderson	linda.anderson2968@gmail.com	0933541021	F	1970-05-19	2025-04-05	\N
+2969	Andrew Thomas	andrew.thomas2969@gmail.com	0379531409	M	1968-02-16	2024-06-02	\N
+2970	Richard Johnson	richard.johnson2970@mail.com	0912687887	M	\N	2025-10-29	2858
+2971	Jennifer Rodriguez	jennifer.rodriguez2971@gmail.com	0511030109	F	\N	2025-09-07	\N
+2972	Donald Anderson	donald.anderson2972@gmail.com	0708441554	M	1980-10-25	2025-11-05	\N
+2973	Anthony Garcia	anthony.garcia2973@gmail.com	0517823366	\N	1981-06-02	2025-07-12	\N
+2974	Daniel Miller	daniel.miller2974@mail.com	0960099918	M	\N	2023-07-02	\N
+2975	George Williams	george.williams2975@gmail.com	0380854899	M	1982-12-25	2025-03-18	\N
+2976	Mary Smith	mary.smith2976@yahoo.com	0508314091	F	2003-05-28	2025-04-15	\N
+2977	Ashley Johnson	ashley.johnson2977@gmail.com	0565930407	F	1983-10-01	2023-10-27	1582
+2978	Mark Jones	Mark.jones2978@outlook.com	\N	M	\N	2025-05-22	1381
+2979	William Hernandez	william.hernandez2979@gmail.com	0984386335	M	\N	2025-02-12	\N
+2980	Thomas Smith	thomas.smith2980@gmail.com	\N	M	\N	2024-01-24	\N
+2981	Carol Williams	carol.williams2981@mail.com	0794764340	F	1996-09-30	2024-06-08	\N
+2982	Anthony Hernandez	anthony.hernandez2982@gmail.com	\N	M	\N	2024-09-22	\N
+2983	Barbara Thomas	barbara.thomas2983@outlook.com	0940562419	F	1976-06-21	2025-06-12	\N
+2984	Deborah Williams	deborah.williams2984@gmail.com	0537842681	F	1988-08-26	2025-05-18	\N
+2985	Melissa Martinez	melissa.martinez2985@gmail.com	0554985856	F	\N	2024-10-16	\N
+2986	Daniel Garcia	daniel.garcia2986@outlook.com	0780212886	M	1992-09-08	2025-07-16	\N
+2987	James Smith	james.smith2987@gmail.com	0959226606	M	2001-05-18	2024-10-12	\N
+2988	Robert Smith	robert.smith2988@outlook.com	0733089940	M	1999-02-22	2024-06-02	\N
+2989	Margaret Brown	margaret.brown2989@yahoo.com	0365422469	F	1976-02-23	2024-01-15	\N
+2990	Ashley Johnson	ashley.johnson2990@gmail.com	0734049653	F	1990-12-26	2023-07-23	213
+2991	Charles Smith	charles.smith2991@gmail.com	0766984079	M	1975-01-11	2024-01-10	\N
+2992	Edward Thomas	edward.thomas2992@mail.com	0588501328	M	1981-07-23	2025-01-06	1776
+2993	Donna Brown	donna.brown2993@mail.com	0306525573	F	1974-06-07	2024-07-27	322
+2994	Kevin Garcia	kevin.garcia2994@gmail.com	0748766988	M	2003-02-13	2025-06-25	\N
+2995	Michael Smith	michael.smith2995@gmail.com	0991310619	M	\N	2025-07-08	\N
+2996	Charles Smith	charles.smith2996@gmail.com	0916456311	M	1998-08-03	2025-01-28	\N
+2997	Donald Williams	donald.williams2997@mail.com	0912849675	M	1967-01-01	2023-01-20	\N
+2998	Melissa Johnson	melissa.johnson2998@gmail.com	0588362285	F	1975-04-04	2025-05-05	\N
+2999	Ashley Jones	ashley.jones2999@yahoo.com	0968214635	F	1994-11-21	2025-07-15	1554
+3000	Sandra Smith	sandra.smith3000@gmail.com	0752541092	F	1995-10-28	2024-09-23	\N
 \.
 
 COPY shop.addresses (address_id, customer_id, province_id, street, is_default) FROM stdin;
-1	1	27	147 Bach Dang Street	t
-2	2	15	95 Dien Bien Phu Street	t
-3	3	28	99 Vo Thi Sau Street	t
-4	4	1	323 Vo Thi Sau Street	t
-5	5	25	217 Phan Chu Trinh Street	t
-6	6	1	283 Ly Thuong Kiet Street	t
-7	7	11	155 Dien Bien Phu Street	t
-8	8	2	233 Phan Chu Trinh Street	t
-9	9	17	127 Tran Hung Dao Street	t
-10	9	12	313 Dien Bien Phu Street	f
-11	10	27	322 Phan Chu Trinh Street	t
-12	11	2	139 Le Loi Street	t
-13	11	1	84 Hai Ba Trung Street	f
-14	12	27	181 Ly Thuong Kiet Street	t
-15	13	27	298 Tran Hung Dao Street	t
-16	13	27	214 Phan Chu Trinh Street	f
-17	13	27	268 Ly Thuong Kiet Street	f
-18	14	7	61 Bach Dang Street	t
-19	15	20	114 Nguyen Trai Street	t
-20	15	27	212 Le Loi Street	f
-21	16	12	317 Hai Ba Trung Street	t
-22	17	27	132 Hung Vuong Street	t
-23	18	26	96 Tran Hung Dao Street	t
-24	18	1	9 Vo Thi Sau Street	f
-25	19	21	77 Tran Hung Dao Street	t
-26	19	10	340 Tran Hung Dao Street	f
-27	19	28	345 Bach Dang Street	f
-28	20	3	31 Ly Thuong Kiet Street	t
-29	20	3	161 Dien Bien Phu Street	f
-30	20	26	112 Bach Dang Street	f
-31	21	27	343 Nguyen Trai Street	t
-32	21	27	286 Nguyen Trai Street	f
-33	21	29	189 Dien Bien Phu Street	f
-34	22	11	191 Hung Vuong Street	t
-35	23	11	195 Nguyen Trai Street	t
-36	24	29	310 Le Loi Street	t
-37	24	29	244 Dien Bien Phu Street	f
-38	25	28	147 Quang Trung Street	t
-39	26	1	223 Hai Ba Trung Street	t
-40	27	23	181 Nguyen Trai Street	t
-41	28	29	180 Vo Thi Sau Street	t
-42	29	27	43 Tran Hung Dao Street	t
-43	30	27	27 Hai Ba Trung Street	t
-44	31	2	90 Hai Ba Trung Street	t
-45	32	7	249 Bach Dang Street	t
-46	33	1	271 Hung Vuong Street	t
-47	34	1	223 Nguyen Trai Street	t
-48	35	27	5 Quang Trung Street	t
-49	36	1	327 Hai Ba Trung Street	t
-50	37	17	225 Tran Hung Dao Street	t
-51	37	29	155 Nguyen Hue Street	f
-52	38	11	55 Ly Thuong Kiet Street	t
-53	38	31	123 Bach Dang Street	f
-54	39	1	314 Dien Bien Phu Street	t
-55	40	10	238 Tran Hung Dao Street	t
-56	41	13	395 Le Loi Street	t
-57	41	30	267 Nguyen Hue Street	f
-58	41	11	319 Le Loi Street	f
-59	42	1	201 Ly Thuong Kiet Street	t
-60	43	27	336 Dien Bien Phu Street	t
-61	44	27	384 Nguyen Hue Street	t
-62	45	32	131 Le Loi Street	t
-63	46	22	138 Quang Trung Street	t
-64	47	28	366 Le Loi Street	t
-65	48	34	14 Bach Dang Street	t
-66	49	14	276 Dien Bien Phu Street	t
-67	49	1	259 Quang Trung Street	f
-68	50	6	148 Hung Vuong Street	t
-69	50	1	358 Quang Trung Street	f
-70	51	27	272 Vo Thi Sau Street	t
-71	52	1	194 Nguyen Trai Street	t
-72	53	22	20 Ly Thuong Kiet Street	t
-73	54	1	283 Nguyen Trai Street	t
-74	55	2	392 Tran Hung Dao Street	t
-75	56	2	186 Nguyen Hue Street	t
-76	57	20	378 Bach Dang Street	t
-77	58	18	363 Dien Bien Phu Street	t
-78	58	17	24 Nguyen Trai Street	f
-79	58	27	279 Vo Thi Sau Street	f
-80	59	32	360 Vo Thi Sau Street	t
-81	60	27	316 Nguyen Trai Street	t
-82	61	17	60 Ly Thuong Kiet Street	t
-83	62	27	277 Hung Vuong Street	t
-84	62	1	227 Quang Trung Street	f
-85	63	16	338 Vo Thi Sau Street	t
-86	63	29	222 Dien Bien Phu Street	f
-87	63	25	370 Hai Ba Trung Street	f
-88	64	15	123 Quang Trung Street	t
-89	65	13	308 Hai Ba Trung Street	t
-90	65	17	262 Nguyen Hue Street	f
-91	66	18	361 Nguyen Hue Street	t
-92	66	18	34 Hai Ba Trung Street	f
-93	67	27	52 Quang Trung Street	t
-94	68	30	392 Vo Thi Sau Street	t
-95	69	23	352 Quang Trung Street	t
-96	69	1	173 Tran Hung Dao Street	f
-97	70	31	169 Nguyen Hue Street	t
-98	71	19	134 Hung Vuong Street	t
-99	72	1	309 Ly Thuong Kiet Street	t
-100	73	27	361 Ly Thuong Kiet Street	t
-101	73	31	140 Tran Hung Dao Street	f
-102	73	27	391 Nguyen Hue Street	f
-103	74	14	104 Nguyen Trai Street	t
-104	74	1	275 Ly Thuong Kiet Street	f
-105	75	33	350 Phan Chu Trinh Street	t
-106	76	27	26 Phan Chu Trinh Street	t
-107	77	2	74 Hung Vuong Street	t
-108	78	25	232 Dien Bien Phu Street	t
-109	79	17	362 Phan Chu Trinh Street	t
-110	80	27	52 Quang Trung Street	t
-111	81	11	257 Phan Chu Trinh Street	t
-112	82	28	222 Hung Vuong Street	t
-113	83	1	166 Vo Thi Sau Street	t
-114	84	12	274 Hai Ba Trung Street	t
-115	84	1	207 Dien Bien Phu Street	f
-116	84	17	353 Dien Bien Phu Street	f
-117	85	18	325 Quang Trung Street	t
-118	86	27	265 Bach Dang Street	t
-119	87	1	211 Le Loi Street	t
-120	88	1	45 Quang Trung Street	t
-121	89	2	162 Phan Chu Trinh Street	t
-122	90	1	163 Tran Hung Dao Street	t
-123	91	13	206 Ly Thuong Kiet Street	t
-124	92	12	282 Ly Thuong Kiet Street	t
-125	93	17	173 Vo Thi Sau Street	t
-126	94	18	380 Hai Ba Trung Street	t
-127	95	14	215 Dien Bien Phu Street	t
-128	96	17	19 Phan Chu Trinh Street	t
-129	97	17	201 Nguyen Trai Street	t
-130	98	1	269 Hung Vuong Street	t
-131	98	2	213 Dien Bien Phu Street	f
-132	98	29	349 Quang Trung Street	f
-133	99	1	356 Hai Ba Trung Street	t
-134	100	1	25 Dien Bien Phu Street	t
-135	101	23	203 Tran Hung Dao Street	t
-136	102	19	156 Quang Trung Street	t
-137	103	32	124 Hung Vuong Street	t
-138	104	26	210 Hung Vuong Street	t
-139	105	27	109 Quang Trung Street	t
-140	106	1	276 Quang Trung Street	t
-141	107	1	169 Vo Thi Sau Street	t
-142	108	28	136 Phan Chu Trinh Street	t
-143	109	27	279 Le Loi Street	t
-144	109	1	360 Nguyen Trai Street	f
-145	110	1	263 Ly Thuong Kiet Street	t
-146	111	34	214 Bach Dang Street	t
-147	111	22	213 Phan Chu Trinh Street	f
-148	112	27	227 Vo Thi Sau Street	t
-149	113	1	196 Bach Dang Street	t
-150	114	30	201 Hung Vuong Street	t
-151	115	1	32 Quang Trung Street	t
-152	115	16	6 Le Loi Street	f
-153	116	1	172 Phan Chu Trinh Street	t
-154	117	17	313 Phan Chu Trinh Street	t
-155	117	1	256 Vo Thi Sau Street	f
-156	118	22	283 Hai Ba Trung Street	t
-157	119	1	212 Tran Hung Dao Street	t
-158	119	1	106 Bach Dang Street	f
-159	120	16	217 Vo Thi Sau Street	t
-160	121	17	221 Le Loi Street	t
-161	122	1	372 Dien Bien Phu Street	t
-162	123	16	194 Tran Hung Dao Street	t
-163	124	14	13 Dien Bien Phu Street	t
-164	125	30	354 Tran Hung Dao Street	t
-165	126	9	14 Nguyen Trai Street	t
-166	127	23	214 Quang Trung Street	t
-167	127	27	22 Ly Thuong Kiet Street	f
-168	128	1	131 Le Loi Street	t
-169	129	31	350 Hung Vuong Street	t
-170	129	20	189 Bach Dang Street	f
-171	130	12	289 Bach Dang Street	t
-172	131	27	42 Dien Bien Phu Street	t
-173	132	27	322 Bach Dang Street	t
-174	133	23	277 Hung Vuong Street	t
-175	133	29	336 Bach Dang Street	f
-176	134	27	367 Hung Vuong Street	t
-177	135	31	196 Bach Dang Street	t
-178	136	27	336 Le Loi Street	t
-179	137	27	175 Hung Vuong Street	t
-180	138	27	36 Nguyen Hue Street	t
-181	139	28	335 Tran Hung Dao Street	t
-182	139	17	125 Le Loi Street	f
-183	140	30	347 Hung Vuong Street	t
-184	140	15	249 Nguyen Trai Street	f
-185	141	27	174 Nguyen Trai Street	t
-186	142	1	169 Le Loi Street	t
-187	143	29	23 Vo Thi Sau Street	t
-188	144	16	358 Tran Hung Dao Street	t
-189	145	1	37 Nguyen Trai Street	t
-190	145	1	298 Hai Ba Trung Street	f
-191	146	12	110 Hai Ba Trung Street	t
-192	147	11	184 Tran Hung Dao Street	t
-193	147	20	197 Vo Thi Sau Street	f
-194	148	27	289 Ly Thuong Kiet Street	t
-195	148	1	37 Tran Hung Dao Street	f
-196	149	1	320 Nguyen Hue Street	t
-197	150	18	357 Phan Chu Trinh Street	t
-198	150	12	162 Le Loi Street	f
-199	150	24	369 Bach Dang Street	f
-200	151	5	190 Ly Thuong Kiet Street	t
-201	152	1	323 Hung Vuong Street	t
-202	153	27	129 Le Loi Street	t
-203	154	11	277 Hai Ba Trung Street	t
-204	154	1	151 Nguyen Hue Street	f
-205	155	27	122 Nguyen Trai Street	t
-206	155	8	109 Vo Thi Sau Street	f
-207	156	15	312 Le Loi Street	t
-208	156	12	194 Vo Thi Sau Street	f
-209	157	27	281 Tran Hung Dao Street	t
-210	158	25	253 Hai Ba Trung Street	t
-211	158	27	138 Nguyen Trai Street	f
-212	158	27	212 Dien Bien Phu Street	f
-213	159	22	385 Tran Hung Dao Street	t
-214	159	22	149 Bach Dang Street	f
-215	160	22	242 Vo Thi Sau Street	t
-216	161	1	310 Vo Thi Sau Street	t
-217	162	17	251 Tran Hung Dao Street	t
-218	162	14	167 Hung Vuong Street	f
-219	163	27	254 Nguyen Trai Street	t
-220	164	24	189 Hung Vuong Street	t
-221	165	12	129 Nguyen Trai Street	t
-222	166	17	192 Tran Hung Dao Street	t
-223	167	24	29 Vo Thi Sau Street	t
-224	168	2	170 Dien Bien Phu Street	t
-225	169	2	341 Hung Vuong Street	t
-226	170	32	376 Vo Thi Sau Street	t
-227	171	1	351 Phan Chu Trinh Street	t
-228	172	27	287 Phan Chu Trinh Street	t
-229	173	14	370 Nguyen Hue Street	t
-230	174	7	192 Tran Hung Dao Street	t
-231	175	26	227 Hai Ba Trung Street	t
-232	175	6	109 Nguyen Hue Street	f
-233	176	31	45 Phan Chu Trinh Street	t
-234	177	27	387 Hung Vuong Street	t
-235	178	12	275 Dien Bien Phu Street	t
-236	179	14	133 Nguyen Hue Street	t
-237	180	1	395 Hung Vuong Street	t
-238	181	27	263 Tran Hung Dao Street	t
-239	182	19	91 Vo Thi Sau Street	t
-240	183	1	2 Ly Thuong Kiet Street	t
-241	183	12	394 Tran Hung Dao Street	f
-242	183	2	180 Le Loi Street	f
-243	184	27	250 Ly Thuong Kiet Street	t
-244	185	33	207 Le Loi Street	t
-245	185	17	249 Nguyen Hue Street	f
-246	186	2	357 Dien Bien Phu Street	t
-247	186	25	309 Nguyen Hue Street	f
-248	187	16	52 Dien Bien Phu Street	t
-249	188	31	298 Hai Ba Trung Street	t
-250	189	27	341 Phan Chu Trinh Street	t
-251	190	30	248 Dien Bien Phu Street	t
-252	191	4	253 Vo Thi Sau Street	t
-253	192	30	115 Phan Chu Trinh Street	t
-254	192	18	134 Quang Trung Street	f
-255	193	31	334 Dien Bien Phu Street	t
-256	194	20	327 Nguyen Hue Street	t
-257	194	28	133 Phan Chu Trinh Street	f
-258	194	31	364 Tran Hung Dao Street	f
-259	195	13	34 Vo Thi Sau Street	t
-260	196	16	11 Quang Trung Street	t
-261	197	27	110 Hung Vuong Street	t
-262	198	27	341 Quang Trung Street	t
-263	199	27	251 Hung Vuong Street	t
-264	200	18	242 Phan Chu Trinh Street	t
-265	201	25	356 Dien Bien Phu Street	t
-266	201	18	262 Dien Bien Phu Street	f
-267	202	28	261 Tran Hung Dao Street	t
-268	203	7	34 Ly Thuong Kiet Street	t
-269	203	27	233 Ly Thuong Kiet Street	f
-270	204	2	209 Ly Thuong Kiet Street	t
-271	205	13	140 Vo Thi Sau Street	t
-272	205	24	283 Bach Dang Street	f
-273	205	32	193 Nguyen Hue Street	f
-274	206	20	305 Nguyen Hue Street	t
-275	207	25	317 Nguyen Trai Street	t
-276	208	18	399 Hung Vuong Street	t
-277	208	17	184 Nguyen Trai Street	f
-278	209	2	347 Phan Chu Trinh Street	t
-279	210	8	312 Quang Trung Street	t
-280	211	32	298 Quang Trung Street	t
-281	212	22	394 Nguyen Trai Street	t
-282	212	28	196 Dien Bien Phu Street	f
-283	213	22	215 Le Loi Street	t
-284	214	33	244 Hai Ba Trung Street	t
-285	215	9	318 Nguyen Trai Street	t
-286	216	1	277 Bach Dang Street	t
-287	217	2	194 Hung Vuong Street	t
-288	218	2	224 Bach Dang Street	t
-289	219	1	234 Tran Hung Dao Street	t
-290	220	8	278 Dien Bien Phu Street	t
-291	221	19	334 Vo Thi Sau Street	t
-292	221	34	184 Le Loi Street	f
-293	222	1	284 Nguyen Hue Street	t
-294	222	13	85 Ly Thuong Kiet Street	f
-295	223	29	280 Quang Trung Street	t
-296	224	15	53 Nguyen Trai Street	t
-297	224	1	327 Ly Thuong Kiet Street	f
-298	225	17	82 Bach Dang Street	t
-299	226	27	225 Hai Ba Trung Street	t
-300	227	1	32 Bach Dang Street	t
-301	227	29	22 Hai Ba Trung Street	f
-302	228	29	223 Hung Vuong Street	t
-303	228	27	4 Ly Thuong Kiet Street	f
-304	229	29	356 Phan Chu Trinh Street	t
-305	230	2	374 Ly Thuong Kiet Street	t
-306	230	25	29 Dien Bien Phu Street	f
-307	231	7	374 Quang Trung Street	t
-308	232	27	84 Hung Vuong Street	t
-309	233	1	62 Tran Hung Dao Street	t
-310	233	7	175 Vo Thi Sau Street	f
-311	234	7	302 Nguyen Hue Street	t
-312	235	13	161 Dien Bien Phu Street	t
-313	236	6	256 Quang Trung Street	t
-314	237	28	240 Tran Hung Dao Street	t
-315	238	27	350 Tran Hung Dao Street	t
-316	239	32	380 Vo Thi Sau Street	t
-317	239	1	85 Tran Hung Dao Street	f
-318	240	32	151 Phan Chu Trinh Street	t
-319	240	33	69 Hung Vuong Street	f
-320	241	32	219 Tran Hung Dao Street	t
-321	242	23	306 Tran Hung Dao Street	t
-322	243	27	261 Ly Thuong Kiet Street	t
-323	244	1	106 Nguyen Trai Street	t
-324	245	1	245 Ly Thuong Kiet Street	t
-325	246	27	136 Tran Hung Dao Street	t
-326	247	1	63 Ly Thuong Kiet Street	t
-327	248	32	70 Nguyen Hue Street	t
-328	248	22	138 Phan Chu Trinh Street	f
-329	249	27	348 Tran Hung Dao Street	t
-330	250	19	203 Bach Dang Street	t
-331	250	16	316 Hung Vuong Street	f
-332	251	24	327 Phan Chu Trinh Street	t
-333	252	1	68 Bach Dang Street	t
-334	253	8	155 Hai Ba Trung Street	t
-335	254	27	52 Hung Vuong Street	t
-336	255	27	200 Nguyen Trai Street	t
-337	256	5	123 Vo Thi Sau Street	t
-338	257	30	152 Dien Bien Phu Street	t
-339	258	32	355 Phan Chu Trinh Street	t
-340	259	2	280 Dien Bien Phu Street	t
-341	259	14	51 Tran Hung Dao Street	f
-342	260	34	249 Phan Chu Trinh Street	t
-343	261	34	184 Hung Vuong Street	t
-344	262	27	387 Hung Vuong Street	t
-345	263	28	268 Quang Trung Street	t
-346	264	1	136 Phan Chu Trinh Street	t
-347	265	27	54 Bach Dang Street	t
-348	265	24	124 Quang Trung Street	f
-349	266	5	109 Hung Vuong Street	t
-350	267	29	284 Phan Chu Trinh Street	t
-351	268	1	95 Hung Vuong Street	t
-352	269	28	26 Phan Chu Trinh Street	t
-353	270	11	128 Le Loi Street	t
-354	271	29	228 Dien Bien Phu Street	t
-355	271	27	254 Nguyen Trai Street	f
-356	272	1	239 Vo Thi Sau Street	t
-357	273	16	60 Bach Dang Street	t
-358	274	27	230 Hai Ba Trung Street	t
-359	275	34	242 Nguyen Hue Street	t
-360	275	16	255 Ly Thuong Kiet Street	f
-361	276	17	90 Phan Chu Trinh Street	t
-362	277	7	177 Hung Vuong Street	t
-363	278	28	213 Bach Dang Street	t
-364	278	27	192 Phan Chu Trinh Street	f
-365	279	10	162 Nguyen Hue Street	t
-366	280	14	270 Le Loi Street	t
-367	281	1	312 Vo Thi Sau Street	t
-368	282	28	40 Vo Thi Sau Street	t
-369	282	27	347 Le Loi Street	f
-370	283	25	60 Bach Dang Street	t
-371	284	30	399 Phan Chu Trinh Street	t
-372	285	24	165 Tran Hung Dao Street	t
-373	285	22	39 Nguyen Hue Street	f
-374	286	27	369 Ly Thuong Kiet Street	t
-375	287	1	118 Hai Ba Trung Street	t
-376	288	22	206 Phan Chu Trinh Street	t
-377	289	29	382 Nguyen Trai Street	t
-378	290	1	353 Nguyen Trai Street	t
-379	291	29	62 Phan Chu Trinh Street	t
-380	292	1	235 Hung Vuong Street	t
-381	293	6	120 Tran Hung Dao Street	t
-382	294	1	395 Tran Hung Dao Street	t
-383	295	27	354 Hung Vuong Street	t
-384	296	9	184 Quang Trung Street	t
-385	297	7	307 Le Loi Street	t
-386	298	1	126 Hung Vuong Street	t
-387	299	1	275 Tran Hung Dao Street	t
-388	299	4	343 Phan Chu Trinh Street	f
-389	300	19	147 Tran Hung Dao Street	t
-390	301	27	213 Bach Dang Street	t
-391	302	1	147 Phan Chu Trinh Street	t
-392	302	23	189 Bach Dang Street	f
-393	303	10	130 Bach Dang Street	t
-394	304	27	62 Bach Dang Street	t
-395	304	14	133 Le Loi Street	f
-396	305	1	339 Le Loi Street	t
-397	306	1	223 Tran Hung Dao Street	t
-398	307	7	134 Phan Chu Trinh Street	t
-399	308	12	33 Vo Thi Sau Street	t
-400	309	3	96 Le Loi Street	t
-401	310	13	323 Hai Ba Trung Street	t
-402	311	25	382 Hung Vuong Street	t
-403	311	27	45 Le Loi Street	f
-404	311	32	56 Vo Thi Sau Street	f
-405	312	27	133 Ly Thuong Kiet Street	t
-406	313	29	90 Vo Thi Sau Street	t
-407	313	18	42 Nguyen Trai Street	f
-408	314	22	345 Vo Thi Sau Street	t
-409	315	17	143 Quang Trung Street	t
-410	316	27	35 Phan Chu Trinh Street	t
-411	317	17	77 Nguyen Trai Street	t
-412	318	29	104 Phan Chu Trinh Street	t
-413	319	31	392 Quang Trung Street	t
-414	320	34	221 Nguyen Hue Street	t
-415	321	27	99 Nguyen Hue Street	t
-416	322	1	188 Dien Bien Phu Street	t
-417	323	26	335 Hung Vuong Street	t
-418	324	7	156 Bach Dang Street	t
-419	325	29	120 Tran Hung Dao Street	t
-420	326	19	35 Nguyen Trai Street	t
-421	327	29	268 Hung Vuong Street	t
-422	328	27	114 Phan Chu Trinh Street	t
-423	329	9	132 Dien Bien Phu Street	t
-424	330	1	267 Vo Thi Sau Street	t
-425	330	1	234 Dien Bien Phu Street	f
-426	331	19	194 Nguyen Trai Street	t
-427	331	16	48 Ly Thuong Kiet Street	f
-428	332	15	59 Nguyen Hue Street	t
-429	332	1	102 Vo Thi Sau Street	f
-430	332	1	92 Hung Vuong Street	f
-431	333	14	149 Tran Hung Dao Street	t
-432	334	34	93 Hung Vuong Street	t
-433	335	24	260 Tran Hung Dao Street	t
-434	336	2	195 Quang Trung Street	t
-435	337	20	282 Hung Vuong Street	t
-436	337	2	327 Nguyen Hue Street	f
-437	338	1	103 Ly Thuong Kiet Street	t
-438	338	12	329 Bach Dang Street	f
-439	338	27	378 Ly Thuong Kiet Street	f
-440	339	27	179 Vo Thi Sau Street	t
-441	340	26	144 Hai Ba Trung Street	t
-442	341	25	379 Vo Thi Sau Street	t
-443	342	7	261 Vo Thi Sau Street	t
-444	342	1	202 Vo Thi Sau Street	f
-445	343	1	299 Tran Hung Dao Street	t
-446	343	5	169 Phan Chu Trinh Street	f
-447	344	31	79 Vo Thi Sau Street	t
-448	345	24	278 Bach Dang Street	t
-449	346	26	374 Tran Hung Dao Street	t
-450	346	8	216 Nguyen Trai Street	f
-451	347	28	163 Phan Chu Trinh Street	t
-452	348	14	313 Tran Hung Dao Street	t
-453	348	17	282 Dien Bien Phu Street	f
-454	349	23	95 Quang Trung Street	t
-455	350	17	195 Dien Bien Phu Street	t
-456	351	24	184 Bach Dang Street	t
-457	352	18	238 Ly Thuong Kiet Street	t
-458	353	6	350 Quang Trung Street	t
-459	354	27	65 Tran Hung Dao Street	t
-460	355	5	256 Phan Chu Trinh Street	t
-461	356	32	10 Quang Trung Street	t
-462	357	1	16 Hung Vuong Street	t
-463	357	1	238 Bach Dang Street	f
-464	358	27	113 Tran Hung Dao Street	t
-465	359	14	187 Dien Bien Phu Street	t
-466	360	27	268 Bach Dang Street	t
-467	361	7	117 Nguyen Hue Street	t
-468	362	20	359 Le Loi Street	t
-469	363	1	14 Nguyen Trai Street	t
-470	364	27	28 Ly Thuong Kiet Street	t
-471	365	1	336 Phan Chu Trinh Street	t
-472	365	19	161 Bach Dang Street	f
-473	365	12	390 Bach Dang Street	f
-474	366	1	271 Dien Bien Phu Street	t
-475	367	26	148 Vo Thi Sau Street	t
-476	368	27	384 Bach Dang Street	t
-477	368	25	323 Nguyen Hue Street	f
-478	368	26	214 Ly Thuong Kiet Street	f
-479	369	29	340 Dien Bien Phu Street	t
-480	370	17	381 Ly Thuong Kiet Street	t
-481	370	16	293 Le Loi Street	f
-482	371	26	176 Bach Dang Street	t
-483	372	5	309 Tran Hung Dao Street	t
-484	372	3	81 Nguyen Hue Street	f
-485	373	1	322 Hung Vuong Street	t
-486	374	29	263 Nguyen Trai Street	t
-487	375	19	303 Hai Ba Trung Street	t
-488	376	1	139 Hai Ba Trung Street	t
-489	377	27	74 Nguyen Trai Street	t
-490	378	23	188 Bach Dang Street	t
-491	379	27	109 Le Loi Street	t
-492	380	1	309 Hai Ba Trung Street	t
-493	381	18	338 Nguyen Trai Street	t
-494	382	33	170 Bach Dang Street	t
-495	383	27	172 Quang Trung Street	t
-496	384	26	79 Dien Bien Phu Street	t
-497	384	27	310 Bach Dang Street	f
-498	385	3	348 Nguyen Hue Street	t
-499	386	1	304 Vo Thi Sau Street	t
-500	387	7	355 Bach Dang Street	t
-501	388	27	173 Hung Vuong Street	t
-502	389	34	67 Le Loi Street	t
-503	390	12	68 Quang Trung Street	t
-504	391	27	166 Nguyen Hue Street	t
-505	392	6	28 Bach Dang Street	t
-506	392	27	179 Hung Vuong Street	f
-507	393	27	123 Quang Trung Street	t
-508	393	2	202 Ly Thuong Kiet Street	f
-509	394	5	163 Vo Thi Sau Street	t
-510	395	27	105 Hai Ba Trung Street	t
-511	396	22	207 Le Loi Street	t
-512	397	28	107 Bach Dang Street	t
-513	397	28	322 Vo Thi Sau Street	f
-514	398	14	138 Bach Dang Street	t
-515	399	23	185 Quang Trung Street	t
-516	400	17	108 Bach Dang Street	t
-517	400	1	284 Nguyen Hue Street	f
-518	401	29	156 Bach Dang Street	t
-519	402	1	86 Nguyen Trai Street	t
-520	403	14	21 Vo Thi Sau Street	t
-521	404	27	147 Nguyen Hue Street	t
-522	405	30	35 Le Loi Street	t
-523	406	27	35 Bach Dang Street	t
-524	407	27	209 Bach Dang Street	t
-525	408	17	91 Vo Thi Sau Street	t
-526	409	2	155 Quang Trung Street	t
-527	409	18	210 Bach Dang Street	f
-528	410	28	228 Phan Chu Trinh Street	t
-529	410	34	155 Ly Thuong Kiet Street	f
-530	411	29	258 Tran Hung Dao Street	t
-531	412	11	362 Quang Trung Street	t
-532	413	27	300 Phan Chu Trinh Street	t
-533	413	24	109 Quang Trung Street	f
-534	414	29	44 Dien Bien Phu Street	t
-535	415	13	355 Quang Trung Street	t
-536	416	14	276 Bach Dang Street	t
-537	416	27	96 Ly Thuong Kiet Street	f
-538	416	12	69 Le Loi Street	f
-539	417	27	5 Le Loi Street	t
-540	418	22	389 Le Loi Street	t
-541	419	12	360 Quang Trung Street	t
-542	419	21	211 Le Loi Street	f
-543	420	22	341 Tran Hung Dao Street	t
-544	421	22	258 Hai Ba Trung Street	t
-545	421	15	207 Ly Thuong Kiet Street	f
-546	421	19	149 Vo Thi Sau Street	f
-547	422	27	367 Hung Vuong Street	t
-548	423	27	160 Vo Thi Sau Street	t
-549	424	12	12 Vo Thi Sau Street	t
-550	425	26	145 Hai Ba Trung Street	t
-551	426	27	73 Vo Thi Sau Street	t
-552	427	27	126 Le Loi Street	t
-553	428	27	285 Nguyen Trai Street	t
-554	429	1	212 Tran Hung Dao Street	t
-555	430	1	262 Nguyen Hue Street	t
-556	431	13	395 Ly Thuong Kiet Street	t
-557	432	30	380 Dien Bien Phu Street	t
-558	432	30	151 Hung Vuong Street	f
-559	433	34	333 Phan Chu Trinh Street	t
-560	434	1	152 Dien Bien Phu Street	t
-561	435	27	92 Bach Dang Street	t
-562	436	13	333 Ly Thuong Kiet Street	t
-563	437	20	141 Tran Hung Dao Street	t
-564	437	12	183 Nguyen Hue Street	f
-565	437	18	357 Quang Trung Street	f
-566	438	14	301 Le Loi Street	t
-567	438	1	378 Bach Dang Street	f
-568	439	16	277 Bach Dang Street	t
-569	439	27	90 Vo Thi Sau Street	f
-570	440	1	31 Tran Hung Dao Street	t
-571	441	11	353 Hung Vuong Street	t
-572	442	1	64 Dien Bien Phu Street	t
-573	443	27	164 Dien Bien Phu Street	t
-574	444	1	130 Ly Thuong Kiet Street	t
-575	445	27	186 Le Loi Street	t
-576	446	19	308 Ly Thuong Kiet Street	t
-577	447	1	241 Ly Thuong Kiet Street	t
-578	447	34	11 Hung Vuong Street	f
-579	447	3	375 Tran Hung Dao Street	f
-580	448	2	289 Tran Hung Dao Street	t
-581	448	19	54 Hai Ba Trung Street	f
-582	449	27	273 Quang Trung Street	t
-583	450	13	23 Phan Chu Trinh Street	t
-584	451	34	348 Bach Dang Street	t
-585	452	22	332 Tran Hung Dao Street	t
-586	452	27	185 Bach Dang Street	f
-587	452	15	398 Phan Chu Trinh Street	f
-588	453	1	258 Bach Dang Street	t
-589	454	27	256 Nguyen Trai Street	t
-590	454	24	376 Dien Bien Phu Street	f
-591	455	34	291 Nguyen Hue Street	t
-592	456	12	23 Nguyen Trai Street	t
-593	457	13	381 Dien Bien Phu Street	t
-594	458	23	114 Quang Trung Street	t
-595	459	26	274 Nguyen Hue Street	t
-596	459	20	361 Dien Bien Phu Street	f
-597	460	9	135 Nguyen Trai Street	t
-598	460	10	34 Phan Chu Trinh Street	f
-599	460	18	291 Hai Ba Trung Street	f
-600	461	1	302 Tran Hung Dao Street	t
-601	462	27	252 Phan Chu Trinh Street	t
-602	463	27	167 Hung Vuong Street	t
-603	464	13	318 Hung Vuong Street	t
-604	465	27	113 Hai Ba Trung Street	t
-605	466	30	22 Le Loi Street	t
-606	466	27	89 Bach Dang Street	f
-607	467	1	338 Vo Thi Sau Street	t
-608	467	15	235 Bach Dang Street	f
-609	468	27	374 Nguyen Hue Street	t
-610	469	27	2 Nguyen Trai Street	t
-611	470	1	203 Tran Hung Dao Street	t
-612	471	29	204 Vo Thi Sau Street	t
-613	472	31	309 Le Loi Street	t
-614	473	27	275 Quang Trung Street	t
-615	474	1	171 Nguyen Hue Street	t
-616	475	16	43 Ly Thuong Kiet Street	t
-617	476	11	2 Nguyen Trai Street	t
-618	477	28	345 Bach Dang Street	t
-619	477	11	309 Ly Thuong Kiet Street	f
-620	477	30	165 Tran Hung Dao Street	f
-621	478	23	226 Quang Trung Street	t
-622	479	17	232 Phan Chu Trinh Street	t
-623	480	1	167 Nguyen Hue Street	t
-624	481	3	8 Nguyen Hue Street	t
-625	482	28	278 Quang Trung Street	t
-626	483	12	144 Phan Chu Trinh Street	t
-627	483	31	289 Bach Dang Street	f
-628	484	27	144 Quang Trung Street	t
-629	485	1	217 Bach Dang Street	t
-630	486	33	108 Dien Bien Phu Street	t
-631	487	27	119 Hai Ba Trung Street	t
-632	488	27	228 Ly Thuong Kiet Street	t
-633	489	3	64 Phan Chu Trinh Street	t
-634	489	19	70 Quang Trung Street	f
-635	489	1	161 Phan Chu Trinh Street	f
-636	490	34	302 Nguyen Trai Street	t
-637	491	29	273 Vo Thi Sau Street	t
-638	491	31	324 Nguyen Trai Street	f
-639	492	1	226 Phan Chu Trinh Street	t
-640	492	17	303 Hung Vuong Street	f
-641	493	11	37 Hai Ba Trung Street	t
-642	494	1	316 Phan Chu Trinh Street	t
-643	494	19	329 Hai Ba Trung Street	f
-644	495	1	76 Tran Hung Dao Street	t
-645	496	15	145 Nguyen Hue Street	t
-646	497	27	54 Quang Trung Street	t
-647	498	17	14 Dien Bien Phu Street	t
-648	499	29	377 Phan Chu Trinh Street	t
-649	500	27	332 Dien Bien Phu Street	t
-650	501	6	256 Tran Hung Dao Street	t
-651	502	26	72 Quang Trung Street	t
-652	503	2	223 Phan Chu Trinh Street	t
-653	504	3	326 Dien Bien Phu Street	t
-654	505	17	205 Nguyen Hue Street	t
-655	506	27	332 Hung Vuong Street	t
-656	507	27	112 Tran Hung Dao Street	t
-657	508	1	291 Hai Ba Trung Street	t
-658	509	32	146 Hai Ba Trung Street	t
-659	510	12	167 Hai Ba Trung Street	t
-660	511	16	35 Ly Thuong Kiet Street	t
-661	512	12	371 Quang Trung Street	t
-662	513	28	349 Hung Vuong Street	t
-663	514	4	38 Dien Bien Phu Street	t
-664	515	27	127 Hung Vuong Street	t
-665	515	1	116 Nguyen Trai Street	f
-666	515	28	134 Vo Thi Sau Street	f
-667	516	1	324 Hai Ba Trung Street	t
-668	517	1	17 Vo Thi Sau Street	t
-669	517	27	392 Quang Trung Street	f
-670	518	27	37 Bach Dang Street	t
-671	518	27	256 Le Loi Street	f
-672	519	18	107 Vo Thi Sau Street	t
-673	520	3	219 Hung Vuong Street	t
-674	521	9	19 Quang Trung Street	t
-675	521	26	70 Nguyen Hue Street	f
-676	522	1	88 Bach Dang Street	t
-677	522	34	283 Nguyen Hue Street	f
-678	523	2	225 Tran Hung Dao Street	t
-679	523	23	85 Vo Thi Sau Street	f
-680	524	1	313 Ly Thuong Kiet Street	t
-681	525	32	300 Bach Dang Street	t
-682	525	27	185 Nguyen Trai Street	f
-683	525	24	136 Nguyen Hue Street	f
-684	526	27	346 Tran Hung Dao Street	t
-685	527	33	100 Bach Dang Street	t
-686	528	16	122 Nguyen Trai Street	t
-687	529	2	150 Quang Trung Street	t
-688	530	18	268 Nguyen Hue Street	t
-689	531	5	113 Ly Thuong Kiet Street	t
-690	532	28	92 Quang Trung Street	t
-691	532	19	99 Tran Hung Dao Street	f
-692	532	16	292 Quang Trung Street	f
-693	533	27	37 Le Loi Street	t
-694	534	10	316 Nguyen Trai Street	t
-695	534	27	265 Vo Thi Sau Street	f
-696	535	20	307 Hung Vuong Street	t
-697	536	1	160 Le Loi Street	t
-698	537	26	364 Quang Trung Street	t
-699	538	12	137 Hai Ba Trung Street	t
-700	538	15	6 Vo Thi Sau Street	f
-701	539	11	123 Quang Trung Street	t
-702	539	22	318 Quang Trung Street	f
-703	540	30	280 Quang Trung Street	t
-704	541	27	174 Nguyen Hue Street	t
-705	542	7	119 Quang Trung Street	t
-706	543	15	107 Nguyen Hue Street	t
-707	543	11	221 Phan Chu Trinh Street	f
-708	544	1	80 Nguyen Trai Street	t
-709	545	11	125 Tran Hung Dao Street	t
-710	545	15	238 Vo Thi Sau Street	f
-711	545	8	72 Le Loi Street	f
-712	546	3	186 Quang Trung Street	t
-713	547	12	166 Bach Dang Street	t
-714	548	18	128 Quang Trung Street	t
-715	548	1	146 Quang Trung Street	f
-716	549	33	35 Dien Bien Phu Street	t
-717	550	12	126 Le Loi Street	t
-718	550	12	356 Phan Chu Trinh Street	f
-719	550	27	66 Bach Dang Street	f
-720	551	5	280 Hai Ba Trung Street	t
-721	551	12	323 Tran Hung Dao Street	f
-722	552	11	388 Quang Trung Street	t
-723	552	34	102 Hai Ba Trung Street	f
-724	553	12	389 Ly Thuong Kiet Street	t
-725	554	8	342 Bach Dang Street	t
-726	555	27	187 Hai Ba Trung Street	t
-727	556	17	138 Nguyen Hue Street	t
-728	557	22	118 Quang Trung Street	t
-729	557	27	368 Phan Chu Trinh Street	f
-730	558	1	43 Le Loi Street	t
-731	559	16	133 Nguyen Trai Street	t
-732	560	27	301 Phan Chu Trinh Street	t
-733	561	22	316 Quang Trung Street	t
-734	562	12	143 Bach Dang Street	t
-735	562	27	57 Nguyen Trai Street	f
-736	563	29	384 Phan Chu Trinh Street	t
-737	563	28	368 Hai Ba Trung Street	f
-738	564	27	310 Ly Thuong Kiet Street	t
-739	565	2	326 Nguyen Hue Street	t
-740	566	23	168 Ly Thuong Kiet Street	t
-741	567	27	298 Nguyen Hue Street	t
-742	568	1	332 Nguyen Hue Street	t
-743	569	10	166 Quang Trung Street	t
-744	570	29	80 Phan Chu Trinh Street	t
-745	571	34	71 Phan Chu Trinh Street	t
-746	572	27	258 Hai Ba Trung Street	t
-747	573	1	231 Phan Chu Trinh Street	t
-748	574	1	24 Nguyen Trai Street	t
-749	574	28	66 Tran Hung Dao Street	f
-750	575	27	26 Vo Thi Sau Street	t
-751	576	1	200 Nguyen Hue Street	t
-752	577	27	96 Nguyen Trai Street	t
-753	578	1	198 Le Loi Street	t
-754	579	1	131 Dien Bien Phu Street	t
-755	579	17	167 Vo Thi Sau Street	f
-756	579	1	253 Le Loi Street	f
-757	580	24	96 Ly Thuong Kiet Street	t
-758	581	4	86 Quang Trung Street	t
-759	582	1	46 Quang Trung Street	t
-760	583	34	46 Bach Dang Street	t
-761	584	27	169 Nguyen Hue Street	t
-762	585	2	323 Nguyen Hue Street	t
-763	585	22	352 Ly Thuong Kiet Street	f
-764	586	1	170 Ly Thuong Kiet Street	t
-765	586	27	184 Nguyen Trai Street	f
-766	586	18	204 Ly Thuong Kiet Street	f
-767	587	21	88 Hung Vuong Street	t
-768	588	27	142 Hung Vuong Street	t
-769	589	28	386 Quang Trung Street	t
-770	590	28	157 Vo Thi Sau Street	t
-771	591	4	220 Hung Vuong Street	t
-772	592	33	186 Le Loi Street	t
-773	593	1	302 Nguyen Trai Street	t
-774	594	12	218 Nguyen Trai Street	t
-775	594	27	181 Ly Thuong Kiet Street	f
-776	595	1	121 Le Loi Street	t
-777	596	1	302 Tran Hung Dao Street	t
-778	596	22	21 Ly Thuong Kiet Street	f
-779	597	28	219 Hai Ba Trung Street	t
-780	597	29	166 Vo Thi Sau Street	f
-781	597	17	260 Bach Dang Street	f
-782	598	22	196 Hung Vuong Street	t
-783	599	22	2 Le Loi Street	t
-784	600	1	391 Hai Ba Trung Street	t
-785	600	3	29 Nguyen Hue Street	f
-786	601	19	216 Quang Trung Street	t
-787	602	1	298 Hai Ba Trung Street	t
-788	603	1	349 Phan Chu Trinh Street	t
-789	604	12	131 Tran Hung Dao Street	t
-790	605	1	119 Dien Bien Phu Street	t
-791	606	15	286 Ly Thuong Kiet Street	t
-792	607	22	183 Le Loi Street	t
-793	608	1	249 Tran Hung Dao Street	t
-794	609	17	348 Nguyen Trai Street	t
-795	610	23	91 Tran Hung Dao Street	t
-796	611	18	142 Quang Trung Street	t
-797	611	26	83 Phan Chu Trinh Street	f
-798	611	32	159 Dien Bien Phu Street	f
-799	612	5	287 Vo Thi Sau Street	t
-800	613	27	212 Dien Bien Phu Street	t
-801	614	27	20 Le Loi Street	t
-802	614	1	322 Quang Trung Street	f
-803	615	1	394 Bach Dang Street	t
-804	616	27	121 Hung Vuong Street	t
-805	616	18	359 Dien Bien Phu Street	f
-806	616	27	27 Le Loi Street	f
-807	617	29	201 Hung Vuong Street	t
-808	618	27	13 Quang Trung Street	t
-809	618	14	366 Nguyen Hue Street	f
-810	619	19	384 Dien Bien Phu Street	t
-811	620	20	287 Ly Thuong Kiet Street	t
-812	621	13	315 Phan Chu Trinh Street	t
-813	622	27	225 Vo Thi Sau Street	t
-814	623	13	245 Ly Thuong Kiet Street	t
-815	624	16	237 Ly Thuong Kiet Street	t
-816	625	19	94 Hai Ba Trung Street	t
-817	626	27	17 Hung Vuong Street	t
-818	627	27	112 Tran Hung Dao Street	t
-819	628	27	73 Hai Ba Trung Street	t
-820	629	29	71 Nguyen Trai Street	t
-821	629	9	382 Hung Vuong Street	f
-822	630	1	292 Tran Hung Dao Street	t
-823	631	27	37 Tran Hung Dao Street	t
-824	631	29	37 Ly Thuong Kiet Street	f
-825	632	27	7 Hung Vuong Street	t
-826	633	1	196 Vo Thi Sau Street	t
-827	634	1	265 Hung Vuong Street	t
-828	635	27	196 Nguyen Trai Street	t
-829	636	19	72 Vo Thi Sau Street	t
-830	637	1	338 Tran Hung Dao Street	t
-831	637	25	166 Phan Chu Trinh Street	f
-832	638	11	211 Ly Thuong Kiet Street	t
-833	639	27	310 Vo Thi Sau Street	t
-834	640	23	11 Hai Ba Trung Street	t
-835	640	32	68 Le Loi Street	f
-836	641	16	76 Dien Bien Phu Street	t
-837	642	27	347 Quang Trung Street	t
-838	643	4	132 Phan Chu Trinh Street	t
-839	643	27	338 Nguyen Trai Street	f
-840	643	1	247 Nguyen Trai Street	f
-841	644	27	358 Dien Bien Phu Street	t
-842	645	1	113 Ly Thuong Kiet Street	t
-843	646	27	77 Hai Ba Trung Street	t
-844	646	27	297 Nguyen Trai Street	f
-845	647	31	65 Vo Thi Sau Street	t
-846	648	27	268 Phan Chu Trinh Street	t
-847	649	29	119 Phan Chu Trinh Street	t
-848	649	27	311 Nguyen Trai Street	f
-849	650	1	398 Dien Bien Phu Street	t
-850	651	1	341 Quang Trung Street	t
-851	652	2	95 Hung Vuong Street	t
-852	652	27	282 Vo Thi Sau Street	f
-853	653	27	10 Quang Trung Street	t
-854	654	16	279 Nguyen Trai Street	t
-855	654	23	3 Tran Hung Dao Street	f
-856	655	1	3 Quang Trung Street	t
-857	656	20	208 Nguyen Trai Street	t
-858	657	1	310 Hai Ba Trung Street	t
-859	658	24	368 Phan Chu Trinh Street	t
-860	659	1	309 Dien Bien Phu Street	t
-861	660	2	319 Ly Thuong Kiet Street	t
-862	661	17	141 Nguyen Trai Street	t
-863	662	32	68 Hung Vuong Street	t
-864	663	1	310 Nguyen Hue Street	t
-865	664	15	305 Quang Trung Street	t
-866	665	27	209 Dien Bien Phu Street	t
-867	665	27	130 Phan Chu Trinh Street	f
-868	666	34	14 Dien Bien Phu Street	t
-869	666	17	6 Phan Chu Trinh Street	f
-870	667	1	394 Nguyen Hue Street	t
-871	668	1	289 Ly Thuong Kiet Street	t
-872	669	27	256 Ly Thuong Kiet Street	t
-873	670	1	364 Bach Dang Street	t
-874	671	18	244 Ly Thuong Kiet Street	t
-875	672	3	335 Ly Thuong Kiet Street	t
-876	673	18	396 Hung Vuong Street	t
-877	674	29	214 Hai Ba Trung Street	t
-878	674	7	199 Nguyen Hue Street	f
-879	675	10	75 Hai Ba Trung Street	t
-880	676	34	196 Dien Bien Phu Street	t
-881	677	4	366 Bach Dang Street	t
-882	677	31	198 Quang Trung Street	f
-883	678	6	277 Hung Vuong Street	t
-884	678	6	229 Phan Chu Trinh Street	f
-885	679	12	354 Nguyen Hue Street	t
-886	680	1	12 Ly Thuong Kiet Street	t
-887	681	17	22 Hung Vuong Street	t
-888	682	30	298 Le Loi Street	t
-889	683	25	353 Tran Hung Dao Street	t
-890	684	31	3 Nguyen Trai Street	t
-891	684	28	247 Hung Vuong Street	f
-892	685	28	225 Vo Thi Sau Street	t
-893	686	17	124 Nguyen Hue Street	t
-894	687	27	233 Hung Vuong Street	t
-895	687	22	277 Vo Thi Sau Street	f
-896	688	27	199 Nguyen Hue Street	t
-897	688	27	378 Hai Ba Trung Street	f
-898	688	13	211 Hung Vuong Street	f
-899	689	34	371 Ly Thuong Kiet Street	t
-900	689	2	234 Le Loi Street	f
-901	689	15	48 Nguyen Hue Street	f
-902	690	27	171 Quang Trung Street	t
-903	690	16	89 Nguyen Hue Street	f
-904	691	6	244 Dien Bien Phu Street	t
-905	692	17	243 Hai Ba Trung Street	t
-906	693	1	66 Dien Bien Phu Street	t
-907	694	27	184 Vo Thi Sau Street	t
-908	694	1	110 Ly Thuong Kiet Street	f
-909	694	27	392 Quang Trung Street	f
-910	695	15	23 Tran Hung Dao Street	t
-911	696	2	48 Dien Bien Phu Street	t
-912	697	29	334 Nguyen Hue Street	t
-913	698	17	297 Tran Hung Dao Street	t
-914	699	7	320 Hai Ba Trung Street	t
-915	699	1	23 Dien Bien Phu Street	f
-916	700	5	4 Quang Trung Street	t
-917	700	1	119 Hung Vuong Street	f
-918	700	13	121 Quang Trung Street	f
-919	701	27	395 Hai Ba Trung Street	t
-920	701	27	23 Hung Vuong Street	f
-921	701	27	125 Quang Trung Street	f
-922	702	26	217 Tran Hung Dao Street	t
-923	703	29	342 Le Loi Street	t
-924	703	29	2 Dien Bien Phu Street	f
-925	704	19	154 Bach Dang Street	t
-926	705	11	338 Nguyen Hue Street	t
-927	706	25	292 Nguyen Hue Street	t
-928	707	32	347 Quang Trung Street	t
-929	708	17	101 Dien Bien Phu Street	t
-930	709	10	292 Vo Thi Sau Street	t
-931	710	27	72 Nguyen Hue Street	t
-932	710	23	302 Hung Vuong Street	f
-933	711	7	184 Tran Hung Dao Street	t
-934	711	1	338 Dien Bien Phu Street	f
-935	712	22	250 Hung Vuong Street	t
-936	712	1	244 Phan Chu Trinh Street	f
-937	713	1	239 Tran Hung Dao Street	t
-938	714	1	123 Nguyen Hue Street	t
-939	715	2	59 Nguyen Hue Street	t
-940	716	12	2 Le Loi Street	t
-941	717	27	173 Phan Chu Trinh Street	t
-942	718	27	333 Phan Chu Trinh Street	t
-943	718	27	257 Ly Thuong Kiet Street	f
-944	719	1	217 Nguyen Trai Street	t
-945	720	1	254 Ly Thuong Kiet Street	t
-946	721	21	67 Tran Hung Dao Street	t
-947	722	27	79 Nguyen Trai Street	t
-948	723	17	31 Hung Vuong Street	t
-949	723	9	176 Phan Chu Trinh Street	f
-950	724	2	319 Phan Chu Trinh Street	t
-951	725	1	192 Ly Thuong Kiet Street	t
-952	725	18	91 Tran Hung Dao Street	f
-953	726	21	109 Vo Thi Sau Street	t
-954	727	1	12 Dien Bien Phu Street	t
-955	728	1	25 Bach Dang Street	t
-956	728	24	261 Nguyen Hue Street	f
-957	729	16	233 Le Loi Street	t
-958	730	1	267 Quang Trung Street	t
-959	730	15	135 Nguyen Trai Street	f
-960	730	34	15 Le Loi Street	f
-961	731	27	286 Quang Trung Street	t
-962	732	27	202 Ly Thuong Kiet Street	t
-963	733	21	269 Phan Chu Trinh Street	t
-964	734	32	305 Bach Dang Street	t
-965	735	25	197 Nguyen Trai Street	t
-966	736	1	76 Quang Trung Street	t
-967	737	34	332 Ly Thuong Kiet Street	t
-968	738	27	294 Vo Thi Sau Street	t
-969	739	29	21 Vo Thi Sau Street	t
-970	740	32	148 Nguyen Trai Street	t
-971	741	1	8 Nguyen Hue Street	t
-972	742	1	49 Nguyen Hue Street	t
-973	743	28	30 Ly Thuong Kiet Street	t
-974	744	2	145 Bach Dang Street	t
-975	745	30	83 Le Loi Street	t
-976	745	27	244 Le Loi Street	f
-977	746	25	173 Hai Ba Trung Street	t
-978	747	3	363 Nguyen Trai Street	t
-979	748	28	162 Phan Chu Trinh Street	t
-980	748	27	184 Hai Ba Trung Street	f
-981	749	3	281 Phan Chu Trinh Street	t
-982	749	1	303 Bach Dang Street	f
-983	750	30	14 Vo Thi Sau Street	t
-984	751	11	112 Nguyen Trai Street	t
-985	752	9	317 Le Loi Street	t
-986	753	1	109 Vo Thi Sau Street	t
-987	754	1	258 Quang Trung Street	t
-988	755	23	282 Nguyen Hue Street	t
-989	756	22	193 Hung Vuong Street	t
-990	757	1	7 Nguyen Hue Street	t
-991	758	12	81 Nguyen Trai Street	t
-992	759	1	342 Phan Chu Trinh Street	t
-993	760	13	351 Phan Chu Trinh Street	t
-994	761	27	220 Hung Vuong Street	t
-995	762	30	396 Tran Hung Dao Street	t
-996	762	17	33 Le Loi Street	f
-997	763	16	258 Dien Bien Phu Street	t
-998	764	27	269 Phan Chu Trinh Street	t
-999	765	1	90 Nguyen Hue Street	t
-1000	766	8	39 Bach Dang Street	t
-1001	767	1	156 Quang Trung Street	t
-1002	768	27	63 Hai Ba Trung Street	t
-1003	769	2	399 Nguyen Hue Street	t
-1004	769	27	56 Le Loi Street	f
-1005	770	6	45 Vo Thi Sau Street	t
-1006	771	14	375 Hung Vuong Street	t
-1007	772	27	328 Hai Ba Trung Street	t
-1008	773	1	231 Vo Thi Sau Street	t
-1009	774	29	252 Phan Chu Trinh Street	t
-1010	775	2	291 Nguyen Hue Street	t
-1011	776	23	297 Tran Hung Dao Street	t
-1012	777	2	3 Bach Dang Street	t
-1013	777	1	4 Nguyen Trai Street	f
-1014	778	10	184 Vo Thi Sau Street	t
-1015	779	28	62 Tran Hung Dao Street	t
-1016	780	12	159 Ly Thuong Kiet Street	t
-1017	781	27	39 Quang Trung Street	t
-1018	782	17	371 Dien Bien Phu Street	t
-1019	782	27	391 Vo Thi Sau Street	f
-1020	783	1	76 Quang Trung Street	t
-1021	784	4	211 Hung Vuong Street	t
-1022	784	18	377 Dien Bien Phu Street	f
-1023	785	17	331 Ly Thuong Kiet Street	t
-1024	786	1	336 Hai Ba Trung Street	t
-1025	787	18	356 Hai Ba Trung Street	t
-1026	787	32	266 Le Loi Street	f
-1027	788	2	349 Hung Vuong Street	t
-1028	789	1	45 Hai Ba Trung Street	t
-1029	789	27	381 Vo Thi Sau Street	f
-1030	790	1	96 Ly Thuong Kiet Street	t
-1031	791	1	44 Hung Vuong Street	t
-1032	791	27	101 Hai Ba Trung Street	f
-1033	792	7	359 Nguyen Trai Street	t
-1034	793	16	293 Nguyen Trai Street	t
-1035	794	29	44 Ly Thuong Kiet Street	t
-1036	794	27	137 Bach Dang Street	f
-1037	794	1	291 Nguyen Trai Street	f
-1038	795	27	208 Vo Thi Sau Street	t
-1039	796	1	99 Tran Hung Dao Street	t
-1040	797	1	98 Vo Thi Sau Street	t
-1041	798	27	376 Nguyen Hue Street	t
-1042	799	18	332 Hai Ba Trung Street	t
-1043	800	12	119 Ly Thuong Kiet Street	t
-1044	801	17	140 Nguyen Hue Street	t
-1045	802	20	136 Nguyen Hue Street	t
-1046	802	25	120 Hung Vuong Street	f
-1047	803	7	203 Quang Trung Street	t
-1048	804	26	193 Le Loi Street	t
-1049	805	27	54 Bach Dang Street	t
-1050	806	2	143 Vo Thi Sau Street	t
-1051	807	22	318 Hung Vuong Street	t
-1052	807	1	154 Dien Bien Phu Street	f
-1053	808	27	366 Nguyen Trai Street	t
-1054	809	1	40 Tran Hung Dao Street	t
-1055	810	31	278 Dien Bien Phu Street	t
-1056	811	30	117 Ly Thuong Kiet Street	t
-1057	811	29	43 Le Loi Street	f
-1058	812	27	163 Dien Bien Phu Street	t
-1059	813	27	321 Dien Bien Phu Street	t
-1060	814	7	230 Quang Trung Street	t
-1061	815	23	350 Ly Thuong Kiet Street	t
-1062	815	22	230 Vo Thi Sau Street	f
-1063	816	4	239 Tran Hung Dao Street	t
-1064	816	1	268 Bach Dang Street	f
-1065	816	1	192 Le Loi Street	f
-1066	817	24	179 Nguyen Hue Street	t
-1067	818	31	318 Quang Trung Street	t
-1068	819	27	305 Phan Chu Trinh Street	t
-1069	820	1	355 Ly Thuong Kiet Street	t
-1070	820	29	74 Tran Hung Dao Street	f
-1071	821	31	175 Phan Chu Trinh Street	t
-1072	821	2	29 Tran Hung Dao Street	f
-1073	822	29	228 Le Loi Street	t
-1074	823	31	174 Le Loi Street	t
-1075	824	27	340 Nguyen Trai Street	t
-1076	825	2	12 Tran Hung Dao Street	t
-1077	825	25	265 Phan Chu Trinh Street	f
-1078	826	17	224 Quang Trung Street	t
-1079	827	27	371 Nguyen Trai Street	t
-1080	828	23	373 Hung Vuong Street	t
-1081	829	7	62 Hai Ba Trung Street	t
-1082	830	1	107 Nguyen Hue Street	t
-1083	831	27	19 Hai Ba Trung Street	t
-1084	831	1	130 Quang Trung Street	f
-1085	832	28	122 Tran Hung Dao Street	t
-1086	833	17	228 Dien Bien Phu Street	t
-1087	833	27	389 Vo Thi Sau Street	f
-1088	834	27	68 Vo Thi Sau Street	t
-1089	834	2	345 Tran Hung Dao Street	f
-1090	835	8	301 Hung Vuong Street	t
-1091	836	2	8 Dien Bien Phu Street	t
-1092	837	17	288 Bach Dang Street	t
-1093	838	1	66 Nguyen Trai Street	t
-1094	839	14	178 Hai Ba Trung Street	t
-1095	840	1	326 Hai Ba Trung Street	t
-1096	841	27	266 Le Loi Street	t
-1097	842	1	292 Tran Hung Dao Street	t
-1098	843	23	206 Phan Chu Trinh Street	t
-1099	843	9	250 Nguyen Hue Street	f
-1100	843	28	387 Tran Hung Dao Street	f
-1101	844	30	23 Phan Chu Trinh Street	t
-1102	845	29	267 Nguyen Hue Street	t
-1103	846	21	184 Tran Hung Dao Street	t
-1104	847	3	148 Hai Ba Trung Street	t
-1105	847	29	79 Hai Ba Trung Street	f
-1106	848	27	343 Tran Hung Dao Street	t
-1107	849	32	188 Le Loi Street	t
-1108	850	30	6 Hai Ba Trung Street	t
-1109	851	28	117 Ly Thuong Kiet Street	t
-1110	852	1	23 Bach Dang Street	t
-1111	852	1	167 Dien Bien Phu Street	f
-1112	853	22	327 Ly Thuong Kiet Street	t
-1113	854	18	396 Bach Dang Street	t
-1114	855	29	287 Bach Dang Street	t
-1115	856	2	135 Tran Hung Dao Street	t
-1116	857	20	336 Dien Bien Phu Street	t
-1117	857	34	246 Hung Vuong Street	f
-1118	858	19	145 Nguyen Hue Street	t
-1119	859	16	376 Bach Dang Street	t
-1120	860	23	311 Hai Ba Trung Street	t
-1121	861	2	63 Phan Chu Trinh Street	t
-1122	862	1	232 Vo Thi Sau Street	t
-1123	863	4	386 Hung Vuong Street	t
-1124	864	27	42 Nguyen Trai Street	t
-1125	865	22	51 Vo Thi Sau Street	t
-1126	866	27	72 Vo Thi Sau Street	t
-1127	867	26	27 Hai Ba Trung Street	t
-1128	867	26	31 Bach Dang Street	f
-1129	868	1	374 Quang Trung Street	t
-1130	869	18	178 Quang Trung Street	t
-1131	870	13	258 Nguyen Hue Street	t
-1132	870	13	399 Hai Ba Trung Street	f
-1133	871	26	187 Phan Chu Trinh Street	t
-1134	871	30	70 Phan Chu Trinh Street	f
-1135	872	7	341 Le Loi Street	t
-1136	873	18	125 Le Loi Street	t
-1137	874	27	48 Vo Thi Sau Street	t
-1138	875	27	364 Nguyen Trai Street	t
-1139	876	1	160 Nguyen Trai Street	t
-1140	877	2	225 Dien Bien Phu Street	t
-1141	877	31	222 Hung Vuong Street	f
-1142	878	1	393 Tran Hung Dao Street	t
-1143	878	32	291 Nguyen Hue Street	f
-1144	879	27	213 Tran Hung Dao Street	t
-1145	879	28	346 Hung Vuong Street	f
-1146	880	27	36 Nguyen Hue Street	t
-1147	881	1	207 Nguyen Trai Street	t
-1148	882	22	3 Vo Thi Sau Street	t
-1149	882	32	68 Nguyen Hue Street	f
-1150	883	18	158 Le Loi Street	t
-1151	884	1	132 Bach Dang Street	t
-1152	885	27	224 Quang Trung Street	t
-1153	885	11	75 Nguyen Hue Street	f
-1154	886	14	257 Dien Bien Phu Street	t
-1155	886	27	63 Quang Trung Street	f
-1156	887	1	7 Hung Vuong Street	t
-1157	888	27	382 Bach Dang Street	t
-1158	889	19	91 Nguyen Trai Street	t
-1159	890	19	217 Nguyen Hue Street	t
-1160	891	29	388 Hung Vuong Street	t
-1161	892	19	259 Phan Chu Trinh Street	t
-1162	893	22	281 Hung Vuong Street	t
-1163	894	28	22 Ly Thuong Kiet Street	t
-1164	895	28	275 Dien Bien Phu Street	t
-1165	895	26	83 Nguyen Trai Street	f
-1166	896	14	86 Hai Ba Trung Street	t
-1167	897	22	55 Phan Chu Trinh Street	t
-1168	897	2	194 Nguyen Hue Street	f
-1169	898	1	359 Bach Dang Street	t
-1170	899	12	356 Phan Chu Trinh Street	t
-1171	900	23	351 Dien Bien Phu Street	t
-1172	900	27	369 Bach Dang Street	f
-1173	901	1	50 Hai Ba Trung Street	t
-1174	902	28	241 Dien Bien Phu Street	t
-1175	903	17	13 Quang Trung Street	t
-1176	903	10	16 Dien Bien Phu Street	f
-1177	904	3	142 Tran Hung Dao Street	t
-1178	905	1	367 Quang Trung Street	t
-1179	906	27	213 Bach Dang Street	t
-1180	906	17	308 Quang Trung Street	f
-1181	907	5	339 Hai Ba Trung Street	t
-1182	908	27	255 Dien Bien Phu Street	t
-1183	908	1	287 Le Loi Street	f
-1184	909	1	22 Tran Hung Dao Street	t
-1185	909	12	185 Le Loi Street	f
-1186	910	12	147 Nguyen Hue Street	t
-1187	910	1	99 Hai Ba Trung Street	f
-1188	910	24	343 Hai Ba Trung Street	f
-1189	911	28	180 Quang Trung Street	t
-1190	911	27	115 Le Loi Street	f
-1191	911	1	96 Ly Thuong Kiet Street	f
-1192	912	27	274 Nguyen Trai Street	t
-1193	912	1	98 Phan Chu Trinh Street	f
-1194	913	27	88 Tran Hung Dao Street	t
-1195	914	16	129 Tran Hung Dao Street	t
-1196	914	27	242 Nguyen Hue Street	f
-1197	915	1	378 Vo Thi Sau Street	t
-1198	916	15	298 Dien Bien Phu Street	t
-1199	917	1	169 Bach Dang Street	t
-1200	918	1	285 Hung Vuong Street	t
-1201	919	1	327 Nguyen Hue Street	t
-1202	920	16	98 Nguyen Hue Street	t
-1203	920	28	38 Le Loi Street	f
-1204	921	1	86 Quang Trung Street	t
-1205	921	27	14 Hai Ba Trung Street	f
-1206	922	1	57 Quang Trung Street	t
-1207	922	27	62 Nguyen Hue Street	f
-1208	923	1	283 Le Loi Street	t
-1209	924	1	63 Nguyen Trai Street	t
-1210	925	29	336 Phan Chu Trinh Street	t
-1211	926	1	12 Nguyen Hue Street	t
-1212	927	21	103 Bach Dang Street	t
-1213	928	2	46 Ly Thuong Kiet Street	t
-1214	928	27	250 Quang Trung Street	f
-1215	929	12	19 Nguyen Trai Street	t
-1216	930	23	65 Tran Hung Dao Street	t
-1217	931	7	270 Bach Dang Street	t
-1218	931	18	343 Ly Thuong Kiet Street	f
-1219	932	14	398 Nguyen Hue Street	t
-1220	933	32	266 Hung Vuong Street	t
-1221	934	1	93 Phan Chu Trinh Street	t
-1222	935	1	288 Vo Thi Sau Street	t
-1223	935	29	395 Nguyen Trai Street	f
-1224	936	1	139 Hai Ba Trung Street	t
-1225	937	29	166 Bach Dang Street	t
-1226	938	24	133 Hai Ba Trung Street	t
-1227	939	1	140 Vo Thi Sau Street	t
-1228	939	1	24 Vo Thi Sau Street	f
-1229	940	1	71 Nguyen Trai Street	t
-1230	941	14	233 Phan Chu Trinh Street	t
-1231	941	1	246 Vo Thi Sau Street	f
-1232	942	18	271 Bach Dang Street	t
-1233	943	27	236 Bach Dang Street	t
-1234	944	29	375 Quang Trung Street	t
-1235	944	25	121 Hung Vuong Street	f
-1236	945	20	330 Phan Chu Trinh Street	t
-1237	946	27	204 Nguyen Hue Street	t
-1238	946	25	291 Tran Hung Dao Street	f
-1239	947	1	127 Nguyen Hue Street	t
-1240	948	1	339 Nguyen Hue Street	t
-1241	949	18	88 Nguyen Hue Street	t
-1242	950	29	31 Hai Ba Trung Street	t
-1243	951	1	349 Hung Vuong Street	t
-1244	952	12	137 Quang Trung Street	t
-1245	953	29	396 Tran Hung Dao Street	t
-1246	954	1	335 Tran Hung Dao Street	t
-1247	955	25	377 Ly Thuong Kiet Street	t
-1248	956	30	390 Hai Ba Trung Street	t
-1249	957	1	372 Dien Bien Phu Street	t
-1250	958	14	114 Phan Chu Trinh Street	t
-1251	959	7	264 Le Loi Street	t
-1252	960	6	132 Bach Dang Street	t
-1253	961	1	85 Nguyen Hue Street	t
-1254	962	11	291 Ly Thuong Kiet Street	t
-1255	963	1	242 Quang Trung Street	t
-1256	964	14	341 Vo Thi Sau Street	t
-1257	965	24	74 Nguyen Trai Street	t
-1258	966	34	298 Nguyen Trai Street	t
-1259	967	2	74 Vo Thi Sau Street	t
-1260	968	25	79 Phan Chu Trinh Street	t
-1261	969	2	59 Vo Thi Sau Street	t
-1262	970	2	222 Dien Bien Phu Street	t
-1263	971	27	116 Tran Hung Dao Street	t
-1264	972	19	394 Hai Ba Trung Street	t
-1265	973	19	116 Bach Dang Street	t
-1266	974	29	205 Phan Chu Trinh Street	t
-1267	975	20	136 Hai Ba Trung Street	t
-1268	976	1	219 Nguyen Hue Street	t
-1269	977	24	154 Tran Hung Dao Street	t
-1270	978	25	204 Nguyen Trai Street	t
-1271	978	16	122 Bach Dang Street	f
-1272	978	31	322 Nguyen Trai Street	f
-1273	979	19	9 Hung Vuong Street	t
-1274	980	27	246 Le Loi Street	t
-1275	981	22	125 Ly Thuong Kiet Street	t
-1276	982	17	314 Nguyen Hue Street	t
-1277	983	1	330 Hung Vuong Street	t
-1278	984	1	324 Phan Chu Trinh Street	t
-1279	985	22	115 Le Loi Street	t
-1280	986	27	256 Hung Vuong Street	t
-1281	987	19	396 Nguyen Trai Street	t
-1282	987	1	397 Vo Thi Sau Street	f
-1283	987	24	328 Tran Hung Dao Street	f
-1284	988	12	220 Quang Trung Street	t
-1285	989	11	152 Hung Vuong Street	t
-1286	989	32	309 Nguyen Trai Street	f
-1287	990	18	176 Hung Vuong Street	t
-1288	991	24	10 Le Loi Street	t
-1289	992	34	308 Dien Bien Phu Street	t
-1290	993	6	231 Phan Chu Trinh Street	t
-1291	994	30	45 Bach Dang Street	t
-1292	995	12	56 Nguyen Trai Street	t
-1293	996	18	94 Tran Hung Dao Street	t
-1294	997	5	211 Hung Vuong Street	t
-1295	998	1	41 Nguyen Trai Street	t
-1296	999	30	303 Le Loi Street	t
-1297	1000	14	331 Tran Hung Dao Street	t
-1298	1001	11	42 Phan Chu Trinh Street	t
-1299	1002	18	99 Hai Ba Trung Street	t
-1300	1003	24	31 Bach Dang Street	t
-1301	1003	1	19 Hung Vuong Street	f
-1302	1003	31	180 Nguyen Hue Street	f
-1303	1004	5	356 Nguyen Trai Street	t
-1304	1005	27	352 Hai Ba Trung Street	t
-1305	1005	31	45 Bach Dang Street	f
-1306	1006	31	83 Phan Chu Trinh Street	t
-1307	1006	27	244 Ly Thuong Kiet Street	f
-1308	1007	27	250 Nguyen Trai Street	t
-1309	1008	1	397 Tran Hung Dao Street	t
-1310	1009	30	155 Quang Trung Street	t
-1311	1010	11	158 Nguyen Hue Street	t
-1312	1010	27	334 Bach Dang Street	f
-1313	1010	25	11 Dien Bien Phu Street	f
-1314	1011	1	264 Tran Hung Dao Street	t
-1315	1011	11	24 Le Loi Street	f
-1316	1012	28	339 Phan Chu Trinh Street	t
-1317	1013	16	102 Vo Thi Sau Street	t
-1318	1013	34	133 Tran Hung Dao Street	f
-1319	1013	31	287 Hai Ba Trung Street	f
-1320	1014	2	41 Phan Chu Trinh Street	t
-1321	1015	29	300 Le Loi Street	t
-1322	1016	18	231 Quang Trung Street	t
-1323	1017	5	130 Ly Thuong Kiet Street	t
-1324	1017	1	192 Dien Bien Phu Street	f
-1325	1017	17	56 Nguyen Trai Street	f
-1326	1018	32	330 Hung Vuong Street	t
-1327	1019	1	270 Tran Hung Dao Street	t
-1328	1019	27	147 Vo Thi Sau Street	f
-1329	1020	29	131 Ly Thuong Kiet Street	t
-1330	1021	18	157 Dien Bien Phu Street	t
-1331	1022	1	226 Phan Chu Trinh Street	t
-1332	1023	23	209 Bach Dang Street	t
-1333	1024	12	281 Hung Vuong Street	t
-1334	1025	27	305 Le Loi Street	t
-1335	1025	19	181 Dien Bien Phu Street	f
-1336	1026	21	305 Hung Vuong Street	t
-1337	1027	1	202 Hai Ba Trung Street	t
-1338	1028	1	337 Bach Dang Street	t
-1339	1028	27	379 Hung Vuong Street	f
-1340	1029	27	361 Hai Ba Trung Street	t
-1341	1030	30	12 Hai Ba Trung Street	t
-1342	1030	27	229 Vo Thi Sau Street	f
-1343	1030	22	356 Dien Bien Phu Street	f
-1344	1031	29	9 Vo Thi Sau Street	t
-1345	1031	18	185 Nguyen Hue Street	f
-1346	1032	1	73 Hung Vuong Street	t
-1347	1033	1	58 Bach Dang Street	t
-1348	1034	27	347 Vo Thi Sau Street	t
-1349	1035	17	2 Vo Thi Sau Street	t
-1350	1036	18	227 Tran Hung Dao Street	t
-1351	1037	10	56 Le Loi Street	t
-1352	1038	18	47 Hai Ba Trung Street	t
-1353	1039	1	29 Vo Thi Sau Street	t
-1354	1039	1	55 Quang Trung Street	f
-1355	1040	27	163 Hung Vuong Street	t
-1356	1040	1	112 Dien Bien Phu Street	f
-1357	1041	2	385 Hai Ba Trung Street	t
-1358	1041	14	43 Tran Hung Dao Street	f
-1359	1042	1	354 Nguyen Trai Street	t
-1360	1043	27	8 Quang Trung Street	t
-1361	1044	32	31 Vo Thi Sau Street	t
-1362	1045	1	206 Vo Thi Sau Street	t
-1363	1046	27	269 Nguyen Hue Street	t
-1364	1046	23	383 Phan Chu Trinh Street	f
-1365	1046	27	122 Bach Dang Street	f
-1366	1047	27	147 Nguyen Trai Street	t
-1367	1048	12	311 Nguyen Trai Street	t
-1368	1049	24	93 Le Loi Street	t
-1369	1050	31	209 Ly Thuong Kiet Street	t
-1370	1050	1	26 Quang Trung Street	f
-1371	1051	1	251 Quang Trung Street	t
-1372	1052	27	52 Quang Trung Street	t
-1373	1053	13	14 Tran Hung Dao Street	t
-1374	1054	2	292 Hai Ba Trung Street	t
-1375	1054	29	303 Phan Chu Trinh Street	f
-1376	1054	25	155 Dien Bien Phu Street	f
-1377	1055	30	85 Phan Chu Trinh Street	t
-1378	1056	12	292 Nguyen Hue Street	t
-1379	1056	25	186 Nguyen Hue Street	f
-1380	1057	2	299 Bach Dang Street	t
-1381	1058	19	307 Hai Ba Trung Street	t
-1382	1059	17	376 Le Loi Street	t
-1383	1060	27	107 Quang Trung Street	t
-1384	1061	2	204 Hung Vuong Street	t
-1385	1062	28	87 Bach Dang Street	t
-1386	1063	7	159 Le Loi Street	t
-1387	1064	7	81 Hai Ba Trung Street	t
-1388	1064	2	82 Dien Bien Phu Street	f
-1389	1065	29	117 Nguyen Hue Street	t
-1390	1065	23	169 Phan Chu Trinh Street	f
-1391	1066	23	165 Vo Thi Sau Street	t
-1392	1066	1	101 Phan Chu Trinh Street	f
-1393	1066	13	236 Phan Chu Trinh Street	f
-1394	1067	15	120 Ly Thuong Kiet Street	t
-1395	1067	1	346 Dien Bien Phu Street	f
-1396	1068	27	224 Vo Thi Sau Street	t
-1397	1069	20	168 Phan Chu Trinh Street	t
-1398	1069	27	369 Vo Thi Sau Street	f
-1399	1069	27	175 Phan Chu Trinh Street	f
-1400	1070	27	178 Phan Chu Trinh Street	t
-1401	1071	8	255 Hai Ba Trung Street	t
-1402	1072	27	330 Hung Vuong Street	t
-1403	1073	12	396 Hai Ba Trung Street	t
-1404	1074	1	87 Dien Bien Phu Street	t
-1405	1075	25	393 Bach Dang Street	t
-1406	1076	27	372 Phan Chu Trinh Street	t
-1407	1077	28	346 Quang Trung Street	t
-1408	1077	11	148 Bach Dang Street	f
-1409	1078	12	221 Quang Trung Street	t
-1410	1079	2	320 Phan Chu Trinh Street	t
-1411	1080	17	173 Phan Chu Trinh Street	t
-1412	1081	28	18 Vo Thi Sau Street	t
-1413	1081	22	355 Ly Thuong Kiet Street	f
-1414	1081	25	363 Tran Hung Dao Street	f
-1415	1082	28	356 Nguyen Hue Street	t
-1416	1082	14	17 Quang Trung Street	f
-1417	1083	27	391 Hung Vuong Street	t
-1418	1084	29	35 Phan Chu Trinh Street	t
-1419	1084	1	297 Vo Thi Sau Street	f
-1420	1085	1	306 Nguyen Trai Street	t
-1421	1086	19	268 Ly Thuong Kiet Street	t
-1422	1087	27	195 Tran Hung Dao Street	t
-1423	1087	17	358 Hung Vuong Street	f
-1424	1088	17	289 Tran Hung Dao Street	t
-1425	1089	34	328 Nguyen Hue Street	t
-1426	1090	20	221 Le Loi Street	t
-1427	1090	1	147 Quang Trung Street	f
-1428	1091	25	76 Quang Trung Street	t
-1429	1092	8	158 Nguyen Trai Street	t
-1430	1093	27	347 Hai Ba Trung Street	t
-1431	1094	2	19 Nguyen Hue Street	t
-1432	1095	1	398 Bach Dang Street	t
-1433	1096	15	48 Nguyen Trai Street	t
-1434	1097	12	270 Dien Bien Phu Street	t
-1435	1098	27	312 Le Loi Street	t
-1436	1099	1	33 Ly Thuong Kiet Street	t
-1437	1099	17	346 Bach Dang Street	f
-1438	1100	1	213 Dien Bien Phu Street	t
-1439	1101	1	213 Hung Vuong Street	t
-1440	1102	33	221 Nguyen Hue Street	t
-1441	1102	11	262 Vo Thi Sau Street	f
-1442	1103	13	191 Quang Trung Street	t
-1443	1104	18	189 Ly Thuong Kiet Street	t
-1444	1105	27	277 Vo Thi Sau Street	t
-1445	1106	12	174 Vo Thi Sau Street	t
-1446	1106	27	94 Quang Trung Street	f
-1447	1107	1	193 Hung Vuong Street	t
-1448	1108	1	70 Hai Ba Trung Street	t
-1449	1109	27	352 Nguyen Hue Street	t
-1450	1110	30	394 Nguyen Trai Street	t
-1451	1111	24	24 Quang Trung Street	t
-1452	1111	28	7 Le Loi Street	f
-1453	1111	27	8 Hung Vuong Street	f
-1454	1112	2	231 Ly Thuong Kiet Street	t
-1455	1112	1	366 Phan Chu Trinh Street	f
-1456	1112	27	266 Ly Thuong Kiet Street	f
-1457	1113	17	337 Ly Thuong Kiet Street	t
-1458	1113	30	223 Hai Ba Trung Street	f
-1459	1114	29	282 Ly Thuong Kiet Street	t
-1460	1115	27	284 Vo Thi Sau Street	t
-1461	1116	1	169 Quang Trung Street	t
-1462	1117	27	378 Vo Thi Sau Street	t
-1463	1117	25	360 Phan Chu Trinh Street	f
-1464	1118	32	372 Nguyen Hue Street	t
-1465	1119	18	189 Dien Bien Phu Street	t
-1466	1120	32	74 Quang Trung Street	t
-1467	1120	31	363 Le Loi Street	f
-1468	1121	17	338 Hung Vuong Street	t
-1469	1122	1	372 Quang Trung Street	t
-1470	1123	18	362 Vo Thi Sau Street	t
-1471	1124	14	221 Dien Bien Phu Street	t
-1472	1125	14	139 Hai Ba Trung Street	t
-1473	1126	27	69 Ly Thuong Kiet Street	t
-1474	1127	1	341 Tran Hung Dao Street	t
-1475	1127	18	54 Ly Thuong Kiet Street	f
-1476	1128	27	85 Dien Bien Phu Street	t
-1477	1129	20	91 Le Loi Street	t
-1478	1129	1	234 Phan Chu Trinh Street	f
-1479	1130	1	395 Phan Chu Trinh Street	t
-1480	1131	8	38 Hung Vuong Street	t
-1481	1132	24	231 Nguyen Hue Street	t
-1482	1133	23	117 Phan Chu Trinh Street	t
-1483	1134	34	302 Nguyen Hue Street	t
-1484	1135	34	222 Hung Vuong Street	t
-1485	1136	27	314 Nguyen Trai Street	t
-1486	1137	25	102 Nguyen Hue Street	t
-1487	1138	16	112 Hung Vuong Street	t
-1488	1139	27	243 Vo Thi Sau Street	t
-1489	1140	27	157 Ly Thuong Kiet Street	t
-1490	1141	29	278 Quang Trung Street	t
-1491	1141	27	235 Tran Hung Dao Street	f
-1492	1142	1	100 Dien Bien Phu Street	t
-1493	1143	34	31 Nguyen Hue Street	t
-1494	1144	27	48 Phan Chu Trinh Street	t
-1495	1144	12	282 Nguyen Hue Street	f
-1496	1145	1	288 Nguyen Hue Street	t
-1497	1146	1	228 Vo Thi Sau Street	t
-1498	1146	12	72 Hai Ba Trung Street	f
-1499	1147	6	251 Le Loi Street	t
-1500	1148	33	84 Vo Thi Sau Street	t
-1501	1149	29	17 Quang Trung Street	t
-1502	1150	1	93 Vo Thi Sau Street	t
-1503	1150	32	189 Le Loi Street	f
-1504	1151	1	318 Quang Trung Street	t
-1505	1151	17	372 Ly Thuong Kiet Street	f
-1506	1152	24	120 Dien Bien Phu Street	t
-1507	1153	7	354 Hung Vuong Street	t
-1508	1154	1	231 Ly Thuong Kiet Street	t
-1509	1155	16	66 Tran Hung Dao Street	t
-1510	1156	29	62 Dien Bien Phu Street	t
-1511	1156	14	215 Tran Hung Dao Street	f
-1512	1157	9	181 Hung Vuong Street	t
-1513	1158	17	218 Nguyen Hue Street	t
-1514	1159	17	94 Nguyen Trai Street	t
-1515	1160	22	39 Ly Thuong Kiet Street	t
-1516	1160	2	366 Vo Thi Sau Street	f
-1517	1161	4	30 Phan Chu Trinh Street	t
-1518	1162	27	161 Nguyen Hue Street	t
-1519	1162	34	152 Ly Thuong Kiet Street	f
-1520	1163	17	14 Nguyen Hue Street	t
-1521	1164	1	200 Dien Bien Phu Street	t
-1522	1164	27	80 Hung Vuong Street	f
-1523	1165	1	387 Hung Vuong Street	t
-1524	1165	1	101 Nguyen Trai Street	f
-1525	1165	1	72 Quang Trung Street	f
-1526	1166	23	259 Quang Trung Street	t
-1527	1167	27	192 Hai Ba Trung Street	t
-1528	1168	30	323 Nguyen Trai Street	t
-1529	1169	2	355 Hung Vuong Street	t
-1530	1169	1	287 Ly Thuong Kiet Street	f
-1531	1170	30	24 Tran Hung Dao Street	t
-1532	1171	29	120 Quang Trung Street	t
-1533	1172	27	196 Nguyen Trai Street	t
-1534	1172	27	188 Tran Hung Dao Street	f
-1535	1173	28	283 Ly Thuong Kiet Street	t
-1536	1174	27	258 Ly Thuong Kiet Street	t
-1537	1175	1	234 Vo Thi Sau Street	t
-1538	1176	18	319 Quang Trung Street	t
-1539	1177	23	34 Dien Bien Phu Street	t
-1540	1178	30	318 Nguyen Trai Street	t
-1541	1178	16	364 Nguyen Trai Street	f
-1542	1179	11	67 Le Loi Street	t
-1543	1180	11	37 Bach Dang Street	t
-1544	1181	2	245 Phan Chu Trinh Street	t
-1545	1182	1	261 Nguyen Hue Street	t
-1546	1183	1	232 Nguyen Trai Street	t
-1547	1183	17	21 Dien Bien Phu Street	f
-1548	1184	5	185 Phan Chu Trinh Street	t
-1549	1184	17	60 Bach Dang Street	f
-1550	1185	22	188 Quang Trung Street	t
-1551	1186	27	393 Hai Ba Trung Street	t
-1552	1187	32	101 Nguyen Hue Street	t
-1553	1188	13	156 Nguyen Trai Street	t
-1554	1189	13	364 Nguyen Trai Street	t
-1555	1190	18	166 Quang Trung Street	t
-1556	1191	29	94 Hung Vuong Street	t
-1557	1191	19	382 Vo Thi Sau Street	f
-1558	1192	20	398 Tran Hung Dao Street	t
-1559	1193	27	133 Ly Thuong Kiet Street	t
-1560	1194	17	178 Nguyen Trai Street	t
-1561	1194	17	47 Tran Hung Dao Street	f
-1562	1194	34	124 Dien Bien Phu Street	f
-1563	1195	27	357 Dien Bien Phu Street	t
-1564	1195	19	195 Nguyen Hue Street	f
-1565	1196	28	57 Hung Vuong Street	t
-1566	1197	29	335 Quang Trung Street	t
-1567	1198	17	330 Ly Thuong Kiet Street	t
-1568	1199	1	231 Nguyen Hue Street	t
-1569	1200	30	48 Tran Hung Dao Street	t
-1570	1200	1	135 Ly Thuong Kiet Street	f
-1571	1201	1	61 Nguyen Hue Street	t
-1572	1202	11	3 Hai Ba Trung Street	t
-1573	1203	27	221 Dien Bien Phu Street	t
-1574	1203	2	59 Nguyen Trai Street	f
-1575	1204	17	292 Hai Ba Trung Street	t
-1576	1205	29	239 Vo Thi Sau Street	t
-1577	1206	19	87 Nguyen Trai Street	t
-1578	1207	28	48 Nguyen Hue Street	t
-1579	1208	27	138 Le Loi Street	t
-1580	1209	27	112 Le Loi Street	t
-1581	1210	29	222 Dien Bien Phu Street	t
-1582	1210	17	15 Dien Bien Phu Street	f
-1583	1211	16	62 Nguyen Trai Street	t
-1584	1211	17	373 Le Loi Street	f
-1585	1212	1	310 Tran Hung Dao Street	t
-1586	1213	17	248 Le Loi Street	t
-1587	1214	32	329 Ly Thuong Kiet Street	t
-1588	1215	1	234 Tran Hung Dao Street	t
-1589	1216	16	113 Phan Chu Trinh Street	t
-1590	1216	28	9 Nguyen Hue Street	f
-1591	1216	27	187 Hung Vuong Street	f
-1592	1217	1	29 Vo Thi Sau Street	t
-1593	1218	16	146 Bach Dang Street	t
-1594	1218	27	298 Dien Bien Phu Street	f
-1595	1219	33	371 Phan Chu Trinh Street	t
-1596	1220	23	50 Ly Thuong Kiet Street	t
-1597	1221	27	304 Vo Thi Sau Street	t
-1598	1222	27	264 Ly Thuong Kiet Street	t
-1599	1223	14	339 Hai Ba Trung Street	t
-1600	1224	7	247 Phan Chu Trinh Street	t
-1601	1225	27	101 Vo Thi Sau Street	t
-1602	1226	31	207 Nguyen Hue Street	t
-1603	1227	10	292 Le Loi Street	t
-1604	1227	27	82 Hai Ba Trung Street	f
-1605	1228	1	320 Vo Thi Sau Street	t
-1606	1229	12	351 Tran Hung Dao Street	t
-1607	1230	25	38 Tran Hung Dao Street	t
-1608	1231	28	167 Vo Thi Sau Street	t
-1609	1231	27	316 Vo Thi Sau Street	f
-1610	1231	28	223 Le Loi Street	f
-1611	1232	23	73 Phan Chu Trinh Street	t
-1612	1233	27	132 Bach Dang Street	t
-1613	1234	22	388 Vo Thi Sau Street	t
-1614	1234	27	381 Dien Bien Phu Street	f
-1615	1235	23	60 Le Loi Street	t
-1616	1236	18	252 Ly Thuong Kiet Street	t
-1617	1237	1	351 Ly Thuong Kiet Street	t
-1618	1237	17	198 Bach Dang Street	f
-1619	1238	29	4 Nguyen Trai Street	t
-1620	1238	32	134 Le Loi Street	f
-1621	1239	12	394 Vo Thi Sau Street	t
-1622	1239	1	142 Nguyen Hue Street	f
-1623	1240	11	345 Quang Trung Street	t
-1624	1240	29	389 Nguyen Trai Street	f
-1625	1241	27	234 Nguyen Hue Street	t
-1626	1242	18	64 Bach Dang Street	t
-1627	1242	4	356 Phan Chu Trinh Street	f
-1628	1243	25	21 Ly Thuong Kiet Street	t
-1629	1244	27	263 Le Loi Street	t
-1630	1244	10	38 Quang Trung Street	f
-1631	1245	18	58 Dien Bien Phu Street	t
-1632	1246	27	61 Le Loi Street	t
-1633	1247	22	33 Vo Thi Sau Street	t
-1634	1247	4	233 Bach Dang Street	f
-1635	1247	29	241 Ly Thuong Kiet Street	f
-1636	1248	1	294 Phan Chu Trinh Street	t
-1637	1249	1	399 Quang Trung Street	t
-1638	1250	1	380 Vo Thi Sau Street	t
-1639	1251	27	6 Nguyen Trai Street	t
-1640	1252	17	173 Nguyen Hue Street	t
-1641	1253	27	389 Phan Chu Trinh Street	t
-1642	1254	26	73 Nguyen Trai Street	t
-1643	1255	13	335 Quang Trung Street	t
-1644	1256	2	338 Dien Bien Phu Street	t
-1645	1257	1	214 Quang Trung Street	t
-1646	1258	1	221 Le Loi Street	t
-1647	1258	11	258 Nguyen Trai Street	f
-1648	1259	31	259 Le Loi Street	t
-1649	1259	27	280 Nguyen Hue Street	f
-1650	1260	1	352 Ly Thuong Kiet Street	t
-1651	1261	9	53 Hai Ba Trung Street	t
-1652	1262	27	279 Tran Hung Dao Street	t
-1653	1262	1	165 Phan Chu Trinh Street	f
-1654	1262	31	340 Dien Bien Phu Street	f
-1655	1263	27	335 Quang Trung Street	t
-1656	1264	27	349 Phan Chu Trinh Street	t
-1657	1265	29	71 Nguyen Trai Street	t
-1658	1266	31	252 Ly Thuong Kiet Street	t
-1659	1267	14	246 Quang Trung Street	t
-1660	1268	1	175 Le Loi Street	t
-1661	1269	7	33 Vo Thi Sau Street	t
-1662	1269	27	293 Tran Hung Dao Street	f
-1663	1270	27	259 Nguyen Hue Street	t
-1664	1271	27	266 Phan Chu Trinh Street	t
-1665	1272	18	165 Phan Chu Trinh Street	t
-1666	1273	11	2 Dien Bien Phu Street	t
-1667	1274	2	207 Ly Thuong Kiet Street	t
-1668	1275	27	395 Nguyen Hue Street	t
-1669	1276	1	321 Vo Thi Sau Street	t
-1670	1276	17	192 Vo Thi Sau Street	f
-1671	1277	1	326 Ly Thuong Kiet Street	t
-1672	1278	8	306 Ly Thuong Kiet Street	t
-1673	1279	34	360 Hung Vuong Street	t
-1674	1280	6	217 Le Loi Street	t
-1675	1280	18	205 Dien Bien Phu Street	f
-1676	1281	6	288 Vo Thi Sau Street	t
-1677	1282	11	283 Dien Bien Phu Street	t
-1678	1283	14	47 Le Loi Street	t
-1679	1283	11	169 Quang Trung Street	f
-1680	1284	1	234 Bach Dang Street	t
-1681	1285	29	304 Phan Chu Trinh Street	t
-1682	1286	17	54 Tran Hung Dao Street	t
-1683	1287	15	53 Hung Vuong Street	t
-1684	1288	27	253 Le Loi Street	t
-1685	1289	27	122 Nguyen Trai Street	t
-1686	1290	34	111 Vo Thi Sau Street	t
-1687	1290	1	144 Hung Vuong Street	f
-1688	1291	1	320 Nguyen Trai Street	t
-1689	1291	1	2 Tran Hung Dao Street	f
-1690	1292	5	220 Bach Dang Street	t
-1691	1292	26	327 Hai Ba Trung Street	f
-1692	1293	27	373 Vo Thi Sau Street	t
-1693	1294	1	134 Le Loi Street	t
-1694	1294	1	171 Vo Thi Sau Street	f
-1695	1295	1	179 Vo Thi Sau Street	t
-1696	1296	29	127 Bach Dang Street	t
-1697	1297	26	204 Nguyen Trai Street	t
-1698	1298	17	108 Nguyen Hue Street	t
-1699	1299	18	50 Bach Dang Street	t
-1700	1300	27	103 Phan Chu Trinh Street	t
-1701	1301	24	12 Vo Thi Sau Street	t
-1702	1302	18	3 Tran Hung Dao Street	t
-1703	1303	32	307 Le Loi Street	t
-1704	1304	21	330 Dien Bien Phu Street	t
-1705	1305	3	285 Phan Chu Trinh Street	t
-1706	1305	27	393 Hai Ba Trung Street	f
-1707	1305	2	93 Vo Thi Sau Street	f
-1708	1306	17	312 Phan Chu Trinh Street	t
-1709	1307	27	247 Quang Trung Street	t
-1710	1307	1	2 Nguyen Trai Street	f
-1711	1308	17	261 Bach Dang Street	t
-1712	1309	18	325 Phan Chu Trinh Street	t
-1713	1309	32	167 Tran Hung Dao Street	f
-1714	1310	27	157 Nguyen Hue Street	t
-1715	1311	1	169 Ly Thuong Kiet Street	t
-1716	1312	19	393 Hai Ba Trung Street	t
-1717	1313	26	76 Nguyen Trai Street	t
-1718	1314	26	30 Ly Thuong Kiet Street	t
-1719	1314	17	135 Dien Bien Phu Street	f
-1720	1315	27	43 Nguyen Trai Street	t
-1721	1316	27	114 Hai Ba Trung Street	t
-1722	1316	19	344 Bach Dang Street	f
-1723	1317	5	333 Hai Ba Trung Street	t
-1724	1318	15	274 Le Loi Street	t
-1725	1318	17	286 Nguyen Hue Street	f
-1726	1319	1	8 Phan Chu Trinh Street	t
-1727	1320	1	357 Phan Chu Trinh Street	t
-1728	1321	27	82 Hai Ba Trung Street	t
-1729	1322	27	109 Phan Chu Trinh Street	t
-1730	1322	10	260 Bach Dang Street	f
-1731	1323	1	222 Quang Trung Street	t
-1732	1324	27	183 Hai Ba Trung Street	t
-1733	1325	27	83 Vo Thi Sau Street	t
-1734	1325	27	298 Dien Bien Phu Street	f
-1735	1326	27	85 Hung Vuong Street	t
-1736	1327	9	181 Nguyen Trai Street	t
-1737	1328	17	243 Nguyen Hue Street	t
-1738	1329	11	329 Tran Hung Dao Street	t
-1739	1330	13	328 Dien Bien Phu Street	t
-1740	1331	25	396 Tran Hung Dao Street	t
-1741	1332	13	296 Nguyen Trai Street	t
-1742	1333	17	284 Le Loi Street	t
-1743	1334	29	317 Le Loi Street	t
-1744	1335	32	204 Bach Dang Street	t
-1745	1336	27	216 Phan Chu Trinh Street	t
-1746	1337	10	290 Ly Thuong Kiet Street	t
-1747	1338	27	185 Bach Dang Street	t
-1748	1339	27	234 Hai Ba Trung Street	t
-1749	1339	11	147 Nguyen Trai Street	f
-1750	1340	26	13 Dien Bien Phu Street	t
-1751	1340	1	105 Quang Trung Street	f
-1752	1341	1	33 Hung Vuong Street	t
-1753	1342	27	324 Dien Bien Phu Street	t
-1754	1343	27	102 Le Loi Street	t
-1755	1344	1	321 Phan Chu Trinh Street	t
-1756	1345	31	246 Bach Dang Street	t
-1757	1346	27	67 Nguyen Trai Street	t
-1758	1347	17	93 Tran Hung Dao Street	t
-1759	1348	30	362 Quang Trung Street	t
-1760	1349	4	178 Le Loi Street	t
-1761	1350	4	390 Ly Thuong Kiet Street	t
-1762	1350	25	69 Nguyen Hue Street	f
-1763	1350	1	320 Tran Hung Dao Street	f
-1764	1351	31	264 Vo Thi Sau Street	t
-1765	1352	7	51 Ly Thuong Kiet Street	t
-1766	1352	27	172 Tran Hung Dao Street	f
-1767	1353	2	186 Hung Vuong Street	t
-1768	1353	19	337 Hai Ba Trung Street	f
-1769	1354	3	87 Hai Ba Trung Street	t
-1770	1355	27	241 Phan Chu Trinh Street	t
-1771	1356	28	179 Hai Ba Trung Street	t
-1772	1356	19	204 Dien Bien Phu Street	f
-1773	1357	34	229 Nguyen Hue Street	t
-1774	1358	15	377 Tran Hung Dao Street	t
-1775	1359	1	136 Tran Hung Dao Street	t
-1776	1360	25	194 Hai Ba Trung Street	t
-1777	1361	19	232 Le Loi Street	t
-1778	1361	4	237 Hai Ba Trung Street	f
-1779	1362	27	242 Quang Trung Street	t
-1780	1363	2	338 Phan Chu Trinh Street	t
-1781	1364	1	204 Nguyen Hue Street	t
-1782	1365	7	2 Ly Thuong Kiet Street	t
-1783	1366	1	318 Tran Hung Dao Street	t
-1784	1367	1	390 Hung Vuong Street	t
-1785	1367	17	6 Phan Chu Trinh Street	f
-1786	1368	24	228 Nguyen Hue Street	t
-1787	1368	27	352 Phan Chu Trinh Street	f
-1788	1369	2	283 Hung Vuong Street	t
-1789	1370	16	152 Bach Dang Street	t
-1790	1371	18	257 Hai Ba Trung Street	t
-1791	1372	17	54 Nguyen Hue Street	t
-1792	1372	12	240 Nguyen Trai Street	f
-1793	1373	1	239 Le Loi Street	t
-1794	1374	24	17 Hai Ba Trung Street	t
-1795	1375	2	238 Bach Dang Street	t
-1796	1376	27	151 Vo Thi Sau Street	t
-1797	1377	1	300 Tran Hung Dao Street	t
-1798	1378	5	349 Nguyen Hue Street	t
-1799	1378	27	269 Nguyen Trai Street	f
-1800	1379	27	235 Hai Ba Trung Street	t
-1801	1380	18	315 Hai Ba Trung Street	t
-1802	1380	22	154 Dien Bien Phu Street	f
-1803	1381	29	368 Ly Thuong Kiet Street	t
-1804	1382	1	63 Hung Vuong Street	t
-1805	1383	22	214 Phan Chu Trinh Street	t
-1806	1384	31	252 Bach Dang Street	t
-1807	1385	1	132 Tran Hung Dao Street	t
-1808	1386	12	264 Dien Bien Phu Street	t
-1809	1386	12	342 Phan Chu Trinh Street	f
-1810	1387	17	211 Dien Bien Phu Street	t
-1811	1388	27	394 Phan Chu Trinh Street	t
-1812	1389	33	40 Phan Chu Trinh Street	t
-1813	1389	11	144 Vo Thi Sau Street	f
-1814	1389	19	286 Tran Hung Dao Street	f
-1815	1390	17	171 Vo Thi Sau Street	t
-1816	1391	27	240 Tran Hung Dao Street	t
-1817	1392	1	253 Vo Thi Sau Street	t
-1818	1393	27	265 Phan Chu Trinh Street	t
-1819	1394	27	228 Phan Chu Trinh Street	t
-1820	1395	15	208 Hung Vuong Street	t
-1821	1396	15	159 Nguyen Hue Street	t
-1822	1397	27	90 Quang Trung Street	t
-1823	1398	30	44 Tran Hung Dao Street	t
-1824	1399	17	323 Dien Bien Phu Street	t
-1825	1399	18	290 Ly Thuong Kiet Street	f
-1826	1400	17	63 Tran Hung Dao Street	t
-1827	1401	2	198 Hai Ba Trung Street	t
-1828	1402	7	378 Tran Hung Dao Street	t
-1829	1402	28	26 Nguyen Trai Street	f
-1830	1403	17	94 Hai Ba Trung Street	t
-1831	1404	1	96 Le Loi Street	t
-1832	1405	1	39 Le Loi Street	t
-1833	1405	27	229 Phan Chu Trinh Street	f
-1834	1406	1	135 Hai Ba Trung Street	t
-1835	1407	21	229 Nguyen Trai Street	t
-1836	1407	12	178 Nguyen Hue Street	f
-1837	1408	6	261 Nguyen Trai Street	t
-1838	1409	2	365 Vo Thi Sau Street	t
-1839	1409	32	145 Quang Trung Street	f
-1840	1410	1	5 Hung Vuong Street	t
-1841	1411	12	63 Tran Hung Dao Street	t
-1842	1412	26	22 Bach Dang Street	t
-1843	1413	1	352 Le Loi Street	t
-1844	1414	27	305 Tran Hung Dao Street	t
-1845	1415	18	182 Le Loi Street	t
-1846	1416	19	93 Nguyen Trai Street	t
-1847	1417	2	162 Hai Ba Trung Street	t
-1848	1418	1	97 Hung Vuong Street	t
-1849	1419	18	47 Vo Thi Sau Street	t
-1850	1419	22	330 Tran Hung Dao Street	f
-1851	1420	12	318 Le Loi Street	t
-1852	1421	27	85 Hai Ba Trung Street	t
-1853	1422	1	322 Dien Bien Phu Street	t
-1854	1423	22	389 Tran Hung Dao Street	t
-1855	1424	23	391 Hai Ba Trung Street	t
-1856	1425	27	335 Ly Thuong Kiet Street	t
-1857	1426	24	349 Quang Trung Street	t
-1858	1426	11	262 Vo Thi Sau Street	f
-1859	1426	33	122 Le Loi Street	f
-1860	1427	27	243 Le Loi Street	t
-1861	1428	27	8 Phan Chu Trinh Street	t
-1862	1429	27	310 Bach Dang Street	t
-1863	1430	7	306 Quang Trung Street	t
-1864	1430	24	387 Ly Thuong Kiet Street	f
-1865	1431	31	385 Le Loi Street	t
-1866	1431	34	356 Nguyen Hue Street	f
-1867	1432	9	320 Phan Chu Trinh Street	t
-1868	1433	27	142 Phan Chu Trinh Street	t
-1869	1434	22	105 Quang Trung Street	t
-1870	1435	27	283 Bach Dang Street	t
-1871	1436	1	193 Ly Thuong Kiet Street	t
-1872	1437	27	212 Quang Trung Street	t
-1873	1438	26	17 Phan Chu Trinh Street	t
-1874	1438	1	309 Hai Ba Trung Street	f
-1875	1439	32	223 Hung Vuong Street	t
-1876	1440	1	137 Vo Thi Sau Street	t
-1877	1441	27	287 Dien Bien Phu Street	t
-1878	1442	27	70 Ly Thuong Kiet Street	t
-1879	1443	27	77 Dien Bien Phu Street	t
-1880	1443	18	266 Hung Vuong Street	f
-1881	1444	13	326 Nguyen Hue Street	t
-1882	1444	31	299 Nguyen Trai Street	f
-1883	1444	17	108 Quang Trung Street	f
-1884	1445	3	232 Hai Ba Trung Street	t
-1885	1445	18	212 Nguyen Hue Street	f
-1886	1446	1	50 Le Loi Street	t
-1887	1447	28	261 Hai Ba Trung Street	t
-1888	1448	11	163 Nguyen Trai Street	t
-1889	1449	23	280 Bach Dang Street	t
-1890	1450	27	387 Le Loi Street	t
-1891	1451	28	50 Vo Thi Sau Street	t
-1892	1452	26	135 Vo Thi Sau Street	t
-1893	1453	31	129 Bach Dang Street	t
-1894	1453	1	357 Hung Vuong Street	f
-1895	1454	27	193 Hung Vuong Street	t
-1896	1454	1	156 Nguyen Trai Street	f
-1897	1454	29	114 Quang Trung Street	f
-1898	1455	12	350 Le Loi Street	t
-1899	1455	1	331 Bach Dang Street	f
-1900	1456	2	57 Phan Chu Trinh Street	t
-1901	1457	30	49 Phan Chu Trinh Street	t
-1902	1458	1	32 Ly Thuong Kiet Street	t
-1903	1459	24	96 Dien Bien Phu Street	t
-1904	1460	34	174 Nguyen Trai Street	t
-1905	1461	15	156 Nguyen Trai Street	t
-1906	1462	27	279 Vo Thi Sau Street	t
-1907	1463	14	154 Hung Vuong Street	t
-1908	1464	7	372 Tran Hung Dao Street	t
-1909	1465	29	353 Phan Chu Trinh Street	t
-1910	1466	18	109 Le Loi Street	t
-1911	1467	29	156 Dien Bien Phu Street	t
-1912	1468	16	236 Quang Trung Street	t
-1913	1469	19	337 Vo Thi Sau Street	t
-1914	1470	33	93 Le Loi Street	t
-1915	1471	1	297 Vo Thi Sau Street	t
-1916	1471	27	290 Hung Vuong Street	f
-1917	1471	26	276 Phan Chu Trinh Street	f
-1918	1472	9	155 Hung Vuong Street	t
-1919	1473	27	209 Vo Thi Sau Street	t
-1920	1474	13	121 Hung Vuong Street	t
-1921	1475	27	259 Nguyen Trai Street	t
-1922	1476	31	5 Hung Vuong Street	t
-1923	1477	26	299 Tran Hung Dao Street	t
-1924	1478	22	397 Hai Ba Trung Street	t
-1925	1479	2	368 Nguyen Hue Street	t
-1926	1480	1	226 Bach Dang Street	t
-1927	1481	27	397 Nguyen Hue Street	t
-1928	1482	27	49 Ly Thuong Kiet Street	t
-1929	1482	29	375 Tran Hung Dao Street	f
-1930	1482	30	265 Nguyen Trai Street	f
-1931	1483	2	42 Hung Vuong Street	t
-1932	1484	27	43 Tran Hung Dao Street	t
-1933	1484	1	278 Quang Trung Street	f
-1934	1485	13	262 Nguyen Hue Street	t
-1935	1486	27	392 Ly Thuong Kiet Street	t
-1936	1487	21	196 Dien Bien Phu Street	t
-1937	1488	6	127 Nguyen Trai Street	t
-1938	1489	12	346 Hung Vuong Street	t
-1939	1490	17	94 Dien Bien Phu Street	t
-1940	1491	27	306 Nguyen Trai Street	t
-1941	1492	1	271 Tran Hung Dao Street	t
-1942	1492	12	260 Nguyen Trai Street	f
-1943	1493	19	55 Phan Chu Trinh Street	t
-1944	1493	9	262 Vo Thi Sau Street	f
-1945	1494	2	172 Ly Thuong Kiet Street	t
-1946	1495	2	210 Hung Vuong Street	t
-1947	1495	17	116 Hai Ba Trung Street	f
-1948	1496	13	287 Hung Vuong Street	t
-1949	1497	29	171 Nguyen Hue Street	t
-1950	1498	7	161 Bach Dang Street	t
-1951	1498	3	225 Dien Bien Phu Street	f
-1952	1499	32	41 Dien Bien Phu Street	t
-1953	1500	28	248 Quang Trung Street	t
-1954	1501	19	109 Nguyen Hue Street	t
-1955	1501	30	217 Hai Ba Trung Street	f
-1956	1501	19	161 Vo Thi Sau Street	f
-1957	1502	15	344 Nguyen Hue Street	t
-1958	1503	29	135 Quang Trung Street	t
-1959	1504	31	207 Tran Hung Dao Street	t
-1960	1504	2	1 Le Loi Street	f
-1961	1505	27	293 Hung Vuong Street	t
-1962	1505	15	171 Nguyen Hue Street	f
-1963	1505	12	137 Dien Bien Phu Street	f
-1964	1506	33	143 Hung Vuong Street	t
-1965	1507	27	270 Dien Bien Phu Street	t
-1966	1507	17	374 Hai Ba Trung Street	f
-1967	1508	30	188 Le Loi Street	t
-1968	1509	12	122 Tran Hung Dao Street	t
-1969	1510	18	344 Ly Thuong Kiet Street	t
-1970	1511	31	146 Dien Bien Phu Street	t
-1971	1512	27	107 Nguyen Trai Street	t
-1972	1513	1	269 Nguyen Hue Street	t
-1973	1514	2	176 Nguyen Trai Street	t
-1974	1514	1	304 Quang Trung Street	f
-1975	1515	1	242 Phan Chu Trinh Street	t
-1976	1515	1	365 Phan Chu Trinh Street	f
-1977	1516	2	263 Hai Ba Trung Street	t
-1978	1517	1	354 Nguyen Hue Street	t
-1979	1518	27	298 Le Loi Street	t
-1980	1518	1	129 Bach Dang Street	f
-1981	1519	13	379 Vo Thi Sau Street	t
-1982	1520	1	80 Le Loi Street	t
-1983	1521	27	360 Le Loi Street	t
-1984	1521	24	332 Dien Bien Phu Street	f
-1985	1521	18	379 Nguyen Hue Street	f
-1986	1522	1	64 Nguyen Hue Street	t
-1987	1522	7	2 Quang Trung Street	f
-1988	1522	31	362 Bach Dang Street	f
-1989	1523	1	75 Ly Thuong Kiet Street	t
-1990	1524	1	112 Vo Thi Sau Street	t
-1991	1525	1	236 Hung Vuong Street	t
-1992	1526	1	327 Dien Bien Phu Street	t
-1993	1526	27	153 Quang Trung Street	f
-1994	1527	33	11 Nguyen Trai Street	t
-1995	1527	27	346 Vo Thi Sau Street	f
-1996	1528	28	320 Hai Ba Trung Street	t
-1997	1528	31	21 Nguyen Hue Street	f
-1998	1529	17	145 Bach Dang Street	t
-1999	1530	29	308 Hai Ba Trung Street	t
-2000	1531	27	213 Le Loi Street	t
-2001	1532	8	13 Le Loi Street	t
-2002	1533	21	214 Nguyen Trai Street	t
-2003	1534	8	376 Vo Thi Sau Street	t
-2004	1535	1	185 Nguyen Hue Street	t
-2005	1536	1	236 Hai Ba Trung Street	t
-2006	1537	27	44 Nguyen Hue Street	t
-2007	1537	16	122 Hai Ba Trung Street	f
-2008	1537	29	247 Le Loi Street	f
-2009	1538	2	18 Hung Vuong Street	t
-2010	1538	5	9 Phan Chu Trinh Street	f
-2011	1539	27	1 Quang Trung Street	t
-2012	1539	14	380 Dien Bien Phu Street	f
-2013	1540	24	363 Ly Thuong Kiet Street	t
-2014	1540	1	121 Phan Chu Trinh Street	f
-2015	1541	17	157 Bach Dang Street	t
-2016	1541	11	318 Bach Dang Street	f
-2017	1542	19	84 Nguyen Hue Street	t
-2018	1543	2	104 Tran Hung Dao Street	t
-2019	1543	27	274 Nguyen Trai Street	f
-2020	1543	1	10 Hai Ba Trung Street	f
-2021	1544	14	61 Tran Hung Dao Street	t
-2022	1545	22	147 Nguyen Hue Street	t
-2023	1546	13	197 Phan Chu Trinh Street	t
-2024	1547	8	323 Nguyen Trai Street	t
-2025	1548	21	214 Nguyen Hue Street	t
-2026	1549	32	295 Bach Dang Street	t
-2027	1549	21	62 Dien Bien Phu Street	f
-2028	1550	15	292 Le Loi Street	t
-2029	1551	25	210 Quang Trung Street	t
-2030	1551	15	202 Nguyen Trai Street	f
-2031	1552	31	38 Vo Thi Sau Street	t
-2032	1553	20	234 Nguyen Trai Street	t
-2033	1554	18	69 Nguyen Trai Street	t
-2034	1555	1	236 Nguyen Hue Street	t
-2035	1556	32	341 Bach Dang Street	t
-2036	1557	18	122 Vo Thi Sau Street	t
-2037	1558	30	72 Quang Trung Street	t
-2038	1559	2	277 Le Loi Street	t
-2039	1560	12	341 Hai Ba Trung Street	t
-2040	1561	7	60 Tran Hung Dao Street	t
-2041	1562	27	35 Tran Hung Dao Street	t
-2042	1563	14	286 Nguyen Trai Street	t
-2043	1563	2	227 Ly Thuong Kiet Street	f
-2044	1564	26	284 Quang Trung Street	t
-2045	1565	27	121 Dien Bien Phu Street	t
-2046	1566	17	324 Ly Thuong Kiet Street	t
-2047	1567	18	13 Bach Dang Street	t
-2048	1568	27	254 Quang Trung Street	t
-2049	1568	7	59 Nguyen Trai Street	f
-2050	1568	1	202 Ly Thuong Kiet Street	f
-2051	1569	19	286 Vo Thi Sau Street	t
-2052	1569	29	304 Dien Bien Phu Street	f
-2053	1570	27	197 Hai Ba Trung Street	t
-2054	1571	13	290 Tran Hung Dao Street	t
-2055	1572	27	16 Bach Dang Street	t
-2056	1573	26	314 Nguyen Trai Street	t
-2057	1574	21	200 Dien Bien Phu Street	t
-2058	1574	12	192 Bach Dang Street	f
-2059	1575	3	237 Dien Bien Phu Street	t
-2060	1575	17	267 Nguyen Trai Street	f
-2061	1576	17	273 Nguyen Hue Street	t
-2062	1577	27	347 Nguyen Hue Street	t
-2063	1578	1	60 Phan Chu Trinh Street	t
-2064	1579	5	352 Phan Chu Trinh Street	t
-2065	1580	27	169 Nguyen Trai Street	t
-2066	1581	29	182 Hai Ba Trung Street	t
-2067	1582	27	332 Dien Bien Phu Street	t
-2068	1583	33	224 Bach Dang Street	t
-2069	1584	1	290 Le Loi Street	t
-2070	1585	1	282 Hai Ba Trung Street	t
-2071	1585	1	308 Ly Thuong Kiet Street	f
-2072	1586	24	283 Le Loi Street	t
-2073	1586	31	329 Hung Vuong Street	f
-2074	1587	30	72 Nguyen Hue Street	t
-2075	1587	1	89 Hai Ba Trung Street	f
-2076	1588	27	173 Tran Hung Dao Street	t
-2077	1589	12	180 Nguyen Trai Street	t
-2078	1590	1	288 Quang Trung Street	t
-2079	1591	1	53 Le Loi Street	t
-2080	1592	32	250 Quang Trung Street	t
-2081	1593	18	55 Hai Ba Trung Street	t
-2082	1594	11	303 Tran Hung Dao Street	t
-2083	1594	12	215 Phan Chu Trinh Street	f
-2084	1595	28	285 Bach Dang Street	t
-2085	1596	17	327 Nguyen Trai Street	t
-2086	1597	18	284 Dien Bien Phu Street	t
-2087	1598	18	97 Tran Hung Dao Street	t
-2088	1599	27	98 Quang Trung Street	t
-2089	1600	27	294 Tran Hung Dao Street	t
-2090	1601	2	279 Nguyen Trai Street	t
-2091	1601	1	345 Vo Thi Sau Street	f
-2092	1602	1	131 Le Loi Street	t
-2093	1603	27	266 Vo Thi Sau Street	t
-2094	1603	2	240 Vo Thi Sau Street	f
-2095	1604	33	195 Ly Thuong Kiet Street	t
-2096	1605	34	376 Hai Ba Trung Street	t
-2097	1606	27	338 Nguyen Trai Street	t
-2098	1607	11	205 Dien Bien Phu Street	t
-2099	1608	29	184 Dien Bien Phu Street	t
-2100	1609	15	127 Le Loi Street	t
-2101	1610	1	331 Le Loi Street	t
-2102	1611	17	108 Quang Trung Street	t
-2103	1612	27	117 Bach Dang Street	t
-2104	1613	33	225 Tran Hung Dao Street	t
-2105	1614	34	163 Nguyen Trai Street	t
-2106	1615	17	382 Hai Ba Trung Street	t
-2107	1616	29	356 Bach Dang Street	t
-2108	1617	1	218 Phan Chu Trinh Street	t
-2109	1618	15	172 Phan Chu Trinh Street	t
-2110	1619	29	397 Ly Thuong Kiet Street	t
-2111	1620	1	219 Hung Vuong Street	t
-2112	1621	1	12 Hai Ba Trung Street	t
-2113	1622	17	39 Phan Chu Trinh Street	t
-2114	1623	27	133 Quang Trung Street	t
-2115	1624	27	227 Phan Chu Trinh Street	t
-2116	1624	1	295 Tran Hung Dao Street	f
-2117	1625	28	268 Ly Thuong Kiet Street	t
-2118	1626	3	378 Quang Trung Street	t
-2119	1627	1	249 Ly Thuong Kiet Street	t
-2120	1628	8	218 Ly Thuong Kiet Street	t
-2121	1629	1	316 Vo Thi Sau Street	t
-2122	1629	31	280 Hung Vuong Street	f
-2123	1630	27	225 Quang Trung Street	t
-2124	1631	3	105 Vo Thi Sau Street	t
-2125	1632	17	118 Tran Hung Dao Street	t
-2126	1633	27	162 Phan Chu Trinh Street	t
-2127	1633	34	332 Dien Bien Phu Street	f
-2128	1634	17	57 Le Loi Street	t
-2129	1635	11	96 Nguyen Hue Street	t
-2130	1636	27	331 Le Loi Street	t
-2131	1637	1	299 Nguyen Trai Street	t
-2132	1638	27	154 Le Loi Street	t
-2133	1639	27	241 Tran Hung Dao Street	t
-2134	1640	12	330 Le Loi Street	t
-2135	1641	22	186 Phan Chu Trinh Street	t
-2136	1642	18	179 Nguyen Trai Street	t
-2137	1643	7	7 Quang Trung Street	t
-2138	1644	27	240 Hung Vuong Street	t
-2139	1644	1	124 Hung Vuong Street	f
-2140	1645	34	230 Nguyen Hue Street	t
-2141	1645	12	156 Vo Thi Sau Street	f
-2142	1646	17	270 Phan Chu Trinh Street	t
-2143	1646	2	77 Le Loi Street	f
-2144	1647	4	267 Le Loi Street	t
-2145	1648	1	377 Dien Bien Phu Street	t
-2146	1649	1	357 Quang Trung Street	t
-2147	1650	23	35 Hai Ba Trung Street	t
-2148	1651	26	190 Le Loi Street	t
-2149	1651	2	100 Vo Thi Sau Street	f
-2150	1651	27	287 Hung Vuong Street	f
-2151	1652	2	133 Vo Thi Sau Street	t
-2152	1653	9	154 Bach Dang Street	t
-2153	1654	1	260 Quang Trung Street	t
-2154	1655	33	62 Ly Thuong Kiet Street	t
-2155	1656	28	260 Hai Ba Trung Street	t
-2156	1657	1	37 Le Loi Street	t
-2157	1658	26	6 Ly Thuong Kiet Street	t
-2158	1659	16	8 Dien Bien Phu Street	t
-2159	1660	17	359 Phan Chu Trinh Street	t
-2160	1661	8	44 Dien Bien Phu Street	t
-2161	1662	17	270 Hai Ba Trung Street	t
-2162	1663	16	374 Bach Dang Street	t
-2163	1664	29	391 Nguyen Trai Street	t
-2164	1664	29	307 Nguyen Hue Street	f
-2165	1665	4	125 Nguyen Hue Street	t
-2166	1666	27	369 Nguyen Hue Street	t
-2167	1667	19	115 Nguyen Trai Street	t
-2168	1667	31	4 Hai Ba Trung Street	f
-2169	1668	27	94 Hung Vuong Street	t
-2170	1668	7	16 Nguyen Hue Street	f
-2171	1668	1	24 Nguyen Trai Street	f
-2172	1669	31	367 Nguyen Hue Street	t
-2173	1670	19	291 Ly Thuong Kiet Street	t
-2174	1670	22	205 Nguyen Hue Street	f
-2175	1671	26	348 Nguyen Trai Street	t
-2176	1672	1	394 Dien Bien Phu Street	t
-2177	1673	1	79 Quang Trung Street	t
-2178	1674	27	295 Bach Dang Street	t
-2179	1675	7	220 Bach Dang Street	t
-2180	1676	27	48 Tran Hung Dao Street	t
-2181	1676	17	351 Tran Hung Dao Street	f
-2182	1677	1	185 Quang Trung Street	t
-2183	1677	17	26 Hung Vuong Street	f
-2184	1678	1	239 Vo Thi Sau Street	t
-2185	1679	27	151 Hung Vuong Street	t
-2186	1680	14	123 Nguyen Trai Street	t
-2187	1681	27	50 Hung Vuong Street	t
-2188	1681	28	250 Vo Thi Sau Street	f
-2189	1682	27	144 Hai Ba Trung Street	t
-2190	1683	18	180 Le Loi Street	t
-2191	1684	34	366 Bach Dang Street	t
-2192	1684	31	46 Le Loi Street	f
-2193	1684	27	85 Nguyen Hue Street	f
-2194	1685	27	207 Hai Ba Trung Street	t
-2195	1686	17	78 Phan Chu Trinh Street	t
-2196	1686	1	340 Ly Thuong Kiet Street	f
-2197	1687	27	106 Hung Vuong Street	t
-2198	1687	27	243 Bach Dang Street	f
-2199	1688	19	310 Dien Bien Phu Street	t
-2200	1688	29	116 Le Loi Street	f
-2201	1689	1	141 Dien Bien Phu Street	t
-2202	1689	32	254 Phan Chu Trinh Street	f
-2203	1690	26	78 Ly Thuong Kiet Street	t
-2204	1691	26	85 Hung Vuong Street	t
-2205	1692	29	237 Bach Dang Street	t
-2206	1693	1	22 Vo Thi Sau Street	t
-2207	1694	27	31 Tran Hung Dao Street	t
-2208	1695	13	244 Hai Ba Trung Street	t
-2209	1696	29	87 Dien Bien Phu Street	t
-2210	1697	23	388 Hai Ba Trung Street	t
-2211	1698	26	134 Hung Vuong Street	t
-2212	1699	22	1 Tran Hung Dao Street	t
-2213	1700	1	320 Phan Chu Trinh Street	t
-2214	1700	2	311 Phan Chu Trinh Street	f
-2215	1701	27	28 Phan Chu Trinh Street	t
-2216	1702	29	338 Ly Thuong Kiet Street	t
-2217	1703	27	291 Hung Vuong Street	t
-2218	1703	21	278 Hung Vuong Street	f
-2219	1704	1	61 Nguyen Trai Street	t
-2220	1705	27	14 Le Loi Street	t
-2221	1706	1	203 Le Loi Street	t
-2222	1707	27	245 Hung Vuong Street	t
-2223	1708	19	299 Nguyen Hue Street	t
-2224	1709	18	248 Hai Ba Trung Street	t
-2225	1709	31	63 Dien Bien Phu Street	f
-2226	1710	21	231 Hung Vuong Street	t
-2227	1711	2	336 Hung Vuong Street	t
-2228	1712	31	300 Bach Dang Street	t
-2229	1713	27	68 Hung Vuong Street	t
-2230	1714	28	167 Hai Ba Trung Street	t
-2231	1715	10	87 Le Loi Street	t
-2232	1715	26	344 Vo Thi Sau Street	f
-2233	1716	17	332 Quang Trung Street	t
-2234	1716	1	354 Nguyen Hue Street	f
-2235	1717	27	88 Vo Thi Sau Street	t
-2236	1717	27	278 Nguyen Trai Street	f
-2237	1718	1	79 Nguyen Trai Street	t
-2238	1718	27	325 Dien Bien Phu Street	f
-2239	1719	3	397 Hung Vuong Street	t
-2240	1720	27	108 Quang Trung Street	t
-2241	1721	1	116 Vo Thi Sau Street	t
-2242	1722	25	9 Vo Thi Sau Street	t
-2243	1722	1	242 Bach Dang Street	f
-2244	1723	1	277 Vo Thi Sau Street	t
-2245	1724	1	103 Hung Vuong Street	t
-2246	1725	1	286 Nguyen Hue Street	t
-2247	1726	1	199 Hung Vuong Street	t
-2248	1727	14	53 Quang Trung Street	t
-2249	1728	24	67 Nguyen Trai Street	t
-2250	1729	10	297 Ly Thuong Kiet Street	t
-2251	1729	17	3 Nguyen Hue Street	f
-2252	1730	1	217 Nguyen Hue Street	t
-2253	1730	32	291 Dien Bien Phu Street	f
-2254	1731	27	104 Tran Hung Dao Street	t
-2255	1731	27	69 Nguyen Hue Street	f
-2256	1732	27	234 Nguyen Hue Street	t
-2257	1733	19	376 Quang Trung Street	t
-2258	1734	2	17 Hung Vuong Street	t
-2259	1735	27	388 Nguyen Hue Street	t
-2260	1736	1	245 Phan Chu Trinh Street	t
-2261	1737	1	319 Hung Vuong Street	t
-2262	1738	8	171 Bach Dang Street	t
-2263	1739	16	73 Tran Hung Dao Street	t
-2264	1740	11	213 Nguyen Trai Street	t
-2265	1741	19	242 Le Loi Street	t
-2266	1741	30	291 Hung Vuong Street	f
-2267	1741	1	324 Quang Trung Street	f
-2268	1742	27	338 Phan Chu Trinh Street	t
-2269	1743	27	11 Tran Hung Dao Street	t
-2270	1743	18	279 Hung Vuong Street	f
-2271	1744	30	64 Nguyen Trai Street	t
-2272	1745	2	68 Ly Thuong Kiet Street	t
-2273	1745	27	137 Le Loi Street	f
-2274	1746	27	308 Dien Bien Phu Street	t
-2275	1747	19	176 Ly Thuong Kiet Street	t
-2276	1747	22	8 Bach Dang Street	f
-2277	1747	27	112 Dien Bien Phu Street	f
-2278	1748	1	12 Nguyen Hue Street	t
-2279	1749	26	278 Dien Bien Phu Street	t
-2280	1750	27	130 Quang Trung Street	t
-2281	1751	1	367 Bach Dang Street	t
-2282	1751	15	260 Hung Vuong Street	f
-2283	1752	27	330 Dien Bien Phu Street	t
-2284	1753	2	126 Tran Hung Dao Street	t
-2285	1753	1	344 Nguyen Trai Street	f
-2286	1754	9	115 Bach Dang Street	t
-2287	1754	30	36 Tran Hung Dao Street	f
-2288	1755	27	33 Vo Thi Sau Street	t
-2289	1756	14	132 Hai Ba Trung Street	t
-2290	1757	1	186 Le Loi Street	t
-2291	1758	23	174 Nguyen Trai Street	t
-2292	1759	11	378 Quang Trung Street	t
-2293	1760	1	205 Tran Hung Dao Street	t
-2294	1761	25	361 Vo Thi Sau Street	t
-2295	1762	14	153 Dien Bien Phu Street	t
-2296	1763	1	299 Dien Bien Phu Street	t
-2297	1763	1	319 Hung Vuong Street	f
-2298	1764	1	351 Hung Vuong Street	t
-2299	1765	1	10 Hung Vuong Street	t
-2300	1765	28	258 Nguyen Trai Street	f
-2301	1766	27	152 Quang Trung Street	t
-2302	1766	22	205 Ly Thuong Kiet Street	f
-2303	1766	29	378 Hai Ba Trung Street	f
-2304	1767	13	273 Bach Dang Street	t
-2305	1767	27	4 Dien Bien Phu Street	f
-2306	1767	23	360 Dien Bien Phu Street	f
-2307	1768	1	333 Le Loi Street	t
-2308	1768	32	309 Phan Chu Trinh Street	f
-2309	1768	2	371 Vo Thi Sau Street	f
-2310	1769	34	342 Nguyen Trai Street	t
-2311	1770	15	387 Quang Trung Street	t
-2312	1770	11	56 Tran Hung Dao Street	f
-2313	1771	30	80 Dien Bien Phu Street	t
-2314	1772	29	271 Hung Vuong Street	t
-2315	1773	17	284 Ly Thuong Kiet Street	t
-2316	1774	1	53 Hung Vuong Street	t
-2317	1775	27	118 Vo Thi Sau Street	t
-2318	1776	1	12 Phan Chu Trinh Street	t
-2319	1777	16	363 Le Loi Street	t
-2320	1778	14	288 Bach Dang Street	t
-2321	1779	23	140 Quang Trung Street	t
-2322	1780	19	209 Hung Vuong Street	t
-2323	1781	2	325 Bach Dang Street	t
-2324	1782	12	133 Vo Thi Sau Street	t
-2325	1783	27	39 Ly Thuong Kiet Street	t
-2326	1784	2	356 Nguyen Hue Street	t
-2327	1785	1	270 Vo Thi Sau Street	t
-2328	1786	12	305 Nguyen Trai Street	t
-2329	1787	27	158 Quang Trung Street	t
-2330	1788	6	133 Hung Vuong Street	t
-2331	1789	1	159 Nguyen Trai Street	t
-2332	1790	28	43 Ly Thuong Kiet Street	t
-2333	1791	32	78 Nguyen Hue Street	t
-2334	1792	28	391 Bach Dang Street	t
-2335	1793	16	252 Nguyen Trai Street	t
-2336	1794	26	236 Nguyen Trai Street	t
-2337	1795	2	370 Dien Bien Phu Street	t
-2338	1796	28	34 Le Loi Street	t
-2339	1796	1	185 Nguyen Hue Street	f
-2340	1797	26	136 Nguyen Hue Street	t
-2341	1798	12	309 Le Loi Street	t
-2342	1799	3	259 Nguyen Trai Street	t
-2343	1800	5	199 Quang Trung Street	t
-2344	1801	27	83 Phan Chu Trinh Street	t
-2345	1802	9	332 Ly Thuong Kiet Street	t
-2346	1803	28	32 Phan Chu Trinh Street	t
-2347	1803	24	37 Vo Thi Sau Street	f
-2348	1804	28	274 Vo Thi Sau Street	t
-2349	1804	26	350 Tran Hung Dao Street	f
-2350	1805	30	206 Nguyen Trai Street	t
-2351	1806	7	20 Nguyen Trai Street	t
-2352	1806	1	38 Phan Chu Trinh Street	f
-2353	1807	17	241 Phan Chu Trinh Street	t
-2354	1807	3	358 Le Loi Street	f
-2355	1808	1	280 Tran Hung Dao Street	t
-2356	1809	27	129 Le Loi Street	t
-2357	1809	27	26 Nguyen Hue Street	f
-2358	1810	12	370 Bach Dang Street	t
-2359	1810	1	24 Vo Thi Sau Street	f
-2360	1810	11	275 Hung Vuong Street	f
-2361	1811	32	158 Nguyen Trai Street	t
-2362	1812	1	354 Phan Chu Trinh Street	t
-2363	1813	7	12 Bach Dang Street	t
-2364	1814	1	314 Nguyen Trai Street	t
-2365	1815	1	192 Nguyen Trai Street	t
-2366	1816	27	171 Nguyen Hue Street	t
-2367	1816	25	360 Ly Thuong Kiet Street	f
-2368	1817	23	325 Nguyen Trai Street	t
-2369	1818	16	143 Tran Hung Dao Street	t
-2370	1819	27	77 Quang Trung Street	t
-2371	1819	1	30 Nguyen Hue Street	f
-2372	1820	27	347 Dien Bien Phu Street	t
-2373	1821	1	213 Dien Bien Phu Street	t
-2374	1822	27	46 Dien Bien Phu Street	t
-2375	1822	26	293 Tran Hung Dao Street	f
-2376	1823	27	254 Bach Dang Street	t
-2377	1824	27	144 Tran Hung Dao Street	t
-2378	1825	13	241 Phan Chu Trinh Street	t
-2379	1826	29	89 Bach Dang Street	t
-2380	1827	1	202 Hung Vuong Street	t
-2381	1828	31	63 Nguyen Hue Street	t
-2382	1829	27	378 Ly Thuong Kiet Street	t
-2383	1830	27	208 Quang Trung Street	t
-2384	1830	1	319 Hung Vuong Street	f
-2385	1831	1	225 Bach Dang Street	t
-2386	1831	1	241 Bach Dang Street	f
-2387	1831	1	373 Phan Chu Trinh Street	f
-2388	1832	27	291 Hung Vuong Street	t
-2389	1833	11	218 Quang Trung Street	t
-2390	1833	7	126 Bach Dang Street	f
-2391	1834	17	332 Ly Thuong Kiet Street	t
-2392	1835	27	21 Bach Dang Street	t
-2393	1835	23	354 Tran Hung Dao Street	f
-2394	1836	1	267 Hai Ba Trung Street	t
-2395	1836	18	313 Ly Thuong Kiet Street	f
-2396	1837	17	309 Hai Ba Trung Street	t
-2397	1838	19	15 Le Loi Street	t
-2398	1839	27	193 Nguyen Trai Street	t
-2399	1840	1	146 Phan Chu Trinh Street	t
-2400	1841	1	209 Vo Thi Sau Street	t
-2401	1842	19	5 Le Loi Street	t
-2402	1843	26	224 Nguyen Trai Street	t
-2403	1844	27	367 Ly Thuong Kiet Street	t
-2404	1845	27	192 Phan Chu Trinh Street	t
-2405	1846	27	313 Quang Trung Street	t
-2406	1847	17	334 Tran Hung Dao Street	t
-2407	1848	25	341 Quang Trung Street	t
-2408	1849	1	227 Le Loi Street	t
-2409	1850	31	300 Nguyen Trai Street	t
-2410	1851	15	236 Bach Dang Street	t
-2411	1852	27	278 Vo Thi Sau Street	t
-2412	1853	27	194 Quang Trung Street	t
-2413	1853	17	209 Hung Vuong Street	f
-2414	1854	12	233 Quang Trung Street	t
-2415	1855	2	129 Hai Ba Trung Street	t
-2416	1856	2	283 Vo Thi Sau Street	t
-2417	1857	27	88 Hung Vuong Street	t
-2418	1857	2	281 Phan Chu Trinh Street	f
-2419	1858	26	21 Nguyen Hue Street	t
-2420	1858	23	37 Hai Ba Trung Street	f
-2421	1859	18	13 Nguyen Trai Street	t
-2422	1860	2	295 Nguyen Hue Street	t
-2423	1861	27	369 Tran Hung Dao Street	t
-2424	1862	1	164 Tran Hung Dao Street	t
-2425	1863	27	50 Tran Hung Dao Street	t
-2426	1864	32	107 Hung Vuong Street	t
-2427	1864	31	239 Dien Bien Phu Street	f
-2428	1865	8	387 Tran Hung Dao Street	t
-2429	1865	6	300 Hung Vuong Street	f
-2430	1866	18	240 Vo Thi Sau Street	t
-2431	1866	4	53 Phan Chu Trinh Street	f
-2432	1867	1	260 Dien Bien Phu Street	t
-2433	1868	27	345 Ly Thuong Kiet Street	t
-2434	1869	17	28 Quang Trung Street	t
-2435	1869	1	253 Bach Dang Street	f
-2436	1870	8	42 Hai Ba Trung Street	t
-2437	1871	12	104 Vo Thi Sau Street	t
-2438	1871	28	324 Phan Chu Trinh Street	f
-2439	1872	23	100 Bach Dang Street	t
-2440	1873	27	221 Quang Trung Street	t
-2441	1874	1	82 Hung Vuong Street	t
-2442	1875	33	340 Le Loi Street	t
-2443	1875	33	266 Nguyen Trai Street	f
-2444	1876	27	124 Ly Thuong Kiet Street	t
-2445	1876	24	303 Hai Ba Trung Street	f
-2446	1877	27	49 Le Loi Street	t
-2447	1877	1	341 Hung Vuong Street	f
-2448	1878	29	318 Tran Hung Dao Street	t
-2449	1878	27	354 Tran Hung Dao Street	f
-2450	1879	27	58 Dien Bien Phu Street	t
-2451	1879	24	369 Le Loi Street	f
-2452	1880	1	241 Le Loi Street	t
-2453	1880	27	150 Ly Thuong Kiet Street	f
-2454	1881	28	324 Nguyen Trai Street	t
-2455	1882	24	195 Tran Hung Dao Street	t
-2456	1883	13	198 Phan Chu Trinh Street	t
-2457	1884	22	154 Quang Trung Street	t
-2458	1884	29	395 Le Loi Street	f
-2459	1885	14	329 Vo Thi Sau Street	t
-2460	1885	17	370 Vo Thi Sau Street	f
-2461	1886	22	188 Vo Thi Sau Street	t
-2462	1886	27	109 Nguyen Trai Street	f
-2463	1887	1	61 Dien Bien Phu Street	t
-2464	1888	29	128 Tran Hung Dao Street	t
-2465	1889	25	164 Hung Vuong Street	t
-2466	1890	31	203 Ly Thuong Kiet Street	t
-2467	1891	1	370 Vo Thi Sau Street	t
-2468	1892	27	186 Ly Thuong Kiet Street	t
-2469	1893	1	307 Le Loi Street	t
-2470	1894	27	219 Le Loi Street	t
-2471	1895	27	185 Vo Thi Sau Street	t
-2472	1896	34	330 Phan Chu Trinh Street	t
-2473	1897	1	12 Nguyen Hue Street	t
-2474	1897	29	346 Ly Thuong Kiet Street	f
-2475	1898	4	165 Bach Dang Street	t
-2476	1898	24	342 Vo Thi Sau Street	f
-2477	1898	32	208 Le Loi Street	f
-2478	1899	4	19 Phan Chu Trinh Street	t
-2479	1899	24	109 Ly Thuong Kiet Street	f
-2480	1900	17	301 Hai Ba Trung Street	t
-2481	1900	31	114 Le Loi Street	f
-2482	1901	22	42 Hai Ba Trung Street	t
-2483	1902	12	124 Hai Ba Trung Street	t
-2484	1902	27	379 Tran Hung Dao Street	f
-2485	1903	5	190 Hai Ba Trung Street	t
-2486	1903	15	65 Dien Bien Phu Street	f
-2487	1904	11	183 Bach Dang Street	t
-2488	1905	22	269 Ly Thuong Kiet Street	t
-2489	1905	29	247 Le Loi Street	f
-2490	1906	29	49 Nguyen Trai Street	t
-2491	1907	1	23 Quang Trung Street	t
-2492	1907	19	248 Vo Thi Sau Street	f
-2493	1907	27	211 Quang Trung Street	f
-2494	1908	1	122 Le Loi Street	t
-2495	1909	1	70 Nguyen Trai Street	t
-2496	1910	7	344 Bach Dang Street	t
-2497	1911	27	238 Ly Thuong Kiet Street	t
-2498	1912	27	34 Dien Bien Phu Street	t
-2499	1913	25	15 Nguyen Hue Street	t
-2500	1914	27	307 Nguyen Trai Street	t
-2501	1915	27	53 Hung Vuong Street	t
-2502	1916	27	100 Phan Chu Trinh Street	t
-2503	1917	27	395 Le Loi Street	t
-2504	1918	22	29 Hai Ba Trung Street	t
-2505	1919	17	202 Tran Hung Dao Street	t
-2506	1920	13	161 Quang Trung Street	t
-2507	1920	1	329 Hung Vuong Street	f
-2508	1921	30	371 Nguyen Hue Street	t
-2509	1922	17	230 Quang Trung Street	t
-2510	1922	1	317 Hai Ba Trung Street	f
-2511	1923	12	317 Dien Bien Phu Street	t
-2512	1923	28	387 Bach Dang Street	f
-2513	1924	14	110 Hung Vuong Street	t
-2514	1925	17	368 Ly Thuong Kiet Street	t
-2515	1926	27	364 Phan Chu Trinh Street	t
-2516	1927	34	45 Bach Dang Street	t
-2517	1927	7	31 Tran Hung Dao Street	f
-2518	1928	31	31 Hung Vuong Street	t
-2519	1929	11	303 Phan Chu Trinh Street	t
-2520	1929	13	253 Ly Thuong Kiet Street	f
-2521	1930	12	286 Nguyen Hue Street	t
-2522	1930	5	193 Bach Dang Street	f
-2523	1931	14	305 Le Loi Street	t
-2524	1932	30	375 Hai Ba Trung Street	t
-2525	1933	27	168 Dien Bien Phu Street	t
-2526	1934	14	269 Vo Thi Sau Street	t
-2527	1935	19	122 Vo Thi Sau Street	t
-2528	1936	9	214 Tran Hung Dao Street	t
-2529	1937	14	71 Hai Ba Trung Street	t
-2530	1937	2	123 Bach Dang Street	f
-2531	1938	32	81 Nguyen Trai Street	t
-2532	1938	27	341 Le Loi Street	f
-2533	1939	1	155 Quang Trung Street	t
-2534	1940	17	39 Quang Trung Street	t
-2535	1941	24	379 Bach Dang Street	t
-2536	1941	15	147 Phan Chu Trinh Street	f
-2537	1942	27	189 Bach Dang Street	t
-2538	1943	2	398 Hung Vuong Street	t
-2539	1944	27	132 Dien Bien Phu Street	t
-2540	1944	17	73 Quang Trung Street	f
-2541	1945	29	398 Nguyen Hue Street	t
-2542	1946	15	276 Nguyen Trai Street	t
-2543	1947	1	92 Hai Ba Trung Street	t
-2544	1948	33	149 Hung Vuong Street	t
-2545	1949	27	98 Le Loi Street	t
-2546	1950	29	288 Dien Bien Phu Street	t
-2547	1950	24	334 Ly Thuong Kiet Street	f
-2548	1950	9	123 Quang Trung Street	f
-2549	1951	28	257 Nguyen Hue Street	t
-2550	1952	5	335 Ly Thuong Kiet Street	t
-2551	1952	23	51 Nguyen Trai Street	f
-2552	1953	24	207 Bach Dang Street	t
-2553	1954	2	106 Bach Dang Street	t
-2554	1955	16	174 Nguyen Trai Street	t
-2555	1955	29	160 Nguyen Trai Street	f
-2556	1956	27	392 Quang Trung Street	t
-2557	1957	1	344 Phan Chu Trinh Street	t
-2558	1957	1	140 Nguyen Trai Street	f
-2559	1958	1	217 Le Loi Street	t
-2560	1959	1	82 Ly Thuong Kiet Street	t
-2561	1960	1	176 Nguyen Trai Street	t
-2562	1961	29	261 Tran Hung Dao Street	t
-2563	1962	13	297 Le Loi Street	t
-2564	1963	29	209 Hai Ba Trung Street	t
-2565	1964	1	125 Hai Ba Trung Street	t
-2566	1965	26	216 Nguyen Trai Street	t
-2567	1965	11	126 Le Loi Street	f
-2568	1966	13	140 Tran Hung Dao Street	t
-2569	1967	29	350 Bach Dang Street	t
-2570	1968	27	61 Nguyen Trai Street	t
-2571	1969	18	132 Hung Vuong Street	t
-2572	1970	27	370 Dien Bien Phu Street	t
-2573	1970	6	272 Le Loi Street	f
-2574	1971	21	321 Ly Thuong Kiet Street	t
-2575	1972	5	24 Quang Trung Street	t
-2576	1973	31	58 Ly Thuong Kiet Street	t
-2577	1974	1	239 Nguyen Trai Street	t
-2578	1975	14	163 Le Loi Street	t
-2579	1975	6	71 Tran Hung Dao Street	f
-2580	1976	27	35 Vo Thi Sau Street	t
-2581	1977	1	293 Vo Thi Sau Street	t
-2582	1977	27	272 Nguyen Trai Street	f
-2583	1978	25	206 Bach Dang Street	t
-2584	1979	27	129 Hung Vuong Street	t
-2585	1980	1	233 Phan Chu Trinh Street	t
-2586	1981	18	180 Phan Chu Trinh Street	t
-2587	1982	1	76 Dien Bien Phu Street	t
-2588	1983	21	42 Dien Bien Phu Street	t
-2589	1983	1	299 Nguyen Trai Street	f
-2590	1983	22	356 Dien Bien Phu Street	f
-2591	1984	1	277 Phan Chu Trinh Street	t
-2592	1985	29	307 Bach Dang Street	t
-2593	1986	19	317 Phan Chu Trinh Street	t
-2594	1987	12	159 Nguyen Trai Street	t
-2595	1987	27	221 Phan Chu Trinh Street	f
-2596	1988	17	5 Nguyen Trai Street	t
-2597	1988	1	68 Nguyen Hue Street	f
-2598	1989	1	282 Hai Ba Trung Street	t
-2599	1990	30	387 Quang Trung Street	t
-2600	1991	31	114 Vo Thi Sau Street	t
-2601	1992	17	38 Hai Ba Trung Street	t
-2602	1993	2	295 Tran Hung Dao Street	t
-2603	1994	26	273 Quang Trung Street	t
-2604	1995	27	338 Vo Thi Sau Street	t
-2605	1996	27	352 Vo Thi Sau Street	t
-2606	1997	28	310 Ly Thuong Kiet Street	t
-2607	1998	27	67 Dien Bien Phu Street	t
-2608	1999	22	207 Hai Ba Trung Street	t
-2609	2000	1	141 Bach Dang Street	t
-2610	2000	17	372 Dien Bien Phu Street	f
-2611	2001	27	282 Nguyen Trai Street	t
-2612	2002	10	278 Tran Hung Dao Street	t
-2613	2002	30	31 Vo Thi Sau Street	f
-2614	2003	32	120 Dien Bien Phu Street	t
-2615	2004	6	358 Vo Thi Sau Street	t
-2616	2004	27	203 Ly Thuong Kiet Street	f
-2617	2005	1	99 Nguyen Trai Street	t
-2618	2005	30	69 Hai Ba Trung Street	f
-2619	2005	27	116 Nguyen Trai Street	f
-2620	2006	13	198 Nguyen Trai Street	t
-2621	2006	22	73 Nguyen Trai Street	f
-2622	2007	19	220 Ly Thuong Kiet Street	t
-2623	2008	27	304 Bach Dang Street	t
-2624	2009	13	318 Bach Dang Street	t
-2625	2010	14	286 Ly Thuong Kiet Street	t
-2626	2010	26	71 Nguyen Trai Street	f
-2627	2010	1	117 Hai Ba Trung Street	f
-2628	2011	27	281 Ly Thuong Kiet Street	t
-2629	2012	27	238 Dien Bien Phu Street	t
-2630	2013	17	142 Tran Hung Dao Street	t
-2631	2014	1	84 Nguyen Hue Street	t
-2632	2015	19	100 Hung Vuong Street	t
-2633	2016	27	217 Le Loi Street	t
-2634	2017	5	19 Nguyen Trai Street	t
-2635	2018	1	76 Dien Bien Phu Street	t
-2636	2019	31	70 Phan Chu Trinh Street	t
-2637	2020	12	162 Ly Thuong Kiet Street	t
-2638	2020	1	155 Quang Trung Street	f
-2639	2021	27	187 Hung Vuong Street	t
-2640	2021	27	366 Hung Vuong Street	f
-2641	2022	27	34 Tran Hung Dao Street	t
-2642	2023	17	199 Hung Vuong Street	t
-2643	2024	8	394 Quang Trung Street	t
-2644	2025	29	6 Nguyen Trai Street	t
-2645	2025	1	42 Nguyen Hue Street	f
-2646	2025	27	252 Le Loi Street	f
-2647	2026	1	52 Nguyen Trai Street	t
-2648	2026	24	364 Phan Chu Trinh Street	f
-2649	2026	31	262 Hai Ba Trung Street	f
-2650	2027	1	268 Tran Hung Dao Street	t
-2651	2028	30	212 Tran Hung Dao Street	t
-2652	2029	27	346 Hung Vuong Street	t
-2653	2030	27	214 Dien Bien Phu Street	t
-2654	2031	1	12 Dien Bien Phu Street	t
-2655	2032	23	310 Phan Chu Trinh Street	t
-2656	2032	17	243 Ly Thuong Kiet Street	f
-2657	2033	27	376 Dien Bien Phu Street	t
-2658	2033	25	63 Phan Chu Trinh Street	f
-2659	2033	27	183 Dien Bien Phu Street	f
-2660	2034	13	168 Tran Hung Dao Street	t
-2661	2035	16	43 Dien Bien Phu Street	t
-2662	2035	34	67 Hung Vuong Street	f
-2663	2036	31	362 Ly Thuong Kiet Street	t
-2664	2037	32	104 Quang Trung Street	t
-2665	2038	4	199 Nguyen Trai Street	t
-2666	2038	1	146 Nguyen Hue Street	f
-2667	2039	7	82 Phan Chu Trinh Street	t
-2668	2040	1	61 Nguyen Trai Street	t
-2669	2041	27	390 Bach Dang Street	t
-2670	2042	1	76 Quang Trung Street	t
-2671	2043	27	199 Vo Thi Sau Street	t
-2672	2043	1	27 Le Loi Street	f
-2673	2044	1	14 Phan Chu Trinh Street	t
-2674	2045	1	164 Phan Chu Trinh Street	t
-2675	2046	1	345 Tran Hung Dao Street	t
-2676	2047	29	304 Tran Hung Dao Street	t
-2677	2048	1	147 Quang Trung Street	t
-2678	2049	23	81 Vo Thi Sau Street	t
-2679	2050	10	16 Le Loi Street	t
-2680	2051	2	343 Hung Vuong Street	t
-2681	2052	27	309 Hai Ba Trung Street	t
-2682	2053	4	190 Ly Thuong Kiet Street	t
-2683	2054	22	247 Tran Hung Dao Street	t
-2684	2055	7	248 Phan Chu Trinh Street	t
-2685	2056	23	243 Dien Bien Phu Street	t
-2686	2057	23	292 Bach Dang Street	t
-2687	2058	5	148 Le Loi Street	t
-2688	2059	22	152 Dien Bien Phu Street	t
-2689	2060	25	209 Nguyen Hue Street	t
-2690	2061	22	214 Bach Dang Street	t
-2691	2061	19	382 Tran Hung Dao Street	f
-2692	2061	27	34 Nguyen Hue Street	f
-2693	2062	1	354 Nguyen Trai Street	t
-2694	2063	18	127 Hai Ba Trung Street	t
-2695	2064	16	186 Tran Hung Dao Street	t
-2696	2064	19	125 Dien Bien Phu Street	f
-2697	2065	27	69 Le Loi Street	t
-2698	2066	27	358 Vo Thi Sau Street	t
-2699	2066	27	352 Le Loi Street	f
-2700	2066	27	313 Phan Chu Trinh Street	f
-2701	2067	20	53 Hung Vuong Street	t
-2702	2068	1	171 Bach Dang Street	t
-2703	2068	19	150 Tran Hung Dao Street	f
-2704	2069	18	104 Dien Bien Phu Street	t
-2705	2070	1	82 Nguyen Hue Street	t
-2706	2071	24	115 Hung Vuong Street	t
-2707	2072	34	288 Quang Trung Street	t
-2708	2072	2	107 Nguyen Hue Street	f
-2709	2073	13	319 Hung Vuong Street	t
-2710	2074	23	63 Quang Trung Street	t
-2711	2075	28	6 Phan Chu Trinh Street	t
-2712	2076	20	82 Dien Bien Phu Street	t
-2713	2077	13	305 Tran Hung Dao Street	t
-2714	2078	1	74 Quang Trung Street	t
-2715	2079	27	328 Hai Ba Trung Street	t
-2716	2080	1	1 Phan Chu Trinh Street	t
-2717	2081	2	36 Tran Hung Dao Street	t
-2718	2081	15	382 Quang Trung Street	f
-2719	2082	17	101 Tran Hung Dao Street	t
-2720	2082	1	230 Phan Chu Trinh Street	f
-2721	2083	1	141 Bach Dang Street	t
-2722	2084	12	385 Vo Thi Sau Street	t
-2723	2085	27	69 Nguyen Hue Street	t
-2724	2085	27	241 Vo Thi Sau Street	f
-2725	2086	8	201 Tran Hung Dao Street	t
-2726	2087	28	278 Hung Vuong Street	t
-2727	2087	9	22 Bach Dang Street	f
-2728	2088	32	22 Nguyen Trai Street	t
-2729	2089	26	209 Le Loi Street	t
-2730	2090	1	298 Hung Vuong Street	t
-2731	2091	24	197 Hai Ba Trung Street	t
-2732	2092	1	154 Nguyen Trai Street	t
-2733	2093	27	189 Quang Trung Street	t
-2734	2094	1	136 Bach Dang Street	t
-2735	2095	21	187 Dien Bien Phu Street	t
-2736	2096	22	196 Tran Hung Dao Street	t
-2737	2097	30	119 Hung Vuong Street	t
-2738	2098	17	241 Ly Thuong Kiet Street	t
-2739	2098	20	213 Hung Vuong Street	f
-2740	2099	1	40 Ly Thuong Kiet Street	t
-2741	2100	8	368 Ly Thuong Kiet Street	t
-2742	2101	13	90 Vo Thi Sau Street	t
-2743	2102	34	77 Quang Trung Street	t
-2744	2102	20	231 Hung Vuong Street	f
-2745	2103	27	290 Quang Trung Street	t
-2746	2104	27	143 Nguyen Trai Street	t
-2747	2105	19	348 Dien Bien Phu Street	t
-2748	2105	1	117 Nguyen Hue Street	f
-2749	2106	27	135 Tran Hung Dao Street	t
-2750	2107	29	220 Quang Trung Street	t
-2751	2107	27	278 Vo Thi Sau Street	f
-2752	2108	27	19 Nguyen Trai Street	t
-2753	2109	27	217 Vo Thi Sau Street	t
-2754	2110	1	128 Vo Thi Sau Street	t
-2755	2111	27	306 Hai Ba Trung Street	t
-2756	2112	4	339 Vo Thi Sau Street	t
-2757	2112	27	124 Le Loi Street	f
-2758	2112	16	3 Nguyen Hue Street	f
-2759	2113	27	337 Phan Chu Trinh Street	t
-2760	2114	26	335 Ly Thuong Kiet Street	t
-2761	2115	12	331 Nguyen Hue Street	t
-2762	2116	7	108 Dien Bien Phu Street	t
-2763	2117	32	103 Vo Thi Sau Street	t
-2764	2118	1	237 Nguyen Hue Street	t
-2765	2119	18	240 Hung Vuong Street	t
-2766	2120	4	315 Nguyen Hue Street	t
-2767	2121	15	361 Dien Bien Phu Street	t
-2768	2122	20	147 Dien Bien Phu Street	t
-2769	2123	2	85 Vo Thi Sau Street	t
-2770	2124	28	104 Phan Chu Trinh Street	t
-2771	2125	13	176 Dien Bien Phu Street	t
-2772	2125	22	344 Nguyen Hue Street	f
-2773	2125	28	21 Nguyen Trai Street	f
-2774	2126	15	274 Ly Thuong Kiet Street	t
-2775	2127	31	194 Tran Hung Dao Street	t
-2776	2128	29	156 Ly Thuong Kiet Street	t
-2777	2129	26	242 Le Loi Street	t
-2778	2130	24	2 Ly Thuong Kiet Street	t
-2779	2131	28	177 Le Loi Street	t
-2780	2131	33	216 Hai Ba Trung Street	f
-2781	2132	27	73 Nguyen Hue Street	t
-2782	2133	1	194 Phan Chu Trinh Street	t
-2783	2134	30	6 Quang Trung Street	t
-2784	2135	29	361 Bach Dang Street	t
-2785	2136	17	22 Hung Vuong Street	t
-2786	2137	17	333 Dien Bien Phu Street	t
-2787	2138	27	85 Dien Bien Phu Street	t
-2788	2138	1	286 Nguyen Hue Street	f
-2789	2138	28	239 Phan Chu Trinh Street	f
-2790	2139	29	62 Le Loi Street	t
-2791	2139	7	114 Ly Thuong Kiet Street	f
-2792	2140	12	374 Tran Hung Dao Street	t
-2793	2141	17	291 Quang Trung Street	t
-2794	2142	19	296 Phan Chu Trinh Street	t
-2795	2143	27	207 Hai Ba Trung Street	t
-2796	2144	1	180 Tran Hung Dao Street	t
-2797	2144	28	135 Le Loi Street	f
-2798	2145	1	313 Vo Thi Sau Street	t
-2799	2146	16	298 Vo Thi Sau Street	t
-2800	2146	7	285 Nguyen Trai Street	f
-2801	2147	17	257 Tran Hung Dao Street	t
-2802	2148	18	125 Nguyen Hue Street	t
-2803	2148	2	391 Nguyen Trai Street	f
-2804	2149	29	282 Hai Ba Trung Street	t
-2805	2149	23	347 Hung Vuong Street	f
-2806	2150	18	262 Vo Thi Sau Street	t
-2807	2151	4	3 Dien Bien Phu Street	t
-2808	2152	4	138 Hai Ba Trung Street	t
-2809	2153	15	201 Hai Ba Trung Street	t
-2810	2154	20	373 Hai Ba Trung Street	t
-2811	2154	22	109 Dien Bien Phu Street	f
-2812	2155	27	258 Phan Chu Trinh Street	t
-2813	2156	2	371 Hung Vuong Street	t
-2814	2157	1	100 Phan Chu Trinh Street	t
-2815	2158	27	378 Hai Ba Trung Street	t
-2816	2158	20	39 Hung Vuong Street	f
-2817	2159	2	394 Quang Trung Street	t
-2818	2160	29	228 Hai Ba Trung Street	t
-2819	2161	27	75 Nguyen Trai Street	t
-2820	2162	10	266 Bach Dang Street	t
-2821	2162	27	260 Bach Dang Street	f
-2822	2163	5	191 Dien Bien Phu Street	t
-2823	2163	1	16 Quang Trung Street	f
-2824	2164	2	75 Bach Dang Street	t
-2825	2165	2	202 Hai Ba Trung Street	t
-2826	2166	14	274 Hung Vuong Street	t
-2827	2167	13	316 Vo Thi Sau Street	t
-2828	2168	18	137 Hai Ba Trung Street	t
-2829	2168	15	367 Dien Bien Phu Street	f
-2830	2169	10	374 Phan Chu Trinh Street	t
-2831	2170	1	393 Quang Trung Street	t
-2832	2170	31	357 Bach Dang Street	f
-2833	2170	14	168 Phan Chu Trinh Street	f
-2834	2171	26	184 Ly Thuong Kiet Street	t
-2835	2172	6	204 Bach Dang Street	t
-2836	2173	27	228 Bach Dang Street	t
-2837	2173	2	209 Ly Thuong Kiet Street	f
-2838	2173	27	364 Le Loi Street	f
-2839	2174	34	269 Le Loi Street	t
-2840	2175	1	163 Quang Trung Street	t
-2841	2176	11	89 Phan Chu Trinh Street	t
-2842	2177	31	300 Nguyen Trai Street	t
-2843	2177	27	362 Vo Thi Sau Street	f
-2844	2178	23	61 Nguyen Hue Street	t
-2845	2179	7	259 Bach Dang Street	t
-2846	2180	27	142 Quang Trung Street	t
-2847	2181	15	64 Hung Vuong Street	t
-2848	2182	14	248 Nguyen Trai Street	t
-2849	2183	1	382 Le Loi Street	t
-2850	2184	19	56 Quang Trung Street	t
-2851	2185	1	43 Phan Chu Trinh Street	t
-2852	2186	27	386 Nguyen Hue Street	t
-2853	2187	1	301 Ly Thuong Kiet Street	t
-2854	2188	25	143 Bach Dang Street	t
-2855	2188	17	284 Hung Vuong Street	f
-2856	2189	17	64 Bach Dang Street	t
-2857	2190	1	353 Nguyen Trai Street	t
-2858	2191	31	94 Vo Thi Sau Street	t
-2859	2192	7	350 Dien Bien Phu Street	t
-2860	2193	29	3 Hai Ba Trung Street	t
-2861	2194	17	36 Vo Thi Sau Street	t
-2862	2195	27	225 Quang Trung Street	t
-2863	2195	27	352 Tran Hung Dao Street	f
-2864	2196	24	217 Phan Chu Trinh Street	t
-2865	2197	27	32 Phan Chu Trinh Street	t
-2866	2198	29	98 Dien Bien Phu Street	t
-2867	2199	18	55 Hai Ba Trung Street	t
-2868	2199	30	232 Hai Ba Trung Street	f
-2869	2200	1	279 Bach Dang Street	t
-2870	2201	2	387 Ly Thuong Kiet Street	t
-2871	2201	32	15 Ly Thuong Kiet Street	f
-2872	2202	17	288 Phan Chu Trinh Street	t
-2873	2203	33	12 Phan Chu Trinh Street	t
-2874	2204	16	280 Vo Thi Sau Street	t
-2875	2204	1	242 Nguyen Trai Street	f
-2876	2205	8	308 Ly Thuong Kiet Street	t
-2877	2206	22	117 Dien Bien Phu Street	t
-2878	2207	16	322 Dien Bien Phu Street	t
-2879	2208	30	338 Vo Thi Sau Street	t
-2880	2209	3	147 Tran Hung Dao Street	t
-2881	2209	27	128 Hai Ba Trung Street	f
-2882	2210	12	231 Phan Chu Trinh Street	t
-2883	2211	9	381 Quang Trung Street	t
-2884	2212	34	34 Quang Trung Street	t
-2885	2213	27	44 Nguyen Trai Street	t
-2886	2214	17	337 Quang Trung Street	t
-2887	2215	2	388 Phan Chu Trinh Street	t
-2888	2216	11	367 Hai Ba Trung Street	t
-2889	2217	28	148 Tran Hung Dao Street	t
-2890	2217	12	277 Nguyen Hue Street	f
-2891	2217	1	238 Bach Dang Street	f
-2892	2218	24	232 Phan Chu Trinh Street	t
-2893	2218	29	18 Ly Thuong Kiet Street	f
-2894	2218	27	325 Vo Thi Sau Street	f
-2895	2219	27	340 Le Loi Street	t
-2896	2220	27	142 Vo Thi Sau Street	t
-2897	2221	1	398 Quang Trung Street	t
-2898	2222	2	39 Nguyen Trai Street	t
-2899	2223	16	307 Dien Bien Phu Street	t
-2900	2224	1	387 Le Loi Street	t
-2901	2225	5	62 Hung Vuong Street	t
-2902	2226	15	35 Hung Vuong Street	t
-2903	2226	1	387 Quang Trung Street	f
-2904	2226	15	49 Nguyen Hue Street	f
-2905	2227	27	28 Tran Hung Dao Street	t
-2906	2228	13	369 Nguyen Trai Street	t
-2907	2228	21	177 Hung Vuong Street	f
-2908	2229	1	68 Le Loi Street	t
-2909	2230	9	117 Tran Hung Dao Street	t
-2910	2231	1	388 Nguyen Trai Street	t
-2911	2231	18	42 Nguyen Trai Street	f
-2912	2232	2	300 Hung Vuong Street	t
-2913	2232	14	45 Nguyen Hue Street	f
-2914	2232	1	354 Hai Ba Trung Street	f
-2915	2233	25	361 Hung Vuong Street	t
-2916	2233	27	38 Ly Thuong Kiet Street	f
-2917	2234	27	134 Quang Trung Street	t
-2918	2235	26	362 Bach Dang Street	t
-2919	2236	1	226 Quang Trung Street	t
-2920	2237	5	304 Ly Thuong Kiet Street	t
-2921	2238	28	278 Hung Vuong Street	t
-2922	2238	1	2 Hung Vuong Street	f
-2923	2238	29	98 Vo Thi Sau Street	f
-2924	2239	1	9 Nguyen Hue Street	t
-2925	2240	1	353 Nguyen Trai Street	t
-2926	2241	2	58 Quang Trung Street	t
-2927	2242	5	10 Nguyen Hue Street	t
-2928	2242	27	184 Vo Thi Sau Street	f
-2929	2243	17	376 Le Loi Street	t
-2930	2244	22	260 Tran Hung Dao Street	t
-2931	2244	29	129 Nguyen Trai Street	f
-2932	2244	27	115 Bach Dang Street	f
-2933	2245	1	384 Bach Dang Street	t
-2934	2245	31	130 Nguyen Trai Street	f
-2935	2246	7	342 Hung Vuong Street	t
-2936	2247	22	101 Dien Bien Phu Street	t
-2937	2248	17	261 Hung Vuong Street	t
-2938	2249	17	249 Nguyen Trai Street	t
-2939	2250	2	119 Hai Ba Trung Street	t
-2940	2251	27	5 Nguyen Trai Street	t
-2941	2252	13	133 Nguyen Trai Street	t
-2942	2253	27	76 Phan Chu Trinh Street	t
-2943	2253	2	28 Hai Ba Trung Street	f
-2944	2254	15	189 Bach Dang Street	t
-2945	2255	1	380 Vo Thi Sau Street	t
-2946	2255	27	330 Hung Vuong Street	f
-2947	2256	1	53 Le Loi Street	t
-2948	2257	12	144 Bach Dang Street	t
-2949	2258	5	317 Quang Trung Street	t
-2950	2258	28	63 Hung Vuong Street	f
-2951	2258	1	155 Nguyen Hue Street	f
-2952	2259	1	285 Vo Thi Sau Street	t
-2953	2260	11	128 Tran Hung Dao Street	t
-2954	2261	34	36 Le Loi Street	t
-2955	2262	32	112 Quang Trung Street	t
-2956	2263	29	321 Quang Trung Street	t
-2957	2263	9	326 Nguyen Hue Street	f
-2958	2264	26	67 Bach Dang Street	t
-2959	2264	14	310 Dien Bien Phu Street	f
-2960	2265	30	4 Hai Ba Trung Street	t
-2961	2266	34	176 Nguyen Hue Street	t
-2962	2267	30	140 Bach Dang Street	t
-2963	2267	24	42 Hung Vuong Street	f
-2964	2267	1	116 Ly Thuong Kiet Street	f
-2965	2268	1	296 Ly Thuong Kiet Street	t
-2966	2269	27	283 Quang Trung Street	t
-2967	2270	32	393 Quang Trung Street	t
-2968	2270	1	61 Vo Thi Sau Street	f
-2969	2270	16	42 Tran Hung Dao Street	f
-2970	2271	27	337 Nguyen Trai Street	t
-2971	2272	26	272 Bach Dang Street	t
-2972	2272	3	389 Phan Chu Trinh Street	f
-2973	2273	27	129 Phan Chu Trinh Street	t
-2974	2274	27	175 Ly Thuong Kiet Street	t
-2975	2275	27	12 Vo Thi Sau Street	t
-2976	2276	17	383 Dien Bien Phu Street	t
-2977	2276	30	9 Phan Chu Trinh Street	f
-2978	2277	17	348 Bach Dang Street	t
-2979	2278	32	238 Nguyen Trai Street	t
-2980	2279	22	43 Le Loi Street	t
-2981	2279	27	345 Phan Chu Trinh Street	f
-2982	2280	24	247 Ly Thuong Kiet Street	t
-2983	2281	26	222 Le Loi Street	t
-2984	2282	27	175 Quang Trung Street	t
-2985	2283	7	78 Phan Chu Trinh Street	t
-2986	2284	8	146 Hung Vuong Street	t
-2987	2285	4	260 Hung Vuong Street	t
-2988	2286	12	87 Tran Hung Dao Street	t
-2989	2287	27	221 Bach Dang Street	t
-2990	2288	23	1 Ly Thuong Kiet Street	t
-2991	2289	1	337 Hai Ba Trung Street	t
-2992	2290	17	122 Nguyen Trai Street	t
-2993	2290	32	204 Bach Dang Street	f
-2994	2291	24	129 Dien Bien Phu Street	t
-2995	2292	2	243 Quang Trung Street	t
-2996	2292	1	54 Nguyen Hue Street	f
-2997	2293	1	28 Nguyen Trai Street	t
-2998	2294	7	203 Hai Ba Trung Street	t
-2999	2295	27	329 Quang Trung Street	t
-3000	2296	30	227 Phan Chu Trinh Street	t
-3001	2297	29	260 Hai Ba Trung Street	t
-3002	2297	27	282 Bach Dang Street	f
-3003	2297	27	219 Tran Hung Dao Street	f
-3004	2298	27	65 Nguyen Hue Street	t
-3005	2299	1	89 Hung Vuong Street	t
-3006	2299	10	135 Hung Vuong Street	f
-3007	2300	1	288 Tran Hung Dao Street	t
-3008	2300	28	350 Nguyen Trai Street	f
-3009	2301	25	23 Hung Vuong Street	t
-3010	2302	7	283 Bach Dang Street	t
-3011	2303	15	87 Bach Dang Street	t
-3012	2304	13	257 Ly Thuong Kiet Street	t
-3013	2305	26	33 Quang Trung Street	t
-3014	2305	17	230 Hai Ba Trung Street	f
-3015	2306	28	203 Dien Bien Phu Street	t
-3016	2307	19	299 Le Loi Street	t
-3017	2308	1	279 Nguyen Hue Street	t
-3018	2308	27	92 Nguyen Hue Street	f
-3019	2309	11	108 Dien Bien Phu Street	t
-3020	2309	2	28 Nguyen Hue Street	f
-3021	2309	1	373 Nguyen Trai Street	f
-3022	2310	1	74 Vo Thi Sau Street	t
-3023	2311	22	1 Bach Dang Street	t
-3024	2312	1	136 Vo Thi Sau Street	t
-3025	2312	12	317 Hai Ba Trung Street	f
-3026	2313	27	252 Tran Hung Dao Street	t
-3027	2313	18	215 Hai Ba Trung Street	f
-3028	2314	17	138 Le Loi Street	t
-3029	2315	29	394 Ly Thuong Kiet Street	t
-3030	2315	19	375 Ly Thuong Kiet Street	f
-3031	2316	17	154 Quang Trung Street	t
-3032	2317	1	148 Hung Vuong Street	t
-3033	2318	27	303 Phan Chu Trinh Street	t
-3034	2319	1	15 Hung Vuong Street	t
-3035	2320	34	398 Hai Ba Trung Street	t
-3036	2321	6	63 Tran Hung Dao Street	t
-3037	2322	7	62 Phan Chu Trinh Street	t
-3038	2323	27	237 Nguyen Trai Street	t
-3039	2323	1	119 Tran Hung Dao Street	f
-3040	2324	27	196 Ly Thuong Kiet Street	t
-3041	2325	27	90 Phan Chu Trinh Street	t
-3042	2326	14	368 Nguyen Hue Street	t
-3043	2327	1	386 Vo Thi Sau Street	t
-3044	2328	27	236 Nguyen Trai Street	t
-3045	2329	7	155 Nguyen Hue Street	t
-3046	2330	28	372 Dien Bien Phu Street	t
-3047	2331	1	346 Phan Chu Trinh Street	t
-3048	2332	27	189 Nguyen Trai Street	t
-3049	2333	6	394 Le Loi Street	t
-3050	2333	17	40 Vo Thi Sau Street	f
-3051	2334	31	340 Vo Thi Sau Street	t
-3052	2334	27	253 Hung Vuong Street	f
-3053	2335	27	286 Bach Dang Street	t
-3054	2336	33	358 Quang Trung Street	t
-3055	2337	1	278 Phan Chu Trinh Street	t
-3056	2338	17	83 Dien Bien Phu Street	t
-3057	2339	31	312 Le Loi Street	t
-3058	2340	19	219 Phan Chu Trinh Street	t
-3059	2341	27	223 Hung Vuong Street	t
-3060	2342	30	63 Vo Thi Sau Street	t
-3061	2343	1	9 Le Loi Street	t
-3062	2344	12	74 Ly Thuong Kiet Street	t
-3063	2344	27	15 Tran Hung Dao Street	f
-3064	2345	1	137 Hung Vuong Street	t
-3065	2346	1	233 Vo Thi Sau Street	t
-3066	2347	3	83 Hai Ba Trung Street	t
-3067	2348	2	245 Tran Hung Dao Street	t
-3068	2349	1	115 Vo Thi Sau Street	t
-3069	2350	8	44 Nguyen Hue Street	t
-3070	2351	27	383 Quang Trung Street	t
-3071	2352	18	219 Dien Bien Phu Street	t
-3072	2353	5	138 Phan Chu Trinh Street	t
-3073	2354	28	164 Bach Dang Street	t
-3074	2355	30	352 Hung Vuong Street	t
-3075	2356	18	82 Vo Thi Sau Street	t
-3076	2357	1	335 Hung Vuong Street	t
-3077	2358	7	46 Ly Thuong Kiet Street	t
-3078	2358	1	314 Nguyen Hue Street	f
-3079	2359	2	163 Ly Thuong Kiet Street	t
-3080	2360	25	202 Dien Bien Phu Street	t
-3081	2361	27	161 Nguyen Hue Street	t
-3082	2362	32	58 Vo Thi Sau Street	t
-3083	2362	2	78 Tran Hung Dao Street	f
-3084	2363	34	189 Hung Vuong Street	t
-3085	2364	32	140 Tran Hung Dao Street	t
-3086	2365	12	90 Vo Thi Sau Street	t
-3087	2366	27	398 Nguyen Hue Street	t
-3088	2366	8	265 Quang Trung Street	f
-3089	2367	27	139 Ly Thuong Kiet Street	t
-3090	2368	27	377 Ly Thuong Kiet Street	t
-3091	2369	1	355 Le Loi Street	t
-3092	2369	27	291 Bach Dang Street	f
-3093	2369	4	181 Tran Hung Dao Street	f
-3094	2370	12	137 Phan Chu Trinh Street	t
-3095	2371	18	376 Vo Thi Sau Street	t
-3096	2371	8	162 Hung Vuong Street	f
-3097	2372	1	155 Phan Chu Trinh Street	t
-3098	2372	23	368 Hung Vuong Street	f
-3099	2373	19	312 Le Loi Street	t
-3100	2374	26	176 Nguyen Hue Street	t
-3101	2375	17	35 Vo Thi Sau Street	t
-3102	2376	2	321 Nguyen Hue Street	t
-3103	2377	1	206 Vo Thi Sau Street	t
-3104	2378	25	303 Nguyen Trai Street	t
-3105	2379	1	19 Bach Dang Street	t
-3106	2380	27	218 Tran Hung Dao Street	t
-3107	2381	16	15 Vo Thi Sau Street	t
-3108	2382	1	42 Nguyen Trai Street	t
-3109	2383	17	82 Phan Chu Trinh Street	t
-3110	2383	14	7 Bach Dang Street	f
-3111	2384	21	217 Phan Chu Trinh Street	t
-3112	2385	14	274 Phan Chu Trinh Street	t
-3113	2386	1	66 Tran Hung Dao Street	t
-3114	2387	27	319 Nguyen Hue Street	t
-3115	2388	22	185 Vo Thi Sau Street	t
-3116	2389	27	260 Bach Dang Street	t
-3117	2390	4	185 Nguyen Hue Street	t
-3118	2391	6	232 Tran Hung Dao Street	t
-3119	2391	1	199 Phan Chu Trinh Street	f
-3120	2392	27	40 Le Loi Street	t
-3121	2393	19	158 Phan Chu Trinh Street	t
-3122	2394	1	91 Vo Thi Sau Street	t
-3123	2395	27	346 Le Loi Street	t
-3124	2396	30	73 Le Loi Street	t
-3125	2396	27	16 Nguyen Trai Street	f
-3126	2396	26	199 Nguyen Hue Street	f
-3127	2397	29	344 Dien Bien Phu Street	t
-3128	2398	24	41 Nguyen Hue Street	t
-3129	2399	17	343 Phan Chu Trinh Street	t
-3130	2399	7	139 Phan Chu Trinh Street	f
-3131	2400	1	155 Hung Vuong Street	t
-3132	2401	29	195 Dien Bien Phu Street	t
-3133	2402	1	298 Phan Chu Trinh Street	t
-3134	2402	27	111 Nguyen Trai Street	f
-3135	2403	27	53 Bach Dang Street	t
-3136	2404	8	379 Hung Vuong Street	t
-3137	2405	1	209 Phan Chu Trinh Street	t
-3138	2406	15	200 Le Loi Street	t
-3139	2407	23	254 Le Loi Street	t
-3140	2408	27	321 Hai Ba Trung Street	t
-3141	2409	27	319 Nguyen Hue Street	t
-3142	2410	1	84 Le Loi Street	t
-3143	2411	18	303 Nguyen Trai Street	t
-3144	2412	17	215 Bach Dang Street	t
-3145	2413	28	261 Hung Vuong Street	t
-3146	2414	1	328 Hung Vuong Street	t
-3147	2414	27	226 Vo Thi Sau Street	f
-3148	2415	27	68 Ly Thuong Kiet Street	t
-3149	2416	1	353 Nguyen Trai Street	t
-3150	2417	34	287 Dien Bien Phu Street	t
-3151	2418	32	319 Vo Thi Sau Street	t
-3152	2419	28	114 Le Loi Street	t
-3153	2420	31	133 Ly Thuong Kiet Street	t
-3154	2420	29	134 Phan Chu Trinh Street	f
-3155	2421	1	213 Nguyen Hue Street	t
-3156	2422	1	61 Nguyen Hue Street	t
-3157	2422	1	6 Le Loi Street	f
-3158	2422	18	43 Vo Thi Sau Street	f
-3159	2423	1	375 Nguyen Trai Street	t
-3160	2423	27	85 Vo Thi Sau Street	f
-3161	2424	7	360 Le Loi Street	t
-3162	2424	11	212 Dien Bien Phu Street	f
-3163	2425	1	14 Bach Dang Street	t
-3164	2426	5	73 Phan Chu Trinh Street	t
-3165	2427	1	371 Hai Ba Trung Street	t
-3166	2427	22	137 Le Loi Street	f
-3167	2427	8	12 Tran Hung Dao Street	f
-3168	2428	32	311 Hung Vuong Street	t
-3169	2429	1	350 Hung Vuong Street	t
-3170	2430	31	10 Nguyen Trai Street	t
-3171	2431	3	300 Vo Thi Sau Street	t
-3172	2432	1	388 Le Loi Street	t
-3173	2433	29	174 Phan Chu Trinh Street	t
-3174	2434	27	218 Ly Thuong Kiet Street	t
-3175	2434	27	101 Tran Hung Dao Street	f
-3176	2435	28	197 Le Loi Street	t
-3177	2436	30	96 Vo Thi Sau Street	t
-3178	2437	24	16 Bach Dang Street	t
-3179	2438	27	115 Le Loi Street	t
-3180	2438	15	21 Vo Thi Sau Street	f
-3181	2439	27	148 Vo Thi Sau Street	t
-3182	2440	27	109 Bach Dang Street	t
-3183	2441	32	24 Nguyen Hue Street	t
-3184	2442	1	377 Tran Hung Dao Street	t
-3185	2442	1	102 Hai Ba Trung Street	f
-3186	2443	17	267 Le Loi Street	t
-3187	2444	19	66 Hung Vuong Street	t
-3188	2445	27	249 Nguyen Trai Street	t
-3189	2446	4	212 Nguyen Trai Street	t
-3190	2447	1	352 Hung Vuong Street	t
-3191	2448	15	35 Nguyen Trai Street	t
-3192	2449	2	87 Nguyen Trai Street	t
-3193	2449	13	340 Bach Dang Street	f
-3194	2450	25	231 Ly Thuong Kiet Street	t
-3195	2451	1	99 Nguyen Trai Street	t
-3196	2452	2	211 Hung Vuong Street	t
-3197	2453	17	156 Nguyen Trai Street	t
-3198	2453	29	68 Nguyen Trai Street	f
-3199	2454	27	120 Ly Thuong Kiet Street	t
-3200	2454	1	149 Dien Bien Phu Street	f
-3201	2455	25	154 Dien Bien Phu Street	t
-3202	2456	17	76 Nguyen Hue Street	t
-3203	2457	2	287 Vo Thi Sau Street	t
-3204	2457	27	70 Tran Hung Dao Street	f
-3205	2458	15	282 Nguyen Hue Street	t
-3206	2459	1	75 Dien Bien Phu Street	t
-3207	2460	25	320 Tran Hung Dao Street	t
-3208	2461	1	48 Quang Trung Street	t
-3209	2462	27	136 Tran Hung Dao Street	t
-3210	2462	5	208 Phan Chu Trinh Street	f
-3211	2462	27	353 Phan Chu Trinh Street	f
-3212	2463	1	315 Quang Trung Street	t
-3213	2464	6	111 Nguyen Trai Street	t
-3214	2465	1	256 Dien Bien Phu Street	t
-3215	2466	19	73 Phan Chu Trinh Street	t
-3216	2467	27	267 Dien Bien Phu Street	t
-3217	2468	11	395 Ly Thuong Kiet Street	t
-3218	2469	27	187 Bach Dang Street	t
-3219	2470	18	18 Bach Dang Street	t
-3220	2471	34	7 Bach Dang Street	t
-3221	2472	8	50 Nguyen Hue Street	t
-3222	2473	1	188 Nguyen Hue Street	t
-3223	2473	28	192 Le Loi Street	f
-3224	2474	26	327 Tran Hung Dao Street	t
-3225	2475	18	389 Hai Ba Trung Street	t
-3226	2476	24	380 Bach Dang Street	t
-3227	2476	16	32 Le Loi Street	f
-3228	2477	24	399 Ly Thuong Kiet Street	t
-3229	2478	1	230 Dien Bien Phu Street	t
-3230	2479	27	279 Vo Thi Sau Street	t
-3231	2480	25	110 Bach Dang Street	t
-3232	2481	27	27 Vo Thi Sau Street	t
-3233	2482	27	360 Nguyen Hue Street	t
-3234	2483	27	84 Bach Dang Street	t
-3235	2484	11	273 Nguyen Trai Street	t
-3236	2485	29	70 Le Loi Street	t
-3237	2486	27	93 Vo Thi Sau Street	t
-3238	2487	27	105 Vo Thi Sau Street	t
-3239	2488	31	119 Tran Hung Dao Street	t
-3240	2489	12	150 Vo Thi Sau Street	t
-3241	2489	20	111 Hai Ba Trung Street	f
-3242	2489	27	397 Quang Trung Street	f
-3243	2490	32	256 Tran Hung Dao Street	t
-3244	2491	12	66 Nguyen Hue Street	t
-3245	2492	17	116 Le Loi Street	t
-3246	2493	13	119 Hai Ba Trung Street	t
-3247	2494	29	278 Nguyen Trai Street	t
-3248	2494	2	40 Phan Chu Trinh Street	f
-3249	2495	11	175 Phan Chu Trinh Street	t
-3250	2495	20	15 Dien Bien Phu Street	f
-3251	2496	27	322 Hung Vuong Street	t
-3252	2497	27	398 Quang Trung Street	t
-3253	2497	18	165 Hai Ba Trung Street	f
-3254	2498	1	272 Dien Bien Phu Street	t
-3255	2499	27	59 Dien Bien Phu Street	t
-3256	2500	12	266 Nguyen Hue Street	t
-3257	2501	27	330 Nguyen Hue Street	t
-3258	2502	25	353 Quang Trung Street	t
-3259	2503	1	15 Hai Ba Trung Street	t
-3260	2504	4	337 Vo Thi Sau Street	t
-3261	2504	26	235 Bach Dang Street	f
-3262	2504	29	287 Vo Thi Sau Street	f
-3263	2505	34	5 Nguyen Trai Street	t
-3264	2506	1	38 Nguyen Trai Street	t
-3265	2507	27	391 Le Loi Street	t
-3266	2507	30	103 Bach Dang Street	f
-3267	2508	17	370 Hai Ba Trung Street	t
-3268	2508	27	245 Bach Dang Street	f
-3269	2509	1	3 Dien Bien Phu Street	t
-3270	2510	29	83 Tran Hung Dao Street	t
-3271	2510	27	290 Hai Ba Trung Street	f
-3272	2510	1	234 Ly Thuong Kiet Street	f
-3273	2511	24	388 Dien Bien Phu Street	t
-3274	2512	1	362 Hung Vuong Street	t
-3275	2513	27	376 Quang Trung Street	t
-3276	2514	7	57 Nguyen Hue Street	t
-3277	2515	25	186 Nguyen Trai Street	t
-3278	2515	2	334 Vo Thi Sau Street	f
-3279	2516	16	385 Hai Ba Trung Street	t
-3280	2517	27	230 Ly Thuong Kiet Street	t
-3281	2518	16	388 Bach Dang Street	t
-3282	2519	1	52 Vo Thi Sau Street	t
-3283	2520	26	316 Ly Thuong Kiet Street	t
-3284	2520	27	379 Hung Vuong Street	f
-3285	2520	15	340 Hung Vuong Street	f
-3286	2521	27	60 Nguyen Trai Street	t
-3287	2522	27	381 Phan Chu Trinh Street	t
-3288	2523	13	257 Nguyen Hue Street	t
-3289	2524	27	82 Nguyen Hue Street	t
-3290	2524	13	191 Hung Vuong Street	f
-3291	2525	27	399 Hung Vuong Street	t
-3292	2526	1	224 Le Loi Street	t
-3293	2527	27	19 Vo Thi Sau Street	t
-3294	2528	1	184 Tran Hung Dao Street	t
-3295	2528	27	346 Le Loi Street	f
-3296	2529	2	38 Phan Chu Trinh Street	t
-3297	2530	23	46 Dien Bien Phu Street	t
-3298	2531	27	116 Le Loi Street	t
-3299	2532	27	359 Nguyen Hue Street	t
-3300	2533	19	50 Hai Ba Trung Street	t
-3301	2534	28	374 Nguyen Hue Street	t
-3302	2535	22	124 Ly Thuong Kiet Street	t
-3303	2536	1	363 Nguyen Hue Street	t
-3304	2537	1	211 Ly Thuong Kiet Street	t
-3305	2538	27	379 Hai Ba Trung Street	t
-3306	2539	7	98 Quang Trung Street	t
-3307	2540	31	72 Dien Bien Phu Street	t
-3308	2540	27	245 Phan Chu Trinh Street	f
-3309	2541	15	199 Phan Chu Trinh Street	t
-3310	2542	14	32 Ly Thuong Kiet Street	t
-3311	2542	17	212 Le Loi Street	f
-3312	2543	7	99 Dien Bien Phu Street	t
-3313	2543	29	47 Hai Ba Trung Street	f
-3314	2544	7	297 Phan Chu Trinh Street	t
-3315	2544	22	320 Nguyen Trai Street	f
-3316	2545	15	232 Le Loi Street	t
-3317	2546	28	346 Tran Hung Dao Street	t
-3318	2546	27	364 Tran Hung Dao Street	f
-3319	2547	27	122 Nguyen Trai Street	t
-3320	2548	8	166 Nguyen Trai Street	t
-3321	2549	1	88 Hai Ba Trung Street	t
-3322	2550	30	155 Phan Chu Trinh Street	t
-3323	2551	11	154 Tran Hung Dao Street	t
-3324	2551	28	293 Nguyen Trai Street	f
-3325	2552	24	355 Vo Thi Sau Street	t
-3326	2552	18	277 Dien Bien Phu Street	f
-3327	2553	1	68 Nguyen Hue Street	t
-3328	2554	5	337 Phan Chu Trinh Street	t
-3329	2555	1	154 Nguyen Trai Street	t
-3330	2556	31	235 Ly Thuong Kiet Street	t
-3331	2557	16	271 Nguyen Hue Street	t
-3332	2558	3	311 Le Loi Street	t
-3333	2559	26	169 Tran Hung Dao Street	t
-3334	2560	27	41 Le Loi Street	t
-3335	2561	25	248 Phan Chu Trinh Street	t
-3336	2562	19	128 Vo Thi Sau Street	t
-3337	2563	26	386 Vo Thi Sau Street	t
-3338	2563	14	129 Hung Vuong Street	f
-3339	2564	28	313 Dien Bien Phu Street	t
-3340	2565	28	131 Nguyen Trai Street	t
-3341	2566	28	342 Tran Hung Dao Street	t
-3342	2567	28	193 Bach Dang Street	t
-3343	2568	24	217 Dien Bien Phu Street	t
-3344	2569	27	276 Bach Dang Street	t
-3345	2570	6	352 Hai Ba Trung Street	t
-3346	2571	19	281 Bach Dang Street	t
-3347	2572	13	88 Le Loi Street	t
-3348	2573	27	12 Dien Bien Phu Street	t
-3349	2573	15	398 Bach Dang Street	f
-3350	2574	27	339 Ly Thuong Kiet Street	t
-3351	2574	2	363 Le Loi Street	f
-3352	2575	21	273 Bach Dang Street	t
-3353	2576	32	119 Nguyen Hue Street	t
-3354	2577	18	308 Dien Bien Phu Street	t
-3355	2578	1	333 Hung Vuong Street	t
-3356	2579	27	271 Hai Ba Trung Street	t
-3357	2580	32	126 Nguyen Hue Street	t
-3358	2581	19	119 Hai Ba Trung Street	t
-3359	2582	1	176 Vo Thi Sau Street	t
-3360	2582	2	114 Hung Vuong Street	f
-3361	2583	23	41 Quang Trung Street	t
-3362	2584	25	48 Bach Dang Street	t
-3363	2584	27	164 Nguyen Hue Street	f
-3364	2585	3	83 Bach Dang Street	t
-3365	2586	26	13 Ly Thuong Kiet Street	t
-3366	2586	31	63 Tran Hung Dao Street	f
-3367	2587	23	267 Nguyen Hue Street	t
-3368	2588	9	389 Vo Thi Sau Street	t
-3369	2589	21	124 Tran Hung Dao Street	t
-3370	2590	22	18 Phan Chu Trinh Street	t
-3371	2591	2	355 Phan Chu Trinh Street	t
-3372	2592	12	295 Quang Trung Street	t
-3373	2593	1	196 Phan Chu Trinh Street	t
-3374	2593	18	276 Dien Bien Phu Street	f
-3375	2593	6	288 Quang Trung Street	f
-3376	2594	29	172 Quang Trung Street	t
-3377	2594	2	303 Ly Thuong Kiet Street	f
-3378	2595	29	384 Le Loi Street	t
-3379	2596	1	204 Bach Dang Street	t
-3380	2597	25	10 Vo Thi Sau Street	t
-3381	2598	11	28 Nguyen Hue Street	t
-3382	2598	27	185 Quang Trung Street	f
-3383	2599	19	268 Hai Ba Trung Street	t
-3384	2600	27	58 Ly Thuong Kiet Street	t
-3385	2601	1	52 Dien Bien Phu Street	t
-3386	2602	19	237 Vo Thi Sau Street	t
-3387	2603	27	45 Phan Chu Trinh Street	t
-3388	2603	12	218 Hung Vuong Street	f
-3389	2604	1	198 Nguyen Trai Street	t
-3390	2604	17	351 Bach Dang Street	f
-3391	2605	20	231 Tran Hung Dao Street	t
-3392	2605	1	56 Hung Vuong Street	f
-3393	2606	19	117 Nguyen Hue Street	t
-3394	2607	27	20 Vo Thi Sau Street	t
-3395	2608	1	134 Hai Ba Trung Street	t
-3396	2608	31	307 Hung Vuong Street	f
-3397	2608	32	298 Nguyen Trai Street	f
-3398	2609	1	189 Bach Dang Street	t
-3399	2610	1	140 Bach Dang Street	t
-3400	2610	27	162 Le Loi Street	f
-3401	2611	27	164 Bach Dang Street	t
-3402	2612	3	228 Le Loi Street	t
-3403	2612	24	24 Vo Thi Sau Street	f
-3404	2612	1	238 Tran Hung Dao Street	f
-3405	2613	12	89 Dien Bien Phu Street	t
-3406	2614	1	121 Quang Trung Street	t
-3407	2614	27	239 Nguyen Hue Street	f
-3408	2615	34	44 Vo Thi Sau Street	t
-3409	2615	7	247 Bach Dang Street	f
-3410	2616	18	39 Ly Thuong Kiet Street	t
-3411	2617	19	142 Le Loi Street	t
-3412	2617	30	249 Hai Ba Trung Street	f
-3413	2617	1	268 Le Loi Street	f
-3414	2618	27	135 Ly Thuong Kiet Street	t
-3415	2618	1	173 Tran Hung Dao Street	f
-3416	2618	18	317 Hai Ba Trung Street	f
-3417	2619	34	2 Ly Thuong Kiet Street	t
-3418	2619	15	177 Ly Thuong Kiet Street	f
-3419	2620	27	230 Le Loi Street	t
-3420	2621	4	192 Vo Thi Sau Street	t
-3421	2622	13	106 Hung Vuong Street	t
-3422	2623	27	124 Ly Thuong Kiet Street	t
-3423	2624	1	66 Nguyen Trai Street	t
-3424	2625	13	249 Phan Chu Trinh Street	t
-3425	2625	1	325 Bach Dang Street	f
-3426	2625	33	48 Ly Thuong Kiet Street	f
-3427	2626	1	269 Nguyen Trai Street	t
-3428	2627	12	50 Phan Chu Trinh Street	t
-3429	2628	1	187 Ly Thuong Kiet Street	t
-3430	2629	26	112 Phan Chu Trinh Street	t
-3431	2630	27	124 Phan Chu Trinh Street	t
-3432	2631	3	390 Ly Thuong Kiet Street	t
-3433	2631	27	135 Hung Vuong Street	f
-3434	2632	16	79 Bach Dang Street	t
-3435	2633	27	222 Bach Dang Street	t
-3436	2634	32	49 Hai Ba Trung Street	t
-3437	2635	14	307 Dien Bien Phu Street	t
-3438	2635	6	239 Tran Hung Dao Street	f
-3439	2636	1	234 Hung Vuong Street	t
-3440	2637	17	297 Dien Bien Phu Street	t
-3441	2637	31	217 Hung Vuong Street	f
-3442	2638	27	359 Quang Trung Street	t
-3443	2639	10	360 Nguyen Trai Street	t
-3444	2640	1	341 Quang Trung Street	t
-3445	2641	6	324 Quang Trung Street	t
-3446	2641	34	214 Vo Thi Sau Street	f
-3447	2642	17	55 Quang Trung Street	t
-3448	2643	27	255 Phan Chu Trinh Street	t
-3449	2644	27	331 Vo Thi Sau Street	t
-3450	2645	27	70 Tran Hung Dao Street	t
-3451	2646	17	318 Phan Chu Trinh Street	t
-3452	2647	6	95 Ly Thuong Kiet Street	t
-3453	2647	33	242 Hung Vuong Street	f
-3454	2648	13	132 Nguyen Trai Street	t
-3455	2649	29	212 Vo Thi Sau Street	t
-3456	2650	25	154 Bach Dang Street	t
-3457	2651	13	60 Nguyen Hue Street	t
-3458	2652	8	218 Tran Hung Dao Street	t
-3459	2652	28	44 Vo Thi Sau Street	f
-3460	2653	29	43 Nguyen Trai Street	t
-3461	2654	27	286 Quang Trung Street	t
-3462	2655	18	357 Tran Hung Dao Street	t
-3463	2655	27	82 Ly Thuong Kiet Street	f
-3464	2655	11	162 Vo Thi Sau Street	f
-3465	2656	8	354 Hai Ba Trung Street	t
-3466	2657	14	90 Bach Dang Street	t
-3467	2658	27	23 Nguyen Hue Street	t
-3468	2659	12	205 Vo Thi Sau Street	t
-3469	2660	34	241 Le Loi Street	t
-3470	2661	1	361 Phan Chu Trinh Street	t
-3471	2662	18	123 Ly Thuong Kiet Street	t
-3472	2663	25	70 Bach Dang Street	t
-3473	2663	9	322 Bach Dang Street	f
-3474	2664	29	94 Hai Ba Trung Street	t
-3475	2664	1	90 Tran Hung Dao Street	f
-3476	2664	27	290 Tran Hung Dao Street	f
-3477	2665	1	148 Nguyen Hue Street	t
-3478	2666	27	14 Phan Chu Trinh Street	t
-3479	2667	29	109 Ly Thuong Kiet Street	t
-3480	2668	7	98 Phan Chu Trinh Street	t
-3481	2669	1	29 Hai Ba Trung Street	t
-3482	2669	18	51 Nguyen Hue Street	f
-3483	2670	6	12 Quang Trung Street	t
-3484	2670	1	310 Le Loi Street	f
-3485	2671	22	319 Tran Hung Dao Street	t
-3486	2672	32	51 Nguyen Hue Street	t
-3487	2673	28	219 Bach Dang Street	t
-3488	2674	14	70 Quang Trung Street	t
-3489	2674	18	333 Tran Hung Dao Street	f
-3490	2675	27	28 Quang Trung Street	t
-3491	2676	14	145 Vo Thi Sau Street	t
-3492	2676	27	252 Le Loi Street	f
-3493	2677	1	144 Tran Hung Dao Street	t
-3494	2678	32	305 Quang Trung Street	t
-3495	2679	34	297 Hung Vuong Street	t
-3496	2680	28	173 Ly Thuong Kiet Street	t
-3497	2681	1	389 Ly Thuong Kiet Street	t
-3498	2682	27	115 Hung Vuong Street	t
-3499	2683	29	377 Bach Dang Street	t
-3500	2683	15	85 Tran Hung Dao Street	f
-3501	2684	8	235 Vo Thi Sau Street	t
-3502	2685	4	293 Dien Bien Phu Street	t
-3503	2686	1	38 Nguyen Trai Street	t
-3504	2687	26	66 Dien Bien Phu Street	t
-3505	2688	24	236 Phan Chu Trinh Street	t
-3506	2689	29	93 Ly Thuong Kiet Street	t
-3507	2689	27	340 Quang Trung Street	f
-3508	2689	14	167 Vo Thi Sau Street	f
-3509	2690	7	179 Nguyen Trai Street	t
-3510	2691	1	145 Nguyen Trai Street	t
-3511	2691	32	137 Le Loi Street	f
-3512	2692	25	54 Vo Thi Sau Street	t
-3513	2692	1	44 Vo Thi Sau Street	f
-3514	2693	1	328 Phan Chu Trinh Street	t
-3515	2693	12	353 Dien Bien Phu Street	f
-3516	2694	17	86 Bach Dang Street	t
-3517	2695	20	385 Quang Trung Street	t
-3518	2696	27	101 Dien Bien Phu Street	t
-3519	2696	25	201 Quang Trung Street	f
-3520	2696	25	359 Tran Hung Dao Street	f
-3521	2697	22	67 Hai Ba Trung Street	t
-3522	2698	27	259 Bach Dang Street	t
-3523	2699	1	11 Vo Thi Sau Street	t
-3524	2700	27	181 Dien Bien Phu Street	t
-3525	2700	1	56 Ly Thuong Kiet Street	f
-3526	2700	27	24 Quang Trung Street	f
-3527	2701	1	16 Bach Dang Street	t
-3528	2702	2	8 Le Loi Street	t
-3529	2703	11	330 Nguyen Trai Street	t
-3530	2703	16	178 Quang Trung Street	f
-3531	2703	8	17 Le Loi Street	f
-3532	2704	8	92 Bach Dang Street	t
-3533	2705	27	275 Hung Vuong Street	t
-3534	2705	1	233 Hung Vuong Street	f
-3535	2705	1	123 Dien Bien Phu Street	f
-3536	2706	13	93 Phan Chu Trinh Street	t
-3537	2706	1	337 Vo Thi Sau Street	f
-3538	2707	19	17 Bach Dang Street	t
-3539	2707	12	266 Le Loi Street	f
-3540	2708	1	63 Hung Vuong Street	t
-3541	2709	18	135 Nguyen Trai Street	t
-3542	2710	24	129 Nguyen Trai Street	t
-3543	2711	25	242 Tran Hung Dao Street	t
-3544	2712	32	26 Quang Trung Street	t
-3545	2713	27	131 Le Loi Street	t
-3546	2714	27	229 Tran Hung Dao Street	t
-3547	2715	27	31 Vo Thi Sau Street	t
-3548	2715	1	103 Phan Chu Trinh Street	f
-3549	2716	27	76 Tran Hung Dao Street	t
-3550	2717	17	23 Nguyen Hue Street	t
-3551	2718	5	348 Bach Dang Street	t
-3552	2718	24	7 Dien Bien Phu Street	f
-3553	2718	1	87 Tran Hung Dao Street	f
-3554	2719	13	113 Ly Thuong Kiet Street	t
-3555	2719	17	35 Hai Ba Trung Street	f
-3556	2720	27	120 Dien Bien Phu Street	t
-3557	2721	27	135 Hung Vuong Street	t
-3558	2722	11	21 Hung Vuong Street	t
-3559	2723	7	391 Quang Trung Street	t
-3560	2724	28	81 Ly Thuong Kiet Street	t
-3561	2725	30	217 Hung Vuong Street	t
-3562	2725	18	146 Hung Vuong Street	f
-3563	2725	1	289 Bach Dang Street	f
-3564	2726	1	63 Bach Dang Street	t
-3565	2727	27	361 Hai Ba Trung Street	t
-3566	2727	11	277 Tran Hung Dao Street	f
-3567	2728	23	239 Dien Bien Phu Street	t
-3568	2728	17	267 Quang Trung Street	f
-3569	2729	1	130 Le Loi Street	t
-3570	2730	1	179 Quang Trung Street	t
-3571	2731	1	383 Hai Ba Trung Street	t
-3572	2732	17	75 Dien Bien Phu Street	t
-3573	2733	1	264 Le Loi Street	t
-3574	2734	18	364 Hung Vuong Street	t
-3575	2735	27	295 Ly Thuong Kiet Street	t
-3576	2736	2	59 Ly Thuong Kiet Street	t
-3577	2737	26	328 Dien Bien Phu Street	t
-3578	2737	27	309 Bach Dang Street	f
-3579	2738	30	224 Quang Trung Street	t
-3580	2739	8	207 Nguyen Hue Street	t
-3581	2740	27	49 Hai Ba Trung Street	t
-3582	2740	32	123 Hung Vuong Street	f
-3583	2740	13	254 Quang Trung Street	f
-3584	2741	1	118 Nguyen Trai Street	t
-3585	2741	27	161 Hung Vuong Street	f
-3586	2742	27	120 Le Loi Street	t
-3587	2743	27	186 Vo Thi Sau Street	t
-3588	2744	19	328 Bach Dang Street	t
-3589	2745	27	308 Hung Vuong Street	t
-3590	2746	27	161 Ly Thuong Kiet Street	t
-3591	2747	18	384 Vo Thi Sau Street	t
-3592	2748	1	263 Phan Chu Trinh Street	t
-3593	2749	1	103 Ly Thuong Kiet Street	t
-3594	2750	27	261 Ly Thuong Kiet Street	t
-3595	2751	28	395 Vo Thi Sau Street	t
-3596	2752	1	110 Ly Thuong Kiet Street	t
-3597	2753	27	272 Bach Dang Street	t
-3598	2754	13	129 Dien Bien Phu Street	t
-3599	2755	9	212 Ly Thuong Kiet Street	t
-3600	2755	28	250 Hai Ba Trung Street	f
-3601	2755	2	82 Ly Thuong Kiet Street	f
-3602	2756	10	189 Nguyen Hue Street	t
-3603	2757	28	329 Hai Ba Trung Street	t
-3604	2758	11	180 Ly Thuong Kiet Street	t
-3605	2759	17	136 Le Loi Street	t
-3606	2760	19	373 Phan Chu Trinh Street	t
-3607	2761	20	281 Hung Vuong Street	t
-3608	2762	27	250 Le Loi Street	t
-3609	2762	1	285 Dien Bien Phu Street	f
-3610	2763	31	262 Vo Thi Sau Street	t
-3611	2764	27	257 Le Loi Street	t
-3612	2764	16	356 Vo Thi Sau Street	f
-3613	2764	1	202 Dien Bien Phu Street	f
-3614	2765	28	149 Hai Ba Trung Street	t
-3615	2765	32	95 Le Loi Street	f
-3616	2766	1	217 Vo Thi Sau Street	t
-3617	2767	27	112 Hai Ba Trung Street	t
-3618	2768	27	164 Nguyen Trai Street	t
-3619	2769	17	117 Le Loi Street	t
-3620	2770	1	378 Ly Thuong Kiet Street	t
-3621	2770	13	333 Nguyen Trai Street	f
-3622	2771	27	181 Phan Chu Trinh Street	t
-3623	2772	27	378 Vo Thi Sau Street	t
-3624	2773	3	189 Ly Thuong Kiet Street	t
-3625	2774	27	358 Bach Dang Street	t
-3626	2775	27	34 Tran Hung Dao Street	t
-3627	2776	27	316 Bach Dang Street	t
-3628	2777	1	108 Hung Vuong Street	t
-3629	2777	27	276 Vo Thi Sau Street	f
-3630	2778	1	209 Bach Dang Street	t
-3631	2778	29	15 Bach Dang Street	f
-3632	2779	28	69 Hung Vuong Street	t
-3633	2780	27	196 Hung Vuong Street	t
-3634	2781	27	151 Dien Bien Phu Street	t
-3635	2782	27	274 Dien Bien Phu Street	t
-3636	2782	1	85 Nguyen Trai Street	f
-3637	2783	24	57 Dien Bien Phu Street	t
-3638	2783	1	170 Nguyen Trai Street	f
-3639	2784	2	336 Quang Trung Street	t
-3640	2785	27	5 Phan Chu Trinh Street	t
-3641	2785	1	329 Hung Vuong Street	f
-3642	2785	27	190 Bach Dang Street	f
-3643	2786	12	162 Ly Thuong Kiet Street	t
-3644	2786	21	210 Bach Dang Street	f
-3645	2787	22	121 Tran Hung Dao Street	t
-3646	2788	13	178 Quang Trung Street	t
-3647	2789	2	309 Dien Bien Phu Street	t
-3648	2790	27	311 Nguyen Trai Street	t
-3649	2791	26	151 Bach Dang Street	t
-3650	2791	33	115 Nguyen Trai Street	f
-3651	2792	20	289 Bach Dang Street	t
-3652	2793	26	55 Bach Dang Street	t
-3653	2794	27	242 Ly Thuong Kiet Street	t
-3654	2795	26	351 Vo Thi Sau Street	t
-3655	2796	27	106 Hai Ba Trung Street	t
-3656	2797	33	398 Hung Vuong Street	t
-3657	2797	1	5 Quang Trung Street	f
-3658	2798	34	209 Ly Thuong Kiet Street	t
-3659	2799	17	3 Vo Thi Sau Street	t
-3660	2800	1	181 Vo Thi Sau Street	t
-3661	2801	26	278 Tran Hung Dao Street	t
-3662	2802	27	95 Bach Dang Street	t
-3663	2802	1	62 Phan Chu Trinh Street	f
-3664	2803	2	240 Tran Hung Dao Street	t
-3665	2804	27	23 Bach Dang Street	t
-3666	2805	29	258 Phan Chu Trinh Street	t
-3667	2806	27	84 Bach Dang Street	t
-3668	2807	17	386 Hung Vuong Street	t
-3669	2808	12	170 Nguyen Trai Street	t
-3670	2809	23	106 Ly Thuong Kiet Street	t
-3671	2809	27	245 Quang Trung Street	f
-3672	2810	34	263 Ly Thuong Kiet Street	t
-3673	2811	18	208 Bach Dang Street	t
-3674	2811	21	336 Hung Vuong Street	f
-3675	2811	27	274 Ly Thuong Kiet Street	f
-3676	2812	24	18 Nguyen Hue Street	t
-3677	2813	3	151 Vo Thi Sau Street	t
-3678	2814	1	34 Quang Trung Street	t
-3679	2815	27	270 Hung Vuong Street	t
-3680	2816	10	204 Hung Vuong Street	t
-3681	2817	34	22 Vo Thi Sau Street	t
-3682	2818	27	184 Ly Thuong Kiet Street	t
-3683	2819	1	188 Hai Ba Trung Street	t
-3684	2819	34	322 Quang Trung Street	f
-3685	2820	33	298 Nguyen Trai Street	t
-3686	2821	29	103 Tran Hung Dao Street	t
-3687	2822	34	293 Ly Thuong Kiet Street	t
-3688	2823	2	97 Ly Thuong Kiet Street	t
-3689	2824	29	52 Tran Hung Dao Street	t
-3690	2825	32	82 Quang Trung Street	t
-3691	2826	24	191 Hung Vuong Street	t
-3692	2827	27	191 Hai Ba Trung Street	t
-3693	2828	17	65 Le Loi Street	t
-3694	2829	17	364 Phan Chu Trinh Street	t
-3695	2830	28	196 Ly Thuong Kiet Street	t
-3696	2831	28	57 Hai Ba Trung Street	t
-3697	2832	29	313 Tran Hung Dao Street	t
-3698	2833	1	140 Nguyen Trai Street	t
-3699	2833	27	336 Quang Trung Street	f
-3700	2833	16	114 Quang Trung Street	f
-3701	2834	1	159 Hung Vuong Street	t
-3702	2835	13	102 Vo Thi Sau Street	t
-3703	2836	13	382 Quang Trung Street	t
-3704	2837	1	115 Tran Hung Dao Street	t
-3705	2838	27	365 Quang Trung Street	t
-3706	2839	1	317 Hung Vuong Street	t
-3707	2840	27	14 Le Loi Street	t
-3708	2841	14	33 Tran Hung Dao Street	t
-3709	2842	28	171 Dien Bien Phu Street	t
-3710	2843	31	338 Tran Hung Dao Street	t
-3711	2844	17	23 Hung Vuong Street	t
-3712	2845	28	198 Le Loi Street	t
-3713	2846	11	7 Tran Hung Dao Street	t
-3714	2847	6	155 Dien Bien Phu Street	t
-3715	2848	23	201 Bach Dang Street	t
-3716	2849	12	99 Ly Thuong Kiet Street	t
-3717	2849	22	309 Hung Vuong Street	f
-3718	2850	1	81 Phan Chu Trinh Street	t
-3719	2851	22	351 Hai Ba Trung Street	t
-3720	2852	27	172 Vo Thi Sau Street	t
-3721	2852	27	37 Tran Hung Dao Street	f
-3722	2853	16	189 Nguyen Hue Street	t
-3723	2853	22	276 Dien Bien Phu Street	f
-3724	2853	22	291 Hung Vuong Street	f
-3725	2854	15	53 Nguyen Trai Street	t
-3726	2855	1	115 Quang Trung Street	t
-3727	2856	30	103 Ly Thuong Kiet Street	t
-3728	2857	27	81 Dien Bien Phu Street	t
-3729	2858	16	130 Nguyen Hue Street	t
-3730	2859	2	58 Nguyen Hue Street	t
-3731	2860	27	111 Quang Trung Street	t
-3732	2860	1	147 Le Loi Street	f
-3733	2861	26	9 Nguyen Trai Street	t
-3734	2862	21	193 Hung Vuong Street	t
-3735	2863	17	112 Vo Thi Sau Street	t
-3736	2864	1	266 Hai Ba Trung Street	t
-3737	2864	30	253 Dien Bien Phu Street	f
-3738	2865	30	74 Bach Dang Street	t
-3739	2866	12	5 Hai Ba Trung Street	t
-3740	2867	6	298 Le Loi Street	t
-3741	2868	1	257 Hai Ba Trung Street	t
-3742	2868	20	242 Nguyen Trai Street	f
-3743	2869	1	274 Le Loi Street	t
-3744	2870	1	89 Hung Vuong Street	t
-3745	2871	28	169 Vo Thi Sau Street	t
-3746	2872	26	139 Quang Trung Street	t
-3747	2873	13	141 Hung Vuong Street	t
-3748	2873	27	95 Hai Ba Trung Street	f
-3749	2874	21	267 Le Loi Street	t
-3750	2875	1	115 Vo Thi Sau Street	t
-3751	2875	1	364 Dien Bien Phu Street	f
-3752	2876	29	69 Ly Thuong Kiet Street	t
-3753	2877	17	53 Dien Bien Phu Street	t
-3754	2878	28	193 Hai Ba Trung Street	t
-3755	2878	1	208 Hung Vuong Street	f
-3756	2879	2	386 Vo Thi Sau Street	t
-3757	2879	27	270 Hai Ba Trung Street	f
-3758	2880	12	273 Hai Ba Trung Street	t
-3759	2880	16	167 Quang Trung Street	f
-3760	2881	1	310 Vo Thi Sau Street	t
-3761	2881	25	379 Dien Bien Phu Street	f
-3762	2881	27	292 Tran Hung Dao Street	f
-3763	2882	2	325 Hung Vuong Street	t
-3764	2883	26	26 Nguyen Trai Street	t
-3765	2884	19	223 Quang Trung Street	t
-3766	2885	27	299 Hai Ba Trung Street	t
-3767	2886	10	121 Nguyen Hue Street	t
-3768	2886	5	356 Quang Trung Street	f
-3769	2886	27	16 Nguyen Hue Street	f
-3770	2887	28	309 Le Loi Street	t
-3771	2888	27	360 Tran Hung Dao Street	t
-3772	2888	12	79 Quang Trung Street	f
-3773	2888	4	296 Nguyen Hue Street	f
-3774	2889	18	229 Nguyen Trai Street	t
-3775	2890	23	239 Tran Hung Dao Street	t
-3776	2891	11	365 Quang Trung Street	t
-3777	2892	19	41 Tran Hung Dao Street	t
-3778	2893	10	174 Nguyen Hue Street	t
-3779	2894	27	373 Ly Thuong Kiet Street	t
-3780	2894	20	239 Phan Chu Trinh Street	f
-3781	2895	27	39 Ly Thuong Kiet Street	t
-3782	2896	17	374 Hung Vuong Street	t
-3783	2897	19	266 Quang Trung Street	t
-3784	2898	11	28 Phan Chu Trinh Street	t
-3785	2899	22	71 Bach Dang Street	t
-3786	2900	27	180 Vo Thi Sau Street	t
-3787	2901	24	165 Nguyen Trai Street	t
-3788	2902	23	87 Hai Ba Trung Street	t
-3789	2903	27	224 Hai Ba Trung Street	t
-3790	2904	1	359 Quang Trung Street	t
-3791	2905	19	261 Hai Ba Trung Street	t
-3792	2906	27	284 Dien Bien Phu Street	t
-3793	2906	32	160 Hai Ba Trung Street	f
-3794	2907	10	58 Quang Trung Street	t
-3795	2908	27	14 Ly Thuong Kiet Street	t
-3796	2908	24	385 Quang Trung Street	f
-3797	2909	30	55 Vo Thi Sau Street	t
-3798	2910	27	290 Phan Chu Trinh Street	t
-3799	2911	17	223 Phan Chu Trinh Street	t
-3800	2912	22	303 Nguyen Trai Street	t
-3801	2913	27	141 Quang Trung Street	t
-3802	2913	8	398 Hai Ba Trung Street	f
-3803	2914	1	305 Ly Thuong Kiet Street	t
-3804	2915	17	58 Le Loi Street	t
-3805	2916	27	370 Hai Ba Trung Street	t
-3806	2917	30	78 Hai Ba Trung Street	t
-3807	2917	18	373 Phan Chu Trinh Street	f
-3808	2918	10	252 Hung Vuong Street	t
-3809	2919	29	157 Vo Thi Sau Street	t
-3810	2920	1	278 Nguyen Hue Street	t
-3811	2921	27	266 Ly Thuong Kiet Street	t
-3812	2921	18	248 Le Loi Street	f
-3813	2921	19	79 Dien Bien Phu Street	f
-3814	2922	27	71 Nguyen Trai Street	t
-3815	2922	1	130 Hai Ba Trung Street	f
-3816	2923	27	1 Dien Bien Phu Street	t
-3817	2923	27	14 Hai Ba Trung Street	f
-3818	2924	7	104 Phan Chu Trinh Street	t
-3819	2925	28	24 Nguyen Hue Street	t
-3820	2926	30	185 Dien Bien Phu Street	t
-3821	2927	27	398 Dien Bien Phu Street	t
-3822	2928	1	107 Quang Trung Street	t
-3823	2929	22	255 Dien Bien Phu Street	t
-3824	2930	27	108 Hung Vuong Street	t
-3825	2930	27	371 Dien Bien Phu Street	f
-3826	2931	1	395 Nguyen Trai Street	t
-3827	2932	18	317 Phan Chu Trinh Street	t
-3828	2933	17	173 Hai Ba Trung Street	t
-3829	2934	25	19 Vo Thi Sau Street	t
-3830	2934	27	273 Dien Bien Phu Street	f
-3831	2934	27	37 Hung Vuong Street	f
-3832	2935	18	362 Bach Dang Street	t
-3833	2935	6	30 Bach Dang Street	f
-3834	2936	27	387 Phan Chu Trinh Street	t
-3835	2937	22	308 Ly Thuong Kiet Street	t
-3836	2938	22	337 Tran Hung Dao Street	t
-3837	2939	25	187 Phan Chu Trinh Street	t
-3838	2940	1	217 Ly Thuong Kiet Street	t
-3839	2940	21	199 Vo Thi Sau Street	f
-3840	2940	29	33 Nguyen Hue Street	f
-3841	2941	27	41 Nguyen Hue Street	t
-3842	2941	29	222 Phan Chu Trinh Street	f
-3843	2942	27	33 Hai Ba Trung Street	t
-3844	2943	28	226 Hung Vuong Street	t
-3845	2944	27	393 Nguyen Hue Street	t
-3846	2945	1	78 Le Loi Street	t
-3847	2946	27	14 Phan Chu Trinh Street	t
-3848	2947	27	260 Le Loi Street	t
-3849	2948	1	257 Dien Bien Phu Street	t
-3850	2949	7	149 Phan Chu Trinh Street	t
-3851	2950	19	193 Bach Dang Street	t
-3852	2951	29	165 Bach Dang Street	t
-3853	2952	22	121 Tran Hung Dao Street	t
-3854	2952	2	383 Bach Dang Street	f
-3855	2953	11	226 Nguyen Hue Street	t
-3856	2953	17	134 Bach Dang Street	f
-3857	2954	27	296 Vo Thi Sau Street	t
-3858	2954	12	121 Phan Chu Trinh Street	f
-3859	2955	2	302 Nguyen Hue Street	t
-3860	2956	27	143 Bach Dang Street	t
-3861	2956	29	319 Bach Dang Street	f
-3862	2957	27	11 Phan Chu Trinh Street	t
-3863	2958	23	24 Dien Bien Phu Street	t
-3864	2959	6	73 Nguyen Hue Street	t
-3865	2960	18	216 Dien Bien Phu Street	t
-3866	2961	1	141 Nguyen Hue Street	t
-3867	2962	8	60 Vo Thi Sau Street	t
-3868	2962	4	47 Vo Thi Sau Street	f
-3869	2963	12	83 Dien Bien Phu Street	t
-3870	2964	27	221 Phan Chu Trinh Street	t
-3871	2964	1	216 Hai Ba Trung Street	f
-3872	2965	33	305 Hai Ba Trung Street	t
-3873	2966	1	85 Bach Dang Street	t
-3874	2966	8	100 Phan Chu Trinh Street	f
-3875	2967	1	286 Le Loi Street	t
-3876	2967	17	344 Hung Vuong Street	f
-3877	2968	25	135 Tran Hung Dao Street	t
-3878	2969	32	149 Phan Chu Trinh Street	t
-3879	2970	17	175 Ly Thuong Kiet Street	t
-3880	2971	7	96 Vo Thi Sau Street	t
-3881	2972	1	315 Phan Chu Trinh Street	t
-3882	2972	27	218 Dien Bien Phu Street	f
-3883	2973	24	289 Nguyen Hue Street	t
-3884	2974	4	113 Tran Hung Dao Street	t
-3885	2975	29	222 Le Loi Street	t
-3886	2976	26	399 Le Loi Street	t
-3887	2977	5	331 Dien Bien Phu Street	t
-3888	2978	34	20 Quang Trung Street	t
-3889	2978	15	17 Vo Thi Sau Street	f
-3890	2979	27	287 Quang Trung Street	t
-3891	2980	1	395 Vo Thi Sau Street	t
-3892	2981	11	116 Phan Chu Trinh Street	t
-3893	2981	1	380 Hung Vuong Street	f
-3894	2982	29	73 Dien Bien Phu Street	t
-3895	2983	1	182 Phan Chu Trinh Street	t
-3896	2984	31	284 Dien Bien Phu Street	t
-3897	2984	31	191 Nguyen Hue Street	f
-3898	2985	27	370 Phan Chu Trinh Street	t
-3899	2986	27	178 Nguyen Trai Street	t
-3900	2986	27	287 Quang Trung Street	f
-3901	2987	27	285 Le Loi Street	t
-3902	2988	27	224 Ly Thuong Kiet Street	t
-3903	2989	18	350 Hai Ba Trung Street	t
-3904	2990	19	95 Vo Thi Sau Street	t
-3905	2990	1	12 Tran Hung Dao Street	f
-3906	2991	34	392 Hai Ba Trung Street	t
-3907	2992	24	77 Bach Dang Street	t
-3908	2993	27	45 Phan Chu Trinh Street	t
-3909	2993	1	306 Vo Thi Sau Street	f
-3910	2994	1	353 Ly Thuong Kiet Street	t
-3911	2995	6	316 Tran Hung Dao Street	t
-3912	2996	33	126 Bach Dang Street	t
-3913	2997	27	68 Phan Chu Trinh Street	t
-3914	2998	26	339 Hai Ba Trung Street	t
-3915	2999	28	312 Bach Dang Street	t
-3916	3000	7	322 Tran Hung Dao Street	t
+1	1	27	147 Elm St	t
+2	2	15	95 Sunset Blvd	t
+3	3	28	99 Cedar Rd	t
+4	4	1	323 Cedar Rd	t
+5	5	25	217 Lincoln Way	t
+6	6	1	283 Maple Ave	t
+7	7	11	155 Sunset Blvd	t
+8	8	2	233 Lincoln Way	t
+9	9	17	127 Broadway	t
+10	9	12	313 Sunset Blvd	f
+11	10	27	322 Lincoln Way	t
+12	11	2	139 Main St	t
+13	11	1	84 Oak St	f
+14	12	27	181 Maple Ave	t
+15	13	27	298 Broadway	t
+16	13	27	214 Lincoln Way	f
+17	13	27	268 Maple Ave	f
+18	14	7	61 Elm St	t
+19	15	20	114 Highland Ave	t
+20	15	27	212 Main St	f
+21	16	12	317 Oak St	t
+22	17	27	132 Lakeview Dr	t
+23	18	26	96 Broadway	t
+24	18	1	9 Cedar Rd	f
+25	19	21	77 Broadway	t
+26	19	10	340 Broadway	f
+27	19	28	345 Elm St	f
+28	20	3	31 Maple Ave	t
+29	20	3	161 Sunset Blvd	f
+30	20	26	112 Elm St	f
+31	21	27	343 Highland Ave	t
+32	21	27	286 Highland Ave	f
+33	21	29	189 Sunset Blvd	f
+34	22	11	191 Lakeview Dr	t
+35	23	11	195 Highland Ave	t
+36	24	29	310 Main St	t
+37	24	29	244 Sunset Blvd	f
+38	25	28	147 Washington St	t
+39	26	1	223 Oak St	t
+40	27	23	181 Highland Ave	t
+41	28	29	180 Cedar Rd	t
+42	29	27	43 Broadway	t
+43	30	27	27 Oak St	t
+44	31	2	90 Oak St	t
+45	32	7	249 Elm St	t
+46	33	1	271 Lakeview Dr	t
+47	34	1	223 Highland Ave	t
+48	35	27	5 Washington St	t
+49	36	1	327 Oak St	t
+50	37	17	225 Broadway	t
+51	37	29	155 Park Ave	f
+52	38	11	55 Maple Ave	t
+53	38	31	123 Elm St	f
+54	39	1	314 Sunset Blvd	t
+55	40	10	238 Broadway	t
+56	41	13	395 Main St	t
+57	41	30	267 Park Ave	f
+58	41	11	319 Main St	f
+59	42	1	201 Maple Ave	t
+60	43	27	336 Sunset Blvd	t
+61	44	27	384 Park Ave	t
+62	45	32	131 Main St	t
+63	46	22	138 Washington St	t
+64	47	28	366 Main St	t
+65	48	34	14 Elm St	t
+66	49	14	276 Sunset Blvd	t
+67	49	1	259 Washington St	f
+68	50	6	148 Lakeview Dr	t
+69	50	1	358 Washington St	f
+70	51	27	272 Cedar Rd	t
+71	52	1	194 Highland Ave	t
+72	53	22	20 Maple Ave	t
+73	54	1	283 Highland Ave	t
+74	55	2	392 Broadway	t
+75	56	2	186 Park Ave	t
+76	57	20	378 Elm St	t
+77	58	18	363 Sunset Blvd	t
+78	58	17	24 Highland Ave	f
+79	58	27	279 Cedar Rd	f
+80	59	32	360 Cedar Rd	t
+81	60	27	316 Highland Ave	t
+82	61	17	60 Maple Ave	t
+83	62	27	277 Lakeview Dr	t
+84	62	1	227 Washington St	f
+85	63	16	338 Cedar Rd	t
+86	63	29	222 Sunset Blvd	f
+87	63	25	370 Oak St	f
+88	64	15	123 Washington St	t
+89	65	13	308 Oak St	t
+90	65	17	262 Park Ave	f
+91	66	18	361 Park Ave	t
+92	66	18	34 Oak St	f
+93	67	27	52 Washington St	t
+94	68	30	392 Cedar Rd	t
+95	69	23	352 Washington St	t
+96	69	1	173 Broadway	f
+97	70	31	169 Park Ave	t
+98	71	19	134 Lakeview Dr	t
+99	72	1	309 Maple Ave	t
+100	73	27	361 Maple Ave	t
+101	73	31	140 Broadway	f
+102	73	27	391 Park Ave	f
+103	74	14	104 Highland Ave	t
+104	74	1	275 Maple Ave	f
+105	75	33	350 Lincoln Way	t
+106	76	27	26 Lincoln Way	t
+107	77	2	74 Lakeview Dr	t
+108	78	25	232 Sunset Blvd	t
+109	79	17	362 Lincoln Way	t
+110	80	27	52 Washington St	t
+111	81	11	257 Lincoln Way	t
+112	82	28	222 Lakeview Dr	t
+113	83	1	166 Cedar Rd	t
+114	84	12	274 Oak St	t
+115	84	1	207 Sunset Blvd	f
+116	84	17	353 Sunset Blvd	f
+117	85	18	325 Washington St	t
+118	86	27	265 Elm St	t
+119	87	1	211 Main St	t
+120	88	1	45 Washington St	t
+121	89	2	162 Lincoln Way	t
+122	90	1	163 Broadway	t
+123	91	13	206 Maple Ave	t
+124	92	12	282 Maple Ave	t
+125	93	17	173 Cedar Rd	t
+126	94	18	380 Oak St	t
+127	95	14	215 Sunset Blvd	t
+128	96	17	19 Lincoln Way	t
+129	97	17	201 Highland Ave	t
+130	98	1	269 Lakeview Dr	t
+131	98	2	213 Sunset Blvd	f
+132	98	29	349 Washington St	f
+133	99	1	356 Oak St	t
+134	100	1	25 Sunset Blvd	t
+135	101	23	203 Broadway	t
+136	102	19	156 Washington St	t
+137	103	32	124 Lakeview Dr	t
+138	104	26	210 Lakeview Dr	t
+139	105	27	109 Washington St	t
+140	106	1	276 Washington St	t
+141	107	1	169 Cedar Rd	t
+142	108	28	136 Lincoln Way	t
+143	109	27	279 Main St	t
+144	109	1	360 Highland Ave	f
+145	110	1	263 Maple Ave	t
+146	111	34	214 Elm St	t
+147	111	22	213 Lincoln Way	f
+148	112	27	227 Cedar Rd	t
+149	113	1	196 Elm St	t
+150	114	30	201 Lakeview Dr	t
+151	115	1	32 Washington St	t
+152	115	16	6 Main St	f
+153	116	1	172 Lincoln Way	t
+154	117	17	313 Lincoln Way	t
+155	117	1	256 Cedar Rd	f
+156	118	22	283 Oak St	t
+157	119	1	212 Broadway	t
+158	119	1	106 Elm St	f
+159	120	16	217 Cedar Rd	t
+160	121	17	221 Main St	t
+161	122	1	372 Sunset Blvd	t
+162	123	16	194 Broadway	t
+163	124	14	13 Sunset Blvd	t
+164	125	30	354 Broadway	t
+165	126	9	14 Highland Ave	t
+166	127	23	214 Washington St	t
+167	127	27	22 Maple Ave	f
+168	128	1	131 Main St	t
+169	129	31	350 Lakeview Dr	t
+170	129	20	189 Elm St	f
+171	130	12	289 Elm St	t
+172	131	27	42 Sunset Blvd	t
+173	132	27	322 Elm St	t
+174	133	23	277 Lakeview Dr	t
+175	133	29	336 Elm St	f
+176	134	27	367 Lakeview Dr	t
+177	135	31	196 Elm St	t
+178	136	27	336 Main St	t
+179	137	27	175 Lakeview Dr	t
+180	138	27	36 Park Ave	t
+181	139	28	335 Broadway	t
+182	139	17	125 Main St	f
+183	140	30	347 Lakeview Dr	t
+184	140	15	249 Highland Ave	f
+185	141	27	174 Highland Ave	t
+186	142	1	169 Main St	t
+187	143	29	23 Cedar Rd	t
+188	144	16	358 Broadway	t
+189	145	1	37 Highland Ave	t
+190	145	1	298 Oak St	f
+191	146	12	110 Oak St	t
+192	147	11	184 Broadway	t
+193	147	20	197 Cedar Rd	f
+194	148	27	289 Maple Ave	t
+195	148	1	37 Broadway	f
+196	149	1	320 Park Ave	t
+197	150	18	357 Lincoln Way	t
+198	150	12	162 Main St	f
+199	150	24	369 Elm St	f
+200	151	5	190 Maple Ave	t
+201	152	1	323 Lakeview Dr	t
+202	153	27	129 Main St	t
+203	154	11	277 Oak St	t
+204	154	1	151 Park Ave	f
+205	155	27	122 Highland Ave	t
+206	155	8	109 Cedar Rd	f
+207	156	15	312 Main St	t
+208	156	12	194 Cedar Rd	f
+209	157	27	281 Broadway	t
+210	158	25	253 Oak St	t
+211	158	27	138 Highland Ave	f
+212	158	27	212 Sunset Blvd	f
+213	159	22	385 Broadway	t
+214	159	22	149 Elm St	f
+215	160	22	242 Cedar Rd	t
+216	161	1	310 Cedar Rd	t
+217	162	17	251 Broadway	t
+218	162	14	167 Lakeview Dr	f
+219	163	27	254 Highland Ave	t
+220	164	24	189 Lakeview Dr	t
+221	165	12	129 Highland Ave	t
+222	166	17	192 Broadway	t
+223	167	24	29 Cedar Rd	t
+224	168	2	170 Sunset Blvd	t
+225	169	2	341 Lakeview Dr	t
+226	170	32	376 Cedar Rd	t
+227	171	1	351 Lincoln Way	t
+228	172	27	287 Lincoln Way	t
+229	173	14	370 Park Ave	t
+230	174	7	192 Broadway	t
+231	175	26	227 Oak St	t
+232	175	6	109 Park Ave	f
+233	176	31	45 Lincoln Way	t
+234	177	27	387 Lakeview Dr	t
+235	178	12	275 Sunset Blvd	t
+236	179	14	133 Park Ave	t
+237	180	1	395 Lakeview Dr	t
+238	181	27	263 Broadway	t
+239	182	19	91 Cedar Rd	t
+240	183	1	2 Maple Ave	t
+241	183	12	394 Broadway	f
+242	183	2	180 Main St	f
+243	184	27	250 Maple Ave	t
+244	185	33	207 Main St	t
+245	185	17	249 Park Ave	f
+246	186	2	357 Sunset Blvd	t
+247	186	25	309 Park Ave	f
+248	187	16	52 Sunset Blvd	t
+249	188	31	298 Oak St	t
+250	189	27	341 Lincoln Way	t
+251	190	30	248 Sunset Blvd	t
+252	191	4	253 Cedar Rd	t
+253	192	30	115 Lincoln Way	t
+254	192	18	134 Washington St	f
+255	193	31	334 Sunset Blvd	t
+256	194	20	327 Park Ave	t
+257	194	28	133 Lincoln Way	f
+258	194	31	364 Broadway	f
+259	195	13	34 Cedar Rd	t
+260	196	16	11 Washington St	t
+261	197	27	110 Lakeview Dr	t
+262	198	27	341 Washington St	t
+263	199	27	251 Lakeview Dr	t
+264	200	18	242 Lincoln Way	t
+265	201	25	356 Sunset Blvd	t
+266	201	18	262 Sunset Blvd	f
+267	202	28	261 Broadway	t
+268	203	7	34 Maple Ave	t
+269	203	27	233 Maple Ave	f
+270	204	2	209 Maple Ave	t
+271	205	13	140 Cedar Rd	t
+272	205	24	283 Elm St	f
+273	205	32	193 Park Ave	f
+274	206	20	305 Park Ave	t
+275	207	25	317 Highland Ave	t
+276	208	18	399 Lakeview Dr	t
+277	208	17	184 Highland Ave	f
+278	209	2	347 Lincoln Way	t
+279	210	8	312 Washington St	t
+280	211	32	298 Washington St	t
+281	212	22	394 Highland Ave	t
+282	212	28	196 Sunset Blvd	f
+283	213	22	215 Main St	t
+284	214	33	244 Oak St	t
+285	215	9	318 Highland Ave	t
+286	216	1	277 Elm St	t
+287	217	2	194 Lakeview Dr	t
+288	218	2	224 Elm St	t
+289	219	1	234 Broadway	t
+290	220	8	278 Sunset Blvd	t
+291	221	19	334 Cedar Rd	t
+292	221	34	184 Main St	f
+293	222	1	284 Park Ave	t
+294	222	13	85 Maple Ave	f
+295	223	29	280 Washington St	t
+296	224	15	53 Highland Ave	t
+297	224	1	327 Maple Ave	f
+298	225	17	82 Elm St	t
+299	226	27	225 Oak St	t
+300	227	1	32 Elm St	t
+301	227	29	22 Oak St	f
+302	228	29	223 Lakeview Dr	t
+303	228	27	4 Maple Ave	f
+304	229	29	356 Lincoln Way	t
+305	230	2	374 Maple Ave	t
+306	230	25	29 Sunset Blvd	f
+307	231	7	374 Washington St	t
+308	232	27	84 Lakeview Dr	t
+309	233	1	62 Broadway	t
+310	233	7	175 Cedar Rd	f
+311	234	7	302 Park Ave	t
+312	235	13	161 Sunset Blvd	t
+313	236	6	256 Washington St	t
+314	237	28	240 Broadway	t
+315	238	27	350 Broadway	t
+316	239	32	380 Cedar Rd	t
+317	239	1	85 Broadway	f
+318	240	32	151 Lincoln Way	t
+319	240	33	69 Lakeview Dr	f
+320	241	32	219 Broadway	t
+321	242	23	306 Broadway	t
+322	243	27	261 Maple Ave	t
+323	244	1	106 Highland Ave	t
+324	245	1	245 Maple Ave	t
+325	246	27	136 Broadway	t
+326	247	1	63 Maple Ave	t
+327	248	32	70 Park Ave	t
+328	248	22	138 Lincoln Way	f
+329	249	27	348 Broadway	t
+330	250	19	203 Elm St	t
+331	250	16	316 Lakeview Dr	f
+332	251	24	327 Lincoln Way	t
+333	252	1	68 Elm St	t
+334	253	8	155 Oak St	t
+335	254	27	52 Lakeview Dr	t
+336	255	27	200 Highland Ave	t
+337	256	5	123 Cedar Rd	t
+338	257	30	152 Sunset Blvd	t
+339	258	32	355 Lincoln Way	t
+340	259	2	280 Sunset Blvd	t
+341	259	14	51 Broadway	f
+342	260	34	249 Lincoln Way	t
+343	261	34	184 Lakeview Dr	t
+344	262	27	387 Lakeview Dr	t
+345	263	28	268 Washington St	t
+346	264	1	136 Lincoln Way	t
+347	265	27	54 Elm St	t
+348	265	24	124 Washington St	f
+349	266	5	109 Lakeview Dr	t
+350	267	29	284 Lincoln Way	t
+351	268	1	95 Lakeview Dr	t
+352	269	28	26 Lincoln Way	t
+353	270	11	128 Main St	t
+354	271	29	228 Sunset Blvd	t
+355	271	27	254 Highland Ave	f
+356	272	1	239 Cedar Rd	t
+357	273	16	60 Elm St	t
+358	274	27	230 Oak St	t
+359	275	34	242 Park Ave	t
+360	275	16	255 Maple Ave	f
+361	276	17	90 Lincoln Way	t
+362	277	7	177 Lakeview Dr	t
+363	278	28	213 Elm St	t
+364	278	27	192 Lincoln Way	f
+365	279	10	162 Park Ave	t
+366	280	14	270 Main St	t
+367	281	1	312 Cedar Rd	t
+368	282	28	40 Cedar Rd	t
+369	282	27	347 Main St	f
+370	283	25	60 Elm St	t
+371	284	30	399 Lincoln Way	t
+372	285	24	165 Broadway	t
+373	285	22	39 Park Ave	f
+374	286	27	369 Maple Ave	t
+375	287	1	118 Oak St	t
+376	288	22	206 Lincoln Way	t
+377	289	29	382 Highland Ave	t
+378	290	1	353 Highland Ave	t
+379	291	29	62 Lincoln Way	t
+380	292	1	235 Lakeview Dr	t
+381	293	6	120 Broadway	t
+382	294	1	395 Broadway	t
+383	295	27	354 Lakeview Dr	t
+384	296	9	184 Washington St	t
+385	297	7	307 Main St	t
+386	298	1	126 Lakeview Dr	t
+387	299	1	275 Broadway	t
+388	299	4	343 Lincoln Way	f
+389	300	19	147 Broadway	t
+390	301	27	213 Elm St	t
+391	302	1	147 Lincoln Way	t
+392	302	23	189 Elm St	f
+393	303	10	130 Elm St	t
+394	304	27	62 Elm St	t
+395	304	14	133 Main St	f
+396	305	1	339 Main St	t
+397	306	1	223 Broadway	t
+398	307	7	134 Lincoln Way	t
+399	308	12	33 Cedar Rd	t
+400	309	3	96 Main St	t
+401	310	13	323 Oak St	t
+402	311	25	382 Lakeview Dr	t
+403	311	27	45 Main St	f
+404	311	32	56 Cedar Rd	f
+405	312	27	133 Maple Ave	t
+406	313	29	90 Cedar Rd	t
+407	313	18	42 Highland Ave	f
+408	314	22	345 Cedar Rd	t
+409	315	17	143 Washington St	t
+410	316	27	35 Lincoln Way	t
+411	317	17	77 Highland Ave	t
+412	318	29	104 Lincoln Way	t
+413	319	31	392 Washington St	t
+414	320	34	221 Park Ave	t
+415	321	27	99 Park Ave	t
+416	322	1	188 Sunset Blvd	t
+417	323	26	335 Lakeview Dr	t
+418	324	7	156 Elm St	t
+419	325	29	120 Broadway	t
+420	326	19	35 Highland Ave	t
+421	327	29	268 Lakeview Dr	t
+422	328	27	114 Lincoln Way	t
+423	329	9	132 Sunset Blvd	t
+424	330	1	267 Cedar Rd	t
+425	330	1	234 Sunset Blvd	f
+426	331	19	194 Highland Ave	t
+427	331	16	48 Maple Ave	f
+428	332	15	59 Park Ave	t
+429	332	1	102 Cedar Rd	f
+430	332	1	92 Lakeview Dr	f
+431	333	14	149 Broadway	t
+432	334	34	93 Lakeview Dr	t
+433	335	24	260 Broadway	t
+434	336	2	195 Washington St	t
+435	337	20	282 Lakeview Dr	t
+436	337	2	327 Park Ave	f
+437	338	1	103 Maple Ave	t
+438	338	12	329 Elm St	f
+439	338	27	378 Maple Ave	f
+440	339	27	179 Cedar Rd	t
+441	340	26	144 Oak St	t
+442	341	25	379 Cedar Rd	t
+443	342	7	261 Cedar Rd	t
+444	342	1	202 Cedar Rd	f
+445	343	1	299 Broadway	t
+446	343	5	169 Lincoln Way	f
+447	344	31	79 Cedar Rd	t
+448	345	24	278 Elm St	t
+449	346	26	374 Broadway	t
+450	346	8	216 Highland Ave	f
+451	347	28	163 Lincoln Way	t
+452	348	14	313 Broadway	t
+453	348	17	282 Sunset Blvd	f
+454	349	23	95 Washington St	t
+455	350	17	195 Sunset Blvd	t
+456	351	24	184 Elm St	t
+457	352	18	238 Maple Ave	t
+458	353	6	350 Washington St	t
+459	354	27	65 Broadway	t
+460	355	5	256 Lincoln Way	t
+461	356	32	10 Washington St	t
+462	357	1	16 Lakeview Dr	t
+463	357	1	238 Elm St	f
+464	358	27	113 Broadway	t
+465	359	14	187 Sunset Blvd	t
+466	360	27	268 Elm St	t
+467	361	7	117 Park Ave	t
+468	362	20	359 Main St	t
+469	363	1	14 Highland Ave	t
+470	364	27	28 Maple Ave	t
+471	365	1	336 Lincoln Way	t
+472	365	19	161 Elm St	f
+473	365	12	390 Elm St	f
+474	366	1	271 Sunset Blvd	t
+475	367	26	148 Cedar Rd	t
+476	368	27	384 Elm St	t
+477	368	25	323 Park Ave	f
+478	368	26	214 Maple Ave	f
+479	369	29	340 Sunset Blvd	t
+480	370	17	381 Maple Ave	t
+481	370	16	293 Main St	f
+482	371	26	176 Elm St	t
+483	372	5	309 Broadway	t
+484	372	3	81 Park Ave	f
+485	373	1	322 Lakeview Dr	t
+486	374	29	263 Highland Ave	t
+487	375	19	303 Oak St	t
+488	376	1	139 Oak St	t
+489	377	27	74 Highland Ave	t
+490	378	23	188 Elm St	t
+491	379	27	109 Main St	t
+492	380	1	309 Oak St	t
+493	381	18	338 Highland Ave	t
+494	382	33	170 Elm St	t
+495	383	27	172 Washington St	t
+496	384	26	79 Sunset Blvd	t
+497	384	27	310 Elm St	f
+498	385	3	348 Park Ave	t
+499	386	1	304 Cedar Rd	t
+500	387	7	355 Elm St	t
+501	388	27	173 Lakeview Dr	t
+502	389	34	67 Main St	t
+503	390	12	68 Washington St	t
+504	391	27	166 Park Ave	t
+505	392	6	28 Elm St	t
+506	392	27	179 Lakeview Dr	f
+507	393	27	123 Washington St	t
+508	393	2	202 Maple Ave	f
+509	394	5	163 Cedar Rd	t
+510	395	27	105 Oak St	t
+511	396	22	207 Main St	t
+512	397	28	107 Elm St	t
+513	397	28	322 Cedar Rd	f
+514	398	14	138 Elm St	t
+515	399	23	185 Washington St	t
+516	400	17	108 Elm St	t
+517	400	1	284 Park Ave	f
+518	401	29	156 Elm St	t
+519	402	1	86 Highland Ave	t
+520	403	14	21 Cedar Rd	t
+521	404	27	147 Park Ave	t
+522	405	30	35 Main St	t
+523	406	27	35 Elm St	t
+524	407	27	209 Elm St	t
+525	408	17	91 Cedar Rd	t
+526	409	2	155 Washington St	t
+527	409	18	210 Elm St	f
+528	410	28	228 Lincoln Way	t
+529	410	34	155 Maple Ave	f
+530	411	29	258 Broadway	t
+531	412	11	362 Washington St	t
+532	413	27	300 Lincoln Way	t
+533	413	24	109 Washington St	f
+534	414	29	44 Sunset Blvd	t
+535	415	13	355 Washington St	t
+536	416	14	276 Elm St	t
+537	416	27	96 Maple Ave	f
+538	416	12	69 Main St	f
+539	417	27	5 Main St	t
+540	418	22	389 Main St	t
+541	419	12	360 Washington St	t
+542	419	21	211 Main St	f
+543	420	22	341 Broadway	t
+544	421	22	258 Oak St	t
+545	421	15	207 Maple Ave	f
+546	421	19	149 Cedar Rd	f
+547	422	27	367 Lakeview Dr	t
+548	423	27	160 Cedar Rd	t
+549	424	12	12 Cedar Rd	t
+550	425	26	145 Oak St	t
+551	426	27	73 Cedar Rd	t
+552	427	27	126 Main St	t
+553	428	27	285 Highland Ave	t
+554	429	1	212 Broadway	t
+555	430	1	262 Park Ave	t
+556	431	13	395 Maple Ave	t
+557	432	30	380 Sunset Blvd	t
+558	432	30	151 Lakeview Dr	f
+559	433	34	333 Lincoln Way	t
+560	434	1	152 Sunset Blvd	t
+561	435	27	92 Elm St	t
+562	436	13	333 Maple Ave	t
+563	437	20	141 Broadway	t
+564	437	12	183 Park Ave	f
+565	437	18	357 Washington St	f
+566	438	14	301 Main St	t
+567	438	1	378 Elm St	f
+568	439	16	277 Elm St	t
+569	439	27	90 Cedar Rd	f
+570	440	1	31 Broadway	t
+571	441	11	353 Lakeview Dr	t
+572	442	1	64 Sunset Blvd	t
+573	443	27	164 Sunset Blvd	t
+574	444	1	130 Maple Ave	t
+575	445	27	186 Main St	t
+576	446	19	308 Maple Ave	t
+577	447	1	241 Maple Ave	t
+578	447	34	11 Lakeview Dr	f
+579	447	3	375 Broadway	f
+580	448	2	289 Broadway	t
+581	448	19	54 Oak St	f
+582	449	27	273 Washington St	t
+583	450	13	23 Lincoln Way	t
+584	451	34	348 Elm St	t
+585	452	22	332 Broadway	t
+586	452	27	185 Elm St	f
+587	452	15	398 Lincoln Way	f
+588	453	1	258 Elm St	t
+589	454	27	256 Highland Ave	t
+590	454	24	376 Sunset Blvd	f
+591	455	34	291 Park Ave	t
+592	456	12	23 Highland Ave	t
+593	457	13	381 Sunset Blvd	t
+594	458	23	114 Washington St	t
+595	459	26	274 Park Ave	t
+596	459	20	361 Sunset Blvd	f
+597	460	9	135 Highland Ave	t
+598	460	10	34 Lincoln Way	f
+599	460	18	291 Oak St	f
+600	461	1	302 Broadway	t
+601	462	27	252 Lincoln Way	t
+602	463	27	167 Lakeview Dr	t
+603	464	13	318 Lakeview Dr	t
+604	465	27	113 Oak St	t
+605	466	30	22 Main St	t
+606	466	27	89 Elm St	f
+607	467	1	338 Cedar Rd	t
+608	467	15	235 Elm St	f
+609	468	27	374 Park Ave	t
+610	469	27	2 Highland Ave	t
+611	470	1	203 Broadway	t
+612	471	29	204 Cedar Rd	t
+613	472	31	309 Main St	t
+614	473	27	275 Washington St	t
+615	474	1	171 Park Ave	t
+616	475	16	43 Maple Ave	t
+617	476	11	2 Highland Ave	t
+618	477	28	345 Elm St	t
+619	477	11	309 Maple Ave	f
+620	477	30	165 Broadway	f
+621	478	23	226 Washington St	t
+622	479	17	232 Lincoln Way	t
+623	480	1	167 Park Ave	t
+624	481	3	8 Park Ave	t
+625	482	28	278 Washington St	t
+626	483	12	144 Lincoln Way	t
+627	483	31	289 Elm St	f
+628	484	27	144 Washington St	t
+629	485	1	217 Elm St	t
+630	486	33	108 Sunset Blvd	t
+631	487	27	119 Oak St	t
+632	488	27	228 Maple Ave	t
+633	489	3	64 Lincoln Way	t
+634	489	19	70 Washington St	f
+635	489	1	161 Lincoln Way	f
+636	490	34	302 Highland Ave	t
+637	491	29	273 Cedar Rd	t
+638	491	31	324 Highland Ave	f
+639	492	1	226 Lincoln Way	t
+640	492	17	303 Lakeview Dr	f
+641	493	11	37 Oak St	t
+642	494	1	316 Lincoln Way	t
+643	494	19	329 Oak St	f
+644	495	1	76 Broadway	t
+645	496	15	145 Park Ave	t
+646	497	27	54 Washington St	t
+647	498	17	14 Sunset Blvd	t
+648	499	29	377 Lincoln Way	t
+649	500	27	332 Sunset Blvd	t
+650	501	6	256 Broadway	t
+651	502	26	72 Washington St	t
+652	503	2	223 Lincoln Way	t
+653	504	3	326 Sunset Blvd	t
+654	505	17	205 Park Ave	t
+655	506	27	332 Lakeview Dr	t
+656	507	27	112 Broadway	t
+657	508	1	291 Oak St	t
+658	509	32	146 Oak St	t
+659	510	12	167 Oak St	t
+660	511	16	35 Maple Ave	t
+661	512	12	371 Washington St	t
+662	513	28	349 Lakeview Dr	t
+663	514	4	38 Sunset Blvd	t
+664	515	27	127 Lakeview Dr	t
+665	515	1	116 Highland Ave	f
+666	515	28	134 Cedar Rd	f
+667	516	1	324 Oak St	t
+668	517	1	17 Cedar Rd	t
+669	517	27	392 Washington St	f
+670	518	27	37 Elm St	t
+671	518	27	256 Main St	f
+672	519	18	107 Cedar Rd	t
+673	520	3	219 Lakeview Dr	t
+674	521	9	19 Washington St	t
+675	521	26	70 Park Ave	f
+676	522	1	88 Elm St	t
+677	522	34	283 Park Ave	f
+678	523	2	225 Broadway	t
+679	523	23	85 Cedar Rd	f
+680	524	1	313 Maple Ave	t
+681	525	32	300 Elm St	t
+682	525	27	185 Highland Ave	f
+683	525	24	136 Park Ave	f
+684	526	27	346 Broadway	t
+685	527	33	100 Elm St	t
+686	528	16	122 Highland Ave	t
+687	529	2	150 Washington St	t
+688	530	18	268 Park Ave	t
+689	531	5	113 Maple Ave	t
+690	532	28	92 Washington St	t
+691	532	19	99 Broadway	f
+692	532	16	292 Washington St	f
+693	533	27	37 Main St	t
+694	534	10	316 Highland Ave	t
+695	534	27	265 Cedar Rd	f
+696	535	20	307 Lakeview Dr	t
+697	536	1	160 Main St	t
+698	537	26	364 Washington St	t
+699	538	12	137 Oak St	t
+700	538	15	6 Cedar Rd	f
+701	539	11	123 Washington St	t
+702	539	22	318 Washington St	f
+703	540	30	280 Washington St	t
+704	541	27	174 Park Ave	t
+705	542	7	119 Washington St	t
+706	543	15	107 Park Ave	t
+707	543	11	221 Lincoln Way	f
+708	544	1	80 Highland Ave	t
+709	545	11	125 Broadway	t
+710	545	15	238 Cedar Rd	f
+711	545	8	72 Main St	f
+712	546	3	186 Washington St	t
+713	547	12	166 Elm St	t
+714	548	18	128 Washington St	t
+715	548	1	146 Washington St	f
+716	549	33	35 Sunset Blvd	t
+717	550	12	126 Main St	t
+718	550	12	356 Lincoln Way	f
+719	550	27	66 Elm St	f
+720	551	5	280 Oak St	t
+721	551	12	323 Broadway	f
+722	552	11	388 Washington St	t
+723	552	34	102 Oak St	f
+724	553	12	389 Maple Ave	t
+725	554	8	342 Elm St	t
+726	555	27	187 Oak St	t
+727	556	17	138 Park Ave	t
+728	557	22	118 Washington St	t
+729	557	27	368 Lincoln Way	f
+730	558	1	43 Main St	t
+731	559	16	133 Highland Ave	t
+732	560	27	301 Lincoln Way	t
+733	561	22	316 Washington St	t
+734	562	12	143 Elm St	t
+735	562	27	57 Highland Ave	f
+736	563	29	384 Lincoln Way	t
+737	563	28	368 Oak St	f
+738	564	27	310 Maple Ave	t
+739	565	2	326 Park Ave	t
+740	566	23	168 Maple Ave	t
+741	567	27	298 Park Ave	t
+742	568	1	332 Park Ave	t
+743	569	10	166 Washington St	t
+744	570	29	80 Lincoln Way	t
+745	571	34	71 Lincoln Way	t
+746	572	27	258 Oak St	t
+747	573	1	231 Lincoln Way	t
+748	574	1	24 Highland Ave	t
+749	574	28	66 Broadway	f
+750	575	27	26 Cedar Rd	t
+751	576	1	200 Park Ave	t
+752	577	27	96 Highland Ave	t
+753	578	1	198 Main St	t
+754	579	1	131 Sunset Blvd	t
+755	579	17	167 Cedar Rd	f
+756	579	1	253 Main St	f
+757	580	24	96 Maple Ave	t
+758	581	4	86 Washington St	t
+759	582	1	46 Washington St	t
+760	583	34	46 Elm St	t
+761	584	27	169 Park Ave	t
+762	585	2	323 Park Ave	t
+763	585	22	352 Maple Ave	f
+764	586	1	170 Maple Ave	t
+765	586	27	184 Highland Ave	f
+766	586	18	204 Maple Ave	f
+767	587	21	88 Lakeview Dr	t
+768	588	27	142 Lakeview Dr	t
+769	589	28	386 Washington St	t
+770	590	28	157 Cedar Rd	t
+771	591	4	220 Lakeview Dr	t
+772	592	33	186 Main St	t
+773	593	1	302 Highland Ave	t
+774	594	12	218 Highland Ave	t
+775	594	27	181 Maple Ave	f
+776	595	1	121 Main St	t
+777	596	1	302 Broadway	t
+778	596	22	21 Maple Ave	f
+779	597	28	219 Oak St	t
+780	597	29	166 Cedar Rd	f
+781	597	17	260 Elm St	f
+782	598	22	196 Lakeview Dr	t
+783	599	22	2 Main St	t
+784	600	1	391 Oak St	t
+785	600	3	29 Park Ave	f
+786	601	19	216 Washington St	t
+787	602	1	298 Oak St	t
+788	603	1	349 Lincoln Way	t
+789	604	12	131 Broadway	t
+790	605	1	119 Sunset Blvd	t
+791	606	15	286 Maple Ave	t
+792	607	22	183 Main St	t
+793	608	1	249 Broadway	t
+794	609	17	348 Highland Ave	t
+795	610	23	91 Broadway	t
+796	611	18	142 Washington St	t
+797	611	26	83 Lincoln Way	f
+798	611	32	159 Sunset Blvd	f
+799	612	5	287 Cedar Rd	t
+800	613	27	212 Sunset Blvd	t
+801	614	27	20 Main St	t
+802	614	1	322 Washington St	f
+803	615	1	394 Elm St	t
+804	616	27	121 Lakeview Dr	t
+805	616	18	359 Sunset Blvd	f
+806	616	27	27 Main St	f
+807	617	29	201 Lakeview Dr	t
+808	618	27	13 Washington St	t
+809	618	14	366 Park Ave	f
+810	619	19	384 Sunset Blvd	t
+811	620	20	287 Maple Ave	t
+812	621	13	315 Lincoln Way	t
+813	622	27	225 Cedar Rd	t
+814	623	13	245 Maple Ave	t
+815	624	16	237 Maple Ave	t
+816	625	19	94 Oak St	t
+817	626	27	17 Lakeview Dr	t
+818	627	27	112 Broadway	t
+819	628	27	73 Oak St	t
+820	629	29	71 Highland Ave	t
+821	629	9	382 Lakeview Dr	f
+822	630	1	292 Broadway	t
+823	631	27	37 Broadway	t
+824	631	29	37 Maple Ave	f
+825	632	27	7 Lakeview Dr	t
+826	633	1	196 Cedar Rd	t
+827	634	1	265 Lakeview Dr	t
+828	635	27	196 Highland Ave	t
+829	636	19	72 Cedar Rd	t
+830	637	1	338 Broadway	t
+831	637	25	166 Lincoln Way	f
+832	638	11	211 Maple Ave	t
+833	639	27	310 Cedar Rd	t
+834	640	23	11 Oak St	t
+835	640	32	68 Main St	f
+836	641	16	76 Sunset Blvd	t
+837	642	27	347 Washington St	t
+838	643	4	132 Lincoln Way	t
+839	643	27	338 Highland Ave	f
+840	643	1	247 Highland Ave	f
+841	644	27	358 Sunset Blvd	t
+842	645	1	113 Maple Ave	t
+843	646	27	77 Oak St	t
+844	646	27	297 Highland Ave	f
+845	647	31	65 Cedar Rd	t
+846	648	27	268 Lincoln Way	t
+847	649	29	119 Lincoln Way	t
+848	649	27	311 Highland Ave	f
+849	650	1	398 Sunset Blvd	t
+850	651	1	341 Washington St	t
+851	652	2	95 Lakeview Dr	t
+852	652	27	282 Cedar Rd	f
+853	653	27	10 Washington St	t
+854	654	16	279 Highland Ave	t
+855	654	23	3 Broadway	f
+856	655	1	3 Washington St	t
+857	656	20	208 Highland Ave	t
+858	657	1	310 Oak St	t
+859	658	24	368 Lincoln Way	t
+860	659	1	309 Sunset Blvd	t
+861	660	2	319 Maple Ave	t
+862	661	17	141 Highland Ave	t
+863	662	32	68 Lakeview Dr	t
+864	663	1	310 Park Ave	t
+865	664	15	305 Washington St	t
+866	665	27	209 Sunset Blvd	t
+867	665	27	130 Lincoln Way	f
+868	666	34	14 Sunset Blvd	t
+869	666	17	6 Lincoln Way	f
+870	667	1	394 Park Ave	t
+871	668	1	289 Maple Ave	t
+872	669	27	256 Maple Ave	t
+873	670	1	364 Elm St	t
+874	671	18	244 Maple Ave	t
+875	672	3	335 Maple Ave	t
+876	673	18	396 Lakeview Dr	t
+877	674	29	214 Oak St	t
+878	674	7	199 Park Ave	f
+879	675	10	75 Oak St	t
+880	676	34	196 Sunset Blvd	t
+881	677	4	366 Elm St	t
+882	677	31	198 Washington St	f
+883	678	6	277 Lakeview Dr	t
+884	678	6	229 Lincoln Way	f
+885	679	12	354 Park Ave	t
+886	680	1	12 Maple Ave	t
+887	681	17	22 Lakeview Dr	t
+888	682	30	298 Main St	t
+889	683	25	353 Broadway	t
+890	684	31	3 Highland Ave	t
+891	684	28	247 Lakeview Dr	f
+892	685	28	225 Cedar Rd	t
+893	686	17	124 Park Ave	t
+894	687	27	233 Lakeview Dr	t
+895	687	22	277 Cedar Rd	f
+896	688	27	199 Park Ave	t
+897	688	27	378 Oak St	f
+898	688	13	211 Lakeview Dr	f
+899	689	34	371 Maple Ave	t
+900	689	2	234 Main St	f
+901	689	15	48 Park Ave	f
+902	690	27	171 Washington St	t
+903	690	16	89 Park Ave	f
+904	691	6	244 Sunset Blvd	t
+905	692	17	243 Oak St	t
+906	693	1	66 Sunset Blvd	t
+907	694	27	184 Cedar Rd	t
+908	694	1	110 Maple Ave	f
+909	694	27	392 Washington St	f
+910	695	15	23 Broadway	t
+911	696	2	48 Sunset Blvd	t
+912	697	29	334 Park Ave	t
+913	698	17	297 Broadway	t
+914	699	7	320 Oak St	t
+915	699	1	23 Sunset Blvd	f
+916	700	5	4 Washington St	t
+917	700	1	119 Lakeview Dr	f
+918	700	13	121 Washington St	f
+919	701	27	395 Oak St	t
+920	701	27	23 Lakeview Dr	f
+921	701	27	125 Washington St	f
+922	702	26	217 Broadway	t
+923	703	29	342 Main St	t
+924	703	29	2 Sunset Blvd	f
+925	704	19	154 Elm St	t
+926	705	11	338 Park Ave	t
+927	706	25	292 Park Ave	t
+928	707	32	347 Washington St	t
+929	708	17	101 Sunset Blvd	t
+930	709	10	292 Cedar Rd	t
+931	710	27	72 Park Ave	t
+932	710	23	302 Lakeview Dr	f
+933	711	7	184 Broadway	t
+934	711	1	338 Sunset Blvd	f
+935	712	22	250 Lakeview Dr	t
+936	712	1	244 Lincoln Way	f
+937	713	1	239 Broadway	t
+938	714	1	123 Park Ave	t
+939	715	2	59 Park Ave	t
+940	716	12	2 Main St	t
+941	717	27	173 Lincoln Way	t
+942	718	27	333 Lincoln Way	t
+943	718	27	257 Maple Ave	f
+944	719	1	217 Highland Ave	t
+945	720	1	254 Maple Ave	t
+946	721	21	67 Broadway	t
+947	722	27	79 Highland Ave	t
+948	723	17	31 Lakeview Dr	t
+949	723	9	176 Lincoln Way	f
+950	724	2	319 Lincoln Way	t
+951	725	1	192 Maple Ave	t
+952	725	18	91 Broadway	f
+953	726	21	109 Cedar Rd	t
+954	727	1	12 Sunset Blvd	t
+955	728	1	25 Elm St	t
+956	728	24	261 Park Ave	f
+957	729	16	233 Main St	t
+958	730	1	267 Washington St	t
+959	730	15	135 Highland Ave	f
+960	730	34	15 Main St	f
+961	731	27	286 Washington St	t
+962	732	27	202 Maple Ave	t
+963	733	21	269 Lincoln Way	t
+964	734	32	305 Elm St	t
+965	735	25	197 Highland Ave	t
+966	736	1	76 Washington St	t
+967	737	34	332 Maple Ave	t
+968	738	27	294 Cedar Rd	t
+969	739	29	21 Cedar Rd	t
+970	740	32	148 Highland Ave	t
+971	741	1	8 Park Ave	t
+972	742	1	49 Park Ave	t
+973	743	28	30 Maple Ave	t
+974	744	2	145 Elm St	t
+975	745	30	83 Main St	t
+976	745	27	244 Main St	f
+977	746	25	173 Oak St	t
+978	747	3	363 Highland Ave	t
+979	748	28	162 Lincoln Way	t
+980	748	27	184 Oak St	f
+981	749	3	281 Lincoln Way	t
+982	749	1	303 Elm St	f
+983	750	30	14 Cedar Rd	t
+984	751	11	112 Highland Ave	t
+985	752	9	317 Main St	t
+986	753	1	109 Cedar Rd	t
+987	754	1	258 Washington St	t
+988	755	23	282 Park Ave	t
+989	756	22	193 Lakeview Dr	t
+990	757	1	7 Park Ave	t
+991	758	12	81 Highland Ave	t
+992	759	1	342 Lincoln Way	t
+993	760	13	351 Lincoln Way	t
+994	761	27	220 Lakeview Dr	t
+995	762	30	396 Broadway	t
+996	762	17	33 Main St	f
+997	763	16	258 Sunset Blvd	t
+998	764	27	269 Lincoln Way	t
+999	765	1	90 Park Ave	t
+1000	766	8	39 Elm St	t
+1001	767	1	156 Washington St	t
+1002	768	27	63 Oak St	t
+1003	769	2	399 Park Ave	t
+1004	769	27	56 Main St	f
+1005	770	6	45 Cedar Rd	t
+1006	771	14	375 Lakeview Dr	t
+1007	772	27	328 Oak St	t
+1008	773	1	231 Cedar Rd	t
+1009	774	29	252 Lincoln Way	t
+1010	775	2	291 Park Ave	t
+1011	776	23	297 Broadway	t
+1012	777	2	3 Elm St	t
+1013	777	1	4 Highland Ave	f
+1014	778	10	184 Cedar Rd	t
+1015	779	28	62 Broadway	t
+1016	780	12	159 Maple Ave	t
+1017	781	27	39 Washington St	t
+1018	782	17	371 Sunset Blvd	t
+1019	782	27	391 Cedar Rd	f
+1020	783	1	76 Washington St	t
+1021	784	4	211 Lakeview Dr	t
+1022	784	18	377 Sunset Blvd	f
+1023	785	17	331 Maple Ave	t
+1024	786	1	336 Oak St	t
+1025	787	18	356 Oak St	t
+1026	787	32	266 Main St	f
+1027	788	2	349 Lakeview Dr	t
+1028	789	1	45 Oak St	t
+1029	789	27	381 Cedar Rd	f
+1030	790	1	96 Maple Ave	t
+1031	791	1	44 Lakeview Dr	t
+1032	791	27	101 Oak St	f
+1033	792	7	359 Highland Ave	t
+1034	793	16	293 Highland Ave	t
+1035	794	29	44 Maple Ave	t
+1036	794	27	137 Elm St	f
+1037	794	1	291 Highland Ave	f
+1038	795	27	208 Cedar Rd	t
+1039	796	1	99 Broadway	t
+1040	797	1	98 Cedar Rd	t
+1041	798	27	376 Park Ave	t
+1042	799	18	332 Oak St	t
+1043	800	12	119 Maple Ave	t
+1044	801	17	140 Park Ave	t
+1045	802	20	136 Park Ave	t
+1046	802	25	120 Lakeview Dr	f
+1047	803	7	203 Washington St	t
+1048	804	26	193 Main St	t
+1049	805	27	54 Elm St	t
+1050	806	2	143 Cedar Rd	t
+1051	807	22	318 Lakeview Dr	t
+1052	807	1	154 Sunset Blvd	f
+1053	808	27	366 Highland Ave	t
+1054	809	1	40 Broadway	t
+1055	810	31	278 Sunset Blvd	t
+1056	811	30	117 Maple Ave	t
+1057	811	29	43 Main St	f
+1058	812	27	163 Sunset Blvd	t
+1059	813	27	321 Sunset Blvd	t
+1060	814	7	230 Washington St	t
+1061	815	23	350 Maple Ave	t
+1062	815	22	230 Cedar Rd	f
+1063	816	4	239 Broadway	t
+1064	816	1	268 Elm St	f
+1065	816	1	192 Main St	f
+1066	817	24	179 Park Ave	t
+1067	818	31	318 Washington St	t
+1068	819	27	305 Lincoln Way	t
+1069	820	1	355 Maple Ave	t
+1070	820	29	74 Broadway	f
+1071	821	31	175 Lincoln Way	t
+1072	821	2	29 Broadway	f
+1073	822	29	228 Main St	t
+1074	823	31	174 Main St	t
+1075	824	27	340 Highland Ave	t
+1076	825	2	12 Broadway	t
+1077	825	25	265 Lincoln Way	f
+1078	826	17	224 Washington St	t
+1079	827	27	371 Highland Ave	t
+1080	828	23	373 Lakeview Dr	t
+1081	829	7	62 Oak St	t
+1082	830	1	107 Park Ave	t
+1083	831	27	19 Oak St	t
+1084	831	1	130 Washington St	f
+1085	832	28	122 Broadway	t
+1086	833	17	228 Sunset Blvd	t
+1087	833	27	389 Cedar Rd	f
+1088	834	27	68 Cedar Rd	t
+1089	834	2	345 Broadway	f
+1090	835	8	301 Lakeview Dr	t
+1091	836	2	8 Sunset Blvd	t
+1092	837	17	288 Elm St	t
+1093	838	1	66 Highland Ave	t
+1094	839	14	178 Oak St	t
+1095	840	1	326 Oak St	t
+1096	841	27	266 Main St	t
+1097	842	1	292 Broadway	t
+1098	843	23	206 Lincoln Way	t
+1099	843	9	250 Park Ave	f
+1100	843	28	387 Broadway	f
+1101	844	30	23 Lincoln Way	t
+1102	845	29	267 Park Ave	t
+1103	846	21	184 Broadway	t
+1104	847	3	148 Oak St	t
+1105	847	29	79 Oak St	f
+1106	848	27	343 Broadway	t
+1107	849	32	188 Main St	t
+1108	850	30	6 Oak St	t
+1109	851	28	117 Maple Ave	t
+1110	852	1	23 Elm St	t
+1111	852	1	167 Sunset Blvd	f
+1112	853	22	327 Maple Ave	t
+1113	854	18	396 Elm St	t
+1114	855	29	287 Elm St	t
+1115	856	2	135 Broadway	t
+1116	857	20	336 Sunset Blvd	t
+1117	857	34	246 Lakeview Dr	f
+1118	858	19	145 Park Ave	t
+1119	859	16	376 Elm St	t
+1120	860	23	311 Oak St	t
+1121	861	2	63 Lincoln Way	t
+1122	862	1	232 Cedar Rd	t
+1123	863	4	386 Lakeview Dr	t
+1124	864	27	42 Highland Ave	t
+1125	865	22	51 Cedar Rd	t
+1126	866	27	72 Cedar Rd	t
+1127	867	26	27 Oak St	t
+1128	867	26	31 Elm St	f
+1129	868	1	374 Washington St	t
+1130	869	18	178 Washington St	t
+1131	870	13	258 Park Ave	t
+1132	870	13	399 Oak St	f
+1133	871	26	187 Lincoln Way	t
+1134	871	30	70 Lincoln Way	f
+1135	872	7	341 Main St	t
+1136	873	18	125 Main St	t
+1137	874	27	48 Cedar Rd	t
+1138	875	27	364 Highland Ave	t
+1139	876	1	160 Highland Ave	t
+1140	877	2	225 Sunset Blvd	t
+1141	877	31	222 Lakeview Dr	f
+1142	878	1	393 Broadway	t
+1143	878	32	291 Park Ave	f
+1144	879	27	213 Broadway	t
+1145	879	28	346 Lakeview Dr	f
+1146	880	27	36 Park Ave	t
+1147	881	1	207 Highland Ave	t
+1148	882	22	3 Cedar Rd	t
+1149	882	32	68 Park Ave	f
+1150	883	18	158 Main St	t
+1151	884	1	132 Elm St	t
+1152	885	27	224 Washington St	t
+1153	885	11	75 Park Ave	f
+1154	886	14	257 Sunset Blvd	t
+1155	886	27	63 Washington St	f
+1156	887	1	7 Lakeview Dr	t
+1157	888	27	382 Elm St	t
+1158	889	19	91 Highland Ave	t
+1159	890	19	217 Park Ave	t
+1160	891	29	388 Lakeview Dr	t
+1161	892	19	259 Lincoln Way	t
+1162	893	22	281 Lakeview Dr	t
+1163	894	28	22 Maple Ave	t
+1164	895	28	275 Sunset Blvd	t
+1165	895	26	83 Highland Ave	f
+1166	896	14	86 Oak St	t
+1167	897	22	55 Lincoln Way	t
+1168	897	2	194 Park Ave	f
+1169	898	1	359 Elm St	t
+1170	899	12	356 Lincoln Way	t
+1171	900	23	351 Sunset Blvd	t
+1172	900	27	369 Elm St	f
+1173	901	1	50 Oak St	t
+1174	902	28	241 Sunset Blvd	t
+1175	903	17	13 Washington St	t
+1176	903	10	16 Sunset Blvd	f
+1177	904	3	142 Broadway	t
+1178	905	1	367 Washington St	t
+1179	906	27	213 Elm St	t
+1180	906	17	308 Washington St	f
+1181	907	5	339 Oak St	t
+1182	908	27	255 Sunset Blvd	t
+1183	908	1	287 Main St	f
+1184	909	1	22 Broadway	t
+1185	909	12	185 Main St	f
+1186	910	12	147 Park Ave	t
+1187	910	1	99 Oak St	f
+1188	910	24	343 Oak St	f
+1189	911	28	180 Washington St	t
+1190	911	27	115 Main St	f
+1191	911	1	96 Maple Ave	f
+1192	912	27	274 Highland Ave	t
+1193	912	1	98 Lincoln Way	f
+1194	913	27	88 Broadway	t
+1195	914	16	129 Broadway	t
+1196	914	27	242 Park Ave	f
+1197	915	1	378 Cedar Rd	t
+1198	916	15	298 Sunset Blvd	t
+1199	917	1	169 Elm St	t
+1200	918	1	285 Lakeview Dr	t
+1201	919	1	327 Park Ave	t
+1202	920	16	98 Park Ave	t
+1203	920	28	38 Main St	f
+1204	921	1	86 Washington St	t
+1205	921	27	14 Oak St	f
+1206	922	1	57 Washington St	t
+1207	922	27	62 Park Ave	f
+1208	923	1	283 Main St	t
+1209	924	1	63 Highland Ave	t
+1210	925	29	336 Lincoln Way	t
+1211	926	1	12 Park Ave	t
+1212	927	21	103 Elm St	t
+1213	928	2	46 Maple Ave	t
+1214	928	27	250 Washington St	f
+1215	929	12	19 Highland Ave	t
+1216	930	23	65 Broadway	t
+1217	931	7	270 Elm St	t
+1218	931	18	343 Maple Ave	f
+1219	932	14	398 Park Ave	t
+1220	933	32	266 Lakeview Dr	t
+1221	934	1	93 Lincoln Way	t
+1222	935	1	288 Cedar Rd	t
+1223	935	29	395 Highland Ave	f
+1224	936	1	139 Oak St	t
+1225	937	29	166 Elm St	t
+1226	938	24	133 Oak St	t
+1227	939	1	140 Cedar Rd	t
+1228	939	1	24 Cedar Rd	f
+1229	940	1	71 Highland Ave	t
+1230	941	14	233 Lincoln Way	t
+1231	941	1	246 Cedar Rd	f
+1232	942	18	271 Elm St	t
+1233	943	27	236 Elm St	t
+1234	944	29	375 Washington St	t
+1235	944	25	121 Lakeview Dr	f
+1236	945	20	330 Lincoln Way	t
+1237	946	27	204 Park Ave	t
+1238	946	25	291 Broadway	f
+1239	947	1	127 Park Ave	t
+1240	948	1	339 Park Ave	t
+1241	949	18	88 Park Ave	t
+1242	950	29	31 Oak St	t
+1243	951	1	349 Lakeview Dr	t
+1244	952	12	137 Washington St	t
+1245	953	29	396 Broadway	t
+1246	954	1	335 Broadway	t
+1247	955	25	377 Maple Ave	t
+1248	956	30	390 Oak St	t
+1249	957	1	372 Sunset Blvd	t
+1250	958	14	114 Lincoln Way	t
+1251	959	7	264 Main St	t
+1252	960	6	132 Elm St	t
+1253	961	1	85 Park Ave	t
+1254	962	11	291 Maple Ave	t
+1255	963	1	242 Washington St	t
+1256	964	14	341 Cedar Rd	t
+1257	965	24	74 Highland Ave	t
+1258	966	34	298 Highland Ave	t
+1259	967	2	74 Cedar Rd	t
+1260	968	25	79 Lincoln Way	t
+1261	969	2	59 Cedar Rd	t
+1262	970	2	222 Sunset Blvd	t
+1263	971	27	116 Broadway	t
+1264	972	19	394 Oak St	t
+1265	973	19	116 Elm St	t
+1266	974	29	205 Lincoln Way	t
+1267	975	20	136 Oak St	t
+1268	976	1	219 Park Ave	t
+1269	977	24	154 Broadway	t
+1270	978	25	204 Highland Ave	t
+1271	978	16	122 Elm St	f
+1272	978	31	322 Highland Ave	f
+1273	979	19	9 Lakeview Dr	t
+1274	980	27	246 Main St	t
+1275	981	22	125 Maple Ave	t
+1276	982	17	314 Park Ave	t
+1277	983	1	330 Lakeview Dr	t
+1278	984	1	324 Lincoln Way	t
+1279	985	22	115 Main St	t
+1280	986	27	256 Lakeview Dr	t
+1281	987	19	396 Highland Ave	t
+1282	987	1	397 Cedar Rd	f
+1283	987	24	328 Broadway	f
+1284	988	12	220 Washington St	t
+1285	989	11	152 Lakeview Dr	t
+1286	989	32	309 Highland Ave	f
+1287	990	18	176 Lakeview Dr	t
+1288	991	24	10 Main St	t
+1289	992	34	308 Sunset Blvd	t
+1290	993	6	231 Lincoln Way	t
+1291	994	30	45 Elm St	t
+1292	995	12	56 Highland Ave	t
+1293	996	18	94 Broadway	t
+1294	997	5	211 Lakeview Dr	t
+1295	998	1	41 Highland Ave	t
+1296	999	30	303 Main St	t
+1297	1000	14	331 Broadway	t
+1298	1001	11	42 Lincoln Way	t
+1299	1002	18	99 Oak St	t
+1300	1003	24	31 Elm St	t
+1301	1003	1	19 Lakeview Dr	f
+1302	1003	31	180 Park Ave	f
+1303	1004	5	356 Highland Ave	t
+1304	1005	27	352 Oak St	t
+1305	1005	31	45 Elm St	f
+1306	1006	31	83 Lincoln Way	t
+1307	1006	27	244 Maple Ave	f
+1308	1007	27	250 Highland Ave	t
+1309	1008	1	397 Broadway	t
+1310	1009	30	155 Washington St	t
+1311	1010	11	158 Park Ave	t
+1312	1010	27	334 Elm St	f
+1313	1010	25	11 Sunset Blvd	f
+1314	1011	1	264 Broadway	t
+1315	1011	11	24 Main St	f
+1316	1012	28	339 Lincoln Way	t
+1317	1013	16	102 Cedar Rd	t
+1318	1013	34	133 Broadway	f
+1319	1013	31	287 Oak St	f
+1320	1014	2	41 Lincoln Way	t
+1321	1015	29	300 Main St	t
+1322	1016	18	231 Washington St	t
+1323	1017	5	130 Maple Ave	t
+1324	1017	1	192 Sunset Blvd	f
+1325	1017	17	56 Highland Ave	f
+1326	1018	32	330 Lakeview Dr	t
+1327	1019	1	270 Broadway	t
+1328	1019	27	147 Cedar Rd	f
+1329	1020	29	131 Maple Ave	t
+1330	1021	18	157 Sunset Blvd	t
+1331	1022	1	226 Lincoln Way	t
+1332	1023	23	209 Elm St	t
+1333	1024	12	281 Lakeview Dr	t
+1334	1025	27	305 Main St	t
+1335	1025	19	181 Sunset Blvd	f
+1336	1026	21	305 Lakeview Dr	t
+1337	1027	1	202 Oak St	t
+1338	1028	1	337 Elm St	t
+1339	1028	27	379 Lakeview Dr	f
+1340	1029	27	361 Oak St	t
+1341	1030	30	12 Oak St	t
+1342	1030	27	229 Cedar Rd	f
+1343	1030	22	356 Sunset Blvd	f
+1344	1031	29	9 Cedar Rd	t
+1345	1031	18	185 Park Ave	f
+1346	1032	1	73 Lakeview Dr	t
+1347	1033	1	58 Elm St	t
+1348	1034	27	347 Cedar Rd	t
+1349	1035	17	2 Cedar Rd	t
+1350	1036	18	227 Broadway	t
+1351	1037	10	56 Main St	t
+1352	1038	18	47 Oak St	t
+1353	1039	1	29 Cedar Rd	t
+1354	1039	1	55 Washington St	f
+1355	1040	27	163 Lakeview Dr	t
+1356	1040	1	112 Sunset Blvd	f
+1357	1041	2	385 Oak St	t
+1358	1041	14	43 Broadway	f
+1359	1042	1	354 Highland Ave	t
+1360	1043	27	8 Washington St	t
+1361	1044	32	31 Cedar Rd	t
+1362	1045	1	206 Cedar Rd	t
+1363	1046	27	269 Park Ave	t
+1364	1046	23	383 Lincoln Way	f
+1365	1046	27	122 Elm St	f
+1366	1047	27	147 Highland Ave	t
+1367	1048	12	311 Highland Ave	t
+1368	1049	24	93 Main St	t
+1369	1050	31	209 Maple Ave	t
+1370	1050	1	26 Washington St	f
+1371	1051	1	251 Washington St	t
+1372	1052	27	52 Washington St	t
+1373	1053	13	14 Broadway	t
+1374	1054	2	292 Oak St	t
+1375	1054	29	303 Lincoln Way	f
+1376	1054	25	155 Sunset Blvd	f
+1377	1055	30	85 Lincoln Way	t
+1378	1056	12	292 Park Ave	t
+1379	1056	25	186 Park Ave	f
+1380	1057	2	299 Elm St	t
+1381	1058	19	307 Oak St	t
+1382	1059	17	376 Main St	t
+1383	1060	27	107 Washington St	t
+1384	1061	2	204 Lakeview Dr	t
+1385	1062	28	87 Elm St	t
+1386	1063	7	159 Main St	t
+1387	1064	7	81 Oak St	t
+1388	1064	2	82 Sunset Blvd	f
+1389	1065	29	117 Park Ave	t
+1390	1065	23	169 Lincoln Way	f
+1391	1066	23	165 Cedar Rd	t
+1392	1066	1	101 Lincoln Way	f
+1393	1066	13	236 Lincoln Way	f
+1394	1067	15	120 Maple Ave	t
+1395	1067	1	346 Sunset Blvd	f
+1396	1068	27	224 Cedar Rd	t
+1397	1069	20	168 Lincoln Way	t
+1398	1069	27	369 Cedar Rd	f
+1399	1069	27	175 Lincoln Way	f
+1400	1070	27	178 Lincoln Way	t
+1401	1071	8	255 Oak St	t
+1402	1072	27	330 Lakeview Dr	t
+1403	1073	12	396 Oak St	t
+1404	1074	1	87 Sunset Blvd	t
+1405	1075	25	393 Elm St	t
+1406	1076	27	372 Lincoln Way	t
+1407	1077	28	346 Washington St	t
+1408	1077	11	148 Elm St	f
+1409	1078	12	221 Washington St	t
+1410	1079	2	320 Lincoln Way	t
+1411	1080	17	173 Lincoln Way	t
+1412	1081	28	18 Cedar Rd	t
+1413	1081	22	355 Maple Ave	f
+1414	1081	25	363 Broadway	f
+1415	1082	28	356 Park Ave	t
+1416	1082	14	17 Washington St	f
+1417	1083	27	391 Lakeview Dr	t
+1418	1084	29	35 Lincoln Way	t
+1419	1084	1	297 Cedar Rd	f
+1420	1085	1	306 Highland Ave	t
+1421	1086	19	268 Maple Ave	t
+1422	1087	27	195 Broadway	t
+1423	1087	17	358 Lakeview Dr	f
+1424	1088	17	289 Broadway	t
+1425	1089	34	328 Park Ave	t
+1426	1090	20	221 Main St	t
+1427	1090	1	147 Washington St	f
+1428	1091	25	76 Washington St	t
+1429	1092	8	158 Highland Ave	t
+1430	1093	27	347 Oak St	t
+1431	1094	2	19 Park Ave	t
+1432	1095	1	398 Elm St	t
+1433	1096	15	48 Highland Ave	t
+1434	1097	12	270 Sunset Blvd	t
+1435	1098	27	312 Main St	t
+1436	1099	1	33 Maple Ave	t
+1437	1099	17	346 Elm St	f
+1438	1100	1	213 Sunset Blvd	t
+1439	1101	1	213 Lakeview Dr	t
+1440	1102	33	221 Park Ave	t
+1441	1102	11	262 Cedar Rd	f
+1442	1103	13	191 Washington St	t
+1443	1104	18	189 Maple Ave	t
+1444	1105	27	277 Cedar Rd	t
+1445	1106	12	174 Cedar Rd	t
+1446	1106	27	94 Washington St	f
+1447	1107	1	193 Lakeview Dr	t
+1448	1108	1	70 Oak St	t
+1449	1109	27	352 Park Ave	t
+1450	1110	30	394 Highland Ave	t
+1451	1111	24	24 Washington St	t
+1452	1111	28	7 Main St	f
+1453	1111	27	8 Lakeview Dr	f
+1454	1112	2	231 Maple Ave	t
+1455	1112	1	366 Lincoln Way	f
+1456	1112	27	266 Maple Ave	f
+1457	1113	17	337 Maple Ave	t
+1458	1113	30	223 Oak St	f
+1459	1114	29	282 Maple Ave	t
+1460	1115	27	284 Cedar Rd	t
+1461	1116	1	169 Washington St	t
+1462	1117	27	378 Cedar Rd	t
+1463	1117	25	360 Lincoln Way	f
+1464	1118	32	372 Park Ave	t
+1465	1119	18	189 Sunset Blvd	t
+1466	1120	32	74 Washington St	t
+1467	1120	31	363 Main St	f
+1468	1121	17	338 Lakeview Dr	t
+1469	1122	1	372 Washington St	t
+1470	1123	18	362 Cedar Rd	t
+1471	1124	14	221 Sunset Blvd	t
+1472	1125	14	139 Oak St	t
+1473	1126	27	69 Maple Ave	t
+1474	1127	1	341 Broadway	t
+1475	1127	18	54 Maple Ave	f
+1476	1128	27	85 Sunset Blvd	t
+1477	1129	20	91 Main St	t
+1478	1129	1	234 Lincoln Way	f
+1479	1130	1	395 Lincoln Way	t
+1480	1131	8	38 Lakeview Dr	t
+1481	1132	24	231 Park Ave	t
+1482	1133	23	117 Lincoln Way	t
+1483	1134	34	302 Park Ave	t
+1484	1135	34	222 Lakeview Dr	t
+1485	1136	27	314 Highland Ave	t
+1486	1137	25	102 Park Ave	t
+1487	1138	16	112 Lakeview Dr	t
+1488	1139	27	243 Cedar Rd	t
+1489	1140	27	157 Maple Ave	t
+1490	1141	29	278 Washington St	t
+1491	1141	27	235 Broadway	f
+1492	1142	1	100 Sunset Blvd	t
+1493	1143	34	31 Park Ave	t
+1494	1144	27	48 Lincoln Way	t
+1495	1144	12	282 Park Ave	f
+1496	1145	1	288 Park Ave	t
+1497	1146	1	228 Cedar Rd	t
+1498	1146	12	72 Oak St	f
+1499	1147	6	251 Main St	t
+1500	1148	33	84 Cedar Rd	t
+1501	1149	29	17 Washington St	t
+1502	1150	1	93 Cedar Rd	t
+1503	1150	32	189 Main St	f
+1504	1151	1	318 Washington St	t
+1505	1151	17	372 Maple Ave	f
+1506	1152	24	120 Sunset Blvd	t
+1507	1153	7	354 Lakeview Dr	t
+1508	1154	1	231 Maple Ave	t
+1509	1155	16	66 Broadway	t
+1510	1156	29	62 Sunset Blvd	t
+1511	1156	14	215 Broadway	f
+1512	1157	9	181 Lakeview Dr	t
+1513	1158	17	218 Park Ave	t
+1514	1159	17	94 Highland Ave	t
+1515	1160	22	39 Maple Ave	t
+1516	1160	2	366 Cedar Rd	f
+1517	1161	4	30 Lincoln Way	t
+1518	1162	27	161 Park Ave	t
+1519	1162	34	152 Maple Ave	f
+1520	1163	17	14 Park Ave	t
+1521	1164	1	200 Sunset Blvd	t
+1522	1164	27	80 Lakeview Dr	f
+1523	1165	1	387 Lakeview Dr	t
+1524	1165	1	101 Highland Ave	f
+1525	1165	1	72 Washington St	f
+1526	1166	23	259 Washington St	t
+1527	1167	27	192 Oak St	t
+1528	1168	30	323 Highland Ave	t
+1529	1169	2	355 Lakeview Dr	t
+1530	1169	1	287 Maple Ave	f
+1531	1170	30	24 Broadway	t
+1532	1171	29	120 Washington St	t
+1533	1172	27	196 Highland Ave	t
+1534	1172	27	188 Broadway	f
+1535	1173	28	283 Maple Ave	t
+1536	1174	27	258 Maple Ave	t
+1537	1175	1	234 Cedar Rd	t
+1538	1176	18	319 Washington St	t
+1539	1177	23	34 Sunset Blvd	t
+1540	1178	30	318 Highland Ave	t
+1541	1178	16	364 Highland Ave	f
+1542	1179	11	67 Main St	t
+1543	1180	11	37 Elm St	t
+1544	1181	2	245 Lincoln Way	t
+1545	1182	1	261 Park Ave	t
+1546	1183	1	232 Highland Ave	t
+1547	1183	17	21 Sunset Blvd	f
+1548	1184	5	185 Lincoln Way	t
+1549	1184	17	60 Elm St	f
+1550	1185	22	188 Washington St	t
+1551	1186	27	393 Oak St	t
+1552	1187	32	101 Park Ave	t
+1553	1188	13	156 Highland Ave	t
+1554	1189	13	364 Highland Ave	t
+1555	1190	18	166 Washington St	t
+1556	1191	29	94 Lakeview Dr	t
+1557	1191	19	382 Cedar Rd	f
+1558	1192	20	398 Broadway	t
+1559	1193	27	133 Maple Ave	t
+1560	1194	17	178 Highland Ave	t
+1561	1194	17	47 Broadway	f
+1562	1194	34	124 Sunset Blvd	f
+1563	1195	27	357 Sunset Blvd	t
+1564	1195	19	195 Park Ave	f
+1565	1196	28	57 Lakeview Dr	t
+1566	1197	29	335 Washington St	t
+1567	1198	17	330 Maple Ave	t
+1568	1199	1	231 Park Ave	t
+1569	1200	30	48 Broadway	t
+1570	1200	1	135 Maple Ave	f
+1571	1201	1	61 Park Ave	t
+1572	1202	11	3 Oak St	t
+1573	1203	27	221 Sunset Blvd	t
+1574	1203	2	59 Highland Ave	f
+1575	1204	17	292 Oak St	t
+1576	1205	29	239 Cedar Rd	t
+1577	1206	19	87 Highland Ave	t
+1578	1207	28	48 Park Ave	t
+1579	1208	27	138 Main St	t
+1580	1209	27	112 Main St	t
+1581	1210	29	222 Sunset Blvd	t
+1582	1210	17	15 Sunset Blvd	f
+1583	1211	16	62 Highland Ave	t
+1584	1211	17	373 Main St	f
+1585	1212	1	310 Broadway	t
+1586	1213	17	248 Main St	t
+1587	1214	32	329 Maple Ave	t
+1588	1215	1	234 Broadway	t
+1589	1216	16	113 Lincoln Way	t
+1590	1216	28	9 Park Ave	f
+1591	1216	27	187 Lakeview Dr	f
+1592	1217	1	29 Cedar Rd	t
+1593	1218	16	146 Elm St	t
+1594	1218	27	298 Sunset Blvd	f
+1595	1219	33	371 Lincoln Way	t
+1596	1220	23	50 Maple Ave	t
+1597	1221	27	304 Cedar Rd	t
+1598	1222	27	264 Maple Ave	t
+1599	1223	14	339 Oak St	t
+1600	1224	7	247 Lincoln Way	t
+1601	1225	27	101 Cedar Rd	t
+1602	1226	31	207 Park Ave	t
+1603	1227	10	292 Main St	t
+1604	1227	27	82 Oak St	f
+1605	1228	1	320 Cedar Rd	t
+1606	1229	12	351 Broadway	t
+1607	1230	25	38 Broadway	t
+1608	1231	28	167 Cedar Rd	t
+1609	1231	27	316 Cedar Rd	f
+1610	1231	28	223 Main St	f
+1611	1232	23	73 Lincoln Way	t
+1612	1233	27	132 Elm St	t
+1613	1234	22	388 Cedar Rd	t
+1614	1234	27	381 Sunset Blvd	f
+1615	1235	23	60 Main St	t
+1616	1236	18	252 Maple Ave	t
+1617	1237	1	351 Maple Ave	t
+1618	1237	17	198 Elm St	f
+1619	1238	29	4 Highland Ave	t
+1620	1238	32	134 Main St	f
+1621	1239	12	394 Cedar Rd	t
+1622	1239	1	142 Park Ave	f
+1623	1240	11	345 Washington St	t
+1624	1240	29	389 Highland Ave	f
+1625	1241	27	234 Park Ave	t
+1626	1242	18	64 Elm St	t
+1627	1242	4	356 Lincoln Way	f
+1628	1243	25	21 Maple Ave	t
+1629	1244	27	263 Main St	t
+1630	1244	10	38 Washington St	f
+1631	1245	18	58 Sunset Blvd	t
+1632	1246	27	61 Main St	t
+1633	1247	22	33 Cedar Rd	t
+1634	1247	4	233 Elm St	f
+1635	1247	29	241 Maple Ave	f
+1636	1248	1	294 Lincoln Way	t
+1637	1249	1	399 Washington St	t
+1638	1250	1	380 Cedar Rd	t
+1639	1251	27	6 Highland Ave	t
+1640	1252	17	173 Park Ave	t
+1641	1253	27	389 Lincoln Way	t
+1642	1254	26	73 Highland Ave	t
+1643	1255	13	335 Washington St	t
+1644	1256	2	338 Sunset Blvd	t
+1645	1257	1	214 Washington St	t
+1646	1258	1	221 Main St	t
+1647	1258	11	258 Highland Ave	f
+1648	1259	31	259 Main St	t
+1649	1259	27	280 Park Ave	f
+1650	1260	1	352 Maple Ave	t
+1651	1261	9	53 Oak St	t
+1652	1262	27	279 Broadway	t
+1653	1262	1	165 Lincoln Way	f
+1654	1262	31	340 Sunset Blvd	f
+1655	1263	27	335 Washington St	t
+1656	1264	27	349 Lincoln Way	t
+1657	1265	29	71 Highland Ave	t
+1658	1266	31	252 Maple Ave	t
+1659	1267	14	246 Washington St	t
+1660	1268	1	175 Main St	t
+1661	1269	7	33 Cedar Rd	t
+1662	1269	27	293 Broadway	f
+1663	1270	27	259 Park Ave	t
+1664	1271	27	266 Lincoln Way	t
+1665	1272	18	165 Lincoln Way	t
+1666	1273	11	2 Sunset Blvd	t
+1667	1274	2	207 Maple Ave	t
+1668	1275	27	395 Park Ave	t
+1669	1276	1	321 Cedar Rd	t
+1670	1276	17	192 Cedar Rd	f
+1671	1277	1	326 Maple Ave	t
+1672	1278	8	306 Maple Ave	t
+1673	1279	34	360 Lakeview Dr	t
+1674	1280	6	217 Main St	t
+1675	1280	18	205 Sunset Blvd	f
+1676	1281	6	288 Cedar Rd	t
+1677	1282	11	283 Sunset Blvd	t
+1678	1283	14	47 Main St	t
+1679	1283	11	169 Washington St	f
+1680	1284	1	234 Elm St	t
+1681	1285	29	304 Lincoln Way	t
+1682	1286	17	54 Broadway	t
+1683	1287	15	53 Lakeview Dr	t
+1684	1288	27	253 Main St	t
+1685	1289	27	122 Highland Ave	t
+1686	1290	34	111 Cedar Rd	t
+1687	1290	1	144 Lakeview Dr	f
+1688	1291	1	320 Highland Ave	t
+1689	1291	1	2 Broadway	f
+1690	1292	5	220 Elm St	t
+1691	1292	26	327 Oak St	f
+1692	1293	27	373 Cedar Rd	t
+1693	1294	1	134 Main St	t
+1694	1294	1	171 Cedar Rd	f
+1695	1295	1	179 Cedar Rd	t
+1696	1296	29	127 Elm St	t
+1697	1297	26	204 Highland Ave	t
+1698	1298	17	108 Park Ave	t
+1699	1299	18	50 Elm St	t
+1700	1300	27	103 Lincoln Way	t
+1701	1301	24	12 Cedar Rd	t
+1702	1302	18	3 Broadway	t
+1703	1303	32	307 Main St	t
+1704	1304	21	330 Sunset Blvd	t
+1705	1305	3	285 Lincoln Way	t
+1706	1305	27	393 Oak St	f
+1707	1305	2	93 Cedar Rd	f
+1708	1306	17	312 Lincoln Way	t
+1709	1307	27	247 Washington St	t
+1710	1307	1	2 Highland Ave	f
+1711	1308	17	261 Elm St	t
+1712	1309	18	325 Lincoln Way	t
+1713	1309	32	167 Broadway	f
+1714	1310	27	157 Park Ave	t
+1715	1311	1	169 Maple Ave	t
+1716	1312	19	393 Oak St	t
+1717	1313	26	76 Highland Ave	t
+1718	1314	26	30 Maple Ave	t
+1719	1314	17	135 Sunset Blvd	f
+1720	1315	27	43 Highland Ave	t
+1721	1316	27	114 Oak St	t
+1722	1316	19	344 Elm St	f
+1723	1317	5	333 Oak St	t
+1724	1318	15	274 Main St	t
+1725	1318	17	286 Park Ave	f
+1726	1319	1	8 Lincoln Way	t
+1727	1320	1	357 Lincoln Way	t
+1728	1321	27	82 Oak St	t
+1729	1322	27	109 Lincoln Way	t
+1730	1322	10	260 Elm St	f
+1731	1323	1	222 Washington St	t
+1732	1324	27	183 Oak St	t
+1733	1325	27	83 Cedar Rd	t
+1734	1325	27	298 Sunset Blvd	f
+1735	1326	27	85 Lakeview Dr	t
+1736	1327	9	181 Highland Ave	t
+1737	1328	17	243 Park Ave	t
+1738	1329	11	329 Broadway	t
+1739	1330	13	328 Sunset Blvd	t
+1740	1331	25	396 Broadway	t
+1741	1332	13	296 Highland Ave	t
+1742	1333	17	284 Main St	t
+1743	1334	29	317 Main St	t
+1744	1335	32	204 Elm St	t
+1745	1336	27	216 Lincoln Way	t
+1746	1337	10	290 Maple Ave	t
+1747	1338	27	185 Elm St	t
+1748	1339	27	234 Oak St	t
+1749	1339	11	147 Highland Ave	f
+1750	1340	26	13 Sunset Blvd	t
+1751	1340	1	105 Washington St	f
+1752	1341	1	33 Lakeview Dr	t
+1753	1342	27	324 Sunset Blvd	t
+1754	1343	27	102 Main St	t
+1755	1344	1	321 Lincoln Way	t
+1756	1345	31	246 Elm St	t
+1757	1346	27	67 Highland Ave	t
+1758	1347	17	93 Broadway	t
+1759	1348	30	362 Washington St	t
+1760	1349	4	178 Main St	t
+1761	1350	4	390 Maple Ave	t
+1762	1350	25	69 Park Ave	f
+1763	1350	1	320 Broadway	f
+1764	1351	31	264 Cedar Rd	t
+1765	1352	7	51 Maple Ave	t
+1766	1352	27	172 Broadway	f
+1767	1353	2	186 Lakeview Dr	t
+1768	1353	19	337 Oak St	f
+1769	1354	3	87 Oak St	t
+1770	1355	27	241 Lincoln Way	t
+1771	1356	28	179 Oak St	t
+1772	1356	19	204 Sunset Blvd	f
+1773	1357	34	229 Park Ave	t
+1774	1358	15	377 Broadway	t
+1775	1359	1	136 Broadway	t
+1776	1360	25	194 Oak St	t
+1777	1361	19	232 Main St	t
+1778	1361	4	237 Oak St	f
+1779	1362	27	242 Washington St	t
+1780	1363	2	338 Lincoln Way	t
+1781	1364	1	204 Park Ave	t
+1782	1365	7	2 Maple Ave	t
+1783	1366	1	318 Broadway	t
+1784	1367	1	390 Lakeview Dr	t
+1785	1367	17	6 Lincoln Way	f
+1786	1368	24	228 Park Ave	t
+1787	1368	27	352 Lincoln Way	f
+1788	1369	2	283 Lakeview Dr	t
+1789	1370	16	152 Elm St	t
+1790	1371	18	257 Oak St	t
+1791	1372	17	54 Park Ave	t
+1792	1372	12	240 Highland Ave	f
+1793	1373	1	239 Main St	t
+1794	1374	24	17 Oak St	t
+1795	1375	2	238 Elm St	t
+1796	1376	27	151 Cedar Rd	t
+1797	1377	1	300 Broadway	t
+1798	1378	5	349 Park Ave	t
+1799	1378	27	269 Highland Ave	f
+1800	1379	27	235 Oak St	t
+1801	1380	18	315 Oak St	t
+1802	1380	22	154 Sunset Blvd	f
+1803	1381	29	368 Maple Ave	t
+1804	1382	1	63 Lakeview Dr	t
+1805	1383	22	214 Lincoln Way	t
+1806	1384	31	252 Elm St	t
+1807	1385	1	132 Broadway	t
+1808	1386	12	264 Sunset Blvd	t
+1809	1386	12	342 Lincoln Way	f
+1810	1387	17	211 Sunset Blvd	t
+1811	1388	27	394 Lincoln Way	t
+1812	1389	33	40 Lincoln Way	t
+1813	1389	11	144 Cedar Rd	f
+1814	1389	19	286 Broadway	f
+1815	1390	17	171 Cedar Rd	t
+1816	1391	27	240 Broadway	t
+1817	1392	1	253 Cedar Rd	t
+1818	1393	27	265 Lincoln Way	t
+1819	1394	27	228 Lincoln Way	t
+1820	1395	15	208 Lakeview Dr	t
+1821	1396	15	159 Park Ave	t
+1822	1397	27	90 Washington St	t
+1823	1398	30	44 Broadway	t
+1824	1399	17	323 Sunset Blvd	t
+1825	1399	18	290 Maple Ave	f
+1826	1400	17	63 Broadway	t
+1827	1401	2	198 Oak St	t
+1828	1402	7	378 Broadway	t
+1829	1402	28	26 Highland Ave	f
+1830	1403	17	94 Oak St	t
+1831	1404	1	96 Main St	t
+1832	1405	1	39 Main St	t
+1833	1405	27	229 Lincoln Way	f
+1834	1406	1	135 Oak St	t
+1835	1407	21	229 Highland Ave	t
+1836	1407	12	178 Park Ave	f
+1837	1408	6	261 Highland Ave	t
+1838	1409	2	365 Cedar Rd	t
+1839	1409	32	145 Washington St	f
+1840	1410	1	5 Lakeview Dr	t
+1841	1411	12	63 Broadway	t
+1842	1412	26	22 Elm St	t
+1843	1413	1	352 Main St	t
+1844	1414	27	305 Broadway	t
+1845	1415	18	182 Main St	t
+1846	1416	19	93 Highland Ave	t
+1847	1417	2	162 Oak St	t
+1848	1418	1	97 Lakeview Dr	t
+1849	1419	18	47 Cedar Rd	t
+1850	1419	22	330 Broadway	f
+1851	1420	12	318 Main St	t
+1852	1421	27	85 Oak St	t
+1853	1422	1	322 Sunset Blvd	t
+1854	1423	22	389 Broadway	t
+1855	1424	23	391 Oak St	t
+1856	1425	27	335 Maple Ave	t
+1857	1426	24	349 Washington St	t
+1858	1426	11	262 Cedar Rd	f
+1859	1426	33	122 Main St	f
+1860	1427	27	243 Main St	t
+1861	1428	27	8 Lincoln Way	t
+1862	1429	27	310 Elm St	t
+1863	1430	7	306 Washington St	t
+1864	1430	24	387 Maple Ave	f
+1865	1431	31	385 Main St	t
+1866	1431	34	356 Park Ave	f
+1867	1432	9	320 Lincoln Way	t
+1868	1433	27	142 Lincoln Way	t
+1869	1434	22	105 Washington St	t
+1870	1435	27	283 Elm St	t
+1871	1436	1	193 Maple Ave	t
+1872	1437	27	212 Washington St	t
+1873	1438	26	17 Lincoln Way	t
+1874	1438	1	309 Oak St	f
+1875	1439	32	223 Lakeview Dr	t
+1876	1440	1	137 Cedar Rd	t
+1877	1441	27	287 Sunset Blvd	t
+1878	1442	27	70 Maple Ave	t
+1879	1443	27	77 Sunset Blvd	t
+1880	1443	18	266 Lakeview Dr	f
+1881	1444	13	326 Park Ave	t
+1882	1444	31	299 Highland Ave	f
+1883	1444	17	108 Washington St	f
+1884	1445	3	232 Oak St	t
+1885	1445	18	212 Park Ave	f
+1886	1446	1	50 Main St	t
+1887	1447	28	261 Oak St	t
+1888	1448	11	163 Highland Ave	t
+1889	1449	23	280 Elm St	t
+1890	1450	27	387 Main St	t
+1891	1451	28	50 Cedar Rd	t
+1892	1452	26	135 Cedar Rd	t
+1893	1453	31	129 Elm St	t
+1894	1453	1	357 Lakeview Dr	f
+1895	1454	27	193 Lakeview Dr	t
+1896	1454	1	156 Highland Ave	f
+1897	1454	29	114 Washington St	f
+1898	1455	12	350 Main St	t
+1899	1455	1	331 Elm St	f
+1900	1456	2	57 Lincoln Way	t
+1901	1457	30	49 Lincoln Way	t
+1902	1458	1	32 Maple Ave	t
+1903	1459	24	96 Sunset Blvd	t
+1904	1460	34	174 Highland Ave	t
+1905	1461	15	156 Highland Ave	t
+1906	1462	27	279 Cedar Rd	t
+1907	1463	14	154 Lakeview Dr	t
+1908	1464	7	372 Broadway	t
+1909	1465	29	353 Lincoln Way	t
+1910	1466	18	109 Main St	t
+1911	1467	29	156 Sunset Blvd	t
+1912	1468	16	236 Washington St	t
+1913	1469	19	337 Cedar Rd	t
+1914	1470	33	93 Main St	t
+1915	1471	1	297 Cedar Rd	t
+1916	1471	27	290 Lakeview Dr	f
+1917	1471	26	276 Lincoln Way	f
+1918	1472	9	155 Lakeview Dr	t
+1919	1473	27	209 Cedar Rd	t
+1920	1474	13	121 Lakeview Dr	t
+1921	1475	27	259 Highland Ave	t
+1922	1476	31	5 Lakeview Dr	t
+1923	1477	26	299 Broadway	t
+1924	1478	22	397 Oak St	t
+1925	1479	2	368 Park Ave	t
+1926	1480	1	226 Elm St	t
+1927	1481	27	397 Park Ave	t
+1928	1482	27	49 Maple Ave	t
+1929	1482	29	375 Broadway	f
+1930	1482	30	265 Highland Ave	f
+1931	1483	2	42 Lakeview Dr	t
+1932	1484	27	43 Broadway	t
+1933	1484	1	278 Washington St	f
+1934	1485	13	262 Park Ave	t
+1935	1486	27	392 Maple Ave	t
+1936	1487	21	196 Sunset Blvd	t
+1937	1488	6	127 Highland Ave	t
+1938	1489	12	346 Lakeview Dr	t
+1939	1490	17	94 Sunset Blvd	t
+1940	1491	27	306 Highland Ave	t
+1941	1492	1	271 Broadway	t
+1942	1492	12	260 Highland Ave	f
+1943	1493	19	55 Lincoln Way	t
+1944	1493	9	262 Cedar Rd	f
+1945	1494	2	172 Maple Ave	t
+1946	1495	2	210 Lakeview Dr	t
+1947	1495	17	116 Oak St	f
+1948	1496	13	287 Lakeview Dr	t
+1949	1497	29	171 Park Ave	t
+1950	1498	7	161 Elm St	t
+1951	1498	3	225 Sunset Blvd	f
+1952	1499	32	41 Sunset Blvd	t
+1953	1500	28	248 Washington St	t
+1954	1501	19	109 Park Ave	t
+1955	1501	30	217 Oak St	f
+1956	1501	19	161 Cedar Rd	f
+1957	1502	15	344 Park Ave	t
+1958	1503	29	135 Washington St	t
+1959	1504	31	207 Broadway	t
+1960	1504	2	1 Main St	f
+1961	1505	27	293 Lakeview Dr	t
+1962	1505	15	171 Park Ave	f
+1963	1505	12	137 Sunset Blvd	f
+1964	1506	33	143 Lakeview Dr	t
+1965	1507	27	270 Sunset Blvd	t
+1966	1507	17	374 Oak St	f
+1967	1508	30	188 Main St	t
+1968	1509	12	122 Broadway	t
+1969	1510	18	344 Maple Ave	t
+1970	1511	31	146 Sunset Blvd	t
+1971	1512	27	107 Highland Ave	t
+1972	1513	1	269 Park Ave	t
+1973	1514	2	176 Highland Ave	t
+1974	1514	1	304 Washington St	f
+1975	1515	1	242 Lincoln Way	t
+1976	1515	1	365 Lincoln Way	f
+1977	1516	2	263 Oak St	t
+1978	1517	1	354 Park Ave	t
+1979	1518	27	298 Main St	t
+1980	1518	1	129 Elm St	f
+1981	1519	13	379 Cedar Rd	t
+1982	1520	1	80 Main St	t
+1983	1521	27	360 Main St	t
+1984	1521	24	332 Sunset Blvd	f
+1985	1521	18	379 Park Ave	f
+1986	1522	1	64 Park Ave	t
+1987	1522	7	2 Washington St	f
+1988	1522	31	362 Elm St	f
+1989	1523	1	75 Maple Ave	t
+1990	1524	1	112 Cedar Rd	t
+1991	1525	1	236 Lakeview Dr	t
+1992	1526	1	327 Sunset Blvd	t
+1993	1526	27	153 Washington St	f
+1994	1527	33	11 Highland Ave	t
+1995	1527	27	346 Cedar Rd	f
+1996	1528	28	320 Oak St	t
+1997	1528	31	21 Park Ave	f
+1998	1529	17	145 Elm St	t
+1999	1530	29	308 Oak St	t
+2000	1531	27	213 Main St	t
+2001	1532	8	13 Main St	t
+2002	1533	21	214 Highland Ave	t
+2003	1534	8	376 Cedar Rd	t
+2004	1535	1	185 Park Ave	t
+2005	1536	1	236 Oak St	t
+2006	1537	27	44 Park Ave	t
+2007	1537	16	122 Oak St	f
+2008	1537	29	247 Main St	f
+2009	1538	2	18 Lakeview Dr	t
+2010	1538	5	9 Lincoln Way	f
+2011	1539	27	1 Washington St	t
+2012	1539	14	380 Sunset Blvd	f
+2013	1540	24	363 Maple Ave	t
+2014	1540	1	121 Lincoln Way	f
+2015	1541	17	157 Elm St	t
+2016	1541	11	318 Elm St	f
+2017	1542	19	84 Park Ave	t
+2018	1543	2	104 Broadway	t
+2019	1543	27	274 Highland Ave	f
+2020	1543	1	10 Oak St	f
+2021	1544	14	61 Broadway	t
+2022	1545	22	147 Park Ave	t
+2023	1546	13	197 Lincoln Way	t
+2024	1547	8	323 Highland Ave	t
+2025	1548	21	214 Park Ave	t
+2026	1549	32	295 Elm St	t
+2027	1549	21	62 Sunset Blvd	f
+2028	1550	15	292 Main St	t
+2029	1551	25	210 Washington St	t
+2030	1551	15	202 Highland Ave	f
+2031	1552	31	38 Cedar Rd	t
+2032	1553	20	234 Highland Ave	t
+2033	1554	18	69 Highland Ave	t
+2034	1555	1	236 Park Ave	t
+2035	1556	32	341 Elm St	t
+2036	1557	18	122 Cedar Rd	t
+2037	1558	30	72 Washington St	t
+2038	1559	2	277 Main St	t
+2039	1560	12	341 Oak St	t
+2040	1561	7	60 Broadway	t
+2041	1562	27	35 Broadway	t
+2042	1563	14	286 Highland Ave	t
+2043	1563	2	227 Maple Ave	f
+2044	1564	26	284 Washington St	t
+2045	1565	27	121 Sunset Blvd	t
+2046	1566	17	324 Maple Ave	t
+2047	1567	18	13 Elm St	t
+2048	1568	27	254 Washington St	t
+2049	1568	7	59 Highland Ave	f
+2050	1568	1	202 Maple Ave	f
+2051	1569	19	286 Cedar Rd	t
+2052	1569	29	304 Sunset Blvd	f
+2053	1570	27	197 Oak St	t
+2054	1571	13	290 Broadway	t
+2055	1572	27	16 Elm St	t
+2056	1573	26	314 Highland Ave	t
+2057	1574	21	200 Sunset Blvd	t
+2058	1574	12	192 Elm St	f
+2059	1575	3	237 Sunset Blvd	t
+2060	1575	17	267 Highland Ave	f
+2061	1576	17	273 Park Ave	t
+2062	1577	27	347 Park Ave	t
+2063	1578	1	60 Lincoln Way	t
+2064	1579	5	352 Lincoln Way	t
+2065	1580	27	169 Highland Ave	t
+2066	1581	29	182 Oak St	t
+2067	1582	27	332 Sunset Blvd	t
+2068	1583	33	224 Elm St	t
+2069	1584	1	290 Main St	t
+2070	1585	1	282 Oak St	t
+2071	1585	1	308 Maple Ave	f
+2072	1586	24	283 Main St	t
+2073	1586	31	329 Lakeview Dr	f
+2074	1587	30	72 Park Ave	t
+2075	1587	1	89 Oak St	f
+2076	1588	27	173 Broadway	t
+2077	1589	12	180 Highland Ave	t
+2078	1590	1	288 Washington St	t
+2079	1591	1	53 Main St	t
+2080	1592	32	250 Washington St	t
+2081	1593	18	55 Oak St	t
+2082	1594	11	303 Broadway	t
+2083	1594	12	215 Lincoln Way	f
+2084	1595	28	285 Elm St	t
+2085	1596	17	327 Highland Ave	t
+2086	1597	18	284 Sunset Blvd	t
+2087	1598	18	97 Broadway	t
+2088	1599	27	98 Washington St	t
+2089	1600	27	294 Broadway	t
+2090	1601	2	279 Highland Ave	t
+2091	1601	1	345 Cedar Rd	f
+2092	1602	1	131 Main St	t
+2093	1603	27	266 Cedar Rd	t
+2094	1603	2	240 Cedar Rd	f
+2095	1604	33	195 Maple Ave	t
+2096	1605	34	376 Oak St	t
+2097	1606	27	338 Highland Ave	t
+2098	1607	11	205 Sunset Blvd	t
+2099	1608	29	184 Sunset Blvd	t
+2100	1609	15	127 Main St	t
+2101	1610	1	331 Main St	t
+2102	1611	17	108 Washington St	t
+2103	1612	27	117 Elm St	t
+2104	1613	33	225 Broadway	t
+2105	1614	34	163 Highland Ave	t
+2106	1615	17	382 Oak St	t
+2107	1616	29	356 Elm St	t
+2108	1617	1	218 Lincoln Way	t
+2109	1618	15	172 Lincoln Way	t
+2110	1619	29	397 Maple Ave	t
+2111	1620	1	219 Lakeview Dr	t
+2112	1621	1	12 Oak St	t
+2113	1622	17	39 Lincoln Way	t
+2114	1623	27	133 Washington St	t
+2115	1624	27	227 Lincoln Way	t
+2116	1624	1	295 Broadway	f
+2117	1625	28	268 Maple Ave	t
+2118	1626	3	378 Washington St	t
+2119	1627	1	249 Maple Ave	t
+2120	1628	8	218 Maple Ave	t
+2121	1629	1	316 Cedar Rd	t
+2122	1629	31	280 Lakeview Dr	f
+2123	1630	27	225 Washington St	t
+2124	1631	3	105 Cedar Rd	t
+2125	1632	17	118 Broadway	t
+2126	1633	27	162 Lincoln Way	t
+2127	1633	34	332 Sunset Blvd	f
+2128	1634	17	57 Main St	t
+2129	1635	11	96 Park Ave	t
+2130	1636	27	331 Main St	t
+2131	1637	1	299 Highland Ave	t
+2132	1638	27	154 Main St	t
+2133	1639	27	241 Broadway	t
+2134	1640	12	330 Main St	t
+2135	1641	22	186 Lincoln Way	t
+2136	1642	18	179 Highland Ave	t
+2137	1643	7	7 Washington St	t
+2138	1644	27	240 Lakeview Dr	t
+2139	1644	1	124 Lakeview Dr	f
+2140	1645	34	230 Park Ave	t
+2141	1645	12	156 Cedar Rd	f
+2142	1646	17	270 Lincoln Way	t
+2143	1646	2	77 Main St	f
+2144	1647	4	267 Main St	t
+2145	1648	1	377 Sunset Blvd	t
+2146	1649	1	357 Washington St	t
+2147	1650	23	35 Oak St	t
+2148	1651	26	190 Main St	t
+2149	1651	2	100 Cedar Rd	f
+2150	1651	27	287 Lakeview Dr	f
+2151	1652	2	133 Cedar Rd	t
+2152	1653	9	154 Elm St	t
+2153	1654	1	260 Washington St	t
+2154	1655	33	62 Maple Ave	t
+2155	1656	28	260 Oak St	t
+2156	1657	1	37 Main St	t
+2157	1658	26	6 Maple Ave	t
+2158	1659	16	8 Sunset Blvd	t
+2159	1660	17	359 Lincoln Way	t
+2160	1661	8	44 Sunset Blvd	t
+2161	1662	17	270 Oak St	t
+2162	1663	16	374 Elm St	t
+2163	1664	29	391 Highland Ave	t
+2164	1664	29	307 Park Ave	f
+2165	1665	4	125 Park Ave	t
+2166	1666	27	369 Park Ave	t
+2167	1667	19	115 Highland Ave	t
+2168	1667	31	4 Oak St	f
+2169	1668	27	94 Lakeview Dr	t
+2170	1668	7	16 Park Ave	f
+2171	1668	1	24 Highland Ave	f
+2172	1669	31	367 Park Ave	t
+2173	1670	19	291 Maple Ave	t
+2174	1670	22	205 Park Ave	f
+2175	1671	26	348 Highland Ave	t
+2176	1672	1	394 Sunset Blvd	t
+2177	1673	1	79 Washington St	t
+2178	1674	27	295 Elm St	t
+2179	1675	7	220 Elm St	t
+2180	1676	27	48 Broadway	t
+2181	1676	17	351 Broadway	f
+2182	1677	1	185 Washington St	t
+2183	1677	17	26 Lakeview Dr	f
+2184	1678	1	239 Cedar Rd	t
+2185	1679	27	151 Lakeview Dr	t
+2186	1680	14	123 Highland Ave	t
+2187	1681	27	50 Lakeview Dr	t
+2188	1681	28	250 Cedar Rd	f
+2189	1682	27	144 Oak St	t
+2190	1683	18	180 Main St	t
+2191	1684	34	366 Elm St	t
+2192	1684	31	46 Main St	f
+2193	1684	27	85 Park Ave	f
+2194	1685	27	207 Oak St	t
+2195	1686	17	78 Lincoln Way	t
+2196	1686	1	340 Maple Ave	f
+2197	1687	27	106 Lakeview Dr	t
+2198	1687	27	243 Elm St	f
+2199	1688	19	310 Sunset Blvd	t
+2200	1688	29	116 Main St	f
+2201	1689	1	141 Sunset Blvd	t
+2202	1689	32	254 Lincoln Way	f
+2203	1690	26	78 Maple Ave	t
+2204	1691	26	85 Lakeview Dr	t
+2205	1692	29	237 Elm St	t
+2206	1693	1	22 Cedar Rd	t
+2207	1694	27	31 Broadway	t
+2208	1695	13	244 Oak St	t
+2209	1696	29	87 Sunset Blvd	t
+2210	1697	23	388 Oak St	t
+2211	1698	26	134 Lakeview Dr	t
+2212	1699	22	1 Broadway	t
+2213	1700	1	320 Lincoln Way	t
+2214	1700	2	311 Lincoln Way	f
+2215	1701	27	28 Lincoln Way	t
+2216	1702	29	338 Maple Ave	t
+2217	1703	27	291 Lakeview Dr	t
+2218	1703	21	278 Lakeview Dr	f
+2219	1704	1	61 Highland Ave	t
+2220	1705	27	14 Main St	t
+2221	1706	1	203 Main St	t
+2222	1707	27	245 Lakeview Dr	t
+2223	1708	19	299 Park Ave	t
+2224	1709	18	248 Oak St	t
+2225	1709	31	63 Sunset Blvd	f
+2226	1710	21	231 Lakeview Dr	t
+2227	1711	2	336 Lakeview Dr	t
+2228	1712	31	300 Elm St	t
+2229	1713	27	68 Lakeview Dr	t
+2230	1714	28	167 Oak St	t
+2231	1715	10	87 Main St	t
+2232	1715	26	344 Cedar Rd	f
+2233	1716	17	332 Washington St	t
+2234	1716	1	354 Park Ave	f
+2235	1717	27	88 Cedar Rd	t
+2236	1717	27	278 Highland Ave	f
+2237	1718	1	79 Highland Ave	t
+2238	1718	27	325 Sunset Blvd	f
+2239	1719	3	397 Lakeview Dr	t
+2240	1720	27	108 Washington St	t
+2241	1721	1	116 Cedar Rd	t
+2242	1722	25	9 Cedar Rd	t
+2243	1722	1	242 Elm St	f
+2244	1723	1	277 Cedar Rd	t
+2245	1724	1	103 Lakeview Dr	t
+2246	1725	1	286 Park Ave	t
+2247	1726	1	199 Lakeview Dr	t
+2248	1727	14	53 Washington St	t
+2249	1728	24	67 Highland Ave	t
+2250	1729	10	297 Maple Ave	t
+2251	1729	17	3 Park Ave	f
+2252	1730	1	217 Park Ave	t
+2253	1730	32	291 Sunset Blvd	f
+2254	1731	27	104 Broadway	t
+2255	1731	27	69 Park Ave	f
+2256	1732	27	234 Park Ave	t
+2257	1733	19	376 Washington St	t
+2258	1734	2	17 Lakeview Dr	t
+2259	1735	27	388 Park Ave	t
+2260	1736	1	245 Lincoln Way	t
+2261	1737	1	319 Lakeview Dr	t
+2262	1738	8	171 Elm St	t
+2263	1739	16	73 Broadway	t
+2264	1740	11	213 Highland Ave	t
+2265	1741	19	242 Main St	t
+2266	1741	30	291 Lakeview Dr	f
+2267	1741	1	324 Washington St	f
+2268	1742	27	338 Lincoln Way	t
+2269	1743	27	11 Broadway	t
+2270	1743	18	279 Lakeview Dr	f
+2271	1744	30	64 Highland Ave	t
+2272	1745	2	68 Maple Ave	t
+2273	1745	27	137 Main St	f
+2274	1746	27	308 Sunset Blvd	t
+2275	1747	19	176 Maple Ave	t
+2276	1747	22	8 Elm St	f
+2277	1747	27	112 Sunset Blvd	f
+2278	1748	1	12 Park Ave	t
+2279	1749	26	278 Sunset Blvd	t
+2280	1750	27	130 Washington St	t
+2281	1751	1	367 Elm St	t
+2282	1751	15	260 Lakeview Dr	f
+2283	1752	27	330 Sunset Blvd	t
+2284	1753	2	126 Broadway	t
+2285	1753	1	344 Highland Ave	f
+2286	1754	9	115 Elm St	t
+2287	1754	30	36 Broadway	f
+2288	1755	27	33 Cedar Rd	t
+2289	1756	14	132 Oak St	t
+2290	1757	1	186 Main St	t
+2291	1758	23	174 Highland Ave	t
+2292	1759	11	378 Washington St	t
+2293	1760	1	205 Broadway	t
+2294	1761	25	361 Cedar Rd	t
+2295	1762	14	153 Sunset Blvd	t
+2296	1763	1	299 Sunset Blvd	t
+2297	1763	1	319 Lakeview Dr	f
+2298	1764	1	351 Lakeview Dr	t
+2299	1765	1	10 Lakeview Dr	t
+2300	1765	28	258 Highland Ave	f
+2301	1766	27	152 Washington St	t
+2302	1766	22	205 Maple Ave	f
+2303	1766	29	378 Oak St	f
+2304	1767	13	273 Elm St	t
+2305	1767	27	4 Sunset Blvd	f
+2306	1767	23	360 Sunset Blvd	f
+2307	1768	1	333 Main St	t
+2308	1768	32	309 Lincoln Way	f
+2309	1768	2	371 Cedar Rd	f
+2310	1769	34	342 Highland Ave	t
+2311	1770	15	387 Washington St	t
+2312	1770	11	56 Broadway	f
+2313	1771	30	80 Sunset Blvd	t
+2314	1772	29	271 Lakeview Dr	t
+2315	1773	17	284 Maple Ave	t
+2316	1774	1	53 Lakeview Dr	t
+2317	1775	27	118 Cedar Rd	t
+2318	1776	1	12 Lincoln Way	t
+2319	1777	16	363 Main St	t
+2320	1778	14	288 Elm St	t
+2321	1779	23	140 Washington St	t
+2322	1780	19	209 Lakeview Dr	t
+2323	1781	2	325 Elm St	t
+2324	1782	12	133 Cedar Rd	t
+2325	1783	27	39 Maple Ave	t
+2326	1784	2	356 Park Ave	t
+2327	1785	1	270 Cedar Rd	t
+2328	1786	12	305 Highland Ave	t
+2329	1787	27	158 Washington St	t
+2330	1788	6	133 Lakeview Dr	t
+2331	1789	1	159 Highland Ave	t
+2332	1790	28	43 Maple Ave	t
+2333	1791	32	78 Park Ave	t
+2334	1792	28	391 Elm St	t
+2335	1793	16	252 Highland Ave	t
+2336	1794	26	236 Highland Ave	t
+2337	1795	2	370 Sunset Blvd	t
+2338	1796	28	34 Main St	t
+2339	1796	1	185 Park Ave	f
+2340	1797	26	136 Park Ave	t
+2341	1798	12	309 Main St	t
+2342	1799	3	259 Highland Ave	t
+2343	1800	5	199 Washington St	t
+2344	1801	27	83 Lincoln Way	t
+2345	1802	9	332 Maple Ave	t
+2346	1803	28	32 Lincoln Way	t
+2347	1803	24	37 Cedar Rd	f
+2348	1804	28	274 Cedar Rd	t
+2349	1804	26	350 Broadway	f
+2350	1805	30	206 Highland Ave	t
+2351	1806	7	20 Highland Ave	t
+2352	1806	1	38 Lincoln Way	f
+2353	1807	17	241 Lincoln Way	t
+2354	1807	3	358 Main St	f
+2355	1808	1	280 Broadway	t
+2356	1809	27	129 Main St	t
+2357	1809	27	26 Park Ave	f
+2358	1810	12	370 Elm St	t
+2359	1810	1	24 Cedar Rd	f
+2360	1810	11	275 Lakeview Dr	f
+2361	1811	32	158 Highland Ave	t
+2362	1812	1	354 Lincoln Way	t
+2363	1813	7	12 Elm St	t
+2364	1814	1	314 Highland Ave	t
+2365	1815	1	192 Highland Ave	t
+2366	1816	27	171 Park Ave	t
+2367	1816	25	360 Maple Ave	f
+2368	1817	23	325 Highland Ave	t
+2369	1818	16	143 Broadway	t
+2370	1819	27	77 Washington St	t
+2371	1819	1	30 Park Ave	f
+2372	1820	27	347 Sunset Blvd	t
+2373	1821	1	213 Sunset Blvd	t
+2374	1822	27	46 Sunset Blvd	t
+2375	1822	26	293 Broadway	f
+2376	1823	27	254 Elm St	t
+2377	1824	27	144 Broadway	t
+2378	1825	13	241 Lincoln Way	t
+2379	1826	29	89 Elm St	t
+2380	1827	1	202 Lakeview Dr	t
+2381	1828	31	63 Park Ave	t
+2382	1829	27	378 Maple Ave	t
+2383	1830	27	208 Washington St	t
+2384	1830	1	319 Lakeview Dr	f
+2385	1831	1	225 Elm St	t
+2386	1831	1	241 Elm St	f
+2387	1831	1	373 Lincoln Way	f
+2388	1832	27	291 Lakeview Dr	t
+2389	1833	11	218 Washington St	t
+2390	1833	7	126 Elm St	f
+2391	1834	17	332 Maple Ave	t
+2392	1835	27	21 Elm St	t
+2393	1835	23	354 Broadway	f
+2394	1836	1	267 Oak St	t
+2395	1836	18	313 Maple Ave	f
+2396	1837	17	309 Oak St	t
+2397	1838	19	15 Main St	t
+2398	1839	27	193 Highland Ave	t
+2399	1840	1	146 Lincoln Way	t
+2400	1841	1	209 Cedar Rd	t
+2401	1842	19	5 Main St	t
+2402	1843	26	224 Highland Ave	t
+2403	1844	27	367 Maple Ave	t
+2404	1845	27	192 Lincoln Way	t
+2405	1846	27	313 Washington St	t
+2406	1847	17	334 Broadway	t
+2407	1848	25	341 Washington St	t
+2408	1849	1	227 Main St	t
+2409	1850	31	300 Highland Ave	t
+2410	1851	15	236 Elm St	t
+2411	1852	27	278 Cedar Rd	t
+2412	1853	27	194 Washington St	t
+2413	1853	17	209 Lakeview Dr	f
+2414	1854	12	233 Washington St	t
+2415	1855	2	129 Oak St	t
+2416	1856	2	283 Cedar Rd	t
+2417	1857	27	88 Lakeview Dr	t
+2418	1857	2	281 Lincoln Way	f
+2419	1858	26	21 Park Ave	t
+2420	1858	23	37 Oak St	f
+2421	1859	18	13 Highland Ave	t
+2422	1860	2	295 Park Ave	t
+2423	1861	27	369 Broadway	t
+2424	1862	1	164 Broadway	t
+2425	1863	27	50 Broadway	t
+2426	1864	32	107 Lakeview Dr	t
+2427	1864	31	239 Sunset Blvd	f
+2428	1865	8	387 Broadway	t
+2429	1865	6	300 Lakeview Dr	f
+2430	1866	18	240 Cedar Rd	t
+2431	1866	4	53 Lincoln Way	f
+2432	1867	1	260 Sunset Blvd	t
+2433	1868	27	345 Maple Ave	t
+2434	1869	17	28 Washington St	t
+2435	1869	1	253 Elm St	f
+2436	1870	8	42 Oak St	t
+2437	1871	12	104 Cedar Rd	t
+2438	1871	28	324 Lincoln Way	f
+2439	1872	23	100 Elm St	t
+2440	1873	27	221 Washington St	t
+2441	1874	1	82 Lakeview Dr	t
+2442	1875	33	340 Main St	t
+2443	1875	33	266 Highland Ave	f
+2444	1876	27	124 Maple Ave	t
+2445	1876	24	303 Oak St	f
+2446	1877	27	49 Main St	t
+2447	1877	1	341 Lakeview Dr	f
+2448	1878	29	318 Broadway	t
+2449	1878	27	354 Broadway	f
+2450	1879	27	58 Sunset Blvd	t
+2451	1879	24	369 Main St	f
+2452	1880	1	241 Main St	t
+2453	1880	27	150 Maple Ave	f
+2454	1881	28	324 Highland Ave	t
+2455	1882	24	195 Broadway	t
+2456	1883	13	198 Lincoln Way	t
+2457	1884	22	154 Washington St	t
+2458	1884	29	395 Main St	f
+2459	1885	14	329 Cedar Rd	t
+2460	1885	17	370 Cedar Rd	f
+2461	1886	22	188 Cedar Rd	t
+2462	1886	27	109 Highland Ave	f
+2463	1887	1	61 Sunset Blvd	t
+2464	1888	29	128 Broadway	t
+2465	1889	25	164 Lakeview Dr	t
+2466	1890	31	203 Maple Ave	t
+2467	1891	1	370 Cedar Rd	t
+2468	1892	27	186 Maple Ave	t
+2469	1893	1	307 Main St	t
+2470	1894	27	219 Main St	t
+2471	1895	27	185 Cedar Rd	t
+2472	1896	34	330 Lincoln Way	t
+2473	1897	1	12 Park Ave	t
+2474	1897	29	346 Maple Ave	f
+2475	1898	4	165 Elm St	t
+2476	1898	24	342 Cedar Rd	f
+2477	1898	32	208 Main St	f
+2478	1899	4	19 Lincoln Way	t
+2479	1899	24	109 Maple Ave	f
+2480	1900	17	301 Oak St	t
+2481	1900	31	114 Main St	f
+2482	1901	22	42 Oak St	t
+2483	1902	12	124 Oak St	t
+2484	1902	27	379 Broadway	f
+2485	1903	5	190 Oak St	t
+2486	1903	15	65 Sunset Blvd	f
+2487	1904	11	183 Elm St	t
+2488	1905	22	269 Maple Ave	t
+2489	1905	29	247 Main St	f
+2490	1906	29	49 Highland Ave	t
+2491	1907	1	23 Washington St	t
+2492	1907	19	248 Cedar Rd	f
+2493	1907	27	211 Washington St	f
+2494	1908	1	122 Main St	t
+2495	1909	1	70 Highland Ave	t
+2496	1910	7	344 Elm St	t
+2497	1911	27	238 Maple Ave	t
+2498	1912	27	34 Sunset Blvd	t
+2499	1913	25	15 Park Ave	t
+2500	1914	27	307 Highland Ave	t
+2501	1915	27	53 Lakeview Dr	t
+2502	1916	27	100 Lincoln Way	t
+2503	1917	27	395 Main St	t
+2504	1918	22	29 Oak St	t
+2505	1919	17	202 Broadway	t
+2506	1920	13	161 Washington St	t
+2507	1920	1	329 Lakeview Dr	f
+2508	1921	30	371 Park Ave	t
+2509	1922	17	230 Washington St	t
+2510	1922	1	317 Oak St	f
+2511	1923	12	317 Sunset Blvd	t
+2512	1923	28	387 Elm St	f
+2513	1924	14	110 Lakeview Dr	t
+2514	1925	17	368 Maple Ave	t
+2515	1926	27	364 Lincoln Way	t
+2516	1927	34	45 Elm St	t
+2517	1927	7	31 Broadway	f
+2518	1928	31	31 Lakeview Dr	t
+2519	1929	11	303 Lincoln Way	t
+2520	1929	13	253 Maple Ave	f
+2521	1930	12	286 Park Ave	t
+2522	1930	5	193 Elm St	f
+2523	1931	14	305 Main St	t
+2524	1932	30	375 Oak St	t
+2525	1933	27	168 Sunset Blvd	t
+2526	1934	14	269 Cedar Rd	t
+2527	1935	19	122 Cedar Rd	t
+2528	1936	9	214 Broadway	t
+2529	1937	14	71 Oak St	t
+2530	1937	2	123 Elm St	f
+2531	1938	32	81 Highland Ave	t
+2532	1938	27	341 Main St	f
+2533	1939	1	155 Washington St	t
+2534	1940	17	39 Washington St	t
+2535	1941	24	379 Elm St	t
+2536	1941	15	147 Lincoln Way	f
+2537	1942	27	189 Elm St	t
+2538	1943	2	398 Lakeview Dr	t
+2539	1944	27	132 Sunset Blvd	t
+2540	1944	17	73 Washington St	f
+2541	1945	29	398 Park Ave	t
+2542	1946	15	276 Highland Ave	t
+2543	1947	1	92 Oak St	t
+2544	1948	33	149 Lakeview Dr	t
+2545	1949	27	98 Main St	t
+2546	1950	29	288 Sunset Blvd	t
+2547	1950	24	334 Maple Ave	f
+2548	1950	9	123 Washington St	f
+2549	1951	28	257 Park Ave	t
+2550	1952	5	335 Maple Ave	t
+2551	1952	23	51 Highland Ave	f
+2552	1953	24	207 Elm St	t
+2553	1954	2	106 Elm St	t
+2554	1955	16	174 Highland Ave	t
+2555	1955	29	160 Highland Ave	f
+2556	1956	27	392 Washington St	t
+2557	1957	1	344 Lincoln Way	t
+2558	1957	1	140 Highland Ave	f
+2559	1958	1	217 Main St	t
+2560	1959	1	82 Maple Ave	t
+2561	1960	1	176 Highland Ave	t
+2562	1961	29	261 Broadway	t
+2563	1962	13	297 Main St	t
+2564	1963	29	209 Oak St	t
+2565	1964	1	125 Oak St	t
+2566	1965	26	216 Highland Ave	t
+2567	1965	11	126 Main St	f
+2568	1966	13	140 Broadway	t
+2569	1967	29	350 Elm St	t
+2570	1968	27	61 Highland Ave	t
+2571	1969	18	132 Lakeview Dr	t
+2572	1970	27	370 Sunset Blvd	t
+2573	1970	6	272 Main St	f
+2574	1971	21	321 Maple Ave	t
+2575	1972	5	24 Washington St	t
+2576	1973	31	58 Maple Ave	t
+2577	1974	1	239 Highland Ave	t
+2578	1975	14	163 Main St	t
+2579	1975	6	71 Broadway	f
+2580	1976	27	35 Cedar Rd	t
+2581	1977	1	293 Cedar Rd	t
+2582	1977	27	272 Highland Ave	f
+2583	1978	25	206 Elm St	t
+2584	1979	27	129 Lakeview Dr	t
+2585	1980	1	233 Lincoln Way	t
+2586	1981	18	180 Lincoln Way	t
+2587	1982	1	76 Sunset Blvd	t
+2588	1983	21	42 Sunset Blvd	t
+2589	1983	1	299 Highland Ave	f
+2590	1983	22	356 Sunset Blvd	f
+2591	1984	1	277 Lincoln Way	t
+2592	1985	29	307 Elm St	t
+2593	1986	19	317 Lincoln Way	t
+2594	1987	12	159 Highland Ave	t
+2595	1987	27	221 Lincoln Way	f
+2596	1988	17	5 Highland Ave	t
+2597	1988	1	68 Park Ave	f
+2598	1989	1	282 Oak St	t
+2599	1990	30	387 Washington St	t
+2600	1991	31	114 Cedar Rd	t
+2601	1992	17	38 Oak St	t
+2602	1993	2	295 Broadway	t
+2603	1994	26	273 Washington St	t
+2604	1995	27	338 Cedar Rd	t
+2605	1996	27	352 Cedar Rd	t
+2606	1997	28	310 Maple Ave	t
+2607	1998	27	67 Sunset Blvd	t
+2608	1999	22	207 Oak St	t
+2609	2000	1	141 Elm St	t
+2610	2000	17	372 Sunset Blvd	f
+2611	2001	27	282 Highland Ave	t
+2612	2002	10	278 Broadway	t
+2613	2002	30	31 Cedar Rd	f
+2614	2003	32	120 Sunset Blvd	t
+2615	2004	6	358 Cedar Rd	t
+2616	2004	27	203 Maple Ave	f
+2617	2005	1	99 Highland Ave	t
+2618	2005	30	69 Oak St	f
+2619	2005	27	116 Highland Ave	f
+2620	2006	13	198 Highland Ave	t
+2621	2006	22	73 Highland Ave	f
+2622	2007	19	220 Maple Ave	t
+2623	2008	27	304 Elm St	t
+2624	2009	13	318 Elm St	t
+2625	2010	14	286 Maple Ave	t
+2626	2010	26	71 Highland Ave	f
+2627	2010	1	117 Oak St	f
+2628	2011	27	281 Maple Ave	t
+2629	2012	27	238 Sunset Blvd	t
+2630	2013	17	142 Broadway	t
+2631	2014	1	84 Park Ave	t
+2632	2015	19	100 Lakeview Dr	t
+2633	2016	27	217 Main St	t
+2634	2017	5	19 Highland Ave	t
+2635	2018	1	76 Sunset Blvd	t
+2636	2019	31	70 Lincoln Way	t
+2637	2020	12	162 Maple Ave	t
+2638	2020	1	155 Washington St	f
+2639	2021	27	187 Lakeview Dr	t
+2640	2021	27	366 Lakeview Dr	f
+2641	2022	27	34 Broadway	t
+2642	2023	17	199 Lakeview Dr	t
+2643	2024	8	394 Washington St	t
+2644	2025	29	6 Highland Ave	t
+2645	2025	1	42 Park Ave	f
+2646	2025	27	252 Main St	f
+2647	2026	1	52 Highland Ave	t
+2648	2026	24	364 Lincoln Way	f
+2649	2026	31	262 Oak St	f
+2650	2027	1	268 Broadway	t
+2651	2028	30	212 Broadway	t
+2652	2029	27	346 Lakeview Dr	t
+2653	2030	27	214 Sunset Blvd	t
+2654	2031	1	12 Sunset Blvd	t
+2655	2032	23	310 Lincoln Way	t
+2656	2032	17	243 Maple Ave	f
+2657	2033	27	376 Sunset Blvd	t
+2658	2033	25	63 Lincoln Way	f
+2659	2033	27	183 Sunset Blvd	f
+2660	2034	13	168 Broadway	t
+2661	2035	16	43 Sunset Blvd	t
+2662	2035	34	67 Lakeview Dr	f
+2663	2036	31	362 Maple Ave	t
+2664	2037	32	104 Washington St	t
+2665	2038	4	199 Highland Ave	t
+2666	2038	1	146 Park Ave	f
+2667	2039	7	82 Lincoln Way	t
+2668	2040	1	61 Highland Ave	t
+2669	2041	27	390 Elm St	t
+2670	2042	1	76 Washington St	t
+2671	2043	27	199 Cedar Rd	t
+2672	2043	1	27 Main St	f
+2673	2044	1	14 Lincoln Way	t
+2674	2045	1	164 Lincoln Way	t
+2675	2046	1	345 Broadway	t
+2676	2047	29	304 Broadway	t
+2677	2048	1	147 Washington St	t
+2678	2049	23	81 Cedar Rd	t
+2679	2050	10	16 Main St	t
+2680	2051	2	343 Lakeview Dr	t
+2681	2052	27	309 Oak St	t
+2682	2053	4	190 Maple Ave	t
+2683	2054	22	247 Broadway	t
+2684	2055	7	248 Lincoln Way	t
+2685	2056	23	243 Sunset Blvd	t
+2686	2057	23	292 Elm St	t
+2687	2058	5	148 Main St	t
+2688	2059	22	152 Sunset Blvd	t
+2689	2060	25	209 Park Ave	t
+2690	2061	22	214 Elm St	t
+2691	2061	19	382 Broadway	f
+2692	2061	27	34 Park Ave	f
+2693	2062	1	354 Highland Ave	t
+2694	2063	18	127 Oak St	t
+2695	2064	16	186 Broadway	t
+2696	2064	19	125 Sunset Blvd	f
+2697	2065	27	69 Main St	t
+2698	2066	27	358 Cedar Rd	t
+2699	2066	27	352 Main St	f
+2700	2066	27	313 Lincoln Way	f
+2701	2067	20	53 Lakeview Dr	t
+2702	2068	1	171 Elm St	t
+2703	2068	19	150 Broadway	f
+2704	2069	18	104 Sunset Blvd	t
+2705	2070	1	82 Park Ave	t
+2706	2071	24	115 Lakeview Dr	t
+2707	2072	34	288 Washington St	t
+2708	2072	2	107 Park Ave	f
+2709	2073	13	319 Lakeview Dr	t
+2710	2074	23	63 Washington St	t
+2711	2075	28	6 Lincoln Way	t
+2712	2076	20	82 Sunset Blvd	t
+2713	2077	13	305 Broadway	t
+2714	2078	1	74 Washington St	t
+2715	2079	27	328 Oak St	t
+2716	2080	1	1 Lincoln Way	t
+2717	2081	2	36 Broadway	t
+2718	2081	15	382 Washington St	f
+2719	2082	17	101 Broadway	t
+2720	2082	1	230 Lincoln Way	f
+2721	2083	1	141 Elm St	t
+2722	2084	12	385 Cedar Rd	t
+2723	2085	27	69 Park Ave	t
+2724	2085	27	241 Cedar Rd	f
+2725	2086	8	201 Broadway	t
+2726	2087	28	278 Lakeview Dr	t
+2727	2087	9	22 Elm St	f
+2728	2088	32	22 Highland Ave	t
+2729	2089	26	209 Main St	t
+2730	2090	1	298 Lakeview Dr	t
+2731	2091	24	197 Oak St	t
+2732	2092	1	154 Highland Ave	t
+2733	2093	27	189 Washington St	t
+2734	2094	1	136 Elm St	t
+2735	2095	21	187 Sunset Blvd	t
+2736	2096	22	196 Broadway	t
+2737	2097	30	119 Lakeview Dr	t
+2738	2098	17	241 Maple Ave	t
+2739	2098	20	213 Lakeview Dr	f
+2740	2099	1	40 Maple Ave	t
+2741	2100	8	368 Maple Ave	t
+2742	2101	13	90 Cedar Rd	t
+2743	2102	34	77 Washington St	t
+2744	2102	20	231 Lakeview Dr	f
+2745	2103	27	290 Washington St	t
+2746	2104	27	143 Highland Ave	t
+2747	2105	19	348 Sunset Blvd	t
+2748	2105	1	117 Park Ave	f
+2749	2106	27	135 Broadway	t
+2750	2107	29	220 Washington St	t
+2751	2107	27	278 Cedar Rd	f
+2752	2108	27	19 Highland Ave	t
+2753	2109	27	217 Cedar Rd	t
+2754	2110	1	128 Cedar Rd	t
+2755	2111	27	306 Oak St	t
+2756	2112	4	339 Cedar Rd	t
+2757	2112	27	124 Main St	f
+2758	2112	16	3 Park Ave	f
+2759	2113	27	337 Lincoln Way	t
+2760	2114	26	335 Maple Ave	t
+2761	2115	12	331 Park Ave	t
+2762	2116	7	108 Sunset Blvd	t
+2763	2117	32	103 Cedar Rd	t
+2764	2118	1	237 Park Ave	t
+2765	2119	18	240 Lakeview Dr	t
+2766	2120	4	315 Park Ave	t
+2767	2121	15	361 Sunset Blvd	t
+2768	2122	20	147 Sunset Blvd	t
+2769	2123	2	85 Cedar Rd	t
+2770	2124	28	104 Lincoln Way	t
+2771	2125	13	176 Sunset Blvd	t
+2772	2125	22	344 Park Ave	f
+2773	2125	28	21 Highland Ave	f
+2774	2126	15	274 Maple Ave	t
+2775	2127	31	194 Broadway	t
+2776	2128	29	156 Maple Ave	t
+2777	2129	26	242 Main St	t
+2778	2130	24	2 Maple Ave	t
+2779	2131	28	177 Main St	t
+2780	2131	33	216 Oak St	f
+2781	2132	27	73 Park Ave	t
+2782	2133	1	194 Lincoln Way	t
+2783	2134	30	6 Washington St	t
+2784	2135	29	361 Elm St	t
+2785	2136	17	22 Lakeview Dr	t
+2786	2137	17	333 Sunset Blvd	t
+2787	2138	27	85 Sunset Blvd	t
+2788	2138	1	286 Park Ave	f
+2789	2138	28	239 Lincoln Way	f
+2790	2139	29	62 Main St	t
+2791	2139	7	114 Maple Ave	f
+2792	2140	12	374 Broadway	t
+2793	2141	17	291 Washington St	t
+2794	2142	19	296 Lincoln Way	t
+2795	2143	27	207 Oak St	t
+2796	2144	1	180 Broadway	t
+2797	2144	28	135 Main St	f
+2798	2145	1	313 Cedar Rd	t
+2799	2146	16	298 Cedar Rd	t
+2800	2146	7	285 Highland Ave	f
+2801	2147	17	257 Broadway	t
+2802	2148	18	125 Park Ave	t
+2803	2148	2	391 Highland Ave	f
+2804	2149	29	282 Oak St	t
+2805	2149	23	347 Lakeview Dr	f
+2806	2150	18	262 Cedar Rd	t
+2807	2151	4	3 Sunset Blvd	t
+2808	2152	4	138 Oak St	t
+2809	2153	15	201 Oak St	t
+2810	2154	20	373 Oak St	t
+2811	2154	22	109 Sunset Blvd	f
+2812	2155	27	258 Lincoln Way	t
+2813	2156	2	371 Lakeview Dr	t
+2814	2157	1	100 Lincoln Way	t
+2815	2158	27	378 Oak St	t
+2816	2158	20	39 Lakeview Dr	f
+2817	2159	2	394 Washington St	t
+2818	2160	29	228 Oak St	t
+2819	2161	27	75 Highland Ave	t
+2820	2162	10	266 Elm St	t
+2821	2162	27	260 Elm St	f
+2822	2163	5	191 Sunset Blvd	t
+2823	2163	1	16 Washington St	f
+2824	2164	2	75 Elm St	t
+2825	2165	2	202 Oak St	t
+2826	2166	14	274 Lakeview Dr	t
+2827	2167	13	316 Cedar Rd	t
+2828	2168	18	137 Oak St	t
+2829	2168	15	367 Sunset Blvd	f
+2830	2169	10	374 Lincoln Way	t
+2831	2170	1	393 Washington St	t
+2832	2170	31	357 Elm St	f
+2833	2170	14	168 Lincoln Way	f
+2834	2171	26	184 Maple Ave	t
+2835	2172	6	204 Elm St	t
+2836	2173	27	228 Elm St	t
+2837	2173	2	209 Maple Ave	f
+2838	2173	27	364 Main St	f
+2839	2174	34	269 Main St	t
+2840	2175	1	163 Washington St	t
+2841	2176	11	89 Lincoln Way	t
+2842	2177	31	300 Highland Ave	t
+2843	2177	27	362 Cedar Rd	f
+2844	2178	23	61 Park Ave	t
+2845	2179	7	259 Elm St	t
+2846	2180	27	142 Washington St	t
+2847	2181	15	64 Lakeview Dr	t
+2848	2182	14	248 Highland Ave	t
+2849	2183	1	382 Main St	t
+2850	2184	19	56 Washington St	t
+2851	2185	1	43 Lincoln Way	t
+2852	2186	27	386 Park Ave	t
+2853	2187	1	301 Maple Ave	t
+2854	2188	25	143 Elm St	t
+2855	2188	17	284 Lakeview Dr	f
+2856	2189	17	64 Elm St	t
+2857	2190	1	353 Highland Ave	t
+2858	2191	31	94 Cedar Rd	t
+2859	2192	7	350 Sunset Blvd	t
+2860	2193	29	3 Oak St	t
+2861	2194	17	36 Cedar Rd	t
+2862	2195	27	225 Washington St	t
+2863	2195	27	352 Broadway	f
+2864	2196	24	217 Lincoln Way	t
+2865	2197	27	32 Lincoln Way	t
+2866	2198	29	98 Sunset Blvd	t
+2867	2199	18	55 Oak St	t
+2868	2199	30	232 Oak St	f
+2869	2200	1	279 Elm St	t
+2870	2201	2	387 Maple Ave	t
+2871	2201	32	15 Maple Ave	f
+2872	2202	17	288 Lincoln Way	t
+2873	2203	33	12 Lincoln Way	t
+2874	2204	16	280 Cedar Rd	t
+2875	2204	1	242 Highland Ave	f
+2876	2205	8	308 Maple Ave	t
+2877	2206	22	117 Sunset Blvd	t
+2878	2207	16	322 Sunset Blvd	t
+2879	2208	30	338 Cedar Rd	t
+2880	2209	3	147 Broadway	t
+2881	2209	27	128 Oak St	f
+2882	2210	12	231 Lincoln Way	t
+2883	2211	9	381 Washington St	t
+2884	2212	34	34 Washington St	t
+2885	2213	27	44 Highland Ave	t
+2886	2214	17	337 Washington St	t
+2887	2215	2	388 Lincoln Way	t
+2888	2216	11	367 Oak St	t
+2889	2217	28	148 Broadway	t
+2890	2217	12	277 Park Ave	f
+2891	2217	1	238 Elm St	f
+2892	2218	24	232 Lincoln Way	t
+2893	2218	29	18 Maple Ave	f
+2894	2218	27	325 Cedar Rd	f
+2895	2219	27	340 Main St	t
+2896	2220	27	142 Cedar Rd	t
+2897	2221	1	398 Washington St	t
+2898	2222	2	39 Highland Ave	t
+2899	2223	16	307 Sunset Blvd	t
+2900	2224	1	387 Main St	t
+2901	2225	5	62 Lakeview Dr	t
+2902	2226	15	35 Lakeview Dr	t
+2903	2226	1	387 Washington St	f
+2904	2226	15	49 Park Ave	f
+2905	2227	27	28 Broadway	t
+2906	2228	13	369 Highland Ave	t
+2907	2228	21	177 Lakeview Dr	f
+2908	2229	1	68 Main St	t
+2909	2230	9	117 Broadway	t
+2910	2231	1	388 Highland Ave	t
+2911	2231	18	42 Highland Ave	f
+2912	2232	2	300 Lakeview Dr	t
+2913	2232	14	45 Park Ave	f
+2914	2232	1	354 Oak St	f
+2915	2233	25	361 Lakeview Dr	t
+2916	2233	27	38 Maple Ave	f
+2917	2234	27	134 Washington St	t
+2918	2235	26	362 Elm St	t
+2919	2236	1	226 Washington St	t
+2920	2237	5	304 Maple Ave	t
+2921	2238	28	278 Lakeview Dr	t
+2922	2238	1	2 Lakeview Dr	f
+2923	2238	29	98 Cedar Rd	f
+2924	2239	1	9 Park Ave	t
+2925	2240	1	353 Highland Ave	t
+2926	2241	2	58 Washington St	t
+2927	2242	5	10 Park Ave	t
+2928	2242	27	184 Cedar Rd	f
+2929	2243	17	376 Main St	t
+2930	2244	22	260 Broadway	t
+2931	2244	29	129 Highland Ave	f
+2932	2244	27	115 Elm St	f
+2933	2245	1	384 Elm St	t
+2934	2245	31	130 Highland Ave	f
+2935	2246	7	342 Lakeview Dr	t
+2936	2247	22	101 Sunset Blvd	t
+2937	2248	17	261 Lakeview Dr	t
+2938	2249	17	249 Highland Ave	t
+2939	2250	2	119 Oak St	t
+2940	2251	27	5 Highland Ave	t
+2941	2252	13	133 Highland Ave	t
+2942	2253	27	76 Lincoln Way	t
+2943	2253	2	28 Oak St	f
+2944	2254	15	189 Elm St	t
+2945	2255	1	380 Cedar Rd	t
+2946	2255	27	330 Lakeview Dr	f
+2947	2256	1	53 Main St	t
+2948	2257	12	144 Elm St	t
+2949	2258	5	317 Washington St	t
+2950	2258	28	63 Lakeview Dr	f
+2951	2258	1	155 Park Ave	f
+2952	2259	1	285 Cedar Rd	t
+2953	2260	11	128 Broadway	t
+2954	2261	34	36 Main St	t
+2955	2262	32	112 Washington St	t
+2956	2263	29	321 Washington St	t
+2957	2263	9	326 Park Ave	f
+2958	2264	26	67 Elm St	t
+2959	2264	14	310 Sunset Blvd	f
+2960	2265	30	4 Oak St	t
+2961	2266	34	176 Park Ave	t
+2962	2267	30	140 Elm St	t
+2963	2267	24	42 Lakeview Dr	f
+2964	2267	1	116 Maple Ave	f
+2965	2268	1	296 Maple Ave	t
+2966	2269	27	283 Washington St	t
+2967	2270	32	393 Washington St	t
+2968	2270	1	61 Cedar Rd	f
+2969	2270	16	42 Broadway	f
+2970	2271	27	337 Highland Ave	t
+2971	2272	26	272 Elm St	t
+2972	2272	3	389 Lincoln Way	f
+2973	2273	27	129 Lincoln Way	t
+2974	2274	27	175 Maple Ave	t
+2975	2275	27	12 Cedar Rd	t
+2976	2276	17	383 Sunset Blvd	t
+2977	2276	30	9 Lincoln Way	f
+2978	2277	17	348 Elm St	t
+2979	2278	32	238 Highland Ave	t
+2980	2279	22	43 Main St	t
+2981	2279	27	345 Lincoln Way	f
+2982	2280	24	247 Maple Ave	t
+2983	2281	26	222 Main St	t
+2984	2282	27	175 Washington St	t
+2985	2283	7	78 Lincoln Way	t
+2986	2284	8	146 Lakeview Dr	t
+2987	2285	4	260 Lakeview Dr	t
+2988	2286	12	87 Broadway	t
+2989	2287	27	221 Elm St	t
+2990	2288	23	1 Maple Ave	t
+2991	2289	1	337 Oak St	t
+2992	2290	17	122 Highland Ave	t
+2993	2290	32	204 Elm St	f
+2994	2291	24	129 Sunset Blvd	t
+2995	2292	2	243 Washington St	t
+2996	2292	1	54 Park Ave	f
+2997	2293	1	28 Highland Ave	t
+2998	2294	7	203 Oak St	t
+2999	2295	27	329 Washington St	t
+3000	2296	30	227 Lincoln Way	t
+3001	2297	29	260 Oak St	t
+3002	2297	27	282 Elm St	f
+3003	2297	27	219 Broadway	f
+3004	2298	27	65 Park Ave	t
+3005	2299	1	89 Lakeview Dr	t
+3006	2299	10	135 Lakeview Dr	f
+3007	2300	1	288 Broadway	t
+3008	2300	28	350 Highland Ave	f
+3009	2301	25	23 Lakeview Dr	t
+3010	2302	7	283 Elm St	t
+3011	2303	15	87 Elm St	t
+3012	2304	13	257 Maple Ave	t
+3013	2305	26	33 Washington St	t
+3014	2305	17	230 Oak St	f
+3015	2306	28	203 Sunset Blvd	t
+3016	2307	19	299 Main St	t
+3017	2308	1	279 Park Ave	t
+3018	2308	27	92 Park Ave	f
+3019	2309	11	108 Sunset Blvd	t
+3020	2309	2	28 Park Ave	f
+3021	2309	1	373 Highland Ave	f
+3022	2310	1	74 Cedar Rd	t
+3023	2311	22	1 Elm St	t
+3024	2312	1	136 Cedar Rd	t
+3025	2312	12	317 Oak St	f
+3026	2313	27	252 Broadway	t
+3027	2313	18	215 Oak St	f
+3028	2314	17	138 Main St	t
+3029	2315	29	394 Maple Ave	t
+3030	2315	19	375 Maple Ave	f
+3031	2316	17	154 Washington St	t
+3032	2317	1	148 Lakeview Dr	t
+3033	2318	27	303 Lincoln Way	t
+3034	2319	1	15 Lakeview Dr	t
+3035	2320	34	398 Oak St	t
+3036	2321	6	63 Broadway	t
+3037	2322	7	62 Lincoln Way	t
+3038	2323	27	237 Highland Ave	t
+3039	2323	1	119 Broadway	f
+3040	2324	27	196 Maple Ave	t
+3041	2325	27	90 Lincoln Way	t
+3042	2326	14	368 Park Ave	t
+3043	2327	1	386 Cedar Rd	t
+3044	2328	27	236 Highland Ave	t
+3045	2329	7	155 Park Ave	t
+3046	2330	28	372 Sunset Blvd	t
+3047	2331	1	346 Lincoln Way	t
+3048	2332	27	189 Highland Ave	t
+3049	2333	6	394 Main St	t
+3050	2333	17	40 Cedar Rd	f
+3051	2334	31	340 Cedar Rd	t
+3052	2334	27	253 Lakeview Dr	f
+3053	2335	27	286 Elm St	t
+3054	2336	33	358 Washington St	t
+3055	2337	1	278 Lincoln Way	t
+3056	2338	17	83 Sunset Blvd	t
+3057	2339	31	312 Main St	t
+3058	2340	19	219 Lincoln Way	t
+3059	2341	27	223 Lakeview Dr	t
+3060	2342	30	63 Cedar Rd	t
+3061	2343	1	9 Main St	t
+3062	2344	12	74 Maple Ave	t
+3063	2344	27	15 Broadway	f
+3064	2345	1	137 Lakeview Dr	t
+3065	2346	1	233 Cedar Rd	t
+3066	2347	3	83 Oak St	t
+3067	2348	2	245 Broadway	t
+3068	2349	1	115 Cedar Rd	t
+3069	2350	8	44 Park Ave	t
+3070	2351	27	383 Washington St	t
+3071	2352	18	219 Sunset Blvd	t
+3072	2353	5	138 Lincoln Way	t
+3073	2354	28	164 Elm St	t
+3074	2355	30	352 Lakeview Dr	t
+3075	2356	18	82 Cedar Rd	t
+3076	2357	1	335 Lakeview Dr	t
+3077	2358	7	46 Maple Ave	t
+3078	2358	1	314 Park Ave	f
+3079	2359	2	163 Maple Ave	t
+3080	2360	25	202 Sunset Blvd	t
+3081	2361	27	161 Park Ave	t
+3082	2362	32	58 Cedar Rd	t
+3083	2362	2	78 Broadway	f
+3084	2363	34	189 Lakeview Dr	t
+3085	2364	32	140 Broadway	t
+3086	2365	12	90 Cedar Rd	t
+3087	2366	27	398 Park Ave	t
+3088	2366	8	265 Washington St	f
+3089	2367	27	139 Maple Ave	t
+3090	2368	27	377 Maple Ave	t
+3091	2369	1	355 Main St	t
+3092	2369	27	291 Elm St	f
+3093	2369	4	181 Broadway	f
+3094	2370	12	137 Lincoln Way	t
+3095	2371	18	376 Cedar Rd	t
+3096	2371	8	162 Lakeview Dr	f
+3097	2372	1	155 Lincoln Way	t
+3098	2372	23	368 Lakeview Dr	f
+3099	2373	19	312 Main St	t
+3100	2374	26	176 Park Ave	t
+3101	2375	17	35 Cedar Rd	t
+3102	2376	2	321 Park Ave	t
+3103	2377	1	206 Cedar Rd	t
+3104	2378	25	303 Highland Ave	t
+3105	2379	1	19 Elm St	t
+3106	2380	27	218 Broadway	t
+3107	2381	16	15 Cedar Rd	t
+3108	2382	1	42 Highland Ave	t
+3109	2383	17	82 Lincoln Way	t
+3110	2383	14	7 Elm St	f
+3111	2384	21	217 Lincoln Way	t
+3112	2385	14	274 Lincoln Way	t
+3113	2386	1	66 Broadway	t
+3114	2387	27	319 Park Ave	t
+3115	2388	22	185 Cedar Rd	t
+3116	2389	27	260 Elm St	t
+3117	2390	4	185 Park Ave	t
+3118	2391	6	232 Broadway	t
+3119	2391	1	199 Lincoln Way	f
+3120	2392	27	40 Main St	t
+3121	2393	19	158 Lincoln Way	t
+3122	2394	1	91 Cedar Rd	t
+3123	2395	27	346 Main St	t
+3124	2396	30	73 Main St	t
+3125	2396	27	16 Highland Ave	f
+3126	2396	26	199 Park Ave	f
+3127	2397	29	344 Sunset Blvd	t
+3128	2398	24	41 Park Ave	t
+3129	2399	17	343 Lincoln Way	t
+3130	2399	7	139 Lincoln Way	f
+3131	2400	1	155 Lakeview Dr	t
+3132	2401	29	195 Sunset Blvd	t
+3133	2402	1	298 Lincoln Way	t
+3134	2402	27	111 Highland Ave	f
+3135	2403	27	53 Elm St	t
+3136	2404	8	379 Lakeview Dr	t
+3137	2405	1	209 Lincoln Way	t
+3138	2406	15	200 Main St	t
+3139	2407	23	254 Main St	t
+3140	2408	27	321 Oak St	t
+3141	2409	27	319 Park Ave	t
+3142	2410	1	84 Main St	t
+3143	2411	18	303 Highland Ave	t
+3144	2412	17	215 Elm St	t
+3145	2413	28	261 Lakeview Dr	t
+3146	2414	1	328 Lakeview Dr	t
+3147	2414	27	226 Cedar Rd	f
+3148	2415	27	68 Maple Ave	t
+3149	2416	1	353 Highland Ave	t
+3150	2417	34	287 Sunset Blvd	t
+3151	2418	32	319 Cedar Rd	t
+3152	2419	28	114 Main St	t
+3153	2420	31	133 Maple Ave	t
+3154	2420	29	134 Lincoln Way	f
+3155	2421	1	213 Park Ave	t
+3156	2422	1	61 Park Ave	t
+3157	2422	1	6 Main St	f
+3158	2422	18	43 Cedar Rd	f
+3159	2423	1	375 Highland Ave	t
+3160	2423	27	85 Cedar Rd	f
+3161	2424	7	360 Main St	t
+3162	2424	11	212 Sunset Blvd	f
+3163	2425	1	14 Elm St	t
+3164	2426	5	73 Lincoln Way	t
+3165	2427	1	371 Oak St	t
+3166	2427	22	137 Main St	f
+3167	2427	8	12 Broadway	f
+3168	2428	32	311 Lakeview Dr	t
+3169	2429	1	350 Lakeview Dr	t
+3170	2430	31	10 Highland Ave	t
+3171	2431	3	300 Cedar Rd	t
+3172	2432	1	388 Main St	t
+3173	2433	29	174 Lincoln Way	t
+3174	2434	27	218 Maple Ave	t
+3175	2434	27	101 Broadway	f
+3176	2435	28	197 Main St	t
+3177	2436	30	96 Cedar Rd	t
+3178	2437	24	16 Elm St	t
+3179	2438	27	115 Main St	t
+3180	2438	15	21 Cedar Rd	f
+3181	2439	27	148 Cedar Rd	t
+3182	2440	27	109 Elm St	t
+3183	2441	32	24 Park Ave	t
+3184	2442	1	377 Broadway	t
+3185	2442	1	102 Oak St	f
+3186	2443	17	267 Main St	t
+3187	2444	19	66 Lakeview Dr	t
+3188	2445	27	249 Highland Ave	t
+3189	2446	4	212 Highland Ave	t
+3190	2447	1	352 Lakeview Dr	t
+3191	2448	15	35 Highland Ave	t
+3192	2449	2	87 Highland Ave	t
+3193	2449	13	340 Elm St	f
+3194	2450	25	231 Maple Ave	t
+3195	2451	1	99 Highland Ave	t
+3196	2452	2	211 Lakeview Dr	t
+3197	2453	17	156 Highland Ave	t
+3198	2453	29	68 Highland Ave	f
+3199	2454	27	120 Maple Ave	t
+3200	2454	1	149 Sunset Blvd	f
+3201	2455	25	154 Sunset Blvd	t
+3202	2456	17	76 Park Ave	t
+3203	2457	2	287 Cedar Rd	t
+3204	2457	27	70 Broadway	f
+3205	2458	15	282 Park Ave	t
+3206	2459	1	75 Sunset Blvd	t
+3207	2460	25	320 Broadway	t
+3208	2461	1	48 Washington St	t
+3209	2462	27	136 Broadway	t
+3210	2462	5	208 Lincoln Way	f
+3211	2462	27	353 Lincoln Way	f
+3212	2463	1	315 Washington St	t
+3213	2464	6	111 Highland Ave	t
+3214	2465	1	256 Sunset Blvd	t
+3215	2466	19	73 Lincoln Way	t
+3216	2467	27	267 Sunset Blvd	t
+3217	2468	11	395 Maple Ave	t
+3218	2469	27	187 Elm St	t
+3219	2470	18	18 Elm St	t
+3220	2471	34	7 Elm St	t
+3221	2472	8	50 Park Ave	t
+3222	2473	1	188 Park Ave	t
+3223	2473	28	192 Main St	f
+3224	2474	26	327 Broadway	t
+3225	2475	18	389 Oak St	t
+3226	2476	24	380 Elm St	t
+3227	2476	16	32 Main St	f
+3228	2477	24	399 Maple Ave	t
+3229	2478	1	230 Sunset Blvd	t
+3230	2479	27	279 Cedar Rd	t
+3231	2480	25	110 Elm St	t
+3232	2481	27	27 Cedar Rd	t
+3233	2482	27	360 Park Ave	t
+3234	2483	27	84 Elm St	t
+3235	2484	11	273 Highland Ave	t
+3236	2485	29	70 Main St	t
+3237	2486	27	93 Cedar Rd	t
+3238	2487	27	105 Cedar Rd	t
+3239	2488	31	119 Broadway	t
+3240	2489	12	150 Cedar Rd	t
+3241	2489	20	111 Oak St	f
+3242	2489	27	397 Washington St	f
+3243	2490	32	256 Broadway	t
+3244	2491	12	66 Park Ave	t
+3245	2492	17	116 Main St	t
+3246	2493	13	119 Oak St	t
+3247	2494	29	278 Highland Ave	t
+3248	2494	2	40 Lincoln Way	f
+3249	2495	11	175 Lincoln Way	t
+3250	2495	20	15 Sunset Blvd	f
+3251	2496	27	322 Lakeview Dr	t
+3252	2497	27	398 Washington St	t
+3253	2497	18	165 Oak St	f
+3254	2498	1	272 Sunset Blvd	t
+3255	2499	27	59 Sunset Blvd	t
+3256	2500	12	266 Park Ave	t
+3257	2501	27	330 Park Ave	t
+3258	2502	25	353 Washington St	t
+3259	2503	1	15 Oak St	t
+3260	2504	4	337 Cedar Rd	t
+3261	2504	26	235 Elm St	f
+3262	2504	29	287 Cedar Rd	f
+3263	2505	34	5 Highland Ave	t
+3264	2506	1	38 Highland Ave	t
+3265	2507	27	391 Main St	t
+3266	2507	30	103 Elm St	f
+3267	2508	17	370 Oak St	t
+3268	2508	27	245 Elm St	f
+3269	2509	1	3 Sunset Blvd	t
+3270	2510	29	83 Broadway	t
+3271	2510	27	290 Oak St	f
+3272	2510	1	234 Maple Ave	f
+3273	2511	24	388 Sunset Blvd	t
+3274	2512	1	362 Lakeview Dr	t
+3275	2513	27	376 Washington St	t
+3276	2514	7	57 Park Ave	t
+3277	2515	25	186 Highland Ave	t
+3278	2515	2	334 Cedar Rd	f
+3279	2516	16	385 Oak St	t
+3280	2517	27	230 Maple Ave	t
+3281	2518	16	388 Elm St	t
+3282	2519	1	52 Cedar Rd	t
+3283	2520	26	316 Maple Ave	t
+3284	2520	27	379 Lakeview Dr	f
+3285	2520	15	340 Lakeview Dr	f
+3286	2521	27	60 Highland Ave	t
+3287	2522	27	381 Lincoln Way	t
+3288	2523	13	257 Park Ave	t
+3289	2524	27	82 Park Ave	t
+3290	2524	13	191 Lakeview Dr	f
+3291	2525	27	399 Lakeview Dr	t
+3292	2526	1	224 Main St	t
+3293	2527	27	19 Cedar Rd	t
+3294	2528	1	184 Broadway	t
+3295	2528	27	346 Main St	f
+3296	2529	2	38 Lincoln Way	t
+3297	2530	23	46 Sunset Blvd	t
+3298	2531	27	116 Main St	t
+3299	2532	27	359 Park Ave	t
+3300	2533	19	50 Oak St	t
+3301	2534	28	374 Park Ave	t
+3302	2535	22	124 Maple Ave	t
+3303	2536	1	363 Park Ave	t
+3304	2537	1	211 Maple Ave	t
+3305	2538	27	379 Oak St	t
+3306	2539	7	98 Washington St	t
+3307	2540	31	72 Sunset Blvd	t
+3308	2540	27	245 Lincoln Way	f
+3309	2541	15	199 Lincoln Way	t
+3310	2542	14	32 Maple Ave	t
+3311	2542	17	212 Main St	f
+3312	2543	7	99 Sunset Blvd	t
+3313	2543	29	47 Oak St	f
+3314	2544	7	297 Lincoln Way	t
+3315	2544	22	320 Highland Ave	f
+3316	2545	15	232 Main St	t
+3317	2546	28	346 Broadway	t
+3318	2546	27	364 Broadway	f
+3319	2547	27	122 Highland Ave	t
+3320	2548	8	166 Highland Ave	t
+3321	2549	1	88 Oak St	t
+3322	2550	30	155 Lincoln Way	t
+3323	2551	11	154 Broadway	t
+3324	2551	28	293 Highland Ave	f
+3325	2552	24	355 Cedar Rd	t
+3326	2552	18	277 Sunset Blvd	f
+3327	2553	1	68 Park Ave	t
+3328	2554	5	337 Lincoln Way	t
+3329	2555	1	154 Highland Ave	t
+3330	2556	31	235 Maple Ave	t
+3331	2557	16	271 Park Ave	t
+3332	2558	3	311 Main St	t
+3333	2559	26	169 Broadway	t
+3334	2560	27	41 Main St	t
+3335	2561	25	248 Lincoln Way	t
+3336	2562	19	128 Cedar Rd	t
+3337	2563	26	386 Cedar Rd	t
+3338	2563	14	129 Lakeview Dr	f
+3339	2564	28	313 Sunset Blvd	t
+3340	2565	28	131 Highland Ave	t
+3341	2566	28	342 Broadway	t
+3342	2567	28	193 Elm St	t
+3343	2568	24	217 Sunset Blvd	t
+3344	2569	27	276 Elm St	t
+3345	2570	6	352 Oak St	t
+3346	2571	19	281 Elm St	t
+3347	2572	13	88 Main St	t
+3348	2573	27	12 Sunset Blvd	t
+3349	2573	15	398 Elm St	f
+3350	2574	27	339 Maple Ave	t
+3351	2574	2	363 Main St	f
+3352	2575	21	273 Elm St	t
+3353	2576	32	119 Park Ave	t
+3354	2577	18	308 Sunset Blvd	t
+3355	2578	1	333 Lakeview Dr	t
+3356	2579	27	271 Oak St	t
+3357	2580	32	126 Park Ave	t
+3358	2581	19	119 Oak St	t
+3359	2582	1	176 Cedar Rd	t
+3360	2582	2	114 Lakeview Dr	f
+3361	2583	23	41 Washington St	t
+3362	2584	25	48 Elm St	t
+3363	2584	27	164 Park Ave	f
+3364	2585	3	83 Elm St	t
+3365	2586	26	13 Maple Ave	t
+3366	2586	31	63 Broadway	f
+3367	2587	23	267 Park Ave	t
+3368	2588	9	389 Cedar Rd	t
+3369	2589	21	124 Broadway	t
+3370	2590	22	18 Lincoln Way	t
+3371	2591	2	355 Lincoln Way	t
+3372	2592	12	295 Washington St	t
+3373	2593	1	196 Lincoln Way	t
+3374	2593	18	276 Sunset Blvd	f
+3375	2593	6	288 Washington St	f
+3376	2594	29	172 Washington St	t
+3377	2594	2	303 Maple Ave	f
+3378	2595	29	384 Main St	t
+3379	2596	1	204 Elm St	t
+3380	2597	25	10 Cedar Rd	t
+3381	2598	11	28 Park Ave	t
+3382	2598	27	185 Washington St	f
+3383	2599	19	268 Oak St	t
+3384	2600	27	58 Maple Ave	t
+3385	2601	1	52 Sunset Blvd	t
+3386	2602	19	237 Cedar Rd	t
+3387	2603	27	45 Lincoln Way	t
+3388	2603	12	218 Lakeview Dr	f
+3389	2604	1	198 Highland Ave	t
+3390	2604	17	351 Elm St	f
+3391	2605	20	231 Broadway	t
+3392	2605	1	56 Lakeview Dr	f
+3393	2606	19	117 Park Ave	t
+3394	2607	27	20 Cedar Rd	t
+3395	2608	1	134 Oak St	t
+3396	2608	31	307 Lakeview Dr	f
+3397	2608	32	298 Highland Ave	f
+3398	2609	1	189 Elm St	t
+3399	2610	1	140 Elm St	t
+3400	2610	27	162 Main St	f
+3401	2611	27	164 Elm St	t
+3402	2612	3	228 Main St	t
+3403	2612	24	24 Cedar Rd	f
+3404	2612	1	238 Broadway	f
+3405	2613	12	89 Sunset Blvd	t
+3406	2614	1	121 Washington St	t
+3407	2614	27	239 Park Ave	f
+3408	2615	34	44 Cedar Rd	t
+3409	2615	7	247 Elm St	f
+3410	2616	18	39 Maple Ave	t
+3411	2617	19	142 Main St	t
+3412	2617	30	249 Oak St	f
+3413	2617	1	268 Main St	f
+3414	2618	27	135 Maple Ave	t
+3415	2618	1	173 Broadway	f
+3416	2618	18	317 Oak St	f
+3417	2619	34	2 Maple Ave	t
+3418	2619	15	177 Maple Ave	f
+3419	2620	27	230 Main St	t
+3420	2621	4	192 Cedar Rd	t
+3421	2622	13	106 Lakeview Dr	t
+3422	2623	27	124 Maple Ave	t
+3423	2624	1	66 Highland Ave	t
+3424	2625	13	249 Lincoln Way	t
+3425	2625	1	325 Elm St	f
+3426	2625	33	48 Maple Ave	f
+3427	2626	1	269 Highland Ave	t
+3428	2627	12	50 Lincoln Way	t
+3429	2628	1	187 Maple Ave	t
+3430	2629	26	112 Lincoln Way	t
+3431	2630	27	124 Lincoln Way	t
+3432	2631	3	390 Maple Ave	t
+3433	2631	27	135 Lakeview Dr	f
+3434	2632	16	79 Elm St	t
+3435	2633	27	222 Elm St	t
+3436	2634	32	49 Oak St	t
+3437	2635	14	307 Sunset Blvd	t
+3438	2635	6	239 Broadway	f
+3439	2636	1	234 Lakeview Dr	t
+3440	2637	17	297 Sunset Blvd	t
+3441	2637	31	217 Lakeview Dr	f
+3442	2638	27	359 Washington St	t
+3443	2639	10	360 Highland Ave	t
+3444	2640	1	341 Washington St	t
+3445	2641	6	324 Washington St	t
+3446	2641	34	214 Cedar Rd	f
+3447	2642	17	55 Washington St	t
+3448	2643	27	255 Lincoln Way	t
+3449	2644	27	331 Cedar Rd	t
+3450	2645	27	70 Broadway	t
+3451	2646	17	318 Lincoln Way	t
+3452	2647	6	95 Maple Ave	t
+3453	2647	33	242 Lakeview Dr	f
+3454	2648	13	132 Highland Ave	t
+3455	2649	29	212 Cedar Rd	t
+3456	2650	25	154 Elm St	t
+3457	2651	13	60 Park Ave	t
+3458	2652	8	218 Broadway	t
+3459	2652	28	44 Cedar Rd	f
+3460	2653	29	43 Highland Ave	t
+3461	2654	27	286 Washington St	t
+3462	2655	18	357 Broadway	t
+3463	2655	27	82 Maple Ave	f
+3464	2655	11	162 Cedar Rd	f
+3465	2656	8	354 Oak St	t
+3466	2657	14	90 Elm St	t
+3467	2658	27	23 Park Ave	t
+3468	2659	12	205 Cedar Rd	t
+3469	2660	34	241 Main St	t
+3470	2661	1	361 Lincoln Way	t
+3471	2662	18	123 Maple Ave	t
+3472	2663	25	70 Elm St	t
+3473	2663	9	322 Elm St	f
+3474	2664	29	94 Oak St	t
+3475	2664	1	90 Broadway	f
+3476	2664	27	290 Broadway	f
+3477	2665	1	148 Park Ave	t
+3478	2666	27	14 Lincoln Way	t
+3479	2667	29	109 Maple Ave	t
+3480	2668	7	98 Lincoln Way	t
+3481	2669	1	29 Oak St	t
+3482	2669	18	51 Park Ave	f
+3483	2670	6	12 Washington St	t
+3484	2670	1	310 Main St	f
+3485	2671	22	319 Broadway	t
+3486	2672	32	51 Park Ave	t
+3487	2673	28	219 Elm St	t
+3488	2674	14	70 Washington St	t
+3489	2674	18	333 Broadway	f
+3490	2675	27	28 Washington St	t
+3491	2676	14	145 Cedar Rd	t
+3492	2676	27	252 Main St	f
+3493	2677	1	144 Broadway	t
+3494	2678	32	305 Washington St	t
+3495	2679	34	297 Lakeview Dr	t
+3496	2680	28	173 Maple Ave	t
+3497	2681	1	389 Maple Ave	t
+3498	2682	27	115 Lakeview Dr	t
+3499	2683	29	377 Elm St	t
+3500	2683	15	85 Broadway	f
+3501	2684	8	235 Cedar Rd	t
+3502	2685	4	293 Sunset Blvd	t
+3503	2686	1	38 Highland Ave	t
+3504	2687	26	66 Sunset Blvd	t
+3505	2688	24	236 Lincoln Way	t
+3506	2689	29	93 Maple Ave	t
+3507	2689	27	340 Washington St	f
+3508	2689	14	167 Cedar Rd	f
+3509	2690	7	179 Highland Ave	t
+3510	2691	1	145 Highland Ave	t
+3511	2691	32	137 Main St	f
+3512	2692	25	54 Cedar Rd	t
+3513	2692	1	44 Cedar Rd	f
+3514	2693	1	328 Lincoln Way	t
+3515	2693	12	353 Sunset Blvd	f
+3516	2694	17	86 Elm St	t
+3517	2695	20	385 Washington St	t
+3518	2696	27	101 Sunset Blvd	t
+3519	2696	25	201 Washington St	f
+3520	2696	25	359 Broadway	f
+3521	2697	22	67 Oak St	t
+3522	2698	27	259 Elm St	t
+3523	2699	1	11 Cedar Rd	t
+3524	2700	27	181 Sunset Blvd	t
+3525	2700	1	56 Maple Ave	f
+3526	2700	27	24 Washington St	f
+3527	2701	1	16 Elm St	t
+3528	2702	2	8 Main St	t
+3529	2703	11	330 Highland Ave	t
+3530	2703	16	178 Washington St	f
+3531	2703	8	17 Main St	f
+3532	2704	8	92 Elm St	t
+3533	2705	27	275 Lakeview Dr	t
+3534	2705	1	233 Lakeview Dr	f
+3535	2705	1	123 Sunset Blvd	f
+3536	2706	13	93 Lincoln Way	t
+3537	2706	1	337 Cedar Rd	f
+3538	2707	19	17 Elm St	t
+3539	2707	12	266 Main St	f
+3540	2708	1	63 Lakeview Dr	t
+3541	2709	18	135 Highland Ave	t
+3542	2710	24	129 Highland Ave	t
+3543	2711	25	242 Broadway	t
+3544	2712	32	26 Washington St	t
+3545	2713	27	131 Main St	t
+3546	2714	27	229 Broadway	t
+3547	2715	27	31 Cedar Rd	t
+3548	2715	1	103 Lincoln Way	f
+3549	2716	27	76 Broadway	t
+3550	2717	17	23 Park Ave	t
+3551	2718	5	348 Elm St	t
+3552	2718	24	7 Sunset Blvd	f
+3553	2718	1	87 Broadway	f
+3554	2719	13	113 Maple Ave	t
+3555	2719	17	35 Oak St	f
+3556	2720	27	120 Sunset Blvd	t
+3557	2721	27	135 Lakeview Dr	t
+3558	2722	11	21 Lakeview Dr	t
+3559	2723	7	391 Washington St	t
+3560	2724	28	81 Maple Ave	t
+3561	2725	30	217 Lakeview Dr	t
+3562	2725	18	146 Lakeview Dr	f
+3563	2725	1	289 Elm St	f
+3564	2726	1	63 Elm St	t
+3565	2727	27	361 Oak St	t
+3566	2727	11	277 Broadway	f
+3567	2728	23	239 Sunset Blvd	t
+3568	2728	17	267 Washington St	f
+3569	2729	1	130 Main St	t
+3570	2730	1	179 Washington St	t
+3571	2731	1	383 Oak St	t
+3572	2732	17	75 Sunset Blvd	t
+3573	2733	1	264 Main St	t
+3574	2734	18	364 Lakeview Dr	t
+3575	2735	27	295 Maple Ave	t
+3576	2736	2	59 Maple Ave	t
+3577	2737	26	328 Sunset Blvd	t
+3578	2737	27	309 Elm St	f
+3579	2738	30	224 Washington St	t
+3580	2739	8	207 Park Ave	t
+3581	2740	27	49 Oak St	t
+3582	2740	32	123 Lakeview Dr	f
+3583	2740	13	254 Washington St	f
+3584	2741	1	118 Highland Ave	t
+3585	2741	27	161 Lakeview Dr	f
+3586	2742	27	120 Main St	t
+3587	2743	27	186 Cedar Rd	t
+3588	2744	19	328 Elm St	t
+3589	2745	27	308 Lakeview Dr	t
+3590	2746	27	161 Maple Ave	t
+3591	2747	18	384 Cedar Rd	t
+3592	2748	1	263 Lincoln Way	t
+3593	2749	1	103 Maple Ave	t
+3594	2750	27	261 Maple Ave	t
+3595	2751	28	395 Cedar Rd	t
+3596	2752	1	110 Maple Ave	t
+3597	2753	27	272 Elm St	t
+3598	2754	13	129 Sunset Blvd	t
+3599	2755	9	212 Maple Ave	t
+3600	2755	28	250 Oak St	f
+3601	2755	2	82 Maple Ave	f
+3602	2756	10	189 Park Ave	t
+3603	2757	28	329 Oak St	t
+3604	2758	11	180 Maple Ave	t
+3605	2759	17	136 Main St	t
+3606	2760	19	373 Lincoln Way	t
+3607	2761	20	281 Lakeview Dr	t
+3608	2762	27	250 Main St	t
+3609	2762	1	285 Sunset Blvd	f
+3610	2763	31	262 Cedar Rd	t
+3611	2764	27	257 Main St	t
+3612	2764	16	356 Cedar Rd	f
+3613	2764	1	202 Sunset Blvd	f
+3614	2765	28	149 Oak St	t
+3615	2765	32	95 Main St	f
+3616	2766	1	217 Cedar Rd	t
+3617	2767	27	112 Oak St	t
+3618	2768	27	164 Highland Ave	t
+3619	2769	17	117 Main St	t
+3620	2770	1	378 Maple Ave	t
+3621	2770	13	333 Highland Ave	f
+3622	2771	27	181 Lincoln Way	t
+3623	2772	27	378 Cedar Rd	t
+3624	2773	3	189 Maple Ave	t
+3625	2774	27	358 Elm St	t
+3626	2775	27	34 Broadway	t
+3627	2776	27	316 Elm St	t
+3628	2777	1	108 Lakeview Dr	t
+3629	2777	27	276 Cedar Rd	f
+3630	2778	1	209 Elm St	t
+3631	2778	29	15 Elm St	f
+3632	2779	28	69 Lakeview Dr	t
+3633	2780	27	196 Lakeview Dr	t
+3634	2781	27	151 Sunset Blvd	t
+3635	2782	27	274 Sunset Blvd	t
+3636	2782	1	85 Highland Ave	f
+3637	2783	24	57 Sunset Blvd	t
+3638	2783	1	170 Highland Ave	f
+3639	2784	2	336 Washington St	t
+3640	2785	27	5 Lincoln Way	t
+3641	2785	1	329 Lakeview Dr	f
+3642	2785	27	190 Elm St	f
+3643	2786	12	162 Maple Ave	t
+3644	2786	21	210 Elm St	f
+3645	2787	22	121 Broadway	t
+3646	2788	13	178 Washington St	t
+3647	2789	2	309 Sunset Blvd	t
+3648	2790	27	311 Highland Ave	t
+3649	2791	26	151 Elm St	t
+3650	2791	33	115 Highland Ave	f
+3651	2792	20	289 Elm St	t
+3652	2793	26	55 Elm St	t
+3653	2794	27	242 Maple Ave	t
+3654	2795	26	351 Cedar Rd	t
+3655	2796	27	106 Oak St	t
+3656	2797	33	398 Lakeview Dr	t
+3657	2797	1	5 Washington St	f
+3658	2798	34	209 Maple Ave	t
+3659	2799	17	3 Cedar Rd	t
+3660	2800	1	181 Cedar Rd	t
+3661	2801	26	278 Broadway	t
+3662	2802	27	95 Elm St	t
+3663	2802	1	62 Lincoln Way	f
+3664	2803	2	240 Broadway	t
+3665	2804	27	23 Elm St	t
+3666	2805	29	258 Lincoln Way	t
+3667	2806	27	84 Elm St	t
+3668	2807	17	386 Lakeview Dr	t
+3669	2808	12	170 Highland Ave	t
+3670	2809	23	106 Maple Ave	t
+3671	2809	27	245 Washington St	f
+3672	2810	34	263 Maple Ave	t
+3673	2811	18	208 Elm St	t
+3674	2811	21	336 Lakeview Dr	f
+3675	2811	27	274 Maple Ave	f
+3676	2812	24	18 Park Ave	t
+3677	2813	3	151 Cedar Rd	t
+3678	2814	1	34 Washington St	t
+3679	2815	27	270 Lakeview Dr	t
+3680	2816	10	204 Lakeview Dr	t
+3681	2817	34	22 Cedar Rd	t
+3682	2818	27	184 Maple Ave	t
+3683	2819	1	188 Oak St	t
+3684	2819	34	322 Washington St	f
+3685	2820	33	298 Highland Ave	t
+3686	2821	29	103 Broadway	t
+3687	2822	34	293 Maple Ave	t
+3688	2823	2	97 Maple Ave	t
+3689	2824	29	52 Broadway	t
+3690	2825	32	82 Washington St	t
+3691	2826	24	191 Lakeview Dr	t
+3692	2827	27	191 Oak St	t
+3693	2828	17	65 Main St	t
+3694	2829	17	364 Lincoln Way	t
+3695	2830	28	196 Maple Ave	t
+3696	2831	28	57 Oak St	t
+3697	2832	29	313 Broadway	t
+3698	2833	1	140 Highland Ave	t
+3699	2833	27	336 Washington St	f
+3700	2833	16	114 Washington St	f
+3701	2834	1	159 Lakeview Dr	t
+3702	2835	13	102 Cedar Rd	t
+3703	2836	13	382 Washington St	t
+3704	2837	1	115 Broadway	t
+3705	2838	27	365 Washington St	t
+3706	2839	1	317 Lakeview Dr	t
+3707	2840	27	14 Main St	t
+3708	2841	14	33 Broadway	t
+3709	2842	28	171 Sunset Blvd	t
+3710	2843	31	338 Broadway	t
+3711	2844	17	23 Lakeview Dr	t
+3712	2845	28	198 Main St	t
+3713	2846	11	7 Broadway	t
+3714	2847	6	155 Sunset Blvd	t
+3715	2848	23	201 Elm St	t
+3716	2849	12	99 Maple Ave	t
+3717	2849	22	309 Lakeview Dr	f
+3718	2850	1	81 Lincoln Way	t
+3719	2851	22	351 Oak St	t
+3720	2852	27	172 Cedar Rd	t
+3721	2852	27	37 Broadway	f
+3722	2853	16	189 Park Ave	t
+3723	2853	22	276 Sunset Blvd	f
+3724	2853	22	291 Lakeview Dr	f
+3725	2854	15	53 Highland Ave	t
+3726	2855	1	115 Washington St	t
+3727	2856	30	103 Maple Ave	t
+3728	2857	27	81 Sunset Blvd	t
+3729	2858	16	130 Park Ave	t
+3730	2859	2	58 Park Ave	t
+3731	2860	27	111 Washington St	t
+3732	2860	1	147 Main St	f
+3733	2861	26	9 Highland Ave	t
+3734	2862	21	193 Lakeview Dr	t
+3735	2863	17	112 Cedar Rd	t
+3736	2864	1	266 Oak St	t
+3737	2864	30	253 Sunset Blvd	f
+3738	2865	30	74 Elm St	t
+3739	2866	12	5 Oak St	t
+3740	2867	6	298 Main St	t
+3741	2868	1	257 Oak St	t
+3742	2868	20	242 Highland Ave	f
+3743	2869	1	274 Main St	t
+3744	2870	1	89 Lakeview Dr	t
+3745	2871	28	169 Cedar Rd	t
+3746	2872	26	139 Washington St	t
+3747	2873	13	141 Lakeview Dr	t
+3748	2873	27	95 Oak St	f
+3749	2874	21	267 Main St	t
+3750	2875	1	115 Cedar Rd	t
+3751	2875	1	364 Sunset Blvd	f
+3752	2876	29	69 Maple Ave	t
+3753	2877	17	53 Sunset Blvd	t
+3754	2878	28	193 Oak St	t
+3755	2878	1	208 Lakeview Dr	f
+3756	2879	2	386 Cedar Rd	t
+3757	2879	27	270 Oak St	f
+3758	2880	12	273 Oak St	t
+3759	2880	16	167 Washington St	f
+3760	2881	1	310 Cedar Rd	t
+3761	2881	25	379 Sunset Blvd	f
+3762	2881	27	292 Broadway	f
+3763	2882	2	325 Lakeview Dr	t
+3764	2883	26	26 Highland Ave	t
+3765	2884	19	223 Washington St	t
+3766	2885	27	299 Oak St	t
+3767	2886	10	121 Park Ave	t
+3768	2886	5	356 Washington St	f
+3769	2886	27	16 Park Ave	f
+3770	2887	28	309 Main St	t
+3771	2888	27	360 Broadway	t
+3772	2888	12	79 Washington St	f
+3773	2888	4	296 Park Ave	f
+3774	2889	18	229 Highland Ave	t
+3775	2890	23	239 Broadway	t
+3776	2891	11	365 Washington St	t
+3777	2892	19	41 Broadway	t
+3778	2893	10	174 Park Ave	t
+3779	2894	27	373 Maple Ave	t
+3780	2894	20	239 Lincoln Way	f
+3781	2895	27	39 Maple Ave	t
+3782	2896	17	374 Lakeview Dr	t
+3783	2897	19	266 Washington St	t
+3784	2898	11	28 Lincoln Way	t
+3785	2899	22	71 Elm St	t
+3786	2900	27	180 Cedar Rd	t
+3787	2901	24	165 Highland Ave	t
+3788	2902	23	87 Oak St	t
+3789	2903	27	224 Oak St	t
+3790	2904	1	359 Washington St	t
+3791	2905	19	261 Oak St	t
+3792	2906	27	284 Sunset Blvd	t
+3793	2906	32	160 Oak St	f
+3794	2907	10	58 Washington St	t
+3795	2908	27	14 Maple Ave	t
+3796	2908	24	385 Washington St	f
+3797	2909	30	55 Cedar Rd	t
+3798	2910	27	290 Lincoln Way	t
+3799	2911	17	223 Lincoln Way	t
+3800	2912	22	303 Highland Ave	t
+3801	2913	27	141 Washington St	t
+3802	2913	8	398 Oak St	f
+3803	2914	1	305 Maple Ave	t
+3804	2915	17	58 Main St	t
+3805	2916	27	370 Oak St	t
+3806	2917	30	78 Oak St	t
+3807	2917	18	373 Lincoln Way	f
+3808	2918	10	252 Lakeview Dr	t
+3809	2919	29	157 Cedar Rd	t
+3810	2920	1	278 Park Ave	t
+3811	2921	27	266 Maple Ave	t
+3812	2921	18	248 Main St	f
+3813	2921	19	79 Sunset Blvd	f
+3814	2922	27	71 Highland Ave	t
+3815	2922	1	130 Oak St	f
+3816	2923	27	1 Sunset Blvd	t
+3817	2923	27	14 Oak St	f
+3818	2924	7	104 Lincoln Way	t
+3819	2925	28	24 Park Ave	t
+3820	2926	30	185 Sunset Blvd	t
+3821	2927	27	398 Sunset Blvd	t
+3822	2928	1	107 Washington St	t
+3823	2929	22	255 Sunset Blvd	t
+3824	2930	27	108 Lakeview Dr	t
+3825	2930	27	371 Sunset Blvd	f
+3826	2931	1	395 Highland Ave	t
+3827	2932	18	317 Lincoln Way	t
+3828	2933	17	173 Oak St	t
+3829	2934	25	19 Cedar Rd	t
+3830	2934	27	273 Sunset Blvd	f
+3831	2934	27	37 Lakeview Dr	f
+3832	2935	18	362 Elm St	t
+3833	2935	6	30 Elm St	f
+3834	2936	27	387 Lincoln Way	t
+3835	2937	22	308 Maple Ave	t
+3836	2938	22	337 Broadway	t
+3837	2939	25	187 Lincoln Way	t
+3838	2940	1	217 Maple Ave	t
+3839	2940	21	199 Cedar Rd	f
+3840	2940	29	33 Park Ave	f
+3841	2941	27	41 Park Ave	t
+3842	2941	29	222 Lincoln Way	f
+3843	2942	27	33 Oak St	t
+3844	2943	28	226 Lakeview Dr	t
+3845	2944	27	393 Park Ave	t
+3846	2945	1	78 Main St	t
+3847	2946	27	14 Lincoln Way	t
+3848	2947	27	260 Main St	t
+3849	2948	1	257 Sunset Blvd	t
+3850	2949	7	149 Lincoln Way	t
+3851	2950	19	193 Elm St	t
+3852	2951	29	165 Elm St	t
+3853	2952	22	121 Broadway	t
+3854	2952	2	383 Elm St	f
+3855	2953	11	226 Park Ave	t
+3856	2953	17	134 Elm St	f
+3857	2954	27	296 Cedar Rd	t
+3858	2954	12	121 Lincoln Way	f
+3859	2955	2	302 Park Ave	t
+3860	2956	27	143 Elm St	t
+3861	2956	29	319 Elm St	f
+3862	2957	27	11 Lincoln Way	t
+3863	2958	23	24 Sunset Blvd	t
+3864	2959	6	73 Park Ave	t
+3865	2960	18	216 Sunset Blvd	t
+3866	2961	1	141 Park Ave	t
+3867	2962	8	60 Cedar Rd	t
+3868	2962	4	47 Cedar Rd	f
+3869	2963	12	83 Sunset Blvd	t
+3870	2964	27	221 Lincoln Way	t
+3871	2964	1	216 Oak St	f
+3872	2965	33	305 Oak St	t
+3873	2966	1	85 Elm St	t
+3874	2966	8	100 Lincoln Way	f
+3875	2967	1	286 Main St	t
+3876	2967	17	344 Lakeview Dr	f
+3877	2968	25	135 Broadway	t
+3878	2969	32	149 Lincoln Way	t
+3879	2970	17	175 Maple Ave	t
+3880	2971	7	96 Cedar Rd	t
+3881	2972	1	315 Lincoln Way	t
+3882	2972	27	218 Sunset Blvd	f
+3883	2973	24	289 Park Ave	t
+3884	2974	4	113 Broadway	t
+3885	2975	29	222 Main St	t
+3886	2976	26	399 Main St	t
+3887	2977	5	331 Sunset Blvd	t
+3888	2978	34	20 Washington St	t
+3889	2978	15	17 Cedar Rd	f
+3890	2979	27	287 Washington St	t
+3891	2980	1	395 Cedar Rd	t
+3892	2981	11	116 Lincoln Way	t
+3893	2981	1	380 Lakeview Dr	f
+3894	2982	29	73 Sunset Blvd	t
+3895	2983	1	182 Lincoln Way	t
+3896	2984	31	284 Sunset Blvd	t
+3897	2984	31	191 Park Ave	f
+3898	2985	27	370 Lincoln Way	t
+3899	2986	27	178 Highland Ave	t
+3900	2986	27	287 Washington St	f
+3901	2987	27	285 Main St	t
+3902	2988	27	224 Maple Ave	t
+3903	2989	18	350 Oak St	t
+3904	2990	19	95 Cedar Rd	t
+3905	2990	1	12 Broadway	f
+3906	2991	34	392 Oak St	t
+3907	2992	24	77 Elm St	t
+3908	2993	27	45 Lincoln Way	t
+3909	2993	1	306 Cedar Rd	f
+3910	2994	1	353 Maple Ave	t
+3911	2995	6	316 Broadway	t
+3912	2996	33	126 Elm St	t
+3913	2997	27	68 Lincoln Way	t
+3914	2998	26	339 Oak St	t
+3915	2999	28	312 Elm St	t
+3916	3000	7	322 Broadway	t
 \.
 
 COPY shop.sellers (seller_id, shop_name, province_id, account_manager_id, is_official, joined_date) FROM stdin;
 1	Tech World	14	8	f	2022-03-25
-2	Viet Depot	28	\N	f	2022-07-10
+2	Prime Depot	28	\N	f	2022-07-10
 3	Tech Store	27	13	f	2022-02-12
-4	Handy Mart	29	8	t	2022-09-13
-5	Sunshine Shop	27	11	t	2022-10-02
-6	Good Books Corner	30	10	f	2023-03-14
+4	Smart Mart	29	8	t	2022-09-13
+5	Sun Shop	27	11	t	2022-10-02
+6	Books Corner	30	10	f	2023-03-14
 7	Digital Shop	18	8	t	2022-11-24
-8	Sunshine Depot	1	11	f	2023-05-29
+8	Sun Depot	1	11	f	2023-05-29
 9	Home Mart	1	12	f	2022-08-24
-10	Handy Market	19	7	f	2022-05-24
+10	Smart Market	19	7	f	2022-05-24
 11	Tech Shop	27	12	f	2022-03-26
 12	Digital Depot	27	13	t	2023-04-12
 13	Beauty Corner	11	14	f	2023-02-01
-14	Pretty Things Shop	33	11	f	2023-03-15
-15	Pretty Things Corner	29	\N	t	2022-11-04
+14	Goods Shop	33	11	f	2023-03-15
+15	Goods Corner	29	\N	t	2022-11-04
 16	Digital World	9	\N	f	2022-02-17
 17	Style Corner	32	8	f	2022-12-27
 18	Home World	9	7	f	2023-10-02
 19	Happy Corner	32	7	t	2022-11-05
-20	Sunlight House	13	14	f	2022-02-20
+20	Apex House	13	14	f	2022-02-20
 21	Home Shop	15	13	f	2022-07-01
 22	Style Market	27	12	f	2022-10-31
-23	Good Books Store	27	14	f	2022-04-10
+23	Books Store	27	14	f	2022-04-10
 24	Digital Corner	22	10	f	2023-08-31
 25	Beauty Shop	1	13	f	2023-05-09
-26	Viet Shop	29	14	f	2022-08-21
-27	Sunlight Depot	1	7	f	2022-12-14
+26	Prime Shop	29	14	f	2022-08-21
+27	Apex Depot	1	7	f	2022-12-14
 28	Tech Market	12	12	f	2022-01-12
 29	Beauty Depot	26	10	f	2023-09-07
 30	Tech House	30	10	f	2023-10-17
 31	Thoi Trang Depot	1	13	f	2022-12-06
 32	Beauty Market	1	6	t	2023-06-22
 33	Green Corner	2	14	f	2023-04-21
-34	Viet House	27	6	t	2022-06-28
-35	Sunlight Mart	27	5	f	2023-11-03
+34	Prime House	27	6	t	2022-06-28
+35	Apex Mart	27	5	f	2023-11-03
 36	Home Depot	27	14	f	2022-10-21
 37	Digital House	27	14	f	2023-02-25
 38	Green House	1	\N	f	2023-11-12
@@ -7050,23 +7050,23 @@ COPY shop.sellers (seller_id, shop_name, province_id, account_manager_id, is_off
 40	Thoi Trang House	1	11	f	2022-06-12
 41	Thoi Trang Mart	27	\N	f	2023-02-27
 42	Happy Shop	27	5	f	2022-11-20
-43	Peaceful House	27	11	t	2022-04-27
-44	Sunshine House	20	11	f	2022-10-12
-45	Peaceful Market	7	10	f	2023-02-13
+43	Nova House	27	11	t	2022-04-27
+44	Sun House	20	11	f	2022-10-12
+45	Nova Market	7	10	f	2023-02-13
 46	Green Market	25	5	t	2023-01-26
-47	Sunlight World	27	11	f	2023-01-17
-48	Good Books Shop	2	4	f	2023-01-22
+47	Apex World	27	11	f	2023-01-17
+48	Books Shop	2	4	f	2023-01-22
 49	Thoi Trang Store	20	4	t	2022-02-04
 50	Style Mart	2	13	f	2023-11-23
-51	Sunlight Corner	30	4	t	2022-07-03
-52	Viet World	27	14	f	2022-01-20
-53	Pretty Things House	13	\N	t	2023-03-22
+51	Apex Corner	30	4	t	2022-07-03
+52	Prime World	27	14	f	2022-01-20
+53	Goods House	13	\N	t	2023-03-22
 54	Style Depot	15	7	f	2022-07-12
-55	Peaceful Mart	27	10	t	2023-07-14
-56	Sunshine Store	27	4	f	2023-07-25
-57	Peaceful Depot	7	5	f	2023-03-24
+55	Nova Mart	27	10	t	2023-07-14
+56	Sun Store	27	4	f	2023-07-25
+57	Nova Depot	7	5	f	2023-03-24
 58	Digital Market	15	10	f	2022-08-04
-59	Peaceful Corner	31	13	f	2023-11-02
+59	Nova Corner	31	13	f	2023-11-02
 60	Home Store	7	13	f	2022-10-29
 \.
 
@@ -7112,506 +7112,506 @@ COPY shop.categories (category_id, name, parent_id) FROM stdin;
 \.
 
 COPY shop.products (product_id, seller_id, category_id, name, brand, created_at, is_active) FROM stdin;
-1	29	16	Kira Office Dress 24	Kira	2024-03-22	t
-2	18	22	Phuong Hoang Stainless Pot Set 56	Phuong Hoang	2024-05-11	f
-3	37	19	Mekong Running Shoes 99	Mekong	2024-12-31	t
+1	29	16	Velocity Office Dress 24	Velocity	2024-03-22	t
+2	18	22	Lumina Stainless Pot Set 56	Lumina	2024-05-11	f
+3	37	19	Aura Running Shoes 99	Aura	2024-12-31	t
 4	7	13	Men's T-Shirt 28	\N	2024-06-04	t
-5	3	22	Lotus Non-Stick Pan 82	Lotus	2023-12-11	t
-6	24	4	Truong Son Tab 61	Truong Son	2024-06-24	t
-7	15	29	Book: Programming 24	Lotus	2025-10-07	t
-8	18	35	Kira Face Wash 95	Kira	2025-09-20	t
-9	25	10	Mekong Portable Speaker 70	Mekong	2024-07-22	t
-10	38	16	Zenit Office Dress 40	Zenit	2024-12-04	f
-11	26	31	Phuong Hoang Notebook 59	Phuong Hoang	2025-03-23	t
-12	13	16	NovaTech Party Dress 72	NovaTech	2025-07-19	t
-13	51	16	Truong Son Party Dress 95	Truong Son	2025-03-28	t
-14	46	35	Hai Au Face Wash 99	Hai Au	2025-08-11	t
-15	6	25	Orca Night Lamp 23	Orca	2023-11-27	t
-16	32	22	Bach Viet Stainless Pot Set 66	Bach Viet	2025-02-25	t
-17	31	35	Sao Mai Face Wash 41	Sao Mai	2025-11-05	t
-18	23	29	Book: Programming 23	Phuong Hoang	2023-07-18	t
-19	42	9	An Phat Bluetooth Headphones 33	An Phat	2025-11-02	t
-20	48	19	Viet Tien Xa Running Shoes 10	Viet Tien Xa	2025-11-03	f
-21	58	28	Book: Soft Skills 94	Phuong Hoang	2024-01-11	t
-22	24	6	Sao Mai Laptop 28	Sao Mai	2025-01-05	t
-23	38	28	Book: Soft Skills 54	Viet Tien Xa	2024-04-02	t
-24	34	10	Phuong Hoang Portable Speaker 93	Phuong Hoang	2024-03-25	t
-25	25	22	NovaTech Stainless Pot Set 75	NovaTech	2024-08-24	t
-26	47	3	Phuong Hoang Phone 17	Phuong Hoang	2024-07-31	t
-27	44	16	NovaTech Office Dress 22	NovaTech	2025-10-10	t
-28	49	35	Hoa Sen Face Wash 48	Hoa Sen	2023-06-07	t
-29	31	22	Hoa Sen Non-Stick Pan 62	Hoa Sen	2024-06-22	t
-30	49	10	Bach Viet Portable Speaker 16	Bach Viet	2023-09-26	t
-31	35	19	Hoa Sen Running Shoes 19	Hoa Sen	2024-12-12	t
-32	40	19	Lotus Running Shoes 74	Lotus	2023-12-28	t
-33	32	9	An Phat Bluetooth Headphones 59	An Phat	2025-11-03	t
-34	16	16	Luna Party Dress 65	Luna	2023-07-30	t
-35	57	7	Mekong Wireless Mouse M69	Mekong	2025-08-27	t
-36	47	17	Orca Handbag 30	Orca	2024-06-16	t
-37	30	6	Mekong Laptop 42	Mekong	2025-09-29	t
-38	48	29	Book: Programming 48	Truong Son	2025-06-01	t
-39	52	16	Hoa Sen Party Dress 98	Hoa Sen	2024-09-16	t
-40	1	25	Truong Son Night Lamp 92	Truong Son	2024-07-16	t
-41	29	22	Viet Tien Xa Stainless Pot Set 27	Viet Tien Xa	2024-06-16	t
+5	3	22	Apex Non-Stick Pan 82	Apex	2023-12-11	t
+6	24	4	Pioneer Tab 61	Pioneer	2024-06-24	t
+7	15	29	Book: Programming 24	Apex	2025-10-07	t
+8	18	35	Velocity Face Wash 95	Velocity	2025-09-20	t
+9	25	10	Aura Portable Speaker 70	Aura	2024-07-22	t
+10	38	16	Titan Office Dress 40	Titan	2024-12-04	f
+11	26	31	Lumina Notebook 59	Lumina	2025-03-23	t
+12	13	16	Meridian Party Dress 72	Meridian	2025-07-19	t
+13	51	16	Pioneer Party Dress 95	Pioneer	2025-03-28	t
+14	46	35	Horizon Face Wash 99	Horizon	2025-08-11	t
+15	6	25	Crest Night Lamp 23	Crest	2023-11-27	t
+16	32	22	Solis Stainless Pot Set 66	Solis	2025-02-25	t
+17	31	35	NovaTech Face Wash 41	NovaTech	2025-11-05	t
+18	23	29	Book: Programming 23	Lumina	2023-07-18	t
+19	42	9	Pulse Bluetooth Headphones 33	Pulse	2025-11-02	t
+20	48	19	Summit Running Shoes 10	Summit	2025-11-03	f
+21	58	28	Book: Soft Skills 94	Lumina	2024-01-11	t
+22	24	6	NovaTech Laptop 28	NovaTech	2025-01-05	t
+23	38	28	Book: Soft Skills 54	Summit	2024-04-02	t
+24	34	10	Lumina Portable Speaker 93	Lumina	2024-03-25	t
+25	25	22	Meridian Stainless Pot Set 75	Meridian	2024-08-24	t
+26	47	3	Lumina Phone 17	Lumina	2024-07-31	t
+27	44	16	Meridian Office Dress 22	Meridian	2025-10-10	t
+28	49	35	Vanguard Face Wash 48	Vanguard	2023-06-07	t
+29	31	22	Vanguard Non-Stick Pan 62	Vanguard	2024-06-22	t
+30	49	10	Solis Portable Speaker 16	Solis	2023-09-26	t
+31	35	19	Vanguard Running Shoes 19	Vanguard	2024-12-12	t
+32	40	19	Apex Running Shoes 74	Apex	2023-12-28	t
+33	32	9	Pulse Bluetooth Headphones 59	Pulse	2025-11-03	t
+34	16	16	Nexus Party Dress 65	Nexus	2023-07-30	t
+35	57	7	Aura Wireless Mouse M69	Aura	2025-08-27	t
+36	47	17	Crest Handbag 30	Crest	2024-06-16	t
+37	30	6	Aura Laptop 42	Aura	2025-09-29	t
+38	48	29	Book: Programming 48	Pioneer	2025-06-01	t
+39	52	16	Vanguard Party Dress 98	Vanguard	2024-09-16	t
+40	1	25	Pioneer Night Lamp 92	Pioneer	2024-07-16	t
+41	29	22	Summit Stainless Pot Set 27	Summit	2024-06-16	t
 42	59	35	Face Wash 12	\N	2023-08-12	t
-43	13	28	Book: Soft Skills 87	Viet Tien Xa	2024-06-18	t
-44	1	14	Kira Men's Chinos 47	Kira	2025-01-03	t
-45	57	4	An Phat Tab 18	An Phat	2025-09-09	t
-46	1	3	Luna Phone 32	Luna	2025-03-23	t
-47	16	37	Hai Au Multivitamin 24	Hai Au	2024-12-21	t
-48	52	29	Book: Programming 50	Bach Viet	2025-08-13	t
-49	37	13	Hoa Sen Men's Shirt 37	Hoa Sen	2024-10-29	t
-50	22	16	Zenit Office Dress 70	Zenit	2025-04-03	t
-51	10	37	Tre Xanh Multivitamin 66	Tre Xanh	2024-04-06	f
-52	10	22	Hai Au Stainless Pot Set 33	Hai Au	2024-09-13	t
-53	38	23	Kira Blender 54	Kira	2024-06-18	t
-54	32	25	Mekong Night Lamp 45	Mekong	2025-10-31	t
-55	47	4	Luna Tab 27	Luna	2025-08-08	t
-56	34	7	Sao Mai Mechanical Keyboard K26	Sao Mai	2025-07-20	t
-57	36	9	Truong Son Bluetooth Headphones 97	Truong Son	2025-09-22	t
-58	53	13	Hai Au Men's T-Shirt 94	Hai Au	2025-07-07	t
+43	13	28	Book: Soft Skills 87	Summit	2024-06-18	t
+44	1	14	Velocity Men's Chinos 47	Velocity	2025-01-03	t
+45	57	4	Pulse Tab 18	Pulse	2025-09-09	t
+46	1	3	Nexus Phone 32	Nexus	2025-03-23	t
+47	16	37	Horizon Multivitamin 24	Horizon	2024-12-21	t
+48	52	29	Book: Programming 50	Solis	2025-08-13	t
+49	37	13	Vanguard Men's Shirt 37	Vanguard	2024-10-29	t
+50	22	16	Titan Office Dress 70	Titan	2025-04-03	t
+51	10	37	Echo Multivitamin 66	Echo	2024-04-06	f
+52	10	22	Horizon Stainless Pot Set 33	Horizon	2024-09-13	t
+53	38	23	Velocity Blender 54	Velocity	2024-06-18	t
+54	32	25	Aura Night Lamp 45	Aura	2025-10-31	t
+55	47	4	Nexus Tab 27	Nexus	2025-08-08	t
+56	34	7	NovaTech Mechanical Keyboard K26	NovaTech	2025-07-20	t
+57	36	9	Pioneer Bluetooth Headphones 97	Pioneer	2025-09-22	t
+58	53	13	Horizon Men's T-Shirt 94	Horizon	2025-07-07	t
 59	33	10	Portable Speaker 33	\N	2025-10-13	t
-60	3	14	Kira Men's Jeans 18	Kira	2023-12-02	t
-61	39	14	Hai Au Men's Chinos 29	Hai Au	2024-04-26	t
-62	49	3	Sao Mai Phone 70	Sao Mai	2024-01-28	t
-63	59	19	Sao Mai Running Shoes 58	Sao Mai	2023-09-01	t
-64	46	13	Sao Mai Men's Shirt 42	Sao Mai	2024-01-29	t
-65	21	29	Book: Programming 35	NovaTech	2023-11-15	t
-66	7	10	Kira Portable Speaker 52	Kira	2025-03-26	t
-67	44	23	Hoa Sen Blender 86	Hoa Sen	2023-10-26	t
-68	13	35	Truong Son Face Wash 22	Truong Son	2023-12-18	t
-69	8	6	Bach Viet Laptop 44	Bach Viet	2023-06-24	t
-70	32	16	Truong Son Party Dress 12	Truong Son	2025-03-25	f
-71	37	7	Zenit Wireless Mouse M21	Zenit	2024-04-03	t
-72	28	34	Viet Tien Xa Sunscreen SPF85	Viet Tien Xa	2025-04-03	t
-73	53	7	Truong Son Mechanical Keyboard K21	Truong Son	2024-04-12	t
-74	18	28	Book: Soft Skills 67	Kira	2024-08-22	t
-75	43	3	Hoa Sen Phone 22	Hoa Sen	2023-08-08	t
-76	58	10	Luna Portable Speaker 15	Luna	2024-02-22	t
-77	17	3	Hoa Sen Phone 82	Hoa Sen	2025-07-26	t
-78	57	10	Viet Tien Xa Portable Speaker 32	Viet Tien Xa	2024-07-07	t
-79	28	14	Orca Men's Chinos 65	Orca	2024-07-01	t
-80	17	4	Hai Au Tab 77	Hai Au	2024-08-20	t
-81	55	3	Viet Tien Xa Phone 73	Viet Tien Xa	2024-03-17	t
-82	15	28	Book: Soft Skills 52	Viet Tien Xa	2024-03-15	t
-83	50	6	Orca Laptop 18	Orca	2024-07-13	t
-84	23	9	An Phat Bluetooth Headphones 69	An Phat	2023-11-17	f
-85	55	17	Luna Handbag 33	Luna	2025-06-23	t
-86	15	7	Viet Tien Xa Wireless Mouse M17	Viet Tien Xa	2025-03-31	t
-87	20	6	Tre Xanh Laptop 51	Tre Xanh	2025-04-17	t
-88	39	10	Truong Son Portable Speaker 30	Truong Son	2023-09-21	t
-89	11	35	Bach Viet Face Wash 31	Bach Viet	2023-08-31	t
-90	6	7	Zenit Mechanical Keyboard K46	Zenit	2025-02-13	t
-91	57	29	Book: Programming 28	Hai Au	2025-06-30	f
-92	29	28	Book: Soft Skills 44	Bach Viet	2024-08-28	t
-93	12	16	Phuong Hoang Party Dress 39	Phuong Hoang	2025-04-15	t
+60	3	14	Velocity Men's Jeans 18	Velocity	2023-12-02	t
+61	39	14	Horizon Men's Chinos 29	Horizon	2024-04-26	t
+62	49	3	NovaTech Phone 70	NovaTech	2024-01-28	t
+63	59	19	NovaTech Running Shoes 58	NovaTech	2023-09-01	t
+64	46	13	NovaTech Men's Shirt 42	NovaTech	2024-01-29	t
+65	21	29	Book: Programming 35	Meridian	2023-11-15	t
+66	7	10	Velocity Portable Speaker 52	Velocity	2025-03-26	t
+67	44	23	Vanguard Blender 86	Vanguard	2023-10-26	t
+68	13	35	Pioneer Face Wash 22	Pioneer	2023-12-18	t
+69	8	6	Solis Laptop 44	Solis	2023-06-24	t
+70	32	16	Pioneer Party Dress 12	Pioneer	2025-03-25	f
+71	37	7	Titan Wireless Mouse M21	Titan	2024-04-03	t
+72	28	34	Summit Sunscreen SPF85	Summit	2025-04-03	t
+73	53	7	Pioneer Mechanical Keyboard K21	Pioneer	2024-04-12	t
+74	18	28	Book: Soft Skills 67	Velocity	2024-08-22	t
+75	43	3	Vanguard Phone 22	Vanguard	2023-08-08	t
+76	58	10	Nexus Portable Speaker 15	Nexus	2024-02-22	t
+77	17	3	Vanguard Phone 82	Vanguard	2025-07-26	t
+78	57	10	Summit Portable Speaker 32	Summit	2024-07-07	t
+79	28	14	Crest Men's Chinos 65	Crest	2024-07-01	t
+80	17	4	Horizon Tab 77	Horizon	2024-08-20	t
+81	55	3	Summit Phone 73	Summit	2024-03-17	t
+82	15	28	Book: Soft Skills 52	Summit	2024-03-15	t
+83	50	6	Crest Laptop 18	Crest	2024-07-13	t
+84	23	9	Pulse Bluetooth Headphones 69	Pulse	2023-11-17	f
+85	55	17	Nexus Handbag 33	Nexus	2025-06-23	t
+86	15	7	Summit Wireless Mouse M17	Summit	2025-03-31	t
+87	20	6	Echo Laptop 51	Echo	2025-04-17	t
+88	39	10	Pioneer Portable Speaker 30	Pioneer	2023-09-21	t
+89	11	35	Solis Face Wash 31	Solis	2023-08-31	t
+90	6	7	Titan Mechanical Keyboard K46	Titan	2025-02-13	t
+91	57	29	Book: Programming 28	Horizon	2025-06-30	f
+92	29	28	Book: Soft Skills 44	Solis	2024-08-28	t
+93	12	16	Lumina Party Dress 39	Lumina	2025-04-15	t
 94	37	35	Face Wash 12	\N	2024-06-24	f
-95	31	4	Hoa Sen Tab 93	Hoa Sen	2025-07-07	t
-96	13	16	Hai Au Party Dress 33	Hai Au	2024-08-15	t
-97	55	13	Sao Mai Men's Shirt 65	Sao Mai	2024-08-14	t
-98	39	6	An Phat Laptop 75	An Phat	2024-12-28	t
-99	43	34	Lotus Sunscreen SPF14	Lotus	2023-07-21	t
-100	52	22	Kira Stainless Pot Set 26	Kira	2024-04-19	t
-101	17	37	Viet Tien Xa Multivitamin 22	Viet Tien Xa	2025-06-24	t
-102	51	7	Kira Wireless Mouse M21	Kira	2024-03-23	t
-103	55	3	Mekong Phone 14	Mekong	2024-07-27	t
-104	4	10	Viet Tien Xa Portable Speaker 85	Viet Tien Xa	2024-10-17	t
-105	42	16	Bach Viet Office Dress 39	Bach Viet	2025-08-20	t
-106	41	9	Hai Au Bluetooth Headphones 50	Hai Au	2024-06-09	t
-107	20	10	Orca Portable Speaker 77	Orca	2025-06-19	t
-108	28	14	Truong Son Men's Jeans 45	Truong Son	2025-10-12	t
-109	35	13	Phuong Hoang Men's Shirt 71	Phuong Hoang	2025-04-16	t
-110	4	9	Hoa Sen Bluetooth Headphones 22	Hoa Sen	2024-09-29	t
-111	18	22	Zenit Non-Stick Pan 76	Zenit	2025-10-23	t
-112	6	25	Mekong Night Lamp 28	Mekong	2025-06-21	t
-113	41	4	Truong Son Tab 40	Truong Son	2025-07-28	t
-114	3	31	Sao Mai Gel Pen 86	Sao Mai	2025-10-26	f
-115	34	14	Tre Xanh Men's Jeans 90	Tre Xanh	2023-06-16	t
-116	29	4	Luna Tab 18	Luna	2025-08-28	t
-117	30	19	Hai Au Running Shoes 45	Hai Au	2024-06-13	t
-118	14	28	Book: Soft Skills 29	Orca	2025-03-18	t
-119	28	17	Lotus Handbag 98	Lotus	2024-09-06	t
-120	7	17	Tre Xanh Handbag 78	Tre Xanh	2025-03-24	t
+95	31	4	Vanguard Tab 93	Vanguard	2025-07-07	t
+96	13	16	Horizon Party Dress 33	Horizon	2024-08-15	t
+97	55	13	NovaTech Men's Shirt 65	NovaTech	2024-08-14	t
+98	39	6	Pulse Laptop 75	Pulse	2024-12-28	t
+99	43	34	Apex Sunscreen SPF14	Apex	2023-07-21	t
+100	52	22	Velocity Stainless Pot Set 26	Velocity	2024-04-19	t
+101	17	37	Summit Multivitamin 22	Summit	2025-06-24	t
+102	51	7	Velocity Wireless Mouse M21	Velocity	2024-03-23	t
+103	55	3	Aura Phone 14	Aura	2024-07-27	t
+104	4	10	Summit Portable Speaker 85	Summit	2024-10-17	t
+105	42	16	Solis Office Dress 39	Solis	2025-08-20	t
+106	41	9	Horizon Bluetooth Headphones 50	Horizon	2024-06-09	t
+107	20	10	Crest Portable Speaker 77	Crest	2025-06-19	t
+108	28	14	Pioneer Men's Jeans 45	Pioneer	2025-10-12	t
+109	35	13	Lumina Men's Shirt 71	Lumina	2025-04-16	t
+110	4	9	Vanguard Bluetooth Headphones 22	Vanguard	2024-09-29	t
+111	18	22	Titan Non-Stick Pan 76	Titan	2025-10-23	t
+112	6	25	Aura Night Lamp 28	Aura	2025-06-21	t
+113	41	4	Pioneer Tab 40	Pioneer	2025-07-28	t
+114	3	31	NovaTech Gel Pen 86	NovaTech	2025-10-26	f
+115	34	14	Echo Men's Jeans 90	Echo	2023-06-16	t
+116	29	4	Nexus Tab 18	Nexus	2025-08-28	t
+117	30	19	Horizon Running Shoes 45	Horizon	2024-06-13	t
+118	14	28	Book: Soft Skills 29	Crest	2025-03-18	t
+119	28	17	Apex Handbag 98	Apex	2024-09-06	t
+120	7	17	Echo Handbag 78	Echo	2025-03-24	t
 121	26	28	Book: Soft Skills 43	\N	2023-10-10	t
-122	28	17	An Phat Handbag 11	An Phat	2023-11-10	t
-123	25	4	Kira Tab 77	Kira	2025-09-21	t
-124	33	37	Hai Au Multivitamin 29	Hai Au	2024-09-06	t
-125	11	7	Tre Xanh Wireless Mouse M46	Tre Xanh	2023-09-06	t
-126	3	17	Truong Son Handbag 30	Truong Son	2024-03-29	t
-127	11	23	An Phat Blender 93	An Phat	2024-11-29	t
-128	16	34	An Phat Sunscreen SPF35	An Phat	2024-02-03	t
-129	35	14	Kira Men's Jeans 80	Kira	2023-12-28	t
-130	17	25	Zenit Night Lamp 92	Zenit	2023-12-29	t
-131	1	29	Book: Programming 71	Zenit	2024-09-04	t
-132	6	6	Mekong Laptop 78	Mekong	2025-04-22	t
-133	5	3	Bach Viet Phone 13	Bach Viet	2024-09-20	t
-134	28	10	Lotus Portable Speaker 46	Lotus	2025-02-27	f
-135	13	10	Sao Mai Portable Speaker 75	Sao Mai	2025-06-04	t
-136	53	25	Kira Night Lamp 58	Kira	2024-08-05	t
-137	2	17	Viet Tien Xa Handbag 63	Viet Tien Xa	2025-09-29	t
-138	7	37	Sao Mai Multivitamin 33	Sao Mai	2025-10-17	t
-139	42	22	Hoa Sen Stainless Pot Set 94	Hoa Sen	2025-06-11	t
-140	28	16	Lotus Party Dress 42	Lotus	2024-02-20	t
-141	7	28	Book: Soft Skills 32	Hai Au	2024-08-18	t
-142	26	3	Hai Au Phone 64	Hai Au	2024-08-11	t
-143	25	25	Phuong Hoang Night Lamp 94	Phuong Hoang	2024-07-07	f
-144	31	37	Kira Multivitamin 62	Kira	2024-10-25	t
-145	11	16	Hai Au Party Dress 68	Hai Au	2023-06-20	t
-146	44	10	NovaTech Portable Speaker 62	NovaTech	2025-03-14	t
-147	44	4	Bach Viet Tab 31	Bach Viet	2024-10-06	t
-148	59	22	Lotus Stainless Pot Set 46	Lotus	2025-07-17	t
-149	38	37	Mekong Multivitamin 58	Mekong	2023-12-14	t
-150	16	7	Sao Mai Wireless Mouse M32	Sao Mai	2024-12-08	t
-151	19	31	Tre Xanh Gel Pen 88	Tre Xanh	2025-11-03	t
-152	8	19	Sao Mai Running Shoes 69	Sao Mai	2024-12-25	t
-153	22	16	Truong Son Office Dress 28	Truong Son	2024-10-09	t
-154	20	34	An Phat Sunscreen SPF70	An Phat	2025-03-20	t
-155	45	19	Kira Running Shoes 14	Kira	2025-02-08	t
-156	25	28	Book: Soft Skills 33	Zenit	2023-08-19	t
-157	33	34	Kira Sunscreen SPF78	Kira	2024-08-12	t
-158	50	6	Hoa Sen Laptop 46	Hoa Sen	2024-02-19	t
-159	15	13	Mekong Men's T-Shirt 94	Mekong	2024-08-17	t
-160	17	22	Luna Non-Stick Pan 80	Luna	2025-06-03	t
-161	6	31	NovaTech Notebook 24	NovaTech	2025-08-03	t
-162	56	22	An Phat Non-Stick Pan 33	An Phat	2023-12-27	t
-163	9	14	Mekong Men's Jeans 61	Mekong	2025-09-09	t
-164	2	25	Tre Xanh Night Lamp 48	Tre Xanh	2025-11-06	t
-165	35	34	Hai Au Sunscreen SPF37	Hai Au	2025-01-25	t
-166	52	13	Orca Men's Shirt 71	Orca	2024-05-01	t
-167	20	35	Viet Tien Xa Face Wash 99	Viet Tien Xa	2024-12-02	t
-168	6	7	Truong Son Mechanical Keyboard K42	Truong Son	2024-01-22	f
-169	7	19	Zenit Running Shoes 42	Zenit	2025-07-18	t
-170	43	35	Sao Mai Face Wash 58	Sao Mai	2024-09-13	t
-171	34	17	Orca Handbag 89	Orca	2024-09-12	t
-172	35	19	Kira Running Shoes 58	Kira	2024-09-27	t
-173	35	4	Tre Xanh Tab 65	Tre Xanh	2024-10-16	t
-174	2	13	NovaTech Men's Shirt 63	NovaTech	2024-02-11	t
+122	28	17	Pulse Handbag 11	Pulse	2023-11-10	t
+123	25	4	Velocity Tab 77	Velocity	2025-09-21	t
+124	33	37	Horizon Multivitamin 29	Horizon	2024-09-06	t
+125	11	7	Echo Wireless Mouse M46	Echo	2023-09-06	t
+126	3	17	Pioneer Handbag 30	Pioneer	2024-03-29	t
+127	11	23	Pulse Blender 93	Pulse	2024-11-29	t
+128	16	34	Pulse Sunscreen SPF35	Pulse	2024-02-03	t
+129	35	14	Velocity Men's Jeans 80	Velocity	2023-12-28	t
+130	17	25	Titan Night Lamp 92	Titan	2023-12-29	t
+131	1	29	Book: Programming 71	Titan	2024-09-04	t
+132	6	6	Aura Laptop 78	Aura	2025-04-22	t
+133	5	3	Solis Phone 13	Solis	2024-09-20	t
+134	28	10	Apex Portable Speaker 46	Apex	2025-02-27	f
+135	13	10	NovaTech Portable Speaker 75	NovaTech	2025-06-04	t
+136	53	25	Velocity Night Lamp 58	Velocity	2024-08-05	t
+137	2	17	Summit Handbag 63	Summit	2025-09-29	t
+138	7	37	NovaTech Multivitamin 33	NovaTech	2025-10-17	t
+139	42	22	Vanguard Stainless Pot Set 94	Vanguard	2025-06-11	t
+140	28	16	Apex Party Dress 42	Apex	2024-02-20	t
+141	7	28	Book: Soft Skills 32	Horizon	2024-08-18	t
+142	26	3	Horizon Phone 64	Horizon	2024-08-11	t
+143	25	25	Lumina Night Lamp 94	Lumina	2024-07-07	f
+144	31	37	Velocity Multivitamin 62	Velocity	2024-10-25	t
+145	11	16	Horizon Party Dress 68	Horizon	2023-06-20	t
+146	44	10	Meridian Portable Speaker 62	Meridian	2025-03-14	t
+147	44	4	Solis Tab 31	Solis	2024-10-06	t
+148	59	22	Apex Stainless Pot Set 46	Apex	2025-07-17	t
+149	38	37	Aura Multivitamin 58	Aura	2023-12-14	t
+150	16	7	NovaTech Wireless Mouse M32	NovaTech	2024-12-08	t
+151	19	31	Echo Gel Pen 88	Echo	2025-11-03	t
+152	8	19	NovaTech Running Shoes 69	NovaTech	2024-12-25	t
+153	22	16	Pioneer Office Dress 28	Pioneer	2024-10-09	t
+154	20	34	Pulse Sunscreen SPF70	Pulse	2025-03-20	t
+155	45	19	Velocity Running Shoes 14	Velocity	2025-02-08	t
+156	25	28	Book: Soft Skills 33	Titan	2023-08-19	t
+157	33	34	Velocity Sunscreen SPF78	Velocity	2024-08-12	t
+158	50	6	Vanguard Laptop 46	Vanguard	2024-02-19	t
+159	15	13	Aura Men's T-Shirt 94	Aura	2024-08-17	t
+160	17	22	Nexus Non-Stick Pan 80	Nexus	2025-06-03	t
+161	6	31	Meridian Notebook 24	Meridian	2025-08-03	t
+162	56	22	Pulse Non-Stick Pan 33	Pulse	2023-12-27	t
+163	9	14	Aura Men's Jeans 61	Aura	2025-09-09	t
+164	2	25	Echo Night Lamp 48	Echo	2025-11-06	t
+165	35	34	Horizon Sunscreen SPF37	Horizon	2025-01-25	t
+166	52	13	Crest Men's Shirt 71	Crest	2024-05-01	t
+167	20	35	Summit Face Wash 99	Summit	2024-12-02	t
+168	6	7	Pioneer Mechanical Keyboard K42	Pioneer	2024-01-22	f
+169	7	19	Titan Running Shoes 42	Titan	2025-07-18	t
+170	43	35	NovaTech Face Wash 58	NovaTech	2024-09-13	t
+171	34	17	Crest Handbag 89	Crest	2024-09-12	t
+172	35	19	Velocity Running Shoes 58	Velocity	2024-09-27	t
+173	35	4	Echo Tab 65	Echo	2024-10-16	t
+174	2	13	Meridian Men's Shirt 63	Meridian	2024-02-11	t
 175	3	25	Night Lamp 38	\N	2024-10-15	f
-176	36	4	Luna Tab 66	Luna	2024-02-03	t
-177	4	34	Bach Viet Sunscreen SPF62	Bach Viet	2024-02-04	t
-178	10	37	Sao Mai Multivitamin 55	Sao Mai	2024-03-28	t
-179	41	34	Hoa Sen Sunscreen SPF62	Hoa Sen	2025-08-21	t
-180	31	14	Truong Son Men's Jeans 69	Truong Son	2025-08-17	t
-181	25	16	Sao Mai Office Dress 12	Sao Mai	2024-07-09	f
-182	15	6	Luna Laptop 35	Luna	2023-10-30	t
-183	59	16	Truong Son Party Dress 80	Truong Son	2024-08-23	t
-184	43	4	NovaTech Tab 66	NovaTech	2024-06-17	t
-185	14	34	Sao Mai Sunscreen SPF23	Sao Mai	2024-02-17	t
-186	10	4	Hoa Sen Tab 35	Hoa Sen	2025-01-17	t
-187	16	9	Zenit Bluetooth Headphones 17	Zenit	2024-06-29	f
-188	24	29	Book: Programming 20	Kira	2025-06-28	t
-189	22	34	Phuong Hoang Sunscreen SPF65	Phuong Hoang	2023-06-04	t
-190	54	3	Lotus Phone 94	Lotus	2024-07-02	t
+176	36	4	Nexus Tab 66	Nexus	2024-02-03	t
+177	4	34	Solis Sunscreen SPF62	Solis	2024-02-04	t
+178	10	37	NovaTech Multivitamin 55	NovaTech	2024-03-28	t
+179	41	34	Vanguard Sunscreen SPF62	Vanguard	2025-08-21	t
+180	31	14	Pioneer Men's Jeans 69	Pioneer	2025-08-17	t
+181	25	16	NovaTech Office Dress 12	NovaTech	2024-07-09	f
+182	15	6	Nexus Laptop 35	Nexus	2023-10-30	t
+183	59	16	Pioneer Party Dress 80	Pioneer	2024-08-23	t
+184	43	4	Meridian Tab 66	Meridian	2024-06-17	t
+185	14	34	NovaTech Sunscreen SPF23	NovaTech	2024-02-17	t
+186	10	4	Vanguard Tab 35	Vanguard	2025-01-17	t
+187	16	9	Titan Bluetooth Headphones 17	Titan	2024-06-29	f
+188	24	29	Book: Programming 20	Velocity	2025-06-28	t
+189	22	34	Lumina Sunscreen SPF65	Lumina	2023-06-04	t
+190	54	3	Apex Phone 94	Apex	2024-07-02	t
 191	27	17	Handbag 19	\N	2023-08-25	t
-192	5	19	Orca Running Shoes 96	Orca	2025-03-12	t
-193	13	29	Book: Programming 38	Luna	2025-06-11	t
+192	5	19	Crest Running Shoes 96	Crest	2025-03-12	t
+193	13	29	Book: Programming 38	Nexus	2025-06-11	t
 194	9	25	Night Lamp 49	\N	2024-01-17	t
-195	12	35	Lotus Face Wash 83	Lotus	2024-07-27	t
-196	30	29	Book: Programming 17	Tre Xanh	2024-03-15	t
-197	13	7	Hai Au Wireless Mouse M89	Hai Au	2023-12-18	t
-198	26	35	Hoa Sen Face Wash 46	Hoa Sen	2025-10-11	t
-199	8	31	Phuong Hoang Gel Pen 43	Phuong Hoang	2023-12-05	t
-200	50	34	Sao Mai Sunscreen SPF87	Sao Mai	2023-12-31	t
+195	12	35	Apex Face Wash 83	Apex	2024-07-27	t
+196	30	29	Book: Programming 17	Echo	2024-03-15	t
+197	13	7	Horizon Wireless Mouse M89	Horizon	2023-12-18	t
+198	26	35	Vanguard Face Wash 46	Vanguard	2025-10-11	t
+199	8	31	Lumina Gel Pen 43	Lumina	2023-12-05	t
+200	50	34	NovaTech Sunscreen SPF87	NovaTech	2023-12-31	t
 201	47	22	Non-Stick Pan 97	\N	2023-09-27	t
-202	41	7	Sao Mai Mechanical Keyboard K77	Sao Mai	2025-05-25	t
-203	7	16	Tre Xanh Party Dress 87	Tre Xanh	2024-10-19	t
-204	41	29	Book: Programming 86	Kira	2023-06-30	t
-205	41	22	Bach Viet Stainless Pot Set 93	Bach Viet	2024-10-29	t
-206	58	4	Zenit Tab 16	Zenit	2024-12-30	t
-207	1	17	Tre Xanh Handbag 35	Tre Xanh	2023-10-19	t
+202	41	7	NovaTech Mechanical Keyboard K77	NovaTech	2025-05-25	t
+203	7	16	Echo Party Dress 87	Echo	2024-10-19	t
+204	41	29	Book: Programming 86	Velocity	2023-06-30	t
+205	41	22	Solis Stainless Pot Set 93	Solis	2024-10-29	t
+206	58	4	Titan Tab 16	Titan	2024-12-30	t
+207	1	17	Echo Handbag 35	Echo	2023-10-19	t
 208	20	31	Notebook 85	\N	2025-04-20	t
 209	47	34	Sunscreen SPF40	\N	2023-11-16	t
-210	28	28	Book: Soft Skills 97	NovaTech	2023-12-28	t
-211	41	3	Lotus Phone 96	Lotus	2024-01-16	t
-212	25	9	Mekong Bluetooth Headphones 58	Mekong	2025-01-06	t
-213	51	3	Kira Phone 88	Kira	2024-07-30	t
+210	28	28	Book: Soft Skills 97	Meridian	2023-12-28	t
+211	41	3	Apex Phone 96	Apex	2024-01-16	t
+212	25	9	Aura Bluetooth Headphones 58	Aura	2025-01-06	t
+213	51	3	Velocity Phone 88	Velocity	2024-07-30	t
 214	37	29	Book: Programming 22	\N	2025-07-13	t
-215	6	14	Lotus Men's Jeans 29	Lotus	2024-06-01	t
-216	15	23	Hoa Sen Blender 51	Hoa Sen	2025-03-30	t
-217	32	4	Hai Au Tab 21	Hai Au	2024-03-07	t
-218	30	17	NovaTech Handbag 53	NovaTech	2025-10-23	t
-219	57	23	An Phat Air Fryer 67	An Phat	2024-05-05	t
-220	5	31	Viet Tien Xa Notebook 79	Viet Tien Xa	2025-01-21	t
-221	24	3	Luna Phone 43	Luna	2024-06-30	t
+215	6	14	Apex Men's Jeans 29	Apex	2024-06-01	t
+216	15	23	Vanguard Blender 51	Vanguard	2025-03-30	t
+217	32	4	Horizon Tab 21	Horizon	2024-03-07	t
+218	30	17	Meridian Handbag 53	Meridian	2025-10-23	t
+219	57	23	Pulse Air Fryer 67	Pulse	2024-05-05	t
+220	5	31	Summit Notebook 79	Summit	2025-01-21	t
+221	24	3	Nexus Phone 43	Nexus	2024-06-30	t
 222	59	35	Face Wash 33	\N	2024-08-01	t
-223	8	19	Orca Running Shoes 37	Orca	2025-06-18	t
-224	2	35	Tre Xanh Face Wash 23	Tre Xanh	2024-05-19	t
-225	20	6	Hoa Sen Laptop 85	Hoa Sen	2023-06-23	t
-226	9	22	Tre Xanh Non-Stick Pan 23	Tre Xanh	2024-08-03	t
-227	39	34	Phuong Hoang Sunscreen SPF17	Phuong Hoang	2023-08-24	t
-228	56	4	Lotus Tab 80	Lotus	2025-08-18	t
-229	37	35	Zenit Face Wash 77	Zenit	2025-03-18	t
-230	5	17	Truong Son Handbag 39	Truong Son	2025-01-13	t
-231	5	31	An Phat Gel Pen 19	An Phat	2024-04-26	t
-232	28	34	Sao Mai Sunscreen SPF63	Sao Mai	2025-08-22	t
+223	8	19	Crest Running Shoes 37	Crest	2025-06-18	t
+224	2	35	Echo Face Wash 23	Echo	2024-05-19	t
+225	20	6	Vanguard Laptop 85	Vanguard	2023-06-23	t
+226	9	22	Echo Non-Stick Pan 23	Echo	2024-08-03	t
+227	39	34	Lumina Sunscreen SPF17	Lumina	2023-08-24	t
+228	56	4	Apex Tab 80	Apex	2025-08-18	t
+229	37	35	Titan Face Wash 77	Titan	2025-03-18	t
+230	5	17	Pioneer Handbag 39	Pioneer	2025-01-13	t
+231	5	31	Pulse Gel Pen 19	Pulse	2024-04-26	t
+232	28	34	NovaTech Sunscreen SPF63	NovaTech	2025-08-22	t
 233	29	35	Face Wash 23	\N	2024-07-03	t
-234	45	37	An Phat Multivitamin 34	An Phat	2024-05-18	t
-235	54	4	Sao Mai Tab 94	Sao Mai	2023-09-11	t
-236	29	28	Book: Soft Skills 36	Phuong Hoang	2023-12-22	t
-237	8	29	Book: Programming 25	Hoa Sen	2025-10-21	t
-238	40	13	Viet Tien Xa Men's Shirt 47	Viet Tien Xa	2025-07-24	t
-239	31	17	Mekong Handbag 53	Mekong	2024-05-06	t
-240	28	31	Truong Son Gel Pen 51	Truong Son	2025-01-05	t
-241	45	4	Zenit Tab 71	Zenit	2025-10-15	t
-242	12	16	Hai Au Party Dress 28	Hai Au	2023-12-14	t
-243	44	29	Book: Programming 66	Truong Son	2025-01-09	t
-244	54	19	NovaTech Running Shoes 41	NovaTech	2025-05-09	t
-245	16	25	NovaTech Night Lamp 80	NovaTech	2023-10-08	t
-246	55	35	Phuong Hoang Face Wash 15	Phuong Hoang	2024-07-08	t
+234	45	37	Pulse Multivitamin 34	Pulse	2024-05-18	t
+235	54	4	NovaTech Tab 94	NovaTech	2023-09-11	t
+236	29	28	Book: Soft Skills 36	Lumina	2023-12-22	t
+237	8	29	Book: Programming 25	Vanguard	2025-10-21	t
+238	40	13	Summit Men's Shirt 47	Summit	2025-07-24	t
+239	31	17	Aura Handbag 53	Aura	2024-05-06	t
+240	28	31	Pioneer Gel Pen 51	Pioneer	2025-01-05	t
+241	45	4	Titan Tab 71	Titan	2025-10-15	t
+242	12	16	Horizon Party Dress 28	Horizon	2023-12-14	t
+243	44	29	Book: Programming 66	Pioneer	2025-01-09	t
+244	54	19	Meridian Running Shoes 41	Meridian	2025-05-09	t
+245	16	25	Meridian Night Lamp 80	Meridian	2023-10-08	t
+246	55	35	Lumina Face Wash 15	Lumina	2024-07-08	t
 247	39	22	Stainless Pot Set 84	\N	2024-03-09	t
-248	58	29	Book: Programming 94	Bach Viet	2023-12-07	t
-249	16	10	Zenit Portable Speaker 73	Zenit	2024-03-31	t
-250	10	23	Phuong Hoang Air Fryer 69	Phuong Hoang	2024-10-04	f
-251	47	22	Tre Xanh Non-Stick Pan 71	Tre Xanh	2023-12-20	t
-252	54	31	Luna Gel Pen 94	Luna	2023-08-15	t
-253	16	7	Truong Son Wireless Mouse M56	Truong Son	2024-09-06	t
-254	19	28	Book: Soft Skills 25	Sao Mai	2024-12-17	t
+248	58	29	Book: Programming 94	Solis	2023-12-07	t
+249	16	10	Titan Portable Speaker 73	Titan	2024-03-31	t
+250	10	23	Lumina Air Fryer 69	Lumina	2024-10-04	f
+251	47	22	Echo Non-Stick Pan 71	Echo	2023-12-20	t
+252	54	31	Nexus Gel Pen 94	Nexus	2023-08-15	t
+253	16	7	Pioneer Wireless Mouse M56	Pioneer	2024-09-06	t
+254	19	28	Book: Soft Skills 25	NovaTech	2024-12-17	t
 255	56	17	Handbag 87	\N	2025-03-11	t
-256	49	23	Hai Au Air Fryer 82	Hai Au	2025-07-19	t
-257	13	16	An Phat Party Dress 29	An Phat	2025-02-14	t
-258	44	14	Hai Au Men's Jeans 36	Hai Au	2025-11-11	t
-259	39	34	Mekong Sunscreen SPF49	Mekong	2023-09-09	t
-260	37	23	Orca Blender 11	Orca	2024-03-01	t
-261	52	6	Phuong Hoang Laptop 33	Phuong Hoang	2024-08-03	t
-262	15	37	Mekong Multivitamin 45	Mekong	2023-09-07	t
-263	47	22	Hai Au Non-Stick Pan 34	Hai Au	2025-09-20	t
-264	16	23	NovaTech Blender 94	NovaTech	2023-10-01	t
-265	42	37	Hoa Sen Multivitamin 52	Hoa Sen	2025-05-07	t
-266	48	7	Lotus Mechanical Keyboard K59	Lotus	2024-05-09	t
-267	39	29	Book: Programming 20	Sao Mai	2025-08-11	t
-268	57	28	Book: Soft Skills 50	Truong Son	2025-01-21	t
-269	12	13	Hoa Sen Men's Shirt 24	Hoa Sen	2024-01-01	t
-270	2	13	Mekong Men's Shirt 63	Mekong	2024-08-26	t
+256	49	23	Horizon Air Fryer 82	Horizon	2025-07-19	t
+257	13	16	Pulse Party Dress 29	Pulse	2025-02-14	t
+258	44	14	Horizon Men's Jeans 36	Horizon	2025-11-11	t
+259	39	34	Aura Sunscreen SPF49	Aura	2023-09-09	t
+260	37	23	Crest Blender 11	Crest	2024-03-01	t
+261	52	6	Lumina Laptop 33	Lumina	2024-08-03	t
+262	15	37	Aura Multivitamin 45	Aura	2023-09-07	t
+263	47	22	Horizon Non-Stick Pan 34	Horizon	2025-09-20	t
+264	16	23	Meridian Blender 94	Meridian	2023-10-01	t
+265	42	37	Vanguard Multivitamin 52	Vanguard	2025-05-07	t
+266	48	7	Apex Mechanical Keyboard K59	Apex	2024-05-09	t
+267	39	29	Book: Programming 20	NovaTech	2025-08-11	t
+268	57	28	Book: Soft Skills 50	Pioneer	2025-01-21	t
+269	12	13	Vanguard Men's Shirt 24	Vanguard	2024-01-01	t
+270	2	13	Aura Men's Shirt 63	Aura	2024-08-26	t
 271	12	9	Bluetooth Headphones 57	\N	2023-10-09	t
-272	5	17	NovaTech Handbag 24	NovaTech	2025-04-19	t
-273	33	14	NovaTech Men's Chinos 98	NovaTech	2023-06-19	t
-274	17	37	Kira Multivitamin 77	Kira	2024-12-26	t
-275	23	9	NovaTech Bluetooth Headphones 45	NovaTech	2025-10-27	t
-276	20	34	Lotus Sunscreen SPF28	Lotus	2025-06-07	t
-277	18	19	Tre Xanh Running Shoes 46	Tre Xanh	2023-12-02	t
-278	14	6	Sao Mai Laptop 10	Sao Mai	2024-07-06	f
-279	13	13	Zenit Men's Shirt 63	Zenit	2023-09-30	t
-280	37	6	Lotus Laptop 97	Lotus	2023-12-25	t
-281	39	7	An Phat Wireless Mouse M10	An Phat	2025-09-07	t
+272	5	17	Meridian Handbag 24	Meridian	2025-04-19	t
+273	33	14	Meridian Men's Chinos 98	Meridian	2023-06-19	t
+274	17	37	Velocity Multivitamin 77	Velocity	2024-12-26	t
+275	23	9	Meridian Bluetooth Headphones 45	Meridian	2025-10-27	t
+276	20	34	Apex Sunscreen SPF28	Apex	2025-06-07	t
+277	18	19	Echo Running Shoes 46	Echo	2023-12-02	t
+278	14	6	NovaTech Laptop 10	NovaTech	2024-07-06	f
+279	13	13	Titan Men's Shirt 63	Titan	2023-09-30	t
+280	37	6	Apex Laptop 97	Apex	2023-12-25	t
+281	39	7	Pulse Wireless Mouse M10	Pulse	2025-09-07	t
 282	1	23	Blender 33	\N	2023-11-02	t
-283	4	19	NovaTech Running Shoes 70	NovaTech	2025-04-07	t
-284	7	25	Lotus Night Lamp 42	Lotus	2023-12-18	t
-285	29	6	Lotus Laptop 43	Lotus	2023-10-26	t
-286	31	6	Viet Tien Xa Laptop 58	Viet Tien Xa	2023-12-14	f
-287	11	31	An Phat Notebook 97	An Phat	2023-12-09	t
-288	21	31	Luna Notebook 67	Luna	2023-06-04	t
-289	49	37	Bach Viet Multivitamin 13	Bach Viet	2023-12-07	t
-290	34	37	Mekong Multivitamin 18	Mekong	2023-08-04	t
-291	55	17	Luna Handbag 35	Luna	2024-10-24	t
-292	3	19	Sao Mai Running Shoes 22	Sao Mai	2024-06-25	f
-293	2	37	NovaTech Multivitamin 11	NovaTech	2024-04-22	t
-294	36	34	Kira Sunscreen SPF55	Kira	2024-02-15	t
-295	47	34	Sao Mai Sunscreen SPF27	Sao Mai	2023-06-08	t
-296	16	37	Kira Multivitamin 17	Kira	2025-04-09	t
+283	4	19	Meridian Running Shoes 70	Meridian	2025-04-07	t
+284	7	25	Apex Night Lamp 42	Apex	2023-12-18	t
+285	29	6	Apex Laptop 43	Apex	2023-10-26	t
+286	31	6	Summit Laptop 58	Summit	2023-12-14	f
+287	11	31	Pulse Notebook 97	Pulse	2023-12-09	t
+288	21	31	Nexus Notebook 67	Nexus	2023-06-04	t
+289	49	37	Solis Multivitamin 13	Solis	2023-12-07	t
+290	34	37	Aura Multivitamin 18	Aura	2023-08-04	t
+291	55	17	Nexus Handbag 35	Nexus	2024-10-24	t
+292	3	19	NovaTech Running Shoes 22	NovaTech	2024-06-25	f
+293	2	37	Meridian Multivitamin 11	Meridian	2024-04-22	t
+294	36	34	Velocity Sunscreen SPF55	Velocity	2024-02-15	t
+295	47	34	NovaTech Sunscreen SPF27	NovaTech	2023-06-08	t
+296	16	37	Velocity Multivitamin 17	Velocity	2025-04-09	t
 297	32	17	Handbag 84	\N	2024-10-06	t
-298	5	29	Book: Programming 17	Phuong Hoang	2025-10-30	t
-299	45	16	Viet Tien Xa Office Dress 37	Viet Tien Xa	2025-07-31	t
-300	1	7	Zenit Mechanical Keyboard K78	Zenit	2024-04-16	t
-301	18	29	Book: Programming 17	Luna	2023-07-29	t
-302	32	7	Tre Xanh Wireless Mouse M25	Tre Xanh	2025-02-07	f
-303	9	10	Phuong Hoang Portable Speaker 89	Phuong Hoang	2025-09-03	t
-304	26	23	Hai Au Blender 73	Hai Au	2025-03-16	t
-305	56	14	An Phat Men's Jeans 31	An Phat	2025-04-19	t
+298	5	29	Book: Programming 17	Lumina	2025-10-30	t
+299	45	16	Summit Office Dress 37	Summit	2025-07-31	t
+300	1	7	Titan Mechanical Keyboard K78	Titan	2024-04-16	t
+301	18	29	Book: Programming 17	Nexus	2023-07-29	t
+302	32	7	Echo Wireless Mouse M25	Echo	2025-02-07	f
+303	9	10	Lumina Portable Speaker 89	Lumina	2025-09-03	t
+304	26	23	Horizon Blender 73	Horizon	2025-03-16	t
+305	56	14	Pulse Men's Jeans 31	Pulse	2025-04-19	t
 306	57	31	Gel Pen 48	\N	2025-05-29	t
-307	43	17	Truong Son Handbag 97	Truong Son	2024-08-22	t
-308	9	7	Orca Mechanical Keyboard K32	Orca	2025-01-21	t
-309	47	25	Truong Son Night Lamp 24	Truong Son	2025-05-20	t
-310	20	35	Phuong Hoang Face Wash 19	Phuong Hoang	2024-06-05	t
-311	12	35	Phuong Hoang Face Wash 44	Phuong Hoang	2025-03-14	t
-312	48	13	Tre Xanh Men's T-Shirt 14	Tre Xanh	2025-01-15	t
-313	32	19	Luna Running Shoes 90	Luna	2025-07-12	t
-314	36	13	Sao Mai Men's T-Shirt 81	Sao Mai	2025-10-01	t
-315	56	37	NovaTech Multivitamin 25	NovaTech	2023-12-28	t
-316	38	10	Mekong Portable Speaker 41	Mekong	2024-12-09	t
-317	7	31	Zenit Notebook 34	Zenit	2025-10-01	t
-318	43	14	Truong Son Men's Jeans 26	Truong Son	2025-03-02	t
-319	60	14	NovaTech Men's Chinos 32	NovaTech	2023-11-22	t
-320	37	29	Book: Programming 66	Zenit	2024-04-23	t
-321	1	3	An Phat Phone 59	An Phat	2024-09-14	t
-322	36	29	Book: Programming 79	Sao Mai	2023-09-25	t
-323	9	13	Viet Tien Xa Men's T-Shirt 41	Viet Tien Xa	2023-10-30	t
-324	3	25	Kira Night Lamp 42	Kira	2025-11-07	t
-325	48	28	Book: Soft Skills 60	An Phat	2024-12-11	t
-326	55	9	Kira Bluetooth Headphones 73	Kira	2025-01-15	t
-327	19	22	Zenit Non-Stick Pan 74	Zenit	2025-09-23	t
-328	40	14	Tre Xanh Men's Jeans 71	Tre Xanh	2024-12-29	t
-329	10	16	Kira Office Dress 38	Kira	2025-09-25	t
-330	40	14	Zenit Men's Chinos 76	Zenit	2023-07-30	t
-331	14	29	Book: Programming 23	Zenit	2024-01-07	t
-332	15	28	Book: Soft Skills 33	Truong Son	2025-05-06	t
-333	13	37	Orca Multivitamin 22	Orca	2025-05-24	t
-334	22	10	Hoa Sen Portable Speaker 41	Hoa Sen	2024-10-21	t
-335	3	17	An Phat Handbag 23	An Phat	2025-11-14	t
-336	54	10	Kira Portable Speaker 95	Kira	2025-08-22	t
-337	33	23	Zenit Air Fryer 33	Zenit	2025-01-01	t
-338	28	23	Bach Viet Air Fryer 78	Bach Viet	2025-03-25	t
-339	37	13	Hai Au Men's T-Shirt 31	Hai Au	2023-08-28	t
-340	31	29	Book: Programming 38	Zenit	2025-10-11	t
-341	47	17	Truong Son Handbag 76	Truong Son	2023-09-26	t
-342	17	34	Viet Tien Xa Sunscreen SPF66	Viet Tien Xa	2024-11-28	t
-343	17	14	Lotus Men's Jeans 44	Lotus	2025-02-21	t
-344	24	17	NovaTech Handbag 26	NovaTech	2025-03-05	t
-345	40	4	Phuong Hoang Tab 34	Phuong Hoang	2024-03-03	t
-346	10	28	Book: Soft Skills 74	Sao Mai	2024-02-10	t
-347	46	13	NovaTech Men's Shirt 82	NovaTech	2024-01-21	t
-348	1	7	Hoa Sen Mechanical Keyboard K77	Hoa Sen	2025-08-11	t
-349	52	13	Mekong Men's T-Shirt 81	Mekong	2025-05-18	t
-350	42	16	Viet Tien Xa Office Dress 98	Viet Tien Xa	2024-11-21	t
-351	42	10	NovaTech Portable Speaker 99	NovaTech	2024-05-23	t
-352	2	28	Book: Soft Skills 94	Viet Tien Xa	2024-08-09	t
-353	36	23	NovaTech Blender 41	NovaTech	2025-01-17	t
-354	55	4	Bach Viet Tab 35	Bach Viet	2023-12-03	t
-355	3	16	Viet Tien Xa Party Dress 67	Viet Tien Xa	2024-04-29	t
+307	43	17	Pioneer Handbag 97	Pioneer	2024-08-22	t
+308	9	7	Crest Mechanical Keyboard K32	Crest	2025-01-21	t
+309	47	25	Pioneer Night Lamp 24	Pioneer	2025-05-20	t
+310	20	35	Lumina Face Wash 19	Lumina	2024-06-05	t
+311	12	35	Lumina Face Wash 44	Lumina	2025-03-14	t
+312	48	13	Echo Men's T-Shirt 14	Echo	2025-01-15	t
+313	32	19	Nexus Running Shoes 90	Nexus	2025-07-12	t
+314	36	13	NovaTech Men's T-Shirt 81	NovaTech	2025-10-01	t
+315	56	37	Meridian Multivitamin 25	Meridian	2023-12-28	t
+316	38	10	Aura Portable Speaker 41	Aura	2024-12-09	t
+317	7	31	Titan Notebook 34	Titan	2025-10-01	t
+318	43	14	Pioneer Men's Jeans 26	Pioneer	2025-03-02	t
+319	60	14	Meridian Men's Chinos 32	Meridian	2023-11-22	t
+320	37	29	Book: Programming 66	Titan	2024-04-23	t
+321	1	3	Pulse Phone 59	Pulse	2024-09-14	t
+322	36	29	Book: Programming 79	NovaTech	2023-09-25	t
+323	9	13	Summit Men's T-Shirt 41	Summit	2023-10-30	t
+324	3	25	Velocity Night Lamp 42	Velocity	2025-11-07	t
+325	48	28	Book: Soft Skills 60	Pulse	2024-12-11	t
+326	55	9	Velocity Bluetooth Headphones 73	Velocity	2025-01-15	t
+327	19	22	Titan Non-Stick Pan 74	Titan	2025-09-23	t
+328	40	14	Echo Men's Jeans 71	Echo	2024-12-29	t
+329	10	16	Velocity Office Dress 38	Velocity	2025-09-25	t
+330	40	14	Titan Men's Chinos 76	Titan	2023-07-30	t
+331	14	29	Book: Programming 23	Titan	2024-01-07	t
+332	15	28	Book: Soft Skills 33	Pioneer	2025-05-06	t
+333	13	37	Crest Multivitamin 22	Crest	2025-05-24	t
+334	22	10	Vanguard Portable Speaker 41	Vanguard	2024-10-21	t
+335	3	17	Pulse Handbag 23	Pulse	2025-11-14	t
+336	54	10	Velocity Portable Speaker 95	Velocity	2025-08-22	t
+337	33	23	Titan Air Fryer 33	Titan	2025-01-01	t
+338	28	23	Solis Air Fryer 78	Solis	2025-03-25	t
+339	37	13	Horizon Men's T-Shirt 31	Horizon	2023-08-28	t
+340	31	29	Book: Programming 38	Titan	2025-10-11	t
+341	47	17	Pioneer Handbag 76	Pioneer	2023-09-26	t
+342	17	34	Summit Sunscreen SPF66	Summit	2024-11-28	t
+343	17	14	Apex Men's Jeans 44	Apex	2025-02-21	t
+344	24	17	Meridian Handbag 26	Meridian	2025-03-05	t
+345	40	4	Lumina Tab 34	Lumina	2024-03-03	t
+346	10	28	Book: Soft Skills 74	NovaTech	2024-02-10	t
+347	46	13	Meridian Men's Shirt 82	Meridian	2024-01-21	t
+348	1	7	Vanguard Mechanical Keyboard K77	Vanguard	2025-08-11	t
+349	52	13	Aura Men's T-Shirt 81	Aura	2025-05-18	t
+350	42	16	Summit Office Dress 98	Summit	2024-11-21	t
+351	42	10	Meridian Portable Speaker 99	Meridian	2024-05-23	t
+352	2	28	Book: Soft Skills 94	Summit	2024-08-09	t
+353	36	23	Meridian Blender 41	Meridian	2025-01-17	t
+354	55	4	Solis Tab 35	Solis	2023-12-03	t
+355	3	16	Summit Party Dress 67	Summit	2024-04-29	t
 356	15	9	Bluetooth Headphones 47	\N	2024-08-10	f
-357	4	22	Orca Stainless Pot Set 70	Orca	2025-02-07	t
-358	7	34	Lotus Sunscreen SPF64	Lotus	2025-10-03	t
+357	4	22	Crest Stainless Pot Set 70	Crest	2025-02-07	t
+358	7	34	Apex Sunscreen SPF64	Apex	2025-10-03	t
 359	50	3	Phone 96	\N	2024-04-04	t
-360	55	16	Phuong Hoang Party Dress 24	Phuong Hoang	2024-12-06	t
-361	39	7	Phuong Hoang Mechanical Keyboard K16	Phuong Hoang	2025-09-20	t
-362	8	17	Phuong Hoang Handbag 20	Phuong Hoang	2024-07-23	t
-363	54	7	Sao Mai Wireless Mouse M49	Sao Mai	2024-03-05	t
+360	55	16	Lumina Party Dress 24	Lumina	2024-12-06	t
+361	39	7	Lumina Mechanical Keyboard K16	Lumina	2025-09-20	t
+362	8	17	Lumina Handbag 20	Lumina	2024-07-23	t
+363	54	7	NovaTech Wireless Mouse M49	NovaTech	2024-03-05	t
 364	48	35	Face Wash 17	\N	2024-11-25	t
-365	19	22	Zenit Stainless Pot Set 40	Zenit	2023-08-27	t
-366	49	4	Phuong Hoang Tab 21	Phuong Hoang	2025-08-18	t
-367	11	34	NovaTech Sunscreen SPF85	NovaTech	2024-11-23	t
-368	46	17	Mekong Handbag 85	Mekong	2024-05-20	t
-369	58	13	Truong Son Men's T-Shirt 65	Truong Son	2024-01-17	t
-370	28	28	Book: Soft Skills 49	Mekong	2025-02-25	t
-371	36	25	Viet Tien Xa Night Lamp 80	Viet Tien Xa	2025-05-07	t
-372	36	6	Sao Mai Laptop 98	Sao Mai	2024-09-22	t
-373	20	23	Hai Au Blender 50	Hai Au	2025-01-27	f
-374	25	25	Luna Night Lamp 30	Luna	2024-02-15	t
-375	15	22	Luna Stainless Pot Set 94	Luna	2024-11-17	t
-376	24	29	Book: Programming 19	Tre Xanh	2024-09-18	t
-377	34	31	Hai Au Notebook 73	Hai Au	2025-08-09	t
-378	12	17	Hai Au Handbag 58	Hai Au	2025-01-27	t
+365	19	22	Titan Stainless Pot Set 40	Titan	2023-08-27	t
+366	49	4	Lumina Tab 21	Lumina	2025-08-18	t
+367	11	34	Meridian Sunscreen SPF85	Meridian	2024-11-23	t
+368	46	17	Aura Handbag 85	Aura	2024-05-20	t
+369	58	13	Pioneer Men's T-Shirt 65	Pioneer	2024-01-17	t
+370	28	28	Book: Soft Skills 49	Aura	2025-02-25	t
+371	36	25	Summit Night Lamp 80	Summit	2025-05-07	t
+372	36	6	NovaTech Laptop 98	NovaTech	2024-09-22	t
+373	20	23	Horizon Blender 50	Horizon	2025-01-27	f
+374	25	25	Nexus Night Lamp 30	Nexus	2024-02-15	t
+375	15	22	Nexus Stainless Pot Set 94	Nexus	2024-11-17	t
+376	24	29	Book: Programming 19	Echo	2024-09-18	t
+377	34	31	Horizon Notebook 73	Horizon	2025-08-09	t
+378	12	17	Horizon Handbag 58	Horizon	2025-01-27	t
 379	20	7	Mechanical Keyboard K72	\N	2025-09-16	t
-380	19	9	Truong Son Bluetooth Headphones 31	Truong Son	2025-04-02	t
-381	36	3	Viet Tien Xa Phone 33	Viet Tien Xa	2024-12-09	t
-382	24	3	Luna Phone 61	Luna	2024-03-02	t
-383	12	37	An Phat Multivitamin 28	An Phat	2023-11-09	t
-384	25	31	Lotus Notebook 52	Lotus	2025-06-14	t
-385	55	29	Book: Programming 66	Sao Mai	2023-08-28	t
-386	36	7	Zenit Mechanical Keyboard K74	Zenit	2023-11-19	t
-387	43	10	Luna Portable Speaker 74	Luna	2024-06-19	t
-388	38	3	Kira Phone 31	Kira	2025-07-05	t
-389	60	6	An Phat Laptop 52	An Phat	2024-10-07	t
-390	46	31	Sao Mai Gel Pen 74	Sao Mai	2024-11-21	t
-391	7	31	Phuong Hoang Gel Pen 38	Phuong Hoang	2025-08-25	t
-392	41	23	Kira Air Fryer 21	Kira	2023-11-22	t
-393	49	28	Book: Soft Skills 64	NovaTech	2024-09-15	t
-394	23	4	Bach Viet Tab 53	Bach Viet	2024-07-08	f
-395	18	22	Sao Mai Stainless Pot Set 99	Sao Mai	2024-07-20	t
-396	7	16	Kira Party Dress 85	Kira	2024-12-14	t
-397	25	6	An Phat Laptop 45	An Phat	2025-06-24	t
-398	33	31	An Phat Gel Pen 30	An Phat	2023-10-07	t
-399	56	17	NovaTech Handbag 81	NovaTech	2025-03-09	t
-400	22	25	Mekong Night Lamp 73	Mekong	2024-05-01	t
-401	49	4	Bach Viet Tab 53	Bach Viet	2025-01-28	t
-402	59	34	Tre Xanh Sunscreen SPF63	Tre Xanh	2023-07-02	t
-403	17	7	Orca Mechanical Keyboard K76	Orca	2024-01-20	f
-404	42	37	Kira Multivitamin 75	Kira	2023-12-18	t
-405	36	4	Hai Au Tab 58	Hai Au	2023-12-04	t
-406	14	7	Zenit Mechanical Keyboard K21	Zenit	2025-10-01	t
-407	40	19	Viet Tien Xa Running Shoes 66	Viet Tien Xa	2025-02-14	f
-408	25	10	Hai Au Portable Speaker 81	Hai Au	2024-07-11	t
-409	14	17	Bach Viet Handbag 84	Bach Viet	2024-01-02	t
-410	43	17	Sao Mai Handbag 42	Sao Mai	2024-12-27	t
-411	56	10	Mekong Portable Speaker 71	Mekong	2024-10-07	t
-412	5	35	Hai Au Face Wash 19	Hai Au	2024-06-13	t
-413	48	13	Truong Son Men's Shirt 85	Truong Son	2024-11-10	t
-414	13	31	Truong Son Gel Pen 30	Truong Son	2024-11-27	t
-415	29	29	Book: Programming 35	Zenit	2025-04-25	t
-416	24	19	NovaTech Running Shoes 71	NovaTech	2024-01-14	f
-417	48	16	Truong Son Party Dress 56	Truong Son	2024-03-08	t
-418	48	37	Luna Multivitamin 85	Luna	2025-09-17	t
-419	46	25	Bach Viet Night Lamp 78	Bach Viet	2025-10-02	t
-420	14	31	Sao Mai Gel Pen 29	Sao Mai	2025-05-12	t
-421	6	28	Book: Soft Skills 67	NovaTech	2024-03-11	t
-422	58	9	Viet Tien Xa Bluetooth Headphones 89	Viet Tien Xa	2025-07-22	t
-423	5	37	Bach Viet Multivitamin 20	Bach Viet	2024-11-17	t
-424	8	35	Zenit Face Wash 23	Zenit	2024-11-10	t
-425	19	23	Hoa Sen Blender 14	Hoa Sen	2025-05-15	t
-426	3	37	Orca Multivitamin 61	Orca	2025-02-27	t
-427	30	4	Orca Tab 32	Orca	2024-11-02	t
-428	24	35	Viet Tien Xa Face Wash 11	Viet Tien Xa	2024-04-09	t
-429	45	7	Lotus Mechanical Keyboard K40	Lotus	2024-07-28	t
-430	4	17	Orca Handbag 37	Orca	2024-09-15	t
-431	13	35	Kira Face Wash 81	Kira	2024-10-15	t
-432	59	23	Lotus Blender 67	Lotus	2025-02-08	t
-433	17	28	Book: Soft Skills 73	Truong Son	2025-10-31	t
-434	60	7	Zenit Mechanical Keyboard K89	Zenit	2023-09-18	t
-435	1	37	Viet Tien Xa Multivitamin 30	Viet Tien Xa	2024-06-18	t
-436	45	17	Sao Mai Handbag 67	Sao Mai	2025-07-16	f
-437	59	3	Hai Au Phone 15	Hai Au	2025-07-22	t
-438	29	10	Zenit Portable Speaker 49	Zenit	2023-08-29	t
-439	57	6	Lotus Laptop 36	Lotus	2025-06-03	t
-440	59	23	Truong Son Blender 32	Truong Son	2023-12-11	t
-441	31	13	Kira Men's T-Shirt 24	Kira	2024-03-03	t
-442	20	23	Orca Blender 74	Orca	2024-08-09	t
+380	19	9	Pioneer Bluetooth Headphones 31	Pioneer	2025-04-02	t
+381	36	3	Summit Phone 33	Summit	2024-12-09	t
+382	24	3	Nexus Phone 61	Nexus	2024-03-02	t
+383	12	37	Pulse Multivitamin 28	Pulse	2023-11-09	t
+384	25	31	Apex Notebook 52	Apex	2025-06-14	t
+385	55	29	Book: Programming 66	NovaTech	2023-08-28	t
+386	36	7	Titan Mechanical Keyboard K74	Titan	2023-11-19	t
+387	43	10	Nexus Portable Speaker 74	Nexus	2024-06-19	t
+388	38	3	Velocity Phone 31	Velocity	2025-07-05	t
+389	60	6	Pulse Laptop 52	Pulse	2024-10-07	t
+390	46	31	NovaTech Gel Pen 74	NovaTech	2024-11-21	t
+391	7	31	Lumina Gel Pen 38	Lumina	2025-08-25	t
+392	41	23	Velocity Air Fryer 21	Velocity	2023-11-22	t
+393	49	28	Book: Soft Skills 64	Meridian	2024-09-15	t
+394	23	4	Solis Tab 53	Solis	2024-07-08	f
+395	18	22	NovaTech Stainless Pot Set 99	NovaTech	2024-07-20	t
+396	7	16	Velocity Party Dress 85	Velocity	2024-12-14	t
+397	25	6	Pulse Laptop 45	Pulse	2025-06-24	t
+398	33	31	Pulse Gel Pen 30	Pulse	2023-10-07	t
+399	56	17	Meridian Handbag 81	Meridian	2025-03-09	t
+400	22	25	Aura Night Lamp 73	Aura	2024-05-01	t
+401	49	4	Solis Tab 53	Solis	2025-01-28	t
+402	59	34	Echo Sunscreen SPF63	Echo	2023-07-02	t
+403	17	7	Crest Mechanical Keyboard K76	Crest	2024-01-20	f
+404	42	37	Velocity Multivitamin 75	Velocity	2023-12-18	t
+405	36	4	Horizon Tab 58	Horizon	2023-12-04	t
+406	14	7	Titan Mechanical Keyboard K21	Titan	2025-10-01	t
+407	40	19	Summit Running Shoes 66	Summit	2025-02-14	f
+408	25	10	Horizon Portable Speaker 81	Horizon	2024-07-11	t
+409	14	17	Solis Handbag 84	Solis	2024-01-02	t
+410	43	17	NovaTech Handbag 42	NovaTech	2024-12-27	t
+411	56	10	Aura Portable Speaker 71	Aura	2024-10-07	t
+412	5	35	Horizon Face Wash 19	Horizon	2024-06-13	t
+413	48	13	Pioneer Men's Shirt 85	Pioneer	2024-11-10	t
+414	13	31	Pioneer Gel Pen 30	Pioneer	2024-11-27	t
+415	29	29	Book: Programming 35	Titan	2025-04-25	t
+416	24	19	Meridian Running Shoes 71	Meridian	2024-01-14	f
+417	48	16	Pioneer Party Dress 56	Pioneer	2024-03-08	t
+418	48	37	Nexus Multivitamin 85	Nexus	2025-09-17	t
+419	46	25	Solis Night Lamp 78	Solis	2025-10-02	t
+420	14	31	NovaTech Gel Pen 29	NovaTech	2025-05-12	t
+421	6	28	Book: Soft Skills 67	Meridian	2024-03-11	t
+422	58	9	Summit Bluetooth Headphones 89	Summit	2025-07-22	t
+423	5	37	Solis Multivitamin 20	Solis	2024-11-17	t
+424	8	35	Titan Face Wash 23	Titan	2024-11-10	t
+425	19	23	Vanguard Blender 14	Vanguard	2025-05-15	t
+426	3	37	Crest Multivitamin 61	Crest	2025-02-27	t
+427	30	4	Crest Tab 32	Crest	2024-11-02	t
+428	24	35	Summit Face Wash 11	Summit	2024-04-09	t
+429	45	7	Apex Mechanical Keyboard K40	Apex	2024-07-28	t
+430	4	17	Crest Handbag 37	Crest	2024-09-15	t
+431	13	35	Velocity Face Wash 81	Velocity	2024-10-15	t
+432	59	23	Apex Blender 67	Apex	2025-02-08	t
+433	17	28	Book: Soft Skills 73	Pioneer	2025-10-31	t
+434	60	7	Titan Mechanical Keyboard K89	Titan	2023-09-18	t
+435	1	37	Summit Multivitamin 30	Summit	2024-06-18	t
+436	45	17	NovaTech Handbag 67	NovaTech	2025-07-16	f
+437	59	3	Horizon Phone 15	Horizon	2025-07-22	t
+438	29	10	Titan Portable Speaker 49	Titan	2023-08-29	t
+439	57	6	Apex Laptop 36	Apex	2025-06-03	t
+440	59	23	Pioneer Blender 32	Pioneer	2023-12-11	t
+441	31	13	Velocity Men's T-Shirt 24	Velocity	2024-03-03	t
+442	20	23	Crest Blender 74	Crest	2024-08-09	t
 443	32	25	Night Lamp 61	\N	2025-07-09	t
-444	10	14	Lotus Men's Jeans 69	Lotus	2025-05-13	t
-445	5	14	Truong Son Men's Jeans 21	Truong Son	2024-03-06	t
-446	23	23	Sao Mai Blender 49	Sao Mai	2023-08-24	t
-447	13	34	NovaTech Sunscreen SPF55	NovaTech	2023-10-22	t
-448	23	31	Phuong Hoang Gel Pen 83	Phuong Hoang	2024-06-27	t
-449	8	34	Kira Sunscreen SPF85	Kira	2025-10-28	t
-450	31	3	Orca Phone 60	Orca	2025-01-05	t
-451	30	3	Tre Xanh Phone 15	Tre Xanh	2024-06-10	t
-452	2	34	Viet Tien Xa Sunscreen SPF32	Viet Tien Xa	2023-07-15	t
-453	9	3	Hoa Sen Phone 92	Hoa Sen	2023-07-01	t
-454	6	7	Orca Wireless Mouse M36	Orca	2024-03-19	f
-455	34	16	Bach Viet Office Dress 64	Bach Viet	2025-03-12	t
-456	43	16	An Phat Party Dress 53	An Phat	2025-07-02	f
-457	30	29	Book: Programming 53	Luna	2024-01-22	t
-458	13	10	Hoa Sen Portable Speaker 64	Hoa Sen	2023-08-30	t
-459	28	34	Phuong Hoang Sunscreen SPF20	Phuong Hoang	2025-10-29	t
-460	37	28	Book: Soft Skills 47	Bach Viet	2024-07-25	t
-461	47	28	Book: Soft Skills 47	An Phat	2025-09-08	t
-462	57	7	Viet Tien Xa Mechanical Keyboard K18	Viet Tien Xa	2024-10-14	t
-463	16	22	An Phat Non-Stick Pan 16	An Phat	2025-02-04	t
-464	20	29	Book: Programming 21	Sao Mai	2025-06-24	t
-465	50	22	Phuong Hoang Non-Stick Pan 68	Phuong Hoang	2024-07-10	t
-466	17	13	Orca Men's Shirt 76	Orca	2023-11-18	t
-467	20	23	Viet Tien Xa Blender 82	Viet Tien Xa	2024-03-26	t
-468	27	9	Tre Xanh Bluetooth Headphones 67	Tre Xanh	2023-07-26	t
-469	13	37	Viet Tien Xa Multivitamin 79	Viet Tien Xa	2024-12-10	t
-470	19	19	Hoa Sen Running Shoes 29	Hoa Sen	2025-08-26	t
-471	24	19	Hoa Sen Running Shoes 70	Hoa Sen	2024-10-09	t
-472	46	16	Hai Au Office Dress 57	Hai Au	2025-04-07	t
-473	60	23	Hoa Sen Air Fryer 99	Hoa Sen	2025-08-16	t
+444	10	14	Apex Men's Jeans 69	Apex	2025-05-13	t
+445	5	14	Pioneer Men's Jeans 21	Pioneer	2024-03-06	t
+446	23	23	NovaTech Blender 49	NovaTech	2023-08-24	t
+447	13	34	Meridian Sunscreen SPF55	Meridian	2023-10-22	t
+448	23	31	Lumina Gel Pen 83	Lumina	2024-06-27	t
+449	8	34	Velocity Sunscreen SPF85	Velocity	2025-10-28	t
+450	31	3	Crest Phone 60	Crest	2025-01-05	t
+451	30	3	Echo Phone 15	Echo	2024-06-10	t
+452	2	34	Summit Sunscreen SPF32	Summit	2023-07-15	t
+453	9	3	Vanguard Phone 92	Vanguard	2023-07-01	t
+454	6	7	Crest Wireless Mouse M36	Crest	2024-03-19	f
+455	34	16	Solis Office Dress 64	Solis	2025-03-12	t
+456	43	16	Pulse Party Dress 53	Pulse	2025-07-02	f
+457	30	29	Book: Programming 53	Nexus	2024-01-22	t
+458	13	10	Vanguard Portable Speaker 64	Vanguard	2023-08-30	t
+459	28	34	Lumina Sunscreen SPF20	Lumina	2025-10-29	t
+460	37	28	Book: Soft Skills 47	Solis	2024-07-25	t
+461	47	28	Book: Soft Skills 47	Pulse	2025-09-08	t
+462	57	7	Summit Mechanical Keyboard K18	Summit	2024-10-14	t
+463	16	22	Pulse Non-Stick Pan 16	Pulse	2025-02-04	t
+464	20	29	Book: Programming 21	NovaTech	2025-06-24	t
+465	50	22	Lumina Non-Stick Pan 68	Lumina	2024-07-10	t
+466	17	13	Crest Men's Shirt 76	Crest	2023-11-18	t
+467	20	23	Summit Blender 82	Summit	2024-03-26	t
+468	27	9	Echo Bluetooth Headphones 67	Echo	2023-07-26	t
+469	13	37	Summit Multivitamin 79	Summit	2024-12-10	t
+470	19	19	Vanguard Running Shoes 29	Vanguard	2025-08-26	t
+471	24	19	Vanguard Running Shoes 70	Vanguard	2024-10-09	t
+472	46	16	Horizon Office Dress 57	Horizon	2025-04-07	t
+473	60	23	Vanguard Air Fryer 99	Vanguard	2025-08-16	t
 474	48	17	Handbag 65	\N	2025-01-13	t
-475	24	28	Book: Soft Skills 23	Viet Tien Xa	2025-03-14	t
-476	25	10	Orca Portable Speaker 27	Orca	2024-11-09	t
-477	25	23	Hai Au Air Fryer 93	Hai Au	2025-06-19	t
-478	4	6	Orca Laptop 91	Orca	2024-10-01	t
+475	24	28	Book: Soft Skills 23	Summit	2025-03-14	t
+476	25	10	Crest Portable Speaker 27	Crest	2024-11-09	t
+477	25	23	Horizon Air Fryer 93	Horizon	2025-06-19	t
+478	4	6	Crest Laptop 91	Crest	2024-10-01	t
 479	57	16	Office Dress 34	\N	2024-03-25	t
-480	40	35	Viet Tien Xa Face Wash 70	Viet Tien Xa	2025-06-27	t
-481	15	16	Viet Tien Xa Office Dress 43	Viet Tien Xa	2025-09-27	t
-482	47	29	Book: Programming 77	Luna	2024-10-01	t
-483	10	6	Lotus Laptop 65	Lotus	2025-02-15	t
-484	48	22	Luna Stainless Pot Set 50	Luna	2023-09-12	t
-485	35	4	Hai Au Tab 74	Hai Au	2023-10-23	t
-486	28	29	Book: Programming 94	Truong Son	2023-09-30	t
+480	40	35	Summit Face Wash 70	Summit	2025-06-27	t
+481	15	16	Summit Office Dress 43	Summit	2025-09-27	t
+482	47	29	Book: Programming 77	Nexus	2024-10-01	t
+483	10	6	Apex Laptop 65	Apex	2025-02-15	t
+484	48	22	Nexus Stainless Pot Set 50	Nexus	2023-09-12	t
+485	35	4	Horizon Tab 74	Horizon	2023-10-23	t
+486	28	29	Book: Programming 94	Pioneer	2023-09-30	t
 487	28	14	Men's Jeans 17	\N	2024-11-27	t
-488	48	16	Sao Mai Party Dress 23	Sao Mai	2024-01-04	t
-489	31	9	Orca Bluetooth Headphones 14	Orca	2025-02-14	t
+488	48	16	NovaTech Party Dress 23	NovaTech	2024-01-04	t
+489	31	9	Crest Bluetooth Headphones 14	Crest	2025-02-14	t
 490	12	35	Face Wash 90	\N	2025-05-18	t
-491	24	4	Mekong Tab 76	Mekong	2023-07-12	f
-492	37	9	An Phat Bluetooth Headphones 87	An Phat	2023-12-29	t
+491	24	4	Aura Tab 76	Aura	2023-07-12	f
+492	37	9	Pulse Bluetooth Headphones 87	Pulse	2023-12-29	t
 493	55	4	Tab 47	\N	2023-09-06	t
-494	33	7	Bach Viet Mechanical Keyboard K90	Bach Viet	2024-12-17	t
-495	21	23	Hoa Sen Air Fryer 85	Hoa Sen	2025-06-11	t
-496	6	14	An Phat Men's Chinos 31	An Phat	2025-06-11	t
-497	26	29	Book: Programming 16	Hoa Sen	2025-08-24	t
-498	27	4	Bach Viet Tab 68	Bach Viet	2024-11-23	t
-499	13	22	Zenit Stainless Pot Set 62	Zenit	2024-01-05	t
-500	8	19	Luna Running Shoes 18	Luna	2024-01-05	t
+494	33	7	Solis Mechanical Keyboard K90	Solis	2024-12-17	t
+495	21	23	Vanguard Air Fryer 85	Vanguard	2025-06-11	t
+496	6	14	Pulse Men's Chinos 31	Pulse	2025-06-11	t
+497	26	29	Book: Programming 16	Vanguard	2025-08-24	t
+498	27	4	Solis Tab 68	Solis	2024-11-23	t
+499	13	22	Titan Stainless Pot Set 62	Titan	2024-01-05	t
+500	8	19	Nexus Running Shoes 18	Nexus	2024-01-05	t
 \.
 
 COPY shop.product_variants (variant_id, product_id, sku, variant_name, price, cost) FROM stdin;
@@ -8637,9 +8637,9 @@ COPY shop.product_variants (variant_id, product_id, sku, variant_name, price, co
 \.
 
 COPY shop.warehouses (warehouse_id, name, province_id) FROM stdin;
-1	Hanoi Warehouse	1
-2	Da Nang Warehouse	17
-3	HCMC Warehouse	27
+1	New York Warehouse	1
+2	Chicago Warehouse	17
+3	Dallas Warehouse	27
 \.
 
 COPY shop.inventory (warehouse_id, variant_id, quantity) FROM stdin;
@@ -11228,9 +11228,9 @@ COPY shop.inventory (warehouse_id, variant_id, quantity) FROM stdin;
 
 COPY shop.carriers (carrier_id, name) FROM stdin;
 1	SwiftShip
-2	Swallow Express
-3	PostTrust
-4	Camel Logistics
+2	FedRelay
+3	Apex Logistics
+4	Metro Express
 \.
 
 COPY shop.coupons (coupon_id, code, discount_type, discount_value, min_order_value, valid_from, valid_to) FROM stdin;
